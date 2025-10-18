@@ -1,0 +1,99 @@
+---
+layout: default
+---
+{% comment %}
+  FIX: Removed the manual <head> and schema generation block.
+  1. The page.title is already in the main <title> set by 'default' layout.
+  2. Schema.org is now handled automatically and correctly by the
+     'jekyll-seo-tag' plugin in the main <head> of the 'default' layout.
+  
+  Removing this fixes the duplicate JSON-LD and the illegal nested <head> tag
+  that was appearing in the <body> of the final HTML.
+{% endcomment %}
+<section class="main-content">
+<article class="article-content">
+  
+    <h1>{{ page.title }}</h1>
+    <p class="article-meta">
+      {% comment %} 
+        Using date filter to format it consistently, avoiding full time string 
+        that may look messy. Using sr_Latn_RS lang from config. 
+      {% endcomment %}
+      Objavljeno: {{ page.date | date: "%d-%m-%Y" }} | Autor: {{ page.author }}
+    </p>
+    {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}" class="article-image">
+    {% endif %}
+
+  <div class="article-body">
+    {% for section in page.sections %}
+      {% case section.type %}
+        {% when 'h1' %}<h1>{{ section.content }}</h1>
+        {% when 'h2' %}<h2>{{ section.content }}</h2>
+        {% when 'h3' %}<h3>{{ section.content }}</h3>
+        {% when 'paragraph' %}<p>{{ section.content }}</p>
+        {% when 'bullet_list' %}
+          <ul>{% for item in section.items %}<li>{{ item }}</li>{% endfor %}</ul>
+        {% when 'image' %}
+          <img src="{{ section.src }}" alt="{{ section.alt | default: section.src }}" class="section-image">
+        {% when 'video' %}
+          <div class="video-container">
+            <iframe width="100%" height="315" src="{{ section.src }}" 
+                    title="{{ section.title }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+
+  <!-- ✅ NEW: CTA BUTTON SECTION -->
+  <div class="cta-section">
+    <a href="/blog" class="cta-button">
+      📖 Pročitajte još članaka
+    </a>
+  </div>
+
+</article>
+</section>
+
+<style>
+.article-content { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+.article-content h1 { color: #0077cc; margin-bottom: 0.5rem; }
+.article-content h2 { color: #0077cc; margin: 2rem 0 1rem 0; font-size: 1.8em; }
+.article-content h3 { color: #333; margin: 1.5rem 0 0.8rem 0; font-size: 1.4em; }
+.article-meta { font-size: 0.9em; color: #666; margin-bottom: 1.5rem; }
+.article-image, .section-image { width: 100%; border-radius: 10px; margin: 1.5rem 0; }
+.video-container { position: relative; padding-bottom: 56.25%; height: 0; margin: 1.5rem 0; border-radius: 10px; }
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.article-body p { line-height: 1.7; margin-bottom: 1rem; }
+.article-body ul { margin: 1rem 0 1rem 2rem; }
+.article-body li { margin-bottom: 0.5rem; line-height: 1.6; }
+
+/* ✅ NEW: CTA BUTTON STYLES */
+.cta-section {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 2px solid #f0f0f0;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #0077cc, #005a99);
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 119, 204, 0.3);
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #005a99, #0077cc);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 119, 204, 0.4);
+  color: white;
+  text-decoration: none;
+}
+</style>

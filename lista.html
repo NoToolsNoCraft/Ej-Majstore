@@ -1,0 +1,318 @@
+---
+layout: default
+title: Adresar Zanatskih Usluga i Firmi u Srbiji
+description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji, gradu i tipu (majstor ili firma).
+---
+<h1>Adresar Zanatskih Usluga i Firmi u Srbiji</h1>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+<style>
+/* Pagination Styles */
+.pagination-button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.pagination-button:hover:not(:disabled),
+.pagination-button.active {
+  background: #007cba;
+  color: #fff;
+  border-color: #007cba;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+  padding: 8px 12px;
+  color: #666;
+}
+
+#pagination-wrapper {
+  width: 100%;
+  display: block;
+  text-align: left;
+  position: relative;
+  min-height: 50px; /* keeps a constant height so layout doesn't shift */
+}
+
+#pagination-container {
+  display: flex !important;        /* full width container */
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 30px 0 !important;
+  padding-left: 0 !important;
+  position: relative;
+  width: 100%;                     /* full width */
+  box-sizing: border-box;          /* include padding/border in width */
+}
+
+</style>
+
+<section style="justify-content: center;">
+  <label for="tip">Tip:</label>
+  <select id="tip" aria-label="Izaberite tip (majstor ili firma)">
+    <option value="">Svi tipovi</option>
+    <option value="majstor">Majstor</option>
+    <option value="firma">Firma</option>
+  </select>
+  <label for="kategorija">Kategorija:</label>
+  <select id="kategorija" aria-label="Izaberite kategoriju usluge">
+    <option value="">Sve kategorije</option>
+    {% assign kategorije = site.data.majstori | map: 'kategorija' | flatten | uniq %}
+    {% for kat in kategorije %}
+      <option value="{{ kat }}">{{ kat }}</option>
+    {% endfor %}
+  </select>
+  <label for="mesto">Mesto:</label>
+  <select id="mesto" aria-label="Izaberite grad ili opštinu">
+    <option value="">Sva mesta</option>
+    {% assign mesta = site.data.majstori | map: 'mesto' | flatten | uniq %}
+    {% for mesto in mesta %}
+      <option value="{{ mesto }}">{{ mesto }}</option>
+    {% endfor %}
+  </select>
+</section>
+
+<section id="majstori-lista">
+  <p id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">{{ site.data.majstori | size }}</span></p>
+  <div id="kartice-kontejner">
+    {% for majstor in site.data.majstori %}
+      {% assign mesta = majstor.mesto | join: ',' %}
+      <div class="majstor-kartica" data-tip="{{ majstor.tip }}" data-kategorija="{{ majstor.kategorija | join: ',' }}" data-mesto="{{ mesta }}" style="display: none;">
+        <img loading="lazy" src="{{ majstor.image | default: 'https://www.shutterstock.com/image-illustration/illustration-construction-worker-purple-jacket-600nw-2609794615.jpg' | relative_url }}" alt="{{ majstor.ime }} logo" class="majstor-image">
+        <div class="majstor-content">
+          <h3>{{ majstor.ime }}</h3>
+          <p><strong>Izvođač: </strong>{{ majstor.tip | capitalize }}</p>
+          <p><strong>Usluge: </strong>{{ majstor.kategorija | join: ', ' }}</p> 
+          <p><strong>Mesto - </strong>{{ majstor.mesto | join: ', ' }}</p> 
+          <p>{{ majstor.opis_kratak }}</p>
+          <a href="/majstori/{% assign city_slug = majstor.mesto[0] | downcase %}{% assign city_slug = city_slug | replace: 'š', 's' | replace: 'Š', 'S' | replace: 'č', 'c' | replace: 'Č', 'C' | replace: 'ć', 'c' | replace: 'Ć', 'C' | replace: 'ž', 'z' | replace: 'Ž', 'Z' | replace: 'đ', 'dj' | replace: 'Đ', 'Dj' | replace: ' ', '-' %}{{ city_slug }}/{{ majstor.slug }}/">Pogledaj profil</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <!-- Pagination Container -->
+<div id="pagination-wrapper">
+  <div id="pagination-container" style="display: none;"></div>
+</div>
+
+  
+  <p id="nema-rezultata" style="display: none;">Nema majstora ili firmi koji odgovaraju izabranim kriterijumima.</p>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    try {
+      const tipSelect = document.getElementById('tip');
+      const kategorijaSelect = document.getElementById('kategorija');
+      const mestoSelect = document.getElementById('mesto');
+      const karticeKontejner = document.getElementById('kartice-kontejner');
+      const kartice = document.querySelectorAll('.majstor-kartica');
+      const brojMajstora = document.getElementById('broj-majstora');
+      const nemaRezultata = document.getElementById('nema-rezultata');
+      const paginationContainer = document.getElementById('pagination-container');
+
+      // Pagination variables
+      const ITEMS_PER_PAGE = 10;
+      let currentPage = 1;
+      let totalVisibleCards = 0;
+      let vidljiveKarticeGlobal = []; // ← KLJUČNA promenljiva!
+
+      // Provera DOM elemenata
+      if (!tipSelect || !kategorijaSelect || !mestoSelect || !karticeKontejner || !brojMajstora || !nemaRezultata || !paginationContainer) {
+        console.error('Jedan ili više DOM elemenata nisu pronađeni');
+        return;
+      }
+
+      // Inicijalizacija Choices.js
+      let choices = null;
+      let choicesInitialized = false;
+      try {
+        if (typeof Choices !== 'undefined') {
+          choices = new Choices(mestoSelect, {
+            searchEnabled: true,
+            searchPlaceholderValue: 'Upišite mesto...',
+            itemSelectText: '',
+            shouldSort: false,
+            removeItemButton: true
+          });
+          choicesInitialized = true;
+        }
+      } catch (error) {
+        console.error('Greška pri inicijalizaciji Choices.js:', error);
+      }
+
+      // Funkcija za normalizaciju teksta
+      function normalizeText(text) {
+        return text ? text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : '';
+      }
+
+      // Funkcija za dobijanje URL parametra
+      function getQueryParam(param) {
+        return new URLSearchParams(window.location.search).get(param) || '';
+      }
+
+      // FUNKCIJA 1: Pronalazi SVE vidljive kartice (POZIVA SE SAMO KOD FILTERA)
+      function nadjiVidljiveKartice() {
+        const izabraniTip = tipSelect.value || '';
+        const izabranaKategorija = kategorijaSelect.value || '';
+        const izabranoMesto = choicesInitialized ? (choices ? choices.getValue(true) || '' : '') : mestoSelect.value || '';
+        
+        let vidljive = [];
+        kartice.forEach(kartica => {
+          const tip = kartica.getAttribute('data-tip') || '';
+          const kategorije = kartica.getAttribute('data-kategorija') ? kartica.getAttribute('data-kategorija').split(',').map(k => k.trim()) : [];
+          const mesta = kartica.getAttribute('data-mesto') ? kartica.getAttribute('data-mesto').split(',').map(m => m.trim()) : [];
+          
+          const prikazi = (
+            (!izabraniTip || tip === izabraniTip) &&
+            (!izabranaKategorija || kategorije.includes(izabranaKategorija)) &&
+            (!izabranoMesto || mesta.includes(izabranoMesto))
+          );
+          
+          if (prikazi) vidljive.push(kartica);
+        });
+        return vidljive;
+      }
+
+      // FUNKCIJA 2: Prikazuje određenu stranu (KORISTI GLOBALNU listu)
+      function prikaziStranu(page) {
+        const startIndex = (page - 1) * ITEMS_PER_PAGE;
+        const endIndex = startIndex + ITEMS_PER_PAGE;
+        const karticeZaStranu = vidljiveKarticeGlobal.slice(startIndex, endIndex);
+        
+        // Sakrij sve kartice
+        kartice.forEach(kartica => kartica.style.display = 'none');
+        
+        // Prikaz samo kartica za trenutnu stranu
+        karticeZaStranu.forEach(kartica => kartica.style.display = 'flex');
+      }
+
+      // FUNKCIJA 3: Kreira paginaciju - ✅ FIXED za edge case (1 item = NO page 2)
+     function filtriraj() {
+  vidljiveKarticeGlobal = nadjiVidljiveKartice(); // update global list
+  totalVisibleCards = vidljiveKarticeGlobal.length;
+
+  brojMajstora.textContent = totalVisibleCards;
+  nemaRezultata.style.display = totalVisibleCards === 0 ? 'block' : 'none';
+
+  // Reset page to 1 on filter change
+  currentPage = 1;
+
+  prikaziStranu(currentPage);
+  kreirajPaginaciju();
+}
+
+function kreirajPaginaciju() {
+  const totalPages = Math.ceil(totalVisibleCards / ITEMS_PER_PAGE);
+
+  // Always clear previous pagination
+  paginationContainer.innerHTML = '';
+
+  // Hide pagination if only 1 page or no items
+  if (totalPages <= 1) {
+    paginationContainer.style.display = 'none';
+    return;
+  }
+
+  paginationContainer.style.display = 'inline-flex';
+
+  // Previous button
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'pagination-button';
+  prevBtn.textContent = '←';
+  prevBtn.disabled = currentPage === 1;
+  prevBtn.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      prikaziStranu(currentPage);
+      kreirajPaginaciju();
+    }
+  });
+  paginationContainer.appendChild(prevBtn);
+
+  // Page buttons
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.className = `pagination-button ${i === currentPage ? 'active' : ''}`;
+    btn.textContent = i;
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      prikaziStranu(currentPage);
+      kreirajPaginaciju();
+    });
+    paginationContainer.appendChild(btn);
+  }
+
+  // Next button
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'pagination-button';
+  nextBtn.textContent = '→';
+  nextBtn.disabled = currentPage === totalPages;
+  nextBtn.addEventListener('click', () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      prikaziStranu(currentPage);
+      kreirajPaginaciju();
+    }
+  });
+  paginationContainer.appendChild(nextBtn);
+}
+
+      // Inicijalni filter iz URL-a
+      const kategorijaFromUrl = getQueryParam('kategorija');
+      if (kategorijaFromUrl && kategorijaSelect.querySelector(`option[value="${kategorijaFromUrl}"]`)) {
+        kategorijaSelect.value = kategorijaFromUrl;
+      }
+      const mestoFromUrl = getQueryParam('mesto');
+      if (mestoFromUrl && mestoSelect.querySelector(`option[value="${mestoFromUrl}"]`)) {
+        if (choicesInitialized && choices) {
+          choices.setChoiceByValue(mestoFromUrl);
+        } else {
+          mestoSelect.value = mestoFromUrl;
+        }
+      }
+      filtriraj();
+
+      // Debounce funkcija
+      function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+          const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+          };
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+        };
+      }
+
+      const debouncedFiltriraj = debounce(filtriraj, 300);
+
+      // Event listeners SAMO ZA FILTERE
+      tipSelect.addEventListener('change', debouncedFiltriraj);
+      kategorijaSelect.addEventListener('change', debouncedFiltriraj);
+      mestoSelect.addEventListener('change', debouncedFiltriraj);
+
+    } catch (error) {
+      console.error('Greška u inicijalizaciji skripte:', error);
+    }
+  });
+
+  // Fallback za Choices.js
+  if (typeof Choices === 'undefined') {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js';
+    document.head.appendChild(script);
+  }
+</script>

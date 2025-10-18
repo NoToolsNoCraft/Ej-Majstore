@@ -1,0 +1,68 @@
+# Osnovne postavke sajta
+title: Adresar Zanatskih Usluga i Firmi u Srbiji
+description: Pronađite najbolje majstore i firme za vodoinstalaterske, električarske i druge zanatske usluge u Srbiji.
+url: "https://ejmajstore.rs"
+baseurl: ""
+lang: sr_Latn_RS
+
+# ✅ FIXED: ONE collections block ONLY
+collections:
+  majstori:
+    output: true
+  blog:
+    output: true
+    permalink: /blog/:slug/
+
+# 🤖 AUTO SITEMAP GENERATION - SEO PERFECT!
+sitemap:
+  exclude:
+    - "atom.xml"
+    - "feed.xml"
+  include_posts:
+    - "/*.html"
+  change_frequency:
+    - "yearly"
+    - "monthly"
+    - "weekly"
+    - "daily"
+  priority:
+    - "0.9"
+    - "0.8"
+    - "0.7"
+    - "0.6"
+
+# Plugins - ADDED SITEMAP!
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap  # ✅ AUTO SITEMAP MAGIC!
+
+# Ostale postavke
+markdown: kramdown
+theme: minima
+
+# ✅ DEFAULTS FOR SEO BOOST
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sitemap:
+        lastmod: "2025-10-18"
+        priority: 0.8
+        changefreq: "weekly"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sitemap:
+        lastmod: "2025-10-18"
+        priority: 0.9
+        changefreq: "daily"
+  - scope:
+      path: ""
+      type: majstori
+    values:
+      sitemap:
+        priority: 0.7
+        changefreq: "monthly"
