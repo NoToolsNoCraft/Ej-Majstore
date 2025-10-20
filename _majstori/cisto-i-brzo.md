@@ -22,30 +22,6 @@ image: "/assets/images/cisto-i-brzo-logo.png"
 additional_images: []
 services: []
 faq: []
-permalink: "/majstori/novi-sad/cisto-i-brzo/"
+permalink: "/izvodjaci/novi-sad/cisto-i-brzo/"
 ---
-# Čisto i Brzo
-<p class="description">Profesionalne usluge čišćenja za domove i kancelarije.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Novi Sad, Veternik</li>
-    <li><strong>Kontakt telefon:</strong> Nema dostupan kontakt</li>
-    <li><strong>Email:</strong> Nema dostupan email</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}

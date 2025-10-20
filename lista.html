@@ -1,7 +1,8 @@
 ---
 layout: default
+permalink: /izvodjaci/
 title: Adresar Zanatskih Usluga i Firmi u Srbiji
-description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji, gradu i tipu (majstor ili firma).
+description: Pretražite adresar zanatskih uslug i firmi u Srbiji po kategoriji, gradu i tipu (majstor ili firma).
 ---
 <h1>Adresar Zanatskih Usluga i Firmi u Srbiji</h1>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
@@ -55,6 +56,33 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
   box-sizing: border-box;          /* include padding/border in width */
 }
 
+/* NEW: Mesto Input Styles */
+#mesto {
+  padding: 8px;
+  border: 2px solid #000000;
+
+  border-radius: 6px;
+  font-size: 16px;
+  width: 20%;
+  height: 15%;
+}
+#mesto:focus {
+  border-color: #007cba;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 124, 186, 0.2);
+}
+
+@media (max-width: 767px) {
+  #mesto {
+  padding: 8px;
+
+  border-radius: 6px;
+  font-size: 16px;
+  min-width: 150px;
+  width: 100%;
+  
+}
+}
 </style>
 
 <section style="justify-content: center;">
@@ -72,14 +100,20 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
       <option value="{{ kat }}">{{ kat }}</option>
     {% endfor %}
   </select>
+  
   <label for="mesto">Mesto:</label>
-  <select id="mesto" aria-label="Izaberite grad ili opštinu">
-    <option value="">Sva mesta</option>
+  <input type="text" 
+         id="mesto" 
+         placeholder="Upišite mesto" 
+         aria-label="Pretražite grad ili opštinu"
+         list="mesta-suggestions"
+         autocomplete="off">
+  <datalist id="mesta-suggestions">
     {% assign mesta = site.data.majstori | map: 'mesto' | flatten | uniq %}
     {% for mesto in mesta %}
-      <option value="{{ mesto }}">{{ mesto }}</option>
+      <option value="{{ mesto }}">
     {% endfor %}
-  </select>
+  </datalist>
 </section>
 
 <section id="majstori-lista">
@@ -88,14 +122,14 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
     {% for majstor in site.data.majstori %}
       {% assign mesta = majstor.mesto | join: ',' %}
       <div class="majstor-kartica" data-tip="{{ majstor.tip }}" data-kategorija="{{ majstor.kategorija | join: ',' }}" data-mesto="{{ mesta }}" style="display: none;">
-        <img loading="lazy" src="{{ majstor.image | default: 'https://www.shutterstock.com/image-illustration/illustration-construction-worker-purple-jacket-600nw-2609794615.jpg' | relative_url }}" alt="{{ majstor.ime }} logo" class="majstor-image">
+        <img loading="lazy" src="{{ majstor.image | default: 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp' | relative_url }}" alt="{{ majstor.ime }} logo" class="majstor-image">
         <div class="majstor-content">
           <h3>{{ majstor.ime }}</h3>
           <p><strong>Izvođač: </strong>{{ majstor.tip | capitalize }}</p>
           <p><strong>Usluge: </strong>{{ majstor.kategorija | join: ', ' }}</p> 
           <p><strong>Mesto - </strong>{{ majstor.mesto | join: ', ' }}</p> 
           <p>{{ majstor.opis_kratak }}</p>
-          <a href="/majstori/{% assign city_slug = majstor.mesto[0] | downcase %}{% assign city_slug = city_slug | replace: 'š', 's' | replace: 'Š', 'S' | replace: 'č', 'c' | replace: 'Č', 'C' | replace: 'ć', 'c' | replace: 'Ć', 'C' | replace: 'ž', 'z' | replace: 'Ž', 'Z' | replace: 'đ', 'dj' | replace: 'Đ', 'Dj' | replace: ' ', '-' %}{{ city_slug }}/{{ majstor.slug }}/">Pogledaj profil</a>
+          <a href="/izvodjaci/{% assign city_slug = majstor.mesto[0] | downcase %}{% assign city_slug = city_slug | replace: 'š', 's' | replace: 'Š', 'S' | replace: 'č', 'c' | replace: 'Č', 'C' | replace: 'ć', 'c' | replace: 'Ć', 'C' | replace: 'ž', 'z' | replace: 'Ž', 'Z' | replace: 'đ', 'dj' | replace: 'Đ', 'Dj' | replace: ' ', '-' %}{{ city_slug }}/{{ majstor.slug }}/">Pogledaj profil</a>
         </div>
       </div>
     {% endfor %}
@@ -115,7 +149,7 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
     try {
       const tipSelect = document.getElementById('tip');
       const kategorijaSelect = document.getElementById('kategorija');
-      const mestoSelect = document.getElementById('mesto');
+      const mestoInput = document.getElementById('mesto');  // ← CHANGED: input instead of select
       const karticeKontejner = document.getElementById('kartice-kontejner');
       const kartice = document.querySelectorAll('.majstor-kartica');
       const brojMajstora = document.getElementById('broj-majstora');
@@ -129,28 +163,12 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
       let vidljiveKarticeGlobal = []; // ← KLJUČNA promenljiva!
 
       // Provera DOM elemenata
-      if (!tipSelect || !kategorijaSelect || !mestoSelect || !karticeKontejner || !brojMajstora || !nemaRezultata || !paginationContainer) {
+      if (!tipSelect || !kategorijaSelect || !mestoInput || !karticeKontejner || !brojMajstora || !nemaRezultata || !paginationContainer) {
         console.error('Jedan ili više DOM elemenata nisu pronađeni');
         return;
       }
 
-      // Inicijalizacija Choices.js
-      let choices = null;
-      let choicesInitialized = false;
-      try {
-        if (typeof Choices !== 'undefined') {
-          choices = new Choices(mestoSelect, {
-            searchEnabled: true,
-            searchPlaceholderValue: 'Upišite mesto...',
-            itemSelectText: '',
-            shouldSort: false,
-            removeItemButton: true
-          });
-          choicesInitialized = true;
-        }
-      } catch (error) {
-        console.error('Greška pri inicijalizaciji Choices.js:', error);
-      }
+      // NEW: Mesto input (no Choices.js needed!)
 
       // Funkcija za normalizaciju teksta
       function normalizeText(text) {
@@ -166,7 +184,7 @@ description: Pretražite adresar zanatskih usluga i firmi u Srbiji po kategoriji
       function nadjiVidljiveKartice() {
         const izabraniTip = tipSelect.value || '';
         const izabranaKategorija = kategorijaSelect.value || '';
-        const izabranoMesto = choicesInitialized ? (choices ? choices.getValue(true) || '' : '') : mestoSelect.value || '';
+        const izabranoMesto = mestoInput.value.trim() || '';  // ← CHANGED: input value
         
         let vidljive = [];
         kartice.forEach(kartica => {
@@ -275,12 +293,8 @@ function kreirajPaginaciju() {
         kategorijaSelect.value = kategorijaFromUrl;
       }
       const mestoFromUrl = getQueryParam('mesto');
-      if (mestoFromUrl && mestoSelect.querySelector(`option[value="${mestoFromUrl}"]`)) {
-        if (choicesInitialized && choices) {
-          choices.setChoiceByValue(mestoFromUrl);
-        } else {
-          mestoSelect.value = mestoFromUrl;
-        }
+      if (mestoFromUrl) {
+        mestoInput.value = mestoFromUrl;  // ← CHANGED: input value
       }
       filtriraj();
 
@@ -299,20 +313,14 @@ function kreirajPaginaciju() {
 
       const debouncedFiltriraj = debounce(filtriraj, 300);
 
-      // Event listeners SAMO ZA FILTERE
+            // Event listeners SAMO ZA FILTERE
       tipSelect.addEventListener('change', debouncedFiltriraj);
       kategorijaSelect.addEventListener('change', debouncedFiltriraj);
-      mestoSelect.addEventListener('change', debouncedFiltriraj);
+      // FIXED: Filter ONLY when user SELECTS a real place
+      mestoInput.addEventListener('change', debouncedFiltriraj);
 
     } catch (error) {
       console.error('Greška u inicijalizaciji skripte:', error);
     }
   });
-
-  // Fallback za Choices.js
-  if (typeof Choices === 'undefined') {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js';
-    document.head.appendChild(script);
-  }
 </script>

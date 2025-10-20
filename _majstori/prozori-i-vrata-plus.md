@@ -18,34 +18,10 @@ opis_dugi5: ''
 detaljan_opis: Prozori i Vrata Plus specijalizovana je za izradu i ugradnju PVC i
   aluminijumskih prozora i vrata u Kragujevcu.
 slug: prozori-i-vrata-plus
-image: https://www.shutterstock.com/image-illustration/illustration-construction-worker-purple-jacket-600nw-2609794615.jpg
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp
 additional_images: []
 services: []
 faq: []
-permalink: "/majstori/kragujevac/prozori-i-vrata-plus/"
+permalink: "/izvodjaci/kragujevac/prozori-i-vrata-plus/"
 ---
-# Prozori i Vrata Plus
-<p class="description">Izrada i ugradnja prozora i vrata visokog kvaliteta.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Kragujevac, Gornji Milanovac</li>
-    <li><strong>Kontakt telefon:</strong> Nema dostupan kontakt</li>
-    <li><strong>Email:</strong> Nema dostupan email</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}

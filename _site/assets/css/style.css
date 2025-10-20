@@ -53,7 +53,7 @@ body {
 main {
   max-width: 1200px;
   margin: 40px auto;
-  padding: 0 16px;
+  padding: 0 6px;
 }
 
 /* Naslovi */
@@ -96,7 +96,7 @@ h3 {
 
 .kategorija-button {
   display: inline-block;
-  padding: 10px 20px;
+  
   background: #009DE0; /* Wolt plava */
   color: #FFFFFF;
   text-decoration: none;
@@ -105,6 +105,7 @@ h3 {
   font-size: 14px;
   transition: background 0.3s ease, transform 0.2s ease;
   font-size: 1.1rem;
+  border: 2px solid #000000;
 }
 
 .kategorija-button:hover {
@@ -320,13 +321,13 @@ select:focus {
 }
 
 .majstor-details {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 8px;
 }
 
 .majstor-details p {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .majstor-details a {
@@ -462,7 +463,7 @@ footer p {
 
 
 .majstor-details p {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .majstor-details a {

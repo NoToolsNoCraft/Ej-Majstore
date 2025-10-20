@@ -4,59 +4,72 @@ layout: default
 <!-- SCHEMA.ORG JSON-LD MARKUP (UPDATED WITH FAQ!) -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "{{ page.ime | escape }}",
-  "description": "{% assign opis_fields = 'opis_dugi,opis_dugi2,opis_dugi3,opis_dugi4,opis_dugi5' | split: ',' %}{% for field in opis_fields %}{% assign opis_value = page[field] %}{% if opis_value != nil and opis_value != '' %}{{ opis_value }}{% unless forloop.last %} {% endunless %}{% endif %}{% endfor %}",
-  "image": "{{ page.image | absolute_url }}",
-  "url": "{{ page.url | absolute_url }}",
-  "telephone": "{{ page.kontakt_telefon | strip | escape }}",
-  "email": "{{ page.email | strip | escape }}",
-  {% if page.website != 'Nema dostupan website' %}
-  "url": "{{ page.website }}",
-  {% endif %}
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "{{ page.mesto | split: ', ' | first | escape }}",
-    "addressCountry": "RS"
-  },
-  "category": "{{ page.kategorija | join: ', ' | escape }}",  <!-- FIXED: Added | join: ', ' -->
-  "openingHours": "Mo-Su 08:00-20:00",
-  "priceRange": "$$",
-  "areaServed": [
-    {% for mesto in page.mesto | split: ', ' %}
-    "{{ mesto | strip | escape }}"
-    {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  {% if page.services.size > 0 %}
-  "serviceType": [
-    {% for service in page.services %}
-    "{{ service.title | escape }}"
-    {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
-  {% endif %}
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ page.ime | escape }}",
+  "description": "{% assign opis_fields = 'opis_dugi,opis_dugi2,opis_dugi3,opis_dugi4,opis_dugi5' | split: ',' %}{% for field in opis_fields %}{% assign opis_value = page[field] %}{% if opis_value != nil and opis_value != '' %}{{ opis_value }}{% unless forloop.last %} {% endunless %}{% endif %}{% endfor %}",
+  "image": "{{ page.image | absolute_url }}",
+  
+  {% comment %} Korišćenje canonical URL-a stranice za glavno "url" svojstvo: {% endcomment %}
+  "url": "{{ page.url | absolute_url }}",
+  
+  "telephone": "{{ page.kontakt_telefon | strip | escape }}",
+  "email": "{{ page.email | strip | escape }}",
+  
+  {% comment %} Korišćenje "sameAs" za eksterni website firme: {% endcomment %}
+  {% if page.website != 'Nema dostupan website' %}
+  "sameAs": "{{ page.website.url | default: page.website }}",
+  {% endif %}
+
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ page.mesto | split: ', ' | first | escape }}",
+    "addressCountry": "RS"
+  },
+  
+  {% comment %} STARI "category" JE UKLONJEN ILI ZAMENJEN U makesOffer {% endcomment %}
+  "openingHours": "Mo-Su 08:00-20:00",
+  "priceRange": "$$",
+  "areaServed": [
+    {% for mesto in page.mesto | split: ', ' %}
+    "{{ mesto | strip | escape }}"
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+  {% if page.services.size > 0 %}
+    ,
+    "makesOffer": [
+      {% for service in page.services %}
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "{{ service.title | escape }}",
+          "description": "{{ service.description | escape }}"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  {% endif %}
 }
 </script>
-<!-- FAQ SCHEMA -->
 {% if page.faq.size > 0 %}
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {% for item in page.faq %}
-    {
-      "@type": "Question",
-      "name": "{{ item.question | escape }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ item.answer | escape }}"
-      }
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer | escape }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
 }
 </script>
 {% endif %}
@@ -150,7 +163,7 @@ layout: default
 </style>
   
 <section class="majstor-profil">
-  <a href="{{ '/lista/' | relative_url }}" class="back-button" aria-label="Nazad na listu majstora">← Nazad na listu</a>
+  <a href="{{ '/izvodjaci/' | relative_url }}" class="back-button" aria-label="Nazad na pretragu izvođača">← Nazad na pretragu izvođača</a>
   <div class="header-row">
     {% if page.image %}
       <img src="{{ page.image | relative_url }}" alt="{{ page.ime }} logo" class="majstor-image">
@@ -159,24 +172,34 @@ layout: default
   </div>
   <hr class="section-divider">
   <div class="majstor-details">
-    <p><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</p>  <!-- FIXED: Added | join: ', ' -->
-    <p><strong>Mesto:</strong> {{ page.mesto }}</p>
-    <p><strong>Kontakt telefon:</strong> <a href="tel:{{ page.kontakt_telefon }}" aria-label="Pozovi {{ page.ime }}">{{ page.kontakt_telefon }}</a></p>
-    <p><strong>Email:</strong> <a href="mailto:{{ page.email }}" aria-label="Pošalji email na {{ page.email }}">{{ page.email }}</a></p>
+  <p><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</p>
+  <p><strong>Mesto:</strong> {{ page.mesto }}</p>
+  
+  <p><strong>Kontakt telefon:</strong> 
+    {% if page.kontakt_telefon != 'Nema dostupan kontakt' and page.kontakt_telefon != '' %}
+      <a href="tel:{{ page.kontakt_telefon }}" aria-label="Pozovi {{ page.ime }}">{{ page.kontakt_telefon }}</a>
+    {% else %}
+      Nema dostupan kontakt
+    {% endif %}
+  </p>
+  
+  <p><strong>Email:</strong> 
+    {% if page.email != 'Nema dostupan email' and page.email != '' %}
+      <a href="mailto:{{ page.email }}" aria-label="Pošalji email na {{ page.email }}">{{ page.email }}</a>
+    {% else %}
+      Nema dostupan email
+    {% endif %}
+  </p>
     
     <p><strong>Website:</strong> 
-      {% assign website_url = page.website %}
-      {% if website_url != 'Nema dostupan website' and website_url != '' %}
-        {% unless website_url contains '://' %}
-          {% assign website_url = 'https://' | append: website_url %}
-        {% endunless %}
-        <a href="{{ website_url | escape }}" target="_blank" rel="noopener noreferrer">
-          {{ page.website | escape }}
-        </a>
-      {% else %}
-        Nema dostupan website
-      {% endif %}
-    </p>
+    {% if page.website != 'Nema dostupan website' %}
+      {% assign url = page.website.url | default: page.website %}
+      {% assign label = page.website.label | default: 'Link' %}
+      <a href="{{ url | escape }}" target="_blank" rel="noopener noreferrer">{{ label }}</a>
+    {% else %}
+      Nema dostupan website
+    {% endif %}
+  </p>
 
     <hr class="section-divider">
     <h2>O nama</h2>
@@ -192,6 +215,19 @@ layout: default
     {% endunless %}
     <hr class="section-divider">
   </div>
+
+  {% if page.services.size > 0 %}
+  <div class="services-section">
+    <h2>Usluge</h2>
+    {% for service in page.services %}
+    <div class="service-block">
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <hr class="section-divider">
+  {% endif %}
   
   {% if page.additional_images.size > 0 %}
   

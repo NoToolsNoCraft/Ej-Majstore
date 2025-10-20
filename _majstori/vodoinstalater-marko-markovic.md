@@ -24,30 +24,6 @@ additional_images:
 - https://images.unsplash.com/photo-1516569130-65f3c33e8d99
 services: []
 faq: []
-permalink: "/majstori/beograd/vodoinstalater-marko-markovic/"
+permalink: "/izvodjaci/beograd/vodoinstalater-marko-markovic/"
 ---
-# Marko Marković
-<p class="description">Profesionalne vodoinstalaterske usluge sa višegodišnjim iskustvom.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Beograd, Zemun, Novi Beograd</li>
-    <li><strong>Kontakt telefon:</strong> Nema dostupan kontakt</li>
-    <li><strong>Email:</strong> Nema dostupan email</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}

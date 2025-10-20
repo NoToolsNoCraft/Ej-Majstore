@@ -45,7 +45,7 @@ data.each do |majstor|
   combined_opis = opis_fields.map { |field| majstor[field] }.compact.reject(&:empty?).join(' ')
   detaljan_opis = combined_opis.empty? ? 'Nema detaljan opis' : combined_opis
 
-  # Prepare the front matter
+  # Prepare the front matter (KEEP ALL THIS - IT'S PERFECT!)
   front_matter = {
     'layout' => 'majstor_profil',
     'title' => "#{majstor['ime']} - #{kategorija_str} u #{majstor['mesto'].join(', ')}",
@@ -55,15 +55,29 @@ data.each do |majstor|
     'mesto' => majstor['mesto'].join(', '),
     'kontakt_telefon' => majstor['telefon'] || 'Nema dostupan kontakt',
     'email' => majstor['email'] || 'Nema dostupan email',
+    # IMPROVED: Smart website with labels
     'website' => if majstor['website'] && !majstor['website'].empty?
-               if majstor['website'].match?(/^https?:\/\//)
-                 majstor['website']
-               else
-                 "https://#{majstor['website']}"
-               end
-             else
-               'Nema dostupan website'
-             end,
+      url = if majstor['website'].match?(/^https?:\/\//)
+              majstor['website']
+            else
+              "https://#{majstor['website']}"
+            end
+      
+      # Detect platform and set label
+      label = case url
+              when /facebook\.com/ then 'Facebook'
+              when /instagram\.com/ then 'Instagram'
+              when /youtube\.com/ then 'YouTube'
+              when /tiktok\.com/ then 'TikTok'
+              when /linkedin\.com/ then 'LinkedIn'
+              when /twitter\.com/, /x\.com/ then 'Twitter'
+              else 'Link'
+              end
+      
+      { 'url' => url, 'label' => label }
+    else
+      'Nema dostupan website'
+    end,
     # NEW: Pass ALL opis_dugi fields individually to front matter
     'opis_dugi' => majstor['opis_dugi'] || '',
     'opis_dugi2' => majstor['opis_dugi2'] || '',
@@ -72,46 +86,22 @@ data.each do |majstor|
     'opis_dugi5' => majstor['opis_dugi5'] || '',
     'detaljan_opis' => detaljan_opis, # Keep for backward compatibility
     'slug' => majstor['slug'],
-    'image' => majstor['image'] || 'https://www.shutterstock.com/image-illustration/illustration-construction-worker-purple-jacket-600nw-2609794615.jpg',
+    'image' => majstor['image'] || 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp',
     'additional_images' => majstor['additional_images'] || [],
     # NEW: Services array
     'services' => majstor['services'] || [],
     'faq' => majstor['faq'] || [],
-    'permalink' => "/majstori/#{slugify(majstor['mesto'][0])}/#{slugify(majstor['slug'])}/"
+    'permalink' => "/izvodjaci/#{slugify(majstor['mesto'][0])}/#{slugify(majstor['slug'])}/"
   }
 
   # Generate the file name using the slug
   file_name = "#{majstor['slug']}.md"
   file_path = File.join(output_base_dir, file_name)
 
-  # Prepare the page content
+  # ✅ CLEAN CONTENT - JUST FRONT MATTER + EMPTY LINE
   content = <<~CONTENT
 #{YAML.dump(front_matter)}---
-# #{majstor['ime']}
-<p class="description">#{majstor['opis_kratak']}</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> #{majstor['mesto'].join(', ')}</li>
-    <li><strong>Kontakt telefon:</strong> #{majstor['telefon'] || 'Nema dostupan kontakt'}</li>
-    <li><strong>Email:</strong> #{majstor['email'] || 'Nema dostupan email'}</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
 CONTENT
 
   # Write the file with UTF-8 encoding (no BOM)

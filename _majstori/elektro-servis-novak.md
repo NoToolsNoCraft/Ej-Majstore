@@ -22,30 +22,6 @@ image: ''
 additional_images: []
 services: []
 faq: []
-permalink: "/majstori/novi-sad/elektro-servis-novak/"
+permalink: "/izvodjaci/novi-sad/elektro-servis-novak/"
 ---
-# Elektro Servis Novak
-<p class="description">Brze i pouzdane električarske usluge za domove i poslovne prostore.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Novi Sad, Sremska Kamenica</li>
-    <li><strong>Kontakt telefon:</strong> Nema dostupan kontakt</li>
-    <li><strong>Email:</strong> Nema dostupan email</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}

@@ -12,7 +12,9 @@ kategorija:
 mesto: Subotica, Čantavir, Bajmok, Senta
 kontakt_telefon: "+381 64 123 4567"
 email: kontakt@molerajpro.rs
-website: https://www.molerajpro.rs
+website:
+  url: https://www.molerajpro.rs
+  label: Link
 opis_dugi: Moleraj Pro pruža usluge krečenja, dekorativnog bojenja i pripreme površina
   u Subotici i okolnim mestima.
 opis_dugi2: Imamo 15 godina iskustva i koristimo samo visokokvalitetne boje i materijale.
@@ -49,30 +51,6 @@ faq:
   answer: Krečenje košta 300-500 RSD po m², u zavisnosti od složenosti površine.
 - question: Da li nudite besplatnu procenu?
   answer: Da! Besplatno dolazimo na teren i dajemo preciznu procenu u roku od 24h.
-permalink: "/majstori/subotica/moleraj-pro/"
+permalink: "/izvodjaci/subotica/moleraj-pro/"
 ---
-# Moleraj Pro
-<p class="description">Profesionalno krečenje i molerske usluge za enterijere i eksterijere.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Subotica, Čantavir, Bajmok, Senta</li>
-    <li><strong>Kontakt telefon:</strong> +381 64 123 4567</li>
-    <li><strong>Email:</strong> kontakt@molerajpro.rs</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}

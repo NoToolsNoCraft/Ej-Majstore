@@ -18,36 +18,12 @@ opis_dugi5: ''
 detaljan_opis: Bunari Srbija pruža usluge bušenja bunara i geoloških istraživanja
   u Kragujevcu i šire.
 slug: bunari-srbija
-image: https://www.shutterstock.com/image-illustration/illustration-construction-worker-purple-jacket-600nw-2609794615.jpg
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp
 additional_images:
 - https://images.unsplash.com/photo-1560448204-e02f11c3d0e2
 - https://images.unsplash.com/photo-1580587771525-78b9f0f89f70
 services: []
 faq: []
-permalink: "/majstori/kragujevac/bunari-srbija/"
+permalink: "/izvodjaci/kragujevac/bunari-srbija/"
 ---
-# Bunari Srbija
-<p class="description">Bušenje bunara za vodu i geološka istraživanja.</p>
 
-<div class="majstor-details">
-  <h2>Informacije</h2>
-  <ul>
-    <li><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</li>
-    <li><strong>Mesto:</strong> Kragujevac, Batočina</li>
-    <li><strong>Kontakt telefon:</strong> Nema dostupan kontakt</li>
-    <li><strong>Email:</strong> Nema dostupan email</li>
-  </ul>
-</div>
-
-# NEW: Services Section in content (optional - we'll use front matter in template)
-{% if page.services.size > 0 %}
-<div class="services-section">
-  <h2>Usluge</h2>
-  {% for service in page.services %}
-  <div class="service-block">
-    <h3>{{ service.title }}</h3>
-    <p>{{ service.description }}</p>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
