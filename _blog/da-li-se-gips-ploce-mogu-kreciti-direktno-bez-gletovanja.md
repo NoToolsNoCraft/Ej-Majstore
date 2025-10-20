@@ -3,7 +3,7 @@ layout: article
 title: Da li se gips ploče mogu krečiti direktno bez gletovanja?
 description: Saznajte da li se gips ploče mogu krečiti direktno bez gletovanja i koji
   je proizvod idealan za to, uz detaljnu analizu troškova i uštede vremena.
-date: '2025-10-18'
+date: '2025-10-20'
 author: Petar Škrbić
 slug: da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja
 image: https://github.com/NoToolsNoCraft/Ej-Majstore/blob/main/images/Da%20li%20se%20gips%20ploče%20mogu%20krečiti%20direktno%20bez%20gletovanja.webp?raw=true
