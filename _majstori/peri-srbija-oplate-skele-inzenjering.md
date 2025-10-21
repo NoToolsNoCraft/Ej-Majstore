@@ -59,10 +59,10 @@ detaljan_opis: PERI Srbija je deo globalne PERI grupe, jednog od najvećih svets
   stambene komplekse i infrastrukturne objekte kao što su mostovi i tuneli. Uz PERI,
   gradite pametnije, brže i bezbednije.
 slug: peri-srbija-oplate-skele-inzenjering
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/peri-logo.webp
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-logo.webp
 additional_images:
-- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/peri-sistem-skela.webp
-- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/peri-skica-sistem-oplata.webp
+- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-sistem-skela.webp
+- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-skica-sistem-oplata.webp
 services:
 - title: Sistemi oplata
   description: PERI nudi kompletna rešenja za zidne, pločaste i stubne oplate, namenjene

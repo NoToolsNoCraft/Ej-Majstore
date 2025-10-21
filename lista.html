@@ -122,7 +122,7 @@ description: Pretražite adresar zanatskih uslug i firmi u Srbiji po kategoriji,
     {% for majstor in site.data.majstori %}
       {% assign mesta = majstor.mesto | join: ',' %}
       <div class="majstor-kartica" data-tip="{{ majstor.tip }}" data-kategorija="{{ majstor.kategorija | join: ',' }}" data-mesto="{{ mesta }}" style="display: none;">
-        <img loading="lazy" src="{{ majstor.image | default: 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp' | relative_url }}" alt="{{ majstor.ime }} logo" class="majstor-image">
+        <img loading="lazy" src="{{ majstor.image | default: 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp' | relative_url }}" alt="{{ majstor.ime }} logo" class="majstor-image">
         <div class="majstor-content">
           <h3>{{ majstor.ime }}</h3>
           <p><strong>Izvođač: </strong>{{ majstor.tip | capitalize }}</p>

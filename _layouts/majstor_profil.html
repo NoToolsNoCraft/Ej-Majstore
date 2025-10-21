@@ -160,6 +160,53 @@ layout: default
     transition: transform 0.2s;
   }
   .faq-toggle.rotated { transform: rotate(45deg); }
+
+
+  .share-section {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #000000;
+}
+
+.share-section p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.share-btn i {
+  font-size: 1.2em;
+}
+
+/* Specific colors for each app */
+.share-btn.whatsapp { background-color: #25D366; }
+.share-btn.viber { background-color: #7360F2; }
+.share-btn.messenger { background-color: #0084FF; }
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 </style>
   
 <section class="majstor-profil">
@@ -266,8 +313,44 @@ layout: default
     {% endfor %}
   </div>
   {% endif %}
-  <hr class="section-divider">
+  
+
+  <!-- ✅ SOCIAL SHARE BUTTONS -->
+  <div class="share-section">
+    <p>Podelite izvođača sa drugima:</p>
+    <div class="share-buttons">
+      <!-- WhatsApp -->
+      <a 
+        href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="share-btn whatsapp"
+      >
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+
+      <!-- Viber -->
+      <a 
+        href="viber://forward?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
+        class="share-btn viber"
+      >
+        <i class="fa-brands fa-viber"></i> Viber
+      </a>
+
+      <!-- Messenger -->
+      <a 
+        href="https://www.facebook.com/dialog/send?link={{ site.url }}{{ page.url }}&app_id=YOUR_FACEBOOK_APP_ID&redirect_uri={{ site.url }}{{ page.url }}" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="share-btn messenger"
+      >
+        <i class="fa-brands fa-facebook-messenger"></i> Messenger
+      </a>
+    </div>
+  </div>
 </section>
+
+
 
 
 <!-- Modal for enlarged images -->

@@ -48,7 +48,7 @@ detaljan_opis: Jožef Farkaš je iskusni keramičar sa preko 10 godina radnog is
 slug: keramicar-jozsef-farkas-cantavir
 image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp
 additional_images:
-- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/Stepenice%20keramika%20farka%C5%A1%20jo%C5%BEef%20%C4%8Dantavir.webp
+- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Stepenice%20keramika%20farka%C5%A1%20jo%C5%BEef%20%C4%8Dantavir.webp
 services:
 - title: Lepljenje keramičkih pločica
   description: Lepljenje keramičkih pločica po vašoj meri, izuzetno kvalitetno.

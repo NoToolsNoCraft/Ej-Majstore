@@ -48,7 +48,7 @@ detaljan_opis: 'Vodoinstalater Jokić iz Novog Sada je porodična firma koju vod
   naselje, Petrovaradin, Veternik, Futog, Kać i okolna mesta. Dostupni smo za hitne
   intervencije tokom cele nedelje. Vaš problem sa vodom rešavamo odmah!'
 slug: vodoinstalater-jokic-novi-sad
-image: https://github.com/NoToolsNoCraft/Ej-Majstore/blob/main/images/vodovodar-logo.webp?raw=true
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodovodar-logo.webp
 additional_images: []
 services:
 - title: Renoviranje kupatila
