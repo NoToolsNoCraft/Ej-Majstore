@@ -188,7 +188,7 @@ h3 {
 section {
   background: #FFFFFF;
   border-radius: 12px;
-  padding: 24px;
+  padding: 10px;
   margin-bottom: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   display: contents;
@@ -369,10 +369,16 @@ footer p {
   font-size: 14px;
 }
 
+@media (max-width: 767px) {
+  section {
+    display: block; /* Ensure section is a block container on mobile */
+  }
+}
+
 /* Responsive dizajn */
 @media (min-width: 768px) {
   section {
-    
+    padding-top: 1.3rem;
     flex-wrap: wrap;
     gap: 24px;
     display: flex;

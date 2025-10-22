@@ -40,30 +40,29 @@ data.each do |majstor|
                      kategorija.to_s
                    end
 
-  # NEW: Combine all opis_dugi fields into detaljan_opis
+  # Combine all opis_dugi fields into detaljan_opis
   opis_fields = ['opis_dugi', 'opis_dugi2', 'opis_dugi3', 'opis_dugi4', 'opis_dugi5']
   combined_opis = opis_fields.map { |field| majstor[field] }.compact.reject(&:empty?).join(' ')
   detaljan_opis = combined_opis.empty? ? 'Nema detaljan opis' : combined_opis
 
-  # Prepare the front matter (KEEP ALL THIS - IT'S PERFECT!)
+  # Prepare the front matter
   front_matter = {
     'layout' => 'majstor_profil',
     'title' => "#{majstor['ime']} - #{kategorija_str} u #{majstor['mesto'].join(', ')}",
     'description' => "#{majstor['opis_kratak']} Pronađite #{majstor['ime']} za #{kategorija_str} usluge u #{majstor['mesto'].join(', ')}.",
     'ime' => majstor['ime'],
-    'kategorija' => kategorija,  # Keep as array if it is one
+    'kategorija' => kategorija,
     'mesto' => majstor['mesto'].join(', '),
+    'address' => majstor['address'] || 'Nema dostupnu adresu',
     'kontakt_telefon' => majstor['telefon'] || 'Nema dostupan kontakt',
     'email' => majstor['email'] || 'Nema dostupan email',
-    # IMPROVED: Smart website with labels
+    'googlemaps' => majstor['googlemaps'] || '', # NEW: Add googlemaps field
     'website' => if majstor['website'] && !majstor['website'].empty?
       url = if majstor['website'].match?(/^https?:\/\//)
               majstor['website']
             else
               "https://#{majstor['website']}"
             end
-      
-      # Detect platform and set label
       label = case url
               when /facebook\.com/ then 'Facebook'
               when /instagram\.com/ then 'Instagram'
@@ -73,22 +72,19 @@ data.each do |majstor|
               when /twitter\.com/, /x\.com/ then 'Twitter'
               else 'Link'
               end
-      
       { 'url' => url, 'label' => label }
     else
       'Nema dostupan website'
     end,
-    # NEW: Pass ALL opis_dugi fields individually to front matter
     'opis_dugi' => majstor['opis_dugi'] || '',
     'opis_dugi2' => majstor['opis_dugi2'] || '',
     'opis_dugi3' => majstor['opis_dugi3'] || '',
     'opis_dugi4' => majstor['opis_dugi4'] || '',
     'opis_dugi5' => majstor['opis_dugi5'] || '',
-    'detaljan_opis' => detaljan_opis, # Keep for backward compatibility
+    'detaljan_opis' => detaljan_opis,
     'slug' => majstor['slug'],
     'image' => majstor['image'] || 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp',
     'additional_images' => majstor['additional_images'] || [],
-    # NEW: Services array
     'services' => majstor['services'] || [],
     'faq' => majstor['faq'] || [],
     'permalink' => "/izvodjaci/#{slugify(majstor['mesto'][0])}/#{slugify(majstor['slug'])}/"
@@ -98,13 +94,11 @@ data.each do |majstor|
   file_name = "#{majstor['slug']}.md"
   file_path = File.join(output_base_dir, file_name)
 
-  # ✅ CLEAN CONTENT - JUST FRONT MATTER + EMPTY LINE
+  # Write the file with UTF-8 encoding
   content = <<~CONTENT
 #{YAML.dump(front_matter)}---
-
 CONTENT
 
-  # Write the file with UTF-8 encoding (no BOM)
   File.write(file_path, content, encoding: 'UTF-8')
   puts "Created: #{file_path}"
 end

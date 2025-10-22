@@ -12,8 +12,10 @@ kategorija:
 - Inženjering
 - Građevinska oprema
 mesto: Srbija, Ruma, Beograd, Novi Sad
+address: Nema dostupnu adresu
 kontakt_telefon: "+381 (0)22 408200"
 email: office@peri.rs
+googlemaps: ''
 website:
   url: https://www.peri.rs/
   label: Link
@@ -97,4 +99,3 @@ faq:
     – rado ćemo vam pomoći da pronađete optimalno rešenje.
 permalink: "/izvodjaci/srbija/peri-srbija-oplate-skele-inzenjering/"
 ---
-

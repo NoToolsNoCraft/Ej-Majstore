@@ -8,8 +8,10 @@ ime: Keramičar Jožef Farkaš
 kategorija:
 - Keramičar
 mesto: Čantavir, Subotica, Bačko Dušanovo, Višnjevac
+address: Nema dostupnu adresu
 kontakt_telefon: "+381 63 878 8123"
 email: Nema dostupan email
+googlemaps: ''
 website:
   url: https://www.facebook.com/jozsef.farkas.189478
   label: Facebook
@@ -46,7 +48,7 @@ detaljan_opis: Jožef Farkaš je iskusni keramičar sa preko 10 godina radnog is
   maksimalne otpornosti na vlagu i habanje. Preuzima projekte na teritoriji Čantavira,
   Subotice i okolnih mesta, uz mogućnost besplatne procene troškova na terenu.
 slug: keramicar-jozsef-farkas-cantavir
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp
 additional_images:
 - https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Stepenice%20keramika%20farka%C5%A1%20jo%C5%BEef%20%C4%8Dantavir.webp
 services:
@@ -61,4 +63,3 @@ faq:
   answer: Da! Besplatno dolazimo na teren i dajemo preciznu procenu u roku od 24h.
 permalink: "/izvodjaci/cantavir/keramicar-jozsef-farkas-cantavir/"
 ---
-

@@ -137,7 +137,7 @@
     display: inline-block;
     padding: 0.2em 0.5em;
     background: linear-gradient(145deg, #d9534f, #a94442);
-    border: 8px double #000;
+    border: 8px double #dfdede;
     border-radius: 50px;
     text-shadow:
       -2px -2px 0 #000,
@@ -159,7 +159,7 @@
   .banner-title:hover {
     transform: perspective(600px) rotateX(10deg) scale(1.05);
     box-shadow:
-      0 6px 18px rgba(0, 0, 0, 0.4),
+      0 6px 18px rgba(255, 255, 255, 0.4),
       inset 0 2px 3px rgba(255, 255, 255, 0.2);
   }
 
@@ -480,6 +480,22 @@
     <option value="">Sve kategorije</option>
     
     
+      <option value="Nameštaj">Nameštaj</option>
+    
+      <option value="Stolarija">Stolarija</option>
+    
+      <option value="Enterijer">Enterijer</option>
+    
+      <option value="Dekoracija doma">Dekoracija doma</option>
+    
+      <option value="Oplate">Oplate</option>
+    
+      <option value="Skele">Skele</option>
+    
+      <option value="Inženjering">Inženjering</option>
+    
+      <option value="Građevinska oprema">Građevinska oprema</option>
+    
       <option value="Alarmi">Alarmi</option>
     
       <option value="Video nadzor">Video nadzor</option>
@@ -496,14 +512,6 @@
     
       <option value="Popravka bojlera">Popravka bojlera</option>
     
-      <option value="Oplate">Oplate</option>
-    
-      <option value="Skele">Skele</option>
-    
-      <option value="Inženjering">Inženjering</option>
-    
-      <option value="Građevinska oprema">Građevinska oprema</option>
-    
       <option value="Keramičar">Keramičar</option>
     
   </select>
@@ -518,13 +526,27 @@
   <datalist id="mesta-suggestions">
     
     
+      <option value="Čantavir">
+    
+      <option value="Bačko Dušanovo">
+    
+      <option value="Tornjoš">
+    
+      <option value="Višnjevac">
+    
+      <option value="Senta">
+    
+      <option value="Subotica">
+    
       <option value="Srbija">
+    
+      <option value="Šimanovci">
     
       <option value="Beograd">
     
-      <option value="Zemun">
-    
       <option value="Novi Sad">
+    
+      <option value="Zemun">
     
       <option value="Petrovaradin">
     
@@ -536,20 +558,38 @@
     
       <option value="Ruma">
     
-      <option value="Čantavir">
-    
-      <option value="Subotica">
-    
-      <option value="Bačko Dušanovo">
-    
-      <option value="Višnjevac">
-    
   </datalist>
 </section>
 
 <section id="majstori-lista">
-  <p id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">4</span></p>
+  <p id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">7</span></p>
   <div id="kartice-kontejner">
+    
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Nameštaj,Stolarija,Enterijer,Dekoracija doma" data-mesto="Čantavir,Bačko Dušanovo,Tornjoš,Višnjevac,Senta,Subotica" style="display: none;">
+        <img loading="lazy" src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Interium%20-%20Salon%20name%C5%A1taja%20i%20stolarska%20radionica%20%C4%8Cantavir.webp" alt="Interium - Salon nameštaja i stolarska radionica Čantavir logo" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Interium - Salon nameštaja i stolarska radionica Čantavir</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Nameštaj, Stolarija, Enterijer, Dekoracija doma</p> 
+          <p><strong>Mesto - </strong>Čantavir, Bačko Dušanovo, Tornjoš, Višnjevac, Senta, Subotica</p> 
+          <p>Interium Čantavir – salon nameštaja i stolarska radionica specijalizovana za izradu unikatnog nameštaja po meri i uređenje enterijera.</p>
+          <a href="/izvodjaci/cantavir/interium-cantavir-namestaj-po-meri-enterijer/">Pogledaj profil</a>
+        </div>
+      </div>
+    
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Oplate,Skele,Inženjering,Građevinska oprema" data-mesto="Srbija,Šimanovci,Beograd,Novi Sad" style="display: none;">
+        <img loading="lazy" src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-srbija-logo.webp" alt="Doka Srbija logo" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Doka Srbija</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Oplate, Skele, Inženjering, Građevinska oprema</p> 
+          <p><strong>Mesto - </strong>Srbija, Šimanovci, Beograd, Novi Sad</p> 
+          <p>Doka Srbija – svetski lider u oplatnim sistemima, skelama i inženjerskim rešenjima za građevinsku industriju.</p>
+          <a href="/izvodjaci/srbija/doka-srbija-oplate-skele-inzenjering/">Pogledaj profil</a>
+        </div>
+      </div>
     
       
       <div class="majstor-kartica" data-tip="firma" data-kategorija="Alarmi,Video nadzor,Sigurnosni sistemi,Klime" data-mesto="Srbija,Beograd,Zemun" style="display: none;">
@@ -600,6 +640,19 @@
           <p><strong>Mesto - </strong>Čantavir, Subotica, Bačko Dušanovo, Višnjevac</p> 
           <p>Keramičar sa radnim iskustvom iz Nemačke, precizan i pouzdan.</p>
           <a href="/izvodjaci/cantavir/keramicar-jozsef-farkas-cantavir/">Pogledaj profil</a>
+        </div>
+      </div>
+    
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Oplate,Skele,Inženjering,Građevinska oprema" data-mesto="Srbija,Beograd,Novi Sad" style="display: none;">
+        <img loading="lazy" src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Ulma%20construction%20logo%20Srbija.webp" alt="ULMA Construction logo" class="majstor-image">
+        <div class="majstor-content">
+          <h3>ULMA Construction</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Oplate, Skele, Inženjering, Građevinska oprema</p> 
+          <p><strong>Mesto - </strong>Srbija, Beograd, Novi Sad</p> 
+          <p>ULMA Construction – međunarodni lider u oblasti oplata, skela i inženjerskih rešenja, prisutan i na tržištu Srbije kroz velike infrastrukturne projekte.</p>
+          <a href="/izvodjaci/srbija/ulma-construction-oplate-skele-inzenjering/">Pogledaj profil</a>
         </div>
       </div>
     

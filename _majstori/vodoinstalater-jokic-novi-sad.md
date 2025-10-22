@@ -13,8 +13,10 @@ kategorija:
 - Odgušenje kanalizacije
 - Popravka bojlera
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Kać
+address: Nema dostupnu adresu
 kontakt_telefon: "+381 61 493 5683"
 email: Nema dostupan email
+googlemaps: ''
 website:
   url: https://vodoinstalaterjokic.com/
   label: Link
@@ -82,4 +84,3 @@ faq:
     Kać i okolna mesta.
 permalink: "/izvodjaci/novi-sad/vodoinstalater-jokic-novi-sad/"
 ---
-

@@ -13,8 +13,10 @@ kategorija:
 - Sigurnosni sistemi
 - Klime
 mesto: Srbija, Beograd, Zemun
+address: Nema dostupnu adresu
 kontakt_telefon: "+381 (0)11 4084 318"
 email: info@ideaps.rs
+googlemaps: ''
 website:
   url: https://ideaps.rs/
   label: Link
@@ -99,4 +101,3 @@ faq:
     petka od 9 do 17h, a subotom od 9 do 14h.
 permalink: "/izvodjaci/srbija/idea-protection-system-beograd-zemun/"
 ---
-

@@ -1,5 +1,140 @@
 [
 
+
+  {
+  "ime": "Interium - Salon nameštaja i stolarska radionica Čantavir",
+  "tip": "firma",
+  "kategorija": ["Nameštaj", "Stolarija", "Enterijer", "Dekoracija doma"],
+  "mesto": ["Čantavir", "Bačko Dušanovo", "Tornjoš", "Višnjevac", "Senta", "Subotica"],
+  "address": "Maršala Tita 60, Čantavir",
+  "googlemaps":"https://maps.app.goo.gl/AVWUEThQkYzEWAoK6",
+  "opis_kratak": "Interium Čantavir – salon nameštaja i stolarska radionica specijalizovana za izradu unikatnog nameštaja po meri i uređenje enterijera.",
+  "opis_dugi": "Interium je porodična stolarska radionica i salon nameštaja iz Čantavira, poznata po kvalitetnoj izradi i modernom dizajnu nameštaja po meri. Kompaniju vodi Atila Homolja, sa višegodišnjim iskustvom u izradi kuhinja, plakara, komoda, stolova i drugih elemenata koji savršeno spajaju funkcionalnost i estetiku. Svaki komad nameštaja izrađuje se prema željama klijenta, uz pažljivo odabrane materijale i besprekoran završni rad.",
+  "opis_dugi2": "Interium nudi kompletne usluge opremanja prostora – od idejnog dizajna i merenja, preko 3D prikaza, do završne montaže u domu ili poslovnom prostoru. Njihova ponuda obuhvata izradu kuhinjskog, kancelarijskog, spavaćeg i dnevnog nameštaja, kao i ugradne plakare i dekorativne elemente koji oplemenjuju svaki enterijer. Poseban akcenat stavljen je na moderni minimalistički stil i preciznost izrade.",
+  "opis_dugi3": "Kombinacijom tradicionalnog stolarskog umeća i savremene tehnologije, Interium ostvaruje visok standard kvaliteta i trajnosti. Materijali koje koriste – poput oplemenjenih iverica, MDF ploča i prirodnog furnira – obezbeđuju dug vek trajanja i lako održavanje. Klijenti cene njihov profesionalan pristup, poštovanje rokova i mogućnost potpunog prilagođavanja svakog projekta individualnim potrebama.",
+  "opis_dugi4": "Interium sarađuje sa domaćim i regionalnim kupcima, a posebno je poznat po izradi kuhinja po meri za stambene prostore i apartmane. Sa radnim vremenom od ponedeljka do petka od 7:00 do 15:00, radionica je otvorena za konsultacije i dogovore sa klijentima koji traže pouzdanog majstora i originalna rešenja za svoj dom. Interium spaja kvalitetnu izradu, savremeni dizajn i prijateljski pristup svakoj mušteriji.",
+  "telefon": "+381 69 764205",
+  "email": "interium2020@gmail.com",
+  "website": "https://www.facebook.com/p/Interium-100088320567844/",
+  "slug": "interium-cantavir-namestaj-po-meri-enterijer",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Interium%20-%20Salon%20name%C5%A1taja%20i%20stolarska%20radionica%20%C4%8Cantavir.webp",
+  
+  "services": [
+    {
+      "title": "Izrada kuhinja po meri",
+      "description": "Interium izrađuje kuhinje po meri koje kombinuju moderan dizajn, funkcionalnost i dugotrajnost. Svaka kuhinja se projektuje prema raspoloživom prostoru i željama klijenta, uz mogućnost ugradnje različitih tipova frontova, radnih ploča i okova."
+    },
+    {
+      "title": "Plakari i garderoberi",
+      "description": "Ugradni i samostojeći plakari izrađeni po meri omogućavaju maksimalno iskorišćenje prostora. Interium nudi razne kombinacije boja, materijala i rasporeda unutrašnjih pregrada, idealne za spavaće i hodničke prostore."
+    },
+    {
+      "title": "Nameštaj za dnevne i spavaće sobe",
+      "description": "Komode, stočići, police i ormari izrađeni sa pažnjom prema detalju. Svaki komad je unikat, osmišljen tako da doprinese harmoniji i toplini doma. Materijali se biraju prema stilu enterijera – od rustičnog do modernog minimalizma."
+    },
+    {
+      "title": "Kancelarijski i poslovni nameštaj",
+      "description": "Interium izrađuje radne stolove, ormane, police i recepcione pultove za kancelarije, salone i poslovne objekte. Fokus je na ergonomiji, funkcionalnosti i estetici radnog prostora."
+    },
+    {
+      "title": "Usluge dizajna i 3D prikaza",
+      "description": "Klijentima je dostupna usluga 3D vizualizacije budućeg prostora, što omogućava realan prikaz izgleda i rasporeda nameštaja pre same izrade. Ovaj pristup pomaže u preciznom planiranju i donošenju odluka o materijalima i bojama."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Da li Interium izrađuje nameštaj po meri?",
+      "answer": "Da, Interium je specijalizovan za izradu nameštaja po meri i želji klijenta, u potpunosti prilagođen dimenzijama i stilu prostora."
+    },
+    {
+      "question": "Koje vrste nameštaja izrađujete?",
+      "answer": "Izrađujemo kuhinje, plakare, komode, stočiće, police, kancelarijski nameštaj i druge elemente po meri. Radimo i kompletno opremanje prostora."
+    },
+    {
+      "question": "Da li nudite 3D prikaz pre izrade?",
+      "answer": "Da, klijentima nudimo 3D prikaz nameštaja pre početka izrade, kako bi mogli da vide tačan izgled i raspored elemenata."
+    },
+    {
+      "question": "Gde se nalazi vaša radionica?",
+      "answer": "Radionica Interium nalazi se u Čantaviru, u blizini Subotice. Klijenti su dobrodošli da posete salon i dogovore detalje o svom projektu."
+    },
+    {
+      "question": "Koje je radno vreme Interium radionice?",
+      "answer": "Radimo od ponedeljka do petka, od 7:00 do 15:00 časova. Subotom i nedeljom radionica je zatvorena."
+    }
+  ]
+},
+
+
+
+  {
+  "ime": "Doka Srbija",
+  "tip": "firma",
+  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
+  "mesto": ["Srbija", "Šimanovci", "Beograd", "Novi Sad"],
+  "address": "Svetogorska 4, 22310 Šimanovci, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9",
+  "opis_kratak": "Doka Srbija – svetski lider u oplatnim sistemima, skelama i inženjerskim rešenjima za građevinsku industriju.",
+  "opis_dugi": "Doka Srbija je deo međunarodne Doka grupacije, poznate po razvoju i proizvodnji inovativnih oplata, skela i inženjerskih rešenja koja unapređuju građevinsku efikasnost širom sveta. Kao kompanija sa dugogodišnjim iskustvom, Doka postavlja standarde u pogledu sigurnosti, brzine i preciznosti izvođenja radova na svim tipovima projekata – od stambene gradnje do velikih infrastrukturnih poduhvata.",
+  "opis_dugi2": "Naša rešenja obuhvataju širok asortiman oplata za zidove, stubove, ploče i penjuće konstrukcije, kao i visokokvalitetne sisteme nosećih i fasadnih skela. Svaki Doka proizvod projektovan je da omogući brzu montažu, dug vek trajanja i maksimalnu bezbednost na gradilištu. Inovativni pristup i napredne tehnologije, poput digitalnog planiranja i automatizovanog upravljanja projektima, čine Doku pouzdanim partnerom svakog izvođača.",
+  "opis_dugi3": "Doka Srbija nudi i sveobuhvatnu tehničku podršku – od planiranja i statičkih proračuna do obuke i nadzora na terenu. Naš tim inženjera koristi moderne digitalne alate i 3D modele za precizno planiranje, čime se postiže optimalna upotreba materijala i ušteda vremena. Dodatno, kroz platforme kao što su DokaXdek i Concremote, obezbeđujemo napredne alate za digitalno praćenje i kontrolu betona u realnom vremenu.",
+  "opis_dugi4": "Kao deo Umdasch grupacije, Doka posluje u više od 50 zemalja, sa preko 160 lokacija širom sveta, što garantuje globalno iskustvo i lokalnu dostupnost. U Srbiji, sedište kompanije nalazi se u Šimanovcima, odakle se pruža podrška svim domaćim projektima. Doka sistemi su već deo brojnih značajnih objekata u zemlji – od mostova i tunela do modernih poslovnih i stambenih kompleksa. Sa Dokom, gradnja postaje sigurnija, brža i ekonomičnija.",
+  "telefon": "+381 (0)22 400 100",
+  "email": "serb@doka.com",
+  "website": "https://www.doka.com/rs/index",
+  "slug": "doka-srbija-oplate-skele-inzenjering",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-srbija-logo.webp",
+  "additional_images": [
+    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-sistem-oplate-i-skela.webp",
+    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/oplate-i-skele-doka-srbija.webp"
+  ],
+  "services": [
+    {
+      "title": "Oplatni sistemi",
+      "description": "Doka nudi širok izbor oplata za zidove, ploče, stubove i penjuće konstrukcije, dizajniranih za jednostavnu montažu, visoku stabilnost i dugotrajnost. Naši sistemi se koriste u svim tipovima građevinskih projekata – od stambene gradnje do mostova i tunela – uz mogućnost preciznog planiranja kroz digitalne alate i inženjersku podršku."
+    },
+    {
+      "title": "Sistemi nosećih i fasadnih skela",
+      "description": "Naši sistemi nosećih skela obezbeđuju stabilnost i sigurnost za rad na velikim visinama. Modularni dizajn omogućava prilagođavanje različitim oblicima i veličinama objekata, a kvalitetni materijali garantuju dug vek trajanja. Doka skele se koriste u najzahtevnijim projektima širom sveta, poznate po svojoj fleksibilnosti i pouzdanosti."
+    },
+    {
+      "title": "Digitalna rešenja u građevinarstvu",
+      "description": "Doka integriše digitalne alate kao što su Concremote i DokaXdek za planiranje, praćenje i optimizaciju procesa gradnje. Ovi sistemi omogućavaju nadzor nad zrelošću betona, praćenje opterećenja i upravljanje zalihama u realnom vremenu, što značajno povećava efikasnost i transparentnost projekta."
+    },
+    {
+      "title": "Inženjerske i projektantske usluge",
+      "description": "Naš stručni tim pruža podršku u svim fazama projekta – od koncepta i statičkog proračuna, do realizacije i završnog nadzora. Doka inženjeri koriste napredne CAD i BIM tehnologije za modelovanje i optimizaciju oplatnih rešenja, osiguravajući maksimalnu sigurnost i ekonomičnost svake konstrukcije."
+    },
+    {
+      "title": "Obuka i tehnička podrška",
+      "description": "Doka Srbija organizuje obuke za izvođače i građevinske timove, obezbeđujući da se svaki sistem koristi na najbezbedniji i najefikasniji način. Naš terenski tim pruža podršku tokom montaže, testiranja i korišćenja opreme, garantujući kvalitet i sigurnost u svim fazama gradnje."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koje vrste oplata Doka proizvodi?",
+      "answer": "Doka proizvodi različite vrste oplata – zidne, stubne, pločaste i penjuće sisteme. Svi sistemi su modularni, izdržljivi i namenjeni za brzu montažu i visoku efikasnost na gradilištu."
+    },
+    {
+      "question": "Da li Doka nudi tehničku podršku u Srbiji?",
+      "answer": "Da. Tim Doka Srbija pruža potpunu tehničku i inženjersku podršku, uključujući planiranje, statičke proračune, obuku i podršku tokom izvođenja radova."
+    },
+    {
+      "question": "Mogu li da iznajmim Doka opremu?",
+      "answer": "Naravno. Doka nudi mogućnost iznajmljivanja oplata i skela za kratkoročne i dugoročne projekte, uz fleksibilne uslove i logističku podršku širom Srbije."
+    },
+    {
+      "question": "Gde se nalazi sedište Doka Srbija?",
+      "answer": "Sedište Doka Srbija nalazi se u Šimanovcima, u neposrednoj blizini Beograda. Odatle se organizuju prodaja, logistika i tehnička podrška za sve domaće projekte."
+    },
+    {
+      "question": "Šta je Concremote?",
+      "answer": "Concremote je Doka digitalni sistem za praćenje zrelosti i čvrstoće betona u realnom vremenu. Omogućava preciznu kontrolu kvaliteta i značajno ubrzava proces gradnje."
+    }
+  ]
+},
+
+
   {
   "ime": "Idea Protection System",
   "tip": "firma",
@@ -207,6 +342,7 @@
     "telefon": "+381 63 878 8123",
     "website": "https://www.facebook.com/jozsef.farkas.189478",
     "slug": "keramicar-jozsef-farkas-cantavir",
+    "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp",
     "additional_images": [
       "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Stepenice%20keramika%20farka%C5%A1%20jo%C5%BEef%20%C4%8Dantavir.webp"
     ],
@@ -230,6 +366,68 @@
         "answer": "Da! Besplatno dolazimo na teren i dajemo preciznu procenu u roku od 24h."
       }
     ]
-  }
+  },
+
+  {
+  "ime": "ULMA Construction",
+  "tip": "firma",
+  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
+  "mesto": ["Srbija", "Beograd", "Novi Sad"],
+  "opis_kratak": "ULMA Construction – međunarodni lider u oblasti oplata, skela i inženjerskih rešenja, prisutan i na tržištu Srbije kroz velike infrastrukturne projekte.",
+  "opis_dugi": "ULMA Construction je globalna kompanija specijalizovana za projektovanje, proizvodnju i primenu sistema oplata, skela i bezbednosnih konstrukcija u građevinskoj industriji. Sa sedištem u Španiji i poslovanjem u više od 50 zemalja, ULMA nudi inovativna rešenja za sve vrste građevinskih projekata – od stambenih i poslovnih objekata, do mostova, tunela, energetskih postrojenja i industrijskih kompleksa.",
+  "opis_dugi2": "Njihovi proizvodi uključuju sisteme oplata za zidove, stubove, ploče, penjuće i samopenjuće konstrukcije, kao i širok spektar nosećih i fasadnih skela. Svaka konstrukcija razvijena je uz stroge bezbednosne standarde, modularni dizajn i jednostavnost montaže. ULMA sistemi omogućavaju maksimalnu efikasnost, uštedu vremena i sigurnost na gradilištu – što ih čini izborom brojnih izvođača širom sveta.",
+  "opis_dugi3": "Pored proizvodnje i prodaje opreme, ULMA pruža i kompletne inženjerske i logističke usluge – od tehničkog savetovanja i proračuna, do podrške tokom izvođenja radova. Njihovi stručnjaci koriste napredne tehnologije i softverske alate za modelovanje i planiranje složenih projekata, čime se osigurava preciznost, stabilnost i pouzdanost svakog sistema.",
+  "opis_dugi4": "ULMA je deo ULMA Grupe, osnovane 1961. godine u Baskiji (Španija), sa više od 2.100 zaposlenih i godišnjim prometom od preko 400 miliona evra. Iako nema zvanično predstavništvo u Srbiji, njihova oprema i sistemi prisutni su na domaćem tržištu kroz saradnju sa izvođačima i međunarodnim partnerima. Zahvaljujući kvalitetu, fleksibilnosti i bogatom iskustvu, ULMA Construction se pozicionirala kao pouzdan partner u realizaciji zahtevnih građevinskih projekata širom sveta, uključujući i region Balkana.",
+  "telefon": "+34 943 034 900",
+  "website": "https://www.ulmaconstruction.com/en",
+  "slug": "ulma-construction-oplate-skele-inzenjering",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Ulma%20construction%20logo%20Srbija.webp",
+
+  "services": [
+    {
+      "title": "Sistemi oplata",
+      "description": "ULMA nudi širok asortiman oplata za zidove, stubove, ploče i penjuće konstrukcije. Njihovi sistemi poznati su po modularnom dizajnu, visokoj nosivosti i jednostavnosti sklapanja, što omogućava bržu i sigurniju gradnju u svim uslovima."
+    },
+    {
+      "title": "Sistemi skela i podupirača",
+      "description": "ULMA sistemi skela i podupirača obezbeđuju maksimalnu stabilnost i sigurnost tokom izvođenja radova na visini. Fleksibilne i čvrste konstrukcije pogodne su za sve vrste objekata – od stambenih do industrijskih i infrastrukturnih projekata."
+    },
+    {
+      "title": "Inženjerske i tehničke usluge",
+      "description": "Kompanija pruža stručnu podršku u planiranju i projektovanju oplatnih i skelnih sistema. Tim inženjera koristi napredne softverske alate za analizu i optimizaciju konstrukcija, garantujući preciznost i bezbednost svakog rešenja."
+    },
+    {
+      "title": "Logistička podrška i servis",
+      "description": "ULMA poseduje razvijenu mrežu logističkih centara širom Evrope, što omogućava brzu isporuku i podršku na gradilištima. Klijentima nudi mogućnost iznajmljivanja, prodaje i kombinovanih modela korišćenja opreme."
+    },
+    {
+      "title": "Bezbednosni sistemi",
+      "description": "Pored oplata i skela, ULMA razvija i integrisane bezbednosne sisteme za zaštitu radnika i materijala. Ovi sistemi uključuju ograde, zaštitne platforme i elemente za sprečavanje pada sa visine."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Da li ULMA ima predstavništvo u Srbiji?",
+      "answer": "Trenutno ULMA Construction nema zvanično predstavništvo u Srbiji, ali njihovi sistemi se koriste u domaćim projektima kroz saradnju sa međunarodnim izvođačima i distributerima."
+    },
+    {
+      "question": "Koje vrste oplata ULMA proizvodi?",
+      "answer": "ULMA proizvodi sisteme oplata za zidove, stubove, ploče, penjuće i samopenjuće konstrukcije. Svi sistemi su projektovani za jednostavnu upotrebu, dug vek trajanja i maksimalnu sigurnost."
+    },
+    {
+      "question": "Da li ULMA nudi mogućnost iznajmljivanja opreme?",
+      "answer": "Da, ULMA nudi fleksibilne komercijalne modele koji uključuju iznajmljivanje, kupovinu ili kombinovane opcije korišćenja oplata i skela."
+    },
+    {
+      "question": "Kakve projekte ULMA podržava?",
+      "answer": "ULMA učestvuje u širokom spektru projekata – od stambene i poslovne gradnje, preko mostova, tunela i hidroelektrana, do industrijskih i energetskih postrojenja."
+    },
+    {
+      "question": "Gde se nalazi sedište kompanije ULMA?",
+      "answer": "Sedište ULMA Construction nalazi se u Baskiji, Španija, odakle se koordinira poslovanje u više od 50 zemalja širom sveta."
+    }
+  ]
+}
+
   
 ]

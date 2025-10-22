@@ -141,7 +141,7 @@
     display: inline-block;
     padding: 0.2em 0.5em;
     background: linear-gradient(145deg, #d9534f, #a94442);
-    border: 8px double #000;
+    border: 8px double #dfdede;
     border-radius: 50px;
     text-shadow:
       -2px -2px 0 #000,
@@ -163,7 +163,7 @@
   .banner-title:hover {
     transform: perspective(600px) rotateX(10deg) scale(1.05);
     box-shadow:
-      0 6px 18px rgba(0, 0, 0, 0.4),
+      0 6px 18px rgba(255, 255, 255, 0.4),
       inset 0 2px 3px rgba(255, 255, 255, 0.2);
   }
 
@@ -503,14 +503,14 @@
         <i class="fa-brands fa-viber"></i> Viber
       </a>
 
-      <!-- Messenger -->
-      <a 
-        href="https://www.facebook.com/dialog/send?link=https://ejmajstore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/&app_id=YOUR_FACEBOOK_APP_ID&redirect_uri=https://ejmajstore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        class="share-btn messenger"
+      <!-- Telegram -->
+      <a
+        href="https://t.me/share/url?url=https://ejmajstore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/&text=Da%20li%20se%20gips%20plo%C4%8De%20mogu%20kre%C4%8Diti%20direktno%20bez%20gletovanja?"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="share-btn telegram"
       >
-        <i class="fa-brands fa-facebook-messenger"></i> Messenger
+        <i class="fa-brands fa-telegram"></i> Telegram
       </a>
     </div>
   </div>
@@ -608,7 +608,7 @@
 /* Specific colors for each app */
 .share-btn.whatsapp { background-color: #25D366; }
 .share-btn.viber { background-color: #7360F2; }
-.share-btn.messenger { background-color: #0084FF; }
+.share-btn.telegram { background-color: #0084FF; }
 
 .share-btn:hover {
   transform: translateY(-2px);
