@@ -213,10 +213,29 @@ layout: default
     font-size: 0.9rem;
     transition: background 0.3s ease, transform 0.2s ease;
     border: 2px solid #004085;
-    margin-left: 1rem;
+    
   }
   .address-btn i {
     font-size: 1.1em;
+  }
+
+  /* Icon Styles for Details */
+  .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .detail-item svg {
+    width: 20px;
+    height: 20px;
+    fill: #007bff;
+    flex-shrink: 0;
+  }
+  .detail-item strong {
+    
+    color: #333;
   }
 </style>
 
@@ -229,10 +248,28 @@ layout: default
     <h1>{{ page.ime }}</h1>
   </div>
   <hr class="section-divider">
+  
   <div class="majstor-details">
-    <p><strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}</p>
-    <p><strong>Mesto:</strong> {{ page.mesto }}</p>
-    <p><strong>Adresa:</strong>
+
+    <div class="detail-item">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
+    </svg>
+    <strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}
+  </div>
+
+    <div class="detail-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zm-2-6h-4v4h4v-4zm-6 0H7v4h4v-4zm0-6H7v4h4V7zm6 0h-4v4h4V7z"/>
+      </svg>
+      <strong>Mesto:</strong> {{ page.mesto }}
+    </div>
+    
+    <div class="detail-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+      </svg>
+      <strong>Adresa:</strong>
       {% if page.address != 'Nema dostupnu adresu' %}
         {{ page.address }}
         {% if page.googlemaps and page.googlemaps != '' %}
@@ -255,30 +292,43 @@ layout: default
       {% else %}
         Nema dostupnu adresu
       {% endif %}
-    </p>
-    <p><strong>Kontakt telefon:</strong>
+    </div>
+
+    <div class="detail-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.2 2.2z"/>
+      </svg>
+      <strong>Kontakt telefon:</strong>
       {% if page.kontakt_telefon != 'Nema dostupan kontakt' and page.kontakt_telefon != '' %}
         <a href="tel:{{ page.kontakt_telefon }}" aria-label="Pozovi {{ page.ime }}">{{ page.kontakt_telefon }}</a>
       {% else %}
         Nema dostupan kontakt
       {% endif %}
-    </p>
-    <p><strong>Email:</strong>
+    </div>
+    <div class="detail-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      <strong>Email:</strong>
       {% if page.email != 'Nema dostupan email' and page.email != '' %}
         <a href="mailto:{{ page.email }}" aria-label="Pošalji email na {{ page.email }}">{{ page.email }}</a>
       {% else %}
         Nema dostupan email
       {% endif %}
-    </p>
-    <p><strong>Website:</strong>
+    </div>
+    <div class="detail-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+      </svg>
+      <strong>Website:</strong>
       {% if page.website != 'Nema dostupan website' %}
         {% assign url = page.website.url | default: page.website %}
-        {% assign label = page.website.label | default: 'Link' %}
+        {% assign label = page.website.label | default: 'Link do sajta' %}
         <a href="{{ url | escape }}" target="_blank" rel="noopener noreferrer">{{ label }}</a>
       {% else %}
         Nema dostupan website
       {% endif %}
-    </p>
+    </div>
     <hr class="section-divider">
     <h2>O nama</h2>
     {% assign opis_fields = 'opis_dugi,opis_dugi2,opis_dugi3,opis_dugi4,opis_dugi5' | split: ',' %}

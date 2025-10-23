@@ -12,8 +12,8 @@ body {
   background-color: #fffea5; /* Wolt-ova svetlo siva pozadina */
   color: #1F2A44; /* Tamno siva za tekst */
   line-height: 1.6;
-  font-size: 1.1rem;
-  border: 7px double black;
+  font-size: 1.1rem; 
+  border: 2px solid black;
 }
 
 
@@ -249,7 +249,7 @@ select:focus {
 }
 
 .majstor-image {
-  width: 20%; /* ~1/5 kartice */
+  width: 30%; /* ~1/5 kartice */
   max-width: 80px;
   height: auto;
   object-fit: contain;
@@ -268,6 +268,7 @@ select:focus {
   font-weight: 600;
   color: #1F2A44;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .majstor-content p {
@@ -286,7 +287,7 @@ select:focus {
   font-weight: 600;
   font-size: 14px;
   transition: background 0.3s ease, transform 0.2s ease;
-  max-width: 70%;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -430,23 +431,30 @@ footer p {
   }
 
   .majstor-kartica {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+  
+  }
+  .majstor-content a {
+    max-width: 100%;
+    text-align: center;
   }
 
   .majstor-image {
-    width: 25%; /* Povećano za mobilni za bolju vidljivost */
+    width: 45%; /* Povećano za mobilni za bolju vidljivost */
     max-width: 60px;
     margin-right: 12px;
   }
+
+  .majstor-profil {
+  
+  padding: 20px 5px;
+}
 }
 
 
-.majstor-profil {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
+
 
 .back-button {
   display: inline-block;

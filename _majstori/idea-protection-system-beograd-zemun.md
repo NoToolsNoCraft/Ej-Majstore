@@ -1,22 +1,22 @@
 ---
 layout: majstor_profil
-title: Idea Protection System - Alarmi, Video nadzor, Sigurnosni sistemi, Klime u
-  Srbija, Beograd, Zemun
+title: Idea Protection System - Alarmi, Video nadzor, Sigurnosni sistemi, Servis Klima
+  Uređaja u Srbija, Beograd, Zemun
 description: Idea Protection System – stručnjaci za alarmne sisteme, video nadzor
   i klimatizaciju prostora sa preko 25 godina iskustva. Pronađite Idea Protection
-  System za Alarmi, Video nadzor, Sigurnosni sistemi, Klime usluge u Srbija, Beograd,
-  Zemun.
+  System za Alarmi, Video nadzor, Sigurnosni sistemi, Servis Klima Uređaja usluge
+  u Srbija, Beograd, Zemun.
 ime: Idea Protection System
 kategorija:
 - Alarmi
 - Video nadzor
 - Sigurnosni sistemi
-- Klime
+- Servis Klima Uređaja
 mesto: Srbija, Beograd, Zemun
-address: Nema dostupnu adresu
+address: " Karlovačka 28, 11080 Zemun"
 kontakt_telefon: "+381 (0)11 4084 318"
 email: info@ideaps.rs
-googlemaps: ''
+googlemaps: https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9
 website:
   url: https://ideaps.rs/
   label: Link

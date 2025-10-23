@@ -1,5 +1,282 @@
 [
 
+  {
+  "ime": "SINGOR Apatin - Projektovanje i Ugradnja Elektro Instalacija Slabe Struje, Video Nadzor i Alarmni Sistemi",
+  "tip": "Firma",
+  "kategorija": [
+    "Električar",
+    "Video Nadzor", "Alarmni Sistemi",
+    "Projektovanje Elektroinstalacija",
+    "Gromobrani",
+    "Računarske Mreže", "Rasveta"
+  ],
+  "mesto": [
+    "Apatin", "Sombor", "Novi Sad", "Subotica"
+  ],
+  "address": "25.maja, Apatin 25260, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/bhfJPxViVXXPmzxRA",
+  "opis_kratak": "SINGOR Apatin: Lider sa 12+ godina iskustva u projektovanju i ugradnji instalacija slabe struje – video nadzor, alarmni sistemi, računarske mreže, interfonija i gromobrani. Pokrivamo Bački okrug.",
+  "opis_dugi": "SINGOR iz Apatina je vaša referentna tačka za sve instalacije i inženjering sisteme slabe struje. Sa preko 12 godina dokazanog iskustva, naš stručni tim se fokusira na kompletnu uslugu: od detaljnog projektovanja elektroinstalacija (uključujući NN dovod i inteligentne sisteme), preko montaže, do sertifikovanog merenja i puštanja u rad. Spremni smo da preuzmemo manje i srednje projekte za stambene, poslovne i industrijske objekte.",
+  "opis_dugi2": "Naša primarna specijalnost su sigurnosni sistemi: profesionalna ugradnja video nadzora (BNC, IP rešenja), žičnih i bežičnih alarmnih sistema protiv provala i požara, te interfonije. Pored toga, bavimo se projektovanjem i postavljanjem računarskih mreža, telefonskih instalacija (telekomunikacije) i savremenih rešenja za rasvetu. Pristupamo pedantno i stručno, osiguravajući da svi sistemi funkcionišu pouzdano i sigurno.",
+  "opis_dugi3": "Jedan od ključnih segmenata našeg poslovanja obuhvata gromobrane i električna merenja. Radimo kompletnu gromobransku instalaciju, merenja i ateste, kao i projektovanje prenaponske zaštite. Nudimo rešenja i za projekte solarnih elektrana i savete za inteligentne instalacije. Na raspolaganju smo klijentima u Zapadno-bačkom, Severno-bačkom i Južno-bačkom okrugu, garantujući najviši nivo tehničke kompetencije.",
+  "opis_dugi4": "Za sve potrebe u vezi sa telekomunikacijama, bezbednošću i projektovanjem elektroinstalacija, SINGOR je partner kome možete verovati. Pozovite našu stručnu ekipu i uverite se u našu efikasnost i pouzdanost. Stojimo vam na raspolaganju za sve informacije i tehničke konsultacije.",
+  "telefon": "+385 69 779 560",
+  "email": "sinisamedic23@gmail.com",
+  "website": "https://singor.rs/",
+  "slug": "singor-apatin-video-nadzor-alarmni-sistemi-slaba-struja-projektovanje",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/singor-apatin-video-nadzor-alarmni-sistemi-slaba-struja-projektovanje-logo.webp",
+  
+  "services": [
+    {
+      "title": "Video Nadzor i Alarmni Sistemi (Slaba Struja)",
+      "description": "Profesionalna ugradnja i servis bežičnih i žičnih alarmnih sistema protiv provale, BNC/IP video nadzora, sistema protiv uljeza i požarnih senzora. Kompletna bezbednosna rešenja za vaš objekat."
+    },
+    {
+      "title": "Projektovanje i Merenje Elektroinstalacija",
+      "description": "Izrada nacrta elektroinstalacija (NN dovod, slaba struja, pametne instalacije), projektovanje gromobrana i projekt solarnih elektrana. Sertifikovano merenje instalacija i izdavanje atesta."
+    },
+    {
+      "title": "Telekomunikacije i Računarske Mreže",
+      "description": "Postavljanje kompletne telekomunikacione infrastrukture, računarskih mreža (LAN/WAN), interfona i uvođenje instalacija za internet (nacrt za internet). Kabliranje i montaža."
+    },
+    {
+      "title": "Gromobrani i Prenaponska Zaštita",
+      "description": "Ugradnja gromobrana za sve tipove krovova, merenje gromobranskih sistema i ugradnja prenaponske zaštite za kuću. Bezbednost i usklađenost sa propisima."
+    },
+    {
+      "title": "Grube i Fine Elektroinstalacije",
+      "description": "Postavljanje elektro instalacija u individualnim kućama, stanovima, mansardama. Uključuje grubi razvod, polaganje kablova, montažu utičnica i kompletnu obnovu stare elektrike."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko godina iskustva imate u postavljanju sistema slabe struje?",
+      "answer": "Ponosimo se sa više od 12 godina aktivnog iskustva u domenu projektovanja i ugradnje elektroinstalacija slabe struje, što garantuje kvalitet i pouzdanost našeg rada."
+    },
+    {
+      "question": "Koje regije pokrivate za ugradnju video nadzora i alarma?",
+      "answer": "Iako je sedište u Apatinu, naše usluge pružamo u celom regionu, primarno u Zapadno-bačkom, Severno-bačkom i Južno-bačkom okrugu, uključujući Sombor, Suboticu i Novi Sad."
+    },
+    {
+      "question": "Da li projektujete i instalacije za solarnu energiju?",
+      "answer": "Da, radimo na projektovanju instalacija za solarne elektrane i pružamo tehničku podršku u implementaciji obnovljivih izvora energije unutar električne mreže objekta."
+    },
+    {
+      "question": "Da li je obavezno merenje gromobranske instalacije?",
+      "answer": "Jeste. Merenje je zakonski obavezno i ključno je za sigurnost. Mi pružamo sertifikovano merenje gromobranskih sistema i izdajemo ateste neophodne za tehnički prijem objekta."
+    },
+    {
+      "question": "Da li se bavite i telekomunikacionim kabliranjem za firme?",
+      "answer": "Apsolutno. Nudimo kompletno kabliranje i postavljanje računarskih mreža (LAN) i telefonske instalacije za poslovne objekte, osiguravajući brzu i stabilnu komunikaciju."
+    }
+  ]
+},
+
+  {
+  "ime": "Electro Fix Sonta - Sertifikovani Električari za Elektroinstalacije i SMART Kuće",
+  "tip": "Firma",
+  "kategorija": [
+    "Električar",
+    "Elektroinstalacije Novogradnja i Adaptacija",
+    "SMART Kuće i LED Rasveta",
+    "Merenje i Uzemljenje (Atesti)",
+    "Gromobrani i Prenaponska Zaštita",
+    "Električar za Hitne Intervencije"
+  ],
+  "mesto": [
+    "Sonta", "Sombor", "Novi Sad", "Subotica"
+  ],
+  "address": "Jovana Jovanovića Zmaja 21 Apatin Sonta 25222, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/nJXvwk5yhgnJBR4j9",
+  "opis_kratak": "Electro Fix: Tim od 5 mladih, sertifikovanih električara za efikasne i povoljne elektroinstalacije, pametne kuće (SMART), rasvetu i merenja, sa pokrivanjem cele Vojvodine i Beograda.",
+  "opis_dugi": "Electro Fix iz Sonte je specijalizovan za kompletne elektroinstalaterske radove sa fokusom na adaptaciju, sanaciju i novogradnju. Naš tim čine mladi, ali izuzetno iskusni i sertifikovani električari koji garantuju kvalitet, pedantnost i pristupačne cene. Nudimo sveobuhvatne usluge: od grubog razvoda instalacija ('ključ u ruke' sistem), preko ugradnje modernih SMART sistema, do dekorativne i LED rasvete. Poslujemo brzo i efikasno na teritoriji Vojvodine i Beograda.",
+  "opis_dugi2": "U oblasti adaptacije, pristupamo temeljno: detaljna analiza stare instalacije, projektovanje izmena i usklađivanje novih rešenja sa potrebama klijenta. Posebno smo vešti u implementaciji pametnih kućnih instalacija, ugradnji odvodnika prenapona i automatskoj zameni starih razvodnih kutija novim, sigurnijim rešenjima (automatski osigurači i FID sklopke). Naš cilj je vaša sigurnost i funkcionalnost elektro mreže.",
+  "opis_dugi3": "Kao licencirani stručnjaci, vršimo sva neophodna električna merenja (uzemljenje, otpor izolacije, impedansa petlje, RCD/FID sklopke) i izdajemo ateste za gromobranske sisteme, čime garantujemo usklađenost sa zakonskim normama. Ova merenja su ključna za bezbednost vaše kuće ili poslovnog prostora, a mi ih radimo brzo i profesionalno.",
+  "opis_dugi4": "Odaberite Electro Fix zbog dokazanog kvaliteta, transparentnosti cena i tima koji je mlad, ali izuzetno odgovoran i detaljan (prosečna ocena 9.8). Naša konkurentnost leži u kombinaciji vrhunske usluge i najpovoljnijih cena. Kontaktirajte nas za preciznu ponudu za elektro radove, gromobrane ili savremenu rasvetu.",
+  "telefon": "+381621051852",
+  "slug": "elektricar-elektroinstalacije-smart-kuca-rasveta-beograd-vojvodina",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/elektricar-elektroinstalacije-smart-kuca-rasveta-beograd-vojvodina.webp",
+  
+  "services": [
+    {
+      "title": "Kompletne Elektroinstalacije - Novogradnja i Adaptacija",
+      "description": "Profesionalno uvođenje novih i sanacija starih elektroinstalacija u stanovima, kućama i poslovnim objektima. Radimo grubi razvod, montažu cevi, utičnica i prekidača. Garancija na rad i materijal."
+    },
+    {
+      "title": "Ugradnja SMART Kuća i LED/Dekorativne Rasvete",
+      "description": "Specijalizovani smo za implementaciju pametnih kućnih sistema, projektovanje rasvete, ugradnju ugradnih svetiljki, visećih lustera i vodootporne rasvete za kupatila i dvorišta."
+    },
+    {
+      "title": "Gromobrani, Uzemljenja i Prenaponska Zaštita",
+      "description": "Montaža, održavanje i merenje gromobranskih instalacija. Ugradnja odvodnika prenapona i kompletne zaštite za kuću i električne uređaje. Izdavanje atesta."
+    },
+    {
+      "title": "Električna Merenja i Atesti",
+      "description": "Sertifikovano merenje uzemljenja, otpora izolacije, kontinuiteta, impedanse petlje i provera ispravnosti RCD/FID sklopki. Dokumentacija za tehnički prijem objekata."
+    },
+    {
+      "title": "Zamena Osigurača i Hitne Intervencije",
+      "description": "Brza zamena stare razvodne table novom (automatski osigurači i FID sklopke). Hitne popravke kablova, utičnica i sanacija kratkog spoja. Povoljne cene usluga."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koja je cena zamene starih električnih instalacija u stanu?",
+      "answer": "Cena zavisi od kvadrature i kompleksnosti. Pozovite nas za besplatnu analizu postojeće instalacije i neobavezujuću ponudu prilagođenu Vašem budžetu."
+    },
+    {
+      "question": "Da li radite instalacije za SMART Home (pametne kuće)?",
+      "answer": "Apsolutno. Specijalizovani smo za uvođenje instalacija za 'pametne' prekidače, roletne, i rasvetu, omogućavajući Vam potpunu kontrolu nad domom preko mobilne aplikacije."
+    },
+    {
+      "question": "Da li vršite merenje uzemljenja i izdavanje atesta?",
+      "answer": "Da, nudimo uslugu merenja uzemljenja i provere ispravnosti gromobrana. Izdajemo kompletnu dokumentaciju (atest) neophodnu za tehnički pregled objekata i osiguranje."
+    },
+    {
+      "question": "Gde sve pružate usluge električarskih radova?",
+      "answer": "Naš tim pokriva Sontu, Sombor, ceo Zapadnobački okrug, Južno-Bački okrug (Novi Sad) i šire, uključujući i veće projekte u Beogradu."
+    },
+    {
+      "question": "Zašto je važna ugradnja odvodnika prenapona?",
+      "answer": "Odvodnici prenapona štite Vaše skupe elektronske uređaje (TV, računari, SMART oprema) od oštećenja izazvanih udarom groma ili naglim skokovima napona u mreži. Preporučujemo ga za svaki objekat."
+    }
+  ]
+},
+
+  {
+  "ime": "OSTROTHERM Sombor - Pouzdani Izvođač Grejanja, Vodovoda i Toplotnih Pumpi u Vojvodini",
+  "tip": "Firma",
+  "kategorija": ["Centralno Grejanje", "Gasno Grejanje", "Podno Grejanje", "Zidno Grejanje", "Toplotne Pumpe", "Vodoinstalater", "Servis Klima Uređaja", "Gasne Instalacije i Kotlovi na Biomasu"
+  ],
+  "mesto": ["Sombor", "Vojvodina", "Novi Sad", "Subotica", "Zrenjanin", "Bačka Palanka"],
+  "address": "XII Vojvođanske udarne brigade 129, Sombor 25101, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6",
+  "opis_kratak": "OSTROTHERM Sombor – Kompletan projektant i izvođač radova za centralno, podno, gasno grejanje, toplotne pumpe, vodovod i klimatizaciju. Poslujemo na celoj teritoriji Vojvodine.",
+  "opis_dugi": "OSTROTHERM je etablirano preduzeće iz Sombora, specijalizovano za projektovanje, ugradnju i pouzdano servisiranje svih vrsta termotehničkih, vodovodnih i klimatizacionih sistema. Nudimo sveobuhvatna rešenja—od energetski efikasnog podnog grejanja i toplotnih pumpi (vazduh-voda, voda-voda) do gasnih instalacija i montaže kotlova na pelet i biomasu. Naš fokus je na kvalitetu, poštovanju rokova i preciznoj izvedbi, čime osiguravamo dugotrajnu funkcionalnost i energetsku uštedu.",
+  "opis_dugi2": "Kao vodeći izvođači u Somboru i regionu Vojvodine, vršimo profesionalnu instalaciju vodovodnih i kanalizacionih sistema, zamenu starih cevi, montažu sanitarija, te kompletnu uslugu klimatizacije. Bilo da je reč o novogradnji, adaptaciji ili hitnoj popravci, OSTROTHERM garantuje pedantan rad, sigurnost i usklađenost sa svim evropskim standardima. U poslovanju koristimo samo sertifikovane komponente i najmoderniju opremu.",
+  "opis_dugi3": "Naša ponuda je široka i pokriva sve ključne oblasti: Grejanje (centralno, radijatori, zidno grejanje, plinski kotlovi), Toplotne Pumpe (novogradnja i postojeći objekti), Klimatizacija (montaža, servis i ventilacija), i Vodoinstalaterski Radovi (instalacije i odvodna kanalizacija). Posvećeni smo ispunjenju svih zahteva klijenata i predstavljamo garanciju za pouzdanost i profesionalnost širom Vojvodine.",
+  "opis_dugi4": "Kontaktirajte OSTROTHERM Sombor za besplatnu konsultaciju i neobavezujuću ponudu. Uverite se u profesionalnost našeg tima i izaberite nas za partnera koji rešava sve vaše potrebe za grejanjem, vodovodom i klimatizacijom, brzo, tačno i po najpovoljnijim uslovima.",
+  "telefon": "+381611516625",
+  "website": "https://www.instagram.com/ostrotherm/",
+  "slug": "ostortherm-sombor-grejanje-vodovod-toplotne-pumpe-vojvodina",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/ostortherm-sombor-grejanje-vodovod-toplotne-pumpe-vojvodina.webp",
+  "services": [
+    {
+      "title": "Toplotne Pumpe i Grejni Sistemi",
+      "description": "Kompletan servis i ugradnja svih tipova toplotnih pumpi (vazduh-voda, voda-voda, zemlja-voda). Instalacija i održavanje gasnog grejanja, centralnog grejanja, plinskih kotlova i peći na biomasu/pelet. Rešenja za novogradnju i postojeće objekte."
+    },
+    {
+      "title": "Podno i Zidno Grejanje",
+      "description": "Projektovanje i montaža modernog podnog grejanja i estetski prihvatljivog zidnog grejanja (ispod maltera/termo-trakama). Maksimalna energetska efikasnost i optimalan raspored toplote."
+    },
+    {
+      "title": "Vodoinstalaterski i Kanalizacioni Radovi",
+      "description": "Sveobuhvatne vodovodne instalacije, odvodna kanalizacija, postavljanje novih cevi i popravka kvarova. Montaža kada, tuš kabina i sanitarnih elemenata. Brzi i pouzdani vodoinstalateri u Somboru i Vojvodini."
+    },
+    {
+      "title": "Klimatizacija, Ugradnja i Servis Klima",
+      "description": "Montaža, servis i popravka klima uređaja (klasični, inverter, multi-split i podni modeli). Uključujući usluge ventilacije i sistema za prozračivanje. Održavanje za optimalan rad i čistoću vazduha."
+    },
+    {
+      "title": "Gasne Instalacije i Kotlovi",
+      "description": "Stručno izvođenje kompletnih gasnih instalacija. Montaža svih vrsta kotlova, uključujući kombinovane kotlove za drvo i pelet/biomasu."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koje grejne sisteme preporučujete za novogradnju?",
+      "answer": "Za novogradnju najčešće preporučujemo ugradnju toplotnih pumpi u kombinaciji sa podnim grejanjem. To je energetski najefikasnije i dugoročno najisplativije rešenje."
+    },
+    {
+      "question": "Da li OSTROTHERM pokriva samo Sombor ili celu Vojvodinu?",
+      "answer": "OSTROTHERM je baziran u Somboru, ali se naše usluge postavljana grejanja, vodovoda i toplotnih pumpi aktivno pružaju na celoj teritoriji Vojvodine, uključujući Novi Sad i Suboticu."
+    },
+    {
+      "question": "Da li imate iskustva sa toplotnim pumpama voda-voda?",
+      "answer": "Da, specijalizovani smo i za ugradnju i održavanje toplotnih pumpi voda-voda, kao i vazduh-vazduh i vazduh-voda. Posedujemo svu potrebnu opremu i znanje za najkompleksnije sisteme."
+    },
+    {
+      "question": "Koliko traje postavljanje vodovodne instalacije u kupatilu?",
+      "answer": "Za standardno kupatilo, postavljanje kompletne vodovodne i odvodne kanalizacije obično traje 1 do 2 radna dana, zavisno od stanja postojećih instalacija i složenosti projekta."
+    },
+    {
+      "question": "Da li nudite montažu peći na pelet i kombinovanih kotlova?",
+      "answer": "Da, vršimo profesionalnu i brzu montažu peći na pelet i kombinovanih kotlova za drvo i pelet, kao deo naših usluga centralnog grejanja."
+    }
+  ]
+},
+
+  {
+  "ime": "Klima Servis i Podno Grejanje Protocool Sombor",
+  "tip": "firma",
+  "kategorija": ["Klime", "Servis Klima Uređaja", "Ugradnja klime", "Podno grejanje", "Elektroinstalacije", "Električar"],
+  "mesto": ["Sombor", "Čonoplja", "Bački Monoštor", "Kljajićevo", "Gakovo", "Bezdan"],
+  "address": "Jasna Poljana 14,25000 Sombor, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/345uFprTcY5x5xQz9",
+  "opis_kratak": "Protocool Sombor: Vaš ovlašćeni partner za profesionalan servis, montažu, i održavanje inverter klima uređaja i ugradnju energetski efikasnog podnog grejanja u Somboru i okolini.",
+  "opis_dugi": "Protocool Klima Servis i Podno Grejanje je lider u Somboru i Zapadnobačkom okrugu od 2017. godine. Specijalizovani smo za kompletnu uslugu klimatizacije, uključujući prodaju, ugradnju i ovlašćeni servis najnovije generacije inverter klima. Naša misija je pružanje trajnih, energetski efikasnih rešenja za hlađenje i grejanje, uz apsolutnu posvećenost kvalitetu i brzini izvođenja.",
+  "opis_dugi2": "Kao stručnjaci, fokusirani smo na isključivo profesionalnu montažu zidnih, podnih i multi-split sistema klima uređaja, kao i na projektovanje i ugradnju kompletnih sistema podnog grejanja. Uključujemo se u projekte svih veličina—od stambenih objekata do kompleksnih poslovnih prostora—garantujući preciznost i usklađenost sa svim tehničkim standardima. Koristimo samo sertifikovanu opremu i materijale.",
+  "opis_dugi3": "Ponosimo se statusom ovlašćenog servisa za vodeće brendove poput Bergen, Daikin, LG i Gree. Redovnim obukama osiguravamo da je naš tim majstora uvek u toku sa najnovijim tehnologijama. Pored klimatizacije i grejanja, nudimo i kompletne elektroinstalaterske usluge. Naš cilj je vaša dugoročna udobnost i sigurnost, potvrđena brojnim uspešno završenim projektima u Somboru, Čonoplji, Bezdanu i celom Zapadnobačkom okrugu.",
+  "opis_dugi4": "Za personalizovano savetovanje, besplatnu procenu projekta i postprodajnu podršku, kontaktirajte nas direktno. Protocool je sinonim za profesionalnost, poverenje i vrhunsko majstorstvo u Somboru. Uverite se zašto smo prvi izbor za vaš dom ili poslovni prostor.",
+  "telefon": "069 108 18 10",
+  "email": "arbutina.ilija@gmail.com",
+  "website": "https://www.protocool.rs",
+  "slug": "klima-servis-protocool-sombor-klimatizacija-podno-grejanje-elektroinstalacije",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Protocool-sombor-prodaja-i-service-klima-uredjaja-logo.webp",
+  "additional_images": [
+    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/klima-servis-protocool-sombor-klimatizacija-podno-grejanje-elektroinstalacije.webp",
+    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/klima-servis-protocool-sombor.webp"
+  ],
+  "services": [
+    {
+      "title": "Ugradnja klima uređaja",
+      "description": "Pružamo profesionalnu ugradnju klima uređaja za domove, kancelarije i industrijske prostore u Somboru. Od zidnih i podnih modela do prenosnih jedinica, obezbeđujemo brzu i pouzdanu instalaciju uz savetovanje o najboljem rešenju za vaš prostor."
+    },
+    {
+      "title": "Servis i održavanje klime",
+      "description": "Naš tim nudi stručno održavanje i popravku klima uređaja kako bi vaši sistemi radili besprekorno. Redovni servisi produžavaju vek trajanja uređaja i osiguravaju optimalne performanse tokom cele godine."
+    },
+    {
+      "title": "Podno grejanje",
+      "description": "Nudimo projektovanje i ugradnju sistema podnog grejanja za stambene i poslovne objekte u Somboru. Naši stručnjaci osiguravaju energetski efikasna rešenja koja pružaju maksimalnu udobnost i uštedu energije."
+    },
+    {
+      "title": "Kompletne Elektroinstalacije",
+      "description": "Sve elektroinstalaterske usluge, od novih instalacija, zamene starih sistema do montaže utičnica i razvodnih ormara. Pouzdan električar za stambene i poslovne objekte."
+    },
+    {
+      "title": "Savetovanje i projektovanje",
+      "description": "Nudimo stručno savetovanje i projektovanje klimatizacionih i sistema podnog grejanja prilagođenih vašim potrebama. Naš cilj je da obezbedimo energetski efikasna i dugotrajna rešenja za svaki projekat."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koje tipove klima uređaja ugrađujete?",
+      "answer": "Ugrađujemo sve vrste klima uređaja, uključujući zidne, podne i prenosne modele, prilagođene potrebama stambenih, poslovnih i industrijskih prostora u Somboru."
+    },
+    {
+      "question": "Koliko često treba servisirati klima uređaj?",
+      "answer": "Preporučujemo godišnji servis kako bi se osigurale optimalne performanse i dugovečnost uređaja. Naš tim u Somboru pruža brzu i efikasnu uslugu održavanja."
+    },
+    {
+      "question": "Da li vršite ugradnju podnog grejanja za veće objekte?",
+      "answer": "Da, bavimo se ugradnjom podnog grejanja za stambene, poslovne i industrijske objekte. Naši stručnjaci u Zapadnobačkom okrugu obezbeđuju profesionalnu uslugu uz poštovanje svih standarda."
+    },
+    {
+      "question": "Koje marke klima uređaja preporučujete?",
+      "answer": "Radimo sa renomiranim brendovima kao što su Bergen, Daikin, LG i Gree, koji su poznati po svojoj pouzdanosti i energetskoj efikasnosti."
+    },
+    {
+      "question": "Da li pružate usluge i van Sombora (npr. u Bezdanu, Čonoplji)?",
+      "answer": "Da, naše usluge pokrivaju ceo Zapadnobački okrug, uključujući Bezdan, Čonoplju, Bački Monoštor, Kljajićevo, Gakovo i okolna mesta."
+    },
+    {
+      "question": "Kako mogu zakazati termin za hitan servis klime?",
+      "answer": "Za hitne slučajeve i zakazivanje servisa, molimo vas da nas direktno pozovete na 069 108 18 10. Dostupni smo od 08:00 do 20:00, 7 dana u nedelji."
+    }
+  ]
+},
+
 
   {
   "ime": "Interium - Salon nameštaja i stolarska radionica Čantavir",
@@ -138,8 +415,10 @@
   {
   "ime": "Idea Protection System",
   "tip": "firma",
-  "kategorija": ["Alarmi", "Video nadzor", "Sigurnosni sistemi", "Klime"],
+  "kategorija": ["Alarmi", "Video nadzor", "Sigurnosni sistemi", "Servis Klima Uređaja"],
   "mesto": ["Srbija", "Beograd", "Zemun"],
+  "address": " Karlovačka 28, 11080 Zemun",
+  "googlemaps": "https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9",
   "opis_kratak": "Idea Protection System – stručnjaci za alarmne sisteme, video nadzor i klimatizaciju prostora sa preko 25 godina iskustva.",
   "opis_dugi": "Idea Protection System je specijalizovana firma iz Zemuna koja se bavi ugradnjom, prodajom i održavanjem sigurnosnih sistema, video nadzora i klimatizacije. Već više od dve decenije, kompanija obezbeđuje pouzdana i savremena rešenja za zaštitu privatnih i poslovnih objekata širom Srbije.",
   "opis_dugi2": "U ponudi se nalaze alarmni sistemi poznatih brendova kao što su Paradox, Ajax i Hikvision, kao i video nadzorni sistemi Dahua i Hikvision najnovije generacije. Pored prodaje, Idea Protection System nudi kompletnu instalaciju, konfiguraciju i servis sistema, uz garanciju i tehničku podršku.",
@@ -196,6 +475,144 @@
     }
   ]
 },
+
+
+{
+  "ime": "Vodoinstalateri Beograd",
+  "tip": "firma",
+  "kategorija": ["Vodoinstalater", "Hitne intervencije", "Odgušenje kanalizacije", "Adaptacija kupatila", "Popravka bojlera"],
+  "mesto": ["Beograd", "Novi Beograd", "Voždovac", "Zvezdara", "Vračar", "Palilula", "Stari Grad", "Zemun", "Pančevo", "Dedinje", "Dušanovac", "Vidikovac", "Čukarica", "Karaburma", "Mirijevo", "Kaluđerica", "Surčin", "Bežanijska Kosa", "Železnik", "Rakovica", "Borča"],
+  "address": "11160 Beograd, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/w86SrVDjqzYUJsnZ9",
+  "opis_kratak": "Vodoinstalateri Beograd – 35 godina iskustva, dežurni tim vodoinstalatera za hitne intervencije 24h dnevno na teritoriji Beograda i okoline.",
+  "opis_dugi": "Vodoinstalateri Beograd je profesionalni tim sa više od tri decenije iskustva u pružanju svih vrsta vodoinstalaterskih usluga u Beogradu i okolini. Specijalizovani smo za hitne intervencije, odgušenje kanalizacije, zamenu cevi, popravku bojlera, kao i adaptaciju kupatila i kuhinja. Naš cilj je da svaka intervencija bude obavljena brzo, stručno i uz garanciju na kvalitet izvedenih radova.",
+  "opis_dugi2": "Dežurni vodoinstalateri Beograda dostupni su 00–24h, spremni da u najkraćem roku stignu na vašu adresu. U slučaju curenja cevi, zapušenja, poplave ili problema sa bojlerom, naši majstori reaguju odmah, bez odlaganja. Koristimo najsavremenije mašine za odgušenje kanalizacije (VOMA sistemi), kao i kamere za snimanje cevi i detekciju curenja vode.",
+  "opis_dugi3": "Osim hitnih intervencija, pružamo i planirane usluge – od adaptacije kupatila i kuhinja, do zamene sanitarija i održavanja instalacija u domaćinstvima i poslovnim objektima. Naše višegodišnje iskustvo, dostupnost i opremljenost garantuju sigurnost i kvalitet na svakom projektu.",
+  "opis_dugi4": "Naš tim poznat je po brzini, profesionalnosti i pouzdanosti. Na sve izvedene radove izdajemo račun i garanciju. Bilo da vam je potreban hitan dolazak tokom noći ili zakazana intervencija nekoliko dana unapred, možete se osloniti na naš stručni tim. Poslujemo na celoj teritoriji Beograda, uključujući sve gradske opštine i prigradska naselja.",
+  "telefon": "011/407-8-100",
+  "email": "vodoinstalateribgd@gmail.com",
+  "website": "https://www.vodoinstalateribeograd.com",
+  "slug": "vodoinstalateri-beograd-24h-hitne-intervencije",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodoinstalateri-beograd-logo.png",
+  
+  "services": [
+    {
+      "title": "Hitne vodoinstalaterske intervencije 24h",
+      "description": "Dostupni 24 sata dnevno za sve vrste hitnih intervencija – od curenja cevi, pucanja ventila, poplava i zagušenja kanalizacije. Brzo dolazimo na svaku adresu u Beogradu, sa potpunom opremom i profesionalnim pristupom. Na sve intervencije dajemo račun i garanciju."
+    },
+    {
+      "title": "Odgušenje kanalizacije i cevi",
+      "description": "Vrlo efikasno odgušenje kanalizacije, WC šolja, sudopera, slivnika i vertikala. Koristimo mašinsko i VOMA odgušenje pod pritiskom, kao i kamere za snimanje cevi. Usluge dostupne 00–24h sa garancijom na svaku izvršenu intervenciju."
+    },
+    {
+      "title": "Zamena i ugradnja sanitarija",
+      "description": "Ugradnja i zamena lavaboa, WC šolja, tuš kabina, slavina, ventila i sifona svih brendova. Stručna montaža i precizno zaptivanje bez curenja. Preporučujemo najkvalitetniji vodomaterijal i pomažemo u nabavci."
+    },
+    {
+      "title": "Servis i popravka bojlera",
+      "description": "Servisiramo i popravljamo bojlere svih proizvođača. Čišćenje kamenca, zamena grejača, kazana i termostata. Brza dijagnostika i pouzdana popravka sa garancijom."
+    },
+    {
+      "title": "Adaptacija kupatila i kuhinje",
+      "description": "Kompletna adaptacija i renoviranje kupatila i kuhinja. Usluga obuhvata demontažu starih instalacija, ugradnju novih cevi, ventila i sanitarija, kao i završne radove. Sve obavljamo po dogovoru, poštujući rokove i budžet."
+    },
+    {
+      "title": "Detekcija curenja i snimanje cevi kamerom",
+      "description": "Precizno lociranje pukotina i curenja vode bez nepotrebnog razbijanja zidova. Koristimo moderne kamere za inspekciju kanalizacionih i vodovodnih instalacija. Efikasno rešenje za sprečavanje poplava i oštećenja u stanu ili kući."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Da li dolazite i noću?",
+      "answer": "Da, Vodoinstalater Beograd tim je dostupan 00–24h, svakog dana u godini. U slučaju hitne intervencije dolazimo odmah po prijemu poziva."
+    },
+    {
+      "question": "Da li vršite odgušenje kanalizacije u zgradama?",
+      "answer": "Da, vršimo odgušenje vertikala i horizontala u zgradama, kao i individualnih kuća. Koristimo mašine za VOMA odgušenje pod visokim pritiskom."
+    },
+    {
+      "question": "Koliko brzo možete da stignete?",
+      "answer": "Naš tim je organizovan po beogradskim opštinama i stiže na većinu lokacija u roku od 30 do 60 minuta od prijema poziva."
+    },
+    {
+      "question": "Da li izdajete račun i garanciju?",
+      "answer": "Da, na sve naše usluge izdajemo fiskalni račun i pismenu garanciju o kvalitetu izvedenih radova."
+    },
+    {
+      "question": "Da li mogu zakazati termin?",
+      "answer": "Naravno. Pored hitnih intervencija, možete zakazati redovnu uslugu u terminu koji vam najviše odgovara – putem telefona ili e-maila."
+    }
+  ]
+},
+
+
+
+{
+  "ime": "Alarm Plus Sigurnosni Sistemi d.o.o.",
+  "tip": "firma",
+  "kategorija": ["Alarmi", "Video nadzor", "Kontrola pristupa", "Rampe i kapije", "Sigurnosni sistemi"],
+  "mesto": ["Srbija", "Beograd"],
+  "address": "11160 Beograd, Srbija",
+  "googlemaps": "https://maps.app.goo.gl/w86SrVDjqzYUJsnZ9",
+  "opis_kratak": "Alarm Plus Sigurnosni Sistemi – profesionalna rešenja za video nadzor, alarme, rampe i kontrole pristupa širom Srbije.",
+  "opis_dugi": "Alarm Plus Sigurnosni Sistemi d.o.o. je beogradska firma specijalizovana za projektovanje, prodaju, instalaciju i održavanje sistema tehničke zaštite. Kompanija nudi kompletna rešenja za video nadzor, alarmne sisteme, kontrolu pristupa, parking rampe i automatizovane kapije.",
+  "opis_dugi2": "U ponudi se nalaze DVR i IP sistemi za video nadzor renomiranih brendova poput Hikvision i Samsung, kao i anti-vandal i mini kamere za unutrašnju i spoljašnju montažu. Alarmni sistemi su zasnovani na savremenim centralama Paradox i Saturn Home, sa mogućnošću bežične dojave i monitoringa.",
+  "opis_dugi3": "Alarm Plus takođe nudi biometrijske uređaje za kontrolu pristupa, senzore pokreta otporne na lažne alarme, kao i sisteme za automatizaciju pokretnih i kliznih kapija. Svi proizvodi dostupni su sa mogućnošću ugradnje, konfiguracije i garancijom kvaliteta.",
+  "opis_dugi4": "Zahvaljujući stručnom timu i višegodišnjem iskustvu, Alarm Plus obezbeđuje rešenja koja povećavaju bezbednost doma, poslovnog prostora i industrijskih objekata. Kompanija je sinonim za pouzdanost, efikasnost i savremenu tehnologiju sigurnosti.",
+  "telefon": "+381 63 291 881",
+  "email": "office@alarmplus.rs",
+  "website": "https://alarmplus.rs/",
+  "slug": "alarm-plus-sigurnosni-sistemi-beograd",
+  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/alarm-plus-beograd-logo.webp",
+
+  "services": [
+    {
+      "title": "Video nadzorni sistemi",
+      "description": "Instalacija i prodaja IP i analognih video nadzornih sistema sa DVR snimačima, mini i anti-vandal kamerama. U ponudi su i kompletni setovi sa HDD memorijom, napajanjem i kablovima, spremni za montažu."
+    },
+    {
+      "title": "Alarmni sistemi",
+      "description": "Kompletni alarmni sistemi sa centralom, sirenom, senzorima i daljinskim komandama. Ugrađujemo Paradox, Saturn Home i druge pouzdane centrale sa mogućnošću dojave putem telefona i SMS-a."
+    },
+    {
+      "title": "Kontrola pristupa i biometrija",
+      "description": "Uređaji za kontrolu pristupa sa biometrijskim senzorima otiska prsta, LCD ekranom i podrškom za do 1500 korisnika. Idealno rešenje za poslovne objekte, škole i fabrike."
+    },
+    {
+      "title": "Automatizacija kapija i rampi",
+      "description": "Ugradnja motora za krilne i klizne kapije, kao i parking rampi renomiranih brendova kao što je NICE. Kompletni sistemi uključuju centrale, lampe, IC barijere i daljinske komande."
+    },
+    {
+      "title": "Senzori i sigurnosna oprema",
+      "description": "U ponudi su savremeni digitalni senzori pokreta, unutrašnje i spoljne sirene, napajanja i kablovska oprema za proširenje postojećih sigurnosnih sistema."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Da li nudite kompletnu ugradnju video nadzora?",
+      "answer": "Da, naš tim vrši kompletnu instalaciju, povezivanje i konfiguraciju sistema za video nadzor sa mogućnošću praćenja putem mobilnog uređaja."
+    },
+    {
+      "question": "Koje alarmne centrale imate u ponudi?",
+      "answer": "U ponudi su Paradox, Saturn Home i bežične alarmne centrale sa mogućnošću dojave i proširenja sistema."
+    },
+    {
+      "question": "Da li montirate motore za kapije i rampe?",
+      "answer": "Da, montiramo i programiramo motore za krilne i klizne kapije, kao i automatske rampe uz kompletnu prateću opremu."
+    },
+    {
+      "question": "Da li nudite servis i održavanje postojećih sistema?",
+      "answer": "Naravno. Pružamo redovan servis, proveru opreme i ažuriranje sistema bez obzira da li je ugrađen od strane nas ili drugih izvođača."
+    },
+    {
+      "question": "Gde se nalazite i kako mogu da vas kontaktiram?",
+      "answer": "Naša firma se nalazi u Beogradu, a možete nas kontaktirati putem telefona +381 63 291 881 ili email-a office@alarmplus.rs."
+    }
+  ]
+},
+
 
 
 

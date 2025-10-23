@@ -70,7 +70,7 @@ data.each do |majstor|
               when /tiktok\.com/ then 'TikTok'
               when /linkedin\.com/ then 'LinkedIn'
               when /twitter\.com/, /x\.com/ then 'Twitter'
-              else 'Link'
+              else 'Link do sajta'
               end
       { 'url' => url, 'label' => label }
     else
