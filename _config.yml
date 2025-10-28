@@ -47,6 +47,7 @@ defaults:
       path: ""
       type: pages
     values:
+      image: "/ej-majstore-thumbnail-with-logo.webp"
       sitemap:
         lastmod: "2025-10-18"
         priority: 0.8

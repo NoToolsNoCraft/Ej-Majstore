@@ -2,14 +2,290 @@
 layout: default
 ---
 
-<!-- SCHEMA.ORG JSON-LD MARKUP (UNCHANGED) -->
+<!-- ==== PRELOAD HERO IMAGE (CRITICAL FOR LCP) ==== -->
+{% assign hero_img = page.hero_image | default: page.thumbnail %}
+{% if hero_img %}
+<link rel="preload"
+      as="image"
+      href="{{ hero_img | relative_url }}?width=1200&format=webp"
+      imagesrcset="{{ hero_img | relative_url }}?width=1200&format=webp 1200w,
+                  {{ hero_img | relative_url }}?width=800&format=webp 800w,
+                  {{ hero_img | relative_url }}?width=600&format=webp 600w"
+      imagesizes="(max-width: 767px) 90vw, 800px"
+      fetchpriority="high">
+{% endif %}
+
+<!-- ==== META FOR DISCOVER & SOCIAL ==== -->
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="{% if page.discover_title %}{{ page.discover_title }}{% else %}{{ page.title }}{% endif %}">
+<meta property="og:description" content="{{ page.description | truncate: 160 }}">
+{% if hero_img %}
+  <meta property="og:image" content="{{ hero_img | absolute_url }}?width=1200&format=webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ hero_img | absolute_url }}?width=1200&format=webp">
+{% endif %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- ==== DEFERRED CRITICAL CSS (EXTERNAL) ==== -->
+<link rel="stylesheet" 
+      href="{{ '/assets/css/details.min.css' | relative_url }}" 
+      media="print" 
+      onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/details.min.css' | relative_url }}">
+</noscript>
+
+<!-- ==== SAFE IMAGE LOADER (NO INFINITE LOOP) ==== -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('img[data-fallback]').forEach(img => {
+      const fallback = img.getAttribute('data-fallback');
+      img.onerror = function() {
+        if (this.src !== fallback && fallback) {
+          this.src = fallback;
+          this.onerror = null;
+        }
+      };
+    });
+  });
+</script>
+
+<style>
+  .cta-section {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 2px solid #000000;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #0077cc, #005a99);
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 119, 204, 0.3);
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #005a99, #0077cc);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 119, 204, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+</style>
+
+<article class="majstor-story">
+
+  <!-- ==== HERO IMAGE: FULLY OPTIMIZED ==== -->
+  {% if hero_img %}
+    {% assign hero_url = hero_img | relative_url %}
+    <picture>
+      <source 
+        srcset="{{ hero_url }}?width=1200&format=webp 1200w,
+                {{ hero_url }}?width=800&format=webp 800w,
+                {{ hero_url }}?width=600&format=webp 600w"
+        sizes="(max-width: 767px) 90vw, 800px"
+        type="image/webp">
+      <img 
+        src="{{ hero_url }}?width=800&format=webp"
+        alt="{{ page.discover_title | default: page.title }} – hero slika"
+        class="hero-image"
+        width="1200"
+        height="630"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+        data-fallback="/assets/images/fallback-majstor.webp"
+        style="aspect-ratio:1200/630;">
+    </picture>
+  {% endif %}
+
+  <h1 class="page-title">
+    {{ page.discover_title | default: page.title }}
+  </h1>
+
+  {% if page.author %}
+  <div class="author-bio">
+    <p><strong>Napisao:</strong> {{ page.author }} |
+       {{ page.date | default: site.time | date: '%d. %m. %Y' }} |
+       <a href="/o-nama/">O autoru</a></p>
+    <p>{{ page.author_bio | default: 'Ej Majstore! tim istražuje i testira majstore širom Srbije.' }}</p>
+  </div>
+  {% endif %}
+
+  
+
+  <!-- ==== DYNAMIC CONTENT SECTIONS ==== -->
+  {% for s in page.sections %}
+    {% case s.type %}
+      {% when 'h1' %}<h1 class="section-h1">{{ s.content }}</h1>
+      {% when 'h2' %}<h2 class="section-h2">{{ s.content }}</h2>
+      {% when 'h3' %}<h3 class="section-h3">{{ s.content }}</h3>
+      {% when 'p' %}<p class="section-p">{{ s.content | newline_to_br }}</p>
+      {% when 'ul' %}
+        <ul class="section-ul">
+          {% for i in s.items %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+      {% when 'ol' %}
+        <ol class="section-ol">
+          {% for i in s.items %}<li>{{ i }}</li>{% endfor %}
+        </ol>
+
+      {% when 'image' %}
+        {% assign img_url = s.src | relative_url %}
+        <figure class="section-figure">
+          <picture>
+            <source srcset="{{ img_url }}?width=800&format=webp 800w,
+                            {{ img_url }}?width=600&format=webp 600w"
+                    sizes="(max-width: 767px) 90vw, 800px"
+                    type="image/webp">
+            <img 
+              src="{{ img_url }}?width=800"
+              alt="{{ s.alt | default: page.ime }}"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+              style="aspect-ratio:4/3;"
+              data-fallback="/assets/images/fallback-majstor.webp">
+          </picture>
+          {% if s.caption %}
+            <figcaption>{{ s.caption }}</figcaption>
+          {% endif %}
+        </figure>
+
+      {% when 'youtube' %}
+        {% assign video_id = s.id %}
+        
+        <figure class="section-figure youtube-figure">
+          <div class="youtube-wrapper" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/{{ video_id }}?rel=0"
+              title="{{ s.title | default: 'YouTube video' }}"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+            </iframe>
+          </div>
+          {% if s.caption %}
+            <figcaption>{{ s.caption }}</figcaption>
+          {% endif %}
+        </figure>
+
+      {% when 'blockquote' %}
+        <blockquote class="section-blockquote">
+          {{ s.content }}
+        </blockquote>
+    {% endcase %}
+  {% endfor %}
+
+  <!-- ==== TIPS SECTION ==== -->
+  {% if page.tips.size > 0 %}
+  <div class="tips-section">
+    <h3>{{ page.tips_title | default: '5 Praktičnih Saveta' }}</h3>
+    <ul>
+      {% for t in page.tips %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- ==== USLUGE SECTION (original look) ==== -->
+  {% if page.services.size > 0 %}
+  <div style="margin-top:2rem;">
+    <h2 style="font-size:1.6rem;color:#000000;margin-bottom: 2rem;">Usluge</h2>
+    {% for srv in page.services %}
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border: 1px solid black;">
+      <h3 style="margin:0 0 .5rem;color:#1F2A44;">{{ srv.title }}</h3>
+      <p style="margin:0;color:#555;">{{ srv.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- ==== FAQ SECTION (original look) ==== -->
+  {% if page.faq.size > 0 %}
+  <div style="margin-top:2.5rem;">
+    <h2 style="font-size:1.6rem;color:#1F2A44;margin-bottom: 2rem;">Često postavljana pitanja</h2>
+    {% for q in page.faq %}
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        {{ q.question }} <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">{{ q.answer }}</p></div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- ==== SHARE BUTTONS ==== -->
+  <div class="share-section">
+    <p>Podeli Izvođača sa drugima:</p>
+    <a href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
+       target="_blank" rel="noopener" class="share-btn whatsapp">WhatsApp</a>
+    <a href="viber://forward?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}"
+       class="share-btn viber">Viber</a>
+    <a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}&text={{ page.title | uri_escape }}" 
+       target="_blank" rel="noopener" class="share-btn telegram">Telegram</a>
+  </div>
+
+
+  <div class="cta-section">
+    <a href="/izvodjaci" class="cta-button">
+      📖 Pogledajte druge izvođače
+    </a>
+  </div>
+
+</article>
+
+
+
+<!-- Article Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{% if page.discover_title %}{{ page.discover_title }}{% else %}{{ page.title }}{% endif %}",
+  "description": "{{ page.description | truncate: 250 }}",
+  {% if hero_img %}
+  "image": "{{ hero_img | absolute_url }}?width=1200&format=webp",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: 'Ej Majstore! Tim' }}",
+    "url": "https://ejmajstore.rs/author/{{ page.author_slug | default: 'team' }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ej Majstore!",
+    "logo": { "@type": "ImageObject", "url": "https://ejmajstore.rs/assets/logo.png" }
+  },
+  "datePublished": "{{ page.date | default: site.time | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ page.last_modified | default: site.time | date: '%Y-%m-%d' }}",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
+}
+</script>
+
+<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "{{ page.ime | escape }}",
-  "description": "{% assign opis_fields = 'opis_dugi,opis_dugi2,opis_dugi3,opis_dugi4,opis_dugi5' | split: ',' %}{% for field in opis_fields %}{% assign opis_value = page[field] %}{% if opis_value != nil and opis_value != '' %}{{ opis_value }}{% unless forloop.last %} {% endunless %}{% endif %}{% endfor %}",
-  "image": "{{ page.image | absolute_url }}",
+  "description": "{{ page.description | strip }}",
+  {% if page.thumbnail %}
+  "image": "{{ page.thumbnail | absolute_url }}?width=800&format=webp",
+  {% endif %}
   "url": "{{ page.url | absolute_url }}",
   "telephone": "{{ page.kontakt_telefon | strip | escape }}",
   "email": "{{ page.email | strip | escape }}",
@@ -28,420 +304,38 @@ layout: default
   "openingHours": "Mo-Su 08:00-20:00",
   "priceRange": "$$",
   "areaServed": [
-    {% for mesto in page.mesto | split: ', ' %}
-    "{{ mesto | strip | escape }}"
-    {% unless forloop.last %},{% endunless %}
-    {% endfor %}
+    {% for m in page.mesto | split: ', ' %}"{{ m | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}
   ]
   {% if page.services.size > 0 %}
-    ,
-    "makesOffer": [
-      {% for service in page.services %}
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "{{ service.title | escape }}",
-          "description": "{{ service.description | escape }}"
-        }
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
+  ,"makesOffer": [
+    {% for s in page.services %}
+    { "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "{{ s.title | escape }}",
+        "description": "{{ s.description | escape }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
   {% endif %}
 }
 </script>
 
+<!-- FAQ Schema -->
 {% if page.faq.size > 0 %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {% for item in page.faq %}
-    {
-      "@type": "Question",
-      "name": "{{ item.question | escape }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ item.answer | escape }}"
-      }
+    {% for f in page.faq %}
+    { "@type": "Question",
+      "name": "{{ f.question | escape }}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{ f.answer | escape }}" }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
 }
 </script>
 {% endif %}
-
-<style>
-  @media (min-width: 768px) {
-    section {
-      flex-wrap: wrap;
-      
-      gap: 24px;
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  @media (max-width: 767px) {
-    section {
-      display: block;
-    }
-  }
-  /* Services Styles */
-  .services-section { margin-top: 2rem; }
-  .service-block {
-    background: transparent;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    border: 4px solid #007bff;
-  }
-  .service-block h3 { margin: 0 0 0.5rem 0; color: #007bff; }
-  .service-block p { margin: 0; color: #555; }
-  .section-divider {
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #007bff, transparent);
-    margin: 2rem 0;
-    border: none;
-  }
-  /* Header Row Styles */
-  .header-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1rem 0;
-    flex-wrap: wrap;
-  }
-  .majstor-image {
-    border-radius: 8px;
-    object-fit: cover;
-    flex-shrink: 0;
-  }
-  .header-row h1 {
-    margin: 0;
-    text-align: center;
-    min-width: 200px;
-  }
-  @media (max-width: 480px) {
-    .header-row { flex-direction: column; gap: 0.5rem; }
-  }
-  /* FAQ Styles */
-  .faq-section {
-    margin-top: 2rem;
-  }
-  .faq-item {
-    background: transparent;
-    margin-bottom: 1rem;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .faq-question {
-    background: #007bff;
-    color: white;
-    padding: 1rem 1.5rem;
-    margin: 0;
-    cursor: pointer;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .faq-answer {
-    padding: 1rem 1.5rem;
-    margin: 0;
-    display: none;
-    background: #f8f9fa;
-  }
-  .faq-answer.show { display: block; }
-  .faq-toggle {
-    font-size: 1.2rem;
-    transition: transform 0.2s;
-  }
-  .faq-toggle.rotated { transform: rotate(45deg); }
-  /* Share Section */
-  .share-section {
-    text-align: center;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 2px solid #000000;
-  }
-  .share-section p {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  .share-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .share-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.7rem 1.2rem;
-    border-radius: 50px;
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  .share-btn i {
-    font-size: 1.2em;
-  }
-  .share-btn.whatsapp { background-color: #25D366; }
-  .share-btn.viber { background-color: #7360F2; }
-  .share-btn.telegram { background-color: #0088cc; }
-  .share-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  }
-  /* Address Button Styles */
-  .address-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: background 0.3s ease, transform 0.2s ease;
-    border: 2px solid #004085;
-    
-  }
-  .address-btn i {
-    font-size: 1.1em;
-  }
-
-  /* Icon Styles for Details */
-  .detail-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .detail-item svg {
-    width: 20px;
-    height: 20px;
-    fill: #007bff;
-    flex-shrink: 0;
-  }
-  .detail-item strong {
-    
-    color: #333;
-  }
-</style>
-
-<section class="majstor-profil">
-  <a href="{{ '/izvodjaci/' | relative_url }}" class="back-button" aria-label="Nazad na pretragu izvođača">← Nazad na pretragu izvođača</a>
-  <div class="header-row">
-    {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.ime }} logo" class="majstor-image">
-    {% endif %}
-    <h1>{{ page.ime }}</h1>
-  </div>
-  <hr class="section-divider">
-  
-  <div class="majstor-details">
-
-    <div class="detail-item">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
-    </svg>
-    <strong>Kategorija:</strong> {{ page.kategorija | join: ', ' }}
-  </div>
-
-    <div class="detail-item">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zm-2-6h-4v4h4v-4zm-6 0H7v4h4v-4zm0-6H7v4h4V7zm6 0h-4v4h4V7z"/>
-      </svg>
-      <strong>Mesto:</strong> {{ page.mesto }}
-    </div>
-    
-    <div class="detail-item">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-      </svg>
-      <strong>Adresa:</strong>
-      {% if page.address != 'Nema dostupnu adresu' %}
-        {{ page.address }}
-        {% if page.googlemaps and page.googlemaps != '' %}
-          <a href="{{ page.googlemaps | escape }}"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="address-btn"
-             aria-label="Otvori {{ page.address }} u Google Maps">
-            <i class="fa-solid fa-map-marker-alt"></i> Vidi na mapi
-          </a>
-        {% else %}
-          <a href="https://www.google.com/maps/place/{{ page.address | uri_escape }}"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="address-btn"
-             aria-label="Otvori {{ page.address }} u Google Maps">
-            <i class="fa-solid fa-map-marker-alt"></i> Vidi na mapi
-          </a>
-        {% endif %}
-      {% else %}
-        Nema dostupnu adresu
-      {% endif %}
-    </div>
-
-    <div class="detail-item">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.2 2.2z"/>
-      </svg>
-      <strong>Kontakt telefon:</strong>
-      {% if page.kontakt_telefon != 'Nema dostupan kontakt' and page.kontakt_telefon != '' %}
-        <a href="tel:{{ page.kontakt_telefon }}" aria-label="Pozovi {{ page.ime }}">{{ page.kontakt_telefon }}</a>
-      {% else %}
-        Nema dostupan kontakt
-      {% endif %}
-    </div>
-    <div class="detail-item">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-      </svg>
-      <strong>Email:</strong>
-      {% if page.email != 'Nema dostupan email' and page.email != '' %}
-        <a href="mailto:{{ page.email }}" aria-label="Pošalji email na {{ page.email }}">{{ page.email }}</a>
-      {% else %}
-        Nema dostupan email
-      {% endif %}
-    </div>
-    <div class="detail-item">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-      </svg>
-      <strong>Website:</strong>
-      {% if page.website != 'Nema dostupan website' %}
-        {% assign url = page.website.url | default: page.website %}
-        {% assign label = page.website.label | default: 'Link do sajta' %}
-        <a href="{{ url | escape }}" target="_blank" rel="noopener noreferrer">{{ label }}</a>
-      {% else %}
-        Nema dostupan website
-      {% endif %}
-    </div>
-    <hr class="section-divider">
-    <h2>O nama</h2>
-    {% assign opis_fields = 'opis_dugi,opis_dugi2,opis_dugi3,opis_dugi4,opis_dugi5' | split: ',' %}
-    {% for field in opis_fields %}
-      {% assign opis_value = page[field] %}
-      {% if opis_value != nil and opis_value != '' and opis_value != 'Nema detaljan opis' %}
-        <p>{{ opis_value }}</p>
-      {% endif %}
-    {% endfor %}
-    {% unless page.detaljan_opis %}
-      <p>Nema detaljan opis</p>
-    {% endunless %}
-    <hr class="section-divider">
-  </div>
-  {% if page.services.size > 0 %}
-  <div class="services-section">
-    <h2 style="margin-bottom: 1rem;">Usluge</h2>
-    {% for service in page.services %}
-    <div class="service-block">
-      <h3>{{ service.title }}</h3>
-      <p>{{ service.description }}</p>
-    </div>
-    {% endfor %}
-  </div>
-  <hr class="section-divider">
-  {% endif %}
-  {% if page.additional_images.size > 0 %}
-  <div class="additional-images">
-    <h2>Galerija</h2>
-    <div class="image-grid">
-      {% for img in page.additional_images %}
-        {% assign img_url = img %}
-        {% unless img contains 'http' %}
-          {% assign img_url = img | relative_url %}
-        {% endunless %}
-        <img src="{{ img_url }}"
-             alt="{{ page.ime }} - Galerija slika"
-             class="gallery-image"
-             onclick="openModal('{{ img_url }}')">
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
-  {% if page.faq.size > 0 %}
-  <hr class="section-divider">
-  <div class="faq-section">
-    <h2 style="margin-bottom: 2rem;">Često Postavljana Pitanja</h2>
-    {% for item in page.faq %}
-    <div class="faq-item">
-      <h3 class="faq-question" onclick="toggleFAQ(this)">
-        {{ item.question }}
-        <span class="faq-toggle">+</span>
-      </h3>
-      <div class="faq-answer">
-        <p>{{ item.answer }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-  <div class="share-section">
-    <p>Podelite izvođača sa drugima:</p>
-    <div class="share-buttons">
-      <a
-        href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="share-btn whatsapp"
-      >
-        <i class="fa-brands fa-whatsapp"></i> WhatsApp
-      </a>
-      <a
-        href="viber://forward?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}"
-        class="share-btn viber"
-      >
-        <i class="fa-brands fa-viber"></i> Viber
-      </a>
-      <a
-        href="https://t.me/share/url?url={{ site.url }}{{ page.url }}&text={{ page.title | uri_escape }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="share-btn telegram"
-      >
-        <i class="fa-brands fa-telegram"></i> Telegram
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Modal for enlarged images -->
-<div id="imageModal" class="modal">
-  <span class="close" onclick="closeModal()">&times;</span>
-  <img class="modal-content" id="modalImage">
-</div>
-
-<script>
-  function openModal(src) {
-    const modal = document.getElementById('imageModal');
-    const modalImg = document.getElementById('modalImage');
-    modal.style.display = 'flex';
-    modalImg.src = src;
-  }
-  function closeModal() {
-    document.getElementById('imageModal').style.display = 'none';
-  }
-  window.onclick = function(event) {
-    const modal = document.getElementById('imageModal');
-    if (event.target === modal) modal.style.display = 'none';
-  };
-  function toggleFAQ(element) {
-    const answer = element.nextElementSibling;
-    const toggle = element.querySelector('.faq-toggle');
-    answer.classList.toggle('show');
-    toggle.classList.toggle('rotated');
-  }
-</script>

@@ -4,9 +4,8 @@ title: Interium - Salon nameštaja i stolarska radionica Čantavir - Nameštaj, 
   Enterijer, Dekoracija doma u Čantavir, Bačko Dušanovo, Tornjoš, Višnjevac, Senta,
   Subotica
 description: Interium Čantavir – salon nameštaja i stolarska radionica specijalizovana
-  za izradu unikatnog nameštaja po meri i uređenje enterijera. Pronađite Interium
-  - Salon nameštaja i stolarska radionica Čantavir za Nameštaj, Stolarija, Enterijer,
-  Dekoracija doma usluge u Čantavir, Bačko Dušanovo, Tornjoš, Višnjevac, Senta, Subotica.
+  za izradu unikatnog nameštaja po meri i uređenje enterijera. u Čantavir, Bačko Dušanovo,
+  Tornjoš, Višnjevac, Senta, Subotica.
 ime: Interium - Salon nameštaja i stolarska radionica Čantavir
 kategorija:
 - Nameštaj
@@ -21,51 +20,20 @@ googlemaps: https://maps.app.goo.gl/AVWUEThQkYzEWAoK6
 website:
   url: https://www.facebook.com/p/Interium-100088320567844/
   label: Facebook
-opis_dugi: Interium je porodična stolarska radionica i salon nameštaja iz Čantavira,
-  poznata po kvalitetnoj izradi i modernom dizajnu nameštaja po meri. Kompaniju vodi
-  Atila Homolja, sa višegodišnjim iskustvom u izradi kuhinja, plakara, komoda, stolova
-  i drugih elemenata koji savršeno spajaju funkcionalnost i estetiku. Svaki komad
-  nameštaja izrađuje se prema željama klijenta, uz pažljivo odabrane materijale i
-  besprekoran završni rad.
-opis_dugi2: Interium nudi kompletne usluge opremanja prostora – od idejnog dizajna
-  i merenja, preko 3D prikaza, do završne montaže u domu ili poslovnom prostoru. Njihova
-  ponuda obuhvata izradu kuhinjskog, kancelarijskog, spavaćeg i dnevnog nameštaja,
-  kao i ugradne plakare i dekorativne elemente koji oplemenjuju svaki enterijer. Poseban
-  akcenat stavljen je na moderni minimalistički stil i preciznost izrade.
-opis_dugi3: Kombinacijom tradicionalnog stolarskog umeća i savremene tehnologije,
-  Interium ostvaruje visok standard kvaliteta i trajnosti. Materijali koje koriste
-  – poput oplemenjenih iverica, MDF ploča i prirodnog furnira – obezbeđuju dug vek
-  trajanja i lako održavanje. Klijenti cene njihov profesionalan pristup, poštovanje
-  rokova i mogućnost potpunog prilagođavanja svakog projekta individualnim potrebama.
-opis_dugi4: Interium sarađuje sa domaćim i regionalnim kupcima, a posebno je poznat
-  po izradi kuhinja po meri za stambene prostore i apartmane. Sa radnim vremenom od
-  ponedeljka do petka od 7:00 do 15:00, radionica je otvorena za konsultacije i dogovore
-  sa klijentima koji traže pouzdanog majstora i originalna rešenja za svoj dom. Interium
-  spaja kvalitetnu izradu, savremeni dizajn i prijateljski pristup svakoj mušteriji.
-opis_dugi5: ''
-detaljan_opis: Interium je porodična stolarska radionica i salon nameštaja iz Čantavira,
-  poznata po kvalitetnoj izradi i modernom dizajnu nameštaja po meri. Kompaniju vodi
-  Atila Homolja, sa višegodišnjim iskustvom u izradi kuhinja, plakara, komoda, stolova
-  i drugih elemenata koji savršeno spajaju funkcionalnost i estetiku. Svaki komad
-  nameštaja izrađuje se prema željama klijenta, uz pažljivo odabrane materijale i
-  besprekoran završni rad. Interium nudi kompletne usluge opremanja prostora – od
-  idejnog dizajna i merenja, preko 3D prikaza, do završne montaže u domu ili poslovnom
-  prostoru. Njihova ponuda obuhvata izradu kuhinjskog, kancelarijskog, spavaćeg i
-  dnevnog nameštaja, kao i ugradne plakare i dekorativne elemente koji oplemenjuju
-  svaki enterijer. Poseban akcenat stavljen je na moderni minimalistički stil i preciznost
-  izrade. Kombinacijom tradicionalnog stolarskog umeća i savremene tehnologije, Interium
-  ostvaruje visok standard kvaliteta i trajnosti. Materijali koje koriste – poput
-  oplemenjenih iverica, MDF ploča i prirodnog furnira – obezbeđuju dug vek trajanja
-  i lako održavanje. Klijenti cene njihov profesionalan pristup, poštovanje rokova
-  i mogućnost potpunog prilagođavanja svakog projekta individualnim potrebama. Interium
-  sarađuje sa domaćim i regionalnim kupcima, a posebno je poznat po izradi kuhinja
-  po meri za stambene prostore i apartmane. Sa radnim vremenom od ponedeljka do petka
-  od 7:00 do 15:00, radionica je otvorena za konsultacije i dogovore sa klijentima
-  koji traže pouzdanog majstora i originalna rešenja za svoj dom. Interium spaja kvalitetnu
-  izradu, savremeni dizajn i prijateljski pristup svakoj mušteriji.
 slug: interium-cantavir-namestaj-po-meri-enterijer
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Interium%20-%20Salon%20name%C5%A1taja%20i%20stolarska%20radionica%20%C4%8Cantavir.webp
-additional_images: []
+thumbnail:
+hero_image:
+discover_title:
+author: Ej Majstore! Tim
+author_slug: team
+author_bio:
+date: '2025-10-28'
+last_modified: '2025-10-28'
+sections:
+- type: h1
+  content: Interium - Salon nameštaja i stolarska radionica Čantavir – Nameštaj, Stolarija,
+    Enterijer, Dekoracija doma u Čantavir, Bačko Dušanovo, Tornjoš, Višnjevac, Senta,
+    Subotica
 services:
 - title: Izrada kuhinja po meri
   description: Interium izrađuje kuhinje po meri koje kombinuju moderan dizajn, funkcionalnost
@@ -103,5 +71,7 @@ faq:
 - question: Koje je radno vreme Interium radionice?
   answer: Radimo od ponedeljka do petka, od 7:00 do 15:00 časova. Subotom i nedeljom
     radionica je zatvorena.
+tips: []
+tips_title:
 permalink: "/izvodjaci/cantavir/interium-cantavir-namestaj-po-meri-enterijer/"
 ---

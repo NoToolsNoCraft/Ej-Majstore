@@ -3,8 +3,7 @@ layout: majstor_profil
 title: Doka Srbija - Oplate, Skele, Inženjering, Građevinska oprema u Srbija, Šimanovci,
   Beograd, Novi Sad
 description: Doka Srbija – svetski lider u oplatnim sistemima, skelama i inženjerskim
-  rešenjima za građevinsku industriju. Pronađite Doka Srbija za Oplate, Skele, Inženjering,
-  Građevinska oprema usluge u Srbija, Šimanovci, Beograd, Novi Sad.
+  rešenjima za građevinsku industriju. u Srbija, Šimanovci, Beograd, Novi Sad.
 ime: Doka Srbija
 kategorija:
 - Oplate
@@ -18,55 +17,20 @@ email: serb@doka.com
 googlemaps: https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9
 website:
   url: https://www.doka.com/rs/index
-  label: Link
-opis_dugi: Doka Srbija je deo međunarodne Doka grupacije, poznate po razvoju i proizvodnji
-  inovativnih oplata, skela i inženjerskih rešenja koja unapređuju građevinsku efikasnost
-  širom sveta. Kao kompanija sa dugogodišnjim iskustvom, Doka postavlja standarde
-  u pogledu sigurnosti, brzine i preciznosti izvođenja radova na svim tipovima projekata
-  – od stambene gradnje do velikih infrastrukturnih poduhvata.
-opis_dugi2: Naša rešenja obuhvataju širok asortiman oplata za zidove, stubove, ploče
-  i penjuće konstrukcije, kao i visokokvalitetne sisteme nosećih i fasadnih skela.
-  Svaki Doka proizvod projektovan je da omogući brzu montažu, dug vek trajanja i maksimalnu
-  bezbednost na gradilištu. Inovativni pristup i napredne tehnologije, poput digitalnog
-  planiranja i automatizovanog upravljanja projektima, čine Doku pouzdanim partnerom
-  svakog izvođača.
-opis_dugi3: Doka Srbija nudi i sveobuhvatnu tehničku podršku – od planiranja i statičkih
-  proračuna do obuke i nadzora na terenu. Naš tim inženjera koristi moderne digitalne
-  alate i 3D modele za precizno planiranje, čime se postiže optimalna upotreba materijala
-  i ušteda vremena. Dodatno, kroz platforme kao što su DokaXdek i Concremote, obezbeđujemo
-  napredne alate za digitalno praćenje i kontrolu betona u realnom vremenu.
-opis_dugi4: Kao deo Umdasch grupacije, Doka posluje u više od 50 zemalja, sa preko
-  160 lokacija širom sveta, što garantuje globalno iskustvo i lokalnu dostupnost.
-  U Srbiji, sedište kompanije nalazi se u Šimanovcima, odakle se pruža podrška svim
-  domaćim projektima. Doka sistemi su već deo brojnih značajnih objekata u zemlji
-  – od mostova i tunela do modernih poslovnih i stambenih kompleksa. Sa Dokom, gradnja
-  postaje sigurnija, brža i ekonomičnija.
-opis_dugi5: ''
-detaljan_opis: Doka Srbija je deo međunarodne Doka grupacije, poznate po razvoju i
-  proizvodnji inovativnih oplata, skela i inženjerskih rešenja koja unapređuju građevinsku
-  efikasnost širom sveta. Kao kompanija sa dugogodišnjim iskustvom, Doka postavlja
-  standarde u pogledu sigurnosti, brzine i preciznosti izvođenja radova na svim tipovima
-  projekata – od stambene gradnje do velikih infrastrukturnih poduhvata. Naša rešenja
-  obuhvataju širok asortiman oplata za zidove, stubove, ploče i penjuće konstrukcije,
-  kao i visokokvalitetne sisteme nosećih i fasadnih skela. Svaki Doka proizvod projektovan
-  je da omogući brzu montažu, dug vek trajanja i maksimalnu bezbednost na gradilištu.
-  Inovativni pristup i napredne tehnologije, poput digitalnog planiranja i automatizovanog
-  upravljanja projektima, čine Doku pouzdanim partnerom svakog izvođača. Doka Srbija
-  nudi i sveobuhvatnu tehničku podršku – od planiranja i statičkih proračuna do obuke
-  i nadzora na terenu. Naš tim inženjera koristi moderne digitalne alate i 3D modele
-  za precizno planiranje, čime se postiže optimalna upotreba materijala i ušteda vremena.
-  Dodatno, kroz platforme kao što su DokaXdek i Concremote, obezbeđujemo napredne
-  alate za digitalno praćenje i kontrolu betona u realnom vremenu. Kao deo Umdasch
-  grupacije, Doka posluje u više od 50 zemalja, sa preko 160 lokacija širom sveta,
-  što garantuje globalno iskustvo i lokalnu dostupnost. U Srbiji, sedište kompanije
-  nalazi se u Šimanovcima, odakle se pruža podrška svim domaćim projektima. Doka sistemi
-  su već deo brojnih značajnih objekata u zemlji – od mostova i tunela do modernih
-  poslovnih i stambenih kompleksa. Sa Dokom, gradnja postaje sigurnija, brža i ekonomičnija.
+  label: Link do sajta
 slug: doka-srbija-oplate-skele-inzenjering
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-srbija-logo.webp
-additional_images:
-- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-sistem-oplate-i-skela.webp
-- https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/oplate-i-skele-doka-srbija.webp
+thumbnail:
+hero_image:
+discover_title:
+author: Ej Majstore! Tim
+author_slug: team
+author_bio:
+date: '2025-10-28'
+last_modified: '2025-10-28'
+sections:
+- type: h1
+  content: Doka Srbija – Oplate, Skele, Inženjering, Građevinska oprema u Srbija,
+    Šimanovci, Beograd, Novi Sad
 services:
 - title: Oplatni sistemi
   description: Doka nudi širok izbor oplata za zidove, ploče, stubove i penjuće konstrukcije,
@@ -113,5 +77,7 @@ faq:
   answer: Concremote je Doka digitalni sistem za praćenje zrelosti i čvrstoće betona
     u realnom vremenu. Omogućava preciznu kontrolu kvaliteta i značajno ubrzava proces
     gradnje.
+tips: []
+tips_title:
 permalink: "/izvodjaci/srbija/doka-srbija-oplate-skele-inzenjering/"
 ---

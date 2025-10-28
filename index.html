@@ -5,115 +5,7 @@ description: Pronađite pouzdane majstore i firme za vodoinstalaterske, elektri�
 ---
 
 <style>
-/* Stilovi za dugmad kategorija */
-.kategorija-button i {
-  margin-right: 8px;
-  color: #0077cc;
-  transition: color 0.2s ease;
-}
 
-.kategorija-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: 8px;
-  background-color: #f3f3f3;
-  text-decoration: none;
-  color: #333;
-  transition: background-color 0.2s ease, color 0.2s ease;
-  flex: 1;
-  min-width: 0;
-  /* ✅ CENTERED CONTENT */
-  justify-content: center !important;
-  text-align: center !important;
-  margin: 4px;
-  display: inline-flex !important;
-}
-
-.kategorija-button:hover {
-  background-color: #0077cc;
-  color: white;
-}
-
-.kategorija-button:hover i {
-  color: white;
-}
-
-/* ✅ IRONCLAD: Kategorije Buttons Container */
-.kategorije-buttons {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 8px !important;
-  justify-content: center !important;
-  margin: 1rem 0 !important;
-  flex-direction: row !important;
-  width: 100% !important;
-  padding: 0 4px !important;
-}
-
-/* ✅ MOBILE: FORCE 2 BUTTONS PER ROW + CENTERED */
-@media (max-width: 767px) {
-  .kategorije-buttons {
-    flex-direction: row !important;
-    justify-content: center !important;
-    gap: 5px !important;
-    
-  }
-  
-  .kategorija-button {
-    flex: 1 1 calc(50% - 8px) !important;
-    max-width: calc(50% - 8px) !important;
-    width: calc(50% - 8px) !important;
-    min-width: calc(50% - 8px) !important;
-    padding: 14px 10px !important;
-    font-size: 0.8em !important;
-    margin: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    /* ✅ CENTERED CONTENT ON MOBILE */
-    justify-content: center !important;
-    text-align: center !important;
-    box-sizing: border-box !important;
-    flex-wrap: nowrap !important;
-  }
-}
-
-/* TABLET: 3 BUTTONS PER ROW + CENTERED */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .kategorije-buttons {
-    flex-direction: row !important;
-    gap: 8px !important;
-  }
-  
-  .kategorija-button {
-    flex: 1 1 calc(33.333% - 10px) !important;
-    max-width: calc(33.333% - 10px) !important;
-    padding: 12px 12px !important;
-    margin: 0 !important;
-    /* ✅ CENTERED CONTENT ON TABLET */
-    justify-content: center !important;
-    text-align: center !important;
-  }
-}
-
-/* DESKTOP: 4 BUTTONS PER ROW + CENTERED */
-@media (min-width: 1025px) {
-  .kategorije-buttons {
-    flex-direction: row !important;
-    gap: 8px !important;
-  }
-  
-  .kategorija-button {
-    flex: 1 1 calc(25% - 10px) !important;
-    max-width: calc(25% - 10px) !important;
-    padding: 12px 14px !important;
-    margin: 0 !important;
-    /* ✅ CENTERED CONTENT ON DESKTOP */
-    justify-content: center !important;
-    text-align: center !important;
-  }
-}
 
 @media (min-width: 768px) {
   section {
@@ -177,11 +69,109 @@ description: Pronađite pouzdane majstore i firme za vodoinstalaterske, elektri�
     flex: 1;
   }
 }
+
+
+/* ============================================================= */
+/*  PRO-STYLE CATEGORY GRID – scoped to .kategorije-pro        */
+/* ============================================================= */
+.kategorije-pro {
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-primary: #009de0;      /* Wolt blue */
+  --color-primary-dark: #0081b8;
+  --color-accent: #ff5e62;       /* Wolt coral */
+  --color-accent-dark: #e64448;
+  --color-text: #1f2a44;
+  --color-muted: #6b7280;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --shadow-sm: 0 2px 6px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.08);
+  --transition: all .2s ease;
+  padding: 0 5px;
+}
+
+/* ---- container ------------------------------------------------ */
+.kategorije-pro .kategorije-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: .75rem;
+  margin-top: 1rem;
+}
+
+/* ---- button --------------------------------------------------- */
+.kategorije-pro .kategorija-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 1rem .75rem;
+  background: var(--color-surface);
+  border: 3px double #000000;
+  border-radius: 40px;
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: .9rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.kategorije-pro .kategorija-button i {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+}
+.kategorije-pro .kategorija-button:hover {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.kategorije-pro .kategorija-button:hover i { color: #fff; }
+
+/* ---- CTA ------------------------------------------------------ */
+.kategorije-pro .cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .85rem 1.75rem;
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  margin-top: 1.5rem;
+}
+.kategorije-pro .cta:hover {
+  background: var(--color-accent-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* ---- responsive grid ------------------------------------------ */
+@media (max-width: 767px) {
+  .kategorije-pro .kategorije-buttons { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .kategorije-pro .kategorije-buttons { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1025px) {
+  .kategorije-pro .kategorije-buttons { grid-template-columns: repeat(4, 1fr); }
+}
+
+
+
 </style>
 
 
 <section>
-  <h2>Pronađite Najbolje Majstore i Firme u Srbiji</h2>
+  <h1 style="margin-top: 2rem;">Pronađite Najbolje Majstore i Firme u Srbiji</h1>
 
   <div class="features-container">
     <div class="feature-block">
@@ -207,10 +197,10 @@ description: Pronađite pouzdane majstore i firme za vodoinstalaterske, elektri�
 
 
 
-<section class="kategorije">
-  <h2 style="margin-top: 1rem;">Kategorije poslova</h2>
-  <hr class="section-divider">
+<section class="kategorije kategorije-pro">   <!-- add .kategorije-pro -->
+  <h2 style="margin-top: 8rem;">Kategorije poslova</h2>
   
+
   <div class="kategorije-buttons">
     <a href="{{ '/izvodjaci/?kategorija=Vodoinstalater' | relative_url }}" class="kategorija-button"><i class="fa-solid fa-faucet"></i> Vodoinstalater</a>
     <a href="{{ '/izvodjaci/?kategorija=Renoviranje kupatila' | relative_url }}" class="kategorija-button"><i class="fa-solid fa-bath"></i> Renoviranje kupatila</a>
@@ -250,15 +240,15 @@ description: Pronađite pouzdane majstore i firme za vodoinstalaterske, elektri�
     <a href="{{ '/izvodjaci/?kategorija=Građevinska oprema' | relative_url }}" class="kategorija-button"><i class="fa-solid fa-truck-pickup"></i> Građevinska oprema</a>
 </div>
 
-  <div class="cta-container">
+  <div class="cta-container" style="margin-bottom: 1rem;">
     <a href="{{ '/izvodjaci/' | relative_url }}" class="cta">Pogledajte Sve Majstore i Firme</a>
   </div>
 </section>
 
 <!-- NOVI BLOG COMPONENT -->
 <section class="blog-promo">
-  <h2 style="margin-top: 2rem; text-align: center;">📖 Blog sa Korisnim Savetima</h2>
-  <hr class="section-divider">
+  <h2 style="margin-top: 8rem; text-align: center;">📖 Blog sa Korisnim Savetima</h2>
+  
   
   <div class="features-container">
     <div class="feature-block">
@@ -289,8 +279,8 @@ description: Pronađite pouzdane majstore i firme za vodoinstalaterske, elektri�
 
 
 <section class="authority-section">
-  <h2 style="margin-top: 2rem;">Zašto je Ej Majstore! Vaš pouzdan Adresar u Srbiji?</h2>
-  <hr class="section-divider">
+  <h2 style="margin-top: 8rem;">Zašto je Ej Majstore! Vaš pouzdan Adresar u Srbiji?</h2>
+  
   
   <div class="features-container">
     <div class="feature-block">

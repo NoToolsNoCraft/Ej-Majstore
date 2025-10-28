@@ -3,9 +3,7 @@ layout: majstor_profil
 title: Idea Protection System - Alarmi, Video nadzor, Sigurnosni sistemi, Servis Klima
   Uređaja u Srbija, Beograd, Zemun
 description: Idea Protection System – stručnjaci za alarmne sisteme, video nadzor
-  i klimatizaciju prostora sa preko 25 godina iskustva. Pronađite Idea Protection
-  System za Alarmi, Video nadzor, Sigurnosni sistemi, Servis Klima Uređaja usluge
-  u Srbija, Beograd, Zemun.
+  i klimatizaciju prostora sa preko 25 godina iskustva. u Srbija, Beograd, Zemun.
 ime: Idea Protection System
 kategorija:
 - Alarmi
@@ -19,40 +17,20 @@ email: info@ideaps.rs
 googlemaps: https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9
 website:
   url: https://ideaps.rs/
-  label: Link
-opis_dugi: Idea Protection System je specijalizovana firma iz Zemuna koja se bavi
-  ugradnjom, prodajom i održavanjem sigurnosnih sistema, video nadzora i klimatizacije.
-  Već više od dve decenije, kompanija obezbeđuje pouzdana i savremena rešenja za zaštitu
-  privatnih i poslovnih objekata širom Srbije.
-opis_dugi2: U ponudi se nalaze alarmni sistemi poznatih brendova kao što su Paradox,
-  Ajax i Hikvision, kao i video nadzorni sistemi Dahua i Hikvision najnovije generacije.
-  Pored prodaje, Idea Protection System nudi kompletnu instalaciju, konfiguraciju
-  i servis sistema, uz garanciju i tehničku podršku.
-opis_dugi3: Kompanija nudi i prodaju, ugradnju i servis klima uređaja, uz stručno
-  savetovanje i održavanje. Poseban akcenat stavlja se na preventivno održavanje i
-  čišćenje klima kako bi se obezbedila dugotrajnost i energetska efikasnost uređaja.
-opis_dugi4: Sa sedištem u Zemunu i mrežom zadovoljnih klijenata širom Srbije, Idea
-  Protection System postala je sinonim za sigurnost, kvalitet i profesionalnost. Bilo
-  da želite da zaštitite svoj dom, kancelariju ili komercijalni objekat – tim iskusnih
-  tehničara pružiće vam rešenje prilagođeno vašim potrebama i budžetu.
-opis_dugi5: ''
-detaljan_opis: Idea Protection System je specijalizovana firma iz Zemuna koja se bavi
-  ugradnjom, prodajom i održavanjem sigurnosnih sistema, video nadzora i klimatizacije.
-  Već više od dve decenije, kompanija obezbeđuje pouzdana i savremena rešenja za zaštitu
-  privatnih i poslovnih objekata širom Srbije. U ponudi se nalaze alarmni sistemi
-  poznatih brendova kao što su Paradox, Ajax i Hikvision, kao i video nadzorni sistemi
-  Dahua i Hikvision najnovije generacije. Pored prodaje, Idea Protection System nudi
-  kompletnu instalaciju, konfiguraciju i servis sistema, uz garanciju i tehničku podršku.
-  Kompanija nudi i prodaju, ugradnju i servis klima uređaja, uz stručno savetovanje
-  i održavanje. Poseban akcenat stavlja se na preventivno održavanje i čišćenje klima
-  kako bi se obezbedila dugotrajnost i energetska efikasnost uređaja. Sa sedištem
-  u Zemunu i mrežom zadovoljnih klijenata širom Srbije, Idea Protection System postala
-  je sinonim za sigurnost, kvalitet i profesionalnost. Bilo da želite da zaštitite
-  svoj dom, kancelariju ili komercijalni objekat – tim iskusnih tehničara pružiće
-  vam rešenje prilagođeno vašim potrebama i budžetu.
+  label: Link do sajta
 slug: idea-protection-system-beograd-zemun
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/IPS%20Idea%20protection%20system%20logo.webp
-additional_images: []
+thumbnail:
+hero_image:
+discover_title:
+author: Ej Majstore! Tim
+author_slug: team
+author_bio:
+date: '2025-10-28'
+last_modified: '2025-10-28'
+sections:
+- type: h1
+  content: Idea Protection System – Alarmi, Video nadzor, Sigurnosni sistemi, Servis
+    Klima Uređaja u Srbija, Beograd, Zemun
 services:
 - title: Video nadzorni sistemi
   description: Profesionalna ugradnja i prodaja video nadzornih sistema sa Dahua i
@@ -99,5 +77,7 @@ faq:
 - question: Gde se nalazite?
   answer: Naša firma se nalazi u Zemunu, u Karlovačkoj 28. Radimo od ponedeljka do
     petka od 9 do 17h, a subotom od 9 do 14h.
+tips: []
+tips_title:
 permalink: "/izvodjaci/srbija/idea-protection-system-beograd-zemun/"
 ---

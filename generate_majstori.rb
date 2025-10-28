@@ -2,103 +2,94 @@ require 'json'
 require 'fileutils'
 require 'yaml'
 
-# Path to the majstori.json file
-data_file = '_data/majstori.json'
-# Directory for the majstori collection
-output_base_dir = '_majstori'
+data_file      = '_data/majstori.json'
+output_dir     = '_majstori'
+FileUtils.mkdir_p(output_dir)
 
-# Ensure the base output directory exists
-FileUtils.mkdir_p(output_base_dir)
-
-# Read the JSON data
 data = JSON.parse(File.read(data_file))
 
-# Iterate over each majstor entry
-data.each do |majstor|
-  # Skip invalid entries
-  next unless majstor['ime'] && majstor['mesto'] && majstor['slug']
+def slugify(text)
+  text.downcase
+      .gsub(/[šŠ]/u, 's').gsub(/[čČćĆ]/u, 'c').gsub(/[žŽ]/u, 'z').gsub(/[đĐ]/u, 'dj')
+      .gsub(/[^a-z0-9\s-]/i, '').gsub(/\s+/, '-').gsub(/-+/, '-').gsub(/^-|-$/, '')
+end
 
-  def slugify(text)
-    # SERBIAN LATIN → ASCII (š→s, č→c, ć→c, ž→z)
-    text.downcase
-        .gsub(/[šŠ]/u, 's')      # š → s
-        .gsub(/[čČćĆ]/u, 'c')    # č,ć → c
-        .gsub(/[žŽ]/u, 'z')      # ž → z
-        .gsub(/[đĐ]/u, 'dj')     # đ → dj
-        .gsub(/[^a-z0-9\s-]/i, '') # Remove other special chars
-        .gsub(/\s+/, '-')        # Spaces → -
-        .gsub(/-+/, '-')         # No duplicate -
-        .gsub(/^-|-$/, '')       # No leading/trailing -
-        .strip
+def fix_image_url(url)
+  return url unless url
+  url = url.gsub(/refs\/heads\/main/, 'main')
+  if url.include?('raw.githubusercontent.com')
+    url = url.gsub('raw.githubusercontent.com', 'cdn.jsdelivr.net/gh')
+             .gsub(/\/main\//, '@main/')
   end
+  url
+end
 
-  # Handle kategorija as array or string
+data.each do |majstor|
+  next unless majstor['ime'] && majstor['slug']
+
   kategorija = majstor['kategorija']
-  kategorija_str = if kategorija.is_a?(Array)
-                     kategorija.join(', ')
-                   else
-                     kategorija.to_s
-                   end
+  kategorija_str = Array(kategorija).join(', ')
+  mesto_arr = Array(majstor['mesto'])
+  mesto_str = mesto_arr.join(', ')
 
-  # Combine all opis_dugi fields into detaljan_opis
-  opis_fields = ['opis_dugi', 'opis_dugi2', 'opis_dugi3', 'opis_dugi4', 'opis_dugi5']
-  combined_opis = opis_fields.map { |field| majstor[field] }.compact.reject(&:empty?).join(' ')
-  detaljan_opis = combined_opis.empty? ? 'Nema detaljan opis' : combined_opis
-
-  # Prepare the front matter
-  front_matter = {
-    'layout' => 'majstor_profil',
-    'title' => "#{majstor['ime']} - #{kategorija_str} u #{majstor['mesto'].join(', ')}",
-    'description' => "#{majstor['opis_kratak']} Pronađite #{majstor['ime']} za #{kategorija_str} usluge u #{majstor['mesto'].join(', ')}.",
-    'ime' => majstor['ime'],
-    'kategorija' => kategorija,
-    'mesto' => majstor['mesto'].join(', '),
-    'address' => majstor['address'] || 'Nema dostupnu adresu',
-    'kontakt_telefon' => majstor['telefon'] || 'Nema dostupan kontakt',
-    'email' => majstor['email'] || 'Nema dostupan email',
-    'googlemaps' => majstor['googlemaps'] || '', # NEW: Add googlemaps field
-    'website' => if majstor['website'] && !majstor['website'].empty?
-      url = if majstor['website'].match?(/^https?:\/\//)
-              majstor['website']
+  website = if majstor['website'] && !majstor['website'].empty?
+              url = majstor['website'].match?(/^https?:\/\//) ? majstor['website'] : "https://#{majstor['website']}"
+              label = case url
+                      when /facebook/ then 'Facebook'
+                      when /instagram/ then 'Instagram'
+                      when /youtube/ then 'YouTube'
+                      when /tiktok/ then 'TikTok'
+                      when /linkedin/ then 'LinkedIn'
+                      when /twitter|x\.com/ then 'Twitter'
+                      else 'Link do sajta'
+                      end
+              { 'url' => url, 'label' => label }
             else
-              "https://#{majstor['website']}"
+              'Nema dostupan website'
             end
-      label = case url
-              when /facebook\.com/ then 'Facebook'
-              when /instagram\.com/ then 'Instagram'
-              when /youtube\.com/ then 'YouTube'
-              when /tiktok\.com/ then 'TikTok'
-              when /linkedin\.com/ then 'LinkedIn'
-              when /twitter\.com/, /x\.com/ then 'Twitter'
-              else 'Link do sajta'
-              end
-      { 'url' => url, 'label' => label }
-    else
-      'Nema dostupan website'
-    end,
-    'opis_dugi' => majstor['opis_dugi'] || '',
-    'opis_dugi2' => majstor['opis_dugi2'] || '',
-    'opis_dugi3' => majstor['opis_dugi3'] || '',
-    'opis_dugi4' => majstor['opis_dugi4'] || '',
-    'opis_dugi5' => majstor['opis_dugi5'] || '',
-    'detaljan_opis' => detaljan_opis,
-    'slug' => majstor['slug'],
-    'image' => majstor['image'] || 'https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore/refs/heads/main/images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp',
-    'additional_images' => majstor['additional_images'] || [],
-    'services' => majstor['services'] || [],
-    'faq' => majstor['faq'] || [],
-    'permalink' => "/izvodjaci/#{slugify(majstor['mesto'][0])}/#{slugify(majstor['slug'])}/"
+
+  # ---- SECTIONS (fallback if none supplied) ----
+  sections = if majstor['sections'].is_a?(Array) && !majstor['sections'].empty?
+               majstor['sections']
+             else
+               # minimal fallback – you can delete if every entry has sections
+               [{ 'type' => 'h1', 'content' => "#{majstor['ime']} – #{kategorija_str} u #{mesto_str}" }]
+             end
+
+  # ---- FRONT MATTER ----
+  front_matter = {
+    'layout'         => 'majstor_profil',
+    'title'          => "#{majstor['ime']}",
+    'description'    => "#{majstor['opis_kratak'] || majstor['ime']} u #{mesto_str}.",
+    'ime'            => majstor['ime'],
+    'kategorija'     => kategorija,
+    'mesto'          => mesto_str,
+    'address'        => majstor['address'] || 'Nema dostupnu adresu',
+    'kontakt_telefon'=> majstor['telefon'] || 'Nema dostupan kontakt',
+    'email'          => majstor['email'] || 'Nema dostupan email',
+    'googlemaps'     => majstor['googlemaps'] || '',
+    'website'        => website,
+    'slug'           => majstor['slug'],
+    'thumbnail'      => fix_image_url(majstor['thumbnail']),
+    'hero_image'     => fix_image_url(majstor['hero_image'] || majstor['thumbnail']),
+    'discover_title' => majstor['discover_title'],
+    'author'         => majstor['author'] || 'Ej Majstore! Tim',
+    'author_slug'    => majstor['author_slug'] || 'team',
+    'author_bio'     => majstor['author_bio'],
+    'date'           => majstor['date'] || Time.now.strftime('%Y-%m-%d'),
+    'last_modified'  => majstor['last_modified'] || Time.now.strftime('%Y-%m-%d'),
+    'sections'       => sections,
+    'services'       => majstor['services'] || [],
+    'faq'            => majstor['faq'] || [],
+    'tips'           => majstor['tips'] || [],          # <-- FROM JSON ONLY
+    'tips_title'     => majstor['tips_title'],
+    'permalink'      => "/izvodjaci/#{slugify(mesto_arr.first)}/#{slugify(majstor['slug'])}/",
+    'sections'       => sections,
   }
 
-  # Generate the file name using the slug
   file_name = "#{majstor['slug']}.md"
-  file_path = File.join(output_base_dir, file_name)
+  path = File.join(output_dir, file_name)
 
-  # Write the file with UTF-8 encoding
-  content = <<~CONTENT
-#{YAML.dump(front_matter)}---
-CONTENT
-
-  File.write(file_path, content, encoding: 'UTF-8')
-  puts "Created: #{file_path}"
+  File.write(path, "#{YAML.dump(front_matter)}---\n", encoding: 'UTF-8')
+  puts "Created: #{path}"
 end

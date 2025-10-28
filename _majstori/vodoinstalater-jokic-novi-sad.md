@@ -3,9 +3,8 @@ layout: majstor_profil
 title: Vodoinstalater Jokić Novi Sad - Vodoinstalater, Renoviranje kupatila, Odgušenje
   kanalizacije, Popravka bojlera u Novi Sad, Petrovaradin, Veternik, Futog, Kać
 description: Braća Jokić – profesionalni vodoinstalateri iz Novog Sada. Brze, pouzdane
-  i povoljne usluge vodoinstalaterskih radova. Pronađite Vodoinstalater Jokić Novi
-  Sad za Vodoinstalater, Renoviranje kupatila, Odgušenje kanalizacije, Popravka bojlera
-  usluge u Novi Sad, Petrovaradin, Veternik, Futog, Kać.
+  i povoljne usluge vodoinstalaterskih radova. u Novi Sad, Petrovaradin, Veternik,
+  Futog, Kać.
 ime: Vodoinstalater Jokić Novi Sad
 kategorija:
 - Vodoinstalater
@@ -19,39 +18,20 @@ email: Nema dostupan email
 googlemaps: ''
 website:
   url: https://vodoinstalaterjokic.com/
-  label: Link
-opis_dugi: Vodoinstalater Jokić iz Novog Sada je porodična firma koju vode braća Stefan
-  i Miroslav, sa više od 10 godina iskustva u vodoinstalaterskim radovima. Specijalizovani
-  smo za brzo otklanjanje kvarova, renoviranje kupatila, zamenu cevi i popravku bojlera
-  – uz garantovan kvalitet i fer cene.
-opis_dugi2: 'Naš pristup je jednostavan: kada nas pozovete, dolazimo u najkraćem roku,
-  procenjujemo situaciju na licu mesta i dajemo jasnu i poštenu ponudu bez skrivenih
-  troškova. Radimo precizno, čisto i odgovorno – bilo da se radi o manjoj popravci
-  ili kompletnom renoviranju kupatila.'
-opis_dugi3: Koristimo samo proverene materijale i profesionalni alat. Sve instalacije
-  i popravke izvodimo po najvišim standardima, sa posebnom pažnjom na dugotrajnost
-  i sigurnost. Naši klijenti nas najviše preporučuju zbog brzine intervencije i pouzdanosti
-  u radu.
-opis_dugi4: Vodoinstalater Jokić pruža usluge na teritoriji Novog Sada i okoline –
-  Liman, Novo naselje, Petrovaradin, Veternik, Futog, Kać i okolna mesta. Dostupni
-  smo za hitne intervencije tokom cele nedelje. Vaš problem sa vodom rešavamo odmah!
-opis_dugi5: ''
-detaljan_opis: 'Vodoinstalater Jokić iz Novog Sada je porodična firma koju vode braća
-  Stefan i Miroslav, sa više od 10 godina iskustva u vodoinstalaterskim radovima.
-  Specijalizovani smo za brzo otklanjanje kvarova, renoviranje kupatila, zamenu cevi
-  i popravku bojlera – uz garantovan kvalitet i fer cene. Naš pristup je jednostavan:
-  kada nas pozovete, dolazimo u najkraćem roku, procenjujemo situaciju na licu mesta
-  i dajemo jasnu i poštenu ponudu bez skrivenih troškova. Radimo precizno, čisto i
-  odgovorno – bilo da se radi o manjoj popravci ili kompletnom renoviranju kupatila.
-  Koristimo samo proverene materijale i profesionalni alat. Sve instalacije i popravke
-  izvodimo po najvišim standardima, sa posebnom pažnjom na dugotrajnost i sigurnost.
-  Naši klijenti nas najviše preporučuju zbog brzine intervencije i pouzdanosti u radu.
-  Vodoinstalater Jokić pruža usluge na teritoriji Novog Sada i okoline – Liman, Novo
-  naselje, Petrovaradin, Veternik, Futog, Kać i okolna mesta. Dostupni smo za hitne
-  intervencije tokom cele nedelje. Vaš problem sa vodom rešavamo odmah!'
+  label: Link do sajta
 slug: vodoinstalater-jokic-novi-sad
-image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodovodar-logo.webp
-additional_images: []
+thumbnail:
+hero_image:
+discover_title:
+author: Ej Majstore! Tim
+author_slug: team
+author_bio:
+date: '2025-10-28'
+last_modified: '2025-10-28'
+sections:
+- type: h1
+  content: Vodoinstalater Jokić Novi Sad – Vodoinstalater, Renoviranje kupatila, Odgušenje
+    kanalizacije, Popravka bojlera u Novi Sad, Petrovaradin, Veternik, Futog, Kać
 services:
 - title: Renoviranje kupatila
   description: Kompletno renoviranje kupatila – demontaža stare opreme, zamena cevi,
@@ -82,5 +62,7 @@ faq:
 - question: Koji delovi Novog Sada su pokriveni?
   answer: Radimo širom Novog Sada – Liman, Novo Naselje, Petrovaradin, Veternik, Futog,
     Kać i okolna mesta.
+tips: []
+tips_title:
 permalink: "/izvodjaci/novi-sad/vodoinstalater-jokic-novi-sad/"
 ---

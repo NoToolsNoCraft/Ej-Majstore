@@ -1,850 +1,460 @@
 [
 
   {
-  "ime": "SINGOR Apatin - Projektovanje i Ugradnja Elektro Instalacija Slabe Struje, Video Nadzor i Alarmni Sistemi",
-  "tip": "Firma",
-  "kategorija": [
-    "Električar",
-    "Video Nadzor", "Alarmni Sistemi",
-    "Projektovanje Elektroinstalacija",
-    "Gromobrani",
-    "Računarske Mreže", "Rasveta"
-  ],
-  "mesto": [
-    "Apatin", "Sombor", "Novi Sad", "Subotica"
-  ],
-  "address": "25.maja, Apatin 25260, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/bhfJPxViVXXPmzxRA",
-  "opis_kratak": "SINGOR Apatin: Lider sa 12+ godina iskustva u projektovanju i ugradnji instalacija slabe struje – video nadzor, alarmni sistemi, računarske mreže, interfonija i gromobrani. Pokrivamo Bački okrug.",
-  "opis_dugi": "SINGOR iz Apatina je vaša referentna tačka za sve instalacije i inženjering sisteme slabe struje. Sa preko 12 godina dokazanog iskustva, naš stručni tim se fokusira na kompletnu uslugu: od detaljnog projektovanja elektroinstalacija (uključujući NN dovod i inteligentne sisteme), preko montaže, do sertifikovanog merenja i puštanja u rad. Spremni smo da preuzmemo manje i srednje projekte za stambene, poslovne i industrijske objekte.",
-  "opis_dugi2": "Naša primarna specijalnost su sigurnosni sistemi: profesionalna ugradnja video nadzora (BNC, IP rešenja), žičnih i bežičnih alarmnih sistema protiv provala i požara, te interfonije. Pored toga, bavimo se projektovanjem i postavljanjem računarskih mreža, telefonskih instalacija (telekomunikacije) i savremenih rešenja za rasvetu. Pristupamo pedantno i stručno, osiguravajući da svi sistemi funkcionišu pouzdano i sigurno.",
-  "opis_dugi3": "Jedan od ključnih segmenata našeg poslovanja obuhvata gromobrane i električna merenja. Radimo kompletnu gromobransku instalaciju, merenja i ateste, kao i projektovanje prenaponske zaštite. Nudimo rešenja i za projekte solarnih elektrana i savete za inteligentne instalacije. Na raspolaganju smo klijentima u Zapadno-bačkom, Severno-bačkom i Južno-bačkom okrugu, garantujući najviši nivo tehničke kompetencije.",
-  "opis_dugi4": "Za sve potrebe u vezi sa telekomunikacijama, bezbednošću i projektovanjem elektroinstalacija, SINGOR je partner kome možete verovati. Pozovite našu stručnu ekipu i uverite se u našu efikasnost i pouzdanost. Stojimo vam na raspolaganju za sve informacije i tehničke konsultacije.",
-  "telefon": "+385 69 779 560",
-  "email": "sinisamedic23@gmail.com",
-  "website": "https://singor.rs/",
-  "slug": "singor-apatin-video-nadzor-alarmni-sistemi-slaba-struja-projektovanje",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/singor-apatin-video-nadzor-alarmni-sistemi-slaba-struja-projektovanje-logo.webp",
-  
-  "services": [
-    {
-      "title": "Video Nadzor i Alarmni Sistemi (Slaba Struja)",
-      "description": "Profesionalna ugradnja i servis bežičnih i žičnih alarmnih sistema protiv provale, BNC/IP video nadzora, sistema protiv uljeza i požarnih senzora. Kompletna bezbednosna rešenja za vaš objekat."
-    },
-    {
-      "title": "Projektovanje i Merenje Elektroinstalacija",
-      "description": "Izrada nacrta elektroinstalacija (NN dovod, slaba struja, pametne instalacije), projektovanje gromobrana i projekt solarnih elektrana. Sertifikovano merenje instalacija i izdavanje atesta."
-    },
-    {
-      "title": "Telekomunikacije i Računarske Mreže",
-      "description": "Postavljanje kompletne telekomunikacione infrastrukture, računarskih mreža (LAN/WAN), interfona i uvođenje instalacija za internet (nacrt za internet). Kabliranje i montaža."
-    },
-    {
-      "title": "Gromobrani i Prenaponska Zaštita",
-      "description": "Ugradnja gromobrana za sve tipove krovova, merenje gromobranskih sistema i ugradnja prenaponske zaštite za kuću. Bezbednost i usklađenost sa propisima."
-    },
-    {
-      "title": "Grube i Fine Elektroinstalacije",
-      "description": "Postavljanje elektro instalacija u individualnim kućama, stanovima, mansardama. Uključuje grubi razvod, polaganje kablova, montažu utičnica i kompletnu obnovu stare elektrike."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koliko godina iskustva imate u postavljanju sistema slabe struje?",
-      "answer": "Ponosimo se sa više od 12 godina aktivnog iskustva u domenu projektovanja i ugradnje elektroinstalacija slabe struje, što garantuje kvalitet i pouzdanost našeg rada."
-    },
-    {
-      "question": "Koje regije pokrivate za ugradnju video nadzora i alarma?",
-      "answer": "Iako je sedište u Apatinu, naše usluge pružamo u celom regionu, primarno u Zapadno-bačkom, Severno-bačkom i Južno-bačkom okrugu, uključujući Sombor, Suboticu i Novi Sad."
-    },
-    {
-      "question": "Da li projektujete i instalacije za solarnu energiju?",
-      "answer": "Da, radimo na projektovanju instalacija za solarne elektrane i pružamo tehničku podršku u implementaciji obnovljivih izvora energije unutar električne mreže objekta."
-    },
-    {
-      "question": "Da li je obavezno merenje gromobranske instalacije?",
-      "answer": "Jeste. Merenje je zakonski obavezno i ključno je za sigurnost. Mi pružamo sertifikovano merenje gromobranskih sistema i izdajemo ateste neophodne za tehnički prijem objekta."
-    },
-    {
-      "question": "Da li se bavite i telekomunikacionim kabliranjem za firme?",
-      "answer": "Apsolutno. Nudimo kompletno kabliranje i postavljanje računarskih mreža (LAN) i telefonske instalacije za poslovne objekte, osiguravajući brzu i stabilnu komunikaciju."
-    }
-  ]
-},
-
-  {
-  "ime": "Electro Fix Sonta - Sertifikovani Električari za Elektroinstalacije i SMART Kuće",
-  "tip": "Firma",
-  "kategorija": [
-    "Električar",
-    "Elektroinstalacije Novogradnja i Adaptacija",
-    "SMART Kuće i LED Rasveta",
-    "Merenje i Uzemljenje (Atesti)",
-    "Gromobrani i Prenaponska Zaštita",
-    "Električar za Hitne Intervencije"
-  ],
-  "mesto": [
-    "Sonta", "Sombor", "Novi Sad", "Subotica"
-  ],
-  "address": "Jovana Jovanovića Zmaja 21 Apatin Sonta 25222, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/nJXvwk5yhgnJBR4j9",
-  "opis_kratak": "Electro Fix: Tim od 5 mladih, sertifikovanih električara za efikasne i povoljne elektroinstalacije, pametne kuće (SMART), rasvetu i merenja, sa pokrivanjem cele Vojvodine i Beograda.",
-  "opis_dugi": "Electro Fix iz Sonte je specijalizovan za kompletne elektroinstalaterske radove sa fokusom na adaptaciju, sanaciju i novogradnju. Naš tim čine mladi, ali izuzetno iskusni i sertifikovani električari koji garantuju kvalitet, pedantnost i pristupačne cene. Nudimo sveobuhvatne usluge: od grubog razvoda instalacija ('ključ u ruke' sistem), preko ugradnje modernih SMART sistema, do dekorativne i LED rasvete. Poslujemo brzo i efikasno na teritoriji Vojvodine i Beograda.",
-  "opis_dugi2": "U oblasti adaptacije, pristupamo temeljno: detaljna analiza stare instalacije, projektovanje izmena i usklađivanje novih rešenja sa potrebama klijenta. Posebno smo vešti u implementaciji pametnih kućnih instalacija, ugradnji odvodnika prenapona i automatskoj zameni starih razvodnih kutija novim, sigurnijim rešenjima (automatski osigurači i FID sklopke). Naš cilj je vaša sigurnost i funkcionalnost elektro mreže.",
-  "opis_dugi3": "Kao licencirani stručnjaci, vršimo sva neophodna električna merenja (uzemljenje, otpor izolacije, impedansa petlje, RCD/FID sklopke) i izdajemo ateste za gromobranske sisteme, čime garantujemo usklađenost sa zakonskim normama. Ova merenja su ključna za bezbednost vaše kuće ili poslovnog prostora, a mi ih radimo brzo i profesionalno.",
-  "opis_dugi4": "Odaberite Electro Fix zbog dokazanog kvaliteta, transparentnosti cena i tima koji je mlad, ali izuzetno odgovoran i detaljan (prosečna ocena 9.8). Naša konkurentnost leži u kombinaciji vrhunske usluge i najpovoljnijih cena. Kontaktirajte nas za preciznu ponudu za elektro radove, gromobrane ili savremenu rasvetu.",
-  "telefon": "+381621051852",
-  "slug": "elektricar-elektroinstalacije-smart-kuca-rasveta-beograd-vojvodina",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/elektricar-elektroinstalacije-smart-kuca-rasveta-beograd-vojvodina.webp",
-  
-  "services": [
-    {
-      "title": "Kompletne Elektroinstalacije - Novogradnja i Adaptacija",
-      "description": "Profesionalno uvođenje novih i sanacija starih elektroinstalacija u stanovima, kućama i poslovnim objektima. Radimo grubi razvod, montažu cevi, utičnica i prekidača. Garancija na rad i materijal."
-    },
-    {
-      "title": "Ugradnja SMART Kuća i LED/Dekorativne Rasvete",
-      "description": "Specijalizovani smo za implementaciju pametnih kućnih sistema, projektovanje rasvete, ugradnju ugradnih svetiljki, visećih lustera i vodootporne rasvete za kupatila i dvorišta."
-    },
-    {
-      "title": "Gromobrani, Uzemljenja i Prenaponska Zaštita",
-      "description": "Montaža, održavanje i merenje gromobranskih instalacija. Ugradnja odvodnika prenapona i kompletne zaštite za kuću i električne uređaje. Izdavanje atesta."
-    },
-    {
-      "title": "Električna Merenja i Atesti",
-      "description": "Sertifikovano merenje uzemljenja, otpora izolacije, kontinuiteta, impedanse petlje i provera ispravnosti RCD/FID sklopki. Dokumentacija za tehnički prijem objekata."
-    },
-    {
-      "title": "Zamena Osigurača i Hitne Intervencije",
-      "description": "Brza zamena stare razvodne table novom (automatski osigurači i FID sklopke). Hitne popravke kablova, utičnica i sanacija kratkog spoja. Povoljne cene usluga."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koja je cena zamene starih električnih instalacija u stanu?",
-      "answer": "Cena zavisi od kvadrature i kompleksnosti. Pozovite nas za besplatnu analizu postojeće instalacije i neobavezujuću ponudu prilagođenu Vašem budžetu."
-    },
-    {
-      "question": "Da li radite instalacije za SMART Home (pametne kuće)?",
-      "answer": "Apsolutno. Specijalizovani smo za uvođenje instalacija za 'pametne' prekidače, roletne, i rasvetu, omogućavajući Vam potpunu kontrolu nad domom preko mobilne aplikacije."
-    },
-    {
-      "question": "Da li vršite merenje uzemljenja i izdavanje atesta?",
-      "answer": "Da, nudimo uslugu merenja uzemljenja i provere ispravnosti gromobrana. Izdajemo kompletnu dokumentaciju (atest) neophodnu za tehnički pregled objekata i osiguranje."
-    },
-    {
-      "question": "Gde sve pružate usluge električarskih radova?",
-      "answer": "Naš tim pokriva Sontu, Sombor, ceo Zapadnobački okrug, Južno-Bački okrug (Novi Sad) i šire, uključujući i veće projekte u Beogradu."
-    },
-    {
-      "question": "Zašto je važna ugradnja odvodnika prenapona?",
-      "answer": "Odvodnici prenapona štite Vaše skupe elektronske uređaje (TV, računari, SMART oprema) od oštećenja izazvanih udarom groma ili naglim skokovima napona u mreži. Preporučujemo ga za svaki objekat."
-    }
-  ]
-},
-
-  {
-  "ime": "OSTROTHERM Sombor - Pouzdani Izvođač Grejanja, Vodovoda i Toplotnih Pumpi u Vojvodini",
-  "tip": "Firma",
-  "kategorija": ["Centralno Grejanje", "Gasno Grejanje", "Podno Grejanje", "Zidno Grejanje", "Toplotne Pumpe", "Vodoinstalater", "Servis Klima Uređaja", "Gasne Instalacije i Kotlovi na Biomasu"
-  ],
-  "mesto": ["Sombor", "Vojvodina", "Novi Sad", "Subotica", "Zrenjanin", "Bačka Palanka"],
-  "address": "XII Vojvođanske udarne brigade 129, Sombor 25101, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6",
-  "opis_kratak": "OSTROTHERM Sombor – Kompletan projektant i izvođač radova za centralno, podno, gasno grejanje, toplotne pumpe, vodovod i klimatizaciju. Poslujemo na celoj teritoriji Vojvodine.",
-  "opis_dugi": "OSTROTHERM je etablirano preduzeće iz Sombora, specijalizovano za projektovanje, ugradnju i pouzdano servisiranje svih vrsta termotehničkih, vodovodnih i klimatizacionih sistema. Nudimo sveobuhvatna rešenja—od energetski efikasnog podnog grejanja i toplotnih pumpi (vazduh-voda, voda-voda) do gasnih instalacija i montaže kotlova na pelet i biomasu. Naš fokus je na kvalitetu, poštovanju rokova i preciznoj izvedbi, čime osiguravamo dugotrajnu funkcionalnost i energetsku uštedu.",
-  "opis_dugi2": "Kao vodeći izvođači u Somboru i regionu Vojvodine, vršimo profesionalnu instalaciju vodovodnih i kanalizacionih sistema, zamenu starih cevi, montažu sanitarija, te kompletnu uslugu klimatizacije. Bilo da je reč o novogradnji, adaptaciji ili hitnoj popravci, OSTROTHERM garantuje pedantan rad, sigurnost i usklađenost sa svim evropskim standardima. U poslovanju koristimo samo sertifikovane komponente i najmoderniju opremu.",
-  "opis_dugi3": "Naša ponuda je široka i pokriva sve ključne oblasti: Grejanje (centralno, radijatori, zidno grejanje, plinski kotlovi), Toplotne Pumpe (novogradnja i postojeći objekti), Klimatizacija (montaža, servis i ventilacija), i Vodoinstalaterski Radovi (instalacije i odvodna kanalizacija). Posvećeni smo ispunjenju svih zahteva klijenata i predstavljamo garanciju za pouzdanost i profesionalnost širom Vojvodine.",
-  "opis_dugi4": "Kontaktirajte OSTROTHERM Sombor za besplatnu konsultaciju i neobavezujuću ponudu. Uverite se u profesionalnost našeg tima i izaberite nas za partnera koji rešava sve vaše potrebe za grejanjem, vodovodom i klimatizacijom, brzo, tačno i po najpovoljnijim uslovima.",
-  "telefon": "+381611516625",
-  "website": "https://www.instagram.com/ostrotherm/",
-  "slug": "ostortherm-sombor-grejanje-vodovod-toplotne-pumpe-vojvodina",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/ostortherm-sombor-grejanje-vodovod-toplotne-pumpe-vojvodina.webp",
-  "services": [
-    {
-      "title": "Toplotne Pumpe i Grejni Sistemi",
-      "description": "Kompletan servis i ugradnja svih tipova toplotnih pumpi (vazduh-voda, voda-voda, zemlja-voda). Instalacija i održavanje gasnog grejanja, centralnog grejanja, plinskih kotlova i peći na biomasu/pelet. Rešenja za novogradnju i postojeće objekte."
-    },
-    {
-      "title": "Podno i Zidno Grejanje",
-      "description": "Projektovanje i montaža modernog podnog grejanja i estetski prihvatljivog zidnog grejanja (ispod maltera/termo-trakama). Maksimalna energetska efikasnost i optimalan raspored toplote."
-    },
-    {
-      "title": "Vodoinstalaterski i Kanalizacioni Radovi",
-      "description": "Sveobuhvatne vodovodne instalacije, odvodna kanalizacija, postavljanje novih cevi i popravka kvarova. Montaža kada, tuš kabina i sanitarnih elemenata. Brzi i pouzdani vodoinstalateri u Somboru i Vojvodini."
-    },
-    {
-      "title": "Klimatizacija, Ugradnja i Servis Klima",
-      "description": "Montaža, servis i popravka klima uređaja (klasični, inverter, multi-split i podni modeli). Uključujući usluge ventilacije i sistema za prozračivanje. Održavanje za optimalan rad i čistoću vazduha."
-    },
-    {
-      "title": "Gasne Instalacije i Kotlovi",
-      "description": "Stručno izvođenje kompletnih gasnih instalacija. Montaža svih vrsta kotlova, uključujući kombinovane kotlove za drvo i pelet/biomasu."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koje grejne sisteme preporučujete za novogradnju?",
-      "answer": "Za novogradnju najčešće preporučujemo ugradnju toplotnih pumpi u kombinaciji sa podnim grejanjem. To je energetski najefikasnije i dugoročno najisplativije rešenje."
-    },
-    {
-      "question": "Da li OSTROTHERM pokriva samo Sombor ili celu Vojvodinu?",
-      "answer": "OSTROTHERM je baziran u Somboru, ali se naše usluge postavljana grejanja, vodovoda i toplotnih pumpi aktivno pružaju na celoj teritoriji Vojvodine, uključujući Novi Sad i Suboticu."
-    },
-    {
-      "question": "Da li imate iskustva sa toplotnim pumpama voda-voda?",
-      "answer": "Da, specijalizovani smo i za ugradnju i održavanje toplotnih pumpi voda-voda, kao i vazduh-vazduh i vazduh-voda. Posedujemo svu potrebnu opremu i znanje za najkompleksnije sisteme."
-    },
-    {
-      "question": "Koliko traje postavljanje vodovodne instalacije u kupatilu?",
-      "answer": "Za standardno kupatilo, postavljanje kompletne vodovodne i odvodne kanalizacije obično traje 1 do 2 radna dana, zavisno od stanja postojećih instalacija i složenosti projekta."
-    },
-    {
-      "question": "Da li nudite montažu peći na pelet i kombinovanih kotlova?",
-      "answer": "Da, vršimo profesionalnu i brzu montažu peći na pelet i kombinovanih kotlova za drvo i pelet, kao deo naših usluga centralnog grejanja."
-    }
-  ]
-},
-
-  {
-  "ime": "Klima Servis i Podno Grejanje Protocool Sombor",
-  "tip": "firma",
-  "kategorija": ["Klime", "Servis Klima Uređaja", "Ugradnja klime", "Podno grejanje", "Elektroinstalacije", "Električar"],
-  "mesto": ["Sombor", "Čonoplja", "Bački Monoštor", "Kljajićevo", "Gakovo", "Bezdan"],
-  "address": "Jasna Poljana 14,25000 Sombor, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/345uFprTcY5x5xQz9",
-  "opis_kratak": "Protocool Sombor: Vaš ovlašćeni partner za profesionalan servis, montažu, i održavanje inverter klima uređaja i ugradnju energetski efikasnog podnog grejanja u Somboru i okolini.",
-  "opis_dugi": "Protocool Klima Servis i Podno Grejanje je lider u Somboru i Zapadnobačkom okrugu od 2017. godine. Specijalizovani smo za kompletnu uslugu klimatizacije, uključujući prodaju, ugradnju i ovlašćeni servis najnovije generacije inverter klima. Naša misija je pružanje trajnih, energetski efikasnih rešenja za hlađenje i grejanje, uz apsolutnu posvećenost kvalitetu i brzini izvođenja.",
-  "opis_dugi2": "Kao stručnjaci, fokusirani smo na isključivo profesionalnu montažu zidnih, podnih i multi-split sistema klima uređaja, kao i na projektovanje i ugradnju kompletnih sistema podnog grejanja. Uključujemo se u projekte svih veličina—od stambenih objekata do kompleksnih poslovnih prostora—garantujući preciznost i usklađenost sa svim tehničkim standardima. Koristimo samo sertifikovanu opremu i materijale.",
-  "opis_dugi3": "Ponosimo se statusom ovlašćenog servisa za vodeće brendove poput Bergen, Daikin, LG i Gree. Redovnim obukama osiguravamo da je naš tim majstora uvek u toku sa najnovijim tehnologijama. Pored klimatizacije i grejanja, nudimo i kompletne elektroinstalaterske usluge. Naš cilj je vaša dugoročna udobnost i sigurnost, potvrđena brojnim uspešno završenim projektima u Somboru, Čonoplji, Bezdanu i celom Zapadnobačkom okrugu.",
-  "opis_dugi4": "Za personalizovano savetovanje, besplatnu procenu projekta i postprodajnu podršku, kontaktirajte nas direktno. Protocool je sinonim za profesionalnost, poverenje i vrhunsko majstorstvo u Somboru. Uverite se zašto smo prvi izbor za vaš dom ili poslovni prostor.",
-  "telefon": "069 108 18 10",
-  "email": "arbutina.ilija@gmail.com",
-  "website": "https://www.protocool.rs",
-  "slug": "klima-servis-protocool-sombor-klimatizacija-podno-grejanje-elektroinstalacije",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Protocool-sombor-prodaja-i-service-klima-uredjaja-logo.webp",
-  "additional_images": [
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/klima-servis-protocool-sombor-klimatizacija-podno-grejanje-elektroinstalacije.webp",
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/klima-servis-protocool-sombor.webp"
-  ],
-  "services": [
-    {
-      "title": "Ugradnja klima uređaja",
-      "description": "Pružamo profesionalnu ugradnju klima uređaja za domove, kancelarije i industrijske prostore u Somboru. Od zidnih i podnih modela do prenosnih jedinica, obezbeđujemo brzu i pouzdanu instalaciju uz savetovanje o najboljem rešenju za vaš prostor."
-    },
-    {
-      "title": "Servis i održavanje klime",
-      "description": "Naš tim nudi stručno održavanje i popravku klima uređaja kako bi vaši sistemi radili besprekorno. Redovni servisi produžavaju vek trajanja uređaja i osiguravaju optimalne performanse tokom cele godine."
-    },
-    {
-      "title": "Podno grejanje",
-      "description": "Nudimo projektovanje i ugradnju sistema podnog grejanja za stambene i poslovne objekte u Somboru. Naši stručnjaci osiguravaju energetski efikasna rešenja koja pružaju maksimalnu udobnost i uštedu energije."
-    },
-    {
-      "title": "Kompletne Elektroinstalacije",
-      "description": "Sve elektroinstalaterske usluge, od novih instalacija, zamene starih sistema do montaže utičnica i razvodnih ormara. Pouzdan električar za stambene i poslovne objekte."
-    },
-    {
-      "title": "Savetovanje i projektovanje",
-      "description": "Nudimo stručno savetovanje i projektovanje klimatizacionih i sistema podnog grejanja prilagođenih vašim potrebama. Naš cilj je da obezbedimo energetski efikasna i dugotrajna rešenja za svaki projekat."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koje tipove klima uređaja ugrađujete?",
-      "answer": "Ugrađujemo sve vrste klima uređaja, uključujući zidne, podne i prenosne modele, prilagođene potrebama stambenih, poslovnih i industrijskih prostora u Somboru."
-    },
-    {
-      "question": "Koliko često treba servisirati klima uređaj?",
-      "answer": "Preporučujemo godišnji servis kako bi se osigurale optimalne performanse i dugovečnost uređaja. Naš tim u Somboru pruža brzu i efikasnu uslugu održavanja."
-    },
-    {
-      "question": "Da li vršite ugradnju podnog grejanja za veće objekte?",
-      "answer": "Da, bavimo se ugradnjom podnog grejanja za stambene, poslovne i industrijske objekte. Naši stručnjaci u Zapadnobačkom okrugu obezbeđuju profesionalnu uslugu uz poštovanje svih standarda."
-    },
-    {
-      "question": "Koje marke klima uređaja preporučujete?",
-      "answer": "Radimo sa renomiranim brendovima kao što su Bergen, Daikin, LG i Gree, koji su poznati po svojoj pouzdanosti i energetskoj efikasnosti."
-    },
-    {
-      "question": "Da li pružate usluge i van Sombora (npr. u Bezdanu, Čonoplji)?",
-      "answer": "Da, naše usluge pokrivaju ceo Zapadnobački okrug, uključujući Bezdan, Čonoplju, Bački Monoštor, Kljajićevo, Gakovo i okolna mesta."
-    },
-    {
-      "question": "Kako mogu zakazati termin za hitan servis klime?",
-      "answer": "Za hitne slučajeve i zakazivanje servisa, molimo vas da nas direktno pozovete na 069 108 18 10. Dostupni smo od 08:00 do 20:00, 7 dana u nedelji."
-    }
-  ]
-},
-
-
-  {
-  "ime": "Interium - Salon nameštaja i stolarska radionica Čantavir",
-  "tip": "firma",
-  "kategorija": ["Nameštaj", "Stolarija", "Enterijer", "Dekoracija doma"],
-  "mesto": ["Čantavir", "Bačko Dušanovo", "Tornjoš", "Višnjevac", "Senta", "Subotica"],
-  "address": "Maršala Tita 60, Čantavir",
-  "googlemaps":"https://maps.app.goo.gl/AVWUEThQkYzEWAoK6",
-  "opis_kratak": "Interium Čantavir – salon nameštaja i stolarska radionica specijalizovana za izradu unikatnog nameštaja po meri i uređenje enterijera.",
-  "opis_dugi": "Interium je porodična stolarska radionica i salon nameštaja iz Čantavira, poznata po kvalitetnoj izradi i modernom dizajnu nameštaja po meri. Kompaniju vodi Atila Homolja, sa višegodišnjim iskustvom u izradi kuhinja, plakara, komoda, stolova i drugih elemenata koji savršeno spajaju funkcionalnost i estetiku. Svaki komad nameštaja izrađuje se prema željama klijenta, uz pažljivo odabrane materijale i besprekoran završni rad.",
-  "opis_dugi2": "Interium nudi kompletne usluge opremanja prostora – od idejnog dizajna i merenja, preko 3D prikaza, do završne montaže u domu ili poslovnom prostoru. Njihova ponuda obuhvata izradu kuhinjskog, kancelarijskog, spavaćeg i dnevnog nameštaja, kao i ugradne plakare i dekorativne elemente koji oplemenjuju svaki enterijer. Poseban akcenat stavljen je na moderni minimalistički stil i preciznost izrade.",
-  "opis_dugi3": "Kombinacijom tradicionalnog stolarskog umeća i savremene tehnologije, Interium ostvaruje visok standard kvaliteta i trajnosti. Materijali koje koriste – poput oplemenjenih iverica, MDF ploča i prirodnog furnira – obezbeđuju dug vek trajanja i lako održavanje. Klijenti cene njihov profesionalan pristup, poštovanje rokova i mogućnost potpunog prilagođavanja svakog projekta individualnim potrebama.",
-  "opis_dugi4": "Interium sarađuje sa domaćim i regionalnim kupcima, a posebno je poznat po izradi kuhinja po meri za stambene prostore i apartmane. Sa radnim vremenom od ponedeljka do petka od 7:00 do 15:00, radionica je otvorena za konsultacije i dogovore sa klijentima koji traže pouzdanog majstora i originalna rešenja za svoj dom. Interium spaja kvalitetnu izradu, savremeni dizajn i prijateljski pristup svakoj mušteriji.",
-  "telefon": "+381 69 764205",
-  "email": "interium2020@gmail.com",
-  "website": "https://www.facebook.com/p/Interium-100088320567844/",
-  "slug": "interium-cantavir-namestaj-po-meri-enterijer",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Interium%20-%20Salon%20name%C5%A1taja%20i%20stolarska%20radionica%20%C4%8Cantavir.webp",
-  
-  "services": [
-    {
-      "title": "Izrada kuhinja po meri",
-      "description": "Interium izrađuje kuhinje po meri koje kombinuju moderan dizajn, funkcionalnost i dugotrajnost. Svaka kuhinja se projektuje prema raspoloživom prostoru i željama klijenta, uz mogućnost ugradnje različitih tipova frontova, radnih ploča i okova."
-    },
-    {
-      "title": "Plakari i garderoberi",
-      "description": "Ugradni i samostojeći plakari izrađeni po meri omogućavaju maksimalno iskorišćenje prostora. Interium nudi razne kombinacije boja, materijala i rasporeda unutrašnjih pregrada, idealne za spavaće i hodničke prostore."
-    },
-    {
-      "title": "Nameštaj za dnevne i spavaće sobe",
-      "description": "Komode, stočići, police i ormari izrađeni sa pažnjom prema detalju. Svaki komad je unikat, osmišljen tako da doprinese harmoniji i toplini doma. Materijali se biraju prema stilu enterijera – od rustičnog do modernog minimalizma."
-    },
-    {
-      "title": "Kancelarijski i poslovni nameštaj",
-      "description": "Interium izrađuje radne stolove, ormane, police i recepcione pultove za kancelarije, salone i poslovne objekte. Fokus je na ergonomiji, funkcionalnosti i estetici radnog prostora."
-    },
-    {
-      "title": "Usluge dizajna i 3D prikaza",
-      "description": "Klijentima je dostupna usluga 3D vizualizacije budućeg prostora, što omogućava realan prikaz izgleda i rasporeda nameštaja pre same izrade. Ovaj pristup pomaže u preciznom planiranju i donošenju odluka o materijalima i bojama."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Da li Interium izrađuje nameštaj po meri?",
-      "answer": "Da, Interium je specijalizovan za izradu nameštaja po meri i želji klijenta, u potpunosti prilagođen dimenzijama i stilu prostora."
-    },
-    {
-      "question": "Koje vrste nameštaja izrađujete?",
-      "answer": "Izrađujemo kuhinje, plakare, komode, stočiće, police, kancelarijski nameštaj i druge elemente po meri. Radimo i kompletno opremanje prostora."
-    },
-    {
-      "question": "Da li nudite 3D prikaz pre izrade?",
-      "answer": "Da, klijentima nudimo 3D prikaz nameštaja pre početka izrade, kako bi mogli da vide tačan izgled i raspored elemenata."
-    },
-    {
-      "question": "Gde se nalazi vaša radionica?",
-      "answer": "Radionica Interium nalazi se u Čantaviru, u blizini Subotice. Klijenti su dobrodošli da posete salon i dogovore detalje o svom projektu."
-    },
-    {
-      "question": "Koje je radno vreme Interium radionice?",
-      "answer": "Radimo od ponedeljka do petka, od 7:00 do 15:00 časova. Subotom i nedeljom radionica je zatvorena."
-    }
-  ]
-},
-
-
-
-  {
-  "ime": "Doka Srbija",
+  "ime": "PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte",
   "tip": "firma",
   "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
-  "mesto": ["Srbija", "Šimanovci", "Beograd", "Novi Sad"],
-  "address": "Svetogorska 4, 22310 Šimanovci, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9",
-  "opis_kratak": "Doka Srbija – svetski lider u oplatnim sistemima, skelama i inženjerskim rešenjima za građevinsku industriju.",
-  "opis_dugi": "Doka Srbija je deo međunarodne Doka grupacije, poznate po razvoju i proizvodnji inovativnih oplata, skela i inženjerskih rešenja koja unapređuju građevinsku efikasnost širom sveta. Kao kompanija sa dugogodišnjim iskustvom, Doka postavlja standarde u pogledu sigurnosti, brzine i preciznosti izvođenja radova na svim tipovima projekata – od stambene gradnje do velikih infrastrukturnih poduhvata.",
-  "opis_dugi2": "Naša rešenja obuhvataju širok asortiman oplata za zidove, stubove, ploče i penjuće konstrukcije, kao i visokokvalitetne sisteme nosećih i fasadnih skela. Svaki Doka proizvod projektovan je da omogući brzu montažu, dug vek trajanja i maksimalnu bezbednost na gradilištu. Inovativni pristup i napredne tehnologije, poput digitalnog planiranja i automatizovanog upravljanja projektima, čine Doku pouzdanim partnerom svakog izvođača.",
-  "opis_dugi3": "Doka Srbija nudi i sveobuhvatnu tehničku podršku – od planiranja i statičkih proračuna do obuke i nadzora na terenu. Naš tim inženjera koristi moderne digitalne alate i 3D modele za precizno planiranje, čime se postiže optimalna upotreba materijala i ušteda vremena. Dodatno, kroz platforme kao što su DokaXdek i Concremote, obezbeđujemo napredne alate za digitalno praćenje i kontrolu betona u realnom vremenu.",
-  "opis_dugi4": "Kao deo Umdasch grupacije, Doka posluje u više od 50 zemalja, sa preko 160 lokacija širom sveta, što garantuje globalno iskustvo i lokalnu dostupnost. U Srbiji, sedište kompanije nalazi se u Šimanovcima, odakle se pruža podrška svim domaćim projektima. Doka sistemi su već deo brojnih značajnih objekata u zemlji – od mostova i tunela do modernih poslovnih i stambenih kompleksa. Sa Dokom, gradnja postaje sigurnija, brža i ekonomičnija.",
-  "telefon": "+381 (0)22 400 100",
-  "email": "serb@doka.com",
-  "website": "https://www.doka.com/rs/index",
-  "slug": "doka-srbija-oplate-skele-inzenjering",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-srbija-logo.webp",
-  "additional_images": [
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/doka-sistem-oplate-i-skela.webp",
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/oplate-i-skele-doka-srbija.webp"
-  ],
-  "services": [
-    {
-      "title": "Oplatni sistemi",
-      "description": "Doka nudi širok izbor oplata za zidove, ploče, stubove i penjuće konstrukcije, dizajniranih za jednostavnu montažu, visoku stabilnost i dugotrajnost. Naši sistemi se koriste u svim tipovima građevinskih projekata – od stambene gradnje do mostova i tunela – uz mogućnost preciznog planiranja kroz digitalne alate i inženjersku podršku."
-    },
-    {
-      "title": "Sistemi nosećih i fasadnih skela",
-      "description": "Naši sistemi nosećih skela obezbeđuju stabilnost i sigurnost za rad na velikim visinama. Modularni dizajn omogućava prilagođavanje različitim oblicima i veličinama objekata, a kvalitetni materijali garantuju dug vek trajanja. Doka skele se koriste u najzahtevnijim projektima širom sveta, poznate po svojoj fleksibilnosti i pouzdanosti."
-    },
-    {
-      "title": "Digitalna rešenja u građevinarstvu",
-      "description": "Doka integriše digitalne alate kao što su Concremote i DokaXdek za planiranje, praćenje i optimizaciju procesa gradnje. Ovi sistemi omogućavaju nadzor nad zrelošću betona, praćenje opterećenja i upravljanje zalihama u realnom vremenu, što značajno povećava efikasnost i transparentnost projekta."
-    },
-    {
-      "title": "Inženjerske i projektantske usluge",
-      "description": "Naš stručni tim pruža podršku u svim fazama projekta – od koncepta i statičkog proračuna, do realizacije i završnog nadzora. Doka inženjeri koriste napredne CAD i BIM tehnologije za modelovanje i optimizaciju oplatnih rešenja, osiguravajući maksimalnu sigurnost i ekonomičnost svake konstrukcije."
-    },
-    {
-      "title": "Obuka i tehnička podrška",
-      "description": "Doka Srbija organizuje obuke za izvođače i građevinske timove, obezbeđujući da se svaki sistem koristi na najbezbedniji i najefikasniji način. Naš terenski tim pruža podršku tokom montaže, testiranja i korišćenja opreme, garantujući kvalitet i sigurnost u svim fazama gradnje."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koje vrste oplata Doka proizvodi?",
-      "answer": "Doka proizvodi različite vrste oplata – zidne, stubne, pločaste i penjuće sisteme. Svi sistemi su modularni, izdržljivi i namenjeni za brzu montažu i visoku efikasnost na gradilištu."
-    },
-    {
-      "question": "Da li Doka nudi tehničku podršku u Srbiji?",
-      "answer": "Da. Tim Doka Srbija pruža potpunu tehničku i inženjersku podršku, uključujući planiranje, statičke proračune, obuku i podršku tokom izvođenja radova."
-    },
-    {
-      "question": "Mogu li da iznajmim Doka opremu?",
-      "answer": "Naravno. Doka nudi mogućnost iznajmljivanja oplata i skela za kratkoročne i dugoročne projekte, uz fleksibilne uslove i logističku podršku širom Srbije."
-    },
-    {
-      "question": "Gde se nalazi sedište Doka Srbija?",
-      "answer": "Sedište Doka Srbija nalazi se u Šimanovcima, u neposrednoj blizini Beograda. Odatle se organizuju prodaja, logistika i tehnička podrška za sve domaće projekte."
-    },
-    {
-      "question": "Šta je Concremote?",
-      "answer": "Concremote je Doka digitalni sistem za praćenje zrelosti i čvrstoće betona u realnom vremenu. Omogućava preciznu kontrolu kvaliteta i značajno ubrzava proces gradnje."
-    }
-  ]
-},
-
-
-  {
-  "ime": "Idea Protection System",
-  "tip": "firma",
-  "kategorija": ["Alarmi", "Video nadzor", "Sigurnosni sistemi", "Servis Klima Uređaja"],
-  "mesto": ["Srbija", "Beograd", "Zemun"],
-  "address": " Karlovačka 28, 11080 Zemun",
-  "googlemaps": "https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9",
-  "opis_kratak": "Idea Protection System – stručnjaci za alarmne sisteme, video nadzor i klimatizaciju prostora sa preko 25 godina iskustva.",
-  "opis_dugi": "Idea Protection System je specijalizovana firma iz Zemuna koja se bavi ugradnjom, prodajom i održavanjem sigurnosnih sistema, video nadzora i klimatizacije. Već više od dve decenije, kompanija obezbeđuje pouzdana i savremena rešenja za zaštitu privatnih i poslovnih objekata širom Srbije.",
-  "opis_dugi2": "U ponudi se nalaze alarmni sistemi poznatih brendova kao što su Paradox, Ajax i Hikvision, kao i video nadzorni sistemi Dahua i Hikvision najnovije generacije. Pored prodaje, Idea Protection System nudi kompletnu instalaciju, konfiguraciju i servis sistema, uz garanciju i tehničku podršku.",
-  "opis_dugi3": "Kompanija nudi i prodaju, ugradnju i servis klima uređaja, uz stručno savetovanje i održavanje. Poseban akcenat stavlja se na preventivno održavanje i čišćenje klima kako bi se obezbedila dugotrajnost i energetska efikasnost uređaja.",
-  "opis_dugi4": "Sa sedištem u Zemunu i mrežom zadovoljnih klijenata širom Srbije, Idea Protection System postala je sinonim za sigurnost, kvalitet i profesionalnost. Bilo da želite da zaštitite svoj dom, kancelariju ili komercijalni objekat – tim iskusnih tehničara pružiće vam rešenje prilagođeno vašim potrebama i budžetu.",
-  "telefon": "+381 (0)11 4084 318",
-  "email": "info@ideaps.rs",
-  "website": "https://ideaps.rs/",
-  "slug": "idea-protection-system-beograd-zemun",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/IPS%20Idea%20protection%20system%20logo.webp",
-  
-  "services": [
-  {
-    "title": "Video nadzorni sistemi",
-    "description": "Profesionalna ugradnja i prodaja video nadzornih sistema sa Dahua i Hikvision kamerama visoke rezolucije. U ponudi su IP, HDCVI i PTZ sistemi koji obezbeđuju maksimalnu sigurnost vašeg doma, poslovnog prostora ili industrijskog objekta. Naš tim projektuje sisteme prema specifičnostima terena i potrebama korisnika, uz mogućnost daljinskog praćenja i pristupa putem mobilnih uređaja."
-  },
-  {
-    "title": "Alarmni sistemi",
-    "description": "Instaliramo i konfigurišemo alarmne sisteme renomiranih proizvođača kao što su Paradox, Ajax i Hikvision. Naši alarmi pružaju kompletnu zaštitu od provale, požara i curenja gasa, uz mogućnost povezivanja na centralu za dojavu. Svaki sistem je prilagođen veličini i tipu objekta, sa fokusom na pouzdanost, dugotrajnost i jednostavno korišćenje."
-  },
-  {
-    "title": "Servis i održavanje sigurnosnih sistema",
-    "description": "Pružamo redovno održavanje, dijagnostiku i popravku postojećih sigurnosnih sistema – bilo da su u pitanju kamere, alarmi, interfoni ili mrežni uređaji. Naš servisni tim brzo reaguje na svaki kvar i obezbeđuje potpunu funkcionalnost sistema kroz redovne provere, ažuriranja softvera i tehničku podršku dostupnu 24/7."
-  },
-  {
-    "title": "Ugradnja i servis klima uređaja",
-    "description": "Bavimo se prodajom, montažom i servisiranjem klima uređaja svih poznatih brendova. Nudimo stručno čišćenje i dopunu gasa, kao i savetovanje o izboru uređaja prema vašem prostoru i potrošnji energije. Naš cilj je da vam obezbedimo dugotrajan i energetski efikasan sistem hlađenja i grejanja, uz potpunu garanciju kvaliteta rada."
-  },
-  {
-    "title": "Ozvučenje i tehnička integracija",
-    "description": "Projektujemo i postavljamo profesionalne audio sisteme i sisteme za javno obaveštavanje u poslovnim, ugostiteljskim i industrijskim objektima. Naša rešenja obuhvataju ozvučenje prodajnih prostora, hala, konferencijskih sala i dvorišnih prostora, uz mogućnost integracije sa postojećim sigurnosnim i mrežnim sistemima radi maksimalne funkcionalnosti."
-  }
-],
-  "faq": [
-    {
-      "question": "Koje vrste kamera nudite?",
-      "answer": "U ponudi su Dahua i Hikvision kamere različitih rezolucija (2MP, 5MP, 8MP), kao i IP, analogne i PTZ varijante za unutrašnju i spoljašnju upotrebu."
-    },
-    {
-      "question": "Da li vršite ugradnju alarmnih sistema?",
-      "answer": "Da. Naš tim stručnjaka vrši kompletnu ugradnju i podešavanje alarmnih sistema Paradox, Ajax i Hikvision uz garanciju i tehničku podršku."
-    },
-    {
-      "question": "Da li nudite servis klima uređaja?",
-      "answer": "Da. Pružamo profesionalan servis, čišćenje i dopunu klima uređaja, uz mogućnost redovnog održavanja tokom cele godine."
-    },
-    {
-      "question": "Da li mogu pratiti video nadzor preko mobilnog telefona?",
-      "answer": "Naravno. IP kamere omogućavaju pristup uživo putem mobilnog telefona, tableta ili računara – gde god da se nalazite."
-    },
-    {
-      "question": "Gde se nalazite?",
-      "answer": "Naša firma se nalazi u Zemunu, u Karlovačkoj 28. Radimo od ponedeljka do petka od 9 do 17h, a subotom od 9 do 14h."
-    }
-  ]
-},
-
-
-{
-  "ime": "Vodoinstalateri Beograd",
-  "tip": "firma",
-  "kategorija": ["Vodoinstalater", "Hitne intervencije", "Odgušenje kanalizacije", "Adaptacija kupatila", "Popravka bojlera"],
-  "mesto": ["Beograd", "Novi Beograd", "Voždovac", "Zvezdara", "Vračar", "Palilula", "Stari Grad", "Zemun", "Pančevo", "Dedinje", "Dušanovac", "Vidikovac", "Čukarica", "Karaburma", "Mirijevo", "Kaluđerica", "Surčin", "Bežanijska Kosa", "Železnik", "Rakovica", "Borča"],
-  "address": "11160 Beograd, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/w86SrVDjqzYUJsnZ9",
-  "opis_kratak": "Vodoinstalateri Beograd – 35 godina iskustva, dežurni tim vodoinstalatera za hitne intervencije 24h dnevno na teritoriji Beograda i okoline.",
-  "opis_dugi": "Vodoinstalateri Beograd je profesionalni tim sa više od tri decenije iskustva u pružanju svih vrsta vodoinstalaterskih usluga u Beogradu i okolini. Specijalizovani smo za hitne intervencije, odgušenje kanalizacije, zamenu cevi, popravku bojlera, kao i adaptaciju kupatila i kuhinja. Naš cilj je da svaka intervencija bude obavljena brzo, stručno i uz garanciju na kvalitet izvedenih radova.",
-  "opis_dugi2": "Dežurni vodoinstalateri Beograda dostupni su 00–24h, spremni da u najkraćem roku stignu na vašu adresu. U slučaju curenja cevi, zapušenja, poplave ili problema sa bojlerom, naši majstori reaguju odmah, bez odlaganja. Koristimo najsavremenije mašine za odgušenje kanalizacije (VOMA sistemi), kao i kamere za snimanje cevi i detekciju curenja vode.",
-  "opis_dugi3": "Osim hitnih intervencija, pružamo i planirane usluge – od adaptacije kupatila i kuhinja, do zamene sanitarija i održavanja instalacija u domaćinstvima i poslovnim objektima. Naše višegodišnje iskustvo, dostupnost i opremljenost garantuju sigurnost i kvalitet na svakom projektu.",
-  "opis_dugi4": "Naš tim poznat je po brzini, profesionalnosti i pouzdanosti. Na sve izvedene radove izdajemo račun i garanciju. Bilo da vam je potreban hitan dolazak tokom noći ili zakazana intervencija nekoliko dana unapred, možete se osloniti na naš stručni tim. Poslujemo na celoj teritoriji Beograda, uključujući sve gradske opštine i prigradska naselja.",
-  "telefon": "011/407-8-100",
-  "email": "vodoinstalateribgd@gmail.com",
-  "website": "https://www.vodoinstalateribeograd.com",
-  "slug": "vodoinstalateri-beograd-24h-hitne-intervencije",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodoinstalateri-beograd-logo.png",
-  
-  "services": [
-    {
-      "title": "Hitne vodoinstalaterske intervencije 24h",
-      "description": "Dostupni 24 sata dnevno za sve vrste hitnih intervencija – od curenja cevi, pucanja ventila, poplava i zagušenja kanalizacije. Brzo dolazimo na svaku adresu u Beogradu, sa potpunom opremom i profesionalnim pristupom. Na sve intervencije dajemo račun i garanciju."
-    },
-    {
-      "title": "Odgušenje kanalizacije i cevi",
-      "description": "Vrlo efikasno odgušenje kanalizacije, WC šolja, sudopera, slivnika i vertikala. Koristimo mašinsko i VOMA odgušenje pod pritiskom, kao i kamere za snimanje cevi. Usluge dostupne 00–24h sa garancijom na svaku izvršenu intervenciju."
-    },
-    {
-      "title": "Zamena i ugradnja sanitarija",
-      "description": "Ugradnja i zamena lavaboa, WC šolja, tuš kabina, slavina, ventila i sifona svih brendova. Stručna montaža i precizno zaptivanje bez curenja. Preporučujemo najkvalitetniji vodomaterijal i pomažemo u nabavci."
-    },
-    {
-      "title": "Servis i popravka bojlera",
-      "description": "Servisiramo i popravljamo bojlere svih proizvođača. Čišćenje kamenca, zamena grejača, kazana i termostata. Brza dijagnostika i pouzdana popravka sa garancijom."
-    },
-    {
-      "title": "Adaptacija kupatila i kuhinje",
-      "description": "Kompletna adaptacija i renoviranje kupatila i kuhinja. Usluga obuhvata demontažu starih instalacija, ugradnju novih cevi, ventila i sanitarija, kao i završne radove. Sve obavljamo po dogovoru, poštujući rokove i budžet."
-    },
-    {
-      "title": "Detekcija curenja i snimanje cevi kamerom",
-      "description": "Precizno lociranje pukotina i curenja vode bez nepotrebnog razbijanja zidova. Koristimo moderne kamere za inspekciju kanalizacionih i vodovodnih instalacija. Efikasno rešenje za sprečavanje poplava i oštećenja u stanu ili kući."
-    }
-  ],
-
-  "faq": [
-    {
-      "question": "Da li dolazite i noću?",
-      "answer": "Da, Vodoinstalater Beograd tim je dostupan 00–24h, svakog dana u godini. U slučaju hitne intervencije dolazimo odmah po prijemu poziva."
-    },
-    {
-      "question": "Da li vršite odgušenje kanalizacije u zgradama?",
-      "answer": "Da, vršimo odgušenje vertikala i horizontala u zgradama, kao i individualnih kuća. Koristimo mašine za VOMA odgušenje pod visokim pritiskom."
-    },
-    {
-      "question": "Koliko brzo možete da stignete?",
-      "answer": "Naš tim je organizovan po beogradskim opštinama i stiže na većinu lokacija u roku od 30 do 60 minuta od prijema poziva."
-    },
-    {
-      "question": "Da li izdajete račun i garanciju?",
-      "answer": "Da, na sve naše usluge izdajemo fiskalni račun i pismenu garanciju o kvalitetu izvedenih radova."
-    },
-    {
-      "question": "Da li mogu zakazati termin?",
-      "answer": "Naravno. Pored hitnih intervencija, možete zakazati redovnu uslugu u terminu koji vam najviše odgovara – putem telefona ili e-maila."
-    }
-  ]
-},
-
-
-
-{
-  "ime": "Alarm Plus Sigurnosni Sistemi d.o.o.",
-  "tip": "firma",
-  "kategorija": ["Alarmi", "Video nadzor", "Kontrola pristupa", "Rampe i kapije", "Sigurnosni sistemi"],
-  "mesto": ["Srbija", "Beograd"],
-  "address": "11160 Beograd, Srbija",
-  "googlemaps": "https://maps.app.goo.gl/w86SrVDjqzYUJsnZ9",
-  "opis_kratak": "Alarm Plus Sigurnosni Sistemi – profesionalna rešenja za video nadzor, alarme, rampe i kontrole pristupa širom Srbije.",
-  "opis_dugi": "Alarm Plus Sigurnosni Sistemi d.o.o. je beogradska firma specijalizovana za projektovanje, prodaju, instalaciju i održavanje sistema tehničke zaštite. Kompanija nudi kompletna rešenja za video nadzor, alarmne sisteme, kontrolu pristupa, parking rampe i automatizovane kapije.",
-  "opis_dugi2": "U ponudi se nalaze DVR i IP sistemi za video nadzor renomiranih brendova poput Hikvision i Samsung, kao i anti-vandal i mini kamere za unutrašnju i spoljašnju montažu. Alarmni sistemi su zasnovani na savremenim centralama Paradox i Saturn Home, sa mogućnošću bežične dojave i monitoringa.",
-  "opis_dugi3": "Alarm Plus takođe nudi biometrijske uređaje za kontrolu pristupa, senzore pokreta otporne na lažne alarme, kao i sisteme za automatizaciju pokretnih i kliznih kapija. Svi proizvodi dostupni su sa mogućnošću ugradnje, konfiguracije i garancijom kvaliteta.",
-  "opis_dugi4": "Zahvaljujući stručnom timu i višegodišnjem iskustvu, Alarm Plus obezbeđuje rešenja koja povećavaju bezbednost doma, poslovnog prostora i industrijskih objekata. Kompanija je sinonim za pouzdanost, efikasnost i savremenu tehnologiju sigurnosti.",
-  "telefon": "+381 63 291 881",
-  "email": "office@alarmplus.rs",
-  "website": "https://alarmplus.rs/",
-  "slug": "alarm-plus-sigurnosni-sistemi-beograd",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/alarm-plus-beograd-logo.webp",
-
-  "services": [
-    {
-      "title": "Video nadzorni sistemi",
-      "description": "Instalacija i prodaja IP i analognih video nadzornih sistema sa DVR snimačima, mini i anti-vandal kamerama. U ponudi su i kompletni setovi sa HDD memorijom, napajanjem i kablovima, spremni za montažu."
-    },
-    {
-      "title": "Alarmni sistemi",
-      "description": "Kompletni alarmni sistemi sa centralom, sirenom, senzorima i daljinskim komandama. Ugrađujemo Paradox, Saturn Home i druge pouzdane centrale sa mogućnošću dojave putem telefona i SMS-a."
-    },
-    {
-      "title": "Kontrola pristupa i biometrija",
-      "description": "Uređaji za kontrolu pristupa sa biometrijskim senzorima otiska prsta, LCD ekranom i podrškom za do 1500 korisnika. Idealno rešenje za poslovne objekte, škole i fabrike."
-    },
-    {
-      "title": "Automatizacija kapija i rampi",
-      "description": "Ugradnja motora za krilne i klizne kapije, kao i parking rampi renomiranih brendova kao što je NICE. Kompletni sistemi uključuju centrale, lampe, IC barijere i daljinske komande."
-    },
-    {
-      "title": "Senzori i sigurnosna oprema",
-      "description": "U ponudi su savremeni digitalni senzori pokreta, unutrašnje i spoljne sirene, napajanja i kablovska oprema za proširenje postojećih sigurnosnih sistema."
-    }
-  ],
-
-  "faq": [
-    {
-      "question": "Da li nudite kompletnu ugradnju video nadzora?",
-      "answer": "Da, naš tim vrši kompletnu instalaciju, povezivanje i konfiguraciju sistema za video nadzor sa mogućnošću praćenja putem mobilnog uređaja."
-    },
-    {
-      "question": "Koje alarmne centrale imate u ponudi?",
-      "answer": "U ponudi su Paradox, Saturn Home i bežične alarmne centrale sa mogućnošću dojave i proširenja sistema."
-    },
-    {
-      "question": "Da li montirate motore za kapije i rampe?",
-      "answer": "Da, montiramo i programiramo motore za krilne i klizne kapije, kao i automatske rampe uz kompletnu prateću opremu."
-    },
-    {
-      "question": "Da li nudite servis i održavanje postojećih sistema?",
-      "answer": "Naravno. Pružamo redovan servis, proveru opreme i ažuriranje sistema bez obzira da li je ugrađen od strane nas ili drugih izvođača."
-    },
-    {
-      "question": "Gde se nalazite i kako mogu da vas kontaktiram?",
-      "answer": "Naša firma se nalazi u Beogradu, a možete nas kontaktirati putem telefona +381 63 291 881 ili email-a office@alarmplus.rs."
-    }
-  ]
-},
-
-
-
-
-
-  {
-  "ime": "Vodoinstalater Jokić Novi Sad",
-  "tip": "majstor",
-  "kategorija": ["Vodoinstalater", "Renoviranje kupatila", "Odgušenje kanalizacije", "Popravka bojlera"],
-  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Kać"],
-  "opis_kratak": "Braća Jokić – profesionalni vodoinstalateri iz Novog Sada. Brze, pouzdane i povoljne usluge vodoinstalaterskih radova.",
-  "opis_dugi": "Vodoinstalater Jokić iz Novog Sada je porodična firma koju vode braća Stefan i Miroslav, sa više od 10 godina iskustva u vodoinstalaterskim radovima. Specijalizovani smo za brzo otklanjanje kvarova, renoviranje kupatila, zamenu cevi i popravku bojlera – uz garantovan kvalitet i fer cene.",
-  "opis_dugi2": "Naš pristup je jednostavan: kada nas pozovete, dolazimo u najkraćem roku, procenjujemo situaciju na licu mesta i dajemo jasnu i poštenu ponudu bez skrivenih troškova. Radimo precizno, čisto i odgovorno – bilo da se radi o manjoj popravci ili kompletnom renoviranju kupatila.",
-  "opis_dugi3": "Koristimo samo proverene materijale i profesionalni alat. Sve instalacije i popravke izvodimo po najvišim standardima, sa posebnom pažnjom na dugotrajnost i sigurnost. Naši klijenti nas najviše preporučuju zbog brzine intervencije i pouzdanosti u radu.",
-  "opis_dugi4": "Vodoinstalater Jokić pruža usluge na teritoriji Novog Sada i okoline – Liman, Novo naselje, Petrovaradin, Veternik, Futog, Kać i okolna mesta. Dostupni smo za hitne intervencije tokom cele nedelje. Vaš problem sa vodom rešavamo odmah!",
-  "telefon": "+381 61 493 5683",
-  "website": "https://vodoinstalaterjokic.com/",
-  "slug": "vodoinstalater-jokic-novi-sad",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodovodar-logo.webp",
-  "services": [
-    {
-      "title": "Renoviranje kupatila",
-      "description": "Kompletno renoviranje kupatila – demontaža stare opreme, zamena cevi, postavljanje pločica, montaža sanitarije i završni radovi po dogovoru."
-    },
-    {
-      "title": "Odgušenje kanalizacije",
-      "description": "Profesionalno odgušenje kanalizacije bez razbijanja uz pomoć specijalnih mašina i kamera za preciznu dijagnostiku."
-    },
-    {
-      "title": "Popravka i zamena bojlera",
-      "description": "Servis i ugradnja svih vrsta bojlera, zamena grejača, termostata i sigurnosnih ventila po najvišim standardima bezbednosti."
-    },
-    {
-      "title": "Zamena cevi i ventila",
-      "description": "Brza i pouzdana zamena dotrajalih cevi, ventila i slavina uz garanciju kvaliteta i dugotrajnost izvedenih radova."
-    },
-    {
-      "title": "Hitne intervencije",
-      "description": "Dostupni smo 24h dnevno za sve hitne slučajeve – pucanje cevi, curenje, zapušenja ili poplave."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Koliko košta popravka curenja cevi?",
-      "answer": "Cena zavisi od tipa cevi i mesta kvara, ali uvek dajemo besplatnu procenu na licu mesta pre početka radova."
-    },
-    {
-      "question": "Da li nudite hitne intervencije tokom noći?",
-      "answer": "Da, dostupni smo 24h dnevno za hitne pozive na teritoriji Novog Sada i okoline."
-    },
-    {
-      "question": "Koliko traje renoviranje kupatila?",
-      "answer": "U proseku između 7 i 10 dana, u zavisnosti od obima radova i materijala koje izaberete."
-    },
-    {
-      "question": "Da li pružate garanciju na izvedene radove?",
-      "answer": "Naravno. Na sve radove dajemo pisanu garanciju i uvek stojimo iza svog kvaliteta."
-    },
-    {
-      "question": "Koji delovi Novog Sada su pokriveni?",
-      "answer": "Radimo širom Novog Sada – Liman, Novo Naselje, Petrovaradin, Veternik, Futog, Kać i okolna mesta."
-    }
-  ]
-},
-
-
-  {
-  "ime": "PERI Srbija",
-  "tip": "firma",
-  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
-  "mesto": ["Srbija", "Ruma", "Beograd", "Novi Sad"],
-  "opis_kratak": "PERI Srbija – vodeći dobavljač oplata, skela i inženjerskih rešenja za građevinsku industriju.",
-  "opis_dugi": "PERI Srbija je deo globalne PERI grupe, jednog od najvećih svetskih proizvođača i dobavljača oplatnih i skela sistema. Od svog osnivanja, PERI je sinonim za inovaciju, bezbednost i efikasnost u građevinskoj industriji. Naš cilj je da pružimo pouzdana, ekonomična i tehnički napredna rešenja koja omogućavaju bržu i sigurniju izgradnju objekata.",
-  "opis_dugi2": "Naša ponuda obuhvata širok spektar proizvoda i usluga — od oplatnih sistema za zidove, stubove i ploče, preko modularnih i fasadnih skela, do kompleksnih inženjerskih rešenja za infrastrukturne i industrijske projekte. PERI sistemi su poznati po lakoj montaži, fleksibilnosti i dugotrajnosti, što ih čini idealnim izborom za izvođače svih veličina.",
-  "opis_dugi3": "Kao kompanija koja kombinuje tradicionalno građevinsko znanje sa digitalnim alatima, PERI Srbija svojim partnerima nudi i podršku u fazama projektovanja, planiranja i optimizacije radova. Naš inženjerski tim koristi napredne softverske alate za 3D planiranje i statičke proračune, čime se postiže maksimalna preciznost i sigurnost u izvođenju. Pored toga, PERI pruža tehničku obuku i terensku podršku, kako bi svaki projekat bio uspešno realizovan od početka do kraja.",
-  "opis_dugi4": "Naši proizvodi uključuju i specijalizovane sisteme kao što su DUO univerzalna oplata, termoizolacioni balkonski konektori i platforme za odlaganje materijala. PERI rešenja koriste se u mnogim velikim projektima širom Srbije, uključujući fabrike, stambene komplekse i infrastrukturne objekte kao što su mostovi i tuneli. Uz PERI, gradite pametnije, brže i bezbednije.",
-  "telefon": "+381 (0)22 408200",
+  "opis_kratak": "PERI Srbija je deo globalne PERI grupe osnovane 1969. godine. Sa sedištem u Šimanovcima, nudi sisteme oplata, skele i inženjerske usluge za efikasniju i bezbedniju izgradnju u Srbiji – sve na jednom mestu.",
+  "mesto": ["Šimanovci", "Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Ruma", "Inđija", "Stara Pazova", "Sremska Mitrovica", "Pančevo", "Zemun", "Novi Beograd", "Vračar", "Voždovac"],
+  "address": "Zmaja Ognjenog Vuka 2, 22310 Šimanovci",
+  "telefon": "+38122408200",
   "email": "office@peri.rs",
   "website": "https://www.peri.rs/",
-  "slug": "peri-srbija-oplate-skele-inzenjering",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-logo.webp",
-  "additional_images": [
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-sistem-skela.webp",
-    "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/peri-skica-sistem-oplata.webp"
+  "slug": "peri-srbija-oplate-skele-inzenjering-simanovci",
+
+  "thumbnail": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/thumbnails/PERI%20Srbija%20iz%20%C5%A0imanovaca_%20Oplate%20i%20Skele%20za%20Velike%20i%20Male%20Projekte.webp",
+  "hero_image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/thumbnails/PERI%20Srbija%20iz%20%C5%A0imanovaca_%20Oplate%20i%20Skele%20za%20Velike%20i%20Male%20Projekte.webp",
+
+  "discover_title": "PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar Škrbić je osnivač portala i specijalista za analizu i proveru kvaliteta. Koristeći metode iz sveta digitalnih rešenja, lično testira zanatske usluge kako bi postavio standarde i osigurao da su informacije o majstorima na portalu pouzdane, efikasne i transparentne. Petar prikuplja i validira stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-28",
+  "last_modified": "2025-10-28",
+
+  "tips_title": "6 Praktičnih Saveta od PERI Srbija: Kako Optimizovati Gradilište uz Njihove Sisteme",
+  "tips": [
+    "Koristite DUO univerzalnu oplatu – lagana i montira se bez alata",
+    "SKYDECK omogućava ranu demontažu panela zahvaljujući drop-head sistemu",
+    "Planirajte sa PERI inženjerima – digitalni modeli smanjuju greške",
+    "Koristite termoizolacione balkonske konektore za energetsku efikasnost",
+    "Modularne skele PERI UP prilagođavaju se svim vrstama objekata",
+    "Sve komponente i potrošni materijal nabavite na jednom mestu"
   ],
-  "services": [
+
+  "sections": [
     {
-      "title": "Sistemi oplata",
-      "description": "PERI nudi kompletna rešenja za zidne, pločaste i stubne oplate, namenjene bržem, sigurnijem i ekonomičnijem izvođenju radova."
+      "type": "p",
+      "content": "Pre nekoliko meseci, jedan prijatelj mi je pokazao nešto što me je odmah zaintrigiralo – <strong>PERI QuickSolve</strong>, besplatnu web aplikaciju za brzo planiranje oplata. Bio je to moj prvi susret sa <strong>PERI Srbija</strong>, kompanijom iz Šimanovaca koja stoji iza ovog alata. Odmah sam video potencijal, ali i priliku za poboljšanje načina na koji se predstavlja korisnicima."
     },
     {
-      "title": "Sistemi skela",
-      "description": "Modularni i fasadni sistemi skela dizajnirani za maksimalnu stabilnost i bezbednost, prilagodljivi svakom projektu."
+      "type": "p",
+      "content": "Analizirao sam aplikaciju i za par sati napravio <a href=\"https://notoolsnocraft.github.io/PERI-Quicksolve-Slide-In-Panel-Widget-Demo/\" target=\"_blank\" rel=\"noopener\">interaktivni slide-in panel sa sticky dugmetom</a> – rešenje koje bi korisnicima omogućilo da odmah na sajtu vide prednosti QuickSolve-a: brzu registraciju, automatska rešenja, 2D/3D planove i podršku za sisteme kao što su <strong>DUO</strong>, <strong>TRIO</strong> i <strong>MAXIMO</strong>."
     },
     {
-      "title": "Rešenja za infrastrukturu",
-      "description": "Specijalizovani sistemi i inženjerska podrška za mostove, tunele i druge infrastrukturne objekte."
+      "type": "p",
+      "content": "Ponudio sam ideju PERI-ju, ali na kraju nismo postigli dogovor. Ipak, to iskustvo me je navelo da dublje istražim šta PERI Srbija zaista radi – i ostao sam impresioniran. Evo šta sam otkrio."
     },
     {
-      "title": "Komponente i potrošni materijal",
-      "description": "Kompletna ponuda dodatne opreme, sigurnosnih komponenti i materijala za gradilište – sve na jednom mestu."
+      "type": "h2",
+      "content": "Ko je PERI Srbija – Kratak Pregled"
     },
     {
-      "title": "Inženjerske usluge",
-      "description": "Projektovanje, statički proračuni, 3D planiranje i tehnička podrška tokom čitavog životnog ciklusa projekta."
+      "type": "p",
+      "content": "Danas ima preko 60 podružnica širom sveta, 120 logističkih centara i više od 8.100 zaposlenih. Godišnji promet grupe prelazi 1,3 milijarde evra. U Srbiji, PERI posluje iz <strong>Šimanovaca</strong> i opslužuje projekte širom zemlje."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih direktno:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+38122408200\">+381 (0)22 408200</a><br>📧 <strong>Email:</strong> <a href=\"mailto:office@peri.rs\">office@peri.rs</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.peri.rs/\" target=\"_blank\" rel=\"noopener\">peri.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/uvzvE6ycjwpv2VbJ8\" target=\"_blank\" rel=\"noopener\">PERI Srbija, Šimanovci</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi PERI Srbija – Kompletan Asortiman"
+    },
+    {
+      "type": "p",
+      "content": "PERI Srbija ima širok spektar proizvoda i usluga, podeljen u nekoliko ključnih kategorija:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Sistemi Oplata"
+    },
+    {
+      "type": "p",
+      "content": "Optimalna rešenja za sve vrste betonskih konstrukcija. Najpoznatiji proizvod je <strong>DUO univerzalna oplata</strong> – lagani sistem koji se montira bez alata. Koristi se za zidove, stubove, temelje i složene oblike."
+    },
+    {
+      "type": "p",
+      "content": "Takođe nude <strong>SKYDECK</strong> – lagani sistem za ploče sa drop-head mehanizmom koji omogućava ranu demontažu. Primer upotrebe: <em>Marine Wharf projekat</em> gde je olakšana manipulacija i ubrzana izgradnja."
+    },
+    {
+      "type": "h3",
+      "content": "2. Sistemi Skela"
+    },
+    {
+      "type": "p",
+      "content": "Modularne skele za efikasan i bezbedan rad na visini. Uključuju <strong>noseće platforme za odlaganje materijala i opreme</strong> – idealne za skladištenje na gradilištu."
+    },
+    {
+      "type": "h3",
+      "content": "3. Rešenja za Infrastrukturu"
+    },
+    {
+      "type": "p",
+      "content": "Kombinacija inovativnog inženjeringa i digitalne ekspertize. Primer: <strong>fabrika Haitian International u Rumi, Srbija</strong> – jedan od projekata gde je korišćena PERI oprema."
+    },
+    {
+      "type": "h3",
+      "content": "4. Komponente i Potrošni Materijal"
+    },
+    {
+      "type": "p",
+      "content": "Sve sitnice na jednom mestu: <strong>termoizolacioni balkonski konektori</strong>, ankeri, distanceri, zaštitne folije i ostali dodaci."
+    },
+    {
+      "type": "h3",
+      "content": "5. Inženjerske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Stručna podrška od planiranja do realizacije. Uključuje izradu planova, statičke proračune, obuku i nadzor na gradilištu."
+    },
+    {
+      "type": "h2",
+      "content": "Šta je PERI QuickSolve – Aplikacija Koja Me Je Uvela u Svet PERI-ja"
+    },
+    {
+      "type": "p",
+      "content": "<strong>PERI QuickSolve</strong> je besplatna web aplikacija (<a href=\"https://www.peri.rs/proizvodi/peri-quicksolve.html\" target=\"_blank\" rel=\"noopener\">peri.rs/proizvodi/peri-quicksolve.html</a>) koja omogućava brzo i jednostavno planiranje oplata za jednostavne osnove. Unesete dimenzije, odaberete sistem – i aplikacija automatski generiše:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Optimalne takte betoniranja",
+        "Plan oplate na osnovu vaše opreme (ili predlog)",
+        "Specifikacije elemenata po taktu",
+        "2D i 3D prikaze za izvoz i deljenje"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Podržani sistemi: <strong>MAXIMO 270 MX 15</strong>, <strong>TRIO 270</strong>, <strong>DUO 135</strong>, <strong>DOMINO 250</strong>. Radi online, bez instalacije, na Chrome-u i Edge-u. Registracija je besplatna, dostupnost 24/7."
+    },
+    {
+      "type": "p",
+      "content": "PERI traži povratne informacije direktno u aplikaciji – žele da je razvijaju prema potrebama korisnika. To je ono što me je privuklo: otvorenost ka unapređenju."
+    },
+    {
+      "type": "h2",
+      "content": "PERI Srbija – Kompanija Iza QuickSolve-a"
+    },
+    {
+      "type": "p",
+      "content": "Na adresi <strong>Zmaja Ognjenog Vuka 2 u Šimanovcima</strong> nalazi se srpski ogranak <strong>PERI Srbija</strong> – dela globalne kompanije osnovane 1969. godine u Nemačkoj. Kao vodeći dobavljač građevinske opreme, PERI Srbija nudi inovativna i ekonomična rešenja u vidu sistema oplata, skela i inženjerskih usluga."
+    },
+    {
+      "type": "p",
+      "content": "Njihov cilj je jasan: učiniti izgradnju <strong>efikasnijom, bržom i sigurnijom</strong>. Bilo da radite na stambenim zgradama, industrijskim halama ili infrastrukturnim projektima – PERI ima rešenje."
+    },
+    {
+      "type": "h2",
+      "content": "Primeri Projekata sa PERI Opremom"
+    },
+    {
+      "type": "p",
+      "content": "PERI oprema se koristi na raznim lokacijama u Srbiji i inostranstvu:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Haitian International – Fabrika u Rumi, Srbija</strong>",
+        "<strong>Marine Wharf</strong> – ekstenzivna upotreba SKYDECK sistema za lake ploče",
+        "Razni infrastrukturni projekti sa nosećim platformama i skelama"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Korisnici – Stvarne Recenzije"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Profesionalnost na najvišem nivou, odnos sa klijentima tačan i precizan. Odusevljen sam zatečenim odnosom nadređenih prema zaposlenima.“ – <a href=\"https://share.google/7pRZjE1wjNi5aPKiF\" target=\"_blank\" rel=\"noopener\"><strong>Aleksandar Čolić</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„PERI, osnovan 1969, jedan je od najvećih svetskih proizvođača sistema oplata i skela. [...] Kompanija ima preko 8.100 zaposlenih i prošle godine je ostvarila promet od 1,3 mlrd. €.“ – <a href=\"https://share.google/stjMsLBulQRtgY5qR\" target=\"_blank\" rel=\"noopener\"><strong>Srđan Radivojević</strong></a>"
+    },
+    {
+      "type": "h2",
+      "content": "Karijera u PERI Srbija"
+    },
+    {
+      "type": "p",
+      "content": "PERI Srbija je poslodavac sa perspektivom. Uvek traže talentovane pojedince za rad u građevini – inženjere, prodavce, logističare. Više informacija na njihovom sajtu: <a href=\"https://www.peri.rs/\" target=\"_blank\" rel=\"noopener\">peri.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa PERI Srbija"
+    },
+    {
+      "type": "p",
+      "content": "1. <strong>Kontakt</strong> – pozovite ili popunite formular<br>2. <strong>Analiza</strong> – inženjer pregleda projekat<br>3. <strong>Ponuda</strong> – dobijate detaljan plan i cenu<br>4. <strong>Isporuka</strong> – oprema stiže iz Šimanovaca<br>5. <strong>Podrška</strong> – obuka i nadzor na licu mesta"
+    },
+    {
+      "type": "p",
+      "content": "Radno vreme: Ponedeljak–Petak, 8–16h. Vikendom zatvoreno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto PERI Srbija – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Sve na jednom mestu – oprema, komponente, usluge",
+        "Globalno iskustvo od 1969. godine",
+        "Lokalna podrška iz Šimanovaca",
+        "Inovativna rešenja za bržu i sigurniju gradnju",
+        "Stručna inženjerska pomoć tokom celog projekta"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Iako moj predlog za slide-in panel nije usvojen, i dalje cenim ono što PERI Srbija radi. QuickSolve je odličan primer kako digitalni alati mogu olakšati posao na gradilištu. Ako tražite pouzdanog partnera za građevinske projekte u Srbiji – <strong>PERI Srbija</strong> je pravi izbor. Sve počinje jednim pozivom: <a href=\"tel:+38122408200\">+381 (0)22 408200</a>."
     }
   ],
+
+  "services": [
+    {
+      "title": "PERI QuickSolve – Besplatno Planiranje Oplata Online",
+      "description": "Web aplikacija za brzo generisanje planova oplate. Podržava MAXIMO, TRIO, DUO, DOMINO. 2D/3D izvoz, specifikacije, saradnja."
+    },
+    {
+      "title": "Sistemi Oplata – DUO, SKYDECK i Više",
+      "description": "Univerzalna DUO oplata i lagani SKYDECK sistem za zidove, stubove i ploče. Montaža bez alata, ranija demontaža, optimalna za sve vrste betonskih radova."
+    },
+    {
+      "title": "Sistemi Skela i Noseće Platforme",
+      "description": "Modularne skele i platforme za odlaganje materijala. Efikasan i bezbedan rad na visini, idealno za fasade i infrastrukturne objekte."
+    },
+    {
+      "title": "Inženjerske Usluge i Digitalna Podrška",
+      "description": "Planiranje, statički proračuni, obuka i nadzor. Kombinacija inženjeringa i digitalnih alata za uspešnu realizaciju projekata."
+    },
+    {
+      "title": "Termoizolacioni Balkonski Konektori",
+      "description": "Rešenja za sprečavanje toplotnih mostova. Deo šireg asortimana komponenti za energetski efikasne objekte."
+    },
+    {
+      "title": "Komponente i Potrošni Materijal",
+      "description": "Sve od anker sidara do zaštitnih folija – dostupno iz centralnog skladišta u Šimanovcima."
+    }
+  ],
+
   "faq": [
     {
-      "question": "Koje vrste oplata PERI nudi?",
-      "answer": "PERI nudi zidne, stubne i pločaste oplate, uključujući DUO sistem koji kombinuje jednostavnost, izdržljivost i malu težinu."
+      "question": "Šta je PERI QuickSolve?",
+      "answer": "Besplatna web aplikacija za planiranje oplata. Podržava DUO, TRIO, MAXIMO, DOMINO. Radi online, bez instalacije."
     },
     {
-      "question": "Da li PERI pruža tehničku podršku na terenu?",
-      "answer": "Da. PERI inženjerski tim pruža kompletnu podršku – od planiranja do montaže, uključujući obuku i tehničke konsultacije."
+      "question": "Da li je PERI QuickSolve besplatan?",
+      "answer": "Da, registracija i korišćenje su potpuno besplatni. Dostupno 24/7."
     },
     {
-      "question": "Da li mogu da iznajmim opremu umesto kupovine?",
-      "answer": "Da. PERI nudi fleksibilne opcije iznajmljivanja za većinu svojih sistema, idealne za projekte ograničenog trajanja."
+      "question": "Koji sistemi su podržani u QuickSolve-u?",
+      "answer": "MAXIMO 270 MX 15, TRIO 270, DUO 135, DOMINO 250."
     },
     {
-      "question": "Gde se nalazi PERI Srbija?",
-      "answer": "Glavno sedište PERI Srbija nalazi se u Rumi, a podrška i isporuka dostupne su širom zemlje."
+      "question": "Da li PERI Srbija nudi inženjerske usluge?",
+      "answer": "Da, pružaju stručnu podršku od planiranja do izvođenja – uključujući obuku i nadzor."
     },
     {
-      "question": "Kako da saznam koje rešenje je najbolje za moj projekat?",
-      "answer": "Kontaktirajte naš tim putem telefona +381 (0)22 408200 ili putem sajta peri.rs – rado ćemo vam pomoći da pronađete optimalno rešenje."
+      "question": "Koji su najpoznatiji proizvodi PERI Srbija?",
+      "answer": "DUO univerzalna oplata, SKYDECK za ploče, termoizolacioni konektori i modularne skele."
+    },
+    {
+      "question": "Da li PERI Srbija radi samo u Šimanovcima?",
+      "answer": "Ne, opslužuju projekte širom Srbije – od Beograda i Novog Sada do Niša i Subotice."
+    },
+    {
+      "question": "Kako da dobijem ponudu od PERI Srbija?",
+      "answer": "Pozovite +381 (0)22 408200 ili popunite kontakt formular na peri.rs."
     }
   ]
 },
 
 
 
-  
   {
-    "ime": "Keramičar Jožef Farkaš",
-    "tip": "majstor",
-    "kategorija": ["Keramičar"],
-    "mesto": ["Čantavir", "Subotica", "Bačko Dušanovo", "Višnjevac"],
-    "opis_kratak": "Keramičar sa radnim iskustvom iz Nemačke, precizan i pouzdan.",
-    "opis_dugi": "Jožef Farkaš je iskusni keramičar sa preko 10 godina radnog iskustva u Nemačkoj. Specijalizovan je za postavljanje keramičkih pločica, mozaika i prirodnog kamena u stambenim i poslovnim prostorima.",
-    "opis_dugi2": "Njegov rad karakterišu preciznost, pažnja prema detaljima i visok kvalitet završnih radova. Koristi samo najbolje materijale i alate kako bi osigurao dugotrajnost i estetiku svojih projekata.",
-    "opis_dugi3": "Pored standardnog lepljenja keramičkih pločica, Jožef Farkaš nudi i kompleksnije usluge. To uključuje izradu pouzdane hidroizolacije u kupatilima i na terasama, stručnu pripremu podloge za postavljanje pločica velikih formata, kao i dekorativno postavljanje mozaika i bordura. Svi radovi se izvode u skladu sa strogim nemačkim standardima kvaliteta, što garantuje savršeno ravne površine i precizno uklapanje fuga.",
-    "opis_dugi4": "Prioritet je da klijenti dobiju dugotrajno i estetski savršeno rešenje. Klijentima pruža i stručne savete pri odabiru svih materijala (pločica, lepka i fug mase) radi obezbeđivanja maksimalne otpornosti na vlagu i habanje. Preuzima projekte na teritoriji Čantavira, Subotice i okolnih mesta, uz mogućnost besplatne procene troškova na terenu.",
-    "telefon": "+381 63 878 8123",
-    "website": "https://www.facebook.com/jozsef.farkas.189478",
-    "slug": "keramicar-jozsef-farkas-cantavir",
-    "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/izvodja%C4%8Di%20zanatskih%20radova%20logo.webp",
-    "additional_images": [
-      "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Stepenice%20keramika%20farka%C5%A1%20jo%C5%BEef%20%C4%8Dantavir.webp"
-    ],
-    "services": [
-      {
-        "title": "Lepljenje keramičkih pločica",
-        "description": "Lepljenje keramičkih pločica po vašoj meri, izuzetno kvalitetno."
-      },
-      {
-        "title": "Postavljanje mozaika",
-        "description": "Postavljanje mozaika tako da oduševite svakog gosta."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Koliko košta lepljenje keramičkih pločica po m²?",
-        "answer": "Slobodno me pozovite da se dogovorimo."
-      },
-      {
-        "question": "Da li nudite besplatnu procenu?",
-        "answer": "Da! Besplatno dolazimo na teren i dajemo preciznu procenu u roku od 24h."
-      }
-    ]
-  },
+  "ime": "Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno",
+  "tip": "majstor",
+  "kategorija": ["Vodoinstalater", "Hitne intervencije", "Odgušenje kanalizacije", "Popravka bojlera", "Zamena sanitarija"],
+  "opis_kratak": "Zoran Minić – Zoki, dežurni vodoinstalater Novog Sada. 24/7 hitne intervencije, mašinsko odgušenje, popravka bojlera i zamena sanitarija. Preko 400 recenzija sa prosečnom ocenom 5.0 – stiže za 30–45 minuta, bez obzira na doba dana.",
+  "mesto": ["Novi Sad", "Liman", "Novo Naselje", "Detelinara", "Veternik", "Petrovaradin", "Sremska Kamenica", "Futog", "Rumenka", "Kać", "Adice", "Podbara", "Stari Grad", "Sajlovo", "Telep", "Avijacija", "Bulevar", "Grbavica", "Rotkvarija", "Salajka"],
+  "address": "Bulevar Oslobođenja 4, 21000 Novi Sad",
+  "telefon": "0641848856",
+  "email": "zoranminic65@gmail.com",
+  "website": "https://vodoinstalater-zoki.rs/",
+  "slug": "dezurni-vodoinstalater-zoki-24h-novi-sad",
 
-  {
-  "ime": "ULMA Construction",
-  "tip": "firma",
-  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
-  "mesto": ["Srbija", "Beograd", "Novi Sad"],
-  "opis_kratak": "ULMA Construction – međunarodni lider u oblasti oplata, skela i inženjerskih rešenja, prisutan i na tržištu Srbije kroz velike infrastrukturne projekte.",
-  "opis_dugi": "ULMA Construction je globalna kompanija specijalizovana za projektovanje, proizvodnju i primenu sistema oplata, skela i bezbednosnih konstrukcija u građevinskoj industriji. Sa sedištem u Španiji i poslovanjem u više od 50 zemalja, ULMA nudi inovativna rešenja za sve vrste građevinskih projekata – od stambenih i poslovnih objekata, do mostova, tunela, energetskih postrojenja i industrijskih kompleksa.",
-  "opis_dugi2": "Njihovi proizvodi uključuju sisteme oplata za zidove, stubove, ploče, penjuće i samopenjuće konstrukcije, kao i širok spektar nosećih i fasadnih skela. Svaka konstrukcija razvijena je uz stroge bezbednosne standarde, modularni dizajn i jednostavnost montaže. ULMA sistemi omogućavaju maksimalnu efikasnost, uštedu vremena i sigurnost na gradilištu – što ih čini izborom brojnih izvođača širom sveta.",
-  "opis_dugi3": "Pored proizvodnje i prodaje opreme, ULMA pruža i kompletne inženjerske i logističke usluge – od tehničkog savetovanja i proračuna, do podrške tokom izvođenja radova. Njihovi stručnjaci koriste napredne tehnologije i softverske alate za modelovanje i planiranje složenih projekata, čime se osigurava preciznost, stabilnost i pouzdanost svakog sistema.",
-  "opis_dugi4": "ULMA je deo ULMA Grupe, osnovane 1961. godine u Baskiji (Španija), sa više od 2.100 zaposlenih i godišnjim prometom od preko 400 miliona evra. Iako nema zvanično predstavništvo u Srbiji, njihova oprema i sistemi prisutni su na domaćem tržištu kroz saradnju sa izvođačima i međunarodnim partnerima. Zahvaljujući kvalitetu, fleksibilnosti i bogatom iskustvu, ULMA Construction se pozicionirala kao pouzdan partner u realizaciji zahtevnih građevinskih projekata širom sveta, uključujući i region Balkana.",
-  "telefon": "+34 943 034 900",
-  "website": "https://www.ulmaconstruction.com/en",
-  "slug": "ulma-construction-oplate-skele-inzenjering",
-  "image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/Ulma%20construction%20logo%20Srbija.webp",
+  "thumbnail": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/thumbnails/Vodoinstalater%20Zoki%20Novi%20Sad%2024h%20%E2%80%93%20De%C5%BEurni%20Majstor%20Koji%20Sti%C5%BEe%20Ekspresno.webp",
+  "hero_image": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/thumbnails/Vodoinstalater%20Zoki%20Novi%20Sad%2024h%20%E2%80%93%20De%C5%BEurni%20Majstor%20Koji%20Sti%C5%BEe%20Ekspresno.webp",
+
+  "discover_title": "Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-28",
+  "last_modified": "2025-10-28",
+
+  "tips_title": "5 Zlatnih Saveta od Zokija: Kako Nikad Nećete Pozvati Dežurnog Vodoinstalatera",
+  "tips": [
+    "Redovno proveravajte ventile ispod sudopere – 80% curenja počinje tu",
+    "Čistite slivnike svakih 6 meseci – sprečite zagušenje pre nego što se desi",
+    "Koristite filtere za vodu – produžite vek bojlera za 5+ godina",
+    "Imajte dežurni broj u kontaktima – ne čekajte jutro",
+    "Tražite pismenu garanciju – pravi majstor je uvek spreman da stane iza svog rada"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Bilo je <strong>2:47 ujutru</strong>. Zvuk kapljanja probudio me je iz sna – najpre tih, a onda sve glasniji, kao da pljušti letnja kiša. Samo što nije bila napolju. Voda je nadirala ispod vrata kupatila. <em>Pukla cev.</em> Panika. Telefon u ruke. Ukucavam: „<strong>Dežurni vodoinstalater Novi Sad</strong>“. Među prvima – <strong>Zoki</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Zovem ga. Glas miran, siguran: <em>„Dolazim odmah“</em>. I za manje od <strong>40 minuta</strong>, vrata su se otvorila – čovek sa alatom, lampom i osmehom koji kao da kaže: <em>„Ne brini, ovo će biti rešeno.“</em>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Zoki – Vodoinstalater Koji Radi Kada Svi Ostali Spavaju"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Zoran Minić – Zoki</strong>, u Novom Sadu ima reputaciju koju majstori retko steknu – <em>dežurni spasilac</em>. Više od <strong>15 godina iskustva</strong>, profesionalne mašine, kamere i sajle, i jedno jednostavno pravilo: <em>„Ako ne stignem za 45 minuta – ne plaćaš ništa.“</em>"
+    },
+    {
+      "type": "p",
+      "content": "Njegove intervencije nisu samo popravke. To su <strong>spasene noći</strong>, spratovi bez poplava, i ljudi koji se sutra probude zahvalni. Preko <strong>400 recenzija na Google-u sa prosečnom ocenom 5.0</strong> – i svaka ima sličan ton: brz, pedantan, pošten."
+    },
+    {
+      "type": "p",
+      "content": "Njegova baza je na <strong>Bulevaru Oslobođenja 4</strong> u Novom Sadu – <a href=\"https://maps.app.goo.gl/NW2F8xtgvNpZgdex5\" target=\"_blank\" rel=\"noopener\">vidi lokaciju na mapi</a>. Sve usluge i cene nalaze se na sajtu <a href=\"https://vodoinstalater-zoki.rs/\" target=\"_blank\" rel=\"noopener\">vodoinstalater-zoki.rs</a>."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dostupan <strong>24/7</strong> – stiže u roku od <strong>30–45 minuta</strong>",
+        "Preko <strong>400 zadovoljnih klijenata</strong> sa ocenama <strong>5.0</strong>",
+        "Mašinsko odgušenje i <strong>dijagnostika kamerom</strong>",
+        "<strong>Garancija na svaki rad i deo</strong>",
+        "Bez skrivenih troškova – dogovor pre početka rada"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Stvarne Priče iz Novog Sada – Šta Kažu Klijenti"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Nismo imali vodu u kuhinji više od godinu dana 🤷‍♀️ A onda sam sasvim slučajno ovde naišla na majstora Zokija i za 15 minuta sve su sredili! Došli su on i još jedan momak – divni, kulturni, profesionalni, simpatični. 😊 Sve su objasnili, uradili brzo i pedantno, bez ikakvog odugovlačenja. Oduševljena sam koliko su odgovorni i posvećeni svom poslu. Pravi primer kako majstori treba da rade! Preporučujem ih od srca svima – retko se nalaze ovako divni ljudi danas! 👏“ – <a href=\"https://share.google/XDFps4lmtLduVxW6P\" target=\"_blank\" rel=\"noopener\"><strong>Zorana Dević, Rumenka</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Čovek me je oduševio! Od prve rečenice kad sam ga pozvala, pa nadalje. Pristojan je i normalan u komunikaciji, pa smo se sve brzo i lako razumeli i dogovorili. A što je skoro pa neuobičajeno za današnje majstore, sve je i uradio baš kad i kako smo se dogovorili. Sve preporuke! I Zoki, nemojte nikad da se pokvarite, pristojni, profesionalni ljudi koji znaju svoj posao i drže datu reč su nam svima potrebni.“ – <a href=\"https://share.google/ROpSw305M47AiPnTU\" target=\"_blank\" rel=\"noopener\"><strong>Sanja Ćupurdija</strong></a>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Zoki Pokriva Ceo Novi Sad – i Šire"
+    },
+    {
+      "type": "p",
+      "content": "Od <strong>Limana</strong> do <strong>Futoga</strong>, od <strong>Telepa</strong> do <strong>Kaća</strong> – Zoki stiže svuda. Radi i u <strong>Petrovaradinu, Sremskoj Kamenici, Veterniku, Adicama, Rumenki, Sajlovu, Grbavici, Bulevaru</strong>. Gde god da ste, dolazi <strong>bez dodatnih troškova</strong>. Zato je postao sinonim za <strong>pouzdanog vodoinstalatera u Novom Sadu</strong>."
+    },
+    {
+      "type": "h2",
+      "content": "5 Znakova da Vam je Potrebna Hitna Intervencija"
+    },
+    {
+      "type": "p",
+      "content": "Zoki često kaže: <em>„Cev uvek upozori pre nego što pukne.“</em> Ako primetite neki od ovih znakova – reagujte odmah:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Kapljanje i kada su slavine zatvorene",
+        "Zvuk pucanja ili vibracije u zidovima",
+        "Sporo oticanje u sudoperi ili kadi",
+        "Neprijatan miris iz slivnika",
+        "Tamne mrlje ili vlaga na zidu ili plafonu"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako se nešto od ovoga događa – ne čekajte jutro. Pozovite <a href=\"tel:0641848856\"><strong>064 184 88 56</strong></a> i sprečite veći problem."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Zoki Radi – I Zašto Mu Ljudi Veruju"
+    },
+    {
+      "type": "p",
+      "content": "Svaki poziv ima isti tok: kratka dijagnostika, dolazak, <strong>transparentna cena</strong>, brza i čista intervencija. Zoki koristi profesionalnu opremu i uvek pokazuje šta je tačno bilo problem. Nakon toga – savetuje kako da se situacija ne ponovi."
+    },
+    
+    {
+      "type": "p",
+      "content": "<em>„Nisam samo vodoinstalater“</em>, kaže Zoki. <em>„Ja sam noćni spasilac. Kad drugi spavaju, ja radim da bi oni imali miran san.“</em>"
+    },
+    {
+      "type": "p",
+      "content": "I zato kad Novi Sad pomisli na hitnu intervenciju – pomisli na <strong>Zokija</strong>."
+    }
+  ],
 
   "services": [
     {
-      "title": "Sistemi oplata",
-      "description": "ULMA nudi širok asortiman oplata za zidove, stubove, ploče i penjuće konstrukcije. Njihovi sistemi poznati su po modularnom dizajnu, visokoj nosivosti i jednostavnosti sklapanja, što omogućava bržu i sigurniju gradnju u svim uslovima."
+      "title": "Mašinsko i Ručno Odgušenje Kanalizacije 24/7",
+      "description": "Najbrže i najpovoljnije odgušenje WC šolja, sudopera, kada i slivnika u Novom Sadu. Koristi profesionalne mašine i kamere za dijagnostiku – bez bušenja i oštećenja cevi."
     },
     {
-      "title": "Sistemi skela i podupirača",
-      "description": "ULMA sistemi skela i podupirača obezbeđuju maksimalnu stabilnost i sigurnost tokom izvođenja radova na visini. Fleksibilne i čvrste konstrukcije pogodne su za sve vrste objekata – od stambenih do industrijskih i infrastrukturnih projekata."
+      "title": "Popravka, Zamena i Čišćenje Bojlera",
+      "description": "Popravlja grejače, termostate i instalacije. Zamenjuje stare bojlere novim. Stručno čišćenje kamenca produžava vek trajanja i do 10 godina."
     },
     {
-      "title": "Inženjerske i tehničke usluge",
-      "description": "Kompanija pruža stručnu podršku u planiranju i projektovanju oplatnih i skelnih sistema. Tim inženjera koristi napredne softverske alate za analizu i optimizaciju konstrukcija, garantujući preciznost i bezbednost svakog rešenja."
+      "title": "Popravka i Zamena Sanitarija",
+      "description": "Od curenja vodokotlića do zamene WC šolje – rešava sve. Menja lavaboe, kade, tuš kabine, slavine i vodokotliće (ugradne i klasične)."
     },
     {
-      "title": "Logistička podrška i servis",
-      "description": "ULMA poseduje razvijenu mrežu logističkih centara širom Evrope, što omogućava brzu isporuku i podršku na gradilištima. Klijentima nudi mogućnost iznajmljivanja, prodaje i kombinovanih modela korišćenja opreme."
-    },
-    {
-      "title": "Bezbednosni sistemi",
-      "description": "Pored oplata i skela, ULMA razvija i integrisane bezbednosne sisteme za zaštitu radnika i materijala. Ovi sistemi uključuju ograde, zaštitne platforme i elemente za sprečavanje pada sa visine."
+      "title": "Hitne Intervencije i Zamena Cevi",
+      "description": "Za pucanje cevi, curenje ventila ili zamenu starih instalacija – dežuran 24/7. Radi u svim delovima Novog Sada i šire okoline, bez dodatnih troškova za noćne intervencije."
     }
   ],
+
   "faq": [
     {
-      "question": "Da li ULMA ima predstavništvo u Srbiji?",
-      "answer": "Trenutno ULMA Construction nema zvanično predstavništvo u Srbiji, ali njihovi sistemi se koriste u domaćim projektima kroz saradnju sa međunarodnim izvođačima i distributerima."
+      "question": "Da li Zoki zaista radi 24 sata dnevno?",
+      "answer": "Da, dostupan 24/7, 365 dana u godini. Pozovite 064 184 88 56 – stiže za 30–45 minuta, bez obzira na doba dana."
     },
     {
-      "question": "Koje vrste oplata ULMA proizvodi?",
-      "answer": "ULMA proizvodi sisteme oplata za zidove, stubove, ploče, penjuće i samopenjuće konstrukcije. Svi sistemi su projektovani za jednostavnu upotrebu, dug vek trajanja i maksimalnu sigurnost."
+      "question": "Koliko košta hitna intervencija u 3 ujutru?",
+      "answer": "Cene su transparentne i formiraju se nakon procene na licu mesta. Nema skrivenih troškova – uvek najbolji odnos cene i kvaliteta."
     },
     {
-      "question": "Da li ULMA nudi mogućnost iznajmljivanja opreme?",
-      "answer": "Da, ULMA nudi fleksibilne komercijalne modele koji uključuju iznajmljivanje, kupovinu ili kombinovane opcije korišćenja oplata i skela."
+      "question": "Koliko brzo Zoki stiže na Liman ili Veternik?",
+      "answer": "Za hitne slučajeve stiže unutar 30–45 minuta, bez obzira na lokaciju – Liman, Detelinara, Veternik, Petrovaradin, Futog..."
     },
     {
-      "question": "Kakve projekte ULMA podržava?",
-      "answer": "ULMA učestvuje u širokom spektru projekata – od stambene i poslovne gradnje, preko mostova, tunela i hidroelektrana, do industrijskih i energetskih postrojenja."
+      "question": "Da li Zoki daje garanciju na popravku?",
+      "answer": "Da, na sve zamenjene delove i rad daje pismenu garanciju. Koristi samo originalne rezervne delove."
     },
     {
-      "question": "Gde se nalazi sedište kompanije ULMA?",
-      "answer": "Sedište ULMA Construction nalazi se u Baskiji, Španija, odakle se koordinira poslovanje u više od 50 zemalja širom sveta."
+      "question": "Da li Zoki radi u Futogu, Kaću ili Sremskoj Kamenici?",
+      "answer": "Da, redovno izlazi u Veternik, Petrovaradin, Sremsku Kamenicu, Rumenku, Kać i Futog – bez dodatnih troškova za put."
+    },
+    {
+      "question": "Kako da kontaktiram Zokija?",
+      "answer": "Pozovite <a href=\"tel:0641848856\">064 184 88 56</a> ili posetite <a href=\"https://vodoinstalater-zoki.rs/\" target=\"_blank\" rel=\"noopener\">vodoinstalater-zoki.rs</a>."
     }
   ]
 }
 
-  
+
+
+
+
+ 
 ]

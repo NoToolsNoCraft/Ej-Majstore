@@ -19,11 +19,13 @@
 <link rel="canonical" href="https://ejmajstore.rs/blog/" />
 <meta property="og:url" content="https://ejmajstore.rs/blog/" />
 <meta property="og:site_name" content="Ej Majstore!" />
+<meta property="og:image" content="https://ejmajstore.rs/ej-majstore-thumbnail-with-logo.webp" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ejmajstore.rs/ej-majstore-thumbnail-with-logo.webp" />
 <meta property="twitter:title" content="Blog - Saveti, Novosti i Vodiči za Zanatske Usluge" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Pročitajte najnovije članke o majstorima, firmama i zanatskim uslugama u Srbiji. Saveti, vodiči i korisne informacije!","headline":"Blog - Saveti, Novosti i Vodiči za Zanatske Usluge","url":"https://ejmajstore.rs/blog/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Pročitajte najnovije članke o majstorima, firmama i zanatskim uslugama u Srbiji. Saveti, vodiči i korisne informacije!","headline":"Blog - Saveti, Novosti i Vodiči za Zanatske Usluge","image":"https://ejmajstore.rs/ej-majstore-thumbnail-with-logo.webp","url":"https://ejmajstore.rs/blog/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -52,297 +54,232 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="manifest" href="/site.webmanifest">
   
 </head>
 <!-- BRICK WALL CSS! 🧱 -->
-  <style>
-    * {
-      font-display: swap !important;
-    }
-    header {
-      background-color: #852d25;
-      background-image:
-        linear-gradient(#8d8d8d 6px, transparent 6px),
-        linear-gradient(90deg, #8d8d8d 6px, transparent 6px),
-        linear-gradient(#a04037 50px, #a04037 50px);
-      background-size: 100px 56px, 100px 56px, 100px 56px;
-      background-position: 0 0, 50px 28px, 0 0;
-    }
+  <!-- ✅ Modern 2025 Redesign Styles -->
+<style>
+  :root {
+    --color-primary: #0059b2;
+    --color-secondary: #f4f6f8;
+    --color-accent: #ff6b35;
+    --color-text: #1f2937;
+    --color-muted: #6b7280;
+    --radius-md: 14px;
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.1);
+    --transition: all 0.25s ease;
+  }
 
-    /* Brick wall container */
-    .wall {
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-    }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--color-text);
+    margin: 0;
+    background: #ffffff;
+    line-height: 1.6;
+  }
 
-    .row {
-      display: flex;
-      border-top: 6px solid #8d8d8d;
-      box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .wall > .row:first-child {
-      border-top: none;
-      box-shadow: none;
-    }
-
-    .brick {
-      flex-grow: 2;
-      height: 50px;
-      background-color: #a04037;
-      border-right: 6px solid #8d8d8d;
-      background-image: 
-        radial-gradient(at 20% 70%, rgba(200, 100, 50, 0.1), transparent 70%), 
-        radial-gradient(at 80% 30%, rgba(255, 255, 255, 0.05), transparent 80%),
-        linear-gradient(135deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.15) 100%);
-      box-shadow: 
-        inset 0 0 4px rgba(0, 0, 0, 0.6),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1),
-        inset 0 -1px 0 rgba(0, 0, 0, 0.2),
-        inset 1px 0 0 rgba(255, 255, 255, 0.05),
-        inset -1px 0 0 rgba(0, 0, 0, 0.1);
-    }
-
-    .row > .brick:last-child {
-      border-right: none;
-      box-shadow: 
-        inset 0 0 4px rgba(0, 0, 0, 0.6), 
-        inset 0 1px 0 rgba(255, 255, 255, 0.1), 
-        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .row:nth-child(even) > .brick:first-child,
-    .row:nth-child(even) > .brick:last-child {
-      flex-grow: 1;
-    }
-
-    /* Banner Overlay */
-    .banner {
-      position: relative;
-      text-align: center;
-      padding: 3rem 20px;
-      color: white;
-      z-index: 2;
-      backdrop-filter: blur(1px);
-    }
-
-    .banner-title {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 3rem;
-
-    letter-spacing: 1px;
+  header {
+    background: linear-gradient(135deg, var(--color-primary), #0073e6);
     color: #fff;
-    display: inline-block;
-    padding: 0.2em 0.5em;
-    background: linear-gradient(145deg, #d9534f, #a94442);
-    border: 8px double #dfdede;
-    border-radius: 50px;
-    text-shadow:
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      2px 2px 0 #000,
-      0 0 10px rgba(0, 0, 0, 0.8);
-    box-shadow:
-      0 4px 12px rgba(0, 0, 0, 0.3),
-      inset 0 2px 3px rgba(255, 255, 255, 0.2);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    
-    /* 👇 curvature effect */
-    display: inline-block;
-    transform: perspective(600px) rotateX(10deg);
-    transform-origin: bottom center;
+    position: relative;
+    padding: 3.5rem 1rem 2.5rem;
+    text-align: center;
+    overflow: hidden;
   }
 
-  .banner-title:hover {
-    transform: perspective(600px) rotateX(10deg) scale(1.05);
-    box-shadow:
-      0 6px 18px rgba(255, 255, 255, 0.4),
-      inset 0 2px 3px rgba(255, 255, 255, 0.2);
-  }
-
-  .banner-title::after {
+  header::before {
     content: "";
-    display: block;
-    width: 80%;
-    height: 4px;
-    margin: 10px auto 0;
-    background: linear-gradient(to right, #f5d14e, #ffb347);
-    border-radius: 2px;
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(255,255,255,0.15), transparent 60%);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .banner-title {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+
+  .banner p {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin: 1rem auto 2rem;
+    color: rgba(255,255,255,0.9);
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .nav-btn {
+    background: #fff;
+    color: var(--color-primary);
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+  }
+
+  .nav-btn:hover {
+    background: var(--color-primary);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.25rem;
+  }
+
+  /* === CTA Blocks === */
+  .cta-section {
+    background: var(--color-secondary);
+    padding: 3rem 1.5rem;
+  }
+
+  .cta-duo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    .cta-duo-container {
+      flex-direction: row;
+    }
+  }
+
+  .cta-duo-block {
+    background: #fff;
+    border-radius: var(--radius-md);
+    box-shadow: 8px -7px 6px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+
+  .cta-duo-block:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  .cta-duo-block h2 {
+    color: var(--color-primary);
+    margin-top: 0;
+  }
+
+  .cta-duo-block p {
+    color: var(--color-muted);
+  }
+
+  .cta-duo-block .kontakti a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .cta-duo-block .kontakti a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    background: #f9fafb;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+  }
+
+  footer a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  footer a:hover {
+    color: var(--color-accent);
+  }
+
+  /* --- subtle fade-in for hero --- */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  header .banner {
+    animation: fadeInUp 0.8s ease forwards;
   }
 
 
+/* --- Logo Styles (Helmet + Text Side by Side) --- */
+.banner-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem; /* space between helmet and text */
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-helmet {
+  font-size: 3rem;
+  color: #ffc107;
+  transition: transform 0.25s ease;
+}
+
+.logo-link:hover .logo-helmet {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.logo-wordmark {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.25);
+  line-height: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .logo-helmet {
+    font-size: 2.2rem;
+  }
+  .logo-wordmark {
+    font-size: 1.8rem;
+  }
+}
 
 
-    .banner p {
-      font-size: 1.3rem;
-      margin: 0.5rem 0 1.5rem 0;
-      text-shadow:
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      2px 2px 0 #000,
-      0 0 10px rgba(0, 0, 0, 0.8);
-    }
 
-    /* SIMPLIFIED: Navigation - 2 BUTTONS ON ALL DEVICES */
-    .nav-buttons {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 1rem;
-    }
+</style>
 
-    .nav-btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: #ffffff;
-      color: #852d25;
-      text-decoration: none;
-      font-weight: 600;
-      border: 2px solid #000000;
-      border-radius: 6px;
-      transition: all 0.3s ease;
-      font-size: 1rem;
-      text-align: center;
-      min-width: 120px;
-    }
-
-    .nav-btn:hover {
-      background: #f5f5f5;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-
-    /* Position banner on top of wall */
-    .header-content {
-      position: relative;
-    }
-
-    .header-content .wall {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      opacity: 1;
-    }
-
-    header {
-      position: relative;
-      overflow: hidden;
-    }
-
-    /* Fix CTA container width */
-    .cta-section {
-      background: linear-gradient(to bottom, #f9f9f9 0%, #ffffff 100%);
-      border: none;
-      background: none;
-    }
-
-    .cta-duo-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    .cta-duo-block {
-      padding: 30px 20px;
-      border-radius: 12px;
-      text-align: center;
-      border: 2px solid #000000;
-      background-color: #ffffff;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .cta-duo-block:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    .cta-duo-block h2 {
-      margin-top: 0;
-      color: #0077cc;
-      font-size: 1.4em;
-    }
-
-    .cta-duo-block p {
-      font-size: 1em;
-      margin-bottom: 0.5rem;
-    }
-
-    .cta-duo-block .kontakti a {
-      display: block;
-      margin-top: 10px;
-      color: #333;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.2s;
-    }
-
-    .cta-duo-block .kontakti a:hover {
-      color: #0055aa;
-    }
-
-    .cta-user {
-      background-color: #ffffff;
-    }
-
-    .cta-master {
-      background-color: #ffffff;
-    }
-
-    /* MOBILE: Stack buttons vertically */
-    @media (max-width: 767px) {
-      .banner {
-        
-        padding: 2rem 15px;
-      }
-
-      .banner-title {
-        font-size: 2.2rem;
-      }
-
-      .banner p {
-        font-size: 1.1rem;
-      }
-
-      .nav-buttons {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.75rem;
-      }
-
-      .nav-btn {
-        width: 200px;
-        max-width: 90vw;
-      }
-    }
-
-    /* DESKTOP: Side by side */
-    @media (min-width: 768px) {
-      .cta-duo-container {
-        flex-direction: row;
-        margin-top: 40px;
-      }
-
-      .cta-duo-block {
-        flex: 1;
-      }
-
-      .cta-duo-container.desktop-shift {
-        align-items: flex-start;
-      }
-    }
-  </style>
 
 <body>
   <header>
@@ -374,16 +311,20 @@
         </div>
       </div>
 
-      <div class="banner">
-        <h1><a href="/" class="banner-title">Ej Majstore!</a></h1>
-        <p>Pronađite pouzdane majstore i firme za sve zanatske usluge u Srbiji!</p>
-        
-        <!-- SIMPLIFIED: Just 2 Buttons - NO HAMBURGER -->
-        <div class="nav-buttons">
-          <a href="/izvodjaci/" class="nav-btn">Pretraga Izvođača</a>
-          <a href="/blog/" class="nav-btn">Blog</a>
-        </div>
+      <div class="banner-title-wrapper">
+  <a href="/" class="logo-link">
+    <i class="fa-solid fa-helmet-safety logo-helmet" aria-hidden="true"></i>
+    <span class="logo-wordmark">Ej Majstore!</span>
+  </a>
+</div>
+
+      <p style="margin-bottom: 1rem;">Pronađite pouzdane majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
+      
+      <div class="nav-buttons">
+        <a href="/izvodjaci/" class="nav-btn">Pretraga Izvođača</a>
+        <a href="/blog/" class="nav-btn">Blog</a>
       </div>
+    </div>
     </div>
   </header>
   

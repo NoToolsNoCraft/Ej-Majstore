@@ -1,0 +1,19 @@
+YouTube embed
+
+{
+      "type": "youtube",
+      "id": "wMBbNsvoYmg",
+      "title": "Zoki u akciji – hitna intervencija u Novom Sadu",
+      "caption": "Pogledajte kako Zoki rešava poplavu za manje od 30 minuta"
+},
+
+Image
+
+{
+      "type": "image",
+      "src": "https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodoinstalater-zoki-hitna-intervencija-nocu.webp",
+      "alt": "Zoki stiže noću u Novi Sad za hitnu intervenciju",
+      "caption": "Zoki stiže za 30–45 minuta – dežurni vodoinstalater koji se ne plaši noći"
+    },
+
+
