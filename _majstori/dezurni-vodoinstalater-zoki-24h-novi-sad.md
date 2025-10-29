@@ -25,13 +25,14 @@ website:
   url: https://vodoinstalater-zoki.rs/
   label: Link do sajta
 slug: dezurni-vodoinstalater-zoki-24h-novi-sad
-thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/thumbnails/Vodoinstalater%20Zoki%20Novi%20Sad%2024h%20%E2%80%93%20De%C5%BEurni%20Majstor%20Koji%20Sti%C5%BEe%20Ekspresno.webp
-hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/thumbnails/Vodoinstalater%20Zoki%20Novi%20Sad%2024h%20%E2%80%93%20De%C5%BEurni%20Majstor%20Koji%20Sti%C5%BEe%20Ekspresno.webp
+thumbnail: "/images/Vodoinstalater-Zoki-Novi-Sad-24h-Dežurni-Majstor-Koji-Stize-Ekspresno.webp"
+hero_image: "/images/Vodoinstalater-Zoki-Novi-Sad-24h-Dežurni-Majstor-Koji-Stize-Ekspresno.webp"
 discover_title: Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih
-  usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
+  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
+  širom Srbije.
 date: '2025-10-28'
 last_modified: '2025-10-28'
 sections:
