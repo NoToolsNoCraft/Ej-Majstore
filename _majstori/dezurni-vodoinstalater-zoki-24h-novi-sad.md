@@ -31,7 +31,7 @@ discover_title: Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiž
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
+  zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-28'
 last_modified: '2025-10-28'

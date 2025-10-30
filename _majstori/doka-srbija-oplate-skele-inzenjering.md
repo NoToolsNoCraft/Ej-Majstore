@@ -28,7 +28,7 @@ discover_title: Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Pro
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
+  zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
 last_modified: '2025-10-29'

@@ -30,8 +30,8 @@ discover_title: ULMA Construction – Globalni Lider u Oplatama i Skelama za Vel
   Projekte u Srbiji
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih
-  usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
+  usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-10-30'
 last_modified: '2025-10-30'
 sections:

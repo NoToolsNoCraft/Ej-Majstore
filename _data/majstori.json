@@ -1,6 +1,440 @@
 [
 
   {
+  "ime": "Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "ALU Stolarija", "Komarnici", "Prozori", "Vrata", "Paneli", "Temerin", "Novi Sad"],
+  "opis_kratak": "Radun PVC i ALU stolarija – 20 godina iskustva u montaži i prodaji prozora, vrata, komarnika (fiksni, rolo, plise) i panela. Profili: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E. Brzo, povoljno, kvalitetno.",
+  "mesto": ["Temerin", "Novi Sad", "Vrbas", "Bačka Palanka", "Bečej", "Žabalj", "Srbobran", "Beočin", "Bački Petrovac", "Bač"],
+  "address": "Mihajla Pupina 15, 21235 Temerin",
+  "telefon": "+381631767488",
+  "email": "radundusko72@gmail.com",
+  "website": "https://radunpvc.com/",
+  "slug": "radun-pvc-alu-stolarija-temerin-komarnici-prozori",
+
+  "thumbnail": "images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp",
+  "hero_image": "images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp",
+
+  "discover_title": "Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-30",
+  "last_modified": "2025-10-30",
+
+  "tips_title": "Kako da Vaši Prozori i Vrata Traju 20+ Godina",
+  "tips": [
+    "Koristite LOW-E staklo – ušteda 30% na grejanju",
+    "Rolo komarnik – lako se skida za zimu",
+    "REHAU profili – nema kondenzacije nikad",
+    "Plise komarnik – savršen za balkonska vrata",
+    "Alu paneli za vrata – otporni na ogrebotine",
+    "Merite dva puta – greška košta montažu"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Pre nekoliko meseci, započeo sam adaptaciju potkrovlja – demontaža, zidovi, struja, sve ide po planu. Prozore sam uzeo od lokalne firme iz Subotice, <a href=\"https://www.joviste.rs\" target=\"_blank\" rel=\"noopener\">Jovište</a> – kvalitetni PVC, brza montaža, zadovoljan. Ali, u brzini sam zaboravio jednu ključnu stvar: komarnike. Kako su radovi napredovali, prozori su bili otvoreni ceo dan – i evo, jesen dolazi, hladnoća, a muve i komarci se sele unutra kao na besplatan buffet."
+    },
+    {
+      "type": "p",
+      "content": "Jovište ima svoje komarnike, ali cene su bile malo više nego što sam planirao. Odlučio sam da tražim alternativu – idealno nekog zanatliju koji radi po meri i šalje kurirskom službom. Pretragom naišao sam na Radun PVC iz Temerina. Kontaktirao sam Dušana preko Vibera, poslao mere, dogovorili se za fiksni komarnik. U roku od nekoliko dana, komarnik je stigao – savršeno se uklopio, muve ostale napolju. To je bio moj prvi susret sa Dušanom i Radun – brzo, povoljno, kvalitetno."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Radun – 20 Godina Kvaliteta u Temerinu"
+    },
+    {
+      "type": "p",
+      "content": "Radun PVC i ALU stolarija je <strong>porodična firma</strong> sa <strong>20 godina iskustva</strong>. Vodi je <strong>Dušan Radun</strong>, specijalizovan za <em>montažu i prodaju PVC/ALU prozora, vrata, komarnika i panela</em>. Imaju <strong>lager profila</strong>: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381631767488\">+381 63 176 74 88</a><br>📧 <strong>Email:</strong> <a href=\"mailto:radundusko72@gmail.com\">radundusko72@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/stlarijaradun/?locale=sr_RS\" target=\"_blank\" rel=\"noopener\">facebook.com/stlarijaradun</a><br>📍 <strong>Lokacija:</strong> Mihajla Pupina 15, Temerin<br>🗺️ <strong>Google Maps:</strong> <a href=\"https://maps.app.goo.gl/AYk46xMBvzTCQcdg6\" target=\"_blank\" rel=\"noopener\">Pogledaj lokaciju</a>"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 08:00–16:00h<br>Subota: 08:00–10:00h<br>Nedelja: zatvoreno"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Radun – Od Komarnika do Kompletnog Ulaza"
+    },
+    {
+      "type": "p",
+      "content": "Radun radi <strong>brzo i povoljno</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Komarnici (Fiksni, Rolo, Plise)"
+    },
+    {
+      "type": "p",
+      "content": "Po meri, sve boje. Štite od insekata, lako se montiraju."
+    },
+    {
+      "type": "h3",
+      "content": "2. PVC i ALU Paneli"
+    },
+    {
+      "type": "p",
+      "content": "Za vrata, prozore. Otporni, estetski, lako održavanje."
+    },
+    {
+      "type": "h3",
+      "content": "3. Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "PVC/ALU prozori, vrata. Profili REHAU, GEALAN – izolacija top."
+    },
+    {
+      "type": "h3",
+      "content": "4. Segmentna, Čelična i ALU Rolo Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Za garaže, hale. Automatska, sigurna, po meri."
+    },
+    {
+      "type": "h3",
+      "content": "5. Montaža i Prodaja"
+    },
+    {
+      "type": "p",
+      "content": "Sve na lageru. Montaža uključena, garancija na rad."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Radun – Temerin i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Temerinu</strong>, šalje i montira u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Novi Sad</strong> – komarnici za stanove",
+        "<strong>Vrbas</strong> – ALU vrata za hale",
+        "<strong>Bačka Palanka</strong> – PVC paneli za kuće",
+        "<strong>Žabalj, Srbobran</strong> – segmentna garažna vrata",
+        "<strong>Beočin, Bački Petrovac</strong> – rolo komarnici"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Radun-om"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv/Viber</strong> – pošaljete mere<br><strong>2. Ponuda</strong> – cena za 24h<br><strong>3. Izrada</strong> – po meri, brzo<br><strong>4. Dostava</strong> – kurir ili montaža<br><strong>5. Montaža</strong> – čisto, precizno"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Radun – Recenzije Klijenata"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Veoma zadovoljni sa komarnicima. Duško profesionalac, urađeno pre roka. Kvalitet po odličnoj ceni!“ – <a href=\"https://share.google/bX1wb1cC4Yt204wYO\" target=\"_blank\" rel=\"noopener\"><strong>Aleksandar Bjelanović</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Vrlo profesionalno, cene korektne. Došao tačno na vreme!“ – <a href=\"https://share.google/U9HToPzo6rFk5hZwr\" target=\"_blank\" rel=\"noopener\"><strong>Ildiko Kovacs</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Čovek od reči, brzo i čisto. Saradnja nastavlja!“ – <a href=\"https://share.google/iC00H1u8uLI0rZD7F\" target=\"_blank\" rel=\"noopener\"><strong>Djurdjinka Plavsic</strong></a>"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Radun – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "20 godina iskustva – hiljade zadovoljnih mušterija",
+        "Lager profila – REHAU, GEALAN, WEISS",
+        "Komarnici po meri – fiksni, rolo, plise",
+        "Brza dostava – kurir ili montaža",
+        "Povoljne cene – kvalitet bez preplate",
+        "Dolaze u Temerin, Novi Sad i okolinu"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam treba <strong>komarnik, prozor ili vrata po meri</strong> – <strong>Radun</strong> je pravi izbor. Pozovite Dušana: <a href=\"tel:+381631767488\"><strong>+381 63 176 74 88</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Komarnici (Fiksni, Rolo, Plise)",
+      "description": "Po meri, sve boje. Zaštita od insekata, lako održavanje."
+    },
+    {
+      "title": "PVC i ALU Paneli",
+      "description": "Za vrata, prozore. Otporni na ogrebotine, estetski."
+    },
+    {
+      "title": "PVC i ALU Prozori",
+      "description": "Profili REHAU, GEALAN. Izolacija, LOW-E staklo."
+    },
+    {
+      "title": "PVC i ALU Vrata",
+      "description": "Ulazna, balkonska. Sigurna, moderna."
+    },
+    {
+      "title": "Segmentna, Čelična, ALU Rolo Vrata",
+      "description": "Za garaže, hale. Automatska, po meri."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta komarnik po meri?",
+      "answer": "Zavisi od tipa i mere – pozovite za tačnu cenu. Besplatna procena."
+    },
+    {
+      "question": "Šaljete li kurirskom službom?",
+      "answer": "Da, šaljemo širom Srbije – ili montiramo na licu mesta."
+    },
+    {
+      "question": "Koliko traje izrada?",
+      "answer": "Za komarnik – nekoliko dana. Prozori/vrata – po dogovoru."
+    },
+    {
+      "question": "Radite li van Temerina?",
+      "answer": "Da, Novi Sad, Vrbas, Bačka Palanka, Žabalj i šire."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, na sve proizvode i montažu – kvalitet garantovan."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 176 74 88 ili pošaljite mejl na radundusko72@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Vodoinstalater Jokić Novi Sad: Pouzdani Majstori za Hitne Intervencije 24/7",
+  "tip": "majstor",
+  "kategorija": ["Vodoinstalater", "Renoviranje Kupatila", "Odgušenje Kanalizacije", "Popravka Bojlera", "Hitne Intervencije"],
+  "opis_kratak": "Braća Jokić – vodoinstalateri sa 10+ godina iskustva. 24/7 hitne intervencije, renoviranje kupatila, odgušenje cevi. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Kać", "Liman", "Novo Naselje", "Detelinara", "Telep", "Sremska Kamenica", "Rumenka", "Adice", "Podbara", "Stari Grad", "Sajlovo"],
+  "address": "Jovana Veselinova 26, Novi Sad 21000",
+  "telefon": "+381614935683",
+  "email": "",
+  "website": "https://vodoinstalaterjokic.com/",
+  "slug": "vodoinstalater-jokic-novi-sad-24-7",
+
+  "thumbnail": "images/vodoinstalater-jokic-novi-sad-24-7.webp",
+  "hero_image": "images/vodoinstalater-jokic-novi-sad-24-7.webp",
+
+  "discover_title": "Vodoinstalater Jokić Novi Sad: Pouzdani Majstori za Hitne Intervencije 24/7",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-30",
+  "last_modified": "2025-10-30",
+
+  "tips_title": "6 Trikova za prvoklasnu uslugu",
+  "tips": [
+    "Snimanje cevi kamerom – nađemo problem pre razbijanja",
+    "Mašinsko odgušenje – nema hemikalija, samo pritisak",
+    "Zamena grejača bojlera – topli tuš za 2h",
+    "Besplatna dijagnostika – znate cenu pre rada",
+    "Garancija 12 meseci – stoje iza svakog ventila",
+    "24/7 bez doplate – vikend nije izgovor"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "<strong>Vodoinstalater Jokić</strong> iz <strong>Novog Sada</strong> su braća <strong>Stefan i Miroslav</strong> sa <strong>10+ godina iskustva</strong>. Specijalizovani za <em>hitne intervencije 24/7, renoviranje kupatila, odgušenje kanalizacije i popravku bojlera</em>. Preko <strong>1.000 zadovoljnih klijenata</strong>."
+    },
+    
+    
+    {
+      "type": "h2",
+      "content": "Ko su Braća Jokić – Porodični Tim za Sve Vodene Katastrofe"
+    },
+    {
+      "type": "p",
+      "content": "Stefan i Miroslav vode <strong>porodičnu firmu</strong> iz <strong>Jovana Veselinova 26</strong>. Koriste <strong>profesionalni alat</strong>: kamere za cevi, sajle, prese. Sve popravke sa <strong>garancijom 12 meseci</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381614935683\">+381 61 493 56 83</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://vodoinstalaterjokic.com/\" target=\"_blank\" rel=\"noopener\">vodoinstalaterjokic.com</a><br>📍 <strong>Adresa:</strong> Jovana Veselinova 26, Novi Sad<br>🗺️ <strong>Google Maps:</strong> <a href=\"https://maps.app.goo.gl/JyEHezZ2U9ceeipaA\" target=\"_blank\" rel=\"noopener\">Pogledaj lokaciju</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude Jokići – Od Kapi do Kompletnog Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Rešavaju sve – hitno ili planirano:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Hitne Intervencije 24/7"
+    },
+    {
+      "type": "p",
+      "content": "Pucanje cevi, curenje, poplava. Dolaze za <strong>30-60 min</strong>, bez doplate."
+    },
+    {
+      "type": "h3",
+      "content": "2. Renoviranje Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Kompletno: demontaža, cevi, pločice, sanitarije. 7-10 dana, po dogovoru."
+    },
+    {
+      "type": "h3",
+      "content": "3. Odgušenje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Mašinski + kamera. Bez razbijanja, dijagnostika uključena."
+    },
+    {
+      "type": "h3",
+      "content": "4. Popravka/Zamena Bojlera"
+    },
+    {
+      "type": "p",
+      "content": "Grejači, termostati, ventili. Montaža novih, svi tipovi."
+    },
+    {
+      "type": "h3",
+      "content": "5. Zamena Cevi i Sanitarija"
+    },
+    {
+      "type": "p",
+      "content": "Ventili, slavine, WC šolje, tuš kabine. Garancija na rad."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Jokić Tim – Ceo Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novom Sadu</strong>, dolaze u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Liman, Novo Naselje</strong> – hitne popravke",
+        "<strong>Detelinara, Telep</strong> – odgušenje kanalizacije",
+        "<strong>Petrovaradin, Veternik</strong> – renoviranje kupatila",
+        "<strong>Futog, Kać, Rumenka</strong> – zamena bojlera",
+        "<strong>Sremska Kamenica, Adice</strong> – kompletne instalacije"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Jokićima"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv/Viber</strong> – opišete problem<br><strong>2. Dolazak</strong> – 30-60 min, besplatna procena<br><strong>3. Ponuda</strong> – tačna cena, bez skrivenih troškova<br><strong>4. Rad</strong> – čisto, brzo, sa garancijom<br><strong>5. Završetak</strong> – čišćenje, saveti, račun"
+    },
+    {
+      "type": "h2",
+      "content": "Recenzije Klijenata"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Sve pohvale za braću Jokić! Od procurenog bojlera do novog – 2 sata. Brzo, precizno, veselo!“ – <a href=\"https://share.google/DOsGRMHhyLX0pxfHf\" target=\"_blank\" rel=\"noopener\"><strong>Nevena Š.</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Došli istog dana, zamenili monoblok i ventil. Predložili jeftinije rešenje. Topla preporuka!“ – <a href=\"https://share.google/2sRqzeT8RNM2DIhXB\" target=\"_blank\" rel=\"noopener\"><strong>Nemanja Peruničić</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Brza usluga, tačni, stručni. Za svaku preporuku.“ – <a href=\"https://share.google/TAQtOC1HIMYmwc2sk1\" target=\"_blank\" rel=\"noopener\"><strong>Nemanja Milošević</strong></a>"
+    },
+    {
+      "type": "h2",
+      "content": "Ključne Prednosti usluge braće Jokić"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "24/7 dostupni – bez doplate za noć/vikend",
+        "Dolaze za 30-60 min – hitne intervencije",
+        "Besplatna procena – tačna cena unapred",
+        "Garancija 12 meseci – na sve radove",
+        "Kamera + mašinsko odgušenje – bez razbijanja",
+        "1.000+ zadovoljnih klijenata – provereno"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam <strong>curi, puca ili se guši</strong> – pozovite <strong>Jokiće</strong>: <a href=\"tel:+381614935683\"><strong>+381 61 493 56 83</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Hitne Intervencije 24/7",
+      "description": "Pucanje cevi, curenje, poplava. Dolazak za 30-60 min, bez doplate."
+    },
+    {
+      "title": "Renoviranje Kupatila",
+      "description": "Kompletno: demontaža, cevi, pločice, sanitarije. 7-10 dana, po dogovoru."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Mašinski + kamera. Brzo, čisto, bez razbijanja."
+    },
+    {
+      "title": "Popravka Bojlera",
+      "description": "Grejači, termostati, ventili. Zamena ili popravka."
+    },
+    {
+      "title": "Zamena Sanitarija",
+      "description": "Slavine, WC šolje, tuš kabine. Montaža sa garancijom."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta hitna intervencija noću?",
+      "answer": "Ista cena kao danju – nema doplate. Besplatna procena na licu mesta."
+    },
+    {
+      "question": "Dolazite li vikendom?",
+      "answer": "Da, 24/7 – subota, nedelja, praznici. Dolazak za 30-60 min."
+    },
+    {
+      "question": "Koliko traje renoviranje kupatila?",
+      "answer": "7-10 dana za standardno kupatilo. Po dogovoru."
+    },
+  
+    {
+      "question": "Pokrivaju li celu Vojvodinu?",
+      "answer": "Ne. Fokus im je na Novom Sadu i okolini: Petrovaradin, Veternik, Futog, Kać, Sremska Kamenica."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Poziv/Viber: +381 61 493 56 83 ili preko sajta vodoinstalaterjokic.com"
+    }
+  ]
+},
+
+  {
   "ime": "ULMA Construction – Globalni Lider u Oplatama i Skelama za Velike Projekte u Srbiji",
   "tip": "firma",
   "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska Oprema", "Bezbednosni Sistemi"],
@@ -18,7 +452,7 @@
   "discover_title": "ULMA Construction – Globalni Lider u Oplatama i Skelama za Velike Projekte u Srbiji",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-30",
   "last_modified": "2025-10-30",
 
@@ -220,7 +654,7 @@
   "discover_title": "Keramičar Jožef Farkaš Čantavir – Nemački Standard u Svakoj Pločici",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-30",
   "last_modified": "2025-10-30",
 
@@ -422,7 +856,7 @@
   "discover_title": "Idea Protection System iz Zemuna Čuva Vaš Dom 24/7",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-30",
   "last_modified": "2025-10-30",
 
@@ -624,7 +1058,7 @@
   "discover_title": "Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -826,7 +1260,7 @@
   "discover_title": "Interium Čantavir – Stolarska Radionica i Salon Nameštaja po Meri",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -1036,7 +1470,7 @@
   "discover_title": "Protocool Sombor – Ovlašćeni Servis Klima i Majstori za Podno Grejanje",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -1244,7 +1678,7 @@
   "discover_title": "OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod (Vojvodina)",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -1455,7 +1889,7 @@
   "discover_title": "Od Stare Kutije do Pametne Kuće: Kako Electro Fix iz Sonte Menja Električnu Budućnost Bačke",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -1670,7 +2104,7 @@
   "discover_title": "SINGOR iz Apatina Elektroinstalira Budućnost Bačke",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
   "last_modified": "2025-10-29",
 
@@ -2189,7 +2623,7 @@
   "discover_title": "Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-28",
   "last_modified": "2025-10-28",
 
