@@ -1,6 +1,814 @@
 [
 
   {
+  "ime": "ULMA Construction – Globalni Lider u Oplatama i Skelama za Velike Projekte u Srbiji",
+  "tip": "firma",
+  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska Oprema", "Bezbednosni Sistemi"],
+  "opis_kratak": "ULMA Construction – španski gigant sa 60+ godina iskustva u oplatama, skelama i inženjerskim rešenjima. Prisutni u Srbiji kroz velike infrastrukturne projekte.",
+  "mesto": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Pančevo", "Šabac", "Valjevo", "Zrenjanin", "Sombor"],
+  "address": "Sedište u Španiji (saradnja u Srbiji)",
+  "telefon": "+34943034900",
+  "email": "",
+  "website": "https://www.ulmaconstruction.com/en",
+  "slug": "ulma-construction-oplate-skele-inzenjering-srbija",
+
+  "thumbnail": "images/ulma-construction-oplate-skele-inzenjering-srbija.webp",
+  "hero_image": "images/ulma-construction-oplate-skele-inzenjering-srbija.webp",
+
+  "discover_title": "ULMA Construction – Globalni Lider u Oplatama i Skelama za Velike Projekte u Srbiji",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-30",
+  "last_modified": "2025-10-30",
+
+  "tips_title": "6 ULMA Saveta za Efikasniju i Bezbedniju Gradnju",
+  "tips": [
+    "Koristite modularne oplate – montaža za 50% brža",
+    "Planirajte skele unapred – ušteda 20% materijala",
+    "Integrirajte bezbednosne ograde – nula povreda",
+    "Iznajmite opremu – ne kupujte za jedan projekat",
+    "Koristite softver za proračun – nema grešaka",
+    "Obučite tim – efikasnost raste 30%"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "<strong>ULMA Construction</strong> je <strong>španski lider</strong> sa sedištem u Baskiji, prisutan u <em>preko 50 zemalja</em>. Iako bez zvaničnog predstavništva u Srbiji, njihovi sistemi se koriste na <strong>domaćim projektima</strong> kroz međunarodne partnere. Specijalizovani za <em>oplate, skele i inženjering</em>."
+    },
+    {
+      "type": "p",
+      "content": "Od mostova do elektrana – ULMA rešenja su <strong>garancija stabilnosti i efikasnosti</strong>. Njihov moto: <em>„Sigurnost. Inovacija. Globalno.“</em>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je ULMA – 60+ Godina Građevinske Inovacije"
+    },
+    {
+      "type": "p",
+      "content": "Osnovana <strong>1961. u Španiji</strong>, ULMA ima <strong>preko 2.100 zaposlenih</strong> i promet od <strong>400+ miliona evra</strong>. Deo ULMA Grupe, specijalizovani za <em>građevinske sisteme</em>. U Srbiji rade kroz <strong>saradnju sa izvođačima</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte globalno:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+34943034900\">+34 943 034 900</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.ulmaconstruction.com/en\" target=\"_blank\" rel=\"noopener\">ulmaconstruction.com/en</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi ULMA – Kompletna Rešenja za Kompleksne Projekte"
+    },
+    {
+      "type": "p",
+      "content": "ULMA pokriva sve – od dizajna do podrške:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Sistemi Oplata"
+    },
+    {
+      "type": "p",
+      "content": "Zidne, pločaste, penjuće, samopenjuće. Modularni dizajn, visoka nosivost. Za stambene, industrijske, mostove."
+    },
+    {
+      "type": "h3",
+      "content": "2. Sistemi Skela i Podupirača"
+    },
+    {
+      "type": "p",
+      "content": "Noseće, fasadne skele. Fleksibilne, čvrste – za sve visine i oblike."
+    },
+    {
+      "type": "h3",
+      "content": "3. Inženjerske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Tehničko savetovanje, proračuni, softversko modelovanje. Optimizacija za efikasnost."
+    },
+    {
+      "type": "h3",
+      "content": "4. Logistička Podrška"
+    },
+    {
+      "type": "p",
+      "content": "Iznajmljivanje/prodaja opreme. Brza isporuka iz evropskih centara."
+    },
+    {
+      "type": "h3",
+      "content": "5. Bezbednosni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Ograde, platforme, zaštita od pada. Integrisano sa oplatama/skelama."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi ULMA u Srbiji – Veliki Projekti"
+    },
+    {
+      "type": "p",
+      "content": "ULMA oprema je prisutna na:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Beograd</strong> – Beograd na vodi, mostovi",
+        "<strong>Novi Sad</strong> – stambeni kompleksi",
+        "<strong>Niš</strong> – tuneli, infrastruktura",
+        "<strong>Kragujevac</strong> – industrijske hale",
+        "<strong>Subotica</strong> – energetski objekti"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa ULMA-om"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Upit</strong> – pošaljete projekat<br><strong>2. Analiza</strong> – inženjeri dizajniraju rešenje<br><strong>3. Ponuda</strong> – iznajmljivanje/prodaja, logistika<br><strong>4. Dostava</strong> – na gradilište, sa uputstvima<br><strong>5. Podrška</strong> – nadzor, obuka, servis"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto ULMA – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "60+ godina iskustva – 50+ zemalja",
+        "Modularni sistemi – brza adaptacija",
+        "Iznajmljivanje – ušteda za projekte",
+        "Inženjerska podrška – od A do Š",
+        "Bezbednost po EN standardima – nula rizika",
+        "Globalna logistika – brza dostava u Srbiju"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako gradite <strong>kompleksan projekat i želite španski kvalitet</strong> – <strong>ULMA Construction</strong> je pravi partner. Kontaktirajte globalno: <a href=\"tel:+34943034900\"><strong>+34 943 034 900</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Sistemi Oplata",
+      "description": "Zidne, pločaste, penjuće, samopenjuće. Modularni, izdržljivi – za sve projekte."
+    },
+    {
+      "title": "Sistemi Skela i Podupirača",
+      "description": "Noseće, fasadne skele. Visoka stabilnost, prilagodljive."
+    },
+    {
+      "title": "Inženjerske Usluge",
+      "description": "Proračuni, modelovanje, optimizacija. Softverski alati."
+    },
+    {
+      "title": "Logistička Podrška",
+      "description": "Iznajmljivanje/prodaja, dostava, servis opreme."
+    },
+    {
+      "title": "Bezbednosni Sistemi",
+      "description": "Ograde, platforme, zaštita od pada. Integrisano."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Da li ULMA ima kancelariju u Srbiji?",
+      "answer": "Ne zvanično, ali oprema je dostupna kroz partnere i međunarodnu saradnju."
+    },
+    {
+      "question": "Koje oplate ULMA nudi?",
+      "answer": "Zidne, stubne, pločaste, penjuće – sve modularne i višekratne."
+    },
+    {
+      "question": "Da li iznajmljujete opremu?",
+      "answer": "Da, fleksibilno iznajmljivanje sa podrškom i dostavom."
+    },
+    {
+      "question": "Za koje projekte je ULMA?",
+      "answer": "Stambeni, poslovni, mostovi, tuneli, elektrane, hale."
+    },
+    {
+      "question": "Gde je sedište ULMA?",
+      "answer": "U Baskiji, Španija – sa mrežom u 50+ zemalja."
+    },
+    {
+      "question": "Kako da dobijem ponudu?",
+      "answer": "Kontaktirajte +34 943 034 900 ili pošaljite upit na sajt."
+    }
+  ]
+},
+
+  {
+  "ime": "Keramičar Jožef Farkaš Čantavir – Nemački Standard u Svakoj Pločici",
+  "tip": "majstor",
+  "kategorija": ["Keramičar", "Hidroizolacija", "Mozaik", "Pločice"],
+  "opis_kratak": "Jožef Farkaš – keramičar sa 10+ godina iskustva iz Nemačke. Precizno lepljenje keramike, mozaika, prirodnog kamena i hidroizolacije. Čantavir, Subotica i okolina.",
+  "mesto": ["Čantavir", "Subotica", "Bačko Dušanovo", "Višnjevac", "Tornjoš", "Bajmok", "Palić", "Kelebija", "Tavankut", "Đurđin", "Stari Žednik"],
+  "address": "Čantavir (tačna adresa po dogovoru)",
+  "telefon": "+381638788123",
+  "email": "",
+  "website": "https://www.facebook.com/jozsef.farkas.189478",
+  "slug": "keramicar-jozef-farkas-cantavir-nemacki-kvalitet",
+
+  "thumbnail": "images/keramicar-jozef-farkas-cantavir-nemacki-kvalitet.webp",
+  "hero_image": "images/keramicar-jozef-farkas-cantavir-nemacki-kvalitet.webp",
+
+  "discover_title": "Keramičar Jožef Farkaš Čantavir – Nemački Standard u Svakoj Pločici",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-30",
+  "last_modified": "2025-10-30",
+
+  "tips_title": "6 Trikova: Kako da Vaše Pločice Budu Ravne i Vodootporne",
+  "tips": [
+    "Priprema podloge – 80% uspeha je u nivelaciji",
+    "Koristite C2TE S1 lepak – za velike formate i terase",
+    "Hidroizolacija pre pločica – nema curenja nikad",
+    "Fuga od 2mm – estetika i sprečava pucanje",
+    "Mozaik na mrežici – brže i ravnije postavljanje",
+    "Silikon umesto fug mase u uglovima – fleksibilnost"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "<strong>Keramičar Jožef Farkaš</strong> iz <strong>Čantavira</strong> ima <strong>preko 10 godina iskustva iz Nemačke</strong>. Specijalizovan za <em>precizno lepljenje keramike, mozaika, prirodnog kamena i hidroizolaciju</em>. Radi u <strong>Čantaviru, Subotici i okolini</strong>. Svaki posao završava sa <strong>savršeno ravnim fugama i nemačkom preciznošću</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Ja ga, sticajem okolnosti, poznajem još od malena. U međuvremenu, nakon što se vratio iz inostrantstva ponovo smo dobili priliku da sarađujemo. Od jedne garaže u kojoj sam bio uveren da će biti neophodno novo betoniranje uspeo je za nekih nedelju dana da savršeno postavi pločice. Maltene je oživeo prostoriju. Na moj komentar kako je od stare babe napravio mladu devojku rekao je <em>„Od stare i bolesne babe pravim mladu i zdravu devojku xD“</em>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Jožef Farkaš – Majstor sa Nemačkim Iskustvom"
+    },
+    {
+      "type": "p",
+      "content": "Jožef je radio <strong>10+ godina u Nemačkoj</strong> na stambenim i poslovnim objektima. Donosi <strong>najviše standarde kvaliteta</strong>: nivelacija laserom, C2TE lepci, hidroizolacija po DIN normama. Koristi samo <strong>proverene materijale</strong>: Mapei, Sika, Schlüter."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga direktno:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381638788123\">+381 63 878 81 23</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/jozsef.farkas.189478\" target=\"_blank\" rel=\"noopener\">facebook.com/jozsef.farkas</a><br>📍 <strong>Lokacija:</strong> Čantavir (dolazi na teren)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Jožef – Od Podloge do Završne Fuge"
+    },
+    {
+      "type": "p",
+      "content": "Jožef radi <strong>kompletne keramičarske poslove</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Lepljenje Keramičkih Pločica"
+    },
+    {
+      "type": "p",
+      "content": "Sve veličine – od 30x30 do 120x120 cm. Ravno kao laser, fuga 2mm. Za kupatila, kuhinje, hodnike."
+    },
+    {
+      "type": "h3",
+      "content": "2. Postavljanje Mozaika i Bordura"
+    },
+    {
+      "type": "p",
+      "content": "Dekorativni mozaik na zidovima, tuš kabinama. Precizno sečenje, estetski detalji."
+    },
+    {
+      "type": "h3",
+      "content": "3. Hidroizolacija"
+    },
+    {
+      "type": "p",
+      "content": "Mapelastic, Schlüter-Kerdi. Kupatila, terase, balkoni – <strong>nema curenja nikad</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "4. Prirodni Kamen i Granit"
+    },
+    {
+      "type": "p",
+      "content": "Mermer, travertin, granit. Sečenje, brušenje, postavljanje na podove i zidove."
+    },
+    {
+      "type": "h3",
+      "content": "5. Priprema Podloge"
+    },
+    {
+      "type": "p",
+      "content": "Nivelacija, estrih, armiranje. Za velike formate – <strong>bez pucanja</strong>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Jožef – Čantavir, Subotica i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Čantaviru</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Subotica</strong> – kupatila u novim zgradama",
+        "<strong>Bačko Dušanovo</strong> – terase sa velikim pločicama",
+        "<strong>Višnjevac, Tornjoš</strong> – mozaik u vikendicama",
+        "<strong>Palić, Bajmok</strong> – prirodni kamen u dvorištima",
+        "<strong>Tavankut, Kelebija</strong> – kompletna renoviranja"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Jožefom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete posao<br><strong>2. Besplatna Procena</strong> – dolazi, meri, savetuje<br><strong>3. Dogovor</strong> – cena po m², rok, materijali<br><strong>4. Rad</strong> – čisto, precizno, na vreme<br><strong>5. Završetak</strong> – čišćenje, saveti za održavanje"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Jožef Farkaš – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "10+ godina u Nemačkoj – zna šta znači kvalitet",
+        "Besplatna procena na terenu – u roku od 24h",
+        "Samo provereni materijali – Mapei, Sika, Schlüter",
+        "Preciznost lasera – nema neravnina",
+        "Hidroizolacija po DIN normi – nema vlage",
+        "Dolazi u Čantavir, Suboticu i okolinu"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>keramičara koji radi po nemačkim standardima</strong> – <strong>Jožef Farkaš</strong> je pravi izbor. Pozovite za besplatnu procenu: <a href=\"tel:+381638788123\"><strong>+381 63 878 81 23</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Lepljenje Keramičkih Pločica",
+      "description": "Sve veličine, ravno kao laser. Kupatila, kuhinje, terase. C2TE lepak."
+    },
+    {
+      "title": "Postavljanje Mozaika",
+      "description": "Dekorativni mozaik na zidovima, tuš kabinama. Precizno sečenje."
+    },
+    {
+      "title": "Hidroizolacija",
+      "description": "Mapelastic, Schlüter-Kerdi. Kupatila, terase – bez curenja."
+    },
+    {
+      "title": "Prirodni Kamen",
+      "description": "Mermer, granit, travertin. Podovi, zidovi, stepenice."
+    },
+    {
+      "title": "Priprema Podloge",
+      "description": "Nivelacija, estrih, armiranje. Za velike formate."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta lepljenje pločica po m²?",
+      "answer": "Zavisi od veličine, podloge i materijala. Pozovite za tačnu cenu – besplatna procena."
+    },
+    {
+      "question": "Da li radite velike formate (120x120)?",
+      "answer": "Da, sa C2TE S1 lepkom i nivelacijom lasera – bez pucanja."
+    },
+    {
+      "question": "Radite li hidroizolaciju?",
+      "answer": "Da, po nemačkim standardima – Mapelastic ili Schlüter-Kerdi."
+    },
+    {
+      "question": "Dolazite li u Suboticu?",
+      "answer": "Da, dolazim u Suboticu, Palić, Bajmok i sva okolna mesta."
+    },
+    {
+      "question": "Da li je procena besplatna?",
+      "answer": "Da, dolazim na teren i dajem procenu u roku od 24h – besplatno."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 878 81 23 ili pošaljite poruku na Facebook."
+    }
+  ]
+},
+
+  {
+  "ime": "Idea Protection System iz Zemuna Čuva Vaš Dom 24/7",
+  "tip": "firma",
+  "kategorija": ["Alarmni Sistemi", "Video Nadzor", "Sigurnosni Sistemi", "Servis Klime", "Klimatizacija"],
+  "opis_kratak": "Idea Protection System iz Zemuna – stručnjaci za alarmne sisteme (Paradox, Ajax, Hikvision), video nadzor (Dahua, Hikvision) i servis klima uređaja. Preko 25 godina iskustva u zaštiti i klimatizaciji širom Srbije.",
+  "mesto": ["Zemun", "Beograd", "Novi Beograd", "Surčin", "Zemun Polje", "Batajnica", "Altina", "Ugrinovci", "Dobanovci", "Jakovo"],
+  "address": "Karlovačka 28, 11080 Zemun",
+  "telefon": "+381114084318",
+  "email": "info@ideaps.rs",
+  "website": "https://ideaps.rs/",
+  "slug": "idea-protection-system-zemun-alarmi-video-nadzor-klime",
+
+  "thumbnail": "images/idea-protection-system-zemun-alarmi-video-nadzor-klime.webp",
+  "hero_image": "images/idea-protection-system-zemun-alarmi-video-nadzor-klime.webp",
+
+  "discover_title": "Idea Protection System iz Zemuna Čuva Vaš Dom 24/7",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-30",
+  "last_modified": "2025-10-30",
+
+  "tips_title": "6 Sigurnosnih Saveta: Kako da Vaš Dom Bude Bezbedan:",
+  "tips": [
+    "Povežite alarm sa mobilnim – dojava u sekundi",
+    "Koristite IP kamere – pristup uživo sa telefona",
+    "Redovno čistite klimu – sprečite kvar i bakterije",
+    "Ajax alarmi su bežični – laka ugradnja bez bušenja",
+    "Hikvision kamere sa noćnim vidom – 24/7 nadzor",
+    "Servisirajte sistem godišnje – garancija traje duže"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Na adresi <strong>Karlovačka 28 u Zemunu</strong> nalazi se <strong>Idea Protection System</strong> – firma sa <strong>preko 25 godina iskustva</strong> u <em>sigurnosnim sistemima i klimatizaciji</em>. Specijalizovani za alarme, video nadzor i servis klima – pokrivaju <strong>Beograd i celu Srbiju</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Od provale do vrućine – Idea Protection nudi <strong>kompletna rešenja</strong>: Paradox, Ajax, Hikvision alarmi; Dahua, Hikvision kamere; servis klima uređaja. Njihov moto: <em>„Sigurnost nije trošak – to je investicija.“</em>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Idea Protection System – Stručnjaci sa 25+ Godina"
+    },
+    {
+      "type": "p",
+      "content": "Osnovani pre <strong>dve decenije</strong>, Idea Protection je postala <strong>lider u sigurnosti i klimatizaciji</strong>. Tim čine iskusni tehničari sa fokusom na <em>pouzdanost i brzinu</em>. Koriste samo <strong>proverene brendove</strong>: Paradox, Ajax, Hikvision, Dahua."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih direktno:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381114084318\">+381 11 4084 318</a><br>📧 <strong>Email:</strong> <a href=\"mailto:info@ideaps.rs\">info@ideaps.rs</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://ideaps.rs/\" target=\"_blank\" rel=\"noopener\">ideaps.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9\" target=\"_blank\" rel=\"noopener\">Karlovačka 28, Zemun</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Idea Protection – Od Alarma do Klime"
+    },
+    {
+      "type": "p",
+      "content": "Idea Protection pokriva sve aspekte sigurnosti i udobnosti:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Alarmni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Paradox, Ajax, Hikvision – protiv provale, požara, gasa. Bežični ili žični, sa dojavom na mobilni ili centralu."
+    },
+    {
+      "type": "h3",
+      "content": "2. Video Nadzorni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Dahua, Hikvision kamere – IP, HDCVI, PTZ. Daljinski pristup, noćni vid, visoka rezolucija. Za dom, firmu, hale."
+    },
+    {
+      "type": "h3",
+      "content": "3. Servis i Održavanje"
+    },
+    {
+      "type": "p",
+      "content": "Redovne provere, popravke, ažuriranja. <strong>24/7 podrška</strong> za hitne slučajeve."
+    },
+    {
+      "type": "h3",
+      "content": "4. Klima Uređaji – Prodaja, Ugradnja, Servis"
+    },
+    {
+      "type": "p",
+      "content": "Montaža, čišćenje, dopuna gasa. Savetovanje o efikasnosti i potrošnji."
+    },
+    {
+      "type": "h3",
+      "content": "5. Ozvučenje i Integracija"
+    },
+    {
+      "type": "p",
+      "content": "Audio sistemi za javno obaveštavanje, integracija sa sigurnosnim mrežama."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Idea Protection – Beograd i Šire"
+    },
+    {
+      "type": "p",
+      "content": "Iako bazirani u <strong>Zemunu</strong>, Idea Protection radi širom <strong>Beograda i Srbije</strong>:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Novi Beograd</strong> – video nadzor u poslovnim zgradama",
+        "<strong>Surčin</strong> – alarmi u kućama",
+        "<strong>Zemun Polje, Batajnica</strong> – servis klima",
+        "<strong>Altina, Ugrinovci</strong> – kompletni sigurnosni sistemi",
+        "<strong>Dobanovci, Jakovo</strong> – ozvučenje hala"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Idea Protection"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete potrebe<br><strong>2. Procena</strong> – dolaze na lice mesta, savetuju<br><strong>3. Ponuda</strong> – jasna cena, rokovi<br><strong>4. Ugradnja</strong> – brzo, čisto, sa testiranjem<br><strong>5. Podrška</strong> – garancija, 24/7 servis"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Idea Protection – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "25+ godina iskustva – hiljade zadovoljnih klijenata",
+        "Ovlašćeni za Paradox, Ajax, Hikvision, Dahua",
+        "Kompletna usluga – od prodaje do servisa",
+        "Brzi izlazak – Zemun i Beograd isti dan",
+        "Mobilni pristup – kontrolišite sistem sa telefona",
+        "Povoljne cene sa garancijom kvaliteta"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>pouzdanu zaštitu i udobnu klimu</strong> – <strong>Idea Protection System Zemun</strong> je pravi izbor. Pozovite za besplatnu procenu: <a href=\"tel:+381114084318\"><strong>+381 11 4084 318</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Video Nadzorni Sistemi",
+      "description": "Ugradnja Dahua i Hikvision kamera – IP, HDCVI, PTZ. Daljinski pristup, noćni vid, visoka rezolucija."
+    },
+    {
+      "title": "Alarmni Sistemi",
+      "description": "Paradox, Ajax, Hikvision – protiv provale, požara, gasa. Bežični, sa dojavom na mobilni."
+    },
+    {
+      "title": "Servis i Održavanje",
+      "description": "Redovne provere, popravke, ažuriranja. 24/7 podrška za hitne slučajeve."
+    },
+    {
+      "title": "Ugradnja i Servis Klima",
+      "description": "Montaža, čišćenje, dopuna gasa. Savetovanje o efikasnosti."
+    },
+    {
+      "title": "Ozvučenje i Integracija",
+      "description": "Audio sistemi za javno obaveštavanje, integracija sa sigurnosnim mrežama."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koje kamere nudite?",
+      "answer": "Dahua i Hikvision – 2MP do 8MP, IP, analogne, PTZ za unutra/spolja."
+    },
+    {
+      "question": "Da li ugrađujete alarme?",
+      "answer": "Da, Paradox, Ajax, Hikvision – sa garancijom i podrškom."
+    },
+    {
+      "question": "Radite li servis klima?",
+      "answer": "Da, čišćenje, dopuna, popravka – redovno održavanje."
+    },
+    {
+      "question": "Mogu li pratiti nadzor sa telefona?",
+      "answer": "Da, IP kamere omogućavaju uživo pristup sa mobilnog."
+    },
+    {
+      "question": "Gde ste locirani?",
+      "answer": "U Zemunu, Karlovačka 28. Radno vreme: Pon–Pet 9–17h, Sub 9–14h."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite +381 11 4084 318 ili pošaljite mejl na info@ideaps.rs."
+    }
+  ]
+},
+
+  {
+  "ime": "Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte",
+  "tip": "firma",
+  "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska Oprema", "Digitalna Rešenja"],
+  "opis_kratak": "Doka Srbija – deo globalne Doka grupacije. Pruža inovativne oplatne sisteme, skele, inženjersku podršku i digitalna rešenja za bezbednu i efikasnu gradnju u Srbiji.",
+  "mesto": ["Šimanovci", "Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Pančevo", "Zemun", "Sremska Mitrovica", "Inđija"],
+  "address": "Svetogorska 4, 22310 Šimanovci",
+  "telefon": "+38122400100",
+  "email": "serb@doka.com",
+  "website": "https://www.doka.com/rs/index",
+  "slug": "doka-srbija-oplate-skele-inzenjering",
+
+  "thumbnail": "images/Doka-Srbija-Svetski-Lider-u-Oplatama-i-Skelama-za-Velike-Projekte.webp",
+  "hero_image": "images/Doka-Srbija-Svetski-Lider-u-Oplatama-i-Skelama-za-Velike-Projekte.webp",
+
+  "discover_title": "Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-29",
+  "last_modified": "2025-10-29",
+
+  "tips_title": "6 Saveta za Bezbednu i Brzu Gradnju",
+  "tips": [
+    "Planirajte oplate pre početka – ušteda do 30% vremena",
+    "Koristite Concremote – beton se suši tačno kad treba",
+    "Modularne skele – menjajte konfiguraciju za 1 dan",
+    "Obučite tim – Doka obuka smanjuje greške za 80%",
+    "Digitalni BIM model – nema neslaganja na terenu",
+    "Iznajmite opremu – ne morate sve kupovati"
+  ],
+
+  "sections": [
+   
+    {
+      "type": "p",
+      "content": "Na adresi <strong>Svetogorska 4 u Šimanovcima</strong> nalazi se <strong>Doka Srbija</strong> – ogranak globalne <strong>Doka grupacije</strong> sa preko <em>160 lokacija u 50+ zemalja</em>. Specijalizovani za <strong>oplate, skele i inženjerska rešenja</strong> za najzahtevnije građevinske projekte u Srbiji."
+    },
+    {
+      "type": "p",
+      "content": "Od mostova i tunela do nebodera i stambenih kompleksa – Doka sistemi su <strong>garancija sigurnosti, brzine i preciznosti</strong>. Njihov moto: <em>„Bezbednost na prvom mestu. Efikasnost u svakom detalju.“</em>"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Doka – Globalni Standard u Građevinarstvu"
+    },
+    {
+      "type": "p",
+      "content": "Doka je deo <strong>Umdasch grupacije</strong> i svetski lider u <strong>oplatnim tehnologijama</strong>. U Srbiji posluju iz <strong>Šimanovaca</strong>, pružajući <em>prodaju, iznajmljivanje, inženjering i obuku</em>. Njihov tim čine iskusni inženjeri i terenski stručnjaci."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih direktno:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+38122400100\">+381 22 400 100</a><br>📧 <strong>Email:</strong> <a href=\"mailto:serb@doka.com\">serb@doka.com</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.doka.com/rs/index\" target=\"_blank\" rel=\"noopener\">doka.com/rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9\" target=\"_blank\" rel=\"noopener\">Svetogorska 4, Šimanovci</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Doka Srbija – Kompletna Rešenja za Velike Projekte"
+    },
+    {
+      "type": "p",
+      "content": "Doka pokriva sve faze – od planiranja do završetka:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Oplatni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Zidne, pločaste, stubne, penjuće oplate. Modularni dizajn, brza montaža. <strong>Framax, Frami, Dokaflex</strong> – standardi u industriji."
+    },
+    {
+      "type": "h3",
+      "content": "2. Noseće i Fasadne Skele"
+    },
+    {
+      "type": "p",
+      "content": "Visoka nosivost, prilagodljive konfiguracije. <strong>Ringlock, Allround</strong> – za sve visine i oblike."
+    },
+    {
+      "type": "h3",
+      "content": "3. Digitalna Rešenja"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Concremote</strong> – praćenje zrelosti betona u realnom vremenu.<br><strong>DokaXdek</strong> – digitalno planiranje i upravljanje oplatom."
+    },
+    {
+      "type": "h3",
+      "content": "4. Inženjerske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Statički proračuni, 3D BIM modeli, optimizacija materijala. Podrška od ideje do realizacije."
+    },
+    {
+      "type": "h3",
+      "content": "5. Obuka i Terenska Podrška"
+    },
+    {
+      "type": "p",
+      "content": "Obuka za montažere, nadzor na gradilištu, brza intervencija. <strong>Bezbednost na prvom mestu</strong>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Doka – Cela Srbija"
+    },
+    {
+      "type": "p",
+      "content": "Iako bazirani u <strong>Šimanovcima</strong>, Doka je prisutna na svim velikim projektima:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Beograd</strong> – Beograd na vodi, mostovi preko Save",
+        "<strong>Novi Sad</strong> – stambeni kompleksi, Petrovaradin",
+        "<strong>Niš</strong> – infrastruktura, tuneli",
+        "<strong>Kragujevac, Subotica</strong> – industrijske hale",
+        "<strong>Pančevo, Inđija</strong> – logistički centri"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Dokom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Upit</strong> – pošaljete plan ili opis projekta<br><strong>2. Analiza</strong> – Doka inženjeri prave optimalno rešenje<br><strong>3. Ponuda</strong> – prodaja ili iznajmljivanje, sa rokom<br><strong>4. Dostava</strong> – tačno na gradilište<br><strong>5. Podrška</strong> – obuka, nadzor, digitalni alati"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Doka – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Svetski lider – iskustvo sa 1000+ projekata",
+        "Lokalna podrška – tim u Šimanovcima",
+        "Iznajmljivanje ili kupovina – fleksibilno",
+        "Digitalna rešenja – Concremote, BIM, DokaXdek",
+        "Maksimalna bezbednost – sertifikovano po EN standardima",
+        "Brza logistika – skladište u Srbiji"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako gradite <strong>veliki projekat i želite sigurnost, brzinu i uštedu</strong> – <strong>Doka Srbija</strong> je pravi partner. Pozovite za konsultaciju: <a href=\"tel:+38122400100\"><strong>+381 22 400 100</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Oplatni Sistemi",
+      "description": "Zidne, pločaste, penjuće oplate. Modularne, brze, izdržljive. Za sve tipove konstrukcija."
+    },
+    {
+      "title": "Noseće i Fasadne Skele",
+      "description": "Ringlock, Allround sistemi. Visoka nosivost, prilagodljive konfiguracije."
+    },
+    {
+      "title": "Digitalna Rešenja",
+      "description": "Concremote (praćenje betona), DokaXdek (planiranje), BIM integracija."
+    },
+    {
+      "title": "Inženjerske Usluge",
+      "description": "Statički proračuni, 3D modeli, optimizacija, nadzor na terenu."
+    },
+    {
+      "title": "Obuka i Podrška",
+      "description": "Obuka za montažere, terenska podrška, sigurnosni protokoli."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koje oplate Doka nudi?",
+      "answer": "Zidne (Framax), pločaste (Dokaflex), penjuće, stubne – sve modularne i višekratne."
+    },
+    {
+      "question": "Da li Doka iznajmljuje opremu?",
+      "answer": "Da, nudimo iznajmljivanje oplata i skela sa logistikom i podrškom."
+    },
+    {
+      "question": "Šta je Concremote?",
+      "answer": "Digitalni sistem za praćenje zrelosti betona u realnom vremenu – štedi dane čekanja."
+    },
+    {
+      "question": "Radite li samo u Beogradu?",
+      "answer": "Ne, pokrivamo celu Srbiju – od Novog Sada do Niša, sa skladištem u Šimanovcima."
+    },
+    {
+      "question": "Da li pružate obuku?",
+      "answer": "Da, organizujemo obuke za montažere i supervizore – besplatno uz veće projekte."
+    },
+    {
+      "question": "Kako da dobijem ponudu?",
+      "answer": "Pošaljite upit na serb@doka.com ili pozovite +381 22 400 100."
+    }
+  ]
+},
+
+  {
   "ime": "Interium Čantavir – Stolarska Radionica i Salon Nameštaja po Meri",
   "tip": "firma",
   "kategorija": ["Nameštaj po Meri", "Stolarija", "Kuhinje", "Plakari", "Enterijer", "Dizajn", "Čantavir", "Subotica"],
