@@ -1,6 +1,640 @@
 [
 
   {
+  "ime": "Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+ Godina Iskustva",
+  "tip": "firma",
+  "kategorija": ["Bravarija", "Sigurnosna Vrata", "Ograde od Inoxa", "Kapije", "Nastrešnice", "Zaštitne Rešetke", "Nameštaj", "Terasne Ograde", "Stepeništa", "Stepenišne Ograde"],
+  "opis_kratak": "Simplex NS Art – bravarija sa 22 godine iskustva. Specijalizovani za sigurnosna vrata (10 godina garancije), inox ograde, kovane kapije, nastrešnice, rešetke, stepenice. Kvalitet, brza isporuka, montaža.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Beočin", "Sremski Karlovci", "Rumenka", "Kać", "Temeri", "Bačka Palanka"],
+  "address": "Cara Uroša 6, 21000 Novi Sad",
+  "telefon": "+381695929017",
+  "email": "simplex.nsart@gmail.com",
+  "website": "https://bravarija.rs/",
+  "slug": "simplex-ns-art-novi-sad-bravarija-kapije-ograde",
+
+  "thumbnail": "images/simplex-ns-art-novi-sad-bravarija-kapije-ograde.webp",
+  "hero_image": "images/simplex-ns-art-novi-sad-bravarija-kapije-ograde.webp",
+
+  "discover_title": "Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+ Godina Iskustva",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-31",
+  "last_modified": "2025-10-31",
+
+  "tips_title": "6 Bravarskih Saveta: Kako da Vaš Dom Bude Neprobojan i Lep",
+  "tips": [
+    "Sigurnosna vrata sa 3 tačke zaključavanja – nema provale za 10 minuta",
+    "Inox ograde sa staklom – top dizajn, zero održavanje",
+    "Kovane kapije – unikatni dizajn, otporne na vetar",
+    "Nastrešnice na visini – bez visinskih radova, sigurno",
+    "Rešetke sa dekorom – sigurnost + estetika",
+    "Stepenišne ograde – protiv klizanja, sa rukohvatom top"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Na adresi <strong>Cara Uroša 6 u Novom Sadu</strong> nalazi se <strong>Simplex NS Art</strong> – bravarija koja od 2001. godine (kao SZR Goran i Boda) kuje <em>sigurnost i stil</em>. Od 2011. kao d.o.o., sarađuju sa <strong>Vlasina Inženjering, Domarc, Erker, Bash-Gradnja, Lear Corporation, Koteks Viscofan</strong>. Specijalizovani za <strong>sigurnosna vrata, inox ograde, kovane kapije</strong>."
+    },
+    
+    
+    {
+      "type": "h2",
+      "content": "Ko je Simplex NS Art – Bravarija sa 22 Godine Tradicije"
+    },
+    {
+      "type": "p",
+      "content": "Od male radionice do <strong>standardne bravarije</strong>. Kuju kapije, ograde, nastrenice. Koriste <strong>top materijale</strong>: inox, čelik, staklo. <strong>4.8 zvezdica od 26 recenzija na Google-u</strong> – solidno i vredno poverenja."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381695929017\">+381 69 592 9017 (Goran)</a> / <a href=\"tel:+381695929018\">+381 69 592 9018 (Bogdan)</a><br>📧 <strong>Email:</strong> <a href=\"mailto:simplex.nsart@gmail.com\">simplex.nsart@gmail.com</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/gPE98FUMUutrXvQT6\" target=\"_blank\" rel=\"noopener\">Cara Uroša 6, Novi Sad</a>"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Radno vreme:</strong><br>Ponedeljak–Subota: 07:00–16:00h<br>Nedelja: zatvoreno"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Simplex – Od Sigurnosti do Stila"
+    },
+    {
+      "type": "p",
+      "content": "Simplex kuje <strong>standardne i unikatne proizvode</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Sigurnosna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Po meri, 3 tačke zaključavanja. 10 godina garancije, boje i dezni po izboru."
+    },
+    {
+      "type": "h3",
+      "content": "2. Inox Ograde"
+    },
+    {
+      "type": "p",
+      "content": "Sa staklom ili sjajne. Za stambene/poslovne objekte, top otporne."
+    },
+    {
+      "type": "h3",
+      "content": "3. Kovane Kapije"
+    },
+    {
+      "type": "p",
+      "content": "Unikatni dizajni, cinkovane. Brza izrada, montaža."
+    },
+    {
+      "type": "h3",
+      "content": "4. Nastrešnice"
+    },
+    {
+      "type": "p",
+      "content": "Za kuće, terase. Čak na visinama, sigurno."
+    },
+    {
+      "type": "h3",
+      "content": "5. Zaštitne Rešetke i Stepeništa"
+    },
+    {
+      "type": "p",
+      "content": "Dekorativne rešetke, čelična stepeništa. Praktična, lepa."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Simplex – Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novom Sadu</strong>, kuju u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Petrovaradin</strong> – sigurnosna vrata za stanove",
+        "<strong>Veternik</strong> – kovane kapije za kuće",
+        "<strong>Futog</strong> – inox ograde za balkone",
+        "<strong>Beočin</strong> – nastrešnice za garaže",
+        "<strong>Sremski Karlovci</strong> – stepenice i rešetke"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Simplex-om"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Konsultacija</strong> – dolaze, mere, savetuju<br><strong>2. Dizajn</strong> – unikatni model po želji<br><strong>3. Ponuda</strong> – cena, rok, garancija<br><strong>4. Kovanje</strong> – u radionici, cinkovano<br><strong>5. Montaža</strong> – na licu mesta, čisto"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Simplex – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "22 godine iskustva – standardna kvaliteta",
+        "10 godina garancije na vrata – top otporna",
+        "Unikatni dizajni – kuju po vašoj ideji",
+        "Brza isporuka – brza montaža",
+        "Saradnja sa Lear, Koteks – za velike firme",
+        "4.8 zvezdica od 26 recenzija na Google-u – solidno i vredno poverenja"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>sigurnost kovanu u metalu</strong> – <strong>Simplex NS Art</strong> je pravi izbor. Pozovite Gorana ili Bogdana: <a href=\"tel:+381695929017\"><strong>+381 69 592 9017</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Sigurnosna Vrata",
+      "description": "Po meri, 3 tačke zaključavanja. 10 godina garancije, boje po izboru."
+    },
+    {
+      "title": "Inox Ograde",
+      "description": "Sa staklom ili sjajne. Za balkone, stepenice – top dizajn."
+    },
+    {
+      "title": "Kovane Kapije",
+      "description": "Unikatni, cinkovane. Brza izrada, montaža."
+    },
+    {
+      "title": "Nastrenice",
+      "description": "Za kuće, terase. Čak na visinama, sigurno."
+    },
+    {
+      "title": "Zaštitne Rešetke i Stepeništa",
+      "description": "Dekorativne rešetke, čelična stepeništa. Standardna i po meri."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko koštaju sigurnosna vrata?",
+      "answer": "Zavisi od mere i modela – pozovite za tačnu ponudu. Garancija 10 godina."
+    },
+    {
+      "question": "Da li radite kovane dizajne?",
+      "answer": "Da, kuju unikatne oblike – po vašoj skici ili ideji."
+    },
+    {
+      "question": "Koliko traje izrada kapije?",
+      "answer": "Brzo – 1-2 nedelje od dogovora do montaže."
+    },
+    {
+      "question": "Radite li van Novog Sada?",
+      "answer": "Da, Petrovaradin, Veternik, Futog, Beočin i šire."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, 10 godina na vrata, 5 godina na ograde i kapije."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite Gorana (+381 69 592 9017) ili Bogdana (+381 69 592 9018) ili mejl simplex.nsart@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima",
+  "tip": "firma",
+  "kategorija": ["Stolarija", "PVC Stolarija", "Prozori", "Vrata", "Komarnici", "Roletne", "Sigurnosna Vrata"],
+  "opis_kratak": "Porta PVC – specijalizovani za sertifikovanu PVC stolariju Trocal profila. Prozori, vrata, rolo komarnici, roletne, sigurnosna vrata. Energetska efikasnost, subvencionisana zamena, 2500+ zadovoljnih korisnika.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Beočin", "Sremski Karlovci", "Rumenka", "Kać", "Temeri", "Bačka Palanka"],
+  "address": "Futoški put 5, 21000 Novi Sad",
+  "telefon": "+38169774754",
+  "email": "portanspvc@gmail.com",
+  "website": "https://www.porta-pvc.com/",
+  "slug": "porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici",
+
+  "thumbnail": "images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp",
+  "hero_image": "images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp",
+
+  "discover_title": "Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-31",
+  "last_modified": "2025-10-31",
+
+  "tips_title": "Kako da Vaš Dom Bude Topao, Tiha i Jeftiniji za Grejanje",
+  "tips": [
+    "Trocal 88mm profil – nulti termo most, ušteda do 70%",
+    "Argon + LOW-E staklo – leti hladno, zimi toplo",
+    "Rolo komarnik – skida se za 10 sekundi zimi",
+    "Spoljna roletna – dodatna izolacija, manji računi",
+    "Subvencija NS – do 50.000 dinara po stanu",
+    "Ventilacioni uređaj – svež vazduh bez otvaranja"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Pre par godina, renovirao sam stan u Limanu – stari drveni prozori, promaja, buka sa ulice, računi za grejanje preko 15.000 dinara zimi. Čuo sam za <strong>subvencije Grada Novog Sada</strong> za zamenu stolarije, pa sam potražio firmu koja radi brzo i kvalitetno. Naišao sam na <strong>Porta PVC</strong> na <strong>Futoškom putu 5</strong>. Dogovor preko telefona, merenje za 2 dana, ugradnja za nedelju – i evo, sada je stan tih, topao, a računi manji za 40%. To je bio moj prvi kontakt sa Porta PVC – i nije bio poslednji."
+    },
+    {
+      "type": "p",
+      "content": "<strong>Porta PVC D.O.O.</strong> je <strong>sertifikovani uvoznik i montažer Trocal PVC profila</strong>. Preko <strong>2500 zadovoljnih korisnika</strong>, <strong>1600 realizovanih projekata</strong>. Specijalizovani za <em>energetski efikasnu stolariju, subvencionisane zamene, rolo komarnike i sigurnosna vrata</em>."
+    },
+    {
+      "type": "p",
+      "content": "Tako sam zaključio nešto što bi mogao biti njihov moto: <em>„Kvalitet nije skup – promaja jeste.“</em> Fokus na <strong>uštedu energije, tišinu, sigurnost</strong>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Porta PVC – Lider u Energetskoj Efikasnosti u Novom Sadu"
+    },
+    {
+      "type": "p",
+      "content": "Firma sa <strong>dugogodišnjim iskustvom</strong>, ekskluzivni partner <strong>Trocal (Nemačka)</strong>. Koriste <strong>LOW-E staklo, argon, termo prekid</strong>. Montaža po <strong>RAAL standardima</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+38169774754\">+381 69 774 754</a><br>📧 <strong>Email:</strong> <a href=\"mailto:portanspvc@gmail.com\">portanspvc@gmail.com</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.porta-pvc.com/\" target=\"_blank\" rel=\"noopener\">porta-pvc.com</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/icbJUJneYnemvEzr6\" target=\"_blank\" rel=\"noopener\">Futoški put 5, Novi Sad</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Porta PVC – Sve za Savršen Prozor"
+    },
+    {
+      "type": "p",
+      "content": "Porta radi <strong>kompletno rešenje</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. PVC Prozori (Trocal)"
+    },
+    {
+      "type": "p",
+      "content": "76mm i 88mm profili, 3-slojno staklo, LOW-E, argon. Ušteda do 70%."
+    },
+    {
+      "type": "h3",
+      "content": "2. PVC i Sigurnosna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Ulazna vrata sa čeličnim ojačanjem, višestruko zaključavanje."
+    },
+    {
+      "type": "h3",
+      "content": "3. Rolo Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Lako se skida, otporni na vetar, maksimalan protok vazduha."
+    },
+    {
+      "type": "h3",
+      "content": "4. Roletne (Unutrašnje/Spoljne)"
+    },
+    {
+      "type": "p",
+      "content": "Termoizolacija, zaštita od sunca, elektro pogon opciono."
+    },
+    {
+      "type": "h3",
+      "content": "5. Subvencionisana Zamena Stolarije"
+    },
+    {
+      "type": "p",
+      "content": "Pomoć oko prijave, do 50.000 dinara refundacije po stanu."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Porta PVC – Ceo Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novom Sadu</strong>, montiraju u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Liman, Detelinara</strong> – zamena starih prozora",
+        "<strong>Telep, Adice</strong> – sigurnosna vrata",
+        "<strong>Petrovaradin, Sremska Kamenica</strong> – roletne",
+        "<strong>Veternik, Futog</strong> – rolo komarnici",
+        "<strong>Beočin, Rumenka</strong> – kompletna stolarija"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Porta PVC"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv/Mail</strong> – opišete šta vam treba<br><strong>2. Merenje</strong> – besplatno, tačno<br><strong>3. Ponuda</strong> – cena sa PDV-om, rokovi<br><strong>4. Ugovor</strong> – sve na papiru<br><strong>5. Montaža</strong> – čisto, brzo, garancija"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Porta PVC – Rezultati Govore"
+    },
+    {
+      "type": "p",
+      "content": "<strong>2500+</strong> zadovoljnih korisnika<br><strong>1600+</strong> realizovanih projekata<br><strong>650+</strong> uspešnih saradnji"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Porta PVC – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Trocal profili – nemački kvalitet, 10 godina garancije",
+        "Subvencije NS – pomoć oko prijave",
+        "Brza montaža – od ugovora do ugradnje 7-14 dana",
+        "Energetska efikasnost – ušteda 50-70% na grejanju",
+        "Rolo komarnici i roletne – sve na lageru",
+        "Servis i održavanje – godinama posle ugradnje"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam <strong>curi toplota, buka ili insekti</strong> – <strong>Porta PVC</strong> je rešenje. Pozovite za besplatnu procenu: <a href=\"tel:+38169774754\"><strong>+381 69 774 754</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "PVC Prozori (Trocal)",
+      "description": "76/88mm, LOW-E, argon, 3-slojno staklo. Maksimalna izolacija."
+    },
+    {
+      "title": "Sigurnosna i PVC Vrata",
+      "description": "Čelično ojačanje, višestruko zaključavanje, estetski dizajn."
+    },
+    {
+      "title": "Rolo Komarnici",
+      "description": "Lako skidanje, otporni na vetar, maksimalan vazduh."
+    },
+    {
+      "title": "Roletne (Unutrašnje/Spoljne)",
+      "description": "Termoizolacija, zaštita od sunca, elektro pogon."
+    },
+    {
+      "title": "Subvencionisana Zamena",
+      "description": "Pomoć oko prijave, refundacija do 50.000 dinara."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta zamena prozora?",
+      "answer": "Zavisi od mere – kontaktirajte za tačnu ponudu. Cenovnik na sajtu je indikativan."
+    },
+    {
+      "question": "Koliko traje ugradnja?",
+      "answer": "Za stan – 1-2 dana. Za kuću – 3-5 dana."
+    },
+    {
+      "question": "Imate li subvencionisane cene?",
+      "answer": "Da, pomažemo oko prijave za subvencije Grada Novog Sada."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, 10 godina na profile, 5 godina na staklo, 2 godine na montažu."
+    },
+    {
+      "question": "Radite li van Novog Sada?",
+      "answer": "Da, Veternik, Futog, Beočin, Sremski Karlovci i šire."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 69 774 754 ili pošaljite mail na portanspvc@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "ALU Stolarija", "Prozori", "Vrata", "Komarnici", "Žaluzine"],
+  "opis_kratak": "Jovište – proizvođač PVC i ALU stolarije sa 18 godina iskustva. Kompletna usluga: dizajn, proizvodnja, montaža. Energetski efikasni prozori, vrata, komarnici, žaluzine. Pokrivamo Suboticu i Vojvodinu.",
+  "mesto": ["Subotica", "Palić", "Novi Sad", "Sombor", "Kanjiza", "Senta", "Bačka Topola", "Mali Iđoš", "Ada", "Čantavir", "Bečej"],
+  "address": "Horgoški put 81b, 24413 Palić",
+  "telefon": "+38124530350",
+  "email": "office@joviste.rs",
+  "website": "https://www.joviste.rs/",
+  "slug": "joviste-palic-pvc-alu-stolarija-prozori-vrata",
+
+  "thumbnail": "images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp",
+  "hero_image": "images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp",
+
+  "discover_title": "Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-31",
+  "last_modified": "2025-10-31",
+
+  "tips_title": "Kako da Vaši Prozori Štede Novac i Nerve",
+  "tips": [
+    "LOW-E staklo – zimi toplo, leti hladno, ušteda 40%",
+    "Rolo žaluzine – automatika za svetlost jednim klikom",
+    "REHAU profili – nema kondenzacije, traje 50 godina",
+    "Komarnik plise – savršen za balkonska vrata, lako sklapanje",
+    "3D dizajn pre kupovine – vidite pre nego platite",
+    "Redovno održavanje – set za čišćenje produžava vek"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Već godinama sarađujem sa Jovištem, a sve je počelo preko Atile Lašu-a iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, više puta smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovištu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet se vidi na svakoj kući."
+    },
+    {
+      "type": "p",
+      "content": "Na adresi <strong>Horgoški put 81b u Paliću</strong> nalazi se <strong>Jovište</strong> – kompanija sa <strong>18 godina iskustva</strong> u <em>proizvodnji PVC i ALU stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>. Specijalizovani za <strong>prozore, vrata, komarnike, žaluzine</strong>."
+    },
+    
+    
+    {
+      "type": "h2",
+      "content": "Ko je Jovište – Kompanija Okrenuta Budućnosti"
+    },
+    {
+      "type": "p",
+      "content": "Osnovani <strong>2007.</strong> kao nabavljači, danas <strong>proizvođači sa CNC mašinama</strong>. Partneri: <strong>Rehau, Alumil, GU, Guardian</strong>. Fabrika u Paliću, sertifikati: <strong>ISO 9001, 14001, 45001, 50001</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+38124530350\">+381 24 530 350</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.joviste.rs/\" target=\"_blank\" rel=\"noopener\">joviste.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/fNvVohGtkjqBhQrx9\" target=\"_blank\" rel=\"noopener\">Horgoški put 81b, Palić</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Jovište – Od Ideje do Montaže"
+    },
+    {
+      "type": "p",
+      "content": "Jovište vodi kroz ceo proces:"
+    },
+    {
+      "type": "h3",
+      "content": "1. PVC i ALU Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Rehau profili, Guardian staklo. Energetski efikasni, LOW-E, 3-slojno staklo."
+    },
+    {
+      "type": "h3",
+      "content": "2. PVC i ALU Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Ulazna, balkonska, klizna. Alumil sistemi, GU okovi."
+    },
+    {
+      "type": "h3",
+      "content": "3. Komarnici i Žaluzine"
+    },
+    {
+      "type": "p",
+      "content": "Fiksni, rolo, plise komarnici. Solomatik žaluzine – automatske."
+    },
+    {
+      "type": "h3",
+      "content": "4. Zebra i Trakaste Zavese"
+    },
+    {
+      "type": "p",
+      "content": "Estetska zaštita od sunca, kontrola svetlosti."
+    },
+    {
+      "type": "h3",
+      "content": "5. Podprozorske Daske, Okapnice, Set za Održavanje"
+    },
+    {
+      "type": "p",
+      "content": "Završni detalji za savršen izgled i dug vek."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Istorija Jovište – Od 2007. do Lidera u Regionu"
+    },
+    {
+      "type": "p",
+      "content": "Ključni momenti:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>2007</strong> – Osnivanje, nabavka PVC stolarije",
+        "<strong>2009</strong> – Prva mašina, početak proizvodnje",
+        "<strong>2012</strong> – ALU stolarija",
+        "<strong>2016</strong> – Hala na Paliću, CNC za PVC",
+        "<strong>2018</strong> – Modernizacija PVC linije",
+        "<strong>2023</strong> – CNC za ALU",
+        "<strong>2025</strong> – Inovacije, digitalizacija"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Jovište – Recenzije Klijenata"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Kompanija sa izuzetnom energijom i poslovnim znanjem. Izuzetno ljubazni zaposleni, kako u prodajnom prostoru tako i na montaži. Odlična stolarija, vrhunski kvalitet. Za svačiji džep i ukus.“ – <a href=\"https://share.google/WY14NKenO7OfrcKpL\" target=\"_blank\" rel=\"noopener\"><strong>Sanja Stepić</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Izuzetno kvalitetna stolarija, precizna izrada i odlični materijali. Sve je isporučeno u dogovorenom roku, a montaža je urađena profesionalno i bez greške. Posebno bih pohvalila ljubazno i profesionalno osoblje koje je strpljivo objasnilo sve detalje i pomoglo pri izboru. Topla preporuka svima koji žele dugotrajan i pouzdan proizvod.“ – <a href=\"https://share.google/MBKMnSbJnS5HuSWPz\" target=\"_blank\" rel=\"noopener\"><strong>Teodora Vasić</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Izuzetno sam zadovoljna saradnjom sa kompanijom Joviste. Kvalitet prozora i ulaznih vrata je na visokom nivou, a ekipa za montazu je profesionaona, brza i ljubazna. Svaki dogovor je ispostovan u dogovorenom roku. Svaka preporuka za saradnju sa njima!!!!“ – <a href=\"https://share.google/7kJWY4NtWdbUHIrxX\" target=\"_blank\" rel=\"noopener\"><strong>Jovana Đukić</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Najbolja firma, odlični među-ljudski odnosi, zadovoljni kupci, i odlične preporuke. Mogućnost napredovanja i usavršavanja, redovni prihodi. Poslovna etika i međusobno poštovanje prvi kriterijumi koji se traže u firmi Joviste zahvaljujući direktoru firme Siniše i , tehničkog direktora Frederika... Kompanija sa 5 zvezdica.“ – <a href=\"https://share.google/QcXwtU653wXPAq4Gr\" target=\"_blank\" rel=\"noopener\"><strong>Dejan Đurović</strong></a>"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Jovište – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "18 godina iskustva – 120.000+ zadovoljnih korisnika",
+        "Kompletna proizvodnja – CNC mašine, Rehau, Alumil",
+        "Energetski efikasni proizvodi – LOW-E, izolacija",
+        "3D dizajn i savetovanje – besplatno",
+        "Montaža uključena – stručni tim",
+        "Sertifikati: ISO, CE, IFT Rosenheim"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>stolariju koja traje i štedi</strong> – <strong>Jovište Palić</strong> je pravi izbor. Pozovite za besplatnu konsultaciju: <a href=\"tel:+38124530350\"><strong>+381 24 530 350</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "PVC i ALU Prozori",
+      "description": "Rehau profili, Guardian staklo. Energetska efikasnost, LOW-E, 3-slojno."
+    },
+    {
+      "title": "PVC i ALU Vrata",
+      "description": "Ulazna, klizna, balkonska. Alumil sistemi, GU okovi."
+    },
+    {
+      "title": "Komarnici (Fiksni, Rolo, Plise)",
+      "description": "Po meri, zaštita od insekata, lako održavanje."
+    },
+    {
+      "title": "Žaluzine, Zavese, Okapnice",
+      "description": "Solomatik žaluzine, zebra zavese, podprozorske daske."
+    },
+    {
+      "title": "Set za Održavanje i Dodaci",
+      "description": "Kompleti za čišćenje, okapnice, daske – sve za dug vek."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko traje izrada prozora?",
+      "answer": "Zavisi od mere – obično 2-4 nedelje. Brza dostava i montaža."
+    },
+    {
+      "question": "Da li je dizajn besplatan?",
+      "answer": "Da, 3D prikaz i savetovanje su uključeni."
+    },
+    {
+      "question": "Pokrivata li celu Vojvodinu?",
+      "answer": "Da, od Subotice do Novog Sada i šire – dostava i montaža."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, na profile 10 godina, staklo 5 godina, montažu 2 godine."
+    },
+    {
+      "question": "Radite li po meri?",
+      "answer": "Da, sve po meri – od dimenzija do boje i dodataka."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 24 530 350 ili posetite joviste.rs."
+    }
+  ]
+},
+
+  {
   "ime": "Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "ALU Stolarija", "Komarnici", "Prozori", "Vrata", "Paneli", "Temerin", "Novi Sad"],

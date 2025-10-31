@@ -38,9 +38,6 @@ sections:
     braća <strong>Stefan i Miroslav</strong> sa <strong>10+ godina iskustva</strong>.
     Specijalizovani za <em>hitne intervencije 24/7, renoviranje kupatila, odgušenje
     kanalizacije i popravku bojlera</em>. Preko <strong>1.000 zadovoljnih klijenata</strong>."
-- type: p
-  content: 'Njihov moto: <em>„Kap ne čeka – ni mi.“</em> Dolaze za <strong>30-60 min</strong>,
-    bez doplate za noć/vikend.'
 - type: h2
   content: Ko su Braća Jokić – Porodični Tim za Sve Vodene Katastrofe
 - type: p
@@ -141,10 +138,9 @@ faq:
   answer: Da, 24/7 – subota, nedelja, praznici. Dolazak za 30-60 min.
 - question: Koliko traje renoviranje kupatila?
   answer: 7-10 dana za standardno kupatilo. Po dogovoru.
-- question: Da li dajete garanciju?
-  answer: Da, 12 meseci na sve radove. Pisana garancija.
-- question: Pokrivata li celu Vojvodinu?
-  answer: 'Novi Sad i okolina: Petrovaradin, Veternik, Futog, Kać, Sremska Kamenica.'
+- question: Pokrivaju li celu Vojvodinu?
+  answer: 'Ne. Fokus im je na Novom Sadu i okolini: Petrovaradin, Veternik, Futog,
+    Kać, Sremska Kamenica.'
 - question: Kako da vas kontaktiram?
   answer: 'Poziv/Viber: +381 61 493 56 83 ili preko sajta vodoinstalaterjokic.com'
 tips:
