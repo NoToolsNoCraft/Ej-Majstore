@@ -76,7 +76,7 @@ sections:
 - type: p
   content: Unikatni dizajni, cinkovane. Brza izrada, montaža.
 - type: h3
-  content: 4. Nastrašnice
+  content: 4. Nastrešnice
 - type: p
   content: Za kuće, terase. Čak na visinama, sigurno.
 - type: h3
@@ -92,7 +92,7 @@ sections:
   - "<strong>Petrovaradin</strong> – sigurnosna vrata za stanove"
   - "<strong>Veternik</strong> – kovane kapije za kuće"
   - "<strong>Futog</strong> – inox ograde za balkone"
-  - "<strong>Beočin</strong> – nastrašnice za garaže"
+  - "<strong>Beočin</strong> – nastrešnice za garaže"
   - "<strong>Sremski Karlovci</strong> – stepenice i rešetke"
 - type: h2
   content: Kako Funkcioniše Saradnja sa Simplex-om

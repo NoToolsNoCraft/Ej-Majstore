@@ -1,6 +1,795 @@
 [
 
   {
+  "ime": "Top Keramičar Beograd – Profesionalni Tim za Ugradnju Pločica i Adaptaciju",
+  "tip": "firma",
+  "kategorija": ["Keramičarski Radovi", "Postavljanje Pločica", "Hidroizolacija", "Fugovanje", "Renoviranje Kupatila"],
+  "opis_kratak": "Keramičar Beograd – iskusni majstori za postavljanje pločica, mozaika, velikih formata, hidroizolaciju, fugovanje. Precizno, čisto, sa garancijom. 4.6/5 od 31 recenzija.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Voždovac", "Palilula", "Čukarica", "Rakovica", "Zvezdara", "Vračar", "Savski Venac"],
+  "address": "Skadarska 24, 11000 Beograd",
+  "telefon": "0600761800",
+  "email": "",
+  "website": "https://keramicar-top.rs/",
+  "slug": "top-keramicar-beograd-postavljanje-plocica-renoviranje",
+
+  "thumbnail": "images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp",
+  "hero_image": "images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp",
+
+  "discover_title": "Top Keramičar Beograd – Profesionalni Tim za Ugradnju Pločica i Adaptaciju",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-01",
+  "last_modified": "2025-11-01",
+
+  "tips_title": "6 Saveta od Keramičara Beograd: Kako da Vaše Pločice Traju Decenijama",
+  "tips": [
+    "Priprema podloge – ravno i čisto, 80% uspeha",
+    "Hidroizolacija obavezna – nema vlage ni buđi",
+    "Velike pločice – manje fuga, lakše održavanje",
+    "Epoksidne fuge za kupatila – otporne na vodu",
+    "Protivklizne pločice na terasi – sigurnost na kiši",
+    "Silikon u uglovima – fleksibilno, bez pucanja"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U gradu gde se adaptacije dešavaju brže od jutarnje gužve na Gazeli, <strong>Keramičar Beograd</strong> je tim koji pretvara haos renoviranja u savršene površine. Od malog kupatila u starogradnji do velike terase na penthausu – oni rade sa pažnjom na svaki detalj: fuge, ivice, hidroizolaciju. Sa 4.6 zvezdica od 31 recenzije, oni su sinonim za kvalitet u Beogradu."
+    },
+    {
+      "type": "p",
+      "content": "Njihov moto: <em>„Nije samo posao – stvaramo prostor za uživanje.“</em> 24/7 dostupni, sa fokusom na čistoću i rokove."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Keramičar Beograd – Tim koji Radi Kao za Sebe"
+    },
+    {
+      "type": "p",
+      "content": "Tim iskusnih keramičara sa <strong>dugogodišnjim stažom</strong>. Sarađuju sa privatnicima, firmama, investitorima. Koriste <strong>najsavremenije materijale i alate</strong>."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:0600761800\">060 076 18 00</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/mUxrzoETdaivD6A29\" target=\"_blank\" rel=\"noopener\">Skadarska 24, Beograd</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://keramicar-top.rs/\" target=\"_blank\" rel=\"noopener\">keramicar-top.rs</a>"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Radno vreme:</strong> Open 24 hours – ponedeljak do nedelja"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Keramičar Beograd – Sve za Savršenu Keramiku"
+    },
+    {
+      "type": "p",
+      "content": "Kompletan spektar usluga:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Postavljanje Pločica"
+    },
+    {
+      "type": "p",
+      "content": "Zidne/podne, veliki formati, mozaik, granit. Kupatila, kuhinje, terase, bazeni."
+    },
+    {
+      "type": "h3",
+      "content": "2. Demontaža i Priprema"
+    },
+    {
+      "type": "p",
+      "content": "Skidanje starih pločica, popravka podloge, odvoz šuta."
+    },
+    {
+      "type": "h3",
+      "content": "3. Hidroizolacija"
+    },
+    {
+      "type": "p",
+      "content": "Vodootporni premazi – obavezno pre mokrih prostora."
+    },
+    {
+      "type": "h3",
+      "content": "4. Fugovanje i Silikoniranje"
+    },
+    {
+      "type": "p",
+      "content": "Cementne/epoksidne fuge, silikon u uglovima."
+    },
+    {
+      "type": "h3",
+      "content": "5. Kompletna Adaptacija Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Rušenje, instalacije, molerski, keramika – sa timom."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Keramičar Beograd – Ceo Grad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Beogradu</strong>, postavlja u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Novi Beograd, Zemun</strong> – kupatila u novim zgradama",
+        "<strong>Voždovac, Banjica</strong> – terase i balkoni",
+        "<strong>Palilula, Karaburma</strong> – kuhinje i hodnici",
+        "<strong>Čukarica, Železnik</strong> – stepeništa i bazeni",
+        "<strong>Vračar, Dedinje</strong> – luksuzni mozaici"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Keramičarom Beograd"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Upit</strong> – poziv/mail, besplatno<br><strong>2. Dolazak</strong> – merenje, savet<br><strong>3. Ponuda</strong> – cena po m², rokovi<br><strong>4. Rad</strong> – priprema, postavljanje, čišćenje<br><strong>5. Garancija</strong> – pisana, dugogodišnja"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Keramičar Beograd – Recenzije Klijenata"
+    },
+    {
+      "type": "blockquote",
+      "content": "„TOP Keramičar je tim profesionalaca koji svoj posao obavlja maksimalno korektno, pedantno, i veoma odgovorno. Upravo danas, 25. juna 2025, momci su u predviđenom roku \"hladnokrvno\" završili adaptaciju nešto prostranije tuš kabine u mome stanu u \"Voždovim Kapijama\"... Svetska klasa i pristup poslu!“ – <a href=\"https://maps.app.goo.gl/e9BuY8x9ipjA8uL77\" target=\"_blank\" rel=\"noopener\"><strong>Victor Prokic</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "„Sve pohvale za majstore, odlicno precizno i kvalitetno odradjen posao. Mnogi su danas majstori treba biti i covek!“ – <a href=\"https://maps.app.goo.gl/2Q4BHaDZMoC1pjUU9\" target=\"_blank\" rel=\"noopener\"><strong>Nikola Stevanovic</strong></a>"
+    },
+  
+    {
+      "type": "h2",
+      "content": "Zašto Keramičar Beograd – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dugogodišnje iskustvo – majstori rade kao za sebe",
+        "Besplatni upit i dolazak – neobavezujuće",
+        "Dugogodišnja garancija – pisana na radove",
+        "Kvalitetni materijali – svi proizvođači",
+        "Čisto posle rada – bez šuta na kraju",
+        "24/7 dostupni – hitni poslovi isti dan"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam treba <strong>keramičar koji ne ostavlja greške</strong> – <strong>Keramičar Beograd</strong> je pravi izbor. Pozovite za besplatni upit: <a href=\"tel:0600761800\"><strong>060 076 18 00</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Postavljanje Pločica",
+      "description": "Zidne/podne, veliki formati, mozaik. Kupatila, kuhinje, terase, bazeni."
+    },
+    {
+      "title": "Demontaža i Priprema",
+      "description": "Skidanje starih pločica, popravka podloge, odvoz šuta."
+    },
+    {
+      "title": "Hidroizolacija",
+      "description": "Vodootporni premazi – obavezno pre mokrih prostora."
+    },
+    {
+      "title": "Fugovanje i Silikoniranje",
+      "description": "Cementne/epoksidne fuge, silikon u uglovima."
+    },
+    {
+      "title": "Kompletna Adaptacija Kupatila",
+      "description": "Rušenje, instalacije, molerski, keramika – sa timom."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Šta spada u keramičarske radove?",
+      "answer": "Priprema podloge, lepljenje pločica, fugovanje, hidroizolacija, demontaža."
+    },
+    {
+      "question": "Kada je najbolje raditi keramičke radove?",
+      "answer": "Proleće, leto ili rana jesen – za bolje sušenje."
+    },
+    {
+      "question": "Koja je cena po m²?",
+      "answer": "Zavisi od slučaja – besplatna procena na terenu."
+    },
+    {
+      "question": "Koje su najbolje pločice?",
+      "answer": "Keramičke za odnos cene/kvaliteta. Savetujemo po nameni."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, dugogodišnja pisana garancija na radove."
+    },
+    {
+      "question": "Koliko traje ugradnja?",
+      "answer": "2-10 dana, zavisi od kvadrature i stanja."
+    }
+  ]
+},
+
+  {
+  "ime": "Keramičar AS – Precizno Postavljanje Pločica u Beogradu",
+  "tip": "firma",
+  "kategorija": ["Keramičar", "Keramičarski Radovi", "Postavljanje Pločica", "Hidroizolacija", "Fugovanje", "Adaptacija Kupatila"],
+  "opis_kratak": "Keramičar AS – tim Saše i Igora. Postavljanje pločica, mozaika, velikih formata, hidroizolacija, fugovanje, demontaža. Precizno, čisto, po dogovoru. Beograd i okolina.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Voždovac", "Palilula", "Čukarica", "Rakovica", "Zvezdara", "Vračar", "Savski Venac"],
+  "address": "Beograd (teren po dogovoru)",
+  "telefon": "+381601526860",
+  "email": "keramicaras@gmail.com",
+  "website": "https://keramicaras.rs/",
+  "slug": "keramicar-as-beograd-postavljanje-plocica",
+
+  "thumbnail": "images/keramicar-as-beograd-postavljanje-plocica.webp",
+  "hero_image": "images/keramicar-as-beograd-postavljanje-plocica.webp",
+
+  "discover_title": "Keramičar AS – Precizno Postavljanje Pločica u Beogradu",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-01",
+  "last_modified": "2025-11-01",
+
+  "tips_title": "Primenite ovo da vaše Pločice Traju 30+ Godina",
+  "tips": [
+    "Priprema podloge – 80% uspeha je ravna površina",
+    "Hidroizolacija pre pločica – nikad curenje u kupatilu",
+    "Velike pločice (60x120) – manje fuga, lakše čišćenje",
+    "Epoksidne fuge – za bazene i terase, bez buđi",
+    "Protivklizne ivice na stepenicama – sigurnost na prvom mestu",
+    "Ostavite 24h za sušenje – nikad žurba sa fugama"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U Beogradu, gde se renovira više nego što se spava, <strong>Keramičar AS</strong> je tim koji ne ostavlja trag – osim savršeno postavljenih pločica. <strong>Saša</strong> i <strong>Igor</strong> rade kao da postavljaju keramiku u sopstvenom stanu: precizno, čisto, i uvek po dogovoru. Od malog kupatila u starogradnji do velike terase na krovu – svaki posao dobije istu pažnju."
+    },
+    {
+      "type": "p",
+      "content": "Njihov moto: <em>„Nije gotovo dok ne prođe metar i nivo.“</em> Radovi u enterijeru i eksterijeru, sa fokusom na detalje: fuge, ivice, hidroizolaciju."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Keramičar AS – Tim Saše i Igora"
+    },
+    {
+      "type": "p",
+      "content": "Dvočlani tim sa <strong>godinama iskustva</strong>. Sarađuju sa privatnim klijentima, investitorima, firmama. Rade <em>brzo, ali bez žurbe</em> – kvalitet je prioritet."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Saša:</strong> <a href=\"tel:+381601526860\">+381 60 152 6860</a><br>📞 <strong>Igor:</strong> <a href=\"tel:+381644178230\">+381 64 417 8230</a><br>📧 <strong>Email:</strong> <a href=\"mailto:keramicaras@gmail.com\">keramicaras@gmail.com</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://keramicaras.rs/\" target=\"_blank\" rel=\"noopener\">keramicaras.rs</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/sasa.aleksic.662078\" target=\"_blank\" rel=\"noopener\">Saša Aleksić</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Keramičar AS – Sve za Savršenu Površinu"
+    },
+    {
+      "type": "p",
+      "content": "Kompletan spektar keramičarskih radova:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Postavljanje Pločica"
+    },
+    {
+      "type": "p",
+      "content": "Zidne/podne, veliki formati, mozaik. Kupatila, kuhinje, terase, stepeništa."
+    },
+    {
+      "type": "h3",
+      "content": "2. Demontaža i Priprema"
+    },
+    {
+      "type": "p",
+      "content": "Skidanje starih pločica, nivelisanje, odvoz šuta."
+    },
+    {
+      "type": "h3",
+      "content": "3. Hidroizolacija"
+    },
+    {
+      "type": "p",
+      "content": "Premazi protiv vlage – obavezno pre pločica u kupatilu/terasi."
+    },
+    {
+      "type": "h3",
+      "content": "4. Fugovanje i Silikon"
+    },
+    {
+      "type": "p",
+      "content": "Cementne/epoksidne fuge, zamena starih, silikonisanje."
+    },
+    {
+      "type": "h3",
+      "content": "5. Kompletna Adaptacija Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Rušenje, vodoinstalacije, gips, keramika – sa drugim majstorima."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Keramičar AS – Beograd i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Beogradu</strong>, postavlja u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Zemun, Novi Beograd</strong> – kupatila u novogradnji",
+        "<strong>Voždovac, Banjica</strong> – terase i lođe",
+        "<strong>Palilula, Karaburma</strong> – adaptacija starih stanova",
+        "<strong>Čukarica, Železnik</strong> – stepeništa i hodnici",
+        "<strong>Vračar, Dedinje</strong> – luksuzni mozaici"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa AS Timom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete posao, šaljete mere/fotke<br><strong>2. Procena</strong> – dolaze, mere, savetuju<br><strong>3. Ponuda</strong> – cena po m², rokovi<br><strong>4. Rad</strong> – priprema, postavljanje, čišćenje<br><strong>5. Predaja</strong> – proveravate, plaćate, uživate"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Keramičar AS – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Preciznost do milimetra – nivo i metar uvek u ruci",
+        "Čisto posle rada – ne ostavljaju šut",
+        "Hidroizolacija u paketu – bez curenja ikad",
+        "Veliki formati i mozaik – bez problema",
+        "Saradnja sa drugim majstorima – kompletna adaptacija",
+        "Po dogovoru – rokovi se poštuju"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>keramičara koji radi kao za sebe</strong> – <strong>Keramičar AS</strong> je pravi izbor. Pozovite Sašu ili Igora: <a href=\"tel:+381601526860\"><strong>+381 60 152 6860</strong></a> ili <a href=\"tel:+381644178230\"><strong>+381 64 417 8230</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Postavljanje Pločica",
+      "description": "Zidne/podne, veliki formati, mozaik. Kupatila, kuhinje, terase."
+    },
+    {
+      "title": "Demontaža i Priprema",
+      "description": "Skidanje starih pločica, nivelisanje, odvoz šuta."
+    },
+    {
+      "title": "Hidroizolacija",
+      "description": "Premazi protiv vlage – obavezno u kupatilu/terasi."
+    },
+    {
+      "title": "Fugovanje i Silikon",
+      "description": "Cementne/epoksidne fuge, zamena, silikonisanje."
+    },
+    {
+      "title": "Kompletna Adaptacija Kupatila",
+      "description": "Rušenje, instalacije, gips, keramika – sa timom."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta postavljanje pločica?",
+      "answer": "Zavisi od formata i podloge – pozovite za tačnu cenu po m²."
+    },
+    {
+      "question": "Radite li hidroizolaciju?",
+      "answer": "Da, obavezno pre pločica u mokrim prostorijama."
+    },
+    {
+      "question": "Koliko traje adaptacija kupatila?",
+      "answer": "5-10 dana za standardno kupatilo – po dogovoru."
+    },
+    {
+      "question": "Radite li van Beograda?",
+      "answer": "Po dogovoru – Zemun, Surčin, Mladenovac i šire."
+    },
+    {
+      "question": "Da li odvozite šut?",
+      "answer": "Da, po dogovoru – čisto posle rada."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Saša: +381 60 152 6860 | Igor: +381 64 417 8230 | keramicaras@gmail.com"
+    }
+  ]
+},
+
+  {
+  "ime": "Zidar d.o.o. – Izgradnja i Projektovanje Stambeno-Poslovnih Objekata Ključ u Ruke",
+  "tip": "firma",
+  "kategorija": ["Izgradnja Objekata", "Projektovanje", "Rekonstrukcija", "Adaptacija"],
+  "opis_kratak": "Zidar – generalni izvođač sa tradicijom. Izgradnja, rekonstrukcija, adaptacija i projektovanje stambeno-poslovnih objekata ključ u ruke. Sedište u Negotinu, predstavništvo u Beogradu.",
+  "mesto": ["Negotin", "Beograd", "Bor", "Zaječar", "Majdanpek", "Kladovo", "Donji Milanovac", "Požarevac", "Smederevo", "Velika Plana"],
+  "address": "Radujevački put bb, 19300 Negotin | Južni bulevar 1A, 11000 Beograd",
+  "telefon": "+38119544090",
+  "email": "office@zidar.co.rs",
+  "website": "https://zidar.co.rs/",
+  "slug": "zidar-izgradnja-projektovanje-negotin-beograd",
+
+  "thumbnail": "images/zidar-izgradnja-projektovanje-negotin-beograd.webp",
+  "hero_image": "images/zidar-izgradnja-projektovanje-negotin-beograd.webp",
+
+  "discover_title": "Zidar d.o.o. – Izgradnja i Projektovanje Stambeno-Poslovnih Objekata Ključ u Ruke",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-31",
+  "last_modified": "2025-10-31",
+
+  "tips_title": "Kako da Vaš Objekat Bude Bezbedan i u Budžetu",
+  "tips": [
+    "Projektovanje pre kopanja – ušteda 20% na greškama",
+    "Rekonstrukcija sa analizom – staro postaje novo bez rušenja",
+    "Ključ u ruke – jedan ugovor, nula briga",
+    "Urbanistički uslovi na startu – bez kasnih kazni",
+    "Timski nadzor – svaka faza pod kontrolom",
+    "Budžet po fazama – plaćate samo ono što vidite"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U srcu istočne Srbije, na <strong>Radujevačkom putu bb u Negotinu</strong>, stoji <strong>Zidar d.o.o.</strong> – firma koja već decenijama podiže <em>stambeno-poslovne objekte od temelja do krova</em>. Sa predstavništvom na <strong>Južnom bulevaru 1A u Beogradu</strong>, oni su most između ruralnih ambicija i urbanih giganta. Njihov moto: <em>„Sigurnost, kvalitet, profesionalnost – bez kompromisa.“</em>"
+    },
+    {
+      "type": "p",
+      "content": "Zidar nije samo izvođač – oni su <strong>generalni partner</strong> koji vodi projekat kroz sve faze: od ideje, preko dozvola, do ključa u ruci."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Zidar – Kompanija sa Tradicijom i Timskim Duhom"
+    },
+    {
+      "type": "p",
+      "content": "Sa <strong>višegodišnjim iskustvom</strong>, Zidar je postao sinonim za <em>poverenje i integritet u građevini</em>. Rade na <strong>velikim poduhvatima u nemogućim rokovima</strong>, uz fokus na bezbednost i inovativnost."
+    },
+    {
+      "type": "p",
+      "content": "<strong>Google ocena:</strong> 3.3/5 (13 recenzija, poslednja pre 2 godine) – mešovita iskustva. Neki hvale brzinu i cenu, drugi kažu da je komunikacija mogla biti bolja. Lično, ne bih ih birao bez detaljne provere ugovora i referenci, ali vredi istražiti ako tražite ključ u ruke u istočnoj Srbiji."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Negotin:</strong> <a href=\"tel:+38119544090\">019/544-090</a> | <a href=\"mailto:zidarng@gmail.com\">zidarng@gmail.com</a><br>📞 <strong>Beograd:</strong> <a href=\"tel:+381112440524\">011/244-0524</a>, <a href=\"tel:+381112440528\">244-0528</a> | <a href=\"mailto:office@zidar.co.rs\">office@zidar.co.rs</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://zidar.co.rs/\" target=\"_blank\" rel=\"noopener\">zidar.co.rs</a><br>📍 <strong>Beograd:</strong> <a href=\"https://maps.app.goo.gl/BHqakQ8QgBiaUtddA\" target=\"_blank\" rel=\"noopener\">Južni bulevar 1A</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Zidar – Od Ideje do Ključa u Ruci"
+    },
+    {
+      "type": "p",
+      "content": "Zidar radi <strong>kompletan ciklus</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Izgradnja Stambeno-Poslovnih Objekata"
+    },
+    {
+      "type": "p",
+      "content": "Od plana do završetka. Brzo, efikasno, po urbanističkim standardima."
+    },
+    {
+      "type": "h3",
+      "content": "2. Rekonstrukcija"
+    },
+    {
+      "type": "p",
+      "content": "Analiza starog objekta, unapređenje bezbednosti i funkcionalnosti."
+    },
+    {
+      "type": "h3",
+      "content": "3. Projektovanje"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna dokumentacija, dozvole, nadzor. Od ideje do realizacije."
+    },
+    {
+      "type": "h3",
+      "content": "4. Adaptacija"
+    },
+    {
+      "type": "p",
+      "content": "Idejno rešenje po budžetu. Modernizacija postojećeg prostora."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Zidar – Od Negotina do Beograda"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Negotinu</strong>, aktivan u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Negotin, Bor, Zaječar</strong> – izgradnja porodičnih kuća",
+        "<strong>Majdanpek, Kladovo</strong> – rekonstrukcija starih zgrada",
+        "<strong>Beograd</strong> – poslovni prostori ključ u ruke",
+        "<strong>Požarevac, Smederevo</strong> – adaptacija lokala",
+        "<strong>Donji Milanovac</strong> – projekti uz Dunav"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Zidarom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Konsultacija</strong> – opisujete ideju<br><strong>2. Procena</strong> – analiza terena, budžeta<br><strong>3. Projektovanje</strong> – dozvole, plan<br><strong>4. Izgradnja</strong> – faze, nadzor<br><strong>5. Predaja</strong> – ključ u ruke, garancija"
+    },
+    {
+      "type": "h2",
+      "content": "Ključne Prednosti (i Upozorenja)"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ključ u ruke – sve pod jednim krovom",
+        "Sedište + predstavništvo – pokrivenost istočne i centralne Srbije",
+        "Timski rad – inženjeri, arhitekte, izvođači",
+        "Rekonstrukcija i adaptacija – spašavaju stare objekte",
+        "⚠️ Google 3.3/5 (13 recenzija) – proverite ugovor i reference pre potpisa",
+        "⚠️ Poslednja recenzija pre 2 godine – pitajte za aktuelne projekte"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako tražite <strong>generalnog izvođača sa iskustvom</strong> u istočnoj Srbiji – <strong>Zidar</strong> je opcija. Ali pre potpisa, tražite reference, ugovor sa jasnim rokovima i proverite trenutne projekte. Pozovite za konsultaciju: <a href=\"tel:+38119544090\"><strong>019/544-090 (Negotin)</strong></a> ili <a href=\"tel:+381112440524\"><strong>011/244-0524 (Beograd)</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Izgradnja Stambeno-Poslovnih Objekata",
+      "description": "Od temelja do krova. Kompletan projekat, brzo i efikasno."
+    },
+    {
+      "title": "Rekonstrukcija",
+      "description": "Analiza i unapređenje starih objekata. Bezbedno, moderno."
+    },
+    {
+      "title": "Projektovanje",
+      "description": "Dozvole, dokumentacija, nadzor. Od ideje do realizacije."
+    },
+    {
+      "title": "Adaptacija",
+      "description": "Idejno rešenje po budžetu. Modernizacija postojećeg prostora."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Rade li ključ u ruke?",
+      "answer": "Da, od projektovanja do predaje objekta."
+    },
+    
+    {
+      "question": "Rade li van Negotina?",
+      "answer": "Da, Beograd, Bor, Zaječar, Požarevac i šire."
+    },
+    {
+      "question": "Kako da dobijem ponudu?",
+      "answer": "Pozovite Negotin (019/544-090) ili Beograd (011/244-0524)."
+    },
+    {
+      "question": "Šta kažu recenzije?",
+      "answer": "3.3/5 na Google-u (13 recenzija). Proverite reference lično."
+    }
+  ]
+},
+
+  {
+  "ime": "Bušenje Bunara Duka – Majstor za Bunare do 150m u Srbiji",
+  "tip": "majstor",
+  "kategorija": ["Bušenje Bunara"],
+  "opis_kratak": "Duka – majstor za bušenje bunara do 150m dubine i ugradnju plastične cevi. Govori srpski i mađarski. Brzo, pouzdano, širom Srbije.",
+  "mesto": ["Backo Petrovo Selo", "Novi Sad", "Subotica", "Beograd", "Vrbas", "Bačka Palanka", "Bečej", "Žabalj", "Srbobran", "Temerin"],
+  "address": "Backo Petrovo Selo (teren po dogovoru)",
+  "telefon": "062237726",
+  "email": "",
+  "website": "https://www.facebook.com/oredudicduka",
+  "slug": "busenje-bunara-duka-backo-petrovo-selo",
+
+  "thumbnail": "images/busenje-bunara-duka-backo-petrovo-selo.webp",
+  "hero_image": "images/busenje-bunara-duka-backo-petrovo-selo.webp",
+
+  "discover_title": "Bušenje Bunara Duka – Majstor za Bunare do 150m u Srbiji",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-10-29",
+  "last_modified": "2025-10-29",
+
+  "tips_title": "Kako da Vaš Bunar Bude Dubok, Čist i Trajan",
+  "tips": [
+    "Dubina 50-100m – idealno za Vojvodinu, bez suše",
+    "Plastična cev 125mm – otporna na koroziju, traje 50 godina",
+    "Filter na bunaru – čista voda bez peska",
+    "Testiranje vode pre upotrebe – bez hemikalija",
+    "Održavanje godišnje – pumpa traje duže",
+    "Bušite zimi – zemlja je suva, brže i jeftinije"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Pre nekoliko meseci, moj prijatelj iz Rumenke je odlučio da buši bunar – stara studena voda bila je kalna, a bušotine u okolini su bile duboke 80m. Čuo je za <strong>Duku</strong> iz <strong>Backo Petrovo Selo</strong> preko komšija, pa smo otišli zajedno da se dogovorimo. Duka je došao sa mašinom, procenio teren, objasnio na srpskom i mađarskom – dubina 90m, plastična cev 125mm, ceo posao za 3 dana. Voda je čista, protok jak, i sad piju bez brige. To je bio naš prvi susret sa Dukom – brzo, pouzdano, i voda curi kao iz izvora."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Duka – Majstor za Bunare Širom Srbije"
+    },
+    {
+      "type": "p",
+      "content": "Duka je <strong>samostalni majstor</strong> iz <strong>Backog Petrovog Sela</strong>, specijalizovan za <em>bušenje bunara do 150m dubine i ugradnju plastične cevi</em>. Govori <strong>srpski i mađarski</strong>, radi širom Srbije."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+38162237726\">+381 62 237 726</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/oredudicduka\" target=\"_blank\" rel=\"noopener\">facebook.com/oredudicduka</a><br>📍 <strong>Lokacija:</strong> Backo Petrovo Selo (teren po dogovoru)"
+    },
+    {
+      "type": "h2",
+      "content": "Od Bušenja do Čiste Vode"
+    },
+    {
+      "type": "p",
+      "content": "Duka radi <strong>kompletnu uslugu</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Bušenje Bunara"
+    },
+    {
+      "type": "p",
+      "content": "Do 150m dubine. Geološka procena, mašinsko bušenje. Idealno za Vojvodinu."
+    },
+    {
+      "type": "h3",
+      "content": "2. Ugradnja Plastične Cevi"
+    },
+    {
+      "type": "p",
+      "content": "125mm ili po meri. Otporna na koroziju, brza montaža."
+    },
+    {
+      "type": "h3",
+      "content": "3. Testiranje i Filteri"
+    },
+    {
+      "type": "p",
+      "content": "Provera protoka, vode. Filteri za čistoću."
+    },
+    {
+      "type": "h3",
+      "content": "4. Održavanje"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje, popravke. Godišnje servisiranje."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Duka – Backo Petrovo Selo i Širom Srbije"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Backo Petrovo Selo</strong>, buši u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Novi Sad</strong> – bunari za kuće u Rumenki",
+        "<strong>Subotica</strong> – duboki bunari za farmu",
+        "<strong>Beograd</strong> – voda za vikendice",
+        "<strong>Vrbas, Bačka Palanka</strong> – ugradnja cevi",
+        "<strong>Bečej, Žabalj</strong> – testiranje protoka"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Dukom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete lokaciju, dubinu<br><strong>2. Procena</strong> – dolazi, meri, savetuje<br><strong>3. Ponuda</strong> – cena po metru, rok<br><strong>4. Bušenje</strong> – mašinom, 1-3 dana<br><strong>5. Ugradnja</strong> – cev, testiranje, voda teče"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Duka – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bušenje do 150m – duboko i sigurno",
+        "Plastična cev – otporna, bez korozije",
+        "Govori srpski i mađarski – bez barijera",
+        "Brzo – od dogovora do vode 3 dana",
+        "Povoljno – po metru, bez skrivenih troškova",
+        "Širom Srbije – Backo Petrovo Selo i dalje"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam <strong>fali voda i želite čist izvor</strong> – <strong>Duka</strong> je pravi majstor. Pozovite za procenu: <a href=\"tel:+38162237726\"><strong>+381 62 237 726</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Bušenje Bunara",
+      "description": "Do 150m dubine. Geološka procena, mašinsko bušenje za Vojvodinu."
+    },
+    {
+      "title": "Ugradnja Plastične Cevi",
+      "description": "125mm ili po meri. Otporna na koroziju, brza montaža."
+    },
+    {
+      "title": "Testiranje i Filteri",
+      "description": "Provera protoka, vode. Filteri za čistoću i dug vek."
+    },
+    {
+      "title": "Održavanje Bunara",
+      "description": "Čišćenje, popravke. Godišnje servisiranje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko duboko bušite?",
+      "answer": "Do 150m – idealno za Srbiju, procena na terenu."
+    },
+    {
+      "question": "Koliko košta po metru?",
+      "answer": "Zavisi od lokacije – pozovite za tačnu ponudu."
+    },
+    {
+      "question": "Govorite li mađarski?",
+      "answer": "Da, srpski i mađarski – bez problema."
+    },
+    {
+      "question": "Da li radite van Vojvodine?",
+      "answer": "Da, širom Srbije – Beograd, Niš i dalje."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 062 237 726"
+    }
+  ]
+},
+
+  {
   "ime": "Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+ Godina Iskustva",
   "tip": "firma",
   "kategorija": ["Bravarija", "Sigurnosna Vrata", "Ograde od Inoxa", "Kapije", "Nastrešnice", "Zaštitne Rešetke", "Nameštaj", "Terasne Ograde", "Stepeništa", "Stepenišne Ograde"],
