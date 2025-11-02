@@ -7,6 +7,7 @@ description: Antić – porodična firma od 1982. Ugradnja i servis etažnog gre
   Beograd.
 ime: Grejanje Ugradnja Antić – Centralno Grejanje i Toplotne Pumpe Pirot
 kategorija:
+- Grejanje
 - Centralno Grejanje
 - Etažno Grejanje
 - Toplotne Pumpe

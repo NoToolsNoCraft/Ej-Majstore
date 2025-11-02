@@ -8,8 +8,8 @@ ime: Hausmajstor Majstor U Kući Niš – Vaš Vikend Majstor za Sve Sitnice
 kategorija:
 - Hausmajstor
 - Popravke U Kući
-- Elektro
-- Vodoinstalacije
+- Električar
+- Vodoinstalater
 - Nameštaj
 mesto: Niš, Medijana, Pantelej, Crveni Krst, Palilula, Niška Banja, Gadžin Han, Svrljig,
   Aleksinac, Doljevac
