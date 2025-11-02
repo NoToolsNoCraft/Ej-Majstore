@@ -1,6 +1,613 @@
 [
 
   {
+  "ime": "Hausmajstor Majstor U Kući Niš – Vaš Vikend Majstor za Sve Sitnice",
+  "tip": "majstor",
+  "kategorija": ["Hausmajstor", "Popravke U Kući", "Električar", "Vodoinstalater", "Nameštaj"],
+  "opis_kratak": "Majstor U Kući – popravke aparata, instalacija, nameštaja, brava. Dostupan popodne i vikendom. Niš i okolina. Bez delova, samo rad.",
+  "mesto": ["Niš", "Medijana", "Pantelej", "Crveni Krst", "Palilula", "Niška Banja", "Gadžin Han", "Svrljig", "Aleksinac", "Doljevac"],
+  "address": "Niš (teren po dogovoru)",
+  "telefon": "+381649608145",
+  "email": "",
+  "website": "https://www.facebook.com/hausmajstor.majstor.u.kuci.2025",
+  "slug": "hausmajstor-majstor-u-kuci-nis-popravke",
+
+  "thumbnail": "images/hausmajstor-majstor-u-kuci-nis-popravke.webp",
+  "hero_image": "images/hausmajstor-majstor-u-kuci-nis-popravke.webp",
+
+  "discover_title": "Hausmajstor Majstor U Kući Niš – Vaš Vikend Majstor za Sve Sitnice",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-02",
+  "last_modified": "2025-11-02",
+
+  "tips_title": "6 Vikend Saveta: Kako da Vaš Dom Preživi Bez Kvara",
+  "tips": [
+    "Čistite bojler svake 2 godine – grejač traje duplo duže",
+    "LED sijalice u luster – štedite 90% struje",
+    "Štelujte vratanca na vreme – sprečite lom ručica",
+    "Redovno proveravajte FID sklopku – bezbednost na prvom mestu",
+    "Kačite police na zidne tiplove – ne na gips",
+    "Trimerom kosite uveče – manje prašine, bolji rezultat"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Kada u subotu ujutru <em>bojler prestane da greje, luster treperi, a vrata od plakara vise na jednu šarku</em> – u Nišu postoji jedan broj koji rešava sve: <strong>Majstor U Kući</strong>. Dostupan popodne i vikendom, on je <em>spasilac sitnih kvarova</em> koji pretvaraju haos u red za sat-dva."
+    },
+    {
+      "type": "p",
+      "content": "Ne nosi delove, ali nosi alat, znanje i volju. Od pregorelog grejača do labave police – sve je rešivo, samo pozovite."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Majstor U Kući – Vikend Heroj Niša"
+    },
+    {
+      "type": "p",
+      "content": "Samostalni majstor sa <strong>višegodišnjim iskustvom</strong> u popravkama svega što se kvari u kući. Specijalista za <em>sitne, ali dosadne kvarove</em> koje niko neće da radi."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381649608145\">+381 64 960 8145</a><br>📍 <strong>Lokacija:</strong> Niš (popodne i vikend, teren po dogovoru)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Popravlja Majstor U Kući – Od A do Š"
+    },
+    {
+      "type": "p",
+      "content": "Sve što se kvari, a nije auto ili frižider:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Elektro Aparati"
+    },
+    {
+      "type": "p",
+      "content": "TA peć, šporet, bojler, lusteri, utičnice, FID sklopke, zvona."
+    },
+    {
+      "type": "h3",
+      "content": "2. Vodoinstalacije"
+    },
+    {
+      "type": "p",
+      "content": "Baterije, slavine, ventili, vodokotlići, čišćenje kamenca."
+    },
+    {
+      "type": "h3",
+      "content": "3. Nameštaj i Montaža"
+    },
+    {
+      "type": "p",
+      "content": "Sklapanje, kačenje polica, štelovanje vratanca, ručice."
+    },
+    {
+      "type": "h3",
+      "content": "4. Sitni Bravarski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Zamena brava, varenje, sečenje, ušrafljivanje."
+    },
+    {
+      "type": "h3",
+      "content": "5. Dvorište i Bicikli"
+    },
+    {
+      "type": "p",
+      "content": "Trimer, kosačica, popravka bicikla (gume, kočnice)."
+    },
+    {
+      "type": "h3",
+      "content": "6. I Još Mnogo Toga"
+    },
+    {
+      "type": "p",
+      "content": "Kačenje slika, TV nosača, garnišni, ograničene popravke malih aparata."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Dolazi Majstor U Kući – Niš i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Nišu</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Medijana, Centar</strong> – popravke u stanovima",
+        "<strong>Pantelej, Durlan</strong> – montaža nameštaja",
+        "<strong>Crveni Krst, Bubanj</strong> – elektro kvarovi",
+        "<strong>Niška Banja</strong> – dvorišni radovi",
+        "<strong>Gadžin Han, Svrljig</strong> – vikend intervencije"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Majstorom U Kući"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete kvar<br><strong>2. Dolazak</strong> – popodne ili vikend<br><strong>3. Dijagnostika</strong> – 1000–3000 din (ako ne popravljate)<br><strong>4. Popravka</strong> – samo rad, delovi vaši<br><strong>5. Gotovo</strong> – sve radi, vi uživate"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Majstor U Kući – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Vikend i popodne – kad svi drugi ne rade",
+        "Samo rad – bez marže na delove",
+        "Brzo i precizno – sitni kvarovi za sat",
+        "Niš i okolina – dolazak isti dan",
+        "Fleksibilan – od bojlera do bicikla",
+        "Pošteno – cena unapred, bez iznenađenja"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Kada vam <strong>vikend visi na bojleru ili polici</strong> – <strong>Majstor U Kući</strong> je tu. Pozovite popodne ili vikendom: <a href=\"tel:+381649608145\"><strong>+381 64 960 8145</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Popravka Kućnih Aparata",
+      "description": "TA peć, šporet, bojler, lusteri, utičnice."
+    },
+    {
+      "title": "Vodoinstalacije",
+      "description": "Baterije, slavine, ventili, vodokotlići."
+    },
+    {
+      "title": "Montaža i Nameštaj",
+      "description": "Sklapanje, kačenje polica, štelovanje vratanca."
+    },
+    {
+      "title": "Sitni Bravarski Radovi",
+      "description": "Zamena brava, varenje, sečenje."
+    },
+    {
+      "title": "Dvorište i Bicikli",
+      "description": "Trimer, kosačica, popravka bicikla."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Radite li vikendom?",
+      "answer": "Da, subota i nedelja – popodne i ceo dan."
+    },
+    {
+      "question": "Imate li delove?",
+      "answer": "Ne, samo rad. Delove kupujete sami."
+    },
+    {
+      "question": "Koliko košta dolazak?",
+      "answer": "1000–3000 din za dijagnostiku, ako ne popravljate."
+    },
+    {
+      "question": "Koliko traje popravka?",
+      "answer": "Većina kvarova 30–90 minuta."
+    },
+    {
+      "question": "Dolazite li van Niša?",
+      "answer": "Da, Niška Banja, Gadžin Han, Svrljig – po dogovoru."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 64 960 8145 – popodne ili vikend."
+    }
+  ]
+},
+
+  {
+  "ime": "Grejanje Ugradnja Antić – Centralno Grejanje i Toplotne Pumpe Pirot",
+  "tip": "firma",
+  "kategorija": ["Grejanje", "Centralno Grejanje", "Etažno Grejanje", "Toplotne Pumpe", "Solarni Sistemi", "Gasni Kotlovi", "Vodovod"],
+  "opis_kratak": "Antić – porodična firma od 1982. Ugradnja i servis etažnog grejanja, toplotnih pumpi, solarnih sistema, gasnih kotlova. Pirot i cela Srbija.",
+  "mesto": ["Pirot", "Dimitrovgrad", "Babušnica", "Bela Palanka", "Niš", "Leskovac", "Vlasotince", "Knjaževac", "Zaječar", "Beograd"],
+  "address": "Pirot",
+  "telefon": "+381621742672",
+  "email": "",
+  "website": "https://www.facebook.com/Grejanje0611505720Ugradnja",
+  "slug": "grejanje-ugradnja-antic-pirot-centralno-grejanje",
+
+  "thumbnail": "images/grejanje-ugradnja-antic-pirot-centralno-grejanje.webp",
+  "hero_image": "images/grejanje-ugradnja-antic-pirot-centralno-grejanje.webp",
+
+  "discover_title": "Grejanje Ugradnja Antić – Centralno Grejanje i Toplotne Pumpe Pirot",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-02",
+  "last_modified": "2025-11-02",
+
+  "tips_title": "Kako da Vaše Grejanje Bude Efikasno i Jeftino",
+  "tips": [
+    "Toplotna pumpa + solar – računi manji za 70%",
+    "Etažno grejanje – svaka soba po želji",
+    "Godišnji servis kotla – ušteda 15% goriva",
+    "Izolacija cevi – nema gubitaka toplote",
+    "Wi-Fi termostat – grejete samo kad ste kući",
+    "Voda iz bunara za pumpe – besplatna energija"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Još od <strong>1982. godine</strong>, kada su prve cevi za centralno grejanje u Pirotu postavljene rukama <strong>Miloša Antića</strong>, ova porodična firma greje domove širom Srbije. Danas, sa <strong>etažnim grejanjem, toplotnim pumpama i solarnim sistemima</strong>, Antić nije samo izvođač – oni su <em>partner za toplinu</em>."
+    },
+    {
+      "type": "p",
+      "content": "Bazirani u <strong>Pirotu</strong>, rade <strong>u celoj Srbiji</strong>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Grejanje Ugradnja Antić – Tradicija od 1982."
+    },
+    {
+      "type": "p",
+      "content": "Porodična firma sa <strong>preko 40 godina iskustva</strong>. Specijalizovani za <em>kompletne sisteme grejanja i vodovoda</em>. Rade sa najmodernijim tehnologijama – od klasičnih kotlova do pametnih pumpi."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Miloš Antić:</strong> <a href=\"tel:+381621742672\">+381 62 174 2672</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/Grejanje0611505720Ugradnja\" target=\"_blank\" rel=\"noopener\">facebook.com/Grejanje0611505720Ugradnja</a><br>📍 <strong>Lokacija:</strong> Pirot (teren po dogovoru – cela Srbija)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Antić – Kompletna Rešenja za Toplinu"
+    },
+    {
+      "type": "p",
+      "content": "Sve vrste grejanja i vodovoda:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Etažno Grejanje"
+    },
+    {
+      "type": "p",
+      "content": "Po sobama, sa termostatima. Ugradnja u novogradnji i adaptaciji."
+    },
+    {
+      "type": "h3",
+      "content": "2. Toplotne Pumpe"
+    },
+    {
+      "type": "p",
+      "content": "Vazduh-voda, zemlja-voda. Efikasno, ekološki, niski računi."
+    },
+    {
+      "type": "h3",
+      "content": "3. Solarni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Kolektori za toplu vodu i grejanje. Besplatna energija sunca."
+    },
+    {
+      "type": "h3",
+      "content": "4. Gasni Kotlovi"
+    },
+    {
+      "type": "p",
+      "content": "Kondenzacioni, klasični. Ugradnja, servis, zamena."
+    },
+    {
+      "type": "h3",
+      "content": "5. Vodovodne Instalacije"
+    },
+    {
+      "type": "p",
+      "content": "Cevi, bojleri, pumpe. Od temelja do slavine."
+    },
+    {
+      "type": "h3",
+      "content": "6. Servis i Intervencije"
+    },
+    {
+      "type": "p",
+      "content": "Hitni popravci, godišnji pregledi, konsultacije."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Antić – Pirot i Cela Srbija"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Pirotu</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Pirot, Dimitrovgrad</strong> – etažno grejanje u kućama",
+        "<strong>Babušnica, Bela Palanka</strong> – toplotne pumpe",
+        "<strong>Niš, Leskovac</strong> – solarni sistemi",
+        "<strong>Knjaževac, Zaječar</strong> – gasni kotlovi",
+        "<strong>Beograd</strong> – kompletne instalacije"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Antićem"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opisujete objekat<br><strong>2. Konsultacija</strong> – dolaze, mere, savetuju<br><strong>3. Ponuda</strong> – detaljna, sa rokom<br><strong>4. Ugradnja</strong> – faze, provera<br><strong>5. Servis</strong> – godišnji, garancija"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Grejanje Ugradnja Antić – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Od 1982. – tradicija i poverenje",
+        "Cela Srbija – nema daljine",
+        "Sve na jednom mestu – grejanje + vodovod",
+        "Energetska efikasnost – niži računi",
+        "Stručni tim – sertifikovani majstori",
+        "Hitne intervencije – 24h poziv"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako želite <strong>topao dom bez brige</strong> – <strong>Grejanje Ugradnja Antić</strong> je pravi izbor. Pozovite Miloša: <a href=\"tel:+381621742672\"><strong>+381 62 174 2672</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Etažno Grejanje",
+      "description": "Po sobama, termostati, ugradnja u novom ili starom objektu."
+    },
+    {
+      "title": "Toplotne Pumpe",
+      "description": "Vazduh-voda, zemlja-voda. Efikasno grejanje i hlađenje."
+    },
+    {
+      "title": "Solarni Sistemi",
+      "description": "Kolektori za toplu vodu i podršku grejanju."
+    },
+    {
+      "title": "Gasni Kotlovi",
+      "description": "Kondenzacioni, servis, zamena starih."
+    },
+    {
+      "title": "Vodovodne Instalacije",
+      "description": "Cevi, bojleri, pumpe – kompletno."
+    },
+    {
+      "title": "Servis i Intervencije",
+      "description": "Hitni popravci, godišnji pregledi."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Radite li van Pirota?",
+      "answer": "Da, cela Srbija – Beograd, Niš, Novi Sad i dalje."
+    },
+    {
+      "question": "Koliko traje ugradnja etažnog grejanja?",
+      "answer": "3-7 dana za standardnu kuću – po dogovoru."
+    },
+    {
+      "question": "Da li radite toplotne pumpe?",
+      "answer": "Da, sve vrste – vazduh-voda, zemlja-voda."
+    },
+    
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 62 174 2672 ili Facebook poruka."
+    }
+  ]
+},
+
+  {
+  "ime": "Keramičar Miloš Antić Niš – Majstor za Pločice i Metalne Konstrukcije",
+  "tip": "majstor",
+  "kategorija": ["Keramičar", "Postavljanje Keramike", "Metalne Konstrukcije", "Ograde od Metala"],
+  "opis_kratak": "Miloš Antić – iskusni keramičar iz Popovca kod Niša. Postavljanje keramike i izrada metalnih konstrukcija/ograda. Precizno, pouzdano, po dogovoru.",
+  "mesto": ["Niš", "Popovac", "Medijana", "Pantelej", "Crveni Krst", "Niška Banja", "Merdare", "Gadžin Han", "Leskovac", "Vlasotince"],
+  "address": "Popovac, Niš",
+  "telefon": "+381645660536",
+  "email": "antae42@hotmail.com",
+  "website": "https://www.facebook.com/p/Keramicar-Nis-Milos-Antic-100057453039103/",
+  "slug": "keramicar-milos-antic-nis-popovac",
+
+  "thumbnail": "images/keramicar-milos-antic-nis-popovac.webp",
+  "hero_image": "images/keramicar-milos-antic-nis-popovac.webp",
+
+  "discover_title": "Keramičar Miloš Antić Niš – Majstor za Pločice i Metalne Konstrukcije",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbić",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-02",
+  "last_modified": "2025-11-02",
+
+  "tips_title": "Produžite životni vek pločica uz nekoliko saveta",
+  "tips": [
+    "Hidroizolacija pre keramike – nema curenja u kupatilu",
+    "Metalna konstrukcija sa zrnatom obradom – otporna na rđu",
+    "Velike pločice na podu – manje fuga, lakše čišćenje",
+    "Ograde sa zavarivanjem – čvrste za decenije",
+    "Nivelacija lasera – ravna površina bez grešaka",
+    "Ekspertni savet pre kupovine – štedi novac i vreme"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U Nišu, gde se renovira više nego što se kuva rakija, <strong>Miloš Antić</strong> iz <strong>Popovca</strong> je majstor koji ne ostavlja trag – osim savršeno postavljenih pločica i čvrstih metalnih konstrukcija. Keramičar po srcu, bravar po rukama – radi kao da svaki posao je za sopstvenu kuću: od kupatila u starogradnji do ograde za terasu. Njegov moto: <em>„Pločica mora biti ravna, metal čvrst – i sve traje.“</em>"
+    },
+    {
+      "type": "p",
+      "content": "Miloš je <strong>iskusan majstor</strong> koji spaja dve struke: postavljanje keramike i izradu metalnih konstrukcija/ograda. Rade u <strong>Nišu i okolini</strong>, sa fokusom na kvalitet i dogovor."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Miloš Antić – Majstor iz Popovca"
+    },
+    {
+      "type": "p",
+      "content": "Miloš je <strong>samostalni keramičar i bravar</strong> sa dugogodišnjim stažem. Specijalizovan za <em>postavljanje keramike (pločice, mozaik) i metalne konstrukcije (ograde, stepenice)</em>. Koristi <strong>proverene materijale</strong> i alate."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381645660536\">+381 64 566 0536</a><br>📧 <strong>Email:</strong> <a href=\"mailto:antae42@hotmail.com\">antae42@hotmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/p/Keramicar-Nis-Milos-Antic-100057453039103/\" target=\"_blank\" rel=\"noopener\">facebook.com/Keramicar-Nis-Milos-Antic</a><br>📍 <strong>Lokacija:</strong> Popovac, Niš (teren po dogovoru)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Miloš – Od Keramike do Metala"
+    },
+    {
+      "type": "p",
+      "content": "Miloš radi <strong>dvostruku specijalnost</strong>:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Postavljanje Keramike"
+    },
+    {
+      "type": "p",
+      "content": "Pločice, mozaik, granit. Kupatila, kuhinje, terase, stepenice."
+    },
+    {
+      "type": "h3",
+      "content": "2. Izrada Metalnih Konstrukcija i Ograda"
+    },
+    {
+      "type": "p",
+      "content": "Ograde, stepenice, rukohvati. Čvrste, estetske, po meri."
+    },
+    {
+      "type": "h3",
+      "content": "3. Kompletna Priprema"
+    },
+    {
+      "type": "p",
+      "content": "Nivelisanje podloge, hidroizolacija, fugovanje."
+    },
+    {
+      "type": "h3",
+      "content": "4. Renoviranje"
+    },
+    {
+      "type": "p",
+      "content": "Demontaža starih pločica, odvoz šuta, nova ugradnja."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Miloš – Niš i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Popovcu kod Niša</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Niš (Medijana, Pantelej)</strong> – kupatila i kuhinje",
+        "<strong>Niška Banja</strong> – terase i stepenice",
+        "<strong>Merdare, Gadžin Han</strong> – ograde i keramika",
+        "<strong>Leskovac, Vlasotince</strong> – renoviranja",
+        "<strong>Nišavsko</strong> – metalne konstrukcije"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Milošem"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opisujete posao<br><strong>2. Dolazak</strong> – merenje, savet<br><strong>3. Ponuda</strong> – cena po m², rok<br><strong>4. Rad</strong> – priprema, postavljanje, čišćenje<br><strong>5. Predaja</strong> – garancija, saveti"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Miloš Antić – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dve specijalnosti – keramika + metal, sve na jednom mestu",
+        "Preciznost – ravna površina, čvrste konstrukcije",
+        "Brzo – dolazak isti dan, dogovor poštovan",
+        "Pouzdano – koristi top materijale",
+        "Po meri – prilagođava se svakom prostoru",
+        "Niš i okolina – lokalni, ali profesionalni"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam treba <strong>keramičar koji kuje i lepi</strong> – <strong>Miloš Antić</strong> je pravi majstor. Pozovite za procenu: <a href=\"tel:+381645660536\"><strong>+381 64 566 0536</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Postavljanje Keramike",
+      "description": "Pločice, mozaik, granit. Kupatila, kuhinje, terase, stepenice."
+    },
+    {
+      "title": "Izrada Metalnih Konstrukcija",
+      "description": "Ograde, stepenice, rukohvati. Čvrste, po meri."
+    },
+    {
+      "title": "Priprema Podloge",
+      "description": "Nivelisanje, hidroizolacija, demontaža."
+    },
+    {
+      "title": "Fugovanje i Silikon",
+      "description": "Cementne/epoksidne fuge, završna obrada."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta postavljanje pločica?",
+      "answer": "Zavisi od kvadrature i tipa – pozovite za procenu."
+    },
+    {
+      "question": "Radite li metalne ograde?",
+      "answer": "Da, konstrukcije i ograde po meri, čvrste i lepe."
+    },
+    {
+      "question": "Koliko traje posao?",
+      "answer": "Od 1-2 dana za kupatilo, do nedelje za terasu."
+    },
+    {
+      "question": "Da li dolazite u Nišavsko?",
+      "answer": "Da, Niš, Popovac, Merdare, Gadžin Han i šire."
+    },
+    {
+      "question": "Da li dajete garanciju?",
+      "answer": "Da, pisana garancija na rad i materijale."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite sledeći broj +381 64 566 0536"
+    }
+  ]
+},
+
+  {
   "ime": "Top Keramičar Beograd – Profesionalni Tim za Ugradnju Pločica i Adaptaciju",
   "tip": "firma",
   "kategorija": ["Keramičarski Radovi", "Postavljanje Pločica", "Hidroizolacija", "Fugovanje", "Renoviranje Kupatila"],
