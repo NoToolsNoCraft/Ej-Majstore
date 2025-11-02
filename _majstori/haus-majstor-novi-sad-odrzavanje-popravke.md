@@ -88,10 +88,6 @@ sections:
   content: 7. Farbanje
 - type: p
   content: Unutrašnje, drvenarija, tapete.
-- type: image
-  src: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/haus-majstor-moleraj.webp
-  alt: Haus Majstor – molerski radovi u Novom Sadu
-  caption: Zidovi savršeno beli – bez tragova, za jedan dan
 - type: h2
   content: Gde Radi Haus Majstor – Novi Sad i Okolina
 - type: p
