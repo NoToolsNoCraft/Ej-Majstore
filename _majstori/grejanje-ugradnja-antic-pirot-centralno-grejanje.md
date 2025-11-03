@@ -52,8 +52,8 @@ sections:
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Miloš Antić:</strong> <a href=\"tel:+381621742672\">+381
     62 174 2672</a><br>\U0001F310 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/Grejanje0611505720Ugradnja\"
-    target=\"_blank\" rel=\"noopener\">facebook.com/Grejanje0611505720Ugradnja</a><br>\U0001F4CD
-    <strong>Lokacija:</strong> Pirot (teren po dogovoru – cela Srbija)"
+    target=\"_blank\" rel=\"noopener\">facebook.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    Pirot (teren po dogovoru – cela Srbija)"
 - type: h2
   content: Šta Nudi Antić – Kompletna Rešenja za Toplinu
 - type: p

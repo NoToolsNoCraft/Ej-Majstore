@@ -26,7 +26,7 @@ hero_image: images/haus-majstor-023-zrenjanin-popravke-montaza.webp
 discover_title: Haus Majstor 023 Zrenjanin – Sve Popravke, Jedan Broj
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme j Majstore! i stručnjak za proveru kvaliteta
+author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-02'
