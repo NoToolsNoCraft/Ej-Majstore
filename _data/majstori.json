@@ -1,6 +1,624 @@
 [
 
   {
+  "ime": "Parketarske Usluge Ivanić Nova Pazova – 30 Godina Tradicije u Drvetu",
+  "tip": "firma",
+  "kategorija": ["Parketarske Usluge", "Ugradnja Parketa", "Brušenje Parketa", "Lakiranje", "Restauracija"],
+  "opis_kratak": "Ivanić – 30+ godina iskustva u ugradnji, brušenju, lakiranju i restauraciji parketa. Višeslojni hrast, tarket, sipanje lepka. Nova Pazova i okolina.",
+  "mesto": ["Nova Pazova", "Stara Pazova", "Ruma", "Inđija", "Irig", "Novi Sad", "Bečej", "Bačka Palanka", "Vrbas", "Žabalj"],
+  "address": "Nova Pazova (teren po dogovoru)",
+  "telefon": "+381638374810",
+  "email": "parketivanic@gmail.com",
+  "website": "https://www.facebook.com/parketivanic?locale=sr_RS",
+  "slug": "parketar-ivanic-nova-pazova-30-godina-tradicije",
+
+  "thumbnail": "images/parketar-ivanic-nova-pazova-30-godina-tradicije.webp",
+  "hero_image": "images/parketar-ivanic-nova-pazova-30-godina-tradicije.webp",
+
+  "discover_title": "Parketarske Usluge Ivanić Nova Pazova – 30 Godina Tradicije u Drvetu",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-03",
+  "last_modified": "2025-11-03",
+
+  "tips_title": "Aplicirajte parket na najbolji način",
+  "tips": [
+    "Višeslojni hrast – najbolji za podno grejanje",
+    "Sipi lepak pre brušenja – nema šupljina",
+    "Loba 2K mat lak – mat sjaj, otporan na ogrebotine",
+    "Vlažnost košuljice <2% – ključ za dug život",
+    "Poliranje posle lakiranja – sjaj bez prašine",
+    "Lajsna 8cm – elegantan završetak, bez prašine"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U Novoj Pazovi, gde <em>stari hrastovi parketa čekaju na drugi život</em> – <strong>Parketarske Usluge Ivanić</strong> donosi 30+ godina tradicije. Od brušenja do lakiranja – sve <em>precizno, pouzdano, kvalitetno</em>."
+    },
+    {
+      "type": "p",
+      "content": "Bazirani u Novoj Pazovi, pokriva <strong>Srijem i Vojvodinu</strong>. Specijalisti za višeslojni parket, tarket, sipanje lepka."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Parketar Ivanić – Tradicija od 30 Godina"
+    },
+    {
+      "type": "p",
+      "content": "Firma sa <strong>30+ godina iskustva</strong> u parketarskim poslovima. Specijalisti za sve vrste drvenih podova – od ugradnje do restauracije."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381638374810\">+381 63 837 4810</a><br>📧 <strong>Email:</strong> <a href=\"mailto:parketivanic@gmail.com\">parketivanic@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/parketivanic?locale=sr_RS\" target=\"_blank\" rel=\"noopener\">Facebook profil</a><br>📷 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/parketivanic/?hl=en\" target=\"_blank\" rel=\"noopener\">Instagram stranica</a><br>📍 <strong>Lokacija:</strong> Nova Pazova (teren po dogovoru)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudi Ivanić – Sve za Savršene Podove"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna parketarska usluga:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Ugradnja Višeslojnog Parketa Hrast"
+    },
+    {
+      "type": "p",
+      "content": "Po meri, sa beglom lajsnom 8cm. Idealno za podno grejanje."
+    },
+    {
+      "type": "h3",
+      "content": "2. Hoblovanje, Lakiranje i Poliranje"
+    },
+    {
+      "type": "p",
+      "content": "Stari parket renoviran – tri sloja Loba 2K mat lak."
+    },
+    {
+      "type": "h3",
+      "content": "3. Brušenje Troslojnog Poda (Tarket)"
+    },
+    {
+      "type": "p",
+      "content": "Sipi lepak, poliranje – savršen sjaj."
+    },
+    {
+      "type": "h3",
+      "content": "4. Restauracija Starog Hrastovog Parketa"
+    },
+    {
+      "type": "p",
+      "content": "Brušenje, sipanje lepka, lakiranje – kao nov."
+    },
+    {
+      "type": "h3",
+      "content": "5. Postavljanje Brodskog Poda"
+    },
+    {
+      "type": "p",
+      "content": "Brodski parket – otporan, elegantan."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Ivanić – Nova Pazova i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Bazirani u <strong>Nova Pazova</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Stara Pazova, Ruma</strong> – ugradnja parketa",
+        "<strong>Inđija, Irig</strong> – hoblovanje starog",
+        "<strong>Novi Sad</strong> – laminat i sokle",
+        "<strong>Bečej, Bačka Palanka</strong> – restauracija",
+        "<strong>Vrbas, Žabalj</strong> – brodski pod"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Ivanićem"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opišete pod i želje<br><strong>2. Procena</strong> – dolazi, meri, savetuje<br><strong>3. Ponuda</strong> – cena, rok, materijali<br><strong>4. Rad</strong> – ugradnja, brušenje, lakiranje<br><strong>5. Završetak</strong> – poliranje, predaja"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Parketar Ivanić – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "30+ godina tradicije – kvalitet garantovan",
+        "Preciznost i pouzdanost – u roku, bez kašnjenja",
+        "Više od 15 godina iskustva – savetuje i radi",
+        "Kompletna usluga – od merenja do poliranja",
+        "Povoljne cene – specijalne za Vojvodinu",
+        "Zadovoljni klijenti – najbolja reklama"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vaš <strong>parket čeka na drugi život</strong> – <strong>Ivanić</strong> je pravi majstor. Posetite <a href=\"https://www.facebook.com/parketivanic?locale=sr_RS\" target=\"_blank\" rel=\"noopener\"><strong>Facebook</strong></a> ili pozovite: <a href=\"tel:+381638374810\"><strong>+381 63 837 4810</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Ugradnja Višeslojnog Parketa Hrast",
+      "description": "Po meri, sa lajsnom 8cm, idealno za grejanje."
+    },
+    {
+      "title": "Hoblovanje, Lakiranje i Poliranje",
+      "description": "Stari parket renoviran, Loba lak."
+    },
+    {
+      "title": "Brušenje Troslojnog Poda (Tarket)",
+      "description": "Sipi lepak, poliranje, savršen sjaj."
+    },
+    {
+      "title": "Restauracija Starog Hrastovog Parketa",
+      "description": "Brušenje, sipanje lepka, lakiranje."
+    },
+    {
+      "title": "Postavljanje Brodskih Podova",
+      "description": "Otporni, elegantni, po meri."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koji parket za podno grejanje?",
+      "answer": "Višeslojni, vlažnost <2% – savetujemo na licu mesta."
+    },
+    {
+      "question": "Koliko traje hoblovanje?",
+      "answer": "1–2 dana za 60m² – brzo i bez prašine."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da, na rad i materijal – pisano."
+    },
+    {
+      "question": "Radite li laminat?",
+      "answer": "Da, postavljanje laminata sa podlogom."
+    },
+    {
+      "question": "Dolazite li u Novi Sad?",
+      "answer": "Da, Nova Pazova, Ruma, Inđija i šire."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 837 4810 ili email parketivanic@gmail.com"
+    }
+  ]
+},
+
+  {
+  "ime": "Parketar Đukić Novi Sad – Podovi Koji Traju Decenijama",
+  "tip": "firma",
+  "kategorija": ["Postavljanje Parketa", "Hoblovanje Parketa", "Lakiranje", "Laminat", "Brodski Pod"],
+  "opis_kratak": "Parketar Đukić – postavljanje, hoblovanje, lakiranje, laminat, sokle. 15+ godina iskustva, pedantno, u roku. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "address": "Đorđa Rajkovića 10, Novi Sad 21000",
+  "telefon": "+381640567420",
+  "email": "parketardjukic88@gmail.com",
+  "website": "https://www.parketardjukic.rs/",
+  "slug": "parketar-djukic-novi-sad-postavljanje-hoblovanje",
+
+  "thumbnail": "images/parketar-djukic-novi-sad-postavljanje-hoblovanje.webp",
+  "hero_image": "images/parketar-djukic-novi-sad-postavljanje-hoblovanje.webp",
+
+  "discover_title": "Parketar Đukić Novi Sad – Podovi Koji Traju Decenijama",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-03",
+  "last_modified": "2025-11-03",
+
+  "tips_title": "Obezbedite da Vaš Pod Traje Generacijama",
+  "tips": [
+    "Višeslojni parket za podno grejanje – nikad jednoslojni",
+    "Vlažnost košuljice ispod 2% – obavezno pre ugradnje",
+    "Dvokomponentni lepak – jači, dugotrajniji",
+    "Brisanje mlakom vodom – bez hemije na laku",
+    "Provetravanje posle brisanja – sprečava bubrenje",
+    "Hoblovanje starog parketa – bolje od novog"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U Novom Sadu, gde <em>stari parket škripi, a novi čeka na majstora</em> – <strong>Parketar Đukić</strong> donosi 15+ godina iskustva. Od hoblovanja do mozaika – sve <em>pedantno, u roku, po povoljnoj ceni</em>."
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <a href=\"https://maps.app.goo.gl/PAavJ7jDdv4fP5va9\" target=\"_blank\" rel=\"noopener\"><strong>Đorđa Rajkovića 10</strong></a>, pokriva <strong>ceo Novi Sad i okolinu</strong>. Pogledajte radove na <a href=\"https://www.parketardjukic.rs/\" target=\"_blank\" rel=\"noopener\"><strong>parketardjukic.rs</strong></a>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Parketar Đukić – Tradicija u Drvetu"
+    },
+    {
+      "type": "p",
+      "content": "Kao firma funkcioniše od 2015. Specijalisti za tvrde podne obloge – od klasičnog parketa do dekorativnih mozaika. Lično još nisam imao priliku da sarađujem sa ovim izvođačem, ali na osnovu razgovora sa ljudima koji jesu može se zaključiti da je trenutno izvođač #1 što se tiče postavljanja drvenih podova u Novom Sadu."
+    },
+    {
+      "type": "p",
+      "content": "Najpovoljniji način kontakta je na sledeće načine:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381640567420\">+381 64 056 74 20</a><br>📧 <strong>Email:</strong> <a href=\"mailto:parketardjukic88@gmail.com\">parketardjukic88@gmail.com</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.parketardjukic.rs/\" target=\"_blank\" rel=\"noopener\">parketardjukic.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/PAavJ7jDdv4fP5va9\" target=\"_blank\" rel=\"noopener\">Đorđa Rajkovića 10, Novi Sad</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Sve za Savršen Pod"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna usluga za drvene i tvrde podove:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Postavljanje Parketa"
+    },
+    {
+      "type": "p",
+      "content": "Klasični, višeslojni, brodski pod – lepljenje ili na klik."
+    },
+    {
+      "type": "h3",
+      "content": "2. Hoblovanje i Lakiranje"
+    },
+    {
+      "type": "p",
+      "content": "Stari parket kao nov – tri sloja laka, poliranje."
+    },
+    {
+      "type": "h3",
+      "content": "3. Postavljanje Laminata"
+    },
+    {
+      "type": "p",
+      "content": "Brzo, povoljno, sa podlogom i završnim lajsnama."
+    },
+    {
+      "type": "h3",
+      "content": "4. Sokle i Lajsne"
+    },
+    {
+      "type": "p",
+      "content": "PVC, drvene, visoke – savršen završetak."
+    },
+    {
+      "type": "h3",
+      "content": "5. Dekorativni Mozaici"
+    },
+    {
+      "type": "p",
+      "content": "Umetnički podovi – po meri, po želji."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Parketar Đukić – Novi Sad i Vojvodina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novom Sadu</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Veternik, Futog</strong> – hoblovanje starog parketa",
+        "<strong>Petrovaradin, Liman</strong> – postavljanje laminata",
+        "<strong>Sremska Kamenica, Telep</strong> – brodski pod",
+        "<strong>Rumenka, Kać</strong> – sokle i lajsne",
+        "<strong>Beočin, Temerin</strong> – kompletna renovacija"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Parketarom Đukićem"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – dogovor i procena<br><strong>2. Merenje</strong> – besplatno, tačno<br><strong>3. Priprema</strong> – košuljica, vlažnost<br><strong>4. Rad</strong> – postavljanje, hoblovanje, lakiranje<br><strong>5. Završetak</strong> – čišćenje, predaja"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Parketar Đukić – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "15+ godina iskustva – poznavanje svakog detalja",
+        "U roku – nikad kašnjenja",
+        "Povoljne cene – kvalitet bez preplate",
+        "Kompletna usluga – od merenja do čišćenja",
+        "Zadovoljni klijenti – najbolja reklama",
+        "Saveti za održavanje – pod traje duže"
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/9ojzi0VxQY2XSbLku\" target=\"_blank\" rel=\"noopener\">Aleksandar Jovanovic</a>:</strong> Перфектно постављен паркет. Хоблован и лакиран. А у другом делу стана хоблован и лакиран стари паркет. Перфекција. Педантно, брзо, одговорно."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/H9h7wRnya74IiTzc7\" target=\"_blank\" rel=\"noopener\">Predrag Ubovic</a>:</strong> Svaka čast, Hoblovanje parketa su završili veoma brzo. Prelep je sad parket. Preporučujem ih svakom kome trebaju pravi majstori za parket. Uredno sve završeno veliki pozdrav"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/iktXZTVufEFKtXsCX\" target=\"_blank\" rel=\"noopener\">Miroslav Boskovic</a>:</strong> Profesinalno, kvalitetno i pre roka. Sve preporuke i misljenje da je bolje stari parket izoblovati preko Đukića nego postaviti novi. @apartman_innocence"
+    },
+    {
+      "type": "p",
+      "content": "Ako vaš <strong>pod čeka na novi život</strong> – <strong>Parketar Đukić</strong> je pravi izbor. Posetite <a href=\"https://www.parketardjukic.rs/\" target=\"_blank\" rel=\"noopener\"><strong>parketardjukic.rs</strong></a> ili pozovite: <a href=\"tel:+381640567420\"><strong>+381 64 056 74 20</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Postavljanje Parketa",
+      "description": "Klasični, višeslojni, brodski pod."
+    },
+    {
+      "title": "Hoblovanje i Lakiranje",
+      "description": "Stari parket kao nov – tri sloja laka."
+    },
+    {
+      "title": "Postavljanje Laminata",
+      "description": "Brzo, povoljno, sa podlogom."
+    },
+    {
+      "title": "Sokle i Lajsne",
+      "description": "PVC, drvene, visoke."
+    },
+    {
+      "title": "Dekorativni Mozaici",
+      "description": "Umetnički podovi po meri."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Može li parket na podno grejanje?",
+      "answer": "Da – samo višeslojni, vlažnost <2%."
+    },
+    {
+      "question": "Koliko traje hoblovanje?",
+      "answer": "1–2 dana za stan 60m²."
+    },
+    {
+      "question": "Koji lepak koristite?",
+      "answer": "Mapei, Sipol, Loba – dvokomponentni."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na rad i materijal."
+    },
+    {
+      "question": "Radite li vikendom?",
+      "answer": "Da, po dogovoru."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 64 056 74 20 ili email parketardjukic88@gmail.com"
+    }
+  ]
+},
+
+  {
+  "ime": "Haus Majstor Novi Sad – Sitne Popravke Koje Štede Dane",
+  "tip": "majstor",
+  "kategorija": ["Sitne Popravke", "Elektro Instalacije", "Vodoinstalacije", "Montaža Nameštaja", "Bušenje i Kačenje", "Novi Sad"],
+  "opis_kratak": "Haus Majstor – elektrika, vodovod, montaža, bušenje, popravke. 20+ godina iskustva, tačnost, jasan cenovnik. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "address": "Kraljevića Marka 60, Novi Sad 21000",
+  "telefon": "+381612211700",
+  "email": "kontakt@majstor.info",
+  "website": "https://www.sitnepopravke.com/",
+  "slug": "haus-majstor-novi-sad-sitne-popravke",
+
+  "thumbnail": "images/haus-majstor-novi-sad-sitne-popravke.webp",
+  "hero_image": "images/haus-majstor-novi-sad-sitne-popravke.webp",
+
+  "discover_title": "Od Prekidača Koji Ne Radi do Laminata na Podu: Kako Haus Majstor Spasava Novosađane",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-03",
+  "last_modified": "2025-11-03",
+
+  "tips_title": "Spisak stvari koje redovno proveravajte u kući",
+  "tips": [
+    "Redovna provera osigurača – sprečava havarije",
+    "Automatski osigurači – sigurnost za decu i aparate",
+    "Bušenje u pločice – dijamantska kruna, bez pucanja",
+    "Kačenje TV-a – nosivost zida prvo proverite",
+    "Laminat preko starog poda – ušteda na rušenju",
+    "Punjenje grejanja pre zime – bez mehurića i buke"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "U Novom Sadu, gde <em>prekidač ne radi, a police čekaju na zid</em> – <strong>Haus Majstor</strong> dolazi tačno na vreme. 20+ godina iskustva, pun gepek alata i <em>javan cenovnik</em> – sve što vam treba za miran dom."
+    },
+    {
+      "type": "p",
+      "content": "Baziran u Kraljevića Marka 60, pokriva <strong>ceo Novi Sad i okolinu</strong>. Od zamene sijalice do postavljanja laminata – sve brzo, čisto, sa osmehom. Pogledajte cenovnik na <a href=\"https://www.sitnepopravke.com/\" target=\"_blank\" rel=\"noopener\"><strong>sitnepopravke.com</strong></a>."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Ko je Haus Majstor – Tim Koji Voli Svoj Posao"
+    },
+    {
+      "type": "p",
+      "content": "Tim sa <strong>više od dve decenije iskustva</strong>. Imaju sve alate, dolaze tačno, rade čisto – i vole ono što rade."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381612211700\">+381 61 22 11 700</a><br>📧 <strong>Email:</strong> <a href=\"mailto:kontakt@majstor.info\">kontakt@majstor.info</a><br>🌐 <strong>Veb-sajt:</strong> <a href=\"https://www.sitnepopravke.com/\" target=\"_blank\" rel=\"noopener\">sitnepopravke.com</a><br>📍 <strong>Lokacija:</strong> Kraljevića Marka 60, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Radi Haus Majstor – Sve Sitnice Koje Prave Veliku Razliku"
+    },
+    {
+      "type": "p",
+      "content": "Od elektrike do vodovoda:"
+    },
+    {
+      "type": "h3",
+      "content": "1. Elektro Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Zamena osigurača, prekidača, utičnica, lustera, provera instalacija."
+    },
+    {
+      "type": "h3",
+      "content": "2. Vodoinstalaterski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Popravka vodokotlića, zamena sifona, punjenje grejanja."
+    },
+    {
+      "type": "h3",
+      "content": "3. Montaža i Kačenje"
+    },
+    {
+      "type": "p",
+      "content": "TV na zid, police, garnišne, slike, vrata."
+    },
+    {
+      "type": "h3",
+      "content": "4. Nameštaj i Podovi"
+    },
+    {
+      "type": "p",
+      "content": "Sastavljanje, rastavljanje, postavljanje laminata."
+    },
+    {
+      "type": "h3",
+      "content": "5. Sitne Popravke"
+    },
+    {
+      "type": "p",
+      "content": "Šarke, brave, bušenje, popravka aparata."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Haus Majstor – Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novi Sad</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Veternik, Futog</strong> – elektrika i vodovod",
+        "<strong>Petrovaradin, Sremska Kamenica</strong> – montaža nameštaja",
+        "<strong>Rumenka, Kać</strong> – kačenje i bušenje",
+        "<strong>Beočin, Temerin</strong> – laminat i vrata",
+        "<strong>Bački Petrovac</strong> – sitne popravke"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Funkcioniše Saradnja sa Haus Majstorom"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv ili email</strong> – opišete problem<br><strong>2. Dogovor</strong> – tačno vreme, cena sa sajta<br><strong>3. Dolazak</strong> – pun alat, uredno<br><strong>4. Rad</strong> – brzo, čisto, stručno<br><strong>5. Gotovo</strong> – plaćate po cenovniku"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Haus Majstor – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Javan cenovnik – bez iznenađenja",
+        "20+ godina iskustva – znaju šta rade",
+        "Tačnost – dolaze kad kažu",
+        "Sve alate nose – vi ne morate ništa",
+        "Čisto posle rada – nema šuta",
+        "4.6★ na Google – korisnici preporučuju"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam <strong>fali prekidač, curi sifon ili čeka laminat</strong> – <strong>Haus Majstor</strong> je pravi izbor. Posetite <a href=\"https://www.sitnepopravke.com/\" target=\"_blank\" rel=\"noopener\"><strong>sitnepopravke.com</strong></a> ili pozovite: <a href=\"tel:+381612211700\"><strong>+381 61 22 11 700</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Elektro Radovi",
+      "description": "Osigurači, prekidači, utičnice, rasveta, instalacije."
+    },
+    {
+      "title": "Vodoinstalaterski Radovi",
+      "description": "Vodokotlić, sifon, grejanje."
+    },
+    {
+      "title": "Montaža i Kačenje",
+      "description": "TV, police, garnišne, slike, vrata."
+    },
+    {
+      "title": "Nameštaj i Podovi",
+      "description": "Sastavljanje, laminat, šarke."
+    },
+    {
+      "title": "Sitne Popravke",
+      "description": "Bušenje, brave, aparati."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Imate li cenovnik?",
+      "answer": "Da, javan na sajtu sitnepopravke.com"
+    },
+    {
+      "question": "Dolazite li tačno?",
+      "answer": "Da, u dogovoreno vreme – bez čekanja."
+    },
+    {
+      "question": "Imate li alat?",
+      "answer": "Da, sve profesionalno – vi ne morate ništa."
+    },
+    {
+      "question": "Radite li vikendom?",
+      "answer": "Da, po dogovoru – bez doplate."
+    },
+    {
+      "question": "Koliko košta zamena utičnice?",
+      "answer": "Pogledajte cenovnik na sajtu – tačna cena."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Email kontakt@majstor.info ili telefon +381 61 22 11 700"
+    }
+  ]
+},
+
+  {
   "ime": "Provansa Green Centar Dedinje – Vaša Oaza Zelenila i Dekoracije",
   "tip": "firma",
   "kategorija": ["Uređenje Dvorišta", "Projektovanje Vrtova", "Održavanje Zelenila", "Biodekoracija Enterijera", "Uređenje Terasa"],
