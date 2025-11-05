@@ -53,9 +53,9 @@ sections:
     60 152 6860</a><br>\U0001F4DE <strong>Igor:</strong> <a href=\"tel:+381644178230\">+381
     64 417 8230</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:keramicaras@gmail.com\">keramicaras@gmail.com</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://keramicaras.rs/\" target=\"_blank\"
-    rel=\"noopener\">keramicaras.rs</a><br>\U0001F310 <strong>Facebook:</strong> <a
-    href=\"https://www.facebook.com/sasa.aleksic.662078\" target=\"_blank\" rel=\"noopener\">Saša
-    Aleksić</a>"
+    rel=\"noopener nofollow\">keramicaras.rs</a><br>\U0001F310 <strong>Facebook:</strong>
+    <a href=\"https://www.facebook.com/sasa.aleksic.662078\" target=\"_blank\" rel=\"noopener
+    nofollow\">Saša Aleksić</a>"
 - type: h2
   content: Šta Nudi Keramičar AS – Sve za Savršenu Površinu
 - type: p

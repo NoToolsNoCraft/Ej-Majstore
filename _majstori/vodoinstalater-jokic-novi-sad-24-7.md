@@ -47,10 +47,10 @@ sections:
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381614935683\">+381
     61 493 56 83</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://vodoinstalaterjokic.com/\"
-    target=\"_blank\" rel=\"noopener\">vodoinstalaterjokic.com</a><br>\U0001F4CD <strong>Adresa:</strong>
-    Jovana Veselinova 26, Novi Sad<br>\U0001F5FA️ <strong>Google Maps:</strong> <a
-    href=\"https://maps.app.goo.gl/JyEHezZ2U9ceeipaA\" target=\"_blank\" rel=\"noopener\">Pogledaj
-    lokaciju</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">vodoinstalaterjokic.com</a><br>\U0001F4CD
+    <strong>Adresa:</strong> Jovana Veselinova 26, Novi Sad<br>\U0001F5FA️ <strong>Google
+    Maps:</strong> <a href=\"https://maps.app.goo.gl/JyEHezZ2U9ceeipaA\" target=\"_blank\"
+    rel=\"noopener nofollow\">Pogledaj lokaciju</a>"
 - type: h2
   content: Šta Nude Jokići – Od Kapi do Kompletnog Kupatila
 - type: p
@@ -99,14 +99,14 @@ sections:
 - type: blockquote
   content: „Sve pohvale za braću Jokić! Od procurenog bojlera do novog – 2 sata. Brzo,
     precizno, veselo!“ – <a href="https://share.google/DOsGRMHhyLX0pxfHf" target="_blank"
-    rel="noopener"><strong>Nevena Š.</strong></a>
+    rel="noopener nofollow"><strong>Nevena Š.</strong></a>
 - type: blockquote
   content: „Došli istog dana, zamenili monoblok i ventil. Predložili jeftinije rešenje.
     Topla preporuka!“ – <a href="https://share.google/2sRqzeT8RNM2DIhXB" target="_blank"
-    rel="noopener"><strong>Nemanja Peruničić</strong></a>
+    rel="noopener nofollow"><strong>Nemanja Peruničić</strong></a>
 - type: blockquote
   content: „Brza usluga, tačni, stručni. Za svaku preporuku.“ – <a href="https://share.google/TAQtOC1HIMYmwc2sk1"
-    target="_blank" rel="noopener"><strong>Nemanja Milošević</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Nemanja Milošević</strong></a>
 - type: h2
   content: Ključne Prednosti usluge braće Jokić
 - type: ul

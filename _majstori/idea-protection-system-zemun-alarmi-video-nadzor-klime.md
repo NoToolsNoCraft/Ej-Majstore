@@ -52,9 +52,9 @@ sections:
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+381114084318\">+381 11 4084 318</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:info@ideaps.rs\">info@ideaps.rs</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://ideaps.rs/\" target=\"_blank\" rel=\"noopener\">ideaps.rs</a><br>\U0001F4CD
+    <a href=\"https://ideaps.rs/\" target=\"_blank\" rel=\"noopener nofollow\">ideaps.rs</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/LDGJpvs9BAXdy5wL9\"
-    target=\"_blank\" rel=\"noopener\">Karlovačka 28, Zemun</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">Karlovačka 28, Zemun</a>"
 - type: h2
   content: Šta Nudi Idea Protection – Od Alarma do Klime
 - type: p

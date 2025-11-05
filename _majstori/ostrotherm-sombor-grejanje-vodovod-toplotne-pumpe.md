@@ -56,9 +56,10 @@ sections:
 - type: p
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+381611516625\">+381 61 151 66 25</a><br>\U0001F310 <strong>Instagram:</strong>
-    <a href=\"https://www.instagram.com/ostrotherm/\" target=\"_blank\" rel=\"noopener\">instagram.com/ostrotherm</a><br>\U0001F4CD
-    <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6\"
-    target=\"_blank\" rel=\"noopener\">XII Vojvođanske udarne brigade 129, Sombor</a>"
+    <a href=\"https://www.instagram.com/ostrotherm/\" target=\"_blank\" rel=\"noopener
+    nofollow\">instagram.com/ostrotherm</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6\" target=\"_blank\" rel=\"noopener
+    nofollow\">XII Vojvođanske udarne brigade 129, Sombor</a>"
 - type: h2
   content: Šta Nudi OSTROTHERM – Sve na Jednom Mestu
 - type: p

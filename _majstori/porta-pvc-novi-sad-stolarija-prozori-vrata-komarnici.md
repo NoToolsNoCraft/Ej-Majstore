@@ -4,7 +4,7 @@ title: Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima
 description: Porta PVC – specijalizovani za sertifikovanu PVC stolariju Trocal profila.
   Prozori, vrata, rolo komarnici, roletne, sigurnosna vrata. Energetska efikasnost,
   subvencionisana zamena, 2500+ zadovoljnih korisnika. u Novi Sad, Petrovaradin, Veternik,
-  Futog, Beočin, Sremski Karlovci, Rumenka, Kać, Temeri, Bačka Palanka.
+  Futog, Beočin, Sremski Karlovci, Rumenka, Kać, Temerin, Bačka Palanka.
 ime: Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima
 kategorija:
 - Stolarija
@@ -15,7 +15,7 @@ kategorija:
 - Roletne
 - Sigurnosna Vrata
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Beočin, Sremski Karlovci, Rumenka,
-  Kać, Temeri, Bačka Palanka
+  Kać, Temerin, Bačka Palanka
 address: Futoški put 5, 21000 Novi Sad
 kontakt_telefon: "+38169774754"
 email: portanspvc@gmail.com
@@ -60,9 +60,9 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38169774754\">+381
     69 774 754</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:portanspvc@gmail.com\">portanspvc@gmail.com</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://www.porta-pvc.com/\" target=\"_blank\"
-    rel=\"noopener\">porta-pvc.com</a><br>\U0001F4CD <strong>Lokacija:</strong> <a
-    href=\"https://maps.app.goo.gl/icbJUJneYnemvEzr6\" target=\"_blank\" rel=\"noopener\">Futoški
-    put 5, Novi Sad</a>"
+    rel=\"noopener nofollow\">porta-pvc.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/icbJUJneYnemvEzr6\" target=\"_blank\" rel=\"noopener
+    nofollow\">Futoški put 5, Novi Sad</a>"
 - type: h2
   content: Šta Nudi Porta PVC – Sve za Savršen Prozor
 - type: p

@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Haus Majstor Novi Sad – Kompletan Tim za Održavanje i Popravke
 description: Haus Majstor – profesionalni tim za sve popravke, montažu i održavanje.
   Vodovod, elektro, keramika, moleraj. Novi Sad. Pon–Pet 8–16h. u Novi Sad, Petrovaradin,
-  Veternik, Futog, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
+  Veternik, Futog, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac.
 ime: Haus Majstor Novi Sad – Kompletan Tim za Održavanje i Popravke
 kategorija:
 - Hausmajstor
@@ -15,7 +15,7 @@ kategorija:
 - Moleraj
 - Novi Sad
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Bulevar cara Lazara 82, Novi Sad
 kontakt_telefon: "+381644781973"
 email: kontakt@hausmajstorns.rs
@@ -52,10 +52,10 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381644781973\">+381
     64 478 19 73</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:kontakt@hausmajstorns.rs\">kontakt@hausmajstorns.rs</a><br>\U0001F310
     <strong>Veb:</strong> <a href=\"https://www.hausmajstorns.rs/\" target=\"_blank\"
-    rel=\"noopener\">hausmajstorns.rs</a><br>\U0001F4CD <strong>Adresa:</strong> <a
-    href=\"https://maps.app.goo.gl/Xbup8Yt8NpiGyjbj6\" target=\"_blank\" rel=\"noopener\">Bulevar
-    cara Lazara 82, Novi Sad</a><br>\U0001F552 <strong>Radno vreme:</strong> Pon–Pet
-    8:00–16:00"
+    rel=\"noopener nofollow\">hausmajstorns.rs</a><br>\U0001F4CD <strong>Adresa:</strong>
+    <a href=\"https://maps.app.goo.gl/Xbup8Yt8NpiGyjbj6\" target=\"_blank\" rel=\"noopener
+    nofollow\">Bulevar cara Lazara 82, Novi Sad</a><br>\U0001F552 <strong>Radno vreme:</strong>
+    Pon–Pet 8:00–16:00"
 - type: h2
   content: Šta Nudi Haus Majstor – Sve za Funkcionalan Dom
 - type: p

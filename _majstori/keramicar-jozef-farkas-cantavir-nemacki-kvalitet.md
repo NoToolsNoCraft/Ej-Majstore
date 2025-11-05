@@ -54,8 +54,9 @@ sections:
 - type: p
   content: "Kontaktirajte ga direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+381638788123\">+381 63 878 81 23</a><br>\U0001F310 <strong>Facebook:</strong>
-    <a href=\"https://www.facebook.com/jozsef.farkas.189478\" target=\"_blank\" rel=\"noopener\">facebook.com/jozsef.farkas</a><br>\U0001F4CD
-    <strong>Lokacija:</strong> Čantavir (dolazi na teren)"
+    <a href=\"https://www.facebook.com/jozsef.farkas.189478\" target=\"_blank\" rel=\"noopener
+    nofollow\">facebook.com/jozsef.farkas</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    Čantavir (dolazi na teren)"
 - type: h2
   content: Šta Nudi Jožef – Od Podloge do Završne Fuge
 - type: p

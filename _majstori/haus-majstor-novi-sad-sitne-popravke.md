@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Haus Majstor Novi Sad – Sitne Popravke Koje Štede Dane
 description: Haus Majstor – elektrika, vodovod, montaža, bušenje, popravke. 20+ godina
   iskustva, tačnost, jasan cenovnik. Novi Sad i okolina. u Novi Sad, Veternik, Futog,
-  Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
+  Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac.
 ime: Haus Majstor Novi Sad – Sitne Popravke Koje Štede Dane
 kategorija:
 - Sitne Popravke
@@ -13,7 +13,7 @@ kategorija:
 - Bušenje i Kačenje
 - Novi Sad
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Kraljevića Marka 60, Novi Sad 21000
 kontakt_telefon: "+381612211700"
 email: kontakt@majstor.info
@@ -41,7 +41,8 @@ sections:
 - type: p
   content: Baziran u Kraljevića Marka 60, pokriva <strong>ceo Novi Sad i okolinu</strong>.
     Od zamene sijalice do postavljanja laminata – sve brzo, čisto, sa osmehom. Pogledajte
-    cenovnik na <a href="https://www.sitnepopravke.com/" target="_blank" rel="noopener"><strong>sitnepopravke.com</strong></a>.
+    cenovnik na <a href="https://www.sitnepopravke.com/" target="_blank" rel="noopener
+    nofollow"><strong>sitnepopravke.com</strong></a>.
 - type: h2
   content: Ko je Haus Majstor – Tim Koji Voli Svoj Posao
 - type: p
@@ -51,7 +52,7 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381612211700\">+381
     61 22 11 700</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:kontakt@majstor.info\">kontakt@majstor.info</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://www.sitnepopravke.com/\" target=\"_blank\"
-    rel=\"noopener\">sitnepopravke.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    rel=\"noopener nofollow\">sitnepopravke.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
     Kraljevića Marka 60, Novi Sad"
 - type: h2
   content: Šta Radi Haus Majstor – Sve Sitnice Koje Prave Veliku Razliku
@@ -108,8 +109,8 @@ sections:
 - type: p
   content: 'Ako vam <strong>fali prekidač, curi sifon ili čeka laminat</strong> –
     <strong>Haus Majstor</strong> je pravi izbor. Posetite <a href="https://www.sitnepopravke.com/"
-    target="_blank" rel="noopener"><strong>sitnepopravke.com</strong></a> ili pozovite:
-    <a href="tel:+381612211700"><strong>+381 61 22 11 700</strong></a>.'
+    target="_blank" rel="noopener nofollow"><strong>sitnepopravke.com</strong></a>
+    ili pozovite: <a href="tel:+381612211700"><strong>+381 61 22 11 700</strong></a>.'
 services:
 - title: Elektro Radovi
   description: Osigurači, prekidači, utičnice, rasveta, instalacije.

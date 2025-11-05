@@ -59,9 +59,9 @@ sections:
     | <a href=\"mailto:zidarng@gmail.com\">zidarng@gmail.com</a><br>\U0001F4DE <strong>Beograd:</strong>
     <a href=\"tel:+381112440524\">011/244-0524</a>, <a href=\"tel:+381112440528\">244-0528</a>
     | <a href=\"mailto:office@zidar.co.rs\">office@zidar.co.rs</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://zidar.co.rs/\" target=\"_blank\" rel=\"noopener\">zidar.co.rs</a><br>\U0001F4CD
+    <a href=\"https://zidar.co.rs/\" target=\"_blank\" rel=\"noopener nofollow\">zidar.co.rs</a><br>\U0001F4CD
     <strong>Beograd:</strong> <a href=\"https://maps.app.goo.gl/BHqakQ8QgBiaUtddA\"
-    target=\"_blank\" rel=\"noopener\">Južni bulevar 1A</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">Južni bulevar 1A</a>"
 - type: h2
   content: Šta Nudi Zidar – Od Ideje do Ključa u Ruci
 - type: p

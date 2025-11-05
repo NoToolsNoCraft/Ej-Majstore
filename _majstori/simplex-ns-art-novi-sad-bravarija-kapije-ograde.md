@@ -4,7 +4,7 @@ title: Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+ Godin
 description: Simplex NS Art – bravarija sa 22 godine iskustva. Specijalizovani za
   sigurnosna vrata (10 godina garancije), inox ograde, kovane kapije, nastrešnice,
   rešetke, stepenice. Kvalitet, brza isporuka, montaža. u Novi Sad, Petrovaradin,
-  Veternik, Futog, Beočin, Sremski Karlovci, Rumenka, Kać, Temeri, Bačka Palanka.
+  Veternik, Futog, Beočin, Sremski Karlovci, Rumenka, Kać, Temerin, Bačka Palanka.
 ime: Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+ Godina Iskustva
 kategorija:
 - Bravarija
@@ -18,7 +18,7 @@ kategorija:
 - Stepeništa
 - Stepenišne Ograde
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Beočin, Sremski Karlovci, Rumenka,
-  Kać, Temeri, Bačka Palanka
+  Kać, Temerin, Bačka Palanka
 address: Cara Uroša 6, 21000 Novi Sad
 kontakt_telefon: "+381695929017"
 email: simplex.nsart@gmail.com
@@ -55,7 +55,7 @@ sections:
     69 592 9017 (Goran)</a> / <a href=\"tel:+381695929018\">+381 69 592 9018 (Bogdan)</a><br>\U0001F4E7
     <strong>Email:</strong> <a href=\"mailto:simplex.nsart@gmail.com\">simplex.nsart@gmail.com</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/gPE98FUMUutrXvQT6\"
-    target=\"_blank\" rel=\"noopener\">Cara Uroša 6, Novi Sad</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">Cara Uroša 6, Novi Sad</a>"
 - type: p
   content: "<strong>Radno vreme:</strong><br>Ponedeljak–Subota: 07:00–16:00h<br>Nedelja:
     zatvoreno"

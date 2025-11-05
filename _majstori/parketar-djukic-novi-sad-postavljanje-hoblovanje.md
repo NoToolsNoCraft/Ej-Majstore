@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Parketar Đukić Novi Sad – Podovi Koji Traju Decenijama
 description: Parketar Đukić – postavljanje, hoblovanje, lakiranje, laminat, sokle.
   15+ godina iskustva, pedantno, u roku. Novi Sad i okolina. u Novi Sad, Veternik,
-  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
+  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac.
 ime: Parketar Đukić Novi Sad – Podovi Koji Traju Decenijama
 kategorija:
 - Postavljanje Parketa
@@ -12,7 +12,7 @@ kategorija:
 - Laminat
 - Brodski Pod
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Đorđa Rajkovića 10, Novi Sad 21000
 kontakt_telefon: "+381640567420"
 email: parketardjukic88@gmail.com
@@ -38,9 +38,9 @@ sections:
     mozaika – sve <em>pedantno, u roku, po povoljnoj ceni</em>.
 - type: p
   content: Baziran u <a href="https://maps.app.goo.gl/PAavJ7jDdv4fP5va9" target="_blank"
-    rel="noopener"><strong>Đorđa Rajkovića 10</strong></a>, pokriva <strong>ceo Novi
-    Sad i okolinu</strong>. Pogledajte radove na <a href="https://www.parketardjukic.rs/"
-    target="_blank" rel="noopener"><strong>parketardjukic.rs</strong></a>.
+    rel="noopener nofollow"><strong>Đorđa Rajkovića 10</strong></a>, pokriva <strong>ceo
+    Novi Sad i okolinu</strong>. Pogledajte radove na <a href="https://www.parketardjukic.rs/"
+    target="_blank" rel="noopener nofollow"><strong>parketardjukic.rs</strong></a>.
 - type: h2
   content: Ko je Parketar Đukić – Tradicija u Drvetu
 - type: p
@@ -53,9 +53,9 @@ sections:
     <a href=\"tel:+381640567420\">+381 64 056 74 20</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:parketardjukic88@gmail.com\">parketardjukic88@gmail.com</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://www.parketardjukic.rs/\" target=\"_blank\"
-    rel=\"noopener\">parketardjukic.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/PAavJ7jDdv4fP5va9\" target=\"_blank\" rel=\"noopener\">Đorđa
-    Rajkovića 10, Novi Sad</a>"
+    rel=\"noopener nofollow\">parketardjukic.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/PAavJ7jDdv4fP5va9\" target=\"_blank\" rel=\"noopener
+    nofollow\">Đorđa Rajkovića 10, Novi Sad</a>"
 - type: h2
   content: Sve za Savršen Pod
 - type: p
@@ -110,24 +110,24 @@ sections:
   - Saveti za održavanje – pod traje duže
 - type: blockquote
   content: <strong><a href="https://share.google/9ojzi0VxQY2XSbLku" target="_blank"
-    rel="noopener">Aleksandar Jovanovic</a>:</strong> Перфектно постављен паркет.
-    Хоблован и лакиран. А у другом делу стана хоблован и лакиран стари паркет. Перфекција.
-    Педантно, брзо, одговорно.
+    rel="noopener nofollow">Aleksandar Jovanovic</a>:</strong> Перфектно постављен
+    паркет. Хоблован и лакиран. А у другом делу стана хоблован и лакиран стари паркет.
+    Перфекција. Педантно, брзо, одговорно.
 - type: blockquote
   content: <strong><a href="https://share.google/H9h7wRnya74IiTzc7" target="_blank"
-    rel="noopener">Predrag Ubovic</a>:</strong> Svaka čast, Hoblovanje parketa su
-    završili veoma brzo. Prelep je sad parket. Preporučujem ih svakom kome trebaju
+    rel="noopener nofollow">Predrag Ubovic</a>:</strong> Svaka čast, Hoblovanje parketa
+    su završili veoma brzo. Prelep je sad parket. Preporučujem ih svakom kome trebaju
     pravi majstori za parket. Uredno sve završeno veliki pozdrav
 - type: blockquote
   content: <strong><a href="https://share.google/iktXZTVufEFKtXsCX" target="_blank"
-    rel="noopener">Miroslav Boskovic</a>:</strong> Profesinalno, kvalitetno i pre
-    roka. Sve preporuke i misljenje da je bolje stari parket izoblovati preko Đukića
-    nego postaviti novi. @apartman_innocence
+    rel="noopener nofollow">Miroslav Boskovic</a>:</strong> Profesinalno, kvalitetno
+    i pre roka. Sve preporuke i misljenje da je bolje stari parket izoblovati preko
+    Đukića nego postaviti novi. @apartman_innocence
 - type: p
   content: 'Ako vaš <strong>pod čeka na novi život</strong> – <strong>Parketar Đukić</strong>
     je pravi izbor. Posetite <a href="https://www.parketardjukic.rs/" target="_blank"
-    rel="noopener"><strong>parketardjukic.rs</strong></a> ili pozovite: <a href="tel:+381640567420"><strong>+381
-    64 056 74 20</strong></a>.'
+    rel="noopener nofollow"><strong>parketardjukic.rs</strong></a> ili pozovite: <a
+    href="tel:+381640567420"><strong>+381 64 056 74 20</strong></a>.'
 services:
 - title: Postavljanje Parketa
   description: Klasični, višeslojni, brodski pod.

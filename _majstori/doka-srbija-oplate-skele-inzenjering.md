@@ -53,9 +53,9 @@ sections:
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+38122400100\">+381 22 400 100</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:serb@doka.com\">serb@doka.com</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://www.doka.com/rs/index\" target=\"_blank\" rel=\"noopener\">doka.com/rs</a><br>\U0001F4CD
+    <a href=\"https://www.doka.com/rs/index\" target=\"_blank\" rel=\"noopener nofollow\">doka.com/rs</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9\"
-    target=\"_blank\" rel=\"noopener\">Svetogorska 4, Šimanovci</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">Svetogorska 4, Šimanovci</a>"
 - type: h2
   content: Šta Nudi Doka Srbija – Kompletna Rešenja za Velike Projekte
 - type: p

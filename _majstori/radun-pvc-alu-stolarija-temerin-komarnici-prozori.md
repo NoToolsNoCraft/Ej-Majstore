@@ -7,14 +7,12 @@ description: 'Radun PVC i ALU stolarija – 20 godina iskustva u montaži i prod
   Bečej, Žabalj, Srbobran, Beočin, Bački Petrovac, Bač.'
 ime: Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri
 kategorija:
+- Stolarija
 - PVC Stolarija
 - ALU Stolarija
 - Komarnici
-- Prozori
-- Vrata
+- Prozori i vrata
 - Paneli
-- Temerin
-- Novi Sad
 mesto: Temerin, Novi Sad, Vrbas, Bačka Palanka, Bečej, Žabalj, Srbobran, Beočin, Bački
   Petrovac, Bač
 address: Mihajla Pupina 15, 21235 Temerin
@@ -34,26 +32,26 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-10-30'
-last_modified: '2025-10-30'
+last_modified: '2025-11-05'
 sections:
 - type: p
   content: 'Pre nekoliko meseci, započeo sam adaptaciju potkrovlja – demontaža, zidovi,
-    struja, sve ide po planu. Prozore sam uzeo od lokalne firme iz Subotice, <a href="https://www.joviste.rs"
-    target="_blank" rel="noopener">Jovište</a> – kvalitetni PVC, brza montaža, zadovoljan.
-    Ali, u brzini sam zaboravio jednu ključnu stvar: komarnike. Kako su radovi napredovali,
-    prozori su bili otvoreni ceo dan – i evo, jesen dolazi, hladnoća, a muve i komarci
-    se sele unutra kao na besplatan buffet.'
+    struja, sve ide po planu. Prozore sam uzeo od lokalne firme iz Subotice, <a href="https://ejmajstore.rs/izvodjaci/subotica/joviste-palic-pvc-alu-stolarija-prozori-vrata/"
+    target="_blank" rel="noopener nofollow">Jovište</a> – kvalitetni PVC, brza montaža,
+    zadovoljan. Ali, u brzini sam zaboravio jednu ključnu stvar: komarnike. Kako su
+    radovi napredovali, prozori su bili otvoreni ceo dan – i evo, jesen dolazi, hladnoća,
+    a muve i komarci se sele unutra kao na besplatan buffet.'
 - type: p
   content: Jovište ima svoje komarnike, ali cene su bile malo više nego što sam planirao.
     Odlučio sam da tražim alternativu – idealno nekog zanatliju koji radi po meri
     i šalje kurirskom službom. Pretragom naišao sam na Radun PVC iz Temerina. Kontaktirao
     sam Dušana preko Vibera, poslao mere, dogovorili se za fiksni komarnik. U roku
     od nekoliko dana, komarnik je stigao – savršeno se uklopio, muve ostale napolju.
-    To je bio moj prvi susret sa Dušanom i Radun – brzo, povoljno, kvalitetno.
+    To je bio moj prvi susret sa Radun-om – brzo, povoljno, kvalitetno.
 - type: h2
   content: Ko je Radun – 20 Godina Kvaliteta u Temerinu
 - type: p
-  content: 'Radun PVC i ALU stolarija je <strong>porodična firma</strong> sa <strong>20
+  content: 'Radun PVC i ALU stolarija je <strong>mala firma</strong> sa <strong>20
     godina iskustva</strong>. Vodi je <strong>Dušan Radun</strong>, specijalizovan
     za <em>montažu i prodaju PVC/ALU prozora, vrata, komarnika i panela</em>. Imaju
     <strong>lager profila</strong>: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E.'
@@ -61,10 +59,10 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381631767488\">+381
     63 176 74 88</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:radundusko72@gmail.com\">radundusko72@gmail.com</a><br>\U0001F310
     <strong>Facebook:</strong> <a href=\"https://www.facebook.com/stlarijaradun/?locale=sr_RS\"
-    target=\"_blank\" rel=\"noopener\">facebook.com/stlarijaradun</a><br>\U0001F4CD
+    target=\"_blank\" rel=\"noopener nofollow\">facebook.com/stlarijaradun</a><br>\U0001F4CD
     <strong>Lokacija:</strong> Mihajla Pupina 15, Temerin<br>\U0001F5FA️ <strong>Google
     Maps:</strong> <a href=\"https://maps.app.goo.gl/AYk46xMBvzTCQcdg6\" target=\"_blank\"
-    rel=\"noopener\">Pogledaj lokaciju</a>"
+    rel=\"noopener nofollow\">Pogledaj lokaciju</a>"
 - type: p
   content: "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 08:00–16:00h<br>Subota:
     08:00–10:00h<br>Nedelja: zatvoreno"
@@ -114,13 +112,13 @@ sections:
 - type: blockquote
   content: „Veoma zadovoljni sa komarnicima. Duško profesionalac, urađeno pre roka.
     Kvalitet po odličnoj ceni!“ – <a href="https://share.google/bX1wb1cC4Yt204wYO"
-    target="_blank" rel="noopener"><strong>Aleksandar Bjelanović</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Aleksandar Bjelanović</strong></a>
 - type: blockquote
   content: „Vrlo profesionalno, cene korektne. Došao tačno na vreme!“ – <a href="https://share.google/U9HToPzo6rFk5hZwr"
-    target="_blank" rel="noopener"><strong>Ildiko Kovacs</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Ildiko Kovacs</strong></a>
 - type: blockquote
   content: „Čovek od reči, brzo i čisto. Saradnja nastavlja!“ – <a href="https://share.google/iC00H1u8uLI0rZD7F"
-    target="_blank" rel="noopener"><strong>Djurdjinka Plavsic</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Djurdjinka Plavsic</strong></a>
 - type: h2
   content: Zašto Radun – Ključne Prednosti
 - type: ul

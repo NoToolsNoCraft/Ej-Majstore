@@ -45,10 +45,10 @@ sections:
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381611399130\">+381
     61 13 99 130</a><br>\U0001F4F7 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/vrtzelenasombor/\"
-    target=\"_blank\" rel=\"noopener\">Instagram profil</a><br>\U0001F310 <strong>Facebook:</strong>
-    <a href=\"https://www.facebook.com/vrt.zelena.oaza.sombor\" target=\"_blank\"
-    rel=\"noopener\">Facebook stranica</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    Sombor (teren po dogovoru, do 80 km)"
+    target=\"_blank\" rel=\"noopener nofollow\">Instagram profil</a><br>\U0001F310
+    <strong>Facebook:</strong> <a href=\"https://www.facebook.com/vrt.zelena.oaza.sombor\"
+    target=\"_blank\" rel=\"noopener nofollow\">Facebook stranica</a><br>\U0001F4CD
+    <strong>Lokacija:</strong> Sombor (teren po dogovoru, do 80 km)"
 - type: h2
   content: Šta Radi Zelena Oaza – Sve za Vaš Vrt
 - type: p

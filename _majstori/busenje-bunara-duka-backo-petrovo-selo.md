@@ -44,7 +44,7 @@ sections:
 - type: p
   content: "Kontaktirajte ga:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38162237726\">+381
     62 237 726</a><br>\U0001F310 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/oredudicduka\"
-    target=\"_blank\" rel=\"noopener\">facebook.com/oredudicduka</a><br>\U0001F4CD
+    target=\"_blank\" rel=\"noopener nofollow\">facebook.com/oredudicduka</a><br>\U0001F4CD
     <strong>Lokacija:</strong> Backo Petrovo Selo (teren po dogovoru)"
 - type: h2
   content: Od Bušenja do Čiste Vode

@@ -41,7 +41,7 @@ sections:
 - type: p
   content: Od 3D projekta do poslednje biljke – sve je <strong>po meri, sa ljubavlju
     i stručnošću</strong>. Izlazak na teren? Besplatan. Pogledajte njihove radove
-    na <a href="https://greeninspiration.rs/" target="_blank" rel="noopener"><strong>greeninspiration.rs</strong></a>.
+    na <a href="https://greeninspiration.rs/" target="_blank" rel="noopener nofollow"><strong>greeninspiration.rs</strong></a>.
 - type: h2
   content: Ko je Green Inspiration – Mladi Tim sa Starom Dušom za Prirodu
 - type: p
@@ -51,7 +51,7 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381659424114\">+381
     65 942 41 14</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:info@greeninspiration.rs\">info@greeninspiration.rs</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://greeninspiration.rs/\" target=\"_blank\"
-    rel=\"noopener\">greeninspiration.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    rel=\"noopener nofollow\">greeninspiration.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
     Zemun, Beograd"
 - type: h2
   content: Šta Nudi Green Inspiration – Od Ideje do Održavanja
@@ -108,8 +108,8 @@ sections:
 - type: p
   content: 'Ako vaš <strong>prostor čeka na život</strong> – <strong>Green Inspiration</strong>
     je pravi izbor. Posetite <a href="https://greeninspiration.rs/" target="_blank"
-    rel="noopener"><strong>greeninspiration.rs</strong></a> ili pozovite za besplatnu
-    procenu: <a href="tel:+381659424114"><strong>+381 65 942 41 14</strong></a>.'
+    rel="noopener nofollow"><strong>greeninspiration.rs</strong></a> ili pozovite
+    za besplatnu procenu: <a href="tel:+381659424114"><strong>+381 65 942 41 14</strong></a>.'
 services:
 - title: Projektovanje i 3D Vizualizacija
   description: Idejna rešenja, analiza, skice, 3D prikazi.

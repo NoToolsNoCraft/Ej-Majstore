@@ -52,7 +52,7 @@ sections:
   content: "Kontaktirajte ga:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381645660536\">+381
     64 566 0536</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:antae42@hotmail.com\">antae42@hotmail.com</a><br>\U0001F310
     <strong>Facebook:</strong> <a href=\"https://www.facebook.com/p/Keramicar-Nis-Milos-Antic-100057453039103/\"
-    target=\"_blank\" rel=\"noopener\">facebook.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    target=\"_blank\" rel=\"noopener nofollow\">facebook.com</a><br>\U0001F4CD <strong>Lokacija:</strong>
     Popovac, Niš (teren po dogovoru)"
 - type: h2
   content: Šta Nudi Miloš – Od Keramike do Metala

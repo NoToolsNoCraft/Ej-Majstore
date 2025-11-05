@@ -55,9 +55,9 @@ sections:
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+38169779560\">+381 69 779 560</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:sinisamedic23@gmail.com\">sinisamedic23@gmail.com</a><br>\U0001F310
-    <strong>Veb-sajt:</strong> <a href=\"https://singor.rs/\" target=\"_blank\" rel=\"noopener\">singor.rs</a><br>\U0001F4CD
-    <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/VGbDUdrAzDcs2SMr7\"
-    target=\"_blank\" rel=\"noopener\">25. maj br. 7, Apatin</a>"
+    <strong>Veb-sajt:</strong> <a href=\"https://singor.rs/\" target=\"_blank\" rel=\"noopener
+    nofollow\">singor.rs</a><br>\U0001F4CD <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/VGbDUdrAzDcs2SMr7\"
+    target=\"_blank\" rel=\"noopener nofollow\">25. maj br. 7, Apatin</a>"
 - type: p
   content: "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 08:00–14:30h<br>Subota:
     09:00–12:00h"
@@ -120,10 +120,10 @@ sections:
   content: Šta Kažu Klijenti – Stvarne Recenzije
 - type: blockquote
   content: „Dobri i trude se da sve urade i završe.“ – <a href="https://share.google/8ZH3IkrC1R5LaYmMk"
-    target="_blank" rel="noopener"><strong>Marinko Kukić</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Marinko Kukić</strong></a>
 - type: blockquote
   content: „Profesionalizam.“ – <a href="https://share.google/gMH5zVptvzkjtxlmt" target="_blank"
-    rel="noopener"><strong>Slobodan Berić</strong></a>
+    rel="noopener nofollow"><strong>Slobodan Berić</strong></a>
 - type: h2
   content: Kako Funkcioniše Saradnja sa SINGOR-om
 - type: p

@@ -58,9 +58,9 @@ sections:
     href=\"tel:+38169764205\">+381 69 764 205</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:interium2020@gmail.com\">interium2020@gmail.com</a><br>\U0001F310
     <strong>Facebook:</strong> <a href=\"https://www.facebook.com/p/Interium-100088320567844/\"
-    target=\"_blank\" rel=\"noopener\">facebook.com/Interium</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/AVWUEThQkYzEWAoK6\" target=\"_blank\" rel=\"noopener\">Maršala
-    Tita 60, Čantavir</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">facebook.com/Interium</a><br>\U0001F4CD
+    <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/AVWUEThQkYzEWAoK6\"
+    target=\"_blank\" rel=\"noopener nofollow\">Maršala Tita 60, Čantavir</a>"
 - type: p
   content: "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 07:00–15:00h<br>Subota
     i nedelja: zatvoreno"

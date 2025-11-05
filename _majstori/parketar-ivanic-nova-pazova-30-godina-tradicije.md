@@ -8,7 +8,7 @@ description: Ivanić – 30+ godina iskustva u ugradnji, brušenju, lakiranju i 
 ime: Parketarske Usluge Ivanić Nova Pazova – 30 Godina Tradicije u Drvetu
 kategorija:
 - Parketarske Usluge
-- Ugradnja Parketa
+- Postavljanje Parketa
 - Brušenje Parketa
 - Lakiranje
 - Restauracija
@@ -49,9 +49,10 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381638374810\">+381
     63 837 4810</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:parketivanic@gmail.com\">parketivanic@gmail.com</a><br>\U0001F310
     <strong>Facebook:</strong> <a href=\"https://www.facebook.com/parketivanic?locale=sr_RS\"
-    target=\"_blank\" rel=\"noopener\">Facebook profil</a><br>\U0001F4F7 <strong>Instagram:</strong>
-    <a href=\"https://www.instagram.com/parketivanic/?hl=en\" target=\"_blank\" rel=\"noopener\">Instagram
-    stranica</a><br>\U0001F4CD <strong>Lokacija:</strong> Nova Pazova (teren po dogovoru)"
+    target=\"_blank\" rel=\"noopener nofollow\">Facebook profil</a><br>\U0001F4F7
+    <strong>Instagram:</strong> <a href=\"https://www.instagram.com/parketivanic/?hl=en\"
+    target=\"_blank\" rel=\"noopener nofollow\">Instagram stranica</a><br>\U0001F4CD
+    <strong>Lokacija:</strong> Nova Pazova (teren po dogovoru)"
 - type: h2
   content: Šta Nudi Ivanić – Sve za Savršene Podove
 - type: p
@@ -107,8 +108,8 @@ sections:
 - type: p
   content: 'Ako vaš <strong>parket čeka na drugi život</strong> – <strong>Ivanić</strong>
     je pravi majstor. Posetite <a href="https://www.facebook.com/parketivanic?locale=sr_RS"
-    target="_blank" rel="noopener"><strong>Facebook</strong></a> ili pozovite: <a
-    href="tel:+381638374810"><strong>+381 63 837 4810</strong></a>.'
+    target="_blank" rel="noopener nofollow"><strong>Facebook</strong></a> ili pozovite:
+    <a href="tel:+381638374810"><strong>+381 63 837 4810</strong></a>.'
 services:
 - title: Ugradnja Višeslojnog Parketa Hrast
   description: Po meri, sa lajsnom 8cm, idealno za grejanje.

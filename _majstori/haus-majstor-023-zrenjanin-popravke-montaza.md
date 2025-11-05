@@ -48,9 +48,9 @@ sections:
 - type: p
   content: "Kontaktirajte ga:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381612708361\">+381
     61 270 8361</a><br>\U0001F310 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/people/Haus-Majstor-023/61574446475347/\"
-    target=\"_blank\" rel=\"noopener\">facebook.com/Haus-Majstor-023</a><br>\U0001F4F7
+    target=\"_blank\" rel=\"noopener nofollow\">facebook.com/Haus-Majstor-023</a><br>\U0001F4F7
     <strong>Instagram:</strong> <a href=\"https://www.instagram.com/haus_majstor_023/\"
-    target=\"_blank\" rel=\"noopener\">instagram.com/haus_majstor_023</a><br>\U0001F4CD
+    target=\"_blank\" rel=\"noopener nofollow\">instagram.com/haus_majstor_023</a><br>\U0001F4CD
     <strong>Lokacija:</strong> Bagljaš, Zrenjanin (teren po dogovoru)"
 - type: h2
   content: Šta Radi Haus Majstor 023 – Od A do Š

@@ -50,8 +50,9 @@ sections:
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:0600761800\">060
     076 18 00</a><br>\U0001F4CD <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/mUxrzoETdaivD6A29\"
-    target=\"_blank\" rel=\"noopener\">Skadarska 24, Beograd</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://keramicar-top.rs/\" target=\"_blank\" rel=\"noopener\">keramicar-top.rs</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">Skadarska 24, Beograd</a><br>\U0001F310
+    <strong>Veb-sajt:</strong> <a href=\"https://keramicar-top.rs/\" target=\"_blank\"
+    rel=\"noopener nofollow\">keramicar-top.rs</a>"
 - type: p
   content: "<strong>Radno vreme:</strong> Open 24 hours – ponedeljak do nedelja"
 - type: h2
@@ -104,11 +105,11 @@ sections:
     korektno, pedantno, i veoma odgovorno. Upravo danas, 25. juna 2025, momci su u
     predviđenom roku "hladnokrvno" završili adaptaciju nešto prostranije tuš kabine
     u mome stanu u "Voždovim Kapijama"... Svetska klasa i pristup poslu!“ – <a href="https://maps.app.goo.gl/e9BuY8x9ipjA8uL77"
-    target="_blank" rel="noopener"><strong>Victor Prokic</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Victor Prokic</strong></a>
 - type: blockquote
   content: „Sve pohvale za majstore, odlicno precizno i kvalitetno odradjen posao.
     Mnogi su danas majstori treba biti i covek!“ – <a href="https://maps.app.goo.gl/2Q4BHaDZMoC1pjUU9"
-    target="_blank" rel="noopener"><strong>Nikola Stevanovic</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Nikola Stevanovic</strong></a>
 - type: h2
   content: Zašto Keramičar Beograd – Ključne Prednosti
 - type: ul

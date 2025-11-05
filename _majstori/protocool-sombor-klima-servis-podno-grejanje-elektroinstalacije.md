@@ -54,9 +54,9 @@ sections:
     href=\"tel:0691081810\">069 108 18 10</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:arbutina.ilija@gmail.com\">arbutina.ilija@gmail.com</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://www.protocool.rs\" target=\"_blank\"
-    rel=\"noopener\">protocool.rs</a><br>\U0001F4CD <strong>Lokacija:</strong> <a
-    href=\"https://maps.app.goo.gl/345uFprTcY5x5xQz9\" target=\"_blank\" rel=\"noopener\">Jasna
-    Poljana 14, Sombor</a>"
+    rel=\"noopener nofollow\">protocool.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/345uFprTcY5x5xQz9\" target=\"_blank\" rel=\"noopener
+    nofollow\">Jasna Poljana 14, Sombor</a>"
 - type: p
   content: "<strong>Radno vreme:</strong> 08:00–20:00, 7 dana u nedelji"
 - type: h2

@@ -51,8 +51,8 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+381628217123\">+381
     62 821 7123</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:hausmajstorwinner@gmail.com\">hausmajstorwinner@gmail.com</a><br>\U0001F310
     <strong>Veb-sajt:</strong> <a href=\"https://www.hausmajstorwinner.com/\" target=\"_blank\"
-    rel=\"noopener\">hausmajstorwinner.com</a><br>\U0001F552 <strong>Radno vreme:</strong>
-    Pon–Pet 8:00–17:00, Sub 10:00–15:00 (hitne), Ned zatvoreno"
+    rel=\"noopener nofollow\">hausmajstorwinner.com</a><br>\U0001F552 <strong>Radno
+    vreme:</strong> Pon–Pet 8:00–17:00, Sub 10:00–15:00 (hitne), Ned zatvoreno"
 - type: h2
   content: Šta Nudi Winner – Sve Majstorske Usluge
 - type: p

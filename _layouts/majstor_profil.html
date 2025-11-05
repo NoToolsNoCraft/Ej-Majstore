@@ -115,8 +115,8 @@ layout: default
 
   {% if page.author %}
   <div class="author-bio">
-    <p><strong>Napisao:</strong> {{ page.author }} |
-       {{ page.date | default: site.time | date: '%d. %m. %Y' }} |
+    <p><strong>Verifikovao:</strong> {{ page.author }} |
+      <strong>Ažurirano:</strong> {{ page.last_modified | default: site.time | date: '%d. %m. %Y' }} |
        <a href="/o-nama/">O autoru</a></p>
     <p>{{ page.author_bio | default: 'Ej Majstore! tim istražuje i testira majstore širom Srbije.' }}</p>
   </div>

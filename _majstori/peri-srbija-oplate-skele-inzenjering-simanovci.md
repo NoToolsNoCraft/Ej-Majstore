@@ -43,10 +43,10 @@ sections:
     ali i priliku za poboljšanje načina na koji se predstavlja korisnicima.
 - type: p
   content: 'Analizirao sam aplikaciju i za par sati napravio <a href="https://notoolsnocraft.github.io/PERI-Quicksolve-Slide-In-Panel-Widget-Demo/"
-    target="_blank" rel="noopener">interaktivni slide-in panel sa sticky dugmetom</a>
-    – rešenje koje bi korisnicima omogućilo da odmah na sajtu vide prednosti QuickSolve-a:
-    brzu registraciju, automatska rešenja, 2D/3D planove i podršku za sisteme kao
-    što su <strong>DUO</strong>, <strong>TRIO</strong> i <strong>MAXIMO</strong>.'
+    target="_blank" rel="noopener nofollow">interaktivni slide-in panel sa sticky
+    dugmetom</a> – rešenje koje bi korisnicima omogućilo da odmah na sajtu vide prednosti
+    QuickSolve-a: brzu registraciju, automatska rešenja, 2D/3D planove i podršku za
+    sisteme kao što su <strong>DUO</strong>, <strong>TRIO</strong> i <strong>MAXIMO</strong>.'
 - type: p
   content: Ponudio sam ideju PERI-ju, ali na kraju nismo postigli dogovor. Ipak, to
     iskustvo me je navelo da dublje istražim šta PERI Srbija zaista radi – i ostao
@@ -61,9 +61,9 @@ sections:
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+38122408200\">+381 (0)22 408200</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:office@peri.rs\">office@peri.rs</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://www.peri.rs/\" target=\"_blank\" rel=\"noopener\">peri.rs</a><br>\U0001F4CD
+    <a href=\"https://www.peri.rs/\" target=\"_blank\" rel=\"noopener nofollow\">peri.rs</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/uvzvE6ycjwpv2VbJ8\"
-    target=\"_blank\" rel=\"noopener\">PERI Srbija, Šimanovci</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">PERI Srbija, Šimanovci</a>"
 - type: h2
   content: Šta Nudi PERI Srbija – Kompletan Asortiman
 - type: p
@@ -105,8 +105,8 @@ sections:
   content: Šta je PERI QuickSolve – Aplikacija Koja Me Je Uvela u Svet PERI-ja
 - type: p
   content: '<strong>PERI QuickSolve</strong> je besplatna web aplikacija (<a href="https://www.peri.rs/proizvodi/peri-quicksolve.html"
-    target="_blank" rel="noopener">peri.rs/proizvodi/peri-quicksolve.html</a>) koja
-    omogućava brzo i jednostavno planiranje oplata za jednostavne osnove. Unesete
+    target="_blank" rel="noopener nofollow">peri.rs/proizvodi/peri-quicksolve.html</a>)
+    koja omogućava brzo i jednostavno planiranje oplata za jednostavne osnove. Unesete
     dimenzije, odaberete sistem – i aplikacija automatski generiše:'
 - type: ul
   items:
@@ -148,18 +148,18 @@ sections:
 - type: blockquote
   content: „Profesionalnost na najvišem nivou, odnos sa klijentima tačan i precizan.
     Odusevljen sam zatečenim odnosom nadređenih prema zaposlenima.“ – <a href="https://share.google/7pRZjE1wjNi5aPKiF"
-    target="_blank" rel="noopener"><strong>Aleksandar Čolić</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Aleksandar Čolić</strong></a>
 - type: blockquote
   content: „PERI, osnovan 1969, jedan je od najvećih svetskih proizvođača sistema
     oplata i skela. [...] Kompanija ima preko 8.100 zaposlenih i prošle godine je
     ostvarila promet od 1,3 mlrd. €.“ – <a href="https://share.google/stjMsLBulQRtgY5qR"
-    target="_blank" rel="noopener"><strong>Srđan Radivojević</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Srđan Radivojević</strong></a>
 - type: h2
   content: Karijera u PERI Srbija
 - type: p
   content: 'PERI Srbija je poslodavac sa perspektivom. Uvek traže talentovane pojedince
     za rad u građevini – inženjere, prodavce, logističare. Više informacija na njihovom
-    sajtu: <a href="https://www.peri.rs/" target="_blank" rel="noopener">peri.rs</a>'
+    sajtu: <a href="https://www.peri.rs/" target="_blank" rel="noopener nofollow">peri.rs</a>'
 - type: h2
   content: Kako Funkcioniše Saradnja sa PERI Srbija
 - type: p

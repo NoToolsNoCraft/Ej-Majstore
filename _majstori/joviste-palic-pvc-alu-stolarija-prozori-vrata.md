@@ -54,9 +54,9 @@ sections:
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38124530350\">+381
     24 530 350</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://www.joviste.rs/\"
-    target=\"_blank\" rel=\"noopener\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/fNvVohGtkjqBhQrx9\" target=\"_blank\" rel=\"noopener\">Horgoški
-    put 81b, Palić</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/fNvVohGtkjqBhQrx9\" target=\"_blank\" rel=\"noopener
+    nofollow\">Horgoški put 81b, Palić</a>"
 - type: h2
   content: Šta Nudi Jovište – Od Ideje do Montaže
 - type: p
@@ -100,27 +100,27 @@ sections:
   content: „Kompanija sa izuzetnom energijom i poslovnim znanjem. Izuzetno ljubazni
     zaposleni, kako u prodajnom prostoru tako i na montaži. Odlična stolarija, vrhunski
     kvalitet. Za svačiji džep i ukus.“ – <a href="https://share.google/WY14NKenO7OfrcKpL"
-    target="_blank" rel="noopener"><strong>Sanja Stepić</strong></a>
+    target="_blank" rel="noopener nofollow"><strong>Sanja Stepić</strong></a>
 - type: blockquote
   content: „Izuzetno kvalitetna stolarija, precizna izrada i odlični materijali. Sve
     je isporučeno u dogovorenom roku, a montaža je urađena profesionalno i bez greške.
     Posebno bih pohvalila ljubazno i profesionalno osoblje koje je strpljivo objasnilo
     sve detalje i pomoglo pri izboru. Topla preporuka svima koji žele dugotrajan i
     pouzdan proizvod.“ – <a href="https://share.google/MBKMnSbJnS5HuSWPz" target="_blank"
-    rel="noopener"><strong>Teodora Vasić</strong></a>
+    rel="noopener nofollow"><strong>Teodora Vasić</strong></a>
 - type: blockquote
   content: „Izuzetno sam zadovoljna saradnjom sa kompanijom Joviste. Kvalitet prozora
     i ulaznih vrata je na visokom nivou, a ekipa za montazu je profesionaona, brza
     i ljubazna. Svaki dogovor je ispostovan u dogovorenom roku. Svaka preporuka za
     saradnju sa njima!!!!“ – <a href="https://share.google/7kJWY4NtWdbUHIrxX" target="_blank"
-    rel="noopener"><strong>Jovana Đukić</strong></a>
+    rel="noopener nofollow"><strong>Jovana Đukić</strong></a>
 - type: blockquote
   content: „Najbolja firma, odlični među-ljudski odnosi, zadovoljni kupci, i odlične
     preporuke. Mogućnost napredovanja i usavršavanja, redovni prihodi. Poslovna etika
     i međusobno poštovanje prvi kriterijumi koji se traže u firmi Joviste zahvaljujući
     direktoru firme Siniše i , tehničkog direktora Frederika... Kompanija sa 5 zvezdica.“
-    – <a href="https://share.google/QcXwtU653wXPAq4Gr" target="_blank" rel="noopener"><strong>Dejan
-    Đurović</strong></a>
+    – <a href="https://share.google/QcXwtU653wXPAq4Gr" target="_blank" rel="noopener
+    nofollow"><strong>Dejan Đurović</strong></a>
 - type: h2
   content: Zašto Jovište – Ključne Prednosti
 - type: ul

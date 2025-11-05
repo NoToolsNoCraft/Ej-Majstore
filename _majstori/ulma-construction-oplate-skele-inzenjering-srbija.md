@@ -53,7 +53,7 @@ sections:
 - type: p
   content: "Kontaktirajte globalno:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+34943034900\">+34
     943 034 900</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://www.ulmaconstruction.com/en\"
-    target=\"_blank\" rel=\"noopener\">ulmaconstruction.com/en</a>"
+    target=\"_blank\" rel=\"noopener nofollow\">ulmaconstruction.com/en</a>"
 - type: h2
   content: Šta Nudi ULMA – Kompletna Rešenja za Kompleksne Projekte
 - type: p

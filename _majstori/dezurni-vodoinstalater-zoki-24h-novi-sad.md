@@ -60,9 +60,9 @@ sections:
     brz, pedantan, pošten.'
 - type: p
   content: Njegova baza je na <strong>Bulevaru Oslobođenja 4</strong> u Novom Sadu
-    – <a href="https://maps.app.goo.gl/NW2F8xtgvNpZgdex5" target="_blank" rel="noopener">vidi
-    lokaciju na mapi</a>. Sve usluge i cene nalaze se na sajtu <a href="https://vodoinstalater-zoki.rs/"
-    target="_blank" rel="noopener">vodoinstalater-zoki.rs</a>.
+    – <a href="https://maps.app.goo.gl/NW2F8xtgvNpZgdex5" target="_blank" rel="noopener
+    nofollow">vidi lokaciju na mapi</a>. Sve usluge i cene nalaze se na sajtu <a href="https://vodoinstalater-zoki.rs/"
+    target="_blank" rel="noopener nofollow">vodoinstalater-zoki.rs</a>.
 - type: ul
   items:
   - Dostupan <strong>24/7</strong> – stiže u roku od <strong>30–45 minuta</strong>
@@ -80,7 +80,7 @@ sections:
     sam koliko su odgovorni i posvećeni svom poslu. Pravi primer kako majstori treba
     da rade! Preporučujem ih od srca svima – retko se nalaze ovako divni ljudi danas!
     \U0001F44F“ – <a href=\"https://share.google/XDFps4lmtLduVxW6P\" target=\"_blank\"
-    rel=\"noopener\"><strong>Zorana Dević, Rumenka</strong></a>"
+    rel=\"noopener nofollow\"><strong>Zorana Dević, Rumenka</strong></a>"
 - type: blockquote
   content: „Čovek me je oduševio! Od prve rečenice kad sam ga pozvala, pa nadalje.
     Pristojan je i normalan u komunikaciji, pa smo se sve brzo i lako razumeli i dogovorili.
@@ -88,7 +88,7 @@ sections:
     kako smo se dogovorili. Sve preporuke! I Zoki, nemojte nikad da se pokvarite,
     pristojni, profesionalni ljudi koji znaju svoj posao i drže datu reč su nam svima
     potrebni.“ – <a href="https://share.google/ROpSw305M47AiPnTU" target="_blank"
-    rel="noopener"><strong>Sanja Ćupurdija</strong></a>
+    rel="noopener nofollow"><strong>Sanja Ćupurdija</strong></a>
 - type: h2
   content: Zoki Pokriva Ceo Novi Sad – i Šire
 - type: p
@@ -157,7 +157,7 @@ faq:
     Kać i Futog – bez dodatnih troškova za put.
 - question: Kako da kontaktiram Zokija?
   answer: Pozovite <a href="tel:0641848856">064 184 88 56</a> ili posetite <a href="https://vodoinstalater-zoki.rs/"
-    target="_blank" rel="noopener">vodoinstalater-zoki.rs</a>.
+    target="_blank" rel="noopener nofollow">vodoinstalater-zoki.rs</a>.
 tips:
 - Redovno proveravajte ventile ispod sudopere – 80% curenja počinje tu
 - Čistite slivnike svakih 6 meseci – sprečite zagušenje pre nego što se desi
