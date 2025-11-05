@@ -4,20 +4,20 @@ title: Vodoinstalater Miško Novi Sad – Od Adaptacije Kupatila do Instalacije 
   Grejanja
 description: Miško – adaptacija kupatila, centralno grejanje, bojleri, mašine za sudove,
   odgušenje. 30+ godina iskustva, 24/7 hitne intervencije. Novi Sad i okolina. u Novi
-  Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri,
+  Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin,
   Bački Petrovac.
 ime: Vodoinstalater Miško Novi Sad – Od Adaptacije Kupatila do Instalacije Centralnog
   Grejanja
 kategorija:
+- Vodoinstalater
 - Vodoinstalacije
 - Centralno Grejanje
 - Kupatila
 - Bojleri
 - Mašine za Sudove
 - Hitne Intervencije
-- Novi Sad
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Janka Veselinovića 38, Novi Sad
 kontakt_telefon: "+381641340480"
 email: ''
@@ -107,10 +107,6 @@ sections:
   content: Havarije, curenja, poplave – dolazak u roku od 60 minuta. Noću, vikendom,
     praznikom – isti broj, ista cena. Brza dijagnostika, privremeno ili trajno rešenje,
     čišćenje posle intervencije.
-- type: image
-  src: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Images/vodoinstalater-misko-grejanje.webp
-  alt: Miško – ugradnja podnog grejanja u Novom Sadu
-  caption: Podno grejanje na alpeks – toplota ravnomerno, bez radijatora
 - type: h2
   content: Gde Radi Miško – Novi Sad i Okolina
 - type: p
@@ -175,7 +171,6 @@ tips:
 - Silikonske fugne u kupatilu – bez plesni
 - Ventil za mašinu za sudove – sprečava poplavu
 - Termostat na radijatoru – ušteda 20% na grejanju
-- Hitna intervencija u roku od 60 min – 24/7
 tips_title: Kako da Vaše Kupatilo i Grejanje Traju Decenijama
 permalink: "/izvodjaci/novi-sad/vodoinstalater-misko-novi-sad-centralno-grejanje-kupatilo-bojler/"
 ---

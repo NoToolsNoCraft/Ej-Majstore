@@ -5,7 +5,7 @@
   "tip": "majstor",
   "kategorija": ["Vodoinstalater", "Vodoinstalacije", "Centralno Grejanje", "Kupatila", "Bojleri", "Mašine za Sudove", "Hitne Intervencije"],
   "opis_kratak": "Miško – adaptacija kupatila, centralno grejanje, bojleri, mašine za sudove, odgušenje. 30+ godina iskustva, 24/7 hitne intervencije. Novi Sad i okolina.",
-  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Janka Veselinovića 38, Novi Sad",
   "telefon": "+381641340480",
   "email": "",
@@ -125,7 +125,7 @@
     },
     {
       "type": "p",
-      "content": "Baziran u <strong>Novi Sad</strong>, dolazi u:"
+      "content": "Baziran u <strong>Novom Sadu</strong>, dolazi u:"
     },
     {
       "type": "ul",
