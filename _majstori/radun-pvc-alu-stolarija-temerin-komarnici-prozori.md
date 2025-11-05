@@ -11,7 +11,7 @@ kategorija:
 - PVC Stolarija
 - ALU Stolarija
 - Komarnici
-- Prozori i vrata
+- Prozori i Vrata
 - Paneli
 mesto: Temerin, Novi Sad, Vrbas, Bačka Palanka, Bečej, Žabalj, Srbobran, Beočin, Bački
   Petrovac, Bač
