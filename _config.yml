@@ -40,6 +40,7 @@ plugins:
 # Ostale postavke
 markdown: kramdown
 theme: minima
+permalink: pretty
 
 # ✅ DEFAULTS FOR SEO BOOST
 defaults:

@@ -11,9 +11,10 @@ ime: Vodoinstalater Miško Novi Sad – Od Adaptacije Kupatila do Instalacije Ce
 kategorija:
 - Vodoinstalater
 - Vodoinstalacije
+- Grejanje
 - Centralno Grejanje
-- Kupatila
-- Bojleri
+- Renoviranje kupatila
+- Popravka bojlera
 - Mašine za Sudove
 - Hitne Intervencije
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
@@ -36,7 +37,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-05'
-last_modified: '2025-11-05'
+last_modified: '2025-11-06'
 sections:
 - type: p
   content: U Novom Sadu, gde <em>bojler curi u 3 ujutru, a kupatilo čeka na novi život</em>
@@ -53,6 +54,13 @@ sections:
     za kupatila, grejanje, bojlere – i sve što curi ili ne radi. Možete još više pročitati
     o uslugama koje nudi kao i o recenzijama na zvaničnom <a href="https://vodoinstalaternovisad.com"
     target="_blank" rel="nofollow"><strong>vebsajtu</strong></a>.
+- type: p
+  content: Što se recenzija na Guglu tiče, ocene su izuzetne. U ovom trenutku ima
+    ocenu od 4.7 na osnovu 118 recenzija. Posebno sam bacio pogled na negativne recenzije,
+    koje se mahom tiču toga kako je usluga bila skupa, tipa naplatio je 4000 dinara
+    za 20 minuta posla, i slične scene... Uopšte ne ulazeći u pozadinu stvarnih događaja,
+    nezadovoljnih će uvek biti, međutim, ovo je svakako vodovodar koji ima veliki
+    broj zadovoljnih mušterija što uliva poverenje.
 - type: p
   content: "Kontaktirajte ga:<br>\U0001F4DE <strong>Telefon 24/7:</strong> <a href=\"tel:+381641340480\">+381
     64 134 04 80</a><br>\U0001F4CD <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/thcaWCAMVFk95ahT9\"
@@ -110,7 +118,7 @@ sections:
 - type: h2
   content: Gde Radi Miško – Novi Sad i Okolina
 - type: p
-  content: 'Baziran u <strong>Novi Sad</strong>, dolazi u:'
+  content: 'Baziran u <strong>Novom Sadu</strong>, dolazi u:'
 - type: ul
   items:
   - "<strong>Veternik, Futog</strong> – adaptacija kupatila"
