@@ -6,6 +6,7 @@ description: Igor – krečenje, gletovanje, gips ploče, demit fasade. Besplatn
   Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
 ime: Moler Igor Novi Sad – Zidovi Kao Ogledalo, Gips Kao Nov
 kategorija:
+- Moleraj
 - Krečenje
 - Gletovanje
 - Gipsarski Radovi
