@@ -127,7 +127,7 @@ sections:
     veoma brzo i jos brze otklonio kvar. Preporuka!
 - type: blockquote
   content: <strong><a href="https://share.google/v6xYXndtWudkOA1hR" target="_blank"
-    rel="nofollow">Biljana Milosavljevic</a>:</strong> Mlada,profesionalna,ekspeditivna
+    rel="nofollow">Biljana Milosavljevic</a>:</strong> Mlada, profesionalna, ekspeditivna
     i nenametljiva ekipa! Preporuka!
 - type: blockquote
   content: <strong><a href="https://share.google/kWSjAZuf7PUk17YqD" target="_blank"

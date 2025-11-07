@@ -1,6 +1,415 @@
 [
 
   {
+  "ime": "Daki Plast Sombor – REHAU Profili Koji Ne Propuštaju Ni Zvuk Ni Hladnoću",
+  "tip": "firma",
+  "kategorija": ["Stolarija", "PVC Stolarija", "ALU Stolarija", "Prozori", "Vrata", "Komarnici", "Rolo Vrata"],
+  "opis_kratak": "Daki Plast – 15+ godina u PVC i ALU stolariji. REHAU profili, besplatna procena, montaža u 18 opština. Sombor i Bačka.",
+  "mesto": ["Sombor", "Apatin", "Odžaci", "Kula", "Bačka Palanka", "Vrbas", "Subotica", "Bač", "Bečej", "Senta"],
+  "address": "Solunskih boraca bb, Sombor",
+  "telefon": "+38162606300",
+  "email": "dakiplast@gmail.com",
+  "website": "https://www.dakiplast.rs/",
+  "slug": "daki-plast-sombor-rehau-pvc-alu-stolarija",
+
+  "thumbnail": "images/daki-plast-sombor-pvc-alu-stolarija.webp",
+  "hero_image": "images/daki-plast-sombor-pvc-alu-stolarija.webp",
+
+  "discover_title": "Daki Plast Sombor – REHAU Profili Koji Ne Propuštaju Ni Zvuk Ni Hladnoću",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-07",
+  "last_modified": "2025-11-07",
+
+  "tips_title": "Kako da Vaši REHAU Prozori Budu Još Bolji",
+  "tips": [
+    "5-komorni profil – zimi +5°C unutra, račun manji za 30%",
+    "Argon u staklu – nema magle, bolja izolacija",
+    "Rolo komarnik – skida se zimi, nema insekata leti",
+    "Garažna rolo vrata – otvara se 1m od auta",
+    "Besplatna procena – tačna cena pre ugovora",
+    "Lajsna za završetak – zadržava toplotu, izgleda kao iz salona"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada prozor počne da zuji od vetra ili vrata puštaju hladnoću kao da su od kartona, većina misli da je kraj – vreme za novu kuću. Ali ne i u Somboru. Daki Plast uzima REHAU profile i pretvara stare otvore u energetske štitove – bez promaje, buke i visokih računa."
+    },
+    {
+      "type": "p",
+      "content": "Radionica je u Solunskih boraca bb, ali montažeri Daki Plasta viđaju se od Apatina do Subotice. 15 godina iskustva, 3000 ugradnji godišnje – i sve to sa besplatnim izlaskom na teren."
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta su REHAU Profili – Nemački Inženjering u Bačkoj"
+    },
+    {
+      "type": "p",
+      "content": "REHAU nije samo brend – to je garancija. Svaki profil izlazi iz nemačke fabrike sa 5 ili 6 komora, ojačan čeličnim armaturom, spreman da izdrži i somborske zime i letnje vrućine. Daki Plast ih seče, vari i ugrađuje kao da su deo porodice."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih na delu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38162606300\">+381 62 606 300</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:dakiplast@gmail.com\">dakiplast@gmail.com</a><br>🌐 <strong>Online:</strong> <a href=\"https://www.dakiplast.rs/\" target=\"_blank\" rel=\"nofollow\">dakiplast.rs</a><br>📍 <strong>Adresa:</strong> Solunskih boraca bb, Sombor"
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Izgleda REHAU u Akciji – Od Mere do Ključa"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta Daki Plast radi sa REHAU profilima:"
+    },
+    {
+      "type": "h3",
+      "content": "🏠 PVC Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Jednokrilni, dvokrilni, sa prečkom – 70mm dubina, 5 komora, U-vrednost 1.1 W/m²K. Staklo sa argonom, niskoemisiono – zimi toplo, leti hladno. Nema kondenzacije, nema buke sa ulice."
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Ulazna i Balkonska Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Sigurnosna brava u 3 tačke, prag bez stepenice, izolacija kao kod prozora. Otvaranje na kip – svež vazduh bez otvaranja celog krila."
+    },
+    {
+      "type": "h3",
+      "content": "☀️ Zaštita od Sunca"
+    },
+    {
+      "type": "p",
+      "content": "Roletne sa PUR penom, trakaste zavese, rolo zavese – sve se integriše u REHAU okvir. Nema dodatnih kutija, sve je u ravni."
+    },
+    {
+      "type": "h3",
+      "content": "🦟 Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Rolo, plise, fiksni – mreža od fiberglasa, ne puca, ne bledi. Skidaju se zimi, vraćaju leti."
+    },
+    {
+      "type": "h3",
+      "content": "🚗 Garažna Rolo Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Lamele 77mm, motor Somfy, daljinski – otvara se za 10 sekundi. Izolacija, tiho, bez izlaska iz auta po kiši."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Se Viđaju REHAU Profili Daki Plasta – Bačka na Delu"
+    },
+    {
+      "type": "p",
+      "content": "Startuju iz Sombora, ali REHAU profili putuju po:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Apatin, Odžaci</strong> – porodične kuće sa novim prozorima",
+        "<strong>Kula, Bačka Palanka</strong> – ALU vrata za poslovne objekte",
+        "<strong>Vrbas, Subotica</strong> – sobna vrata u novim zgradama",
+        "<strong>Bač, Bečej</strong> – roletne i komarnici",
+        "<strong>Senta</strong> – garažna rolo vrata na daljinski"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Rade sa REHAU – Korak po Korak"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – opisujete šta treba<br><strong>2. Dolaze besplatno</strong> – mere laserom<br><strong>3. Birate</strong> – boju, okov, staklo<br><strong>4. Ponuda</strong> – stiže za 24h<br><strong>5. Proizvodnja</strong> – 7–10 dana<br><strong>6. Montaža</strong> – 1 dan za stan<br><strong>7. Uživate</strong> – tiho, toplo, bez računa za grejanje"
+    },
+
+    {
+      "type": "h2",
+      "content": "Zašto REHAU preko Daki Plasta – Zato Što Ne Prave Kompromise"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "15+ godina iskustva – znaju svaki šraf",
+        "REHAU profili – nemački standard, domaća cena",
+        "Besplatni izlazak – nema „od oka“",
+        "Stručni montažeri – nema curenja posle kiše",
+        "Višeslojno staklo – izolacija kao u pasivnoj kući",
+        "4.1★ od 41 recenzije – klijenti se vraćaju"
+      ]
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/VkoejLN3GjexCxS3W\" target=\"_blank\" rel=\"nofollow\">Gordana Miljević</a>:</strong> U roku dve nedelje odrađeno sve, efikasni, tačni, kvalitetni, sigurno ću koristiti ponovo njihove usluge. Ostanite takvi 👍🏻 retkost ste u današnje vreme."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/ut9elVzDjfMEqXcbu\" target=\"_blank\" rel=\"nofollow\">Lukač Franja</a>:</strong> Dobar izvođač, dobar kvalitet, cene solidne, vredi sa njima raditi"
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>prozori stare, a računi rastu</strong> – REHAU preko Daki Plasta je pravi potez. Javite se na <a href=\"tel:+38162606300\"><strong>+381 62 606 300</strong></a> ili posetite <a href=\"https://www.dakiplast.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>dakiplast.rs</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "PVC Prozori REHAU",
+      "description": "5-komorni, argon staklo, U=1.1"
+    },
+    {
+      "title": "ALU Stolarija",
+      "description": "Luksuzni profili, za veće otvore"
+    },
+    {
+      "title": "Vrata",
+      "description": "Ulazna, balkonska, sobna – MDF i sigurnosne"
+    },
+    {
+      "title": "Zaštita",
+      "description": "Roletne, komarnici, trakaste zavese"
+    },
+    {
+      "title": "Garažna Rolo Vrata",
+      "description": "Motorizovana, daljinski, 77mm lamele"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko traje REHAU profil?",
+      "answer": "50+ godina – garancija 10 godina na boju i oblik"
+    },
+    {
+      "question": "Da li je staklo sa argonom?",
+      "answer": "Da – standardno, niskoemisiono, U=1.0"
+    },
+    {
+      "question": "Koliko traje montaža stana?",
+      "answer": "1 dan za 4–6 prozora"
+    },
+    {
+      "question": "Radite li van Sombora?",
+      "answer": "Da – 18 opština u Bačkoj"
+    },
+    {
+      "question": "Kako da dobijem ponudu?",
+      "answer": "Pozovite, dolazimo besplatno, ponuda za 24h"
+    }
+  ]
+},
+
+  {
+  "ime": "Proto Servis Novi Sad – Popravka Bele Tehnike",
+  "tip": "firma",
+  "kategorija": ["Popravka Frižidera", "Veš Mašine", "Klima Uređaji", "Šporeti", "Montaža"],
+  "opis_kratak": "Saša Nešković i Proto Servis – popravke, montaže, servisi bele tehnike. Garancija, kartice, fiskalni račun. Novi Sad, brzo na adresi.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "address": "Veselina Masleše, Novi Sad",
+  "telefon": "+381641189094",
+  "email": "proto-servis@outlook.com",
+  "website": "https://www.proto-servis.rs/",
+  "slug": "proto-servis-novi-sad-popravka-bele-tehnike",
+
+  "thumbnail": "images/proto-servis-novi-sad-popravka-bele-tehnike.webp",
+  "hero_image": "images/proto-servis-novi-sad-popravka-bele-tehnike.webp",
+
+  "discover_title": "Proto Servis Novi Sad – Popravka Bele Tehnike",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-07",
+  "last_modified": "2025-11-07",
+
+  "tips_title": "Neka Vaš Frižider Hladi, a Mašina Ne Skače",
+  "tips": [
+    "Kondenzator čistite usisivačem – hladi bolje, troši manje",
+    "Veš mašinu na 30°C bez omekšivača – kamenac beži",
+    "Klima filter operite sapunicom – vazduh svežiji",
+    "Ringla crvena? Isključite odmah – ne čekajte požar",
+    "Freon curi? Ne dopunjujte sami – pozovite nas",
+    "Račun čuvajte – koristite garanciju, bilo da je 6–12 meseci"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Kada frižider počne da bruji kao stari traktor ili veš mašina odluči da odigra valcer po kupatilu, većina nas vidi samo jedan izlaz – novu tehniku. Ali ne i Saša Nešković iz Proto Servisa. Njegova terenska ekipa dolazi na adresu, dijagnostikuje problem i vraća stvari u red – brzo, sa garancijom i bez iznenađenja na računu."
+    },
+    {
+      "type": "p",
+      "content": "Sedište je u ulici Veselina Masleše, ali vozila Proto Servisa viđaju se po celom Novom Sadu i okolini. Hitne intervencije? Stižu isti dan, često i pre nego što se mleko u frižideru ukvari."
+    },
+  
+    {
+      "type": "h2",
+      "content": "Saša Nešković – Čovek Koji Zna Zašto Vaša Mašina Ne Centrifugira"
+    },
+    {
+      "type": "p",
+      "content": "Godine rada sa Gorenjem, Boschom, LG-jem i ostalim velikanima bele tehnike pretvorile su Proto Servis u pouzdanog partnera svetskih brendova. Svaki kvar za Sašu je priča, a on je savršeni prevodilac."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih u letu:<br>📞 <strong>Viber / WhatsApp / Poziv:</strong> <a href=\"tel:+381641189094\">+381 64 118 90 94</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:proto-servis@outlook.com\">proto-servis@outlook.com</a><br>🌐 <strong>Online:</strong> <a href=\"https://www.proto-servis.rs/\" target=\"_blank\" rel=\"nofollow\">proto-servis.rs</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/JjpeHgsjDPM1CvUA9\" target=\"_blank\" rel=\"nofollow\">Veselina Masleše, Novi Sad</a><br>🕒 <strong>Radno:</strong> Pon–Pet 9–19h | Sub 9–14h"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Popravljaju? Skoro Sve Što Ima Utičnicu Ili Crevo"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta Proto Servis drži u svom arsenalu:"
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Frižideri & Zamrzivači"
+    },
+    {
+      "type": "p",
+      "content": "Ne hladi? Buji? Curka? Menjaju kompresor, termostat, dihtung, ventilatore. Punjenje freona (R600a, R134a, R32) ide kao po špagi. NoFrost sistem čiste od leda kao da ga nikad nije ni bilo."
+    },
+    {
+      "type": "h3",
+      "content": "🌀 Veš Mašine & Sudomašine"
+    },
+    {
+      "type": "p",
+      "content": "Ne centrifuge? Ne greje vodu? Menjaju pumpe, grejače, ležajeve, elektroniku. Čiste kamenac, popravljaju bravu – veš izlazi suv i mirisan, a mašina više ne skače po pločicama."
+    },
+    {
+      "type": "h3",
+      "content": "❄️ Klima Uređaji"
+    },
+    {
+      "type": "p",
+      "content": "Montaža na zid, čišćenje filtera, dezinfekcija, dopuna freona. Godišnji servis pre leta – da ne duva toplo kad je napolju +35°C."
+    },
+    {
+      "type": "h3",
+      "content": "🍳 Šporeti, Rerne, Ploče"
+    },
+    {
+      "type": "p",
+      "content": "Ringla ne greje? Vrata ne zatvaraju? Menjaju grejače, prekidače, šarke, stakla. Čiste od masnoće – rerna izlazi kao iz salona."
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Montaža i Preventiva"
+    },
+    {
+      "type": "p",
+      "content": "Ugrađuju novu tehniku, niveliraju, povezuju na vodu/struju/odvod. Redovni servisi sprečavaju kvarove pre nego što se dese."
+    },
+  
+    {
+      "type": "h2",
+      "content": "Gde Ih Nalazimo? Tamo Gde Je Kvar – Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Startuju iz Veselina Masleše, ali vozila viđaju po:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Liman, Telep</strong> – klima servisi pre leta",
+        "<strong>Veternik, Futog</strong> – veš mašine koje plešu",
+        "<strong>Petrovaradin, Detelinara</strong> – frižideri koji ne hlade",
+        "<strong>Sremska Kamenica, Rumenka</strong> – šporeti sa pregorelim ringlama",
+        "<strong>Beočin, Kać</strong> – hitne intervencije"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade? Korak po Korak, Bez Stresa"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – poziv, SMS, Viber, WhatsApp<br><strong>2. Opišite kvar</strong> – marka, model, šta radi (ili ne radi)<br><strong>3. Dogovorite cenu</strong> – unapred, bez iznenađenja<br><strong>4. Dolaze</strong> – tačno u dogovoreno vreme<br><strong>5. Popravljaju</strong> – sa zaštitom poda, bez buke<br><strong>6. Testiraju</strong> – sve radi pre odlaska<br><strong>7. Plaćate</strong> – fiskalni račun, kartice dobrodošle"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Proto Servis? Zato Što Ne Ostavljaju Kvarove na Čekanju"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Hitne intervencije isti dan – mleko se neće ukvariti",
+        "Garancija 6–12 meseci – na rad i delove",
+        "Transparentna cena – znate pre nego što krene",
+        "Fiskalni račun + kartice – sve po zakonu",
+        "Saradnja sa brendovima – originalni delovi",
+        "Čisto posle rada – zaštita, usisivač, red"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vam <strong>tehnika pravi probleme</strong> – Proto Servis je pravi lek. Javite se na <a href=\"tel:+381641189094\"><strong>+381 64 118 90 94</strong></a> ili posetite <a href=\"https://www.proto-servis.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>proto-servis.rs</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Frižideri",
+      "description": "Kompresor, freon, dihtung, NoFrost."
+    },
+    {
+      "title": "Veš Mašine",
+      "description": "Pumpe, ležajevi, grejači, elektronika."
+    },
+    {
+      "title": "Klima Uređaji",
+      "description": "Montaža, servis, dezinfekcija."
+    },
+    {
+      "title": "Šporeti",
+      "description": "Ringli, šarke, stakla, tajmeri."
+    },
+    {
+      "title": "Montaža",
+      "description": "Nova tehnika, nivelisanje, povezivanje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Hitne intervencije isti dan – često za 2–3 sata."
+    },
+    
+    {
+      "question": "Može li kartica?",
+      "answer": "Da – Master, Visa, Maestro."
+    },
+    {
+      "question": "Radite li subotom?",
+      "answer": "Da – 9–14h."
+    },
+    {
+      "question": "Dolazite li u Veternik?",
+      "answer": "Da – ceo Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Poziv, SMS, Viber, WhatsApp na +381 64 118 90 94"
+    }
+  ]
+},
+
+  {
   "ime": "Električar Miodrag Sliva Novi Sad – Struja Koja Radi za Vas",
   "tip": "majstor",
   "kategorija": ["Električar", "Elektroinstalacije", "Osvetljenje", "Smart Home", "Bezbednosni Sistemi", "EV Punjači"],
@@ -159,7 +568,7 @@
     },
     {
       "type": "blockquote",
-      "content": "<strong><a href=\"https://share.google/v6xYXndtWudkOA1hR\" target=\"_blank\" rel=\"nofollow\">Biljana Milosavljevic</a>:</strong> Mlada,profesionalna,ekspeditivna i nenametljiva ekipa! Preporuka!"
+      "content": "<strong><a href=\"https://share.google/v6xYXndtWudkOA1hR\" target=\"_blank\" rel=\"nofollow\">Biljana Milosavljevic</a>:</strong> Mlada, profesionalna, ekspeditivna i nenametljiva ekipa! Preporuka!"
     },
     {
       "type": "blockquote",
