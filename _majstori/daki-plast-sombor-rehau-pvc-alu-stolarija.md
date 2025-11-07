@@ -6,6 +6,7 @@ description: Daki Plast – 15+ godina u PVC i ALU stolariji. REHAU profili, bes
   Palanka, Vrbas, Subotica, Bač, Bečej, Senta.
 ime: Daki Plast Sombor – REHAU Profili Koji Ne Propuštaju Ni Zvuk Ni Hladnoću
 kategorija:
+- Stolarija
 - PVC Stolarija
 - ALU Stolarija
 - Prozori

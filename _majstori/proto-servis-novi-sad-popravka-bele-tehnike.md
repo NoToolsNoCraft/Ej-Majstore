@@ -55,8 +55,8 @@ sections:
     <strong>Online:</strong> <a href=\"https://www.proto-servis.rs/\" target=\"_blank\"
     rel=\"nofollow\">proto-servis.rs</a><br>\U0001F4CD <strong>Adresa:</strong> <a
     href=\"https://maps.app.goo.gl/JjpeHgsjDPM1CvUA9\" target=\"_blank\" rel=\"nofollow\">Veselina
-    Masleše, Novi Sad</a><br>\U0001F552 <strong>Radno:</strong> Pon–Pet 9–19h | Sub
-    9–14h"
+    Masleše, Novi Sad</a><br>\U0001F552 <strong>Radno Vreme:</strong> Pon–Pet 9–19h
+    | Sub 9–14h"
 - type: h2
   content: Šta Popravljaju? Skoro Sve Što Ima Utičnicu Ili Crevo
 - type: p

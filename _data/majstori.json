@@ -1,6 +1,413 @@
 [
 
   {
+  "ime": "Miloš Moler Sombor – Zidovi Koji Oživljavaju Prostore",
+  "tip": "majstor",
+  "kategorija": ["Moleraj", "Krečenje", "Gletovanje", "Sahara Tehnika", "Demit Fasada", "Renoviranje Lokala"],
+  "opis_kratak": "Miloš – krečenje, gletovanje, Sahara, demit fasada, renoviranje lokala. Tehnika Sahara, skidanje tapeta, tretiranje vlage. Sombor i okolina.",
+  "mesto": ["Sombor", "Apatin", "Bezdan", "Svetozar Miletić", "Kljajićevo", "Gakovo"],
+  "address": "Sombor",
+  "telefon": "+381654873376",
+  "email": "",
+  "website": "https://www.facebook.com/molersombor",
+  "slug": "milos-moler-sombor-krecenje-gletovanje-sahara",
+
+  "thumbnail": "images/milos-moler-sombor-krecenje-gletovanje-sahara.webp",
+  "hero_image": "images/milos-moler-sombor-krecenje-gletovanje-sahara.webp",
+
+  "discover_title": "Miloš Moler Sombor – Zidovi Koji Oživljavaju Prostore",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-07",
+  "last_modified": "2025-11-07",
+
+  "tips_title": "Neka Vaši Zidovi Budu Dugotrajni",
+  "tips": [
+    "Sahara tehnika – zidovi dišu, vlage beži",
+    "Gletovanje u dva sloja – ravno kao staklo",
+    "Demit fasada 10cm – toplina zimi, hladnoća leti",
+    "Skidanje tapeta parom – bez oštećenja zida",
+    "Tretiranje vlage belilom – plesenje curi",
+    "Krečenje sa valjkom – brže, ravnomerno"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "U Somboru, gde <em>zidovi čekaju na dah, a fasade na toplinu</em> – Miloš dolazi sa četkama i iskustvom. Krečenje, gletovanje, Sahara, demit fasada – on ih pretvara u <em>prostore koji dišu, sijaju i traju</em>."
+    },
+    {
+      "type": "p",
+      "content": "Živi i radi u Somboru, ali pokriva i okolna mesta. Od renoviranja lokala do renoviranja kuće – sve sa fokusom na kvalitet i realnu cenu."
+    },
+
+    {
+      "type": "h2",
+      "content": "Miloš Moler – Čovek Koji Zna Kako Zidovi Žive"
+    },
+    {
+      "type": "p",
+      "content": "Lokalni majstor sa <strong>godinama u boji i gipsu</strong>. Specijalista za unutrašnje i spoljašnje radove – od skidanje tapeta do tretiranja vlage."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ga na delu:<br>📞 <strong>Poziv / Viber:</strong> <a href=\"tel:+381654873376\">+381 65 487 3376</a><br>📷 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/majstor.moler.sombor\" target=\"_blank\" rel=\"nofollow\">Instagram profil</a><br>🌐 <strong>Facebook:</strong> <a href=\"mailto:molersombor@gmail.com\">Facebook stranica</a><br>📍 <strong>Lokacija:</strong> Sombor (teren po dogovoru)"
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Miloš Radi – Korak po Korak do Savršenog Zida"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta Miloš donosi na vaša vrata:"
+    },
+    {
+      "type": "h3",
+      "content": "🎨 Krečenje"
+    },
+    {
+      "type": "p",
+      "content": "Unutrašnji zidovi, plafoni – Jupol, perive boje. Svetle nijanse proširuju sobu, vertikalne šrafte dižu plafon, horizontalne šire zid. Šablon, dekorativne tehnike – dve ruke za ravnomernost."
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Gletovanje"
+    },
+    {
+      "type": "p",
+      "content": "Dva sloja fina masa, šmirglanje 180–240 granulacija, grundiranje pre boje. Popravka rupa, neravnina, uklanjanje španskog zida. Zidovi glatki kao ogledalo – nema talasanja pod svetlom."
+    },
+    {
+      "type": "h3",
+      "content": "🏗 Gipsarski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Knauf gips ploče, CD/UD profili, kamena vuna 5cm. Spušteni plafoni, pregradni zidovi, niše, police. Gips diše, reguliše vlagu, zvučna izolacija +5dB, otporan na vatru."
+    },
+    {
+      "type": "h3",
+      "content": "🌟 Sahara Tehnika"
+    },
+    {
+      "type": "p",
+      "content": "Sahara – zidovi dišu, vlage beži. Idealno za kupatila i kuhinje – nema buđi, nema vlage."
+    },
+    {
+      "type": "h3",
+      "content": "🏠 Renoviranje Lokala"
+    },
+    {
+      "type": "p",
+      "content": "Krpjenje fasade, farbanje stolarije, krečenje – renoviranje lokala za novi početak."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Gde Radi Miloš – Sombor i Bačka"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Somboru</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Apatin</strong> – krečenje stanova",
+        "<strong>Kupusina, Gakovo</strong> – gletovanje kuća",
+        "<strong>Bezdan</strong> – gips pregradni zidovi",
+        "<strong>Svetozar Miletić</strong> – Sahara u kupatilima",
+        "<strong>Kljajićevo</strong> – renoviranje lokala"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Kako Radi Miloš – Korak po Korak do Savršenog Zidova"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opisite prostor i stil<br><strong>2. Dolazak</strong> – procena, savet<br><strong>3. Ponuda</strong> – cena po m², rok<br><strong>4. Rad</strong> – priprema, glet, Sahara<br><strong>5. Završetak</strong> – čišćenje, predaja"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Miloš Moler – Ključne Prednosti"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Sahara tehnika – zidovi dišu, vlage beži",
+        "Demit fasada 10cm – toplina zimi, hladnoća leti",
+        "Gletovanje u dva sloja – ravno kao staklo",
+        "Skidanje tapeta parom – bez oštećenja",
+        "Tretiranje vlage belilom – plesenje curi",
+        "Krečenje sa valjkom – brže, ravnomerno"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Ako vaš <strong>stan čeka na novu boju</strong> – Miloš je pravi izbor. Uhvatite ga na <a href=\"tel:+381654873376\"><strong>+381 65 487 3376</strong></a> ili posetite <a href=\"https://www.instagram.com/majstor.moler.sombor\" target=\"_blank\" rel=\"nofollow\"><strong>Instagram</strong></a> i <a href=\"https://www.facebook.com/molersombor\" target=\"_blank\" rel=\"nofollow\"><strong>Facebook</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Krečenje",
+      "description": "Unutrašnji zidovi, plafoni – perive boje, šrafte."
+    },
+    {
+      "title": "Gletovanje",
+      "description": "Dva sloja, ravno, bez talasanja."
+    },
+    {
+      "title": "Gipsarski Radovi",
+      "description": "Ploče, pregradni zidovi, spušteni plafoni."
+    },
+    {
+      "title": "Sahara Tehnika",
+      "description": "Dihajući zidovi – za kupatila i kuhinje."
+    },
+    {
+      "title": "Renoviranje Lokala",
+      "description": "Krpjenje fasade, farbanje stolarije."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta krečenje po m²?",
+      "answer": "Procena na licu mesta – po dogovoru."
+    },
+    {
+      "question": "Radite li Sahara tehniku?",
+      "answer": "Da – zidovi dišu, vlage beži."
+    },
+    {
+      "question": "Koliko traje gletovanje sobe?",
+      "answer": "1–2 dana za 20m² – brzo i čisto."
+    },
+    {
+      "question": "Dolazite li van Sombora?",
+      "answer": "Da – sva okolna mesta."
+    },
+    {
+      "question": "Da li skidete tapete?",
+      "answer": "Da – parom, bez oštećenja zida."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 65 487 3376 ili poruka na Instagram/Facebook."
+    }
+  ]
+},
+
+  {
+  "ime": "Električar i Majstor za Klime Apatin, ali i šire",
+  "tip": "majstor",
+  "kategorija": ["Električar", "Električarski Radovi", "Ugradnja Klima", "Servis Klima", "EV Punjači"],
+  "opis_kratak": "Apatinski majstor – sam svoj gazda: inverter klime, elektro instalacije, EV punjači. Brzo, precizno, bez tima.",
+  "mesto": ["Apatin", "Sombor", "Bezdan", "Bački Breg", "Gložan", "Stapar"],
+  "address": "Ulica Svetog Save 47, Apatin",
+  "telefon": "+381629716142",
+  "email": "",
+  "website": "https://elektricar-i-klima-47ejw1y.gamma.site/",
+  "slug": "elektricar-klima-apatin-samostalni-majstor",
+
+  "thumbnail": "images/elektricar-klima-apatin-samostalni-majstor.webp",
+  "hero_image": "images/elektricar-klima-apatin-samostalni-majstor.webp",
+
+  "discover_title": "Električar i Majstor za Klime Apatin, ali i šire",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-07",
+  "last_modified": "2025-11-07",
+
+  "tips_title": "Lekcije pri kupovini i održavanju Klime i Elektrike",
+  "tips": [
+    "Inverter klima – štedi 40% struje, tiha kao šapat",
+    "Servis pre leta – dezinfekcija filtera, nema plesni",
+    "EV punjač 7kW – punjenje preko noći, bez čekanja",
+    "USB utičnice – punjenje telefona bez adaptera",
+    "Senzori pokreta – svetlo samo kad treba",
+    "Transparentne cene – ponuda pre rada, nema iznenađenja"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada klima duva toplo kao fen za kosu, a struja treperi kao na disko-podu, većina pomisli da je kraj – vreme za selidbu na severni pol. Ali ne u Apatinu. Jedan čovek – apatinski majstor – uzima inverter klime i pametne instalacije i pretvara vaš stan u ledenu oazu – sam, bez tima, bez drame."
+    },
+    {
+      "type": "p",
+      "content": "Radionica mu je u Ulici Svetog Save 47, ali se redovno viđa na relaciji od Apatina do Sombora. Brza reakcija, sertifikovani alat – i sve to bez „ekipe“ koja kasni. On dolazi, on radi, on testira."
+    },
+
+    {
+      "type": "h2",
+      "content": "Kao Da Ima Četiri Ruke"
+    },
+    {
+      "type": "p",
+      "content": "Profesionalan alat i godine iskustva. Od Daikina do Boscha, od EV punjača do USB utičnica – svaki posao završava lično."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ga na delu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381629716142\">+381 62 971 6142</a><br>🌐 <strong>Online:</strong> <a href=\"https://elektricar-i-klima-47ejw1y.gamma.site/\" target=\"_blank\" rel=\"nofollow\">elektricar-i-klima-47ejw1y.gamma.site</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/tmBeLwFwGT2DxoaHA\" target=\"_blank\" rel=\"nofollow\">Ulica Svetog Save 47, Apatin</a><br>🕒 <strong>Radno:</strong> Pon–Pet 9–16h | Sub 9–14h"
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Izgleda Posao – Od Poziva do Odgovarajućeg Vazduha"
+    },
+    {
+      "type": "p",
+      "content": "Evo koje usluge ovaj električar pokriva:"
+    },
+    {
+      "type": "h3",
+      "content": "❄️ Ugradnja Klima Uređaja"
+    },
+    {
+      "type": "p",
+      "content": "Split, multisplit, inverter – dolazi, meri, buši, montira za 2–4 sata. Cevovod 3–5m, testira na licu mesta. Savetuje po kvadraturi – da ne hladi previše ili premalo."
+    },
+    {
+      "type": "h3",
+      "content": "⚡ Električarski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Nove instalacije, popravke, osiguranje, USB utičnice, EV punjači 7–22kW. Postavlja zaštitu od prenapona – vaš TV i frižider su bezbedni."
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Servis Klima"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje filtera, dezinfekcija, dopuna freona. Godišnji servis pre leta – da ne duva toplo kad je +35°C. Sve sam, bez pomoćnika."
+    },
+    {
+      "type": "h3",
+      "content": "💡 Savetovanje"
+    },
+    {
+      "type": "p",
+      "content": "Lični saveti za izbor klime, poziciju, elektriku. Posle montaže – uvek dostupan za pitanja."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Se Viđa Ovaj Majstor – Zapadna Bačka na Delu"
+    },
+    {
+      "type": "p",
+      "content": "Startuje iz Apatina, ali putuje po okruženju:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Apatin, Bezdan</strong> – split klime za stanove",
+        "<strong>Sombor, Kupusina</strong> – elektro popravke u kućama",
+        "<strong>Prigrevica, Stapar</strong> – EV punjači za garaže",
+        "<strong>Svilojevo, Sonta</strong> – servis multisplit sistema",
+        "<strong>Doroslovo, Srpski Miletić</strong> – nove instalacije za poslovne prostore"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Radi – Korak po Korak"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – opisujete problem<br><strong>2. Dolazi</strong> – procena, savet<br><strong>3. Ponuda</strong> – transparentna, lično<br><strong>4. Montaža</strong> – 2–4 sata, čisto<br><strong>5. Testiranje</strong> – sve radi pre odlaska<br><strong>6. Obuka</strong> – kako koristiti, održavati<br><strong>7. Uživate</strong> – hladno, tiho, bez računa"
+    },
+
+    {
+      "type": "h2",
+      "content": "Birajte majstora bez Posrednika"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Brza reakcija – dolazi isti dan",
+        "Transparentne cene – nema „ekipe“ koja naplaćuje više",
+        "Sertifikovani alat – sve radi lično",
+        "Garancija na rad – u skladu sa zakonom"
+       
+      ]
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/So1o0K5z2yn6XVCu4\" target=\"_blank\" rel=\"nofollow\">Aleksandar Mladenović</a>:</strong> Profesionalno i precizno, sve pohvale."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/hljTjoa3YUzY2mVeu\" target=\"_blank\" rel=\"nofollow\">Jovica Vujkov</a>:</strong> Sve radove majstor je obavio profesionalno"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/DQT4WUHzL8e9rzt3b\" target=\"_blank\" rel=\"nofollow\">Marko Jeremić</a>:</strong> Brzo,tacno,precizno,pouzdano 👍🫵👌"
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>treba hladnoća leti ili struja koja radi</strong> – ovaj majstor iz Apatina je pravi potez. Javite se na <a href=\"tel:+381629716142\"><strong>+381 62 971 6142</strong></a> ili posetite <a href=\"https://elektricar-i-klima-47ejw1y.gamma.site/\" target=\"_blank\" rel=\"nofollow\"><strong>sajt</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Ugradnja Klima Uređaja",
+      "description": "Split, multisplit, inverter – 2–4 sata."
+    },
+    {
+      "title": "Električarski Radovi",
+      "description": "Instalacije, popravke, osiguranje, EV punjači."
+    },
+    {
+      "title": "Servis Klima",
+      "description": "Čišćenje, dezinfekcija, dopuna freona – lično."
+    },
+    {
+      "title": "Savetovanje",
+      "description": "Izbor modela, optimalna ugradnja – 1 na 1."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko traje montaža klime?",
+      "answer": "2–4 sata – testira pre odlaska."
+    },
+    {
+      "question": "Da li nudite garanciju?",
+      "answer": "Da – na rad i uređaje po zakonu."
+    },
+    {
+      "question": "Radite li EV punjače?",
+      "answer": "Da – 7–22kW, sa zaštitom, lično."
+    },
+    {
+      "question": "Kako da dobijem ponudu?",
+      "answer": "Pozovite – ponuda odmah."
+    },
+    {
+      "question": "Koliko košta servis klime?",
+      "answer": "Od 5000 din – uključuje dezinfekciju i provere."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 62 971 6142 – odgovara lično."
+    }
+  ]
+},
+
+  {
   "ime": "Daki Plast Sombor – REHAU Profili Koji Ne Propuštaju Ni Zvuk Ni Hladnoću",
   "tip": "firma",
   "kategorija": ["Stolarija", "PVC Stolarija", "ALU Stolarija", "Prozori", "Vrata", "Komarnici", "Rolo Vrata"],
@@ -263,7 +670,7 @@
     },
     {
       "type": "p",
-      "content": "Uhvatite ih u letu:<br>📞 <strong>Viber / WhatsApp / Poziv:</strong> <a href=\"tel:+381641189094\">+381 64 118 90 94</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:proto-servis@outlook.com\">proto-servis@outlook.com</a><br>🌐 <strong>Online:</strong> <a href=\"https://www.proto-servis.rs/\" target=\"_blank\" rel=\"nofollow\">proto-servis.rs</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/JjpeHgsjDPM1CvUA9\" target=\"_blank\" rel=\"nofollow\">Veselina Masleše, Novi Sad</a><br>🕒 <strong>Radno:</strong> Pon–Pet 9–19h | Sub 9–14h"
+      "content": "Uhvatite ih u letu:<br>📞 <strong>Viber / WhatsApp / Poziv:</strong> <a href=\"tel:+381641189094\">+381 64 118 90 94</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:proto-servis@outlook.com\">proto-servis@outlook.com</a><br>🌐 <strong>Online:</strong> <a href=\"https://www.proto-servis.rs/\" target=\"_blank\" rel=\"nofollow\">proto-servis.rs</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/JjpeHgsjDPM1CvUA9\" target=\"_blank\" rel=\"nofollow\">Veselina Masleše, Novi Sad</a><br>🕒 <strong>Radno Vreme:</strong> Pon–Pet 9–19h | Sub 9–14h"
     },
     {
       "type": "h2",
