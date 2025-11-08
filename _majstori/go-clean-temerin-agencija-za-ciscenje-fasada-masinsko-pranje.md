@@ -31,8 +31,8 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
-date: '2025-11-07'
-last_modified: '2025-11-07'
+date: '2025-11-08'
+last_modified: '2025-11-08'
 sections:
 - type: p
   content: Kada fasada počne da liči na umetničko delo od mahovine, a podovi su lepljivi
