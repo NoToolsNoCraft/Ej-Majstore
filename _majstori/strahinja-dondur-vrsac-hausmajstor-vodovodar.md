@@ -11,7 +11,7 @@ kategorija:
 - Popravke
 - Kačenje Elemenata
 mesto: Vršac
-address: Omladinski Trg 4/24, Vršac
+address: Pop Marinkova 11, Vršac
 kontakt_telefon: "+381612051985"
 email: ''
 googlemaps: ''
@@ -44,7 +44,7 @@ sections:
 - type: p
   content: "Uhvatite ga na delu:<br>\U0001F4DE <strong>Poziv / SMS / Viber:</strong>
     <a href=\"tel:+381612051985\">+381 61 205 1985</a><br>\U0001F4CD <strong>Adresa:</strong>
-    Omladinski Trg 4/24, Vršac<br>\U0001F552 <strong>Dostupan:</strong> 0-24 | 7 dana
+    Pop Marinkova 11, Vršac<br>\U0001F552 <strong>Dostupan:</strong> 0-24 | 7 dana
     u nedelji"
 - type: h2
   content: Šta Strahinja Popravlja – Od Kapljice do Police
@@ -107,7 +107,7 @@ faq:
 - question: Imate li delove?
   answer: Da – slavine, sifoni, brave – originalni.
 - question: Radite li van Vršca?
-  answer: Da – Bela Abbey, Pančevo, Kovin i okolina.
+  answer: Da – Bela Crkva, Pančevo, Kovin i okolina.
 - question: Koliko traje zamena bojlera?
   answer: 2–3 sata – testiramo pre odlaska.
 - question: Kako da vas kontaktiram?
