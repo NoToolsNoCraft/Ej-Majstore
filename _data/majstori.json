@@ -1,6 +1,861 @@
 [
 
   {
+  "ime": "Vizija Servis Beograd – Agencija za Čišćenje svih vrsta objekata",
+  "tip": "firma",
+  "kategorija": ["Agencija za čišćenje", "Čišćenje", "Dubinsko Pranje", "Održavanje Zgrada", "Mašinsko Čišćenje", "Pranje Tepiha"],
+  "opis_kratak": "Vizija Servis – porodična firma od 2000. Čišćenje objekata, zgrada, posle radova, dubinsko pranje tepiha, nameštaja, automobila. Beograd, profesionalno, ekološki.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Voždovac", "Palilula", "Surčin", "Obrenovac", "Mladenovac", "Sremčica", "Lazarevac"],
+  "address": "Tršćanska 70, Zemun, Beograd",
+  "telefon": "+381113610569",
+  "email": "vizija.servis@gmail.com",
+  "website": "https://www.vizijaservis.rs/",
+  "slug": "vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje",
+
+  "thumbnail": "images/vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje.webp",
+  "hero_image": "images/vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje.webp",
+
+  "discover_title": "Vizija Servis Beograd – Agencija za Čišćenje svih vrsta objekata",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-08",
+  "last_modified": "2025-11-08",
+
+  "tips_title": "Neka Vaš Prostor Budi Svež i Bez Neprijatnih Mirisa",
+  "tips": [
+    "Dubinsko pranje tepiha – ekstrakcija 80°C, bez vlage posle",
+    "Mašinsko pranje podova – rotirajuća četka, vosak za sjaj",
+    "Auto enterijer – ozon za miris, bez hemije",
+    "Stakla na visini – teleskop 12m, bez tragova",
+    "Posle radova – usisivač 3000W, prašina nestaje",
+    "Redovno održavanje – 20% jeftinije, uvek čisto"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada prašina od maltera pokrije sve, tepih miriše na psa, a stakla su mutnija od magle – većina pomisli da se prostorija nikada neće očistiti. Ali ne u Beogradu. Vizija Servis dolazi sa mašinama, osmehom i preko 20 godina iskustva – i pretvara haos u <em>sjaj koji se oseća čak i zatvorenih očiju</em>."
+    },
+    {
+      "type": "p",
+      "content": "Porodična firma iz Zemuna, od 2000. Čiste ambasade, fakultete, vrtiće – i vaš stan. <strong>Bez fleka, bez mirisa, bez izgovora</strong>."
+    },
+
+    {
+      "type": "h2",
+      "content": "Vizija Servis – Porodica Koja Čisti Kao Da Je Njihov Dom"
+    },
+    {
+      "type": "p",
+      "content": "Nisu samo čistači – oni su <strong>higijenski superheroji</strong>. Obučeni kadar, savremene mašine, ekološka sredstva – i sve to sa profesionalnošću koja traje od 2000."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih na delu:<br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381112610569\">011 2610 569</a><br>📞 <strong>Mobilni:</strong> <a href=\"tel:+38163310589\">063 310 589</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.vizijaservis.rs/\" target=\"_blank\" rel=\"nofollow\">vizijaservis.rs</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/PranjeINamestajaICiscenje\" target=\"_blank\" rel=\"nofollow\">fb.com/PranjeINamestajaICiscenje</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/xNNNx8N8MgDorNTa6\" target=\"_blank\" rel=\"nofollow\">Tršćanska 70, Zemun</a>"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta Vizija Čisti – Od Podruma do Nebesa"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta donose u vaš prostor – sa detaljima:"
+    },
+    {
+      "type": "h3",
+      "content": "🏢 Čišćenje i Održavanje Objekata"
+    },
+    {
+      "type": "p",
+      "content": "Dnevno, nedeljno, mesečno – kancelarije, prodavnice, ambulante. Usisavanje, ribanje, dezinfekcija. Rotacione mašine, parni čistači, ekološka sredstva. Redovni tim – uvek isti ljudi, uvek isti kvalitet."
+    },
+    {
+      "type": "h3",
+      "content": "🏠 Održavanje Zgrada"
+    },
+    {
+      "type": "p",
+      "content": "Ulazi, hodnici, liftovi, stepeništa. Pranje podova, čišćenje poštanskih sandučića, zamena sijalica. Ugovori sa zgradama – mesečna cena, uvek čisto. Dezinfekcija rukohvata, gel za ruke."
+    },
+    {
+      "type": "h3",
+      "content": "🔨 Čišćenje Posle Građevinskih Radova"
+    },
+    {
+      "type": "p",
+      "content": "Industrijski usisivači 3000W, ribanje maltera, pranje prozora. Skidanje zaštitne folije, čišćenje fuga. Velike površine – tim od 5, gotovo za dan. Bez prašine, bez tragova."
+    },
+    {
+      "type": "h3",
+      "content": "🧽 Dubinsko Pranje Tepiha"
+    },
+    {
+      "type": "p",
+      "content": "Ekstrakcija vrućom vodom 80°C, rotirajuća četka, sušenje 4–6h. Uklanjanje fleka od vina, kafe, ljubimaca. Preuzimanje i dostava – ili na licu mesta. Tepisi kao novi, bez mirisa."
+    },
+    {
+      "type": "h3",
+      "content": "🚗 Dubinsko Pranje Automobila"
+    },
+    {
+      "type": "p",
+      "content": "Unutrašnjost – sedišta, tepisi, plafon, prtljažnik. Ekstrakcija, ozon za miris, poliranje plastike. Bez vlage posle, sušenje ventilatorima. Miris novog auta – zagarantovano."
+    },
+    {
+      "type": "h3",
+      "content": "🛋 Dubinsko Pranje Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Kauči, fotelje, stolice, dušeci. Injekcija/ekstrakcija, uklanjanje dlaka, fleka, grinja. Tkanina, eko-koža, velur – sve ide. Sušenje 6–8h, bez deformacije."
+    },
+    {
+      "type": "h3",
+      "content": "🪟 Pranje Staklenih Površina"
+    },
+    {
+      "type": "p",
+      "content": "Prozori, izlozi, stakleni zidovi – do 12m visine. Teleskopske šipke, demineralizovana voda, bez tragova. Unutrašnje/spoljašnje, čišćenje okvira. Sjaj bez mrlja."
+    },
+    {
+      "type": "h3",
+      "content": "🏭 Mašinsko Čišćenje Magacina i Garaža"
+    },
+    {
+      "type": "p",
+      "content": "Velike površine – ribanje, poliranje, uklanjanje ulja. Mašine za čišćenje 1000m²/h. Redovno održavanje – ugovori za firme. Bez prašine, bez klizanja."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Radi Vizija – Beograd Blista"
+    },
+    {
+      "type": "p",
+      "content": "Startuju iz <strong>Zemuna</strong>, ali čiste po:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Novi Beograd, Voždovac</strong> – kancelarije, posle radova",
+        "<strong>Palilula, Surčin</strong> – zgrade, dubinsko pranje",
+        "<strong>Obrenovac, Mladenovac</strong> – magacini, garaže",
+        "<strong>Sremčica, Lazarevac</strong> – tepisi, nameštaj",
+        "<strong>Centar Beograda</strong> – ambasade, fakulteti"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Rade – Korak po Korak do Sjaja"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – poziv, mail, forma<br><strong>2. Procena</strong> – besplatna, na licu mesta<br><strong>3. Ponuda</strong> – detaljna, sa rokom<br><strong>4. Čišćenje</strong> – tim, mašine, ekološki<br><strong>5. Kontrola</strong> – sve provereno pre odlaska<br><strong>6. Uživate</strong> – čisto, sveže, bez mirisa"
+    },
+
+    {
+      "type": "h2",
+      "content": "Zašto Vizija – Zato Što Čistoća Nije Slučajnost"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Od 2000. – 24 godine bez fleka",
+        "Porodična firma – lični pristup",
+        "Savremene mašine – Karcher, Numatic, Taski",
+        "Ekološka sredstva – bezbedno za decu, ljubimce",
+        "Obučeni kadar – uvek isti tim",
+        "4.9★ od 15 recenzija – klijenti se vraćaju"
+      ]
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/xeX0bVBwsGHpv8FEs\" target=\"_blank\" rel=\"nofollow\">Game Centar</a>:</strong> Jedan od boljih servisa, prezadovoljni smo uslugom u našoj MP Terazije, 24. Sve pohvale za Zlatka!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/qqD3wawCPUsIY2r4c\" target=\"_blank\" rel=\"nofollow\">Mirko Rakić</a>:</strong> U ovom današnjem vremenu gde za bilo kakve vrste usluga ljudi \"deru\" sa cenom, za mene su ovi najpošteniji a kvalitet im opet duplo bolji od ovih skupljih. Preporuke od mene!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/EvdkO0ycjTCBDcGgJ\" target=\"_blank\" rel=\"nofollow\">Mira Radović</a>:</strong> Godinu dana zajedničke saradnje za sad. Super ljudi za rad, moje mišljenje..."
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>treba čistoća koja traje</strong> – Vizija Servis je pravi izbor. Javite se na <a href=\"tel:+381112610569\"><strong>011 2610 569</strong></a> ili posetite <a href=\"https://www.vizijaservis.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>vizijaservis.rs</strong></a> – <em>gde sjaj počinje porukom</em>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Čišćenje Objekata",
+      "description": "Kancelarije, prodavnice, redovno održavanje."
+    },
+    {
+      "title": "Održavanje Zgrada",
+      "description": "Ulazi, hodnici, liftovi, dezinfekcija."
+    },
+    {
+      "title": "Posle Građevinskih Radova",
+      "description": "Malter, prašina, usisivači 3000W."
+    },
+    {
+      "title": "Dubinsko Pranje Tepiha",
+      "description": "Ekstrakcija 80°C, preuzimanje/dostava."
+    },
+    {
+      "title": "Dubinsko Pranje Nameštaja",
+      "description": "Kauči, dušeci, uklanjanje grinja."
+    },
+    {
+      "title": "Pranje Automobila",
+      "description": "Unutrašnjost, ozon, sušenje."
+    },
+    {
+      "title": "Pranje Stakala",
+      "description": "Visine do 12m, bez tragova."
+    },
+    {
+      "title": "Mašinsko Čišćenje Magacina",
+      "description": "Velike površine, ribanje, poliranje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko traje dubinsko pranje tepiha?",
+      "answer": "4–6h sušenja, gotovo isti dan."
+    },
+    {
+      "question": "Radite li redovno održavanje zgrada?",
+      "answer": "Da – mesečni ugovori, uvek čisto."
+    },
+    {
+      "question": "Imate li ekološka sredstva?",
+      "answer": "Da – bezbedno za decu, ljubimce."
+    },
+    {
+      "question": "Čistite li posle renoviranja?",
+      "answer": "Da – malter, prašina, sve nestaje."
+    },
+    {
+      "question": "Radite li van Beograda?",
+      "answer": "Da – Zemun, Novi Beograd, šire po dogovoru."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 011 2610 569 ili 063 310 589."
+    }
+  ]
+},
+
+  {
+  "ime": "Termoinstal DM Pančevo – Majstori za Grejanje i za Zabavu",
+  "tip": "firma",
+  "kategorija": ["Grejanje", "Podno Grejanje", "Toplotne Pumpe", "Gasne Instalacije", "Kotlovi"],
+  "opis_kratak": "Dobrovoj Miletić i Termoinstal DM – gasne instalacije, podno grejanje, toplotne pumpe, kotlovi na gas/pelet. Pančevo i Banat, brzo, kvalitetno, sa osmehom.",
+  "mesto": ["Pančevo", "Beograd", "Vršac", "Kovin", "Smederevo", "Požarevac", "Zrenjanin", "Bela Crkva", "Alibunar"],
+  "address": "Skadarska 27 C, Pančevo",
+  "telefon": "+381652722987",
+  "email": "",
+  "website": "https://www.facebook.com/miletic.termoinstal/",
+  "slug": "termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe",
+
+  "thumbnail": "images/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe.webp",
+  "hero_image": "images/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe.webp",
+
+  "discover_title": "Termoinstal DM Pančevo – Majstori za Grejanje i za Zabavu",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-08",
+  "last_modified": "2025-11-08",
+
+  "tips_title": "6 Toplih Saveta od Termoinstala: Neka Vaš Dom Budi Topao, a Račun Hladan",
+  "tips": [
+    "Podno grejanje + parket – hodajte bosi, štedite 20%",
+    "Toplotna pumpa vazduh-voda – greje zimi, hladi leti",
+    "Kotao na pelet – automatsko punjenje, nema nošenja drva",
+    "Gasna instalacija sa detektorom – sigurnost na prvom mestu",
+    "Izolacija 5cm ispod podnog – toplina ostaje unutra",
+    "Godišnji servis kotla – +15% efikasnosti"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada zima u Pančevu udari kao šamar, a podovi su hladniji od frižidera – većina pomisli da je zona komfora misaona imenica. Ali ne i za Termoinstal DM. Dobrivoj Miletić i ekipa dolaze sa cevima, pumpama i osmehom – i pretvaraju vaš dom u <em>toplu oazu gde se čak i mačka razvlači po podu</em>."
+    },
+    {
+      "type": "p",
+      "content": "Sedište u Skadarskoj 27 C, ali njihova vozila se viđaju od Beograda do Vršca. Od 2017. greju Južni Banat – <strong>sa garancijom, rokom i dobrim raspoloženjem</strong>."
+    },
+
+    {
+      "type": "h2",
+      "content": "Dobrivoj i Termoinstal – Majstori Koji Greju i Dušu"
+    },
+    {
+      "type": "p",
+      "content": "Nisu samo instalateri – oni su <strong>termo-šamani</strong>. Godine iskustva, kvalitetan kadar, rokovi kao sat – i sve to sa humorom koji topi led. Njihov moto? <em>Majstori za grejanje i za zabavu</em>. Moram priznati da sam proveo nekoliko minuta (dobro priznajem... sat vremena) smejući se njihovim objavama na Facebook-u dok sam istraživao ovu priču. Takođe i komentari su pisani od autentičnih provokatora tako svakome preporučujem da pogleda njihovu stranicu makar zabave radi. Dalibor je glavni lik (crni bradonja) dok su tu i kolege da začine igru."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih na delu:<br>📞 <strong>Poziv / Viber:</strong> <a href=\"tel:+381652722987\">+381 65 272 2987</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/miletic.termoinstal/\" target=\"_blank\" rel=\"nofollow\">miletic.termoinstal</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/aiQPioQkQ342C64r7\" target=\"_blank\" rel=\"nofollow\">Skadarska 27 C, Pančevo</a>"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta Termoinstal DM Radi – Od Podnog do Plafonskog Grejanja"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta donose u vaš dom – sve sa detaljima:"
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Gasne Instalacije"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna izrada gasovoda – od priključka do kotla. Cevovod bakar ili PEX, detektor gasa, ventili, provera pritiska. Montaža plinskog kotla (Viessmann, Bosch, Immergas) – kondenzacioni, do 94% efikasnosti. Provera dimovoda, puštanje u rad – sve po propisu."
+    },
+    {
+      "type": "h3",
+      "content": "🏠 Podno Grejanje"
+    },
+    {
+      "type": "p",
+      "content": "Vodeno podno grejanje – cev 16mm PEX, razmak 15cm, izolacija 5cm EPS, folija, estrih 5cm. Trake za fiksiranje, kolektori sa protočnim meračima, termostat po sobi. Podno u kupatilu, spavaćoj, dnevnoj – ravnomerna toplina 22–24°C. Mogućnost preko parketa, pločica, laminata. Provera curenja pre estriha."
+    },
+    {
+      "type": "h3",
+      "content": "🌡️ Toplotne Pumpe"
+    },
+    {
+      "type": "p",
+      "content": "Vazduh-voda, voda-voda, vazduh-vazduh – Daikin, Mitsubishi, LG. Inverter tehnologija, COP do 5.0 – 1kW ulaz, 5kW izlaz. Grejanje, hlađenje, topla voda. Ugradnja za novogradnju ili zamena starog kotla. Buffer rezervoar, cirkulaciona pumpa, WiFi upravljanje – sve uključeno."
+    },
+    {
+      "type": "h3",
+      "content": "🧱 Zidno Grejanje"
+    },
+    {
+      "type": "p",
+      "content": "Grejanje u zidu – PEX cev u termo-trakama, malter preko. Idealno za zidane kuće, renoviranje. Toplota sa svih strana, nema radijatora. Termostat po zoni, ravnomerna temperatura. Manje prašine, bolja za alergičare."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Kotlovi i Kotlarnice"
+    },
+    {
+      "type": "p",
+      "content": "Kotao na gas, pelet, lož-ulje. Automatsko punjenje peleta, rezervoar 200kg. Kotlarnica po meri – pumpa, ekspanziona posuda, filteri. Montaža dimovoda, provera emisije. Servis – čišćenje gorionika, zamena mlaznica."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Radi Termoinstal DM – Banat na Toplini"
+    },
+    {
+      "type": "p",
+      "content": "Startuju iz <strong>Pančeva</strong>, ali greju po:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Beograd, Zemun</strong> – toplotne pumpe u novogradnji",
+        "<strong>Vršac, Bela Crkva</strong> – podno grejanje u vikendicama",
+        "<strong>Kovin, Smederevo</strong> – gasne instalacije",
+        "<strong>Požarevac, Zrenjanin</strong> – kotlovi na pelet",
+        "<strong>Pančevo centar</strong> – hitne intervencije"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Rade – Korak po Korak do Toplog Doma"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – opisujete objekat<br><strong>2. Dolaze</strong> – besplatna procena<br><strong>3. Ponuda</strong> – detaljna, sa rokom<br><strong>4. Rad</strong> – organizovano, čisto<br><strong>5. Testiranje</strong> – provera pritiska, temperature<br><strong>6. Uživate</strong> – toplo, tiho, jeftino"
+    },
+
+    {
+      "type": "h2",
+      "content": "Zašto Termoinstal – Zato Što Greju i Srce"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Od 2017. – mnogo zadovoljnih domova",
+        "Rokovi kao sat – nema čekanja",
+        "Kvalitetan kadar – sertifikovani majstori",
+        "Humor na Facebooku – zabava uz posao",
+        "Garancija 5–10 godina – na rad i opremu"
+      ]
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://maps.app.goo.gl/LEC8ibDY7hnv4hFk8\" target=\"_blank\" rel=\"nofollow\">Stefan Petković</a>:</strong> Brza i profesionalna usluga izrade gasne instalacije i montaza kotla na gas. Svaka preporuka za Termoinstal D.M."
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>treba toplina zimi, a šala tokom rada</strong> – Termoinstal DM je pravi izbor. Javite se na <a href=\"tel:+381652722987\"><strong>+381 65 272 2987</strong></a> ili posetite <a href=\"https://www.facebook.com/miletic.termoinstal/\" target=\"_blank\" rel=\"nofollow\"><strong>Facebook</strong></a> – <em>gde grejanje počinje osmehom</em>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Gasne Instalacije",
+      "description": "Kompletna izrada, kotlovi, provera, puštanje u rad."
+    },
+    {
+      "title": "Podno Grejanje",
+      "description": "Vodeno, PEX cevi, izolacija, estrih, termostati."
+    },
+    {
+      "title": "Toplotne Pumpe",
+      "description": "Vazduh-voda, inverter, grejanje/hlađenje, WiFi."
+    },
+    {
+      "title": "Zidno Grejanje",
+      "description": "U zidu, termo-trake, ravnomerna toplina."
+    },
+    {
+      "title": "Kotlovi i Kotlarnice",
+      "description": "Gas, pelet, lož-ulje, automatsko punjenje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko traje ugradnja podnog grejanja?",
+      "answer": "3–5 dana za 100m² – sa estrihom."
+    },
+    {
+      "question": "Radite li toplotne pumpe za stare kuće?",
+      "answer": "Da – zamena kotla, buffer, cirkulacija."
+    },
+    {
+      "question": "Koliko košta gasna instalacija?",
+      "answer": "Procena besplatna – a ostali detalji su za dogovoriti na licu mesta."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – 5 godina na rad, 10 na opremu."
+    },
+    {
+      "question": "Radite li van Pančeva?",
+      "answer": "Da – Beograd, Vršac, Smederevo i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 65 272 2987 ili poruka na Facebook-u."
+    }
+  ]
+},
+
+  
+
+  {
+  "ime": "Ćalac Profesionalac Pančevo – Hausmajstor Firma Koja Ne Zna Za „Sutra“",
+  "tip": "firma",
+  "kategorija": ["Hausmajstor", "Vodoinstalater", "Električar", "Moleraj", "Montaža", "Renoviranje"],
+  "opis_kratak": "Ćalac – 24/7 hausmajstor: vodovod, struja, moleraj, montaža, renoviranje. Pančevo i Beograd, brzo, pouzdano, transparentno.",
+  "mesto": ["Pančevo", "Beograd", "Borča", "Krnjevo", "Smederevo", "Jabuka", "Stara Pazova", "Zemun", "Voždovac", "Novi Beograd"],
+  "address": "Pančevo",
+  "telefon": "+381601234567",
+  "email": "kontakt@calacprofesionalac.rs",
+  "website": "https://calacprofesionalac.rs/",
+  "slug": "calac-profesionalac-pancevo-hausmajstor-24-7",
+
+  "thumbnail": "images/calac-profesionalac-pancevo-hausmajstor-24-7.webp",
+  "hero_image": "images/calac-profesionalac-pancevo-hausmajstor-24-7.webp",
+
+  "discover_title": "Ćalac Profesionalac Pančevo – Hausmajstor Firma Koja Ne Zna Za „Sutra“",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-08",
+  "last_modified": "2025-11-08",
+
+  "tips_title": "Zabeležite ove savete za održavanje doma",
+  "tips": [
+    "Bojler servis pre zime – grejač čist, račun manji",
+    "Laminat sa podlogom od 3mm – tiši korak, topliji pod",
+    "LED rasveta – 80% manje struje, svetlije",
+    "Silikon na spojevima – voda ne curi, buđ beži",
+    "Preventivni pregled – kvarovi pre nego što se dese",
+    "Kačenje TV nosača – 3 tipla, 120kg nosivost"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada bojler prestane da greje u 3 ujutru, a laminat počne da „bubri“ od vlage – većina pomisli da je kraj. Ali ne u Pančevu. Ćalac Profesionalac dolazi sa kombijem punim alata, 24/7, i pretvara haos u red – <em>brzo, čisto, sa osmehom</em>."
+    },
+    {
+      "type": "p",
+      "content": "Bazirani u Pančevu, pokrivaju i Beograd. Od sitne popravke do kompletnog renoviranja – sve sa <strong>transparentnim cenama i garancijom</strong>."
+    },
+
+    {
+      "type": "h2",
+      "content": "Ćalac – Tim Koji Ne Spava, Da Vi Možete"
+    },
+    {
+      "type": "p",
+      "content": "Nema „dođem sutra“ – samo „kad da stignem?“. Godine rada po Pančevu i Beogradu pretvorile su ih u <strong>superheroje domova i firmi</strong>. Od vodovoda do moleraja – sve rešavaju sa preciznošću i brzinom."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih na delu:<br>📞 <strong>Poziv / Viber:</strong> <a href=\"tel:+381601234567\">+381 60 123 4567</a><br>📞 <strong>Alternativni:</strong> <a href=\"tel:+381611113239\">+381 61 111 32 39</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@calacprofesionalac.rs\">kontakt@calacprofesionalac.rs</a><br>🌐 <strong>Online:</strong> <a href=\"https://calacprofesionalac.rs/\" target=\"_blank\" rel=\"nofollow\">calacprofesionalac.rs</a><br>🕒 <strong>Dostupni:</strong> 24/7 | 365 dana"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta Ćalac Radi – Od Podruma do Krova"
+    },
+    {
+      "type": "p",
+      "content": "Evo koje sve probleme mogu da vam reše:"
+    },
+    {
+      "type": "h3",
+      "content": "🚰 Vodoinstalaterski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Zamena slavina, sanitarija, bojlera. Odgušenje, detekcija curenja, postavljanje instalacija. Hitne intervencije – poplava? Dolaze za 30min."
+    },
+    {
+      "type": "h3",
+      "content": "⚡ Električarski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Inspekcija, popravka, zamena prekidača, rasvete, elektroormana. LED ugradnja – svetlije, jeftinije."
+    },
+    {
+      "type": "h3",
+      "content": "🎨 Molerski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Krečenje, popravka zidova, zamena pločica. Čišćenje podova – sve za svež izgled."
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Montaža i Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Sastavljanje nameštaja, ugradnja laminata, zamena vrata/prozora. Kačenje slika, zavesa, ogledala – sve ravno, sve sigurno."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Renoviranje i Tehničko Održavanje"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna adaptacija, preventivno održavanje firmi. Higijensko čišćenje – dezinfekcija, sve po standardu."
+    },
+   
+
+    {
+      "type": "h2",
+      "content": "Gde Radi Ćalac – Pančevo, Beograd i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Startuju iz <strong>Pančeva</strong>, ali im se vozilo viđa po okolnim mestima:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Borča, Krnjevo</strong> – zamena bojlera",
+        "<strong>Smederevo, Kovin</strong> – renoviranje lokala",
+        "<strong>Stara Pazova, Zemun</strong> – elektro popravke",
+        "<strong>Voždovac, Novi Beograd</strong> – montaža kuhinja",
+        "<strong>Pančevo centar</strong> – hitne intervencije 24/7"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Rade – Korak po Korak, Bez Stresa"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – poziv, mail, forma<br><strong>2. Procena</strong> – besplatna, na licu mesta<br><strong>3. Ponuda</strong> – transparentna, bez skrivenog<br><strong>4. Rad</strong> – brzo, čisto, sa zaštitom<br><strong>5. Testiranje</strong> – sve radi pre odlaska<br><strong>6. Plaćate</strong> – fiskalni račun, kartice"
+    },
+
+    {
+      "type": "h2",
+      "content": "Zašto Ćalac – Zato Što Ne Prave Kompromise"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "24/7 dostupnost – noću, vikendom, praznikom",
+        "Brza reakcija – hitne za 30min",
+        "Transparentne cene – znate pre rada",
+        "Preventivno održavanje – štedi novac",
+        "Higijensko čišćenje – dezinfekcija uključena"
+        
+      ]
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/psw3e1P30InQPohix\" target=\"_blank\" rel=\"nofollow\">Dejan Pecenica</a>:</strong> Svaka preporuka za saradnju, maksimalna ozbiljnost u poslu!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/Ed5J1j8raGWYM5hJE\" target=\"_blank\" rel=\"nofollow\">Rade Kotur</a>:</strong> Najbolji u Pancevu a i sire. Pouzdani i profesionalni, uvek spremni da izadju u susret i da predloze najbolje resenje."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/gJBB0ngUWz8zQ8qCQ\" target=\"_blank\" rel=\"nofollow\">Marija Pu</a>:</strong> Nama su uradili česmu u dvorištu. Super smo zadovoljni. Plus ako mi ne stignemo da pokosimo travu zovemo ćalca jer pokosi očas posla."
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>treba profesionalna ekipa hausmajstora koji ne spavaju</strong> – Ćalac Profesionalac je pravi izbor. Javite se na <a href=\"tel:+381601234567\"><strong>+381 60 123 4567</strong></a> ili posetite <a href=\"https://calacprofesionalac.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>calacprofesionalac.rs</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Vodoinstalaterski Radovi",
+      "description": "Zamena slavina, bojlera, odgušenje, sanitarije."
+    },
+    {
+      "title": "Električarski Radovi",
+      "description": "Instalacije, rasveta, popravke, LED."
+    },
+    {
+      "title": "Moleraj",
+      "description": "Krečenje, popravka zidova, pločice."
+    },
+    {
+      "title": "Montaža",
+      "description": "Nameštaj, laminat, vrata, prozori."
+    },
+    {
+      "title": "Renoviranje",
+      "description": "Kompletna adaptacija, tehničko održavanje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Dolazite li noću?",
+      "answer": "Da – 24/7, hitne intervencije za 30min."
+    },
+    {
+      "question": "Koliko košta procena?",
+      "answer": "Besplatna – na licu mesta."
+    },
+    {
+      "question": "Radite li renoviranje firmi?",
+      "answer": "Da – tehničko održavanje, čišćenje, popravke."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na rad i materijal."
+    },
+    {
+      "question": "Radite li van Pančeva?",
+      "answer": "Da – Beograd, Borča, Smederevo i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 60 123 4567 ili mail: kontakt@calacprofesionalac.rs"
+    }
+  ]
+},
+
+  {
+  "ime": "Strahinja Dondur Vršac – Hausmajstor za Vodovod i Kačenje Elemenata",
+  "tip": "majstor",
+  "kategorija": ["Vodovodar", "Hausmajstor", "Odgušenje odvoda", "Popravke", "Kačenje Elemenata"],
+  "opis_kratak": "Strahinja – zamena slavina, odgušenje, kačenje polica, popravka roletni, sastavljanje nameštaja. 0-24, Vršac i okolina.",
+  "mesto": ["Vršac"],
+  "address": "Omladinski Trg 4/24, Vršac",
+  "telefon": "+381612051985",
+  "email": "",
+  "website": "",
+  "slug": "strahinja-dondur-vrsac-hausmajstor-vodovodar",
+
+  "thumbnail": "images/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp",
+  "hero_image": "images/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp",
+
+  "discover_title": "Strahinja Dondur Vršac – Hausmajstor za Vodovod i Kačenje Elemenata",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-08",
+  "last_modified": "2025-11-08",
+
+  "tips_title": "Uvek je dobro imati kontakt lokalnog hausmajstora pri ruci",
+  "tips": [
+    "Zamena slavine – novi perlator, manje vode, više pritiska",
+    "Odgušenje sajlom – 10m dubine, nema hemije",
+    "Štelovanje šarki – vrata ne škripe, ne padaju",
+    "Silikon na keramici – voda ne curi, buđ beži",
+    "Kačenje TV nosača – 3 tipla, 100kg nosivost",
+    "Bojler servis – grejač čist, voda topla za 30min"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada slavina kaplje kao suza, vrata škripe kao u hororu, a odvod miriše kao močvara – većina pomisli da je kraj. Ali ne u Vršcu. Strahinja Dondur dolazi sa alatom, sajlom i iskustvom – i pretvara haos u red, <em>0-24, bez izgovora</em>."
+    },
+    {
+      "type": "p",
+      "content": "Terenski rad mu je drugi dom. Od Vršca do Bele Crkve – on je <strong>hausmajstor koji ne spava</strong>."
+    },
+
+    {
+      "type": "h2",
+      "content": "Strahinja – Čovek Sa Alatom Za Sve, Od Podruma do Krova"
+    },
+    {
+      "type": "p",
+      "content": "Nema „to ne radim“ – samo „kad da dođem?“. Godine rada po Vršcu pretvorile su ga u <strong>univerzalnog spasitelja doma</strong>. Od vodovoda do šarki – sve rešava sam, brzo, čisto."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ga na delu:<br>📞 <strong>Poziv / SMS / Viber:</strong> <a href=\"tel:+381612051985\">+381 61 205 1985</a><br>📍 <strong>Adresa:</strong> Omladinski Trg 4/24, Vršac<br>🕒 <strong>Dostupan:</strong> 0-24 | 7 dana u nedelji"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta Strahinja Popravlja – Od Kapljice do Police"
+    },
+    {
+      "type": "p",
+      "content": "Evo kakve probleme vam može rešiti:"
+    },
+    {
+      "type": "h3",
+      "content": "🚰 Vodovod – Sve Što Curka ili Začepljuje"
+    },
+    {
+      "type": "p",
+      "content": "Zamena slavina, tuševa, sifona, ventila. Postavljanje instalacija, zamena bojlera, detekcija curenja. Odgušenje sajlom – 10m dubine, bez hemije. Servis – čišćenje grejača, zamena anoda."
+    },
+    {
+      "type": "h3",
+      "content": "🪟 Prozori i Vrata – Štelovanje i Popravke"
+    },
+    {
+      "type": "p",
+      "content": "Štelovanje šarki – vrata ne padaju, ne škripe. Popravka roletni, žaluzina – traka, sajla, mehanizam. Zamena brava – sigurnost na klik."
+    },
+    {
+      "type": "h3",
+      "content": "🖼 Kačenje i Montaža"
+    },
+    {
+      "type": "p",
+      "content": "Police, slike, nosači za TV – tiplovi, nivelacija, 100kg nosivost. Sastavljanje i rastavljanje nameštaja – IKEA, Forma Ideale, sve ide."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Sitne Popravke"
+    },
+    {
+      "type": "p",
+      "content": "Zamena silikona na keramici, popravka crepa, čišćenje oluka. Sve što vam smeta – on rešava."
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Radi – Korak po Korak, Bez Čekanja"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Javite se</strong> – opisujete problem<br><strong>2. Dolazi</strong> – 0-24, bez izgovora<br><strong>3. Procena</strong> – cena unapred<br><strong>4. Popravka</strong> – brzo, čisto<br><strong>5. Testiranje</strong> – sve radi pre odlaska<br><strong>6. Plaćate</strong> – gotovina, tačno"
+    },
+
+    {
+      "type": "h2",
+      "content": "Kada je problem hitan onda nema „Sutra“"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "0-24 intervencije – noću, vikendom, praznikom",
+        "Sve sam – nema čekanja na ekipu",
+        "Sajla za odgušenje – 10m, mašinska",
+        "Zamena delova – originalni, odmah",
+        "Čisto posle rada – zaštita, usisivač",
+        "Transparentne cene – znate pre nego što krene"
+      ]
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vam <strong>slavina kaplje, vrata škripe ili odvod miriše</strong> – Strahinja je pravi čovek. Javite se na <a href=\"tel:+381612051985\"><strong>+381 61 205 1985</strong></a> – <em>dolazi odmah, bez obzira na sat</em>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Vodovod",
+      "description": "Zamena slavina, odgušenje, bojler, detekcija curenja."
+    },
+    {
+      "title": "Popravka Vrata/Prozora",
+      "description": "Štelovanje šarki, roletne, zamena brava."
+    },
+    {
+      "title": "Kačenje i Montaža",
+      "description": "Police, TV nosači, sastavljanje nameštaja."
+    },
+    {
+      "title": "Sitne Popravke",
+      "description": "Silikoni, crep, oluci – sve što smeta."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Dolazite li noću?",
+      "answer": "Da – 0-24, 7 dana u nedelji."
+    },
+    
+    {
+      "question": "Imate li delove?",
+      "answer": "Da – slavine, sifoni, brave – originalni."
+    },
+    {
+      "question": "Radite li van Vršca?",
+      "answer": "Da – Bela Abbey, Pančevo, Kovin i okolina."
+    },
+    {
+      "question": "Koliko traje zamena bojlera?",
+      "answer": "2–3 sata – testiramo pre odlaska."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 61 205 1985 – SMS, Viber, poziv."
+    }
+  ]
+},
+
+  {
   "ime": "Miloš Moler Sombor – Zidovi Koji Oživljavaju Prostore",
   "tip": "majstor",
   "kategorija": ["Moleraj", "Krečenje", "Gletovanje", "Sahara Tehnika", "Demit Fasada", "Renoviranje Lokala"],
