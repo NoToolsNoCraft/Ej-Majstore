@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Proto Servis Novi Sad – Popravka Bele Tehnike
 description: Saša Nešković i Proto Servis – popravke, montaže, servisi bele tehnike.
   Garancija, kartice, fiskalni račun. Novi Sad, brzo na adresi. u Novi Sad, Veternik,
-  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
+  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac.
 ime: Proto Servis Novi Sad – Popravka Bele Tehnike
 kategorija:
 - Popravka Frižidera
@@ -12,7 +12,7 @@ kategorija:
 - Šporeti
 - Montaža
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Veselina Masleše, Novi Sad
 kontakt_telefon: "+381641189094"
 email: proto-servis@outlook.com

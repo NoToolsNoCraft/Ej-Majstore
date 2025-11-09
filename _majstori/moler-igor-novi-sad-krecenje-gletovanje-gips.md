@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Moler Igor Novi Sad – Zidovi Kao Ogledalo, Gips Kao Nov
 description: Igor – krečenje, gletovanje, gips ploče, demit fasade. Besplatna procena,
   transparentni cenovnik sa kalkulatorom. Novi Sad i okolina. u Novi Sad, Veternik,
-  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac.
+  Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac.
 ime: Moler Igor Novi Sad – Zidovi Kao Ogledalo, Gips Kao Nov
 kategorija:
 - Moleraj
@@ -12,7 +12,7 @@ kategorija:
 - Gipsarski Radovi
 - Fasade
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Puškinova 1/22, Novi Sad 21000
 kontakt_telefon: "+381621854445"
 email: igor@moleri-novi-sad.com

@@ -3,8 +3,8 @@ layout: majstor_profil
 title: Premier Clean Novi Sad – Čistoća Koja Se Pamti
 description: Premier Clean – stanovi, zgrade, posle radova, dubinsko pranje tepiha/nameštaja/auta,
   bazeni, stakla, tehničko održavanje. Novi Sad, profesionalno, pedantno. u Novi Sad,
-  Petrovaradin, Veternik, Futog, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački
-  Petrovac.
+  Petrovaradin, Veternik, Futog, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin,
+  Bački Petrovac.
 ime: Premier Clean Novi Sad – Čistoća Koja Se Pamti
 kategorija:
 - Agencija za čišćenje
@@ -14,7 +14,7 @@ kategorija:
 - Posle Radova
 - Moleraj
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Jesenjinova 22, Novi Sad
 kontakt_telefon: "+381631019418"
 email: ''

@@ -1,6 +1,412 @@
 [
 
   {
+  "ime": "Keramičar Boriša Novi Sad – Adaptacija, Hidroizolacija, Demontaža",
+  "tip": "majstor",
+  "kategorija": ["Keramičar", "Hidroizolacija", "Demontaža", "Adaptacija"],
+  "opis_kratak": "Boriša – postavljanje keramike, hidroizolacija, demontaža stare, odvoz šuta, adaptacija kuhinje i kupatila. Višegodišnje iskustvo, precizno, po dogovoru.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
+  "address": "Novi Sad",
+  "telefon": "+38163315467",
+  "email": "",
+  "website": "https://www.facebook.com/people/Kerami%C4%8Dar-Novi-Sad-BR/100082827957559/",
+  "slug": "keramicar-borisa-novi-sad-hidroizolacija-demontaza",
+
+  "thumbnail": "images/keramicar-borisa-novi-sad-hidroizolacija-demontaza.webp",
+  "hero_image": "images/keramicar-borisa-novi-sad-hidroizolacija-demontaza.webp",
+
+  "discover_title": "Keramičar Boriša Novi Sad – Adaptacija, Hidroizolacija, Demontaža",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-09",
+  "last_modified": "2025-11-09",
+
+  "tips_title": "Šta morate znati o postavljanu keramike u osnovnim crtama",
+  "tips": [
+    "Hidroizolacija u 2 sloja – voda ne prolazi",
+    "Demontaža parom – pločice skidaju se bez oštećenja",
+    "Glet masa pre postavljanja – ravna podloga, ravne pločice",
+    "Odvoz šuta – nema prašine u stanu",
+    "Fugovanje epoksidom – bez plesni u kupatilu",
+    "Precizno mere laserom – nema rezanja na licu mesta"
+  ],
+
+  "sections": [
+    
+    {
+      "type": "p",
+      "content": "Kada se u vašem kupatilu pločice savijaju i odvajaju, a vlaga i dotrajala keramika miriše na dugogodišnje probleme – jasno je da je vreme za totalni preobražaj. U Novom Sadu, takvi izazovi su domen majstora Boriše. On dolazi sa punim arsenalom alata, vrhunskim hidroizolacionim materijalima i, što je najvažnije, sa mnogo iskustva iz prve ruke. Boriša ne popravlja; on pretvara vlažni haos u prostor koji diše čisto, savršeno ravno i trajno."
+    },
+    {
+      "type": "p",
+      "content": "Živi u Novom Sadu, a njegova reputacija majstora seže dalje, pokrivajući ceo grad i okolinu. Njegov proces je temeljit: od pažljive demontaže stare keramike ili pripreme za novu, preko kritične hidroizolacije, do finalnog postavljanja pločica sa hirurškom preciznošću. Njegov rad možete sami proveriti – kompletan portfolio, od početnih priprema do završne obrade, dostupan je na <a href=\"https://www.facebook.com/people/Kerami%C4%8Dar-Novi-Sad-BR/100082827957559/\" target=\"_blank\" rel=\"nofollow\">njegovoj Facebook stranici</a>."
+    },
+    {
+      "type": "h2",
+      "content": "Boriša – Majstor koji Zna da Pločice Nisu Samo Kamene Kockice"
+    },
+    {
+      "type": "p",
+      "content": "Dugogodišnje iskustvo u adaptacijama – koje obuhvata hidroizolaciju, malterisanje i kompletnu demontažu – pretvorilo ga je u pravog zanatskog alhemičara. On svaki novi prostor posmatra kao misteriju koju treba rešiti, koristeći svoj zanat kao prevodilački alat za transformaciju potpunog haosa u estetsko i funkcionalno savršenstvo."
+    },
+  
+    {
+      "type": "p",
+      "content": "Uhvatite ga na delu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163315467\">+381 63 315 467</a><br>📍 <strong>Lokacija:</strong> Novi Sad (teren po dogovoru)"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta Boriša Radi – Od Demontaže do Fugovanja"
+    },
+    {
+      "type": "p",
+      "content": "Evo kakve vam probleme rešava – sa detaljima:"
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Postavljanje Keramike"
+    },
+    {
+      "type": "p",
+      "content": "Zidne/podne pločice, granit, mozaik – nivelisanje lasera, lepak Ceresit, fugovanje epoksidom. Kupatila, kuhinje, terase – ravno, bez talasa, bez rezanja na licu mesta."
+    },
+    {
+      "type": "h3",
+      "content": "💧 Hidroizolacija"
+    },
+    {
+      "type": "p",
+      "content": "2 sloja premaza u kupatilima, na terasama – Ceresit CR65, bez curenja. Tretiranje spojeva, uglova, cevi – voda ne prolazi, buđ beži. Test vode posle sušenja."
+    },
+    {
+      "type": "h3",
+      "content": "🔨 Demontaža Stare Keramike"
+    },
+    {
+      "type": "p",
+      "content": "Parna metoda – pločice skidaju se bez oštećenja zida. Malter, silikon, šrafovi – sve nestaje. Podloga se mere, nivelira, priprema za novo."
+    },
+    {
+      "type": "h3",
+      "content": "🚛 Odvoz Šuta"
+    },
+    {
+      "type": "p",
+      "content": "Kante, vreće, kamion – prašina, krhotine, otpad – sve se nosi. Čišćenje poda posle, da se može hodati odmah."
+    },
+    {
+      "type": "h3",
+      "content": "🏠 Adaptacije Kupatila i Kuhinja"
+    },
+    {
+      "type": "p",
+      "content": "Kompletno – demontaža, hidroizolacija, postavljanje, fugovanje. Dodatno: malterisanje, nivelisanje podloge, saveti za održavanje."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Radi Boriša – Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Baziran u <strong>Novom Sadu</strong>, dolazi u:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Veternik, Futog</strong> – kupatila u novogradnji",
+        "<strong>Petrovaradin, Liman</strong> – kuhinje u adaptaciji",
+        "<strong>Sremska Kamenica, Telep</strong> – demontaža i postavljanje",
+        "<strong>Rumenka, Kać</strong> – hidroizolacija terasa",
+        "<strong>Beočin, Temerin</strong> – kompletna renoviranja"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Radi Boriša – Korak po Korak do Savršenog Poda"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opisite prostor, mere<br><strong>2. Dolazak</strong> – dolazi, mere, savetuje<br><strong>3. Procena</strong> – cena, rok, plan<br><strong>4. Rad</strong> – demontaža, priprema, postavljanje<br><strong>5. Završetak</strong> – fugovanje, odvoz šuta, provera"
+    },
+
+    {
+      "type": "h2",
+      "content": "Kvalitetno postavljena keramika nije slučajnost"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dugogodišnje iskustvo – preciznost garantovana",
+        "Hidroizolacija u 2 sloja – bez curenja",
+        "Demontaža bez oštećenja – zidovi netaknuti",
+        "Odvoz šuta uključen – nema prašine",
+        "Lepak pre postavljanja – ravna podloga",
+        "Fugovanje epoksidom – bez plesni"
+      ]
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vaš <strong>prostor čeka na novu keramiku, a živite u Novom Sadu ili okolini</strong> – Boriša je sjajan izbor za vas. Javite mu se na <a href=\"tel:+38163315467\"><strong>+381 63 315 467</strong></a> ili pogledajte portfolio na <a href=\"https://www.facebook.com/people/Kerami%C4%8Dar-Novi-Sad-BR/100082827957559/\" target=\"_blank\" rel=\"nofollow\"><strong>Facebook-u</strong></a>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Postavljanje Keramike",
+      "description": "Pločice, granit, mozaik – ravno, precizno."
+    },
+    {
+      "title": "Hidroizolacija",
+      "description": "2 sloja premaza – za kupatila, terase."
+    },
+    {
+      "title": "Demontaža Stare Keramike",
+      "description": "Parna metoda, bez oštećenja zida."
+    },
+    {
+      "title": "Odvoz Šuta",
+      "description": "Kante, kamion – čisto posle rada."
+    },
+    {
+      "title": "Adaptacije Kupatila i Kuhinja",
+      "description": "Kompletno – priprema, postavljanje, fugovanje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko košta postavljanje po m²?",
+      "answer": "Procena na licu mesta – zavisi od tipa pločica."
+    },
+    {
+      "question": "Radite li hidroizolaciju?",
+      "answer": "Da – obavezno pre postavljanja u mokrim prostorima."
+    },
+    {
+      "question": "Koliko traje demontaža?",
+      "answer": "1–2 dana za kupatilo, zavisi od zaprljanosti."
+    },
+    {
+      "question": "Dolazite li van Novog Sada?",
+      "answer": "Da – Veternik, Futog, Sremska Kamenica."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 315 467 ili poruka na Facebook."
+    }
+  ]
+},
+
+  {
+  "ime": "EKO-DIM Beograd – Čišćenje Dimnjaka i Ventilacija sa Garancijom",
+  "tip": "firma",
+  "kategorija": ["Dimničari", "Čišćenje Dimnjaka", "Inspekcija", "Sanacija", "Ventilacija", "Klimatizacija"],
+  "opis_kratak": "EkoDim – dimničarske usluge od 1996. Čišćenje, inspekcija, sanacija dimnjaka, ventilacija, kotlovi. ISO sertifikovano, Beograd i Srbija.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Vračar", "Savski Venac", "Voždovac", "Palilula", "Čukarica", "Surčin", "Obrenovac"],
+  "address": "Cvijićeva 22, Beograd 11000",
+  "telefon": "+381112752442",
+  "email": "office@ekodim.rs",
+  "website": "https://www.ekodim.rs/pocetna.php",
+  "slug": "ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija",
+
+  "thumbnail": "images/ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija.webp",
+  "hero_image": "images/ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija.webp",
+
+  "discover_title": "EKO-DIM Beograd – Čišćenje Dimnjaka i Ventilacija sa Garancijom",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-09",
+  "last_modified": "2025-11-09",
+
+  "tips_title": "Neka Vaši Dimnjaci Dišu, umesto da se guše",
+  "tips": [
+    "Čišćenje pre zime – čađ se ne taloži, vatra bolje gori",
+    "Inspekcija sa kamerom – vidite problem pre požara",
+    "Sanacija sa Schidel keramikom – dimnjak kao nov za 50 godina",
+    "Ventilacija kuhinje – filteri hvataju 99% masti",
+    "Merenje emisija – čist vazduh, manje kazni",
+    "Čišćenje kotlova – efikasnost +20%, račun manji"
+  ],
+
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada prva hladnoća udari, a vaš dimnjak počne da se ponaša kao stara parna lokomotiva koja preti da zadimi ceo komšiluk, to je jasan znak za uzbunu. Ali u Beogradu, umesto panike, poziva se EkoDim. Kao ključni deo gradske infrastrukture (komunalno preduzeće zaduženo za čistoću vazduha), oni dolaze na teren opremljeni ne samo tradicionalnim četkama, već i modernim inspekcijskim kamerama i ozbiljnim ISO standardima. Oni pretvaraju crnu čađ i potencijalni rizik u siguran plamen i čist vazduh koji svi dišemo."
+    },
+    {
+      "type": "p",
+      "content": "Ovaj provereni beogradski servis posluje još od 1996. godine sa sedištem u Cvijićevoj 22, pokrivajući ne samo Beograd već i širi region. Njihova usluga je sveobuhvatna i transparentna: od rutinskog čišćenja i video inspekcije stanja dimnjaka, pa sve do kompleksne sanacije oštećenja. Najvažnije od svega: na kompletan rad EkoDim obezbeđuje punu garanciju."
+    },
+
+    {
+      "type": "h2",
+      "content": "EkoDim – Dimničari Koji Čuvaju Tradiciju i Tehnologiju"
+    },
+    {
+      "type": "p",
+      "content": "Od zanatske radnje do komunalnog preduzeća – 30 godina iskustva, ISO 9001, 14001, 18001. Direktor Goran Milićević i tim – čuvaju stari zanat, ali sa modernim alatom."
+    },
+    {
+      "type": "p",
+      "content": "Uhvatite ih na delu:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381112752442\">011 2752 442</a> / <a href=\"tel:+381112752269\">011 2752 269</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@ekodim.rs\">office@ekodim.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.ekodim.rs/pocetna.php\" target=\"_blank\" rel=\"nofollow\">ekodim.rs</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/kpekodim/\" target=\"_blank\" rel=\"nofollow\">Facebook</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/4Lm1ewdD5dRL6cCq8\" target=\"_blank\" rel=\"nofollow\">Cvijićeva 22, Beograd</a>"
+    },
+
+    {
+      "type": "h2",
+      "content": "Šta EkoDim Radi – Od Čađe do Čistog Vazduha"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta donose u vaš dom – sa detaljima:"
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Dimničarske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje mehaničkom četkom na sajli – skida naslage, čađ, katran. Inspekcija kamerom – provera unutrašnjosti, atest za kotao. Sanacija – Schidel keramika, vodonepropusni spojevi, za 50 godina."
+    },
+    {
+      "type": "h3",
+      "content": "🏭 Čišćenje Kotlova i Ložišta"
+    },
+    {
+      "type": "p",
+      "content": "Dimno-plamena strana – mehanički i hemijski, uklanja čađ. Vodeno-parna – pranje od kamenca, dezinfekcija. Servis – zamena anoda, grejača, provera pritiska."
+    },
+    {
+      "type": "h3",
+      "content": "🌬 Ventilacija i Klimatizacija"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje kanala, dezinfekcija, filteri za vazduh. Montaža sistema – za kuhinje, kancelarije, hale. Čišćenje ugostiteljskih ventilacija – masnoća, mirisi – sve nestaje."
+    },
+    {
+      "type": "h3",
+      "content": "📊 Merenja i Ispitivanja"
+    },
+    {
+      "type": "p",
+      "content": "Emisije dimnih gasova – za kotlove, peći. Strujanje vazduha – provera promaje. Atesti – za kotlove, dimnjake – prema propisu."
+    },
+    {
+      "type": "h3",
+      "content": "🛠 Prodaja Opreme"
+    },
+    {
+      "type": "p",
+      "content": "Četke, sajle, filteri za dimnjake i kotlove. Sve za DIY ili profesionalce."
+    },
+
+    {
+      "type": "h2",
+      "content": "Gde Radi EkoDim – Beograd i Šire"
+    },
+    {
+      "type": "p",
+      "content": "Bazirani u <strong>Beogradu</strong>, čiste po:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "<strong>Zemun, Pančevo</strong> – dimnjaci u novogradnji",
+        "<strong>Vračar, Savski Venac</strong> – sanacija starih kotlova",
+        "<strong>Voždovac, Palilula</strong> – ventilacija kuhinja",
+        "<strong>Čukarica, Surčin</strong> – emisije i atesti",
+        "<strong>Obrenovac, Mladenovac</strong> – četke i sajle"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "content": "Kako Rade – Korak po Korak do Čistog Dimnjaka"
+    },
+    {
+      "type": "p",
+      "content": "<strong>1. Poziv</strong> – opisite dimnjak ili kotao<br><strong>2. Procena</strong> – izlazak, kamera, analiza<br><strong>3. Ponuda</strong> – cena, rok, plan<br><strong>4. Čišćenje</strong> – mehaničko, hemijski, dezinfekcija<br><strong>5. Test</strong> – provera emisija, atest<br><strong>6. Predaja</strong> – garancija, saveti"
+    },
+
+    {
+      "type": "h2",
+      "content": "Zašto EkoDim – Zato Što Dim Nije Slučajnost"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Od 1996. – 30 godina bez požara",
+        "ISO sertifikati – kvalitet garantovan",
+        "Schidel partner – nemačka tehnologija",
+        "Čišćenje mehaničko – nema hemije",
+        "Inspekcija kamerom – vidite pre nego što gori"
+      ]
+    },
+
+    {
+      "type": "p",
+      "content": "Ako vaš <strong>dimnjak puši previše ili kotao štedi previše</strong> – EkoDim nije samo pravi već i neophodan izbor. Javite se na <a href=\"tel:+381112752442\"><strong>011 2752 442</strong></a> ili posetite <a href=\"https://www.ekodim.rs/pocetna.php\" target=\"_blank\" rel=\"nofollow\"><strong>ekodim.rs</strong></a> – <em>gde čist vazduh počinje čišćenjem</em>."
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Dimničarske Usluge",
+      "description": "Čišćenje, inspekcija, sanacija dimnjaka."
+    },
+    {
+      "title": "Čišćenje Kotlova",
+      "description": "Dimno-plamena i vodena strana – mehaničko i hemijski."
+    },
+    {
+      "type": "Ventilacija i Klima",
+      "description": "Čišćenje kanala, filteri, montaža sistema."
+    },
+    {
+      "title": "Merenja i Atesti",
+      "description": "Emisije, strujanje vazduha, potvrde."
+    },
+    {
+      "title": "Prodaja Opreme",
+      "description": "Četke, sajle, filteri za dimnjake."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko često čistiti dimnjak?",
+      "answer": "Jednom godišnje – pre zime."
+    },
+    {
+      "question": "Da li dajete atest?",
+      "answer": "Da – posle inspekcije, prema propisu."
+    },
+    {
+      "question": "Radite li sanaciju?",
+      "answer": "Da – Schidel keramika, 50 godina vek."
+    },
+    {
+      "question": "Koliko traje čišćenje?",
+      "answer": "1–2 sata za standardni dimnjak."
+    },
+    {
+      "question": "Da li radite van Beograda?",
+      "answer": "Da – Zemun, Novi Beograd, šire po dogovoru."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 011 2752 442 ili email office@ekodim.rs"
+    }
+  ]
+},
+
+  {
   "ime": "Drill Tech Beograd – Bušenje Bunara Širom Srbije",
   "tip": "firma",
   "kategorija": ["Bušenje Bunara", "Vodosnabdevanje", "Toplotne pumpe", "Geološka Analiza", "Karotaža", "Oprema Bunara"],
@@ -194,7 +600,7 @@
   "tip": "firma",
   "kategorija": ["Agencija za čišćenje", "Čišćenje", "Dubinsko Pranje", "Održavanje Zgrada", "Posle Radova", "Moleraj"],
   "opis_kratak": "Premier Clean – stanovi, zgrade, posle radova, dubinsko pranje tepiha/nameštaja/auta, bazeni, stakla, tehničko održavanje. Novi Sad, profesionalno, pedantno.",
-  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Jesenjinova 22, Novi Sad",
   "telefon": "+381631019418",
   "email": "",
@@ -2186,7 +2592,7 @@
   "tip": "firma",
   "kategorija": ["Popravka Frižidera", "Veš Mašine", "Klima Uređaji", "Šporeti", "Montaža"],
   "opis_kratak": "Saša Nešković i Proto Servis – popravke, montaže, servisi bele tehnike. Garancija, kartice, fiskalni račun. Novi Sad, brzo na adresi.",
-  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Veselina Masleše, Novi Sad",
   "telefon": "+381641189094",
   "email": "proto-servis@outlook.com",
@@ -2611,7 +3017,7 @@
   "tip": "majstor",
   "kategorija": ["Moleraj", "Krečenje", "Gletovanje", "Gipsarski Radovi", "Fasade"],
   "opis_kratak": "Igor – krečenje, gletovanje, gips ploče, demit fasade. Besplatna procena, transparentni cenovnik sa kalkulatorom. Novi Sad i okolina.",
-  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Puškinova 1/22, Novi Sad 21000",
   "telefon": "+381621854445",
   "email": "igor@moleri-novi-sad.com",
