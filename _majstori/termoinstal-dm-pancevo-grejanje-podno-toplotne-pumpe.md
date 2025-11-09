@@ -30,7 +30,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-08'
-last_modified: '2025-11-08'
+last_modified: '2025-11-09'
 sections:
 - type: p
   content: Kada zima u Pančevu udari kao šamar, a podovi su hladniji od frižidera
@@ -48,8 +48,8 @@ sections:
     <em>Majstori za grejanje i za zabavu</em>. Moram priznati da sam proveo nekoliko
     minuta (dobro priznajem... sat vremena) smejući se njihovim objavama na Facebook-u
     dok sam istraživao ovu priču. Takođe i komentari su pisani od autentičnih provokatora
-    tako svakome preporučujem da pogleda njihovu stranicu makar zabave radi. Dalibor
-    je glavni lik (crni bradonja) dok su tu i kolege da začine igru.
+    tako svakome preporučujem da pogleda njihovu stranicu makar zabave radi. Dobrivoj
+    je glavni lik, dok su tu i kolege da začine igru.
 - type: p
   content: "Uhvatite ih na delu:<br>\U0001F4DE <strong>Poziv / Viber:</strong> <a
     href=\"tel:+381652722987\">+381 65 272 2987</a><br>\U0001F310 <strong>Facebook:</strong>
@@ -161,6 +161,6 @@ tips:
 - Gasna instalacija sa detektorom – sigurnost na prvom mestu
 - Izolacija 5cm ispod podnog – toplina ostaje unutra
 - Godišnji servis kotla – +15% efikasnosti
-tips_title: '6 Toplih Saveta od Termoinstala: Neka Vaš Dom Budi Topao, a Račun Hladan'
+tips_title: '6 Toplih Saveta od Termoinstala: Neka Vaš Dom Bude Topao, a Račun Hladan'
 permalink: "/izvodjaci/pancevo/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe/"
 ---

@@ -15,7 +15,7 @@ kategorija:
 mesto: Pančevo, Beograd, Borča, Krnjevo, Smederevo, Jabuka, Stara Pazova, Zemun, Voždovac,
   Novi Beograd
 address: Pančevo
-kontakt_telefon: "+381601234567"
+kontakt_telefon: "+381611113239"
 email: kontakt@calacprofesionalac.rs
 googlemaps: ''
 website:
@@ -30,7 +30,7 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih
   usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-11-08'
-last_modified: '2025-11-08'
+last_modified: '2025-11-09'
 sections:
 - type: p
   content: Kada bojler prestane da greje u 3 ujutru, a laminat počne da „bubri“ od
@@ -47,8 +47,7 @@ sections:
     moleraja – sve rešavaju sa preciznošću i brzinom.
 - type: p
   content: "Uhvatite ih na delu:<br>\U0001F4DE <strong>Poziv / Viber:</strong> <a
-    href=\"tel:+381601234567\">+381 60 123 4567</a><br>\U0001F4DE <strong>Alternativni:</strong>
-    <a href=\"tel:+381611113239\">+381 61 111 32 39</a><br>\U0001F4E7 <strong>Mail:</strong>
+    href=\"tel:+381611113239\">+381 61 111 3239</a><br>\U0001F4E7 <strong>Mail:</strong>
     <a href=\"mailto:kontakt@calacprofesionalac.rs\">kontakt@calacprofesionalac.rs</a><br>\U0001F310
     <strong>Online:</strong> <a href=\"https://calacprofesionalac.rs/\" target=\"_blank\"
     rel=\"nofollow\">calacprofesionalac.rs</a><br>\U0001F552 <strong>Dostupni:</strong>
@@ -126,8 +125,8 @@ sections:
     očas posla.
 - type: p
   content: Ako vam <strong>treba profesionalna ekipa hausmajstora koji ne spavaju</strong>
-    – Ćalac Profesionalac je pravi izbor. Javite se na <a href="tel:+381601234567"><strong>+381
-    60 123 4567</strong></a> ili posetite <a href="https://calacprofesionalac.rs/"
+    – Ćalac Profesionalac je pravi izbor. Javite se na <a href="tel:+381611113239"><strong>+381
+    61 111 3239</strong></a> ili posetite <a href="https://calacprofesionalac.rs/"
     target="_blank" rel="nofollow"><strong>calacprofesionalac.rs</strong></a>.
 services:
 - title: Vodoinstalaterski Radovi
@@ -152,7 +151,7 @@ faq:
 - question: Radite li van Pančeva?
   answer: Da – Beograd, Borča, Smederevo i okolina.
 - question: Kako da vas kontaktiram?
-  answer: 'Pozovite +381 60 123 4567 ili mail: kontakt@calacprofesionalac.rs'
+  answer: 'Pozovite +381 61 111 3239 ili mail: kontakt@calacprofesionalac.rs'
 tips:
 - Bojler servis pre zime – grejač čist, račun manji
 - Laminat sa podlogom od 3mm – tiši korak, topliji pod
