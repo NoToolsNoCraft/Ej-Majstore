@@ -28,10 +28,11 @@ hero_image: images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp
 discover_title: Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač Ej Majstore! i stručnjak za proveru kvaliteta zanatskih
-  usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
+  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
+  širom Srbije.
 date: '2025-10-31'
-last_modified: '2025-10-31'
+last_modified: '2025-11-10'
 sections:
 - type: p
   content: Već godinama sarađujem sa Jovištem, a sve je počelo preko Atile Lašu-a
@@ -55,7 +56,7 @@ sections:
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38124530350\">+381
     24 530 350</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://www.joviste.rs/\"
     target=\"_blank\" rel=\"noopener nofollow\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/fNvVohGtkjqBhQrx9\" target=\"_blank\" rel=\"noopener
+    <a href=\"https://maps.app.goo.gl/Vd6X2dT8rk1JCKEYA\" target=\"_blank\" rel=\"noopener
     nofollow\">Horgoški put 81b, Palić</a>"
 - type: h2
   content: Šta Nudi Jovište – Od Ideje do Montaže

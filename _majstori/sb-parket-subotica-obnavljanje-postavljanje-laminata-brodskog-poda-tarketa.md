@@ -6,6 +6,7 @@ description: SB Parket – obnavljanje starog parketa, postavljanje novog lamina
   Subotica, Kanjiža, Senta, Ada, Bačka Topola, Mali Iđoš, Temerin, Vrbas, Bečej, Srbobran.
 ime: SB Parket Subotica – Drveni Podovi koji Traju Generacijama
 kategorija:
+- Postavljanje Parketa
 - Parket
 - Laminat
 - Brodski Pod
