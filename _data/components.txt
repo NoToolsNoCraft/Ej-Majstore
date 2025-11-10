@@ -17,3 +17,11 @@ Image
     },
 
 
+
+      {
+      "type": "image",
+      "src": "images/keramicar-borisa-novi-sad-renoviranje-kupatila.webp",
+      "alt": "Završena adaptacija kupatila. Pločice blješte.",
+      "caption": "Završena adaptacija kupatila. Pločice blješte."
+    },
+

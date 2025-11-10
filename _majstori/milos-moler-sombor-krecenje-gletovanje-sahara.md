@@ -96,7 +96,7 @@ sections:
 - type: h2
   content: Kako Radi Miloš – Korak po Korak do Savršenog Zidova
 - type: p
-  content: "<strong>1. Poziv</strong> – opisite prostor i stil<br><strong>2. Dolazak</strong>
+  content: "<strong>1. Poziv</strong> – opišite prostor i stil<br><strong>2. Dolazak</strong>
     – procena, savet<br><strong>3. Ponuda</strong> – cena po m², rok<br><strong>4.
     Rad</strong> – priprema, glet, Sahara<br><strong>5. Završetak</strong> – čišćenje,
     predaja"
