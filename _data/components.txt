@@ -20,8 +20,8 @@ Image
 
       {
       "type": "image",
-      "src": "images/keramicar-borisa-novi-sad-renoviranje-kupatila.webp",
-      "alt": "Završena adaptacija kupatila. Pločice blješte.",
-      "caption": "Završena adaptacija kupatila. Pločice blješte."
+      "src": "images/Dragan-Jovanovic-Recenzija-SB-Parket.webp",
+      "alt": "Dragan Jovanović je podelio fotku svoje prostorije nakon što je SB Parket odradio pod.",
+      "caption": "Dragan Jovanović je podelio fotku svoje prostorije nakon što je SB Parket odradio pod."
     },
 

@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-09'
-last_modified: '2025-11-09'
+last_modified: '2025-11-10'
 sections:
 - type: p
   content: Kada prva hladnoća udari, a vaš dimnjak počne da se ponaša kao stara parna
@@ -105,7 +105,7 @@ sections:
 - type: h2
   content: Kako Rade – Korak po Korak do Čistog Dimnjaka
 - type: p
-  content: "<strong>1. Poziv</strong> – opisite dimnjak ili kotao<br><strong>2. Procena</strong>
+  content: "<strong>1. Poziv</strong> – opišite dimnjak ili kotao<br><strong>2. Procena</strong>
     – izlazak, kamera, analiza<br><strong>3. Ponuda</strong> – cena, rok, plan<br><strong>4.
     Čišćenje</strong> – mehaničko, hemijski, dezinfekcija<br><strong>5. Test</strong>
     – provera emisija, atest<br><strong>6. Predaja</strong> – garancija, saveti"
@@ -129,7 +129,7 @@ services:
   description: Čišćenje, inspekcija, sanacija dimnjaka.
 - title: Čišćenje Kotlova
   description: Dimno-plamena i vodena strana – mehaničko i hemijski.
-- type: Ventilacija i Klima
+- title: Ventilacija i Klima
   description: Čišćenje kanala, filteri, montaža sistema.
 - title: Merenja i Atesti
   description: Emisije, strujanje vazduha, potvrde.
