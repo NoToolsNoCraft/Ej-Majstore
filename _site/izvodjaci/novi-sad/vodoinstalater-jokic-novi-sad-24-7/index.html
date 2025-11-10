@@ -384,6 +384,15 @@
   text-decoration: none;
 }
 
+
+.share-btn.copy-link {
+    background: #000000; /* Black for contrast */
+}
+
+.share-btn.copy-link:hover {
+    background: #333333; /* Darker on hover */
+}
+
 </style>
 
 <article class="majstor-story">
@@ -629,6 +638,8 @@
        class="share-btn viber">Viber</a>
     <a href="https://t.me/share/url?url=https://ejmajstore.rs/izvodjaci/novi-sad/vodoinstalater-jokic-novi-sad-24-7/&text=Vodoinstalater%20Joki%C4%87%20Novi%20Sad:%20Pouzdani%20Majstori%20za%20Hitne%20Intervencije%2024/7" 
        target="_blank" rel="noopener" class="share-btn telegram">Telegram</a>
+
+       <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
   </div>
 
 
@@ -639,6 +650,39 @@
   </div>
 
 </article>
+
+
+<script>
+  
+document.addEventListener("DOMContentLoaded", function() {
+    const copyButton = document.getElementById('copyLinkBtn');
+    if (copyButton) {
+      // Get the absolute URL from the canonical link
+      const urlToCopy = document.querySelector('link[rel="canonical"]').href;
+
+      copyButton.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(urlToCopy);
+          
+          // Provide feedback to the user
+          copyButton.textContent = 'Kopirano!'; 
+          copyButton.style.backgroundColor = '#28a745'; // Green feedback
+          
+          // Reset button text and color after a short delay
+          setTimeout(() => {
+            copyButton.textContent = 'Kopiraj Link';
+            copyButton.style.backgroundColor = '#000000'; // Reset to original black
+          }, 2000);
+
+        } catch (err) {
+          console.error('Nije moguće kopirati link: ', err);
+          copyButton.textContent = 'Greška pri kopiranju!';
+        }
+      });
+    }
+  });
+
+  </script>
 
 
 
