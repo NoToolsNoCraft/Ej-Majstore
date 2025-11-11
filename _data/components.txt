@@ -25,3 +25,21 @@ Image
       "caption": "Dragan Jovanović je podelio fotku svoje prostorije nakon što je SB Parket odradio pod."
     },
 
+
+
+
+
+
+
+<!-- ==== USLUGE SECTION (original look) ==== -->
+  {% if page.services.size > 0 %}
+  <div style="margin-top:2rem;">
+    <h2 style="font-size:1.6rem;color:#000000;margin-bottom: 2rem;">Usluge</h2>
+    {% for srv in page.services %}
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border: 1px solid black;">
+      <h3 style="margin:0 0 .5rem;color:#1F2A44;">{{ srv.title }}</h3>
+      <p style="margin:0;color:#555;">{{ srv.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}

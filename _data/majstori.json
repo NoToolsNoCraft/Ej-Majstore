@@ -1,6 +1,572 @@
 [
 
   {
+  "ime": "Hitne Popravke Bele Tehnike: EL MOMA vraća vaše aparate u pogon – Sremska Kamenica",
+  "tip": "majstor",
+  "kategorija": ["Servis Bele Tehnike", "Servis Frižidera", "Servis Klima Uređaja", "Servis Bojlera", "Servis Veš Mašina", "Servis Sudo Mašina", "TA Peći", "Električni Šporeti"],
+  "opis_kratak": "EL MOMA – hitni servis frižidera, zamrzivača, bojlera, klima, veš/sudo mašina, TA peći. Momčilo dolazi isti dan, 24/7, povoljno, sa garancijom. Sremska Kamenica, Novi Sad i okolina.",
+  "mesto": ["Sremska Kamenica", "Novi Sad", "Petrovaradin", "Veternik", "Futog", "Beočin", "Liman", "Telep", "Detelinara", "Rumenka"],
+  "adresa": "Partizanska 12, Sremska Kamenica 21208",
+  "telefon": "+381653373555",
+  "email": "elmomaservis@gmail.com",
+  "website": "https://hitnepopravke.rs",
+  "slug": "el-moma-servis-bele-tehnike-sremska-kamenica",
+  "thumbnail": "images/el-moma-servis-bele-tehnike-sremska-kamenica.webp",
+  "hero_image": "images/el-moma-servis-bele-tehnike-sremska-kamenica.webp",
+  "discover_title": "Hitne Popravke Bele Tehnike: EL MOMA vraća vaše aparate u pogon – Sremska Kamenica",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-11",
+  "last_modified": "2025-11-11",
+  "tips_title": "Ključni saveti za očuvanje bele tehnike i brzo otkrivanje kvarova",
+  "tips": [
+    "Frižider – optimalna temp: +2 do +6°C (hladni deo), -20°C (zamrzivač)",
+    "Bojler – redovno čišćenje kamenca produžava vek grejača",
+    "Klima – filtere čistiti svaka 2 meseca tokom sezone",
+    "Veš mašina – ne puniti preko 80% kapaciteta",
+    "Pozovite odmah ako čujete neobičnu buku ili vidite curenje"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada frižider prestane da hladi usred noći, bojler otkaže pre jutarnjeg tuširanja ili klima stane tokom najveće vrućine – potrebna vam je brza i pouzdana intervencija. U Sremskoj Kamenici i šire, Momčilo iz EL MOMA servisa je majstor koji dolazi isti dan, 24/7, uključujući praznike. Sa više od hiljadu zadovoljnih klijenata, ovaj jedinstveni elektro-serviser rešava kvarove na licu mesta, sa alatom u ruci i garancijom na rad."
+    },
+    {
+      "type": "p",
+      "content": "Smešten na Partizanskoj 12 u Sremskoj Kamenici, pokriva čitav Novi Sad i okolinu. Nema čekanja – pozovete, dolazi. Nema skrivenih troškova – cena je jasna pre početka. Nema kompromisa – popravka je trajna, sa originalnim delovima i fiskalnim računom."
+    },
+    {
+      "type": "h2",
+      "content": "EL MOMA – Momčilo, Majstor koji Vam Rešava Probleme Kada Svi Ostali Spavaju"
+    },
+    {
+      "type": "p",
+      "content": "Momčilo je sam svoj gazda, ali i ceo tim u jednoj osobi. Specijalista za hitne intervencije, poznat po preciznosti, brzini i ljudskim cenama. Ne 'lupa po ušima' – dijagnostikuje kvar tačno, popravlja efikasno i objašnjava šta je uradio. Servisira sve brendove: Gorenje, LG, Beko, Bosch, Ariston, Elin, Bira i mnoge druge."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381653373555\">+381 65 33 73 555</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:elmomaservis@gmail.com\">elmomaservis@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://hitnepopravke.rs\" target=\"_blank\" rel=\"nofollow\">hitnepopravke.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/9jsFw77J19io4qtV9\" target=\"_blank\" rel=\"nofollow\">Partizanska 12, Sremska Kamenica</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Širok Spektar Usluga – Od Frižidera do Elektroinstalacija"
+    },
+    {
+      "type": "p",
+      "content": "EL MOMA pokriva skoro pa sve što radi na struju u vašem domu:"
+    },
+    {
+      "type": "h3",
+      "content": "❄️ Servis Frižidera, Zamrzivača i Rashladnih Vitrina"
+    },
+    {
+      "type": "p",
+      "content": "Punjenje freonom, zamena kompresora, termostata, isparivača, dihtung gume, motora, ventilatora. Rešava curenje, buku, nedovoljno hlađenje. <strong>Posebno iskusan sa američkim frižiderima</strong>. Dijagnostika i popravka na licu mesta."
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Servis Bojlera, Grejača i TA Peći"
+    },
+    {
+      "type": "p",
+      "content": "Zamena grejača, termostata, anoda. Čišćenje kamenca, popravka curenja. Servis elektrokotlova i TA peći. <strong>Vraća toplu vodu za par sati</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🌀 Servis Klima Uređaja"
+    },
+    {
+      "type": "p",
+      "content": "Punjenje freona, čišćenje filtera, popravka kompresora, elektronike. Ugradnja i demontaža. <strong>Brzo hlađenje ponovo</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🧼 Servis Veš Mašina i Sudo Mašina"
+    },
+    {
+      "type": "p",
+      "content": "Popravka pumpi, grejača, ležajeva, elektronike. Čišćenje kamenca, zamena brava, testiranje programa. <strong>Veš i sudovi ponovo čisti</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🔌 Električni Šporeti i Elektroinstalacije"
+    },
+    {
+      "type": "p",
+      "content": "Zamena ringli, grejača, tajmera, šarki. Popravka elektroinstalacija u domu. <strong>Bezbednost zagarantovana</strong>."
+    },
+    {
+      "type": "h2",
+      "content": "Područje Delovanja – Sremska Kamenica, Novi Sad i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Momčilo dolazi na adresu u:"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Sremska Kamenica, Petrovaradin:</strong> Hitne intervencije za frižidere i bojlere.<br><strong>Liman, Telep:</strong> Servis klima i veš mašina.<br><strong>Veternik, Futog:</strong> Popravka TA peći i elektrokotlova.<br><strong>Centar, Detelinara:</strong> Ugradnja i popravka šporeta."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Radi EL MOMA – Od Poziva do Rešenog Kvara"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jednostavan i bez stresa:<br>1. <strong>Pozovite</strong>: +381 65 33 73 555 – opišite problem.<br>2. <strong>Dolazak</strong>: Isti dan, često za 1–2 sata.<br>3. <strong>Dijagnostika</strong>: Besplatna procena kvara na licu mesta.<br>4. <strong>Ponuda</strong>: Jasna cena pre rada.<br>5. <strong>Popravka</strong>: Sa originalnim delovima, na licu mesta.<br>6. <strong>Garancija</strong>: Na rad i delove, sa računom."
+    },
+    {
+      "type": "h2",
+      "content": "Klijenti Veruju Momčilu"
+    },
+    
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://maps.app.goo.gl/y3kQWsS73UXoJBik8\" target=\"_blank\" rel=\"nofollow\">Sava Nikolicin</a>:</strong> Izuzetno pedantan majstor brz tačan servisirao mi je američki frižider radi savršeno svaka čast preporučiću ga prijateljima."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://maps.app.goo.gl/RWkRJHcTk1VB2g946\" target=\"_blank\" rel=\"nofollow\">Slaviša Nisic</a>:</strong> Moma je odgovoran i precizan majstor. \"Ne lupa po ušima\". Preporučujem mladog čoveka."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://maps.app.goo.gl/dyZEDDkfyYhDF2yH9\" target=\"_blank\" rel=\"nofollow\">Daniel Juhas</a>:</strong> Mnogo korektan, brz, cena zaista ljudska, covek je za svaku preporuku i saradnju !! Retko saradljiv majstor, nazovete i resi sve verujte."
+    },
+    {
+      "type": "p",
+      "content": "Ne čekajte da kvar postane katastrofa. Pozovite Momčila odmah na <a href=\"tel:+381653373555\"><strong>+381 65 33 73 555</strong></a> ili pošaljite mail na <a href=\"mailto:elmomaservis@gmail.com\"><strong>elmomaservis@gmail.com</strong></a>. Hitne popravke – 24/7."
+    }
+  ],
+  "services": [
+    {
+      "title": "Servis Frižidera i Zamrzivača",
+      "description": "Punjenje freona, zamena kompresora, termostata, dihtunga, motora. Popravka američkih modela. Garancija na rad."
+    },
+    {
+      "title": "Servis Bojlera i Grejača",
+      "description": "Zamena grejača, anoda, termostata. Čišćenje kamenca, popravka curenja. Topla voda za par sati."
+    },
+    {
+      "title": "Servis Klima Uređaja",
+      "description": "Punjenje freona, čišćenje, popravka kompresora. Ugradnja i sezonski servis."
+    },
+    {
+      "title": "Servis Veš i Sudo Mašina",
+      "description": "Popravka pumpi, grejača, elektronike. Čišćenje kamenca, testiranje programa."
+    },
+    {
+      "title": "Servis TA Peći i Elektrokotlova",
+      "description": "Zamena grejača, termostata, popravka elektronike. Brza reakcija zimi."
+    },
+    {
+      "title": "Električni Šporeti i Instalacije",
+      "description": "Zamena ringli, tajmera, popravka instalacija. Bezbednost na prvom mestu."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Dolazite li noću ili za praznike?",
+      "answer": "Da – 24/7, 365 dana u godini."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Isti dan – često za 1–2 sata od poziva."
+    },
+    {
+      "question": "Da li je dijagnostika besplatna?",
+      "answer": "Da – procena kvara na licu mesta je besplatna."
+    },
+    {
+      "question": "Radite li u Novom Sadu?",
+      "answer": "Da – cela teritorija Novog Sada i okoline."
+    },
+    {
+      "question": "Imate li garanciju na popravku?",
+      "answer": "Da – na rad i ugrađene delove, sa računom."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 65 33 73 555 ili pišite na elmomaservis@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Peđa Adice Novi Sad - Servis i Prodaja Polovne Bele Tehnike",
+  "tip": "firma",
+  "kategorija": ["Servis Bele Tehnike", "Prodaja Polovne Bele Tehnike", "Veš Mašine", "Sušare", "Sudo Mašine", "Šporeti"],
+  "opis_kratak": "Peđa Adice – prodaja polovne bele tehnike iz Nemačke i ovlašćeni Miele servis. Veš mašine, sušare, sudo mašine, šporeti. Servisirano, testirano, higijenski besprekorno, garancija 6 meseci. Novi Sad, Adice.",
+  "mesto": ["Novi Sad", "Adice", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Telep", "Liman", "Detelinara", "Novi Sad Centar"],
+  "adresa": "Desanke Maksimović 76, Novi Sad 21000",
+  "telefon": "+381631363588",
+  "email": "",
+  "website": "",
+  "slug": "pedja-adice-servis-prodaja-bele-tehnike-novi-sad",
+  "thumbnail": "images/pedja-adice-servis-prodaja-bele-tehnike-novi-sad.webp",
+  "hero_image": "images/pedja-adice-servis-prodaja-bele-tehnike-novi-sad.webp",
+  "discover_title": "Peđa Adice Novi Sad - Servis i Prodaja Polovne Bele Tehnike",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-11",
+  "last_modified": "2025-11-11",
+  "tips_title": "Kako prepoznati kvalitetnu polovnu belu tehniku i održavati je",
+  "tips": [
+    "Proverite higijenu – posebno kod šporeta i sudo mašina",
+    "Pitajte za testiranje – svaki uređaj mora biti proveren pre prodaje",
+    "Garancija 6 meseci – obavezna za polovnu tehniku",
+    "Miele uređaji – duži vek ako se redovno servisiraju",
+    "Čišćenje kamenca – sirće ili limunska kiselina svaka 3 meseca"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada tražite pouzdanu belu tehniku po povoljnoj ceni, a istovremeno želite garanciju kvaliteta i brzi servis – na Adicama u Novom Sadu nalazi se pravo mesto. Servis i prodaja bele tehnike Peđa, na čelu sa Predragom Rakićem, nudi polovne uređaje iz Nemačke koji su detaljno servisirani, testirani i higijenski pripremljeni za trenutno korišćenje. Ovde ne kupujete 'mačka u džaku' – insistira se na ličnoj prodaji kako biste se uverili u stanje svakog aparata."
+    },
+    {
+      "type": "p",
+      "content": "Smešteni na Desanke Maksimović 76, pokrivaju čitav Novi Sad i okolinu. Radno vreme je od 8 do 17h radnim danima, a subotom od 8 do 13h. Ovlašćeni su Miele servisni partner, što znači da su stručni i za najzahtevnije premium brendove. Svi uređaji dolaze sa garancijom od 6 meseci, a intervencije se rešavaju u roku od 48h."
+    },
+    {
+      "type": "h2",
+      "content": "Peđa Adice – Kvalitet iz Nemačke, Servis u Novom Sadu"
+    },
+    {
+      "type": "p",
+      "content": "Predrag Rakić i njegov tim specijalizovani su za uvoz, servis i prodaju polovne bele tehnike iz EU tržišta. Svaki uređaj prolazi kroz rigoroznu proveru: mehaničku, električnu i higijensku. Posebna pažnja posvećuje se uređajima za pripremu hrane – šporetima, rernama i sudo mašinama. Cilj je da svaki aparat bude što bliži fabričkom stanju."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih direktno:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381631363588\">+381 63 136 3588</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/p/Servis-i-prodaja-bele-tehnike-Pe%C4%91a-Adice-Novi-Sad-100064419112758/\" target=\"_blank\" rel=\"nofollow\">facebook.com/PeđaAdice</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/HqRdhCzcT8mRUDqo9\" target=\"_blank\" rel=\"nofollow\">Desanke Maksimović 76, Novi Sad</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nudimo – Od Prodaje do Ovlašćenog Servisa"
+    },
+    {
+      "type": "p",
+      "content": "Peđa Adice pokriva sve segmente bele tehnike:"
+    },
+    {
+      "type": "h3",
+      "content": "🛒 Prodaja Polovne Bele Tehnike iz Nemačke"
+    },
+    {
+      "type": "p",
+      "content": "Svi uređaji su iz EU tržišta, detaljno ispitani i servisirani. Dostupni su veš mašine, sušare, sudo mašine, ugradni i stojeći šporeti. <strong>Lična provera obavezna</strong> – kupac vidi, proba i uveri se u stanje pre kupovine. Cene su najpovoljnije u Novom Sadu."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Ovlašćeni Miele Servis"
+    },
+    {
+      "type": "p",
+      "content": "Kao zvanični Miele partner, vrše popravke premium aparata sa originalnim delovima. Dijagnostika, zamena komponenata i preventivno održavanje. <strong>Brza reakcija u garantnom i vangarantnom roku</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🌀 Servis Veš Mašina i Sušara"
+    },
+    {
+      "type": "p",
+      "content": "Popravke pumpi, grejača, ležajeva, elektronike. Čišćenje kamenca, zamena kaiševa, testiranje svih programa. Uređaji rade tiho i efikasno, sa garancijom na popravku."
+    },
+    {
+      "type": "h3",
+      "content": "🍽 Servis Sudo Mašina"
+    },
+    {
+      "type": "p",
+      "content": "Rešavanje problema sa grejanjem, ispiranjem, pumpama. Čišćenje filtera, dekalcifikacija, popravka vrata i elektronike. <strong>Sudovi besprekorno čisti</strong>, uz savete za održavanje."
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Servis Šporeta i Rerni"
+    },
+    {
+      "type": "p",
+      "content": "Zamena ringli, grejača, šarki, stakala, tajmera. Čišćenje masnoće, popravka ugradnih modela. <strong>Bezbednost na prvom mestu</strong>, sa testiranjem nakon popravke."
+    },
+   
+    {
+      "type": "h2",
+      "content": "Proces Rada – Od Dijagnostike do Garancije"
+    },
+    {
+      "type": "p",
+      "content": "Rad je organizovan i transparentan:<br>1. <strong>Kontakt</strong>: Poziv ili poseta prodajnom prostoru.<br>2. <strong>Provera</strong>: Lični pregled uređaja (kod prodaje) ili dijagnostika kvara.<br>3. <strong>Ponuda</strong>: Jasna cena pre početka radova.<br>4. <strong>Popravka/priprema</strong>: Servisiranje sa originalnim delovima.<br>5. <strong>Testiranje</strong>: Provera funkcionalnosti."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Klijenti Biraju Peđu Adice"
+    },
+    {
+      "type": "p",
+      "content": "Prednosti koje izdvajaju ovaj servis:<br><strong>Povoljne cene</strong>: Najniže u Novom Sadu za EU polovnu tehniku.<br><strong>Higijena</strong>: Besprekorna čistoća, posebno kod aparata za hranu.<br><strong>Brzina</strong>: Rešavanje problema u 48h u garantnom roku.<br><strong>Garancija</strong>: 6 meseci na sve prodajte uređaje.<br><strong>Miele partner</strong>: Stručnost za premium brendove.<br><strong>Lična prodaja</strong>: Kupac vidi i proba pre kupovine."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/pxEny2d8a4Q22ivWV\" target=\"_blank\" rel=\"nofollow\">Miodrag Ratkovica</a>:</strong> Brza usluga, momci jako prijatni i puni razumevanja. Sve pohvale i preporuke za saradnju."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/s9CzS5uSCobdxfbeT\" target=\"_blank\" rel=\"nofollow\">Dejan Zurovac</a>:</strong> Sve pohvale za stručnost i ljubaznost osoblja kao i za razumevanje za probleme korisnika bele tehnike. Samo nastavite tako. 🙂"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/iXSRB66NJC84GLeEs\" target=\"_blank\" rel=\"nofollow\">Milan Stojković</a>:</strong> Usluga odlična. Servis rešavaju u rekordnom roku. Veliko bravo za organizovanu ekipu zaposlenih!"
+    },
+    {
+      "type": "p",
+      "content": "Tražite li pouzdanu polovnu belu tehniku ili hitan servis – posetite Peđu Adice na <a href=\"https://maps.app.goo.gl/HqRdhCzcT8mRUDqo9\" target=\"_blank\" rel=\"nofollow\"><strong>Desanke Maksimović 76</strong></a> ili pozovite <a href=\"tel:+381631363588\"><strong>+381 63 136 3588</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Prodaja Polovne Bele Tehnike",
+      "description": "Uređaji iz Nemačke – veš mašine, sušare, sudo mašine, šporeti. Servisirani, testirani, higijenski pripremljeni. Lična provera obavezna, garancija 6 meseci."
+    },
+    {
+      "title": "Ovlašćeni Miele Servis",
+      "description": "Popravke premium Miele aparata sa originalnim delovima. Dijagnostika, zamena, održavanje. Brza reakcija u 48h."
+    },
+    {
+      "title": "Servis Veš Mašina i Sušara",
+      "description": "Popravka pumpi, grejača, ležajeva, elektronike. Čišćenje kamenca, testiranje programa. Garancija na rad."
+    },
+    {
+      "title": "Servis Sudo Mašina",
+      "description": "Rešavanje grejanja, ispiranja, pumpi. Čišćenje filtera, dekalcifikacija. Sudovi čisti, saveti za održavanje."
+    },
+    {
+      "title": "Servis Šporeta i Rerni",
+      "description": "Zamena ringli, grejača, šarki, stakala. Čišćenje, popravka ugradnih modela. Bezbednost zagarantovana."
+    },
+    {
+      "title": "Dostava i Montaža",
+      "description": "Prevoz do adrese, nivelacija, povezivanje na struju/vodu. Besplatna dostava u Novom Sadu."
+    }
+  ],
+  "faq": [
+      {
+        "question": "Zašto bih kupovao polovnu belu tehniku umesto nove?",
+        "answer": "Glavni razlog je izuzetna ušteda u kombinaciji sa dokazanim kvalitetom. Polovni uređaji, posebno iz uvoza (kao što su aparati iz Nemačke koje nabavlja Peđa Adice), često su proizvedeni po višim standardima izdržljivosti u odnosu na mnoge nove uređaje iz nižeg i srednjeg cenovnog ranga."
+      },
+    {
+      "question": "Koja je najveća prednost kupovine polovne tehnike kod Peđe Adice?",
+      "answer": "Najveća prednost je sigurnost. Svi aparati su u potpunosti servisirani, testirani i higijenski pripremljeni, te dolaze sa pismenom garancijom. To kupcima nudi sigurnost i eliminiše rizik kupovine neproverene polovne robe."
+    },
+    {
+      "question": "Da li mogu da vidim uređaj pre kupovine?",
+      "answer": "Da – insistiramo na ličnoj prodaji. Dođite i uverite se u stanje i čistoću."
+    },
+    {
+      "question": "Kolika je garancija na polovne uređaje?",
+      "answer": "6 meseci, sa intervencijom u roku od 48h."
+    },
+    {
+      "question": "Radite li ovlašćeni Miele servis?",
+      "answer": "Da – zvanični Miele servisni partner sa originalnim delovima."
+    },
+    {
+      "question": "Koliko brzo rešavate kvarove?",
+      "answer": "U garantnom roku do 48h, van roka po dogovoru – uvek dostupni."
+    },
+    {
+      "question": "Radite li subotom?",
+      "answer": "Da – od 8 do 13h, bez dodatne naplate."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 136 3588 ili dođite na Desanke Maksimović 76."
+    }
+  ]
+},
+
+  {
+  "ime": "LOJD Novi Sad - Pouzdani Servis Bele Tehnike",
+  "tip": "firma",
+  "kategorija": ["Servis Bele Tehnike", "Servis Frižidera", "Veš Mašine", "Šporeti", "Sušare", "Sudo Mašine"],
+  "opis_kratak": "LOJD – servis i popravke frižidera, veš mašina, šporetova, sušara, sudo mašina. Kvalitetno, brzo, povoljno, sa računom. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "adresa": "Dr Laze Markovića 2, Novi Sad 21000",
+  "telefon": "+38163581921",
+  "email": "info@lojdservis.com",
+  "website": "https://www.lojdservis.com/",
+  "slug": "lojd-servis-novi-sad-bele-tehnike-popravke",
+
+  "thumbnail": "images/lojd-servis-novi-sad-bele-tehnike-popravke.webp",
+  "hero_image": "images/lojd-servis-novi-sad-bele-tehnike-popravke.webp",
+
+  "discover_title": "LOJD Novi Sad - Pouzdani Servis Bele Tehnike",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-11",
+  "last_modified": "2025-11-11",
+
+  "tips_title": "Šta morate znati o popravci bele tehnike u osnovnim crtama",
+  "tips": [
+    "Frižider servis – čišćenje kondenzatora, freon dopuna",
+    "Veš mašina – proveriti pumpu i ležajeve prvo",
+    "Šporet – ringlu popravljati odmah, ne čekati požar",
+    "Sudo mašina – kamenac uklanjati sirćetom",
+    "Račun čuvati – iskoristite pogodnosti garancije"
+  ],
+
+  "sections": [
+  {
+    "type": "p",
+    "content": "Kada vam frižider iznenada otkaže poslušnost, a veš mašina poplavi kupatilo, prirodna reakcija je pomisao na zamenu kompletnog uređaja. Međutim, u Novom Sadu se isplativija i brža opcija krije u pozivu LOJD servisa. Ovaj tim dolazi sa kompletnim setom specijalizovanog alata, originalnim rezervnim delovima i dugogodišnjim iskustvom, transformišući iznenadne kvarove u potpuno funkcionalne uređaje koji rade pouzdano i precizno."
+  },
+  {
+    "type": "p",
+    "content": "Smešteni na adresi Dr Laze Markovića 2, pokrivaju čitav Novi Sad i sva okolna mesta. Bilo da se radi o hitnoj popravci šporeta ili detaljnom servisu sudo mašine, njihov rad je kvalitetan, izuzetno brz i transparentan, uvek uz izdat fiskalni račun i bez ikakvih skrivenih troškova."
+  },
+  {
+    "type": "h2",
+    "content": "LOJD – Stručnjaci koji Razumeju Složeni Jezik Bele Tehnike"
+  },
+  {
+    "type": "p",
+    "content": "Višegodišnja specijalizacija u popravkama frižidera, veš mašina, šporetova, sušara i sudo mašina pretvorila je tim LOJD servisa u visoko kvalifikovane stručnjake koji kvarove dijagnostikuju sa lakoćom. Njihova misija nije da zamene ispravne delove, već da precizno poprave kvar, čime klijentima štede značajnu sumu novca i dragoceno vreme."
+  },
+  {
+    "type": "p",
+    "content": "Kontaktirajte ih direktno za brzu intervenciju:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163581921\">+381 63 581 921</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@lojdservis.com\">info@lojdservis.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.lojdservis.com/\" target=\"_blank\" rel=\"nofollow\">lojdservis.com</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/JjpeHgsjDPM1CvUA9\" target=\"_blank\" rel=\"nofollow\">Dr Laze Markovića 2, Novi Sad</a>"
+  },
+  {
+    "type": "h2",
+    "content": "Celokupan Spektar Usluga – Od Frižidera do Šporeta"
+  },
+  {
+    "type": "p",
+    "content": "Evo detaljnog pregleda rešenja koja LOJD servis donosi na teren:"
+  },
+  {
+    "type": "h3",
+    "content": "❄️ Profesionalni Servis Frižidera i Zamrzivača"
+  },
+  {
+    "type": "p",
+    "content": "Rešavaju sve probleme – od nedovoljnog hlađenja i buke, do curenja. Vrše zamenu kompresora, termostata, dihtunga i ventilatora. Usluga obuhvata i punjenje rashladnim fluidima, čišćenje NoFrost sistema i detaljnu proveru elektronskih komponenti. <strong>Garantuju povratak pune funkcionalnosti uređaja</strong>."
+  },
+  {
+    "type": "h3",
+    "content": "🌀 Popravka Veš Mašina i Sušara"
+  },
+  {
+    "type": "p",
+    "content": "Specijalizovani su za kvarove koji sprečavaju centrifugiranje, grejanje ili ispuštanje vode. Menjaju se pumpe, grejači, ležajevi, i popravlja elektronika. Takođe obavljaju uklanjanje kamenca, popravku sigurnosnih brava i testiranje svih programa. Veš mašine ponovo rade tiho i efikasno."
+  },
+  {
+    "type": "h3",
+    "content": "🍽 Servisiranje Sudo Mašina"
+  },
+  {
+    "type": "p",
+    "content": "Rešavaju problem lošeg ispiranja i nedovoljnog zagrevanja. Vrše zamenu grejača, pumpi i elektronskih ploča, kao i čišćenje filtera i dekalcifikaciju. <strong>Sudovi će ponovo biti besprekorno čisti</strong>, uz savete za produžavanje veka trajanja uređaja i garanciju na izvedeni servis."
+  },
+  {
+    "type": "h3",
+    "content": "🔥 Popravke Šporeta i Rerni"
+  },
+  {
+    "type": "p",
+    "content": "Popravljaju neispravne ringle, nezatvaranje vrata rerne i kvarove na tajmeru. Menjaju grejače, prekidače, šarke i stakla. Servis uključuje i ugradnju ugradnih aparata te profesionalno testiranje funkcionalnosti nakon popravke. <strong>Bezbedna i pouzdana upotreba je zagarantovana</strong>."
+  },
+  {
+    "type": "h2",
+    "content": "Područje Delovanja – Novi Sad i Celokupna Okolina"
+  },
+  {
+    "type": "p",
+    "content": "LOJD servis obezbeđuje brzu reakciju u sledećim naseljima:"
+  },
+  {
+    "type": "p",
+    "content": "<strong>Veternik, Futog:</strong> Brza rešenja za rashladne sisteme.<br><strong>Petrovaradin, Liman:</strong> Popravka veš mašina koje stvaraju problem.<br><strong>Sremska Kamenica, Telep:</strong> Servis sudo mašina i kuhinjskih uređaja.<br><strong>Rumenka, Kać:</strong> Intervencije na šporetima i pećnicama.<br><strong>Beočin, Temerin:</strong> Redovna dostupnost za hitne intervencije."
+  },
+  {
+    "type": "h2",
+    "content": "Proces Servisa – Korak po Korak do Efikasne Popravke"
+  },
+  {
+    "type": "p",
+    "content": "Njihov radni proces je jednostavan i transparentan:<br>1. <strong>Javite se</strong>: Pozivom ili mailom opišite kvar.<br>2. <strong>Procena</strong>: Dolazak na teren, detaljna dijagnostika i jasna ponuda cene.<br>3. <strong>Popravka</strong>: Nakon vašeg odobrenja, majstori odmah pristupaju sanaciji kvara.<br>4. <strong>Testiranje</strong>: Temeljna provera rada uređaja.<br>5. <strong>Plaćanje</strong>: Izdavanje fiskalnog računa (mogućnost plaćanja karticom ili gotovinom).<br>6. <strong>Garancija</strong>: Obezbeđena garancija na rad u trajanju od 6 do 12 meseci."
+  },
+  {
+    "type": "h2",
+    "content": "Prednosti Saradnje sa LOJD Servisom"
+  },
+  {
+    "type": "p",
+    "content": "Klijenti biraju LOJD zbog ključnih prednosti:<br><strong>Brzina</strong>: Mogućnost dolaska isti dan.<br><strong>Transparentnost cena</strong>: Realne cene, bez skrivenih troškova.<br><strong>Kvalitet</strong>: Ugradnja isključivo originalnih delova uz račun.<br><strong>Legalnost</strong>: Izdavanje fiskalnog računa i garancije u skladu sa zakonom.<br><strong>Predvidivost</strong>: Cena usluge je uvek poznata pre početka popravke."
+  },
+  {
+    "type": "blockquote",
+    "content": "<strong><a href=\"https://share.google/fWeZpJJoJbBi4Vn92\" target=\"_blank\" rel=\"nofollow\">Anastasija Maglovski</a>:</strong> Brz i lak dogovor o dolasku 5/5.<br>Profesionalizam i stav prema klijentu i poslu 5 od 5.<br>Detaljna objašnjenja situacije, nuđenje izbora i poštena, ne tako velika cena usluga... Zaista smo zadovoljni, frižider radi i veoma smo zahvalni Draganu na brzom dolasku."
+  },
+  {
+    "type": "blockquote",
+    "content": "<strong><a href=\"https://share.google/WHAaDYb09sEZzQXT2\" target=\"_blank\" rel=\"nofollow\">Libra Peace</a>:</strong> Sve preporuke za ovog čoveka. Profesionalan i zna svoj posao. Posle toliko prevaranata koji nikako nisu mogli da utvrde šta je sa mašinom za sudove, bukvalno su nagađali i frljali se sa cenama, hvala Bogu pa sam došla do ovog čoveka. Vodite računa, grad je pun prevaranata i lažnih majstora. Ukoliko niste sigurni i dvoumite se koga pozvati, verujte mi – uvek ovog majstora, boljeg nema."
+  },
+  {
+    "type": "p",
+    "content": "Ako tehnika prestane da vam radi, a vi živite u Novom Sadu ili okolini – LOJD servis je pouzdan izbor. Javite se na <a href=\"tel:+38163581921\"><strong>+381 63 581 921</strong></a> ili posetite <a href=\"https://www.lojdservis.com/\" target=\"_blank\" rel=\"nofollow\"><strong>lojdservis.com</strong></a>."
+  }
+],
+
+  "services": [
+    {
+      "title": "Servis Frižidera i Zamrzivača",
+      "description": "Popravke svih vrsta – kompresor, termostat, dihtung, ventilatori. Punjenje freona, čišćenje NoFrost, provera elektronike. Hladno za 30 minuta, garancija 6 meseci."
+    },
+    {
+      "title": "Servis Veš Mašina i Sušara",
+      "description": "Popravke mehaničkih i elektronskih kvarova – pumpe, grejači, ležajevi, elektronika. Čišćenje kamenca, popravka brave, testiranje programa. Veš suv za 60 minuta, saveti za održavanje."
+    },
+    {
+      "title": "Servis Sudo Mašina",
+      "description": "Popravke grejača, pumpi, elektronike. Čišćenje filtera, uklanjanje kamenca, popravka vrata. Sudovi čisti za 2 sata, garancija na servis 6 meseci."
+    },
+    {
+      "title": "Servis Šporetova i Rerni",
+      "description": "Menjanje ringli, grejača, prekidača, šarki, stakala. Čišćenje masnoće, popravka tajmera. Rerna kao nova za 2 sata, ugradnja ugradnih modela."
+    },
+    {
+      "title": "Montaža i Ugradnja",
+      "description": "Ugradnja nove tehnike – nivelacija, povezivanje na struju/vodu. Redovni servisi za preventivno održavanje."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite na kvar?",
+      "answer": "Hitne intervencije isti dan – često za 2–3 sata od poziva."
+    },
+    
+    {
+      "question": "Može li plaćanje karticom?",
+      "answer": "Da – Master, Visa, Maestro, ili gotovina po dogovoru."
+    },
+    {
+      "question": "Radite li subotom?",
+      "answer": "Da – 9–14h, bez dodatne cene."
+    },
+    {
+      "question": "Dolazite li u Veternik?",
+      "answer": "Da – ceo Novi Sad i okolina, bez dodatnog troška."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 581 921 ili mail info@lojdservis.com."
+    }
+  ]
+},
+
+  {
   "ime": "Insecto Komarnici Novi Sad – Plise, Rolo i Fiksni po Meri",
   "tip": "firma",
   "kategorija": ["Komarnici", "Plise", "Rolo", "Fiksni", "Ugradnja"],
