@@ -1,0 +1,213 @@
+---
+layout: default
+permalink: /blog/
+title: Blog - Saveti, Novosti i Vodiči za Zanatske Usluge
+description: Pročitajte najnovije članke o majstorima, firmama i zanatskim uslugama u Srbiji. Saveti, vodiči i korisne informacije!
+---
+
+<style>
+/* Reuse styles from index.html for consistency */
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.feature-block {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 2px solid #000000;
+  text-align: center;
+}
+
+.feature-block i {
+  font-size: 36px;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.feature-block h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.feature-block p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.section-divider {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #007bff, transparent);
+  margin-bottom: 1rem;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .features-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .feature-block {
+    flex: 1;
+  }
+}
+
+/* NEW 2-COLUMN GRID FOR ARTICLES */
+.blog-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.blog-card {
+  background: white;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.3em;
+  line-height: 1.3;
+  color: #333;
+}
+
+.blog-card h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-card h2 a:hover {
+  color: #0077cc;
+}
+
+.blog-card .date {
+  font-size: 0.85em;
+  color: #0077cc;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.blog-card .excerpt {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.blog-card .read-more {
+  display: inline-block;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95em;
+  align-self: flex-start;
+}
+
+.blog-card .read-more:hover {
+  text-decoration: underline;
+}
+
+.blog-card .read-more::after {
+  content: " →";
+  margin-left: 5px;
+}
+
+/* Mobile: 1 column */
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+</style>
+
+<section class="blog-list">
+  <h1>Blog - Saveti i Novosti</h1>
+
+  <div class="features-container">
+    <div class="feature-block">
+      <i class="fa-solid fa-lightbulb"></i>
+      <h3>Korisni Saveti</h3>
+      <p>Praktični vodiči za izbor majstora i održavanje doma.</p>
+    </div>
+
+    <div class="feature-block">
+      <i class="fa-solid fa-newspaper"></i>
+      <h3>Novosti</h3>
+      <p>Najnovije vesti iz sveta zanatskih usluga u Srbiji.</p>
+    </div>
+
+    <div class="feature-block">
+      <i class="fa-solid fa-tools"></i>
+      <h3>Vodiči za Usluge</h3>
+      <p>Dubinski članci o različitim zanatskim poslovima.</p>
+    </div>
+  </div>
+
+  <h2 style="margin-top: 2rem; text-align: center;">Najnoviji Članci</h2>
+  <hr class="section-divider">
+
+  <div class="blog-grid">
+    {% for post in site.blog reversed %}
+      <article class="blog-card">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        {% else %}
+          <div style="height: 200px; background: #f3f3f3; display: flex; align-items: center; justify-content: center;">
+            <i class="fa-solid fa-blog" style="font-size: 48px; color: #ccc;"></i>
+          </div>
+        {% endif %}
+        
+        <div class="blog-card-content">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <div class="date">{{ post.date | date: "%d.%m.%Y" }}</div>
+          <p class="excerpt">{{ post.description | truncate: 120 }}</p>
+          <a href="{{ post.url | relative_url }}" class="read-more">Pročitajte više</a>
+        </div>
+      </article>
+    {% endfor %}
+
+    {% if site.blog.size == 0 %}
+      <div style="text-align: center; padding: 40px; grid-column: 1/-1;">
+        <i class="fa-solid fa-blog" style="font-size: 48px; color: #ccc; margin-bottom: 20px;"></i>
+        <h3>Trenutno nema članaka</h3>
+        <p>Pratite nas za nove objave sa korisnim savetima!</p>
+      </div>
+    {% endif %}
+  </div>
+</section>
