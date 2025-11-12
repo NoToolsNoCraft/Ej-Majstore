@@ -3,8 +3,8 @@ layout: majstor_profil
 title: LOJD Novi Sad - Pouzdani Servis Bele Tehnike
 description: LOJD – servis i popravke frižidera, veš mašina, šporetova, sušara, sudo
   mašina. Kvalitetno, brzo, povoljno, sa računom. Novi Sad i okolina. u Novi Sad,
-  Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački
-  Petrovac.
+  Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin,
+  Bački Petrovac.
 ime: LOJD Novi Sad - Pouzdani Servis Bele Tehnike
 kategorija:
 - Servis Bele Tehnike
@@ -14,7 +14,7 @@ kategorija:
 - Sušare
 - Sudo Mašine
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
-  Kać, Temeri, Bački Petrovac
+  Kać, Temerin, Bački Petrovac
 address: Nema dostupnu adresu
 kontakt_telefon: "+38163581921"
 email: info@lojdservis.com

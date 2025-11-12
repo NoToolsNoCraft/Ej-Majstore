@@ -125,7 +125,7 @@
   .nav-btn {
     background: #fff;
     color: var(--color-primary);
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-weight: 600;
     text-decoration: none;
     border-radius: var(--radius-md);
@@ -547,719 +547,969 @@
     width: 100%;
   }
 }
+
+
+/* ============================================================= */
+/* SMART FILTER BAR – MODERAN, KORISNIČKI ORIJENTISAN           */
+/* ============================================================= */
+.smart-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  background: hwb(209 80% 0%);
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.filter-group {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.filter-trigger {
+  width: 100%;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2a44;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.filter-trigger:hover {
+  border-color: #009de0;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.filter-trigger i {
+  font-size: 1.3rem;
+  color: #009de0;
+}
+
+.trigger-icon {
+  margin-left: auto;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+
+.filter-trigger.active .trigger-icon {
+  transform: rotate(180deg);
+}
+
+.filter-label strong {
+  color: #009de0;
+}
+
+/* Dropdown */
+.filter-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-top: 8px;
+  max-height: 320px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.25s ease;
+}
+
+.filter-dropdown.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.search-box {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.options {
+  max-height: 240px;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.options.scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+.options.scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+.options.scrollable::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+/* === POPRAVKA: Poravnanje radio + tekst u dropdown-u === */
+.options label {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+  line-height: 1.4;
+}
+
+.options label:hover {
+  background: #f0f7ff;
+}
+
+.options input[type="radio"] {
+  margin: 0 !important; /* uklanja default margin */
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+/* Reset Button */
+.reset-btn {
+  padding: 12px 20px;
+  background: #ff5e62;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+  box-shadow: 0 2px 6px rgba(255,94,98,0.3);
+}
+
+.reset-btn:hover {
+  background: #e64448;
+  transform: translateY(-1px);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .smart-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-group {
+    min-width: auto;
+    max-width: none;
+  }
+  .filter-trigger {
+    font-size: 0.95rem;
+  }
+}
 </style>
 
-<section class="filter-section">
+<section class="smart-filter-bar">
   <div class="filter-group">
-    <label for="tip">Tip:</label>
-    <select id="tip" aria-label="Izaberite tip (majstor ili firma)">
-      <option value="">Svi tipovi</option>
-      <option value="majstor">Majstor</option>
-      <option value="firma">Firma</option>
-    </select>
+    <button class="filter-trigger" data-filter="tip">
+      <i class="fa-solid fa-user"></i>
+      <span class="filter-label">Tip: <strong>Svi</strong></span>
+      <i class="fa-solid fa-chevron-down trigger-icon"></i>
+    </button>
+    <div class="filter-dropdown" data-filter="tip">
+      <div class="search-box">
+        <input type="text" placeholder="Pretraži tip..." autocomplete="off">
+      </div>
+      <div class="options">
+        <label><input type="radio" name="tip" value=""> Svi tipovi</label>
+        <label><input type="radio" name="tip" value="majstor"> Majstor</label>
+        <label><input type="radio" name="tip" value="firma"> Firma</label>
+      </div>
+    </div>
   </div>
 
   <div class="filter-group">
-    <label for="kategorija">Kategorija:</label>
-    <select id="kategorija" aria-label="Izaberite kategoriju usluge">
-      <option value="">Sve kategorije</option>
-      
-      
-        <option value="Servis Bele Tehnike">Servis Bele Tehnike</option>
-      
-        <option value="Servis Frižidera">Servis Frižidera</option>
-      
-        <option value="Servis Klima Uređaja">Servis Klima Uređaja</option>
-      
-        <option value="Servis Bojlera">Servis Bojlera</option>
-      
-        <option value="Servis Veš Mašina">Servis Veš Mašina</option>
-      
-        <option value="Servis Sudo Mašina">Servis Sudo Mašina</option>
-      
-        <option value="TA Peći">TA Peći</option>
-      
-        <option value="Električni Šporeti">Električni Šporeti</option>
-      
-        <option value="Prodaja Polovne Bele Tehnike">Prodaja Polovne Bele Tehnike</option>
-      
-        <option value="Veš Mašine">Veš Mašine</option>
-      
-        <option value="Sušare">Sušare</option>
-      
-        <option value="Sudo Mašine">Sudo Mašine</option>
-      
-        <option value="Šporeti">Šporeti</option>
-      
-        <option value="Komarnici">Komarnici</option>
-      
-        <option value="Plise">Plise</option>
-      
-        <option value="Rolo">Rolo</option>
-      
-        <option value="Fiksni">Fiksni</option>
-      
-        <option value="Ugradnja">Ugradnja</option>
-      
-        <option value="Postavljanje Parketa">Postavljanje Parketa</option>
-      
-        <option value="Parket">Parket</option>
-      
-        <option value="Laminat">Laminat</option>
-      
-        <option value="Brodski Pod">Brodski Pod</option>
-      
-        <option value="Tarket">Tarket</option>
-      
-        <option value="Lakiranje">Lakiranje</option>
-      
-        <option value="Poliranje">Poliranje</option>
-      
-        <option value="Keramičar">Keramičar</option>
-      
-        <option value="Hidroizolacija">Hidroizolacija</option>
-      
-        <option value="Demontaža">Demontaža</option>
-      
-        <option value="Adaptacija">Adaptacija</option>
-      
-        <option value="Dimničari">Dimničari</option>
-      
-        <option value="Čišćenje Dimnjaka">Čišćenje Dimnjaka</option>
-      
-        <option value="Inspekcija">Inspekcija</option>
-      
-        <option value="Sanacija">Sanacija</option>
-      
-        <option value="Ventilacija">Ventilacija</option>
-      
-        <option value="Klimatizacija">Klimatizacija</option>
-      
-        <option value="Bušenje Bunara">Bušenje Bunara</option>
-      
-        <option value="Vodosnabdevanje">Vodosnabdevanje</option>
-      
-        <option value="Toplotne pumpe">Toplotne pumpe</option>
-      
-        <option value="Geološka Analiza">Geološka Analiza</option>
-      
-        <option value="Karotaža">Karotaža</option>
-      
-        <option value="Oprema Bunara">Oprema Bunara</option>
-      
-        <option value="Agencija za čišćenje">Agencija za čišćenje</option>
-      
-        <option value="Čišćenje">Čišćenje</option>
-      
-        <option value="Dubinsko Pranje">Dubinsko Pranje</option>
-      
-        <option value="Održavanje Zgrada">Održavanje Zgrada</option>
-      
-        <option value="Posle Radova">Posle Radova</option>
-      
-        <option value="Moleraj">Moleraj</option>
-      
-        <option value="Pranje Fasada">Pranje Fasada</option>
-      
-        <option value="Mašinsko Pranje">Mašinsko Pranje</option>
-      
-        <option value="Mašinsko Čišćenje">Mašinsko Čišćenje</option>
-      
-        <option value="Pranje Tepiha">Pranje Tepiha</option>
-      
-        <option value="Grejanje">Grejanje</option>
-      
-        <option value="Podno Grejanje">Podno Grejanje</option>
-      
-        <option value="Toplotne Pumpe">Toplotne Pumpe</option>
-      
-        <option value="Gasne Instalacije">Gasne Instalacije</option>
-      
-        <option value="Kotlovi">Kotlovi</option>
-      
-        <option value="Hausmajstor">Hausmajstor</option>
-      
-        <option value="Vodoinstalater">Vodoinstalater</option>
-      
-        <option value="Električar">Električar</option>
-      
-        <option value="Montaža">Montaža</option>
-      
-        <option value="Renoviranje">Renoviranje</option>
-      
-        <option value="Vodovodar">Vodovodar</option>
-      
-        <option value="Odgušenje odvoda">Odgušenje odvoda</option>
-      
-        <option value="Popravke">Popravke</option>
-      
-        <option value="Kačenje Elemenata">Kačenje Elemenata</option>
-      
-        <option value="Krečenje">Krečenje</option>
-      
-        <option value="Gletovanje">Gletovanje</option>
-      
-        <option value="Sahara Tehnika">Sahara Tehnika</option>
-      
-        <option value="Demit Fasada">Demit Fasada</option>
-      
-        <option value="Renoviranje Lokala">Renoviranje Lokala</option>
-      
-        <option value="Električarski Radovi">Električarski Radovi</option>
-      
-        <option value="Ugradnja Klima">Ugradnja Klima</option>
-      
-        <option value="Servis Klima">Servis Klima</option>
-      
-        <option value="EV Punjači">EV Punjači</option>
-      
-        <option value="Stolarija">Stolarija</option>
-      
-        <option value="PVC Stolarija">PVC Stolarija</option>
-      
-        <option value="ALU Stolarija">ALU Stolarija</option>
-      
-        <option value="Prozori">Prozori</option>
-      
-        <option value="Vrata">Vrata</option>
-      
-        <option value="Rolo Vrata">Rolo Vrata</option>
-      
-        <option value="Popravka Frižidera">Popravka Frižidera</option>
-      
-        <option value="Klima Uređaji">Klima Uređaji</option>
-      
-        <option value="Elektroinstalacije">Elektroinstalacije</option>
-      
-        <option value="Osvetljenje">Osvetljenje</option>
-      
-        <option value="Smart Home">Smart Home</option>
-      
-        <option value="Bezbednosni Sistemi">Bezbednosni Sistemi</option>
-      
-        <option value="Gipsarski Radovi">Gipsarski Radovi</option>
-      
-        <option value="Fasade">Fasade</option>
-      
-        <option value="Vodoinstalacije">Vodoinstalacije</option>
-      
-        <option value="Centralno Grejanje">Centralno Grejanje</option>
-      
-        <option value="Renoviranje kupatila">Renoviranje kupatila</option>
-      
-        <option value="Popravka bojlera">Popravka bojlera</option>
-      
-        <option value="Mašine za Sudove">Mašine za Sudove</option>
-      
-        <option value="Hitne Intervencije">Hitne Intervencije</option>
-      
-        <option value="Parketarske Usluge">Parketarske Usluge</option>
-      
-        <option value="Brušenje Parketa">Brušenje Parketa</option>
-      
-        <option value="Restauracija">Restauracija</option>
-      
-        <option value="Hoblovanje Parketa">Hoblovanje Parketa</option>
-      
-        <option value="Sitne Popravke">Sitne Popravke</option>
-      
-        <option value="Elektro Instalacije">Elektro Instalacije</option>
-      
-        <option value="Montaža Nameštaja">Montaža Nameštaja</option>
-      
-        <option value="Bušenje i Kačenje">Bušenje i Kačenje</option>
-      
-        <option value="Novi Sad">Novi Sad</option>
-      
-        <option value="Uređenje Dvorišta">Uređenje Dvorišta</option>
-      
-        <option value="Projektovanje Vrtova">Projektovanje Vrtova</option>
-      
-        <option value="Održavanje Zelenila">Održavanje Zelenila</option>
-      
-        <option value="Biodekoracija Enterijera">Biodekoracija Enterijera</option>
-      
-        <option value="Uređenje Terasa">Uređenje Terasa</option>
-      
-        <option value="3D Vizualizacija">3D Vizualizacija</option>
-      
-        <option value="Košenje Trave">Košenje Trave</option>
-      
-        <option value="Orezivanje Voćki">Orezivanje Voćki</option>
-      
-        <option value="Rušenje Drveća">Rušenje Drveća</option>
-      
-        <option value="Frezovanje">Frezovanje</option>
-      
-        <option value="Instalacije">Instalacije</option>
-      
-        <option value="Bravarija">Bravarija</option>
-      
-        <option value="Održavanje Objekata">Održavanje Objekata</option>
-      
-        <option value="Vodovod">Vodovod</option>
-      
-        <option value="Elektro">Elektro</option>
-      
-        <option value="Popravke U Kući">Popravke U Kući</option>
-      
-        <option value="Nameštaj">Nameštaj</option>
-      
-        <option value="Etažno Grejanje">Etažno Grejanje</option>
-      
-        <option value="Solarni Sistemi">Solarni Sistemi</option>
-      
-        <option value="Gasni Kotlovi">Gasni Kotlovi</option>
-      
-        <option value="Postavljanje Keramike">Postavljanje Keramike</option>
-      
-        <option value="Metalne Konstrukcije">Metalne Konstrukcije</option>
-      
-        <option value="Ograde od Metala">Ograde od Metala</option>
-      
-        <option value="Keramičarski Radovi">Keramičarski Radovi</option>
-      
-        <option value="Postavljanje Pločica">Postavljanje Pločica</option>
-      
-        <option value="Fugovanje">Fugovanje</option>
-      
-        <option value="Renoviranje Kupatila">Renoviranje Kupatila</option>
-      
-        <option value="Adaptacija Kupatila">Adaptacija Kupatila</option>
-      
-        <option value="Izgradnja Objekata">Izgradnja Objekata</option>
-      
-        <option value="Projektovanje">Projektovanje</option>
-      
-        <option value="Rekonstrukcija">Rekonstrukcija</option>
-      
-        <option value="Sigurnosna Vrata">Sigurnosna Vrata</option>
-      
-        <option value="Ograde od Inoxa">Ograde od Inoxa</option>
-      
-        <option value="Kapije">Kapije</option>
-      
-        <option value="Nastrešnice">Nastrešnice</option>
-      
-        <option value="Zaštitne Rešetke">Zaštitne Rešetke</option>
-      
-        <option value="Terasne Ograde">Terasne Ograde</option>
-      
-        <option value="Stepeništa">Stepeništa</option>
-      
-        <option value="Stepenišne Ograde">Stepenišne Ograde</option>
-      
-        <option value="Roletne">Roletne</option>
-      
-        <option value="Žaluzine">Žaluzine</option>
-      
-        <option value="Prozori i Vrata">Prozori i Vrata</option>
-      
-        <option value="Paneli">Paneli</option>
-      
-        <option value="Odgušenje Kanalizacije">Odgušenje Kanalizacije</option>
-      
-        <option value="Popravka Bojlera">Popravka Bojlera</option>
-      
-        <option value="Oplate">Oplate</option>
-      
-        <option value="Skele">Skele</option>
-      
-        <option value="Inženjering">Inženjering</option>
-      
-        <option value="Građevinska Oprema">Građevinska Oprema</option>
-      
-        <option value="Mozaik">Mozaik</option>
-      
-        <option value="Pločice">Pločice</option>
-      
-        <option value="Alarmni Sistemi">Alarmni Sistemi</option>
-      
-        <option value="Video Nadzor">Video Nadzor</option>
-      
-        <option value="Sigurnosni Sistemi">Sigurnosni Sistemi</option>
-      
-        <option value="Servis Klime">Servis Klime</option>
-      
-        <option value="Digitalna Rešenja">Digitalna Rešenja</option>
-      
-        <option value="Nameštaj po Meri">Nameštaj po Meri</option>
-      
-        <option value="Kuhinje">Kuhinje</option>
-      
-        <option value="Plakari">Plakari</option>
-      
-        <option value="Enterijer">Enterijer</option>
-      
-        <option value="Dizajn">Dizajn</option>
-      
-        <option value="Čantavir">Čantavir</option>
-      
-        <option value="Subotica">Subotica</option>
-      
-        <option value="Ugradnja Klime">Ugradnja Klime</option>
-      
-        <option value="Zidno Grejanje">Zidno Grejanje</option>
-      
-        <option value="Kotlovi na Pelet">Kotlovi na Pelet</option>
-      
-        <option value="Merenje">Merenje</option>
-      
-        <option value="Gromobrani">Gromobrani</option>
-      
-        <option value="Rasveta">Rasveta</option>
-      
-        <option value="Prenaponska zaštita">Prenaponska zaštita</option>
-      
-        <option value="Tehnička zaštita">Tehnička zaštita</option>
-      
-        <option value="Video nadzor">Video nadzor</option>
-      
-        <option value="Alarmni sistemi">Alarmni sistemi</option>
-      
-        <option value="Građevinska oprema">Građevinska oprema</option>
-      
-        <option value="Hitne intervencije">Hitne intervencije</option>
-      
-        <option value="Odgušenje kanalizacije">Odgušenje kanalizacije</option>
-      
-        <option value="Zamena sanitarija">Zamena sanitarija</option>
-      
-    </select>
+    <button class="filter-trigger" data-filter="kategorija">
+      <i class="fa-solid fa-wrench"></i>
+      <span class="filter-label">Kategorija: <strong>Sve</strong></span>
+      <i class="fa-solid fa-chevron-down trigger-icon"></i>
+    </button>
+    <div class="filter-dropdown" data-filter="kategorija">
+      <div class="search-box">
+        <input type="text" placeholder="Pretraži kategoriju..." autocomplete="off">
+      </div>
+      <div class="options scrollable">
+        <label><input type="radio" name="kategorija" value=""> Sve kategorije</label>
+        
+        
+          <label><input type="radio" name="kategorija" value="Električar"> Električar</label>
+        
+          <label><input type="radio" name="kategorija" value="Haus Majstor"> Haus Majstor</label>
+        
+          <label><input type="radio" name="kategorija" value="Etažno Grejanje"> Etažno Grejanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Centralno Grejanje"> Centralno Grejanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Bojlera"> Servis Bojlera</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis TA Peći"> Servis TA Peći</label>
+        
+          <label><input type="radio" name="kategorija" value="LED Rasveta"> LED Rasveta</label>
+        
+          <label><input type="radio" name="kategorija" value="Vodoinstalater"> Vodoinstalater</label>
+        
+          <label><input type="radio" name="kategorija" value="Renoviranje Kupatila"> Renoviranje Kupatila</label>
+        
+          <label><input type="radio" name="kategorija" value="Grejanje"> Grejanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Odgušenje Kanalizacije"> Odgušenje Kanalizacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Ugradnja Pumpi"> Ugradnja Pumpi</label>
+        
+          <label><input type="radio" name="kategorija" value="Podno Grejanje"> Podno Grejanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Bele Tehnike"> Servis Bele Tehnike</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Frižidera"> Servis Frižidera</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Klima Uređaja"> Servis Klima Uređaja</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Veš Mašina"> Servis Veš Mašina</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Sudo Mašina"> Servis Sudo Mašina</label>
+        
+          <label><input type="radio" name="kategorija" value="TA Peći"> TA Peći</label>
+        
+          <label><input type="radio" name="kategorija" value="Električni Šporeti"> Električni Šporeti</label>
+        
+          <label><input type="radio" name="kategorija" value="Prodaja Polovne Bele Tehnike"> Prodaja Polovne Bele Tehnike</label>
+        
+          <label><input type="radio" name="kategorija" value="Veš Mašine"> Veš Mašine</label>
+        
+          <label><input type="radio" name="kategorija" value="Sušare"> Sušare</label>
+        
+          <label><input type="radio" name="kategorija" value="Sudo Mašine"> Sudo Mašine</label>
+        
+          <label><input type="radio" name="kategorija" value="Šporeti"> Šporeti</label>
+        
+          <label><input type="radio" name="kategorija" value="Komarnici"> Komarnici</label>
+        
+          <label><input type="radio" name="kategorija" value="Plise"> Plise</label>
+        
+          <label><input type="radio" name="kategorija" value="Rolo"> Rolo</label>
+        
+          <label><input type="radio" name="kategorija" value="Fiksni"> Fiksni</label>
+        
+          <label><input type="radio" name="kategorija" value="Ugradnja"> Ugradnja</label>
+        
+          <label><input type="radio" name="kategorija" value="Postavljanje Parketa"> Postavljanje Parketa</label>
+        
+          <label><input type="radio" name="kategorija" value="Parket"> Parket</label>
+        
+          <label><input type="radio" name="kategorija" value="Laminat"> Laminat</label>
+        
+          <label><input type="radio" name="kategorija" value="Brodski Pod"> Brodski Pod</label>
+        
+          <label><input type="radio" name="kategorija" value="Tarket"> Tarket</label>
+        
+          <label><input type="radio" name="kategorija" value="Lakiranje"> Lakiranje</label>
+        
+          <label><input type="radio" name="kategorija" value="Poliranje"> Poliranje</label>
+        
+          <label><input type="radio" name="kategorija" value="Keramičar"> Keramičar</label>
+        
+          <label><input type="radio" name="kategorija" value="Hidroizolacija"> Hidroizolacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Demontaža"> Demontaža</label>
+        
+          <label><input type="radio" name="kategorija" value="Adaptacija"> Adaptacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Dimničari"> Dimničari</label>
+        
+          <label><input type="radio" name="kategorija" value="Čišćenje Dimnjaka"> Čišćenje Dimnjaka</label>
+        
+          <label><input type="radio" name="kategorija" value="Inspekcija"> Inspekcija</label>
+        
+          <label><input type="radio" name="kategorija" value="Sanacija"> Sanacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Ventilacija"> Ventilacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Klimatizacija"> Klimatizacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Bušenje Bunara"> Bušenje Bunara</label>
+        
+          <label><input type="radio" name="kategorija" value="Vodosnabdevanje"> Vodosnabdevanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Toplotne pumpe"> Toplotne pumpe</label>
+        
+          <label><input type="radio" name="kategorija" value="Geološka Analiza"> Geološka Analiza</label>
+        
+          <label><input type="radio" name="kategorija" value="Karotaža"> Karotaža</label>
+        
+          <label><input type="radio" name="kategorija" value="Oprema Bunara"> Oprema Bunara</label>
+        
+          <label><input type="radio" name="kategorija" value="Agencija za čišćenje"> Agencija za čišćenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Čišćenje"> Čišćenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Dubinsko Pranje"> Dubinsko Pranje</label>
+        
+          <label><input type="radio" name="kategorija" value="Održavanje Zgrada"> Održavanje Zgrada</label>
+        
+          <label><input type="radio" name="kategorija" value="Posle Radova"> Posle Radova</label>
+        
+          <label><input type="radio" name="kategorija" value="Moleraj"> Moleraj</label>
+        
+          <label><input type="radio" name="kategorija" value="Pranje Fasada"> Pranje Fasada</label>
+        
+          <label><input type="radio" name="kategorija" value="Mašinsko Pranje"> Mašinsko Pranje</label>
+        
+          <label><input type="radio" name="kategorija" value="Mašinsko Čišćenje"> Mašinsko Čišćenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Pranje Tepiha"> Pranje Tepiha</label>
+        
+          <label><input type="radio" name="kategorija" value="Toplotne Pumpe"> Toplotne Pumpe</label>
+        
+          <label><input type="radio" name="kategorija" value="Gasne Instalacije"> Gasne Instalacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Kotlovi"> Kotlovi</label>
+        
+          <label><input type="radio" name="kategorija" value="Hausmajstor"> Hausmajstor</label>
+        
+          <label><input type="radio" name="kategorija" value="Montaža"> Montaža</label>
+        
+          <label><input type="radio" name="kategorija" value="Renoviranje"> Renoviranje</label>
+        
+          <label><input type="radio" name="kategorija" value="Vodovodar"> Vodovodar</label>
+        
+          <label><input type="radio" name="kategorija" value="Odgušenje odvoda"> Odgušenje odvoda</label>
+        
+          <label><input type="radio" name="kategorija" value="Popravke"> Popravke</label>
+        
+          <label><input type="radio" name="kategorija" value="Kačenje Elemenata"> Kačenje Elemenata</label>
+        
+          <label><input type="radio" name="kategorija" value="Krečenje"> Krečenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Gletovanje"> Gletovanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Sahara Tehnika"> Sahara Tehnika</label>
+        
+          <label><input type="radio" name="kategorija" value="Demit Fasada"> Demit Fasada</label>
+        
+          <label><input type="radio" name="kategorija" value="Renoviranje Lokala"> Renoviranje Lokala</label>
+        
+          <label><input type="radio" name="kategorija" value="Električarski Radovi"> Električarski Radovi</label>
+        
+          <label><input type="radio" name="kategorija" value="Ugradnja Klima"> Ugradnja Klima</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Klima"> Servis Klima</label>
+        
+          <label><input type="radio" name="kategorija" value="EV Punjači"> EV Punjači</label>
+        
+          <label><input type="radio" name="kategorija" value="Stolarija"> Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="PVC Stolarija"> PVC Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="ALU Stolarija"> ALU Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="Prozori"> Prozori</label>
+        
+          <label><input type="radio" name="kategorija" value="Vrata"> Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Rolo Vrata"> Rolo Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Popravka Frižidera"> Popravka Frižidera</label>
+        
+          <label><input type="radio" name="kategorija" value="Klima Uređaji"> Klima Uređaji</label>
+        
+          <label><input type="radio" name="kategorija" value="Elektroinstalacije"> Elektroinstalacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Osvetljenje"> Osvetljenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Smart Home"> Smart Home</label>
+        
+          <label><input type="radio" name="kategorija" value="Bezbednosni Sistemi"> Bezbednosni Sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Gipsarski Radovi"> Gipsarski Radovi</label>
+        
+          <label><input type="radio" name="kategorija" value="Fasade"> Fasade</label>
+        
+          <label><input type="radio" name="kategorija" value="Vodoinstalacije"> Vodoinstalacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Renoviranje kupatila"> Renoviranje kupatila</label>
+        
+          <label><input type="radio" name="kategorija" value="Popravka bojlera"> Popravka bojlera</label>
+        
+          <label><input type="radio" name="kategorija" value="Mašine za Sudove"> Mašine za Sudove</label>
+        
+          <label><input type="radio" name="kategorija" value="Hitne Intervencije"> Hitne Intervencije</label>
+        
+          <label><input type="radio" name="kategorija" value="Parketarske Usluge"> Parketarske Usluge</label>
+        
+          <label><input type="radio" name="kategorija" value="Brušenje Parketa"> Brušenje Parketa</label>
+        
+          <label><input type="radio" name="kategorija" value="Restauracija"> Restauracija</label>
+        
+          <label><input type="radio" name="kategorija" value="Hoblovanje Parketa"> Hoblovanje Parketa</label>
+        
+          <label><input type="radio" name="kategorija" value="Sitne Popravke"> Sitne Popravke</label>
+        
+          <label><input type="radio" name="kategorija" value="Elektro Instalacije"> Elektro Instalacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Montaža Nameštaja"> Montaža Nameštaja</label>
+        
+          <label><input type="radio" name="kategorija" value="Bušenje i Kačenje"> Bušenje i Kačenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Novi Sad"> Novi Sad</label>
+        
+          <label><input type="radio" name="kategorija" value="Uređenje Dvorišta"> Uređenje Dvorišta</label>
+        
+          <label><input type="radio" name="kategorija" value="Projektovanje Vrtova"> Projektovanje Vrtova</label>
+        
+          <label><input type="radio" name="kategorija" value="Održavanje Zelenila"> Održavanje Zelenila</label>
+        
+          <label><input type="radio" name="kategorija" value="Biodekoracija Enterijera"> Biodekoracija Enterijera</label>
+        
+          <label><input type="radio" name="kategorija" value="Uređenje Terasa"> Uređenje Terasa</label>
+        
+          <label><input type="radio" name="kategorija" value="3D Vizualizacija"> 3D Vizualizacija</label>
+        
+          <label><input type="radio" name="kategorija" value="Košenje Trave"> Košenje Trave</label>
+        
+          <label><input type="radio" name="kategorija" value="Orezivanje Voćki"> Orezivanje Voćki</label>
+        
+          <label><input type="radio" name="kategorija" value="Rušenje Drveća"> Rušenje Drveća</label>
+        
+          <label><input type="radio" name="kategorija" value="Frezovanje"> Frezovanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Instalacije"> Instalacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Bravarija"> Bravarija</label>
+        
+          <label><input type="radio" name="kategorija" value="Održavanje Objekata"> Održavanje Objekata</label>
+        
+          <label><input type="radio" name="kategorija" value="Vodovod"> Vodovod</label>
+        
+          <label><input type="radio" name="kategorija" value="Elektro"> Elektro</label>
+        
+          <label><input type="radio" name="kategorija" value="Popravke U Kući"> Popravke U Kući</label>
+        
+          <label><input type="radio" name="kategorija" value="Nameštaj"> Nameštaj</label>
+        
+          <label><input type="radio" name="kategorija" value="Solarni Sistemi"> Solarni Sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Gasni Kotlovi"> Gasni Kotlovi</label>
+        
+          <label><input type="radio" name="kategorija" value="Postavljanje Keramike"> Postavljanje Keramike</label>
+        
+          <label><input type="radio" name="kategorija" value="Metalne Konstrukcije"> Metalne Konstrukcije</label>
+        
+          <label><input type="radio" name="kategorija" value="Ograde od Metala"> Ograde od Metala</label>
+        
+          <label><input type="radio" name="kategorija" value="Keramičarski Radovi"> Keramičarski Radovi</label>
+        
+          <label><input type="radio" name="kategorija" value="Postavljanje Pločica"> Postavljanje Pločica</label>
+        
+          <label><input type="radio" name="kategorija" value="Fugovanje"> Fugovanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Adaptacija Kupatila"> Adaptacija Kupatila</label>
+        
+          <label><input type="radio" name="kategorija" value="Izgradnja Objekata"> Izgradnja Objekata</label>
+        
+          <label><input type="radio" name="kategorija" value="Projektovanje"> Projektovanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Rekonstrukcija"> Rekonstrukcija</label>
+        
+          <label><input type="radio" name="kategorija" value="Sigurnosna Vrata"> Sigurnosna Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Ograde od Inoxa"> Ograde od Inoxa</label>
+        
+          <label><input type="radio" name="kategorija" value="Kapije"> Kapije</label>
+        
+          <label><input type="radio" name="kategorija" value="Nastrešnice"> Nastrešnice</label>
+        
+          <label><input type="radio" name="kategorija" value="Zaštitne Rešetke"> Zaštitne Rešetke</label>
+        
+          <label><input type="radio" name="kategorija" value="Terasne Ograde"> Terasne Ograde</label>
+        
+          <label><input type="radio" name="kategorija" value="Stepeništa"> Stepeništa</label>
+        
+          <label><input type="radio" name="kategorija" value="Stepenišne Ograde"> Stepenišne Ograde</label>
+        
+          <label><input type="radio" name="kategorija" value="Roletne"> Roletne</label>
+        
+          <label><input type="radio" name="kategorija" value="Žaluzine"> Žaluzine</label>
+        
+          <label><input type="radio" name="kategorija" value="Prozori i Vrata"> Prozori i Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Paneli"> Paneli</label>
+        
+          <label><input type="radio" name="kategorija" value="Popravka Bojlera"> Popravka Bojlera</label>
+        
+          <label><input type="radio" name="kategorija" value="Oplate"> Oplate</label>
+        
+          <label><input type="radio" name="kategorija" value="Skele"> Skele</label>
+        
+          <label><input type="radio" name="kategorija" value="Inženjering"> Inženjering</label>
+        
+          <label><input type="radio" name="kategorija" value="Građevinska Oprema"> Građevinska Oprema</label>
+        
+          <label><input type="radio" name="kategorija" value="Mozaik"> Mozaik</label>
+        
+          <label><input type="radio" name="kategorija" value="Pločice"> Pločice</label>
+        
+          <label><input type="radio" name="kategorija" value="Alarmni Sistemi"> Alarmni Sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Video Nadzor"> Video Nadzor</label>
+        
+          <label><input type="radio" name="kategorija" value="Sigurnosni Sistemi"> Sigurnosni Sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Servis Klime"> Servis Klime</label>
+        
+          <label><input type="radio" name="kategorija" value="Digitalna Rešenja"> Digitalna Rešenja</label>
+        
+          <label><input type="radio" name="kategorija" value="Nameštaj po Meri"> Nameštaj po Meri</label>
+        
+          <label><input type="radio" name="kategorija" value="Kuhinje"> Kuhinje</label>
+        
+          <label><input type="radio" name="kategorija" value="Plakari"> Plakari</label>
+        
+          <label><input type="radio" name="kategorija" value="Enterijer"> Enterijer</label>
+        
+          <label><input type="radio" name="kategorija" value="Dizajn"> Dizajn</label>
+        
+          <label><input type="radio" name="kategorija" value="Čantavir"> Čantavir</label>
+        
+          <label><input type="radio" name="kategorija" value="Subotica"> Subotica</label>
+        
+          <label><input type="radio" name="kategorija" value="Ugradnja Klime"> Ugradnja Klime</label>
+        
+          <label><input type="radio" name="kategorija" value="Zidno Grejanje"> Zidno Grejanje</label>
+        
+          <label><input type="radio" name="kategorija" value="Kotlovi na Pelet"> Kotlovi na Pelet</label>
+        
+          <label><input type="radio" name="kategorija" value="Merenje"> Merenje</label>
+        
+          <label><input type="radio" name="kategorija" value="Gromobrani"> Gromobrani</label>
+        
+          <label><input type="radio" name="kategorija" value="Rasveta"> Rasveta</label>
+        
+          <label><input type="radio" name="kategorija" value="Prenaponska zaštita"> Prenaponska zaštita</label>
+        
+          <label><input type="radio" name="kategorija" value="Tehnička zaštita"> Tehnička zaštita</label>
+        
+          <label><input type="radio" name="kategorija" value="Video nadzor"> Video nadzor</label>
+        
+          <label><input type="radio" name="kategorija" value="Alarmni sistemi"> Alarmni sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Građevinska oprema"> Građevinska oprema</label>
+        
+          <label><input type="radio" name="kategorija" value="Hitne intervencije"> Hitne intervencije</label>
+        
+          <label><input type="radio" name="kategorija" value="Odgušenje kanalizacije"> Odgušenje kanalizacije</label>
+        
+          <label><input type="radio" name="kategorija" value="Zamena sanitarija"> Zamena sanitarija</label>
+        
+      </div>
+    </div>
   </div>
 
   <div class="filter-group">
-    <label for="mesto">Mesto:</label>
-    <input type="text" 
-           id="mesto" 
-           placeholder="Upišite mesto" 
-           aria-label="Pretražite grad ili opštinu"
-           list="mesta-suggestions"
-           autocomplete="off">
-    <datalist id="mesta-suggestions">
+  <button class="filter-trigger" data-filter="mesto">
+    <i class="fa-solid fa-location-dot"></i>
+    <span class="filter-label">Mesto: <strong>Svi</strong></span>
+    <i class="fa-solid fa-chevron-down trigger-icon"></i>
+  </button>
+  <div class="filter-dropdown" data-filter="mesto">
+    <div class="search-box">
+      <input type="text" placeholder="Upiši grad/opštinu..." autocomplete="off">
+    </div>
+    <div class="options scrollable">
+      <label><input type="radio" name="mesto" value=""> Sva mesta</label>
       
       
-        <option value="Sremska Kamenica">
+        <label><input type="radio" name="mesto" value="Ada"> Ada</label>
       
-        <option value="Novi Sad">
+        <label><input type="radio" name="mesto" value="Adice"> Adice</label>
       
-        <option value="Petrovaradin">
+        <label><input type="radio" name="mesto" value="Aleksa Šantić"> Aleksa Šantić</label>
       
-        <option value="Veternik">
+        <label><input type="radio" name="mesto" value="Aleksinac"> Aleksinac</label>
       
-        <option value="Futog">
+        <label><input type="radio" name="mesto" value="Alibunar"> Alibunar</label>
       
-        <option value="Beočin">
+        <label><input type="radio" name="mesto" value="Altina"> Altina</label>
       
-        <option value="Liman">
+        <label><input type="radio" name="mesto" value="Apatin"> Apatin</label>
       
-        <option value="Telep">
+        <label><input type="radio" name="mesto" value="Avijacija"> Avijacija</label>
       
-        <option value="Detelinara">
+        <label><input type="radio" name="mesto" value="Avijatičarsko Naselje"> Avijatičarsko Naselje</label>
       
-        <option value="Rumenka">
+        <label><input type="radio" name="mesto" value="Babušnica"> Babušnica</label>
       
-        <option value="Adice">
+        <label><input type="radio" name="mesto" value="Backo Petrovo Selo"> Backo Petrovo Selo</label>
       
-        <option value="Novi Sad Centar">
+        <label><input type="radio" name="mesto" value="Bagljaš"> Bagljaš</label>
       
-        <option value="Kać">
+        <label><input type="radio" name="mesto" value="Bajmok"> Bajmok</label>
       
-        <option value="Temeri">
+        <label><input type="radio" name="mesto" value="Barajevo"> Barajevo</label>
       
-        <option value="Bački Petrovac">
+        <label><input type="radio" name="mesto" value="Batajnica"> Batajnica</label>
       
-        <option value="Temerin">
+        <label><input type="radio" name="mesto" value="Bač"> Bač</label>
       
-        <option value="Subotica">
+        <label><input type="radio" name="mesto" value="Bačka Palanka"> Bačka Palanka</label>
       
-        <option value="Kanjiža">
+        <label><input type="radio" name="mesto" value="Bačka Topola"> Bačka Topola</label>
       
-        <option value="Senta">
+        <label><input type="radio" name="mesto" value="Bački Breg"> Bački Breg</label>
       
-        <option value="Ada">
+        <label><input type="radio" name="mesto" value="Bački Monoštor"> Bački Monoštor</label>
       
-        <option value="Bačka Topola">
+        <label><input type="radio" name="mesto" value="Bački Petrovac"> Bački Petrovac</label>
       
-        <option value="Mali Iđoš">
+        <label><input type="radio" name="mesto" value="Bačko Dušanovo"> Bačko Dušanovo</label>
       
-        <option value="Vrbas">
+        <label><input type="radio" name="mesto" value="Bela Crkva"> Bela Crkva</label>
       
-        <option value="Bečej">
+        <label><input type="radio" name="mesto" value="Bela Palanka"> Bela Palanka</label>
       
-        <option value="Srbobran">
+        <label><input type="radio" name="mesto" value="Beograd"> Beograd</label>
       
-        <option value="Beograd">
+        <label><input type="radio" name="mesto" value="Beočin"> Beočin</label>
       
-        <option value="Zemun">
+        <label><input type="radio" name="mesto" value="Bezdan"> Bezdan</label>
       
-        <option value="Novi Beograd">
+        <label><input type="radio" name="mesto" value="Bečej"> Bečej</label>
       
-        <option value="Vračar">
+        <label><input type="radio" name="mesto" value="Bistrica"> Bistrica</label>
       
-        <option value="Savski Venac">
+        <label><input type="radio" name="mesto" value="Bogojevo"> Bogojevo</label>
       
-        <option value="Voždovac">
+        <label><input type="radio" name="mesto" value="Bor"> Bor</label>
       
-        <option value="Palilula">
+        <label><input type="radio" name="mesto" value="Borča"> Borča</label>
       
-        <option value="Čukarica">
+        <label><input type="radio" name="mesto" value="Bukovac"> Bukovac</label>
       
-        <option value="Surčin">
+        <label><input type="radio" name="mesto" value="Bulevar"> Bulevar</label>
       
-        <option value="Obrenovac">
+        <label><input type="radio" name="mesto" value="City Centre"> City Centre</label>
       
-        <option value="Niš">
+        <label><input type="radio" name="mesto" value="Crveni Krst"> Crveni Krst</label>
       
-        <option value="Kragujevac">
+        <label><input type="radio" name="mesto" value="Dedinje"> Dedinje</label>
       
-        <option value="Pančevo">
+        <label><input type="radio" name="mesto" value="Detelinara"> Detelinara</label>
       
-        <option value="Smederevo">
+        <label><input type="radio" name="mesto" value="Dimitrovgrad"> Dimitrovgrad</label>
       
-        <option value="Požarevac">
+        <label><input type="radio" name="mesto" value="Dobanovci"> Dobanovci</label>
       
-        <option value="Leskovac">
+        <label><input type="radio" name="mesto" value="Doljevac"> Doljevac</label>
       
-        <option value="Vranje">
+        <label><input type="radio" name="mesto" value="Donji Milanovac"> Donji Milanovac</label>
       
-        <option value="Bačka Palanka">
+        <label><input type="radio" name="mesto" value="Ečka"> Ečka</label>
       
-        <option value="Inđija">
+        <label><input type="radio" name="mesto" value="Futog"> Futog</label>
       
-        <option value="Sombor">
+        <label><input type="radio" name="mesto" value="Gadžin Han"> Gadžin Han</label>
       
-        <option value="Zrenjanin">
+        <label><input type="radio" name="mesto" value="Gakovo"> Gakovo</label>
       
-        <option value="Mladenovac">
+        <label><input type="radio" name="mesto" value="Gložan"> Gložan</label>
       
-        <option value="Sremčica">
+        <label><input type="radio" name="mesto" value="Grbavica"> Grbavica</label>
       
-        <option value="Lazarevac">
+        <label><input type="radio" name="mesto" value="Inđija"> Inđija</label>
       
-        <option value="Vršac">
+        <label><input type="radio" name="mesto" value="Irig"> Irig</label>
       
-        <option value="Kovin">
+        <label><input type="radio" name="mesto" value="Jabuka"> Jabuka</label>
       
-        <option value="Bela Crkva">
+        <label><input type="radio" name="mesto" value="Jakovo"> Jakovo</label>
       
-        <option value="Alibunar">
+        <label><input type="radio" name="mesto" value="Kanjiza"> Kanjiza</label>
       
-        <option value="Borča">
+        <label><input type="radio" name="mesto" value="Kanjiža"> Kanjiža</label>
       
-        <option value="Krnjevo">
+        <label><input type="radio" name="mesto" value="Kać"> Kać</label>
       
-        <option value="Jabuka">
+        <label><input type="radio" name="mesto" value="Kelebija"> Kelebija</label>
       
-        <option value="Stara Pazova">
+        <label><input type="radio" name="mesto" value="Kladovo"> Kladovo</label>
       
-        <option value="Apatin">
+        <label><input type="radio" name="mesto" value="Klek"> Klek</label>
       
-        <option value="Bezdan">
+        <label><input type="radio" name="mesto" value="Klisa"> Klisa</label>
       
-        <option value="Svetozar Miletić">
+        <label><input type="radio" name="mesto" value="Kljajićevo"> Kljajićevo</label>
       
-        <option value="Kljajićevo">
+        <label><input type="radio" name="mesto" value="Knjaževac"> Knjaževac</label>
       
-        <option value="Gakovo">
+        <label><input type="radio" name="mesto" value="Kovin"> Kovin</label>
       
-        <option value="Bački Breg">
+        <label><input type="radio" name="mesto" value="Kragujevac"> Kragujevac</label>
       
-        <option value="Gložan">
+        <label><input type="radio" name="mesto" value="Krnjevo"> Krnjevo</label>
       
-        <option value="Stapar">
+        <label><input type="radio" name="mesto" value="Kula"> Kula</label>
       
-        <option value="Odžaci">
+        <label><input type="radio" name="mesto" value="Kupusina"> Kupusina</label>
       
-        <option value="Kula">
+        <label><input type="radio" name="mesto" value="Lazarevac"> Lazarevac</label>
       
-        <option value="Bač">
+        <label><input type="radio" name="mesto" value="Leskovac"> Leskovac</label>
       
-        <option value="Avijatičarsko Naselje">
+        <label><input type="radio" name="mesto" value="Liman"> Liman</label>
       
-        <option value="Klisa">
+        <label><input type="radio" name="mesto" value="Majdanpek"> Majdanpek</label>
       
-        <option value="Bistrica">
+        <label><input type="radio" name="mesto" value="Mali Iđoš"> Mali Iđoš</label>
       
-        <option value="City Centre">
+        <label><input type="radio" name="mesto" value="Medijana"> Medijana</label>
       
-        <option value="Bukovac">
+        <label><input type="radio" name="mesto" value="Merdare"> Merdare</label>
       
-        <option value="Podbara">
+        <label><input type="radio" name="mesto" value="Mladenovac"> Mladenovac</label>
       
-        <option value="Salajka">
+        <label><input type="radio" name="mesto" value="Mužlja"> Mužlja</label>
       
-        <option value="Sajlovo">
+        <label><input type="radio" name="mesto" value="Negotin"> Negotin</label>
       
-        <option value="Nova Pazova">
+        <label><input type="radio" name="mesto" value="Niš"> Niš</label>
       
-        <option value="Ruma">
+        <label><input type="radio" name="mesto" value="Niška Banja"> Niška Banja</label>
       
-        <option value="Irig">
+        <label><input type="radio" name="mesto" value="Nova Pazova"> Nova Pazova</label>
       
-        <option value="Žabalj">
+        <label><input type="radio" name="mesto" value="Novi Beograd"> Novi Beograd</label>
       
-        <option value="Dedinje">
+        <label><input type="radio" name="mesto" value="Novi Sad"> Novi Sad</label>
       
-        <option value="Stari Grad">
+        <label><input type="radio" name="mesto" value="Novi Sad Centar"> Novi Sad Centar</label>
       
-        <option value="Kupusina">
+        <label><input type="radio" name="mesto" value="Novo Naselje"> Novo Naselje</label>
       
-        <option value="Čonoplja">
+        <label><input type="radio" name="mesto" value="Obrenovac"> Obrenovac</label>
       
-        <option value="Sivac">
+        <label><input type="radio" name="mesto" value="Obrovac"> Obrovac</label>
       
-        <option value="Telečka">
+        <label><input type="radio" name="mesto" value="Odžaci"> Odžaci</label>
       
-        <option value="Stanišić">
+        <label><input type="radio" name="mesto" value="Orlovat"> Orlovat</label>
       
-        <option value="Čačak">
+        <label><input type="radio" name="mesto" value="Palilula"> Palilula</label>
       
-        <option value="Šabac">
+        <label><input type="radio" name="mesto" value="Palić"> Palić</label>
       
-        <option value="Valjevo">
+        <label><input type="radio" name="mesto" value="Pantelej"> Pantelej</label>
       
-        <option value="Bagljaš">
+        <label><input type="radio" name="mesto" value="Pančevo"> Pančevo</label>
       
-        <option value="Mužlja">
+        <label><input type="radio" name="mesto" value="Petrovaradin"> Petrovaradin</label>
       
-        <option value="Ečka">
+        <label><input type="radio" name="mesto" value="Pirot"> Pirot</label>
       
-        <option value="Stajićevo">
+        <label><input type="radio" name="mesto" value="Podbara"> Podbara</label>
       
-        <option value="Tomaševac">
+        <label><input type="radio" name="mesto" value="Popovac"> Popovac</label>
       
-        <option value="Orlovat">
+        <label><input type="radio" name="mesto" value="Požarevac"> Požarevac</label>
       
-        <option value="Klek">
+        <label><input type="radio" name="mesto" value="Prigrevica"> Prigrevica</label>
       
-        <option value="Medijana">
+        <label><input type="radio" name="mesto" value="Rakovica"> Rakovica</label>
       
-        <option value="Pantelej">
+        <label><input type="radio" name="mesto" value="Rotkvarija"> Rotkvarija</label>
       
-        <option value="Crveni Krst">
+        <label><input type="radio" name="mesto" value="Ruma"> Ruma</label>
       
-        <option value="Niška Banja">
+        <label><input type="radio" name="mesto" value="Rumenka"> Rumenka</label>
       
-        <option value="Gadžin Han">
+        <label><input type="radio" name="mesto" value="Sajlovo"> Sajlovo</label>
       
-        <option value="Svrljig">
+        <label><input type="radio" name="mesto" value="Salajka"> Salajka</label>
       
-        <option value="Aleksinac">
+        <label><input type="radio" name="mesto" value="Savski Venac"> Savski Venac</label>
       
-        <option value="Doljevac">
+        <label><input type="radio" name="mesto" value="Selenča"> Selenča</label>
       
-        <option value="Pirot">
+        <label><input type="radio" name="mesto" value="Senta"> Senta</label>
       
-        <option value="Dimitrovgrad">
+        <label><input type="radio" name="mesto" value="Sivac"> Sivac</label>
       
-        <option value="Babušnica">
+        <label><input type="radio" name="mesto" value="Smederevo"> Smederevo</label>
       
-        <option value="Bela Palanka">
+        <label><input type="radio" name="mesto" value="Sombor"> Sombor</label>
       
-        <option value="Vlasotince">
+        <label><input type="radio" name="mesto" value="Sonta"> Sonta</label>
       
-        <option value="Knjaževac">
+        <label><input type="radio" name="mesto" value="Srbobran"> Srbobran</label>
       
-        <option value="Zaječar">
+        <label><input type="radio" name="mesto" value="Sremska Kamenica"> Sremska Kamenica</label>
       
-        <option value="Popovac">
+        <label><input type="radio" name="mesto" value="Sremska Mitrovica"> Sremska Mitrovica</label>
       
-        <option value="Merdare">
+        <label><input type="radio" name="mesto" value="Sremski Karlovci"> Sremski Karlovci</label>
       
-        <option value="Rakovica">
+        <label><input type="radio" name="mesto" value="Sremčica"> Sremčica</label>
       
-        <option value="Zvezdara">
+        <label><input type="radio" name="mesto" value="Stajićevo"> Stajićevo</label>
       
-        <option value="Negotin">
+        <label><input type="radio" name="mesto" value="Stanišić"> Stanišić</label>
       
-        <option value="Bor">
+        <label><input type="radio" name="mesto" value="Stapar"> Stapar</label>
       
-        <option value="Majdanpek">
+        <label><input type="radio" name="mesto" value="Stara Pazova"> Stara Pazova</label>
       
-        <option value="Kladovo">
+        <label><input type="radio" name="mesto" value="Stari Grad"> Stari Grad</label>
       
-        <option value="Donji Milanovac">
+        <label><input type="radio" name="mesto" value="Stari Žednik"> Stari Žednik</label>
       
-        <option value="Velika Plana">
+        <label><input type="radio" name="mesto" value="Subotica"> Subotica</label>
       
-        <option value="Backo Petrovo Selo">
+        <label><input type="radio" name="mesto" value="Surčin"> Surčin</label>
       
-        <option value="Sremski Karlovci">
+        <label><input type="radio" name="mesto" value="Svetozar Miletić"> Svetozar Miletić</label>
       
-        <option value="Palić">
+        <label><input type="radio" name="mesto" value="Svilojevo"> Svilojevo</label>
       
-        <option value="Kanjiza">
+        <label><input type="radio" name="mesto" value="Svrljig"> Svrljig</label>
       
-        <option value="Čantavir">
+        <label><input type="radio" name="mesto" value="Tavankut"> Tavankut</label>
       
-        <option value="Novo Naselje">
+        <label><input type="radio" name="mesto" value="Telep"> Telep</label>
       
-        <option value="Bačko Dušanovo">
+        <label><input type="radio" name="mesto" value="Telečka"> Telečka</label>
       
-        <option value="Višnjevac">
+        <label><input type="radio" name="mesto" value="Temerin"> Temerin</label>
       
-        <option value="Tornjoš">
+        <label><input type="radio" name="mesto" value="Titel"> Titel</label>
       
-        <option value="Bajmok">
+        <label><input type="radio" name="mesto" value="Tomaševac"> Tomaševac</label>
       
-        <option value="Kelebija">
+        <label><input type="radio" name="mesto" value="Tornjoš"> Tornjoš</label>
       
-        <option value="Tavankut">
+        <label><input type="radio" name="mesto" value="Ugrinovci"> Ugrinovci</label>
       
-        <option value="Đurđin">
+        <label><input type="radio" name="mesto" value="Valjevo"> Valjevo</label>
       
-        <option value="Stari Žednik">
+        <label><input type="radio" name="mesto" value="Velika Plana"> Velika Plana</label>
       
-        <option value="Zemun Polje">
+        <label><input type="radio" name="mesto" value="Veternik"> Veternik</label>
       
-        <option value="Batajnica">
+        <label><input type="radio" name="mesto" value="Višnjevac"> Višnjevac</label>
       
-        <option value="Altina">
+        <label><input type="radio" name="mesto" value="Vlasotince"> Vlasotince</label>
       
-        <option value="Ugrinovci">
+        <label><input type="radio" name="mesto" value="Voždovac"> Voždovac</label>
       
-        <option value="Dobanovci">
+        <label><input type="radio" name="mesto" value="Vranje"> Vranje</label>
       
-        <option value="Jakovo">
+        <label><input type="radio" name="mesto" value="Vračar"> Vračar</label>
       
-        <option value="Šimanovci">
+        <label><input type="radio" name="mesto" value="Vrbas"> Vrbas</label>
       
-        <option value="Sremska Mitrovica">
+        <label><input type="radio" name="mesto" value="Vršac"> Vršac</label>
       
-        <option value="Bački Monoštor">
+        <label><input type="radio" name="mesto" value="Zaječar"> Zaječar</label>
       
-        <option value="Aleksa Šantić">
+        <label><input type="radio" name="mesto" value="Zemun"> Zemun</label>
       
-        <option value="Bogojevo">
+        <label><input type="radio" name="mesto" value="Zemun Polje"> Zemun Polje</label>
       
-        <option value="Titel">
+        <label><input type="radio" name="mesto" value="Zrenjanin"> Zrenjanin</label>
       
-        <option value="Sonta">
+        <label><input type="radio" name="mesto" value="Zvezdara"> Zvezdara</label>
       
-        <option value="Prigrevica">
+        <label><input type="radio" name="mesto" value="Čantavir"> Čantavir</label>
       
-        <option value="Svilojevo">
+        <label><input type="radio" name="mesto" value="Čačak"> Čačak</label>
       
-        <option value="Obrovac">
+        <label><input type="radio" name="mesto" value="Čonoplja"> Čonoplja</label>
       
-        <option value="Selenča">
+        <label><input type="radio" name="mesto" value="Čukarica"> Čukarica</label>
       
-        <option value="Avijacija">
+        <label><input type="radio" name="mesto" value="Đurđin"> Đurđin</label>
       
-        <option value="Bulevar">
+        <label><input type="radio" name="mesto" value="Šabac"> Šabac</label>
       
-        <option value="Grbavica">
+        <label><input type="radio" name="mesto" value="Šimanovci"> Šimanovci</label>
       
-        <option value="Rotkvarija">
+        <label><input type="radio" name="mesto" value="Žabalj"> Žabalj</label>
       
-    </datalist>
+    </div>
   </div>
+</div>
+
+  <button id="reset-filters" class="reset-btn">
+    <i class="fa-solid fa-rotate-left"></i> Resetuj
+  </button>
 </section>
 
 <section id="majstori-lista">
-  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">53</span></p>
+  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">55</span></p>
   <div id="kartice-kontejner">
+    
+      
+      
+      <div class="majstor-kartica" data-tip="majstor" data-kategorija="Električar,Haus Majstor,Etažno Grejanje,Centralno Grejanje,Servis Bojlera,Servis TA Peći,LED Rasveta" data-mesto="Beograd,Zemun,Novi Beograd,Vračar,Savski Venac,Stari Grad,Palilula,Voždovac,Rakovica,Čukarica,Surčin,Barajevo" style="display: none;">
+        <img loading="lazy" src="/images/elektri%C4%8Dar-toma-beograd-hausmajstor.webp" alt="Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije</h3>
+          <p><strong>Izvođač: </strong>Majstor</p>
+          <p><strong>Usluge: </strong>Električar, Haus Majstor, Etažno Grejanje, Centralno Grejanje, Servis Bojlera, Servis TA Peći, LED Rasveta</p> 
+          <p><strong>Mesto: </strong>Beograd, Zemun, Novi Beograd, Vračar, Savski Venac, Stari Grad, Palilula, Voždovac, Rakovica, Čukarica, Surčin, Barajevo</p> 
+          
+            <p>Toma – električar i haus majstor za grejanje na struju, gas, pelet, drva. Hitne intervencije 24/7, popravke bojlera, TA peći, instalacije. Medijski stručnjak iz Beograda. Beograd i okolina.</p>
+          
+          <a href="/izvodjaci/beograd/elektricar-toma-beograd-hausmajstor/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="majstor" data-kategorija="Vodoinstalater,Renoviranje Kupatila,Grejanje,Odgušenje Kanalizacije,Ugradnja Pumpi,Servis Bojlera,Podno Grejanje" data-mesto="Novi Sad,Veternik,Futog,Petrovaradin,Sremska Kamenica,Beočin,Rumenka,Kać,Temerin,Liman,Telep,Adice" style="display: none;">
+        <img loading="lazy" src="/images/vodoinstalater-medakovic-novi-sad-zoran.webp" alt="Vodoinstalater Medaković Novi Sad - Majstor za Grejanje, Kupatila i Kanalizaciju thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Vodoinstalater Medaković Novi Sad - Majstor za Grejanje, Kupatila i Kanalizaciju</h3>
+          <p><strong>Izvođač: </strong>Majstor</p>
+          <p><strong>Usluge: </strong>Vodoinstalater, Renoviranje Kupatila, Grejanje, Odgušenje Kanalizacije, Ugradnja Pumpi, Servis Bojlera, Podno Grejanje</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Liman, Telep, Adice</p> 
+          
+            <p>Zoran Medaković – kompletne adaptacije kupatila, podno/radijatorsko grejanje, odgušenje kanalizacije, ugradnja pumpi, popravka bojlera. Lično, brzo, povoljno. Novi Sad i okolina.</p>
+          
+          <a href="/izvodjaci/novi-sad/vodoinstalater-medakovic-novi-sad-zoran/">Pročitaj više</a>
+        </div>
+      </div>
     
       
       
@@ -1295,13 +1545,13 @@
     
       
       
-      <div class="majstor-kartica" data-tip="firma" data-kategorija="Servis Bele Tehnike,Servis Frižidera,Veš Mašine,Šporeti,Sušare,Sudo Mašine" data-mesto="Novi Sad,Veternik,Futog,Petrovaradin,Sremska Kamenica,Beočin,Rumenka,Kać,Temeri,Bački Petrovac" style="display: none;">
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Servis Bele Tehnike,Servis Frižidera,Veš Mašine,Šporeti,Sušare,Sudo Mašine" data-mesto="Novi Sad,Veternik,Futog,Petrovaradin,Sremska Kamenica,Beočin,Rumenka,Kać,Temerin,Bački Petrovac" style="display: none;">
         <img loading="lazy" src="/images/lojd-servis-novi-sad-bele-tehnike-popravke.webp" alt="LOJD Novi Sad - Pouzdani Servis Bele Tehnike thumbnail" class="majstor-image">
         <div class="majstor-content">
           <h3>LOJD Novi Sad - Pouzdani Servis Bele Tehnike</h3>
           <p><strong>Izvođač: </strong>Firma</p>
           <p><strong>Usluge: </strong>Servis Bele Tehnike, Servis Frižidera, Veš Mašine, Šporeti, Sušare, Sudo Mašine</p> 
-          <p><strong>Mesto: </strong>Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temeri, Bački Petrovac</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka, Kać, Temerin, Bački Petrovac</p> 
           
             <p>LOJD – servis i popravke frižidera, veš mašina, šporetova, sušara, sudo mašina. Kvalitetno, brzo, povoljno, sa računom. Novi Sad i okolina.</p>
           
@@ -2121,157 +2371,265 @@
 </section>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    try {
-      const tipSelect = document.getElementById('tip');
-      const kategorijaSelect = document.getElementById('kategorija');
-      const mestoInput = document.getElementById('mesto');
-      const kartice = document.querySelectorAll('.majstor-kartica');
-      const brojMajstora = document.getElementById('broj-majstora');
-      const nemaRezultata = document.getElementById('nema-rezultata');
-      const paginationContainer = document.getElementById('pagination-container');
+document.addEventListener('DOMContentLoaded', () => {
+  const kartice = document.querySelectorAll('.majstor-kartica');
+  const brojMajstora = document.getElementById('broj-majstora');
+  const nemaRezultata = document.getElementById('nema-rezultata');
+  const paginationContainer = document.getElementById('pagination-container');
+  const resetBtn = document.getElementById('reset-filters');
 
-      // Add 'loaded' class when image finishes loading
-    kartice.forEach(k => {
-      const img = k.querySelector('.majstor-image');
-      if (img) {
-        if (img.complete) {
-          img.classList.add('loaded');
-        } else {
-          img.addEventListener('load', () => img.classList.add('loaded'));
-        }
+  const ITEMS_PER_PAGE = 10;
+  let currentPage = 1;
+  let vidljiveKarticeGlobal = [];
+
+  // === Filter Values ===
+  const filterValues = { tip: '', kategorija: '', mesto: '' };
+
+  // === Update Label ===
+  function updateLabel(filter, value) {
+    const trigger = document.querySelector(`[data-filter="${filter}"]`);
+    const label = trigger.querySelector('.filter-label strong');
+    label.textContent = value || (filter === 'tip' ? 'Svi' : filter === 'kategorija' ? 'Sve' : 'Svi');
+  }
+
+  // === Image Loading Logic to apply .loaded class ===
+  function setupImageLoaders() {
+    document.querySelectorAll('.majstor-image').forEach(img => {
+      // Check if the image is already loaded (e.g., from browser cache)
+      if (img.complete) {
+        img.classList.add('loaded');
+      } else {
+        // If not loaded, listen for the 'load' event
+        img.addEventListener('load', () => {
+          img.classList.add('loaded');
+        });
+        
+        // Important: Add error handling for missing images
+        img.addEventListener('error', () => {
+          // Apply the 'loaded' styles even if the image fails to load,
+          // so the placeholder background and layout are corrected.
+          img.classList.add('loaded'); 
+          // You might also want to set a default background image in CSS 
+          // for the .majstor-image element if the default source fails.
+          console.error('Image failed to load for:', img.alt);
+        });
+      }
+    });
+  }
+
+  // === Toggle Dropdown ===
+  document.querySelectorAll('.filter-trigger').forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const dropdown = trigger.nextElementSibling;
+      const isOpen = dropdown.classList.contains('open');
+      
+      document.querySelectorAll('.filter-dropdown').forEach(d => d.classList.remove('open'));
+      document.querySelectorAll('.filter-trigger').forEach(t => t.classList.remove('active'));
+      
+      if (!isOpen) {
+        dropdown.classList.add('open');
+        trigger.classList.add('active');
+      }
+    });
+  });
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.filter-group')) {
+      document.querySelectorAll('.filter-dropdown').forEach(d => d.classList.remove('open'));
+      document.querySelectorAll('.filter-trigger').forEach(t => t.classList.remove('active'));
+    }
+  });
+
+  document.querySelectorAll('.search-box input').forEach(input => {
+  input.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    const dropdown = e.target.closest('.filter-dropdown');
+    const optionsContainer = dropdown.querySelector('.options');
+    const options = dropdown.querySelectorAll('.options label');
+
+    let firstMatch = null;
+
+    options.forEach(label => {
+      const text = (label.lastChild?.textContent || '').toLowerCase().trim();
+      const matches = text.includes(query);
+      label.style.display = matches ? 'flex' : 'none';
+
+      if (matches && !firstMatch) {
+        firstMatch = label; // Zapamti prvi match
       }
     });
 
-      const ITEMS_PER_PAGE = 10;
-      let currentPage = 1;
-      let vidljiveKarticeGlobal = [];
+    // Sakrij "Sva mesta" ako je upisano
+    const allOption = dropdown.querySelector('input[value=""]');
+    if (allOption) {
+      const allLabel = allOption.closest('label');
+      allLabel.style.display = query ? 'none' : 'flex';
+    }
 
-      if (!tipSelect || !kategorijaSelect || !mestoInput || !brojMajstora || !nemaRezultata || !paginationContainer) {
-        console.error('Missing DOM elements');
-        return;
-      }
+    // === AUTOMATSKO SKROLOVANJE DO PRVOG PODUDARANJA ===
+    if (firstMatch && query) {
+      // Sačekaj malo da se DOM ažurira (display: flex)
+      requestAnimationFrame(() => {
+        const containerRect = optionsContainer.getBoundingClientRect();
+        const labelRect = firstMatch.getBoundingClientRect();
 
-      // === 1. Find visible cards ===
-      function nadjiVidljiveKartice() {
-        const tip = tipSelect.value;
-        const kategorija = kategorijaSelect.value;
-        const mesto = mestoInput.value.trim();
+        const isVisible = labelRect.top >= containerRect.top &&
+                          labelRect.bottom <= containerRect.bottom;
 
-        return Array.from(kartice).filter(kartica => {
-          const kTip = kartica.dataset.tip || '';
-          const kKategorije = (kartica.dataset.kategorija || '').split(',').map(k => k.trim());
-          const kMesta = (kartica.dataset.mesto || '').split(',').map(m => m.trim());
-
-          return (
-            (!tip || kTip === tip) &&
-            (!kategorija || kKategorije.includes(kategorija)) &&
-            (!mesto || kMesta.includes(mesto))
-          );
-        });
-      }
-
-      // === 2. Show page ===
-      function prikaziStranu(page) {
-        const start = (page - 1) * ITEMS_PER_PAGE;
-        const end = start + ITEMS_PER_PAGE;
-        const zaPrikaz = vidljiveKarticeGlobal.slice(start, end);
-
-        // First: make ALL cards invisible but keep in grid
-        kartice.forEach(k => {
-          k.classList.remove('visible-card');
-          k.classList.add('hidden-card');
-        });
-
-        // Then: show only current page
-        zaPrikaz.forEach(k => {
-          k.classList.remove('hidden-card');
-          k.classList.add('visible-card');
-        });
-      }
-
-      // === 3. Filter + paginate ===
-      function filtriraj() {
-        vidljiveKarticeGlobal = nadjiVidljiveKartice();
-        const total = vidljiveKarticeGlobal.length;
-
-        brojMajstora.textContent = total;
-        nemaRezultata.style.display = total === 0 ? 'block' : 'none';
-
-        currentPage = 1;
-        prikaziStranu(currentPage);
-        kreirajPaginaciju();
-      }
-
-      // === 4. Pagination ===
-      function kreirajPaginaciju() {
-        const totalPages = Math.ceil(vidljiveKarticeGlobal.length / ITEMS_PER_PAGE);
-        paginationContainer.innerHTML = '';
-
-        if (totalPages <= 1) {
-          paginationContainer.style.display = 'none';
-          return;
+        if (!isVisible) {
+          firstMatch.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
-
-        paginationContainer.style.display = 'inline-flex';
-
-        // Prev
-        const prev = document.createElement('button');
-        prev.className = 'pagination-button';
-        prev.textContent = 'Prethodni';
-        prev.disabled = currentPage === 1;
-        prev.onclick = () => { currentPage--; prikaziStranu(currentPage); kreirajPaginaciju(); };
-        paginationContainer.appendChild(prev);
-
-        // Pages
-        for (let i = 1; i <= totalPages; i++) {
-          const btn = document.createElement('button');
-          btn.className = `pagination-button ${i === currentPage ? 'active' : ''}`;
-          btn.textContent = i;
-          btn.onclick = () => { currentPage = i; prikaziStranu(currentPage); kreirajPaginaciju(); };
-          paginationContainer.appendChild(btn);
-        }
-
-        // Next
-        const next = document.createElement('button');
-        next.className = 'pagination-button';
-        next.textContent = 'Sledeći';
-        next.disabled = currentPage === totalPages;
-        next.onclick = () => { currentPage++; prikaziStranu(currentPage); kreirajPaginaciju(); };
-        paginationContainer.appendChild(next);
-      }
-
-      // === URL params ===
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get('kategorija') && kategorijaSelect.querySelector(`option[value="${urlParams.get('kategorija')}"]`)) {
-        kategorijaSelect.value = urlParams.get('kategorija');
-      }
-      if (urlParams.get('mesto')) {
-        mestoInput.value = urlParams.get('mesto');
-      }
-
-      // === Debounce ===
-      const debounce = (func, wait) => {
-        let timeout;
-        return (...args) => {
-          clearTimeout(timeout);
-          timeout = setTimeout(() => func(...args), wait);
-        };
-      };
-      const debouncedFiltriraj = debounce(filtriraj, 300);
-
-      // === Events ===
-      tipSelect.addEventListener('change', debouncedFiltriraj);
-      kategorijaSelect.addEventListener('change', debouncedFiltriraj);
-      mestoInput.addEventListener('input', debouncedFiltriraj); // input for live search
-
-      // === INIT ===
-      filtriraj();
-
-    } catch (err) {
-      console.error('Filter script error:', err);
+      });
     }
   });
+});
+
+  // === Mesto: autocomplete + radio sync ===
+  const mestoInput = document.querySelector('[data-filter="mesto"] .search-box input');
+  const mestoOptions = document.querySelectorAll('[data-filter="mesto"] .options input[type="radio"]');
+
+  mestoInput?.addEventListener('input', () => {
+    const value = mestoInput.value.trim();
+    // Ako korisnik upiše tačnu vrednost, automatski selektuj
+    const matchingRadio = Array.from(mestoOptions).find(radio => 
+      radio.value.toLowerCase() === value.toLowerCase()
+    );
+    if (matchingRadio && value) {
+      matchingRadio.checked = true;
+      filterValues.mesto = matchingRadio.value;
+      updateLabel('mesto', matchingRadio.value);
+      filtriraj();
+    }
+  });
+
+  // Kada se klikne na radio, ažuriraj input
+  mestoOptions.forEach(radio => {
+    radio.addEventListener('change', () => {
+      if (radio.checked) {
+        mestoInput.value = radio.value;
+      }
+    });
+  });
+
+  // === Filter Change ===
+  document.querySelectorAll('.filter-dropdown input').forEach(input => {
+    input.addEventListener('change', (e) => {
+      const filter = e.target.name;
+      const value = e.target.value;
+      filterValues[filter] = value;
+      updateLabel(filter, value);
+      filtriraj();
+      e.target.closest('.filter-dropdown').classList.remove('open');
+      e.target.closest('.filter-trigger').classList.remove('active');
+    });
+  });
+
+  // === Reset ===
+  resetBtn.addEventListener('click', () => {
+    filterValues.tip = filterValues.kategorija = filterValues.mesto = '';
+    document.querySelectorAll('.filter-dropdown input').forEach(i => i.checked = i.value === '');
+    document.querySelectorAll('.filter-label strong').forEach(s => {
+      const filter = s.closest('.filter-group').querySelector('.filter-trigger').dataset.filter;
+      s.textContent = filter === 'tip' ? 'Svi' : filter === 'kategorija' ? 'Sve' : 'Svi';
+    });
+    filtriraj();
+  });
+
+  // === URL Params ===
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('kategorija')) filterValues.kategorija = urlParams.get('kategorija');
+  if (urlParams.get('mesto')) filterValues.mesto = urlParams.get('mesto');
+
+  // === Filter Logic (isto kao pre) ===
+  function nadjiVidljiveKartice() {
+    return Array.from(kartice).filter(kartica => {
+      const kTip = kartica.dataset.tip || '';
+      const kKategorije = (kartica.dataset.kategorija || '').split(',').map(k => k.trim());
+      const kMesta = (kartica.dataset.mesto || '').split(',').map(m => m.trim());
+
+      return (
+        (!filterValues.tip || kTip === filterValues.tip) &&
+        (!filterValues.kategorija || kKategorije.includes(filterValues.kategorija)) &&
+        (!filterValues.mesto || kMesta.includes(filterValues.mesto))
+      );
+    });
+  }
+
+  function prikaziStranu(page) {
+    const start = (page - 1) * ITEMS_PER_PAGE;
+    const end = start + ITEMS_PER_PAGE;
+    const zaPrikaz = vidljiveKarticeGlobal.slice(start, end);
+
+    kartice.forEach(k => {
+      k.classList.remove('visible-card');
+      k.classList.add('hidden-card');
+    });
+
+    zaPrikaz.forEach(k => {
+      k.classList.remove('hidden-card');
+      k.classList.add('visible-card');
+    });
+  }
+
+  function filtriraj() {
+    vidljiveKarticeGlobal = nadjiVidljiveKartice();
+    const total = vidljiveKarticeGlobal.length;
+
+    brojMajstora.textContent = total;
+    nemaRezultata.style.display = total === 0 ? 'block' : 'none';
+
+    currentPage = 1;
+    prikaziStranu(currentPage);
+    kreirajPaginaciju();
+  }
+
+  function kreirajPaginaciju() {
+    const totalPages = Math.ceil(vidljiveKarticeGlobal.length / ITEMS_PER_PAGE);
+    paginationContainer.innerHTML = '';
+
+    if (totalPages <= 1) {
+      paginationContainer.style.display = 'none';
+      return;
+    }
+
+    paginationContainer.style.display = 'inline-flex';
+
+    const prev = document.createElement('button');
+    prev.className = 'pagination-button';
+    prev.textContent = 'Prethodni';
+    prev.disabled = currentPage === 1;
+    prev.onclick = () => { currentPage--; prikaziStranu(currentPage); kreirajPaginaciju(); };
+    paginationContainer.appendChild(prev);
+
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.className = `pagination-button ${i === currentPage ? 'active' : ''}`;
+      btn.textContent = i;
+      btn.onclick = () => { currentPage = i; prikaziStranu(currentPage); kreirajPaginaciju(); };
+      paginationContainer.appendChild(btn);
+    }
+
+    const next = document.createElement('button');
+    next.className = 'pagination-button';
+    next.textContent = 'Sledeći';
+    next.disabled = currentPage === totalPages;
+    next.onclick = () => { currentPage++; prikaziStranu(currentPage); kreirajPaginaciju(); };
+    paginationContainer.appendChild(next);
+  }
+
+  // Init
+  Object.keys(filterValues).forEach(filter => {
+    if (filterValues[filter]) {
+      const input = document.querySelector(`input[name="${filter}"][value="${filterValues[filter]}"]`);
+      if (input) input.checked = true;
+      updateLabel(filter, filterValues[filter]);
+    }
+  });
+
+  setupImageLoaders(); // <-- Add this line
+  filtriraj();
+});
 </script>
   </main>
 
@@ -2279,7 +2637,7 @@
     <div class="cta-duo-container desktop-shift">
       <div class="cta-duo-block cta-user">
         <h2>Tražite POUZDANOG majstora?</h2>
-        <p>Imamo najveći adresar zanatlija i firmi u Srbiji. Kliknite i pronađite rešenje za svoj problem!</p>
+        <p>Imamo najkvalitetniji adresar zanatlija i firmi u Srbiji. Kliknite i pronađite rešenje za svoj problem!</p>
         <a href="/izvodjaci/" class="cta" style="margin-top: 1rem;">Pretraga Majstora</a>
       </div>
 

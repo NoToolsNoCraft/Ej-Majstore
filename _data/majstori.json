@@ -1,6 +1,344 @@
 [
 
   {
+  "ime": "Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije",
+  "tip": "majstor",
+  "kategorija": ["Električar", "Haus Majstor", "Etažno Grejanje", "Centralno Grejanje", "Servis Bojlera", "Servis TA Peći", "LED Rasveta"],
+  "opis_kratak": "Toma – električar i haus majstor za grejanje na struju, gas, pelet, drva. Hitne intervencije 24/7, popravke bojlera, TA peći, instalacije. Medijski stručnjak iz Beograda. Beograd i okolina.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Rakovica", "Čukarica", "Surčin", "Barajevo"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381628895111",
+  "email": "beogradskimajstor@gmail.com",
+  "website": "https://pozovimajstora.rs/",
+  "slug": "elektricar-toma-beograd-hausmajstor",
+  "thumbnail": "images/električar-toma-beograd-hausmajstor.webp",
+  "hero_image": "images/električar-toma-beograd-hausmajstor.webp",
+  "discover_title": "Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-12",
+  "last_modified": "2025-11-12",
+  "tips_title": "Praktični saveti za bezbedno rukovanje strujom i grejanjem",
+  "tips": [
+    "Proverite instalacije pre zime – izbegnite curenja i požare",
+    "Zamena termostata na TA peći produžava vek kotla",
+    "LED rasveta smanjuje potrošnju do 80%",
+    "Etažno grejanje na struju – idealno za renovacije",
+    "Hitno zovite ako osetite 'tresenje struje' na slavinama"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Zamislimo situaciju: hladna zimska noć, TA peć prestane da radi, a struja u stanu počinje da 'trese' svaki put kada dodirnete slavinu. U takvim trenucima, Toma, poznati električar i haus majstor iz Beograda, postaje spas. Sa godinama iskustva u hitnim intervencijama, on dolazi 24/7, rešava kvarove na licu mesta i deli praktične savete kako da izbegnete slične probleme u budućnosti."
+    },
+    {
+      "type": "p",
+      "content": "Toma (puno ime Tomislav Micić) je čovek koji je postao lice stručnjaka za električne i grejne sisteme u Srbiji, zahvaljujući brojnim nastupima u medijima. Na TV Prva, pojavio se u emisijama poput Novo Jutro, Eksploziv (gde je pričao o grejanju na struju i bezbednoj upotrebi grejalica), Praktična žena i 150 minuta. Njegov pristup je jednostavan: brzo, precizno i sa fokusom na bezbednost, čak i tokom korona krize kada je radio po strožim merama."
+    },
+    {
+      "type": "h2",
+      "content": "Toma – Električar i Majstor za Grejanje sa Medijskim Iskustvom"
+    },
+    {
+      "type": "p",
+      "content": "Kao haus majstor, Toma pokriva širok spektar usluga, od etažnog i centralnog grejanja na struju, gas, pelet ili drva, do popravki bojlera i TA peći. Specijalizovan je za zamenu sigurnosnih ventila, radnih termostata, ekspanzionih posuda, grejača u kaljevama pećima i pumpi. Njegov rad se ističe u sprečavanju ozbiljnih problema – poput požara izazvanih dotrajalim instalacijama ili curenja na grejnim sistemima tokom hladnih dana."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga direktno:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381628895111\">+381 62 889 5111</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:beogradskimajstor@gmail.com\">beogradskimajstor@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/majstorzaetaznoicentralnogrejanje/\" target=\"_blank\" rel=\"nofollow\">Facebook link</a><br>🌐 <strong>Website:</strong> <a href=\"https://pozovimajstora.rs/\" target=\"_blank\" rel=\"nofollow\">pozovimajstora.rs</a><br>📍 <strong>Područje:</strong> Beograd i okolina (Zemun, Novi Beograd, Vračar, itd.)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Toma Rešava – Od Strujnih Kvarova do Grejnih Sistema"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta možete očekivati od njegovih intervencija:"
+    },
+    {
+      "type": "h3",
+      "content": "⚡ Električarske Usluge i Bezbednost"
+    },
+    {
+      "type": "p",
+      "content": "Zamena osigurača, elektro tabli, kompletne strujne instalacije u kućama i stanovima. Popravka dotrajalih kablova koji gube izolaciju i rizikuju požar. Toma ističe: 'Prvi znak problema je osećaj tresenja struje na slavinama – ne čekajte da eskalira.'"
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Etažno i Centralno Grejanje"
+    },
+    {
+      "type": "p",
+      "content": "Servis TA peći, elektro kotlova, zamena termostata, grejača, ventilatora. Rasklapanje i premeštanje po sobama, instalacija na struju, gas, pelet ili drva. Savetuje probni rad instalacija pre zime da se otkriju curenja."
+    },
+    {
+      "type": "h3",
+      "content": "🛠️ Popravke Bojlera i Šporeta"
+    },
+    {
+      "type": "p",
+      "content": "Popravka protoknih bojlera Siemens, servisi i montaža bojlera, rerni, grejača. Zamena ekspanzionih posuda i sigurnosnih ventila za duži vek uređaja."
+    },
+    {
+      "type": "h3",
+      "content": "💡 LED Rasveta i Dodatne Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Ugradnja LED osvetljenja za uštedu energije, ugradnja grejača u kaljeve peći. Sve sa fokusom na efikasnost i bezbednost."
+    },
+    {
+      "type": "h2",
+      "content": "Područje Delovanja – Beograd i Okolina"
+    },
+    {
+      "type": "p",
+      "content": "Toma obezbeđuje brze intervencije u:"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Zemun, Novi Beograd:</strong> Hitne popravke strujnih instalacija.<br><strong>Vračar, Savski Venac:</strong> Servis grejanja i bojlera.<br><strong>Stari Grad, Palilula:</strong> Etažno grejanje i LED montaža.<br><strong>Voždovac, Rakovica:</strong> Centralni sistemi i TA peći."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Toma Radi – Hitno i Bez Stresa"
+    },
+    {
+      "type": "p",
+      "content": "Njegov pristup je praktičan i direktan:<br>1. <strong>Pozovite bilo kada</strong>: 24/7, opišite problem.<br>2. <strong>Dolazak</strong>: Brzo, često u roku od sat vremena.<br>3. <strong>Dijagnostika</strong>: Tačna procena na licu mesta.<br>4. <strong>Popravka</strong>: Koristi originalne delove, testira sve.<br>5. <strong>Saveti</strong>: Objašnjava kako da održavate sistem.<br>6. <strong>Garancija</strong>: Na rad i delove, sa računom."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Ljudi Pozivaju Tomu"
+    },
+    {
+      "type": "p",
+      "content": "Toma se ističe po medijskoj vidljivosti i praktičnom znanju: nastupi na TV Prva donose savete o bezbednoj upotrebi grejalica i sprečavanju požara. Klijenti cene njegovu dostupnost noću i fokus na prevenciji – poput probnog rada grejanja pre sezone."
+    },
+    {
+      "type": "p",
+      "content": "Ako osetite problem sa strujom ili grejanjem, Toma je na korak udaljen. Pozovite ga na <a href=\"tel:+381628895111\"><strong>+381 62 889 5111</strong></a> ili pišite na <a href=\"mailto:beogradskimajstor@gmail.com\"><strong>beogradskimajstor@gmail.com</strong></a>. Više o njegovom radu na <a href=\"https://pozovimajstora.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>pozovimajstora.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Električarske Intervence",
+      "description": "Zamena osigurača, tabli, instalacija. Popravka dotrajalih kablova za prevenciju požara."
+    },
+    {
+      "title": "Etažno i Centralno Grejanje",
+      "description": "Servis TA peći, elektro kotlova na struju, gas, pelet. Zamena termostata, grejača, pumpi."
+    },
+    {
+      "title": "Servis Bojlera i Šporeta",
+      "description": "Popravka protoknih bojlera Siemens, montaža bojlera, rerni, grejača."
+    },
+    {
+      "title": "LED Rasveta i Montaža",
+      "description": "Ugradnja LED osvetljenja, grejača u kaljeve peći. Efikasna ušteda energije."
+    },
+    {
+      "title": "Hitne Intervence 24/7",
+      "description": "Brzi dolazak noću ili danju za struju i grejanje u Beogradu."
+    }
+  ],
+  "faq": [
+    
+    {
+      "question": "Koliko brzo dolazite u Beogradu?",
+      "answer": "Često u roku od 1 ili 2 sata od poziva. Naravno, nemojte imati nerealna očekivanja."
+    },
+    {
+      "question": "Da li dajete savete za održavanje?",
+      "answer": "Da – objašnjavam kako da proverite instalacije pre zime."
+    },
+    {
+      "question": "Pokrivajte li etažno grejanje na struju?",
+      "answer": "Da – specijalnost, sa instalacijom i servisom."
+    },
+    
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 62 889 5111 ili mail beogradskimajstor@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Vodoinstalater Medaković Novi Sad - Majstor za Grejanje, Kupatila i Kanalizaciju",
+  "tip": "majstor",
+  "kategorija": ["Vodoinstalater", "Renoviranje Kupatila", "Grejanje", "Odgušenje Kanalizacije", "Ugradnja Pumpi", "Servis Bojlera", "Podno Grejanje"],
+  "opis_kratak": "Zoran Medaković – kompletne adaptacije kupatila, podno/radijatorsko grejanje, odgušenje kanalizacije, ugradnja pumpi, popravka bojlera. Lično, brzo, povoljno. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Liman", "Telep", "Adice"],
+  "adresa": "Nova 36, Novi Sad 21000",
+  "telefon": "+381638433590",
+  "email": "info@vodoinstalater-medakovic.rs",
+  "website": "https://www.vodoinstalater-medakovic.rs/",
+  "slug": "vodoinstalater-medakovic-novi-sad-zoran",
+  "thumbnail": "images/vodoinstalater-medakovic-novi-sad-zoran.webp",
+  "hero_image": "images/vodoinstalater-medakovic-novi-sad-zoran.webp",
+  "discover_title": "Vodoinstalater Medaković Novi Sad - Majstor za Grejanje, Kupatila i Kanalizaciju",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-12",
+  "last_modified": "2025-11-12",
+  "tips_title": "Ključni saveti za održavanje vodovoda i grejanja",
+  "tips": [
+    "Redovno čišćenje bojlera od kamenca – svake 2 godine",
+    "Nepovratna klapna – sprečava poplavu iz sudopere",
+    "Podno grejanje – ušteda do 75% na računima",
+    "Magnetni filter – štiti kotao od nečistoća",
+    "Snimanje cevi kamerom – otkriva skrivene probleme"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada se problem dogodi (bilo da je to bojler koji procuri u 6 ujutru, zagušena kanalizacija pred sam dolazak gostiju, ili dugo planirana adaptacija kupatila), ne treba vam samo majstor — treba vam pouzdano rešenje i mir u kući. Zoran Medaković iz Novog Sada je ime koje stoji iza upravo takvog kvaliteta. Sa dugogodišnjim iskustvom u kompletnim adaptacijama, ugradnji svih sistema grejanja i hitnim intervencijama, Zoran garantuje da će svaki rad biti izveden po najvišim standardima, koristeći isključivo sertifikovane materijale i ostavljajući za sobom besprekoran red."
+    },
+    {
+      "type": "p",
+      "content": "Smešten na adresi Nova 36, radi od 07:00 do 17:00 radnim danima. Bilo da je u pitanju zamena sifona, izrada podnog grejanja ili odgušenje fekalne kanalizacije – Zoran dolazi brzo, radi čisto i ostavlja sve funkcionalno. Posebno je poznat po ugradnji nepovratnih klapni koje sprečavaju poplave iz sudopere i kanalizacije, nudeći time dodatnu sigurnost vašem domu."
+    },
+    {
+      "type": "h2",
+      "content": "Zoran Medaković – Vodoinstalaterski Kvalitet Koji Traje"
+    },
+    {
+      "type": "p",
+      "content": "Govorimo o specijalisti za sve vrste vodoinstalaterskih radova. U radu koristi bakar, alpex i crne cevi vrhunskog kvaliteta, što obezbeđuje dugovečnost sistema. Svaki posao završava fokusirajući se na detalj i trajnost, uz pisanu garanciju na izvedene radove i akcijom za stalne klijente."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381638433590\">+381 63 843 3590</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@vodoinstalater-medakovic.rs\">info@vodoinstalater-medakovic.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.vodoinstalater-medakovic.rs/\" target=\"_blank\" rel=\"nofollow\">vodoinstalater-medakovic.rs</a><br>📍 <strong>Lokacija:</strong> Nova 36, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Kompletan Spektar Usluga – Sve Iz Jedne Ruke"
+    },
+    {
+      "type": "p",
+      "content": "Zoran pokriva sve segmente vodoinstalacija:"
+    },
+    {
+      "type": "h3",
+      "content": "🚿 Kompletno Renoviranje Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Od rušenja do fine montaže: voda, struja, kanalizacija, hidroizolacija, keramika, ugradni elementi (šolje, tuševi, lavaboi)."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Odgušenje Kanalizacije Mašinski"
+    },
+    {
+      "type": "p",
+      "content": "Brzo otklanjanje zapušenja u sudoperi, WC šolji, kadi. Koristi profesionalne sajle i kameru za snimanje cevi. <strong>Rešenje u roku od 1 sata</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Izrada Podnog i Radijatorskog Grejanja"
+    },
+    {
+      "type": "p",
+      "content": "Novi sistemi sa uštedom do 75%. Bakar, alpex, crne cevi. Lično ugrađuje kotlove, radijatore, cirkulacione pumpe (Wilo, Grundfos). <strong>Kompletna kotlarnica sa baferima</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🚰 Ugradnja Pumpi i Hidropaka"
+    },
+    {
+      "type": "p",
+      "content": "Hidropak, muljne, fekalne, navodnjavanje, povišenje pritiska. Kompletni zalivni sistemi. <strong>Stalan pritisak vode zagarantovan</strong>."
+    },
+    {
+      "type": "h3",
+      "content": "🔄 Servis Bojlera i Sitne Popravke"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje kamenca, zamena grejača, termostata, anoda. Popravka česmi, ventila, vodokotlića, tuševa. <strong>Topla voda isti dan</strong>."
+    },
+    
+    
+    {
+      "type": "h2",
+      "content": "Kako Radi Zoran – Od Poziva do Gotovog Posla"
+    },
+    {
+      "type": "p",
+      "content": "Sve je lično i transparentno:<br>1. <strong>Javite se</strong>: Poziv ili mail sa opisom problema.<br>2. <strong>Izlazak na teren</strong>: Besplatna procena u dogovorenom terminu.<br>3. <strong>Ponuda</strong>: Fiksna cena pre početka radova.<br>4. <strong>Izvođenje</strong>: Kvalitetni materijali, čist rad.<br>5. <strong>Testiranje</strong>: Provera funkcionalnosti."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Klijenti Biraju Vodoinstalatera Medakovića"
+    },
+    {
+      "type": "p",
+      "content": "Prednosti koje izdvajaju ovog majstora:<br><strong>Kvalitet</strong>: Sertifikovani materijali i oprema.<br><strong>Uštede</strong>: Do 75% niži računi sa novim grejanjem.<br><strong>Brzina</strong>: Hitne intervencije isti dan."
+    },
+    {
+      "type": "p",
+      "content": "Imate li curenje, zapušenje ili planirate renoviranje? Pozovite Vodoinstalatera Medakovića na <a href=\"tel:+381638433590\"><strong>+381 63 843 3590</strong></a> ili posetite <a href=\"https://www.vodoinstalater-medakovic.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>vodoinstalater-medakovic.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Renoviranje Kupatila",
+      "description": "Kompletna adaptacija – voda, struja, kanalizacija, keramika, ugradni elementi. Sve lično uradi Zoran."
+    },
+    {
+      "title": "Podno i Radijatorsko Grejanje",
+      "description": "Izrada novih sistema, ugradnja kotlova, radijatora, pumpi. Ušteda do 75%."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Mašinsko odgušenje sudopere, WC-a, kade. Snimanje cevi kamerom."
+    },
+    {
+      "title": "Ugradnja Pumpi",
+      "description": "Hidropak, fekalne, muljne, navodnjavanje. Kompletni zalivni sistemi."
+    },
+    {
+      "title": "Servis Bojlera",
+      "description": "Čišćenje kamenca, zamena grejača, termostata. Popravka isti dan."
+    },
+    {
+      "title": "Zamena Cevi i Ventila",
+      "description": "Ugradnja novih cevi, nepovratne klapne, ventila. Sprečavanje poplava."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite na hitne intervencije?",
+      "answer": "Isti dan – često u roku od 2–3 sata od poziva."
+    },
+    {
+      "question": "Radite li kompletne adaptacije kupatila?",
+      "answer": "Da – od rušenja do fine montaže, uključujući struju i keramiku."
+    },
+    {
+      "question": "Da li dajete garanciju na rad?",
+      "answer": "Da – pismena garancija na sve radove i ugrađene materijale."
+    },
+    {
+      "question": "Može li se ugraditi podno grejanje u staru kuću?",
+      "answer": "Da – lično izvodim i rekonstrukcije starih sistema."
+    },
+    {
+      "question": "Imate li akcije za stalne klijente?",
+      "answer": "Da – snižene cene na sve usluge za redovne korisnike."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 843 3590 ili pišite na info@vodoinstalater-medakovic.rs."
+    }
+  ]
+},
+
+  {
   "ime": "Hitne Popravke Bele Tehnike: EL MOMA vraća vaše aparate u pogon – Sremska Kamenica",
   "tip": "majstor",
   "kategorija": ["Servis Bele Tehnike", "Servis Frižidera", "Servis Klima Uređaja", "Servis Bojlera", "Servis Veš Mašina", "Servis Sudo Mašina", "TA Peći", "Električni Šporeti"],
@@ -389,7 +727,7 @@
   "tip": "firma",
   "kategorija": ["Servis Bele Tehnike", "Servis Frižidera", "Veš Mašine", "Šporeti", "Sušare", "Sudo Mašine"],
   "opis_kratak": "LOJD – servis i popravke frižidera, veš mašina, šporetova, sušara, sudo mašina. Kvalitetno, brzo, povoljno, sa računom. Novi Sad i okolina.",
-  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bački Petrovac"],
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "adresa": "Dr Laze Markovića 2, Novi Sad 21000",
   "telefon": "+38163581921",
   "email": "info@lojdservis.com",
