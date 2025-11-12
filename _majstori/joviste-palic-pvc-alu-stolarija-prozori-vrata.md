@@ -83,7 +83,7 @@ sections:
 - type: p
   content: Završni detalji za savršen izgled i dug vek.
 - type: h2
-  content: Istorija Jovište – Od 2007. do Lidera u Regionu
+  content: Istorija Jovišta – Od 2007. do Lidera u Regionu
 - type: p
   content: 'Ključni momenti:'
 - type: ul
@@ -96,7 +96,9 @@ sections:
   - "<strong>2023</strong> – CNC za ALU"
   - "<strong>2025</strong> – Inovacije, digitalizacija"
 - type: h2
-  content: Zašto Jovište – Recenzije Klijenata
+  content: Recenzije Klijenata
+- type: p
+  content: 'Uvek dobro dođe da vidimo šta konkretni klijenti kažu:'
 - type: blockquote
   content: „Kompanija sa izuzetnom energijom i poslovnim znanjem. Izuzetno ljubazni
     zaposleni, kako u prodajnom prostoru tako i na montaži. Odlična stolarija, vrhunski
@@ -123,7 +125,7 @@ sections:
     – <a href="https://share.google/QcXwtU653wXPAq4Gr" target="_blank" rel="noopener
     nofollow"><strong>Dejan Đurović</strong></a>
 - type: h2
-  content: Zašto Jovište – Ključne Prednosti
+  content: Ključne Prednosti
 - type: ul
   items:
   - 18 godina iskustva – 120.000+ zadovoljnih korisnika

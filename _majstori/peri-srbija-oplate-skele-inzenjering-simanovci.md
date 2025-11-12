@@ -27,10 +27,8 @@ hero_image: "/images/PERI-Srbija-iz-Simanovaca-Oplate-i-Skele-za-Velike-i-Male-P
 discover_title: 'PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte'
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar Škrbić je osnivač portala i specijalista za analizu i proveru kvaliteta.
-  Koristeći metode iz sveta digitalnih rešenja, lično testira zanatske usluge kako
-  bi postavio standarde i osigurao da su informacije o majstorima na portalu pouzdane,
-  efikasne i transparentne. Petar prikuplja i validira stvarna iskustva korisnika
+author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
+  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-28'
 last_modified: '2025-10-28'
