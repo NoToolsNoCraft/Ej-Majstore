@@ -22,6 +22,7 @@ website:
   url: https://www.insecto.rs/
   label: Link do sajta
 slug: insecto-komarnici-novi-sad-plise-rolo-fiksni
+opening_hours:
 thumbnail: images/insecto-komarnici-novi-sad-plise-rolo-fiksni.webp
 hero_image: images/insecto-komarnici-novi-sad-plise-rolo-fiksni.webp
 discover_title: Insecto Komarnici Novi Sad – Plise, Rolo i Fiksni po Meri
@@ -124,7 +125,8 @@ sections:
   content: Ako vaš <strong>dom čeka mirno leto bez insekata, a živite u Novom Sadu
     ili okolini</strong> – Insecto je pravi izbor. Javite se na <a href="tel:+381611321324"><strong>061
     132 1324</strong></a> ili posetite <a href="https://www.insecto.rs/" target="_blank"
-    rel="nofollow"><strong>insecto.rs</strong></a> – gde komarci ostaju napolju.
+    rel="nofollow"><strong>Insecto Komarnici Novi Sad</strong></a> – gde komarci ostaju
+    napolju.
 services:
 - title: Plise Komarnici
   description: Sklopivi kao harmonika, za vrata i terase. Klizi na stranu, zaustavlja

@@ -21,6 +21,7 @@ email: office@electrofixso.com
 googlemaps: ''
 website: Nema dostupan website
 slug: electro-fix-sonta-elektroinstalacije-gromobrani
+opening_hours:
 thumbnail: images/Electro-Fix-Sonta-Sombor-Elektroinstalacije.webp
 hero_image: images/Electro-Fix-Sonta-Sombor-Elektroinstalacije.webp
 discover_title: 'Od Stare Kutije do Pametne Kuće: Kako Electro Fix iz Sonte Menja

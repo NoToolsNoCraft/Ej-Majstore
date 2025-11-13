@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {% endif %}
     "addressCountry": "RS"
   },
-  "openingHours": "Mo-Su 08:00-20:00",
+  "openingHours": "{{ page.opening_hours | default: 'Mo-Su 08:00-20:00' }}",
   "priceRange": "$$",
   "areaServed": [
     {% for m in page.mesto | split: ', ' %}"{{ m | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}

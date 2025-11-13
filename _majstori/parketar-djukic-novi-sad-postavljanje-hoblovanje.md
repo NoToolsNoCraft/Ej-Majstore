@@ -21,6 +21,7 @@ website:
   url: https://www.parketardjukic.rs/
   label: Link do sajta
 slug: parketar-djukic-novi-sad-postavljanje-hoblovanje
+opening_hours:
 thumbnail: images/parketar-djukic-novi-sad-postavljanje-hoblovanje.webp
 hero_image: images/parketar-djukic-novi-sad-postavljanje-hoblovanje.webp
 discover_title: Parketar Đukić Novi Sad – Podovi Koji Traju Decenijama

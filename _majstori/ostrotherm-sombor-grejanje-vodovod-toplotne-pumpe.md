@@ -25,6 +25,7 @@ website:
   url: https://www.instagram.com/ostrotherm/
   label: Instagram
 slug: ostrotherm-sombor-grejanje-vodovod-toplotne-pumpe
+opening_hours:
 thumbnail: images/OSTROTHERM-Sombor-Podno-Grejanje-Toplotne-Pumpe-i-Vodovod.webp
 hero_image: images/OSTROTHERM-Sombor-Podno-Grejanje-Toplotne-Pumpe-i-Vodovod.webp
 discover_title: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod (Vojvodina)'

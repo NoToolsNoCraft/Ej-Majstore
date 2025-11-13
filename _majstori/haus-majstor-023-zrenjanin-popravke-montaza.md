@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/people/Haus-Majstor-023/61574446475347/
   label: Facebook
 slug: haus-majstor-023-zrenjanin-popravke-montaza
+opening_hours:
 thumbnail: images/haus-majstor-023-zrenjanin-popravke-montaza.webp
 hero_image: images/haus-majstor-023-zrenjanin-popravke-montaza.webp
 discover_title: Haus Majstor 023 Zrenjanin – Sve Popravke, Jedan Broj

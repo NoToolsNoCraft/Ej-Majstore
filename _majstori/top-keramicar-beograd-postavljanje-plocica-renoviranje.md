@@ -22,6 +22,7 @@ website:
   url: https://keramicar-top.rs/
   label: Link do sajta
 slug: top-keramicar-beograd-postavljanje-plocica-renoviranje
+opening_hours:
 thumbnail: images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
 hero_image: images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
 discover_title: Top Keramičar Beograd – Profesionalni Tim za Ugradnju Pločica i Adaptaciju

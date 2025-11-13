@@ -23,6 +23,7 @@ website:
   url: https://www.joviste.rs/
   label: Link do sajta
 slug: joviste-palic-pvc-alu-stolarija-prozori-vrata
+opening_hours:
 thumbnail: images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp
 hero_image: images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp
 discover_title: Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva

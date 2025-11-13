@@ -21,6 +21,7 @@ email: ''
 googlemaps: ''
 website: Nema dostupan website
 slug: pedja-adice-servis-prodaja-bele-tehnike-novi-sad
+opening_hours:
 thumbnail: images/pedja-adice-servis-prodaja-bele-tehnike-novi-sad.webp
 hero_image: images/pedja-adice-servis-prodaja-bele-tehnike-novi-sad.webp
 discover_title: Peđa Adice Novi Sad - Servis i Prodaja Polovne Bele Tehnike

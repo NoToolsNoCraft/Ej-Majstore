@@ -27,6 +27,7 @@ website:
   url: https://vodoinstalaternovisad.com/
   label: Link do sajta
 slug: vodoinstalater-misko-novi-sad-centralno-grejanje-kupatilo-bojler
+opening_hours:
 thumbnail: images/vodoinstalater-misko-novi-sad-centralno-grejanje-kupatilo-bojler.webp
 hero_image: images/vodoinstalater-misko-novi-sad-centralno-grejanje-kupatilo-bojler.webp
 discover_title: Vodoinstalater Miško Novi Sad – Od Adaptacije Kupatila do Instalacije

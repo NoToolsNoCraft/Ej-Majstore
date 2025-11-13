@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/jozsef.farkas.189478
   label: Facebook
 slug: keramicar-jozef-farkas-cantavir-nemacki-kvalitet
+opening_hours:
 thumbnail: images/keramicar-jozef-farkas-cantavir-nemacki-kvalitet.webp
 hero_image: images/keramicar-jozef-farkas-cantavir-nemacki-kvalitet.webp
 discover_title: Keramičar Jožef Farkaš Čantavir – Nemački Standard u Svakoj Pločici

@@ -24,6 +24,7 @@ website:
   url: https://www.facebook.com/Grejanje0611505720Ugradnja
   label: Facebook
 slug: grejanje-ugradnja-antic-pirot-centralno-grejanje
+opening_hours:
 thumbnail: images/grejanje-ugradnja-antic-pirot-centralno-grejanje.webp
 hero_image: images/grejanje-ugradnja-antic-pirot-centralno-grejanje.webp
 discover_title: Grejanje Ugradnja Antić – Centralno Grejanje i Toplotne Pumpe Pirot

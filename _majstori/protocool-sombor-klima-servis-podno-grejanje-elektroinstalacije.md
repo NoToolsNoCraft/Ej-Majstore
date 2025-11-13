@@ -22,6 +22,7 @@ email: arbutina.ilija@gmail.com
 googlemaps: ''
 website: Nema dostupan website
 slug: protocool-sombor-klima-servis-podno-grejanje-elektroinstalacije
+opening_hours:
 thumbnail: images/Protocool-Sombor-Ovlašćeni-Servis-Klima-i-Majstori-za-Podno-Grejanje.webp
 hero_image: images/Protocool-Sombor-Ovlašćeni-Servis-Klima-i-Majstori-za-Podno-Grejanje.webp
 discover_title: Protocool Sombor – Ovlašćeni Servis Klima i Majstori za Podno Grejanje

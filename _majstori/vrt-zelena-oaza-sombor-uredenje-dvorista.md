@@ -19,6 +19,7 @@ email: ''
 googlemaps: ''
 website: Nema dostupan website
 slug: vrt-zelena-oaza-sombor-uredenje-dvorista
+opening_hours:
 thumbnail: images/vrt-zelena-oaza-sombor-uredenje-dvorista.webp
 hero_image: images/vrt-zelena-oaza-sombor-uredenje-dvorista.webp
 discover_title: Vrt Zelena Oaza Sombor – Vaš Majstor za Savršeno Dvorište

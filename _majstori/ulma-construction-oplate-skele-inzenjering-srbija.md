@@ -24,6 +24,7 @@ website:
   url: https://www.ulmaconstruction.com/en
   label: Link do sajta
 slug: ulma-construction-oplate-skele-inzenjering-srbija
+opening_hours:
 thumbnail: images/ulma-construction-oplate-skele-inzenjering-srbija.webp
 hero_image: images/ulma-construction-oplate-skele-inzenjering-srbija.webp
 discover_title: ULMA Construction – Globalni Lider u Oplatama i Skelama za Velike

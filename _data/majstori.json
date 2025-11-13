@@ -1,6 +1,532 @@
 [
 
   {
+  "ime": "Otvaranje Zaglavljenih Vrata Subotica - Hitne Intervencije 24/7",
+  "tip": "majstor",
+  "kategorija": ["Bravar", "Otvaranje Vrata", "Hitne Intervencije", "Servis Sigurnosnih Vrata", "Ugradnja Brava", "Servis PVC Vrata"],
+  "opis_kratak": "Otvaranje zaglavljenih vrata Subotica – bez oštećenja, 24/7. Sigurnosna, PVC, drvena, metalna vrata. 18 godina iskustva, preko 150 uspešnih intervencija. Servis, ugradnja brava, rezervni delovi na stanju.",
+  "mesto": ["Subotica", "Palić", "Bajmok", "Čantavir", "Bačka Topola", "Kanjiža", "Senta", "Ada"],
+  "adresa": "Subotica, Srbija",
+  "telefon": "+381642375828",
+  "email": "info@zaglavljenasigurnosnavrata.rs",
+  "website": "https://zaglavljenasigurnosnavrata.rs/",
+  "slug": "otvaranje-zaglavljenih-vrata-subotica-hitne-intervencije",
+  "opening_hours": "Mo-Fr 08:00-17:00, Sa 08:00-13:00, Su closed; Hitne intervencije 24/7",
+  "thumbnail": "images/otvaranje-zaglavljenih-vrata-subotica-hitne-intervencije.webp",
+  "hero_image": "images/otvaranje-zaglavljenih-vrata-subotica-hitne-intervencije.webp",
+  "discover_title": "Otvaranje Zaglavljenih Vrata Subotica - Brzo, Bez Oštećenja, 24/7",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-13",
+  "last_modified": "2025-11-13",
+  "tips_title": "Šta uraditi kada se vrata zaglave – a šta nikako ne raditi",
+  "tips": [
+    "Ne forsirajte kvaku – može da pukne mehanizam",
+    "Ne gurajte ključ silom – lomi se u bravi",
+    "Pozovite profesionalca odmah – sprečava oštećenja",
+    "Čuvajte rezervni ključ kod komšije ili u sefu",
+    "Redovan servis brava svake 2 godine produžava vek"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "🚪 KLJUČ SE ZALOMIO? DECA ZAKLJUČANA IZNUTRA? 😱 Panika raste, a vrata ne popuštaju? U Subotici i okolini, postoji tim koji rešava takve drame munjevito i – bez ijedne ogrebotine! <strong>Zaglavljena Sigurnosna Vrata</strong> je specijalizovan za hitne intervencije 24/7. Sigurnosna, PVC, drvena ili metalna vrata – otvaraju sve, vraćaju funkcionalnost i ostavljaju vas mirnim. Sa maltene 20 godina iskustva ovo je pravi 'hitni tim' za brave na teritoriji naše opštine!"
+    },
+    {
+      "type": "p",
+      "content": "🛠️ NE OBIJAJU – DEŠIFRUJU! Zaboravite na razbijanje i bušenje. Ovaj tim koristi profesionalne alate i znanje da otvori vrata netaknuta. Polomljena kvaka? Blokiran mehanizam? Izgubljeni ključevi? Sve rešavaju na licu mesta. Plus – ugradnja novih brava, servis šarki, rezervni delovi uvek na stanju. Garantovan kvalitet, ekspeditivno, sa garancijom."
+    },
+    {
+      "type": "h2",
+      "content": "Bravari sa dozvolom za obijanje"
+    },
+    {
+      "type": "p",
+      "content": "Od 2004. godine, ovaj subotički tim je otvorio mnogo 'nemogućih' vrata – bez oštećenja. Ne rade na sreću – svaki mehanizam poznaju do detalja. Sigurnosna vrata sa višestrukim zaključavanjem? PVC sa blokiranim kvakama? Drvena sa zalomljenim ključem? Za svako postoji rešenje. Dolaze brzo, rade diskretno, vraćaju vrata u punu funkciju."
+    },
+    {
+      "type": "p",
+      "content": "Savet: Ne čekajte da kvar eskalira – pozovite ih čim primetite problem! Ja sam svojevremeno bio upravo onaj grubijan koji bi sve da reši sad i odmah sa čekićem i pajserom. Ali često to ne ide. Samo se napravi još veća šteta."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah i rešite problem:<br>📞 <strong>Hitni poziv 24/7:</strong> <a href=\"tel:+381642375828\">+381 64 237 5828</a> ili <a href=\"tel:+381628426044\">+381 62 842 6044</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@zaglavljenasigurnosnavrata.rs\">info@zaglavljenasigurnosnavrata.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://zaglavljenasigurnosnavrata.rs/\" target=\"_blank\" rel=\"nofollow\">zaglavljenasigurnosnavrata.rs</a><br>📍 <strong>Područje:</strong> Subotica i okolina"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Rešavaju – Od Blokade do Kompletnog Servisa"
+    },
+    {
+      "type": "p",
+      "content": "Evo najčešćih situacija koje rešavaju:"
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Hitno Otvaranje Vrata 24/7"
+    },
+    {
+      "type": "p",
+      "content": "Zaglavljena, zaključana iznutra, blokirana brava – dolaze odmah, otvaraju bez oštećenja."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Servis i Popravka"
+    },
+    {
+      "type": "p",
+      "content": "Polomljene kvake, šarke, mehanizmi za PVC/ALU vrata. Rezervni delovi na stanju."
+    },
+    {
+      "type": "h3",
+      "content": "🔒 Ugradnja Brava i Mehanizama"
+    },
+    {
+      "type": "p",
+      "content": "Svi modeli brava – sigurnosne, cilindrične, višetačke. Brzo, precizno, sa garancijom."
+    },
+    {
+      "type": "h3",
+      "content": "🆘 Posebne Situacije"
+    },
+    {
+      "type": "p",
+      "content": "Dete zaključano iznutra, promaja zalupila vrata, ključ zalomljen u bravi."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade – Brzo, Sigurno, Sa Garancijom"
+    },
+    {
+      "type": "p",
+      "content": "1. <strong>Pozovite</strong>: 064 237 5828 ili 062 842 6044 – opišite problem.<br>2. <strong>Dolazak</strong>: Ekspeditivno, često za 15–30 minuta.<br>3. <strong>Procena</strong>: Brza dijagnostika na licu mesta.<br>4. <strong>Otvaranje</strong>: Bez oštećenja, profesionalnim alatom.<br>5. <strong>Popravka</strong>: Ako je potrebno, odmah na licu mesta.<br>6. <strong>Garancija</strong>: Na rad i ugrađene delove."
+    },
+    
+    {
+      "type": "p",
+      "content": "Vrata zaglavljena? Ključ nestao? Pozovite odmah na <a href=\"tel:+381642375828\"><strong>+381 64 237 5828</strong></a> ili posetite <a href=\"https://zaglavljenasigurnosnavrata.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>zaglavljenasigurnosnavrata.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitno Otvaranje Vrata 24/7",
+      "description": "Sve vrste vrata – bez oštećenja, ekspeditivno."
+    },
+    {
+      "title": "Servis Brava i Mehanizama",
+      "description": "Popravka kvaka, šarki, blokiranih sistema."
+    },
+    {
+      "title": "Ugradnja Brava",
+      "description": "Svi modeli – sigurnosne, cilindrične, višetačke."
+    },
+    {
+      "title": "Rezervni Delovi",
+      "description": "Kvake, šarke, cilindri – uvek na stanju."
+    },
+    {
+      "title": "Servis PVC/ALU Vrata",
+      "description": "Mehanizmi, šarke, podešavanje zatvaranja."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Dolazite li noću ili za vikend?",
+      "answer": "Da – hitne intervencije 24/7, bez doplate."
+    },
+    {
+      "question": "Otvarate li vrata bez oštećenja?",
+      "answer": "Da – 100% bez razbijanja, profesionalni alati."
+    },
+    {
+      "question": "Imate li rezervne delove?",
+      "answer": "Da – kvake, šarke, cilindri uvek na stanju."
+    },
+    {
+      "question": "Koliko brzo dolazite u Subotici?",
+      "answer": "Obično 15–30 minuta od poziva."
+    },
+    {
+      "question": "Radite li van Subotice?",
+      "answer": "Da – okolina Subotice, Palić, Bačka Topola i dr."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Poziv +381 64 237 5828 / +381 62 842 6044 ili mail."
+    }
+  ]
+},
+
+  {
+  "ime": "Moler 011 Beograd - Završni Unutrašnji Radovi i Dekorativne Tehnike",
+  "tip": "firma",
+  "kategorija": ["Moleraj", "Molerski Radovi", "Dekorativni Radovi", "Gipsani Radovi", "Montaža Laminata", "Hidroizolacija Krova", "Održavanje Objekata"],
+  "opis_kratak": "Moler 011 – profesionalni završni radovi u enterijeru. Krečenje, dekorativne tehnike (Ottocento, Sabulador), gipsani radovi, podovi, hidroizolacija krova. Posebne ponude za investitore i upravnike. Besplatna procena na terenu.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara", "Surčin"],
+  "adresa": "Darinke Radović 5n, 11000 Beograd, Srbija",
+  "telefon": "+381643893898",
+  "email": "moler011info@gmail.com",
+  "website": "https://www.moler011.rs/",
+  "slug": "moler-011-beograd-zavrsni-unutrasnji-radovi-dekorativne-tehnike",
+  "thumbnail": "images/moler-011-beograd-zavrsni-unutrasnji-radovi-dekorativne-tehnike.webp",
+  "hero_image": "images/moler-011-beograd-zavrsni-unutrasnji-radovi-dekorativne-tehnike.webp",
+  "discover_title": "Moler 011 Beograd - Završni Unutrašnji Radovi i Dekorativne Tehnike",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-13",
+  "last_modified": "2025-11-13",
+  "tips_title": "Kako pripremiti prostor za molerske radove i uštedeti vreme",
+  "tips": [
+    "Uklonite nameštaj ili ga pomerite na sredinu – olakšava zaštitu",
+    "Pokrijte podove starim čaršavima – jeftinije od folije",
+    "Obavestite komšije o radovima – izbegavajte sukobe",
+    "Odaberite kvalitetnu boju unapred – moler će brže završiti",
+    "Redovno krečenje svake 3–5 godina produžava vek zidova"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "🎨 ZIDOVI BEZ SJAJA? PROSTOR BEZ ŽIVOTA? 😱 Upoznajte Moler 011 – tim koji pretvara obične zidove u prava umetnička dela! Specijalizovani za završne unutrašnje radove, donose boju, stil i funkcionalnost u svaki dom, lokal ili zgradu. Od klasičnog krečenja do luksuznih dekorativnih tehnika poput Ottocento i Travertine. Gipsani plafoni, laminati, hidroizolacija krova – sve sa preciznošću i garancijom kvaliteta. A najbolje? Besplatna procena na terenu!"
+    },
+    {
+      "type": "p",
+      "content": "🛠️ VIŠE OD OBIČNOG MOLERA! Moler 011 nije samo ekipa sa valjkom – to je profesionalna radnja za kompletne enterijerske transformacije. Mašinsko gletovanje za novogradnju, postavka lajsni svih vrsta, farbanje radijatora po rebru, pa čak i mesečni ugovori za održavanje objekata. Posebno su omiljeni kod investitora i upravnika zgrada zbog fer cena, transparentnosti i plaćanja preko računa."
+    },
+    {
+      "type": "h2",
+      "content": "Tim koji razume svaki detalj enterijera"
+    },
+    {
+      "type": "p",
+      "content": "Ne rade 'na oko' – svaki posao počinje stručnom procenom. Struganje stare boje, ručno ili mašinsko gletovanje, šmirglanje do savršene ravni, krečenje visokokvalitetnim akrilnim ili disperzivnim bojama. Lepe tapete, postavljaju stiropor, poliuretanske ili gipsane lajsne, farbaju spaletne po dužnom metru. Sve sa fokusom na čistoću i estetiku."
+    },
+    {
+      "type": "p",
+      "content": "Tražite savršen enterijer? Moler 011 je pravi izbor – pozovite ih pre nego što boja počne da se ljušti!"
+    },
+    {
+      "type": "p",
+      "content": "Možete ih lako kontaktirati:<br>📞 <strong>Poziv/Viber:</strong> <a href=\"tel:+381643893898\">+381 64 389 3898</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:moler011info@gmail.com\">moler011info@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.moler011.rs/\" target=\"_blank\" rel=\"nofollow\">moler011.rs</a><br>📍 <strong>Adresa:</strong> Darinke Radović 5n, Beograd (<a href=\"https://maps.app.goo.gl/z5kqbBKpDSsdnXVn9\" target=\"_blank\" rel=\"nofollow\">Pogledajte na mapi</a>)"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Moler 011 Nudi – Kompletan Pregled Usluga"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta ovaj tim može da uradi za vas:"
+    },
+    {
+      "type": "h3",
+      "content": "🎨 Molerski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Struganje stare boje, gletovanje (ručno ili mašinski), šmirglanje, krečenje akrilnim, disperzivnim ili polu-disperzivnim bojama."
+    },
+    {
+      "type": "h3",
+      "content": "🖌️ Dekorativni Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Ottocento, Sabulador, Valsetin, Travertine, Sahara i druge premium tehnike za luksuzan izgled zidova."
+    },
+    {
+      "type": "h3",
+      "content": "🪞 Postavka Lajsni"
+    },
+    {
+      "type": "p",
+      "content": "Zidne i plafonske lajsne od stirodura, stiropora, poliuretana ili gipsa."
+    },
+    {
+      "type": "h3",
+      "content": "🪚 Gipsani Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Montaža spuštenih plafona, pregradnih zidova, skrivača za zavese, TV polica – sa ili bez LED rasvete."
+    },
+    {
+      "type": "h3",
+      "content": "🏠 Podovi"
+    },
+    {
+      "type": "p",
+      "content": "Postavljanje laminata, hoblovanje starog parketa, zamena lajsni."
+    },
+    {
+      "type": "h3",
+      "content": "🏗️ Hidroizolacija Limenog Krova"
+    },
+    {
+      "type": "p",
+      "content": "Sa spoljne i unutrašnje strane – produžava vek krova i štedi energiju. Cena po kvadratnom metru."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Održavanje Objekata"
+    },
+    {
+      "type": "p",
+      "content": "Mesečni ugovori za stanove, lokale, kancelarije i zgrade. Krečenje, zamena sijalica, utičnica, prekidača i sitne popravke."
+    },
+    {
+      "type": "h2",
+      "content": "Posebne Ponude za Investitore i Upravnike Zgrada"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Investitori:</strong> Mašinsko gletovanje, šmirglanje i krečenje u novogradnji – birate jednu ili sve usluge. Besplatna procena na licu mesta.<br><strong>Upravnici:</strong> Krečenje zgrada po spratu, sa kompletnom zaštitom podova i pripremom zidova. Plaćanje preko računa, sve po dogovoru."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Moler 011 Radi – Od Poziva do Savršenog Enterijera"
+    },
+    {
+      "type": "p",
+      "content": "1. <strong>Pozovite</strong>: Na 064/389-389-8 ili pošaljite mail.<br>2. <strong>Besplatna procena</strong>: Dolaze na teren, mere, savetuju.<br>3. <strong>Ponuda</strong>: Jasna cena, bez iznenađenja.<br>4. <strong>Rad</strong>: Zaštita nameštaja, preciznost, čišćenje posle.<br>5. <strong>Predaja</strong>: Zajedno proveravate kvalitet.<br>6. <strong>Plaćanje</strong>: Preko računa (za pravna lica)."
+    },
+    {
+      "type": "p",
+      "content": "Spreman za novi izgled prostora? Kontaktirajte Moler 011 na <a href=\"tel:+381643893898\"><strong>+381 64 389 3898</strong></a> ili posetite <a href=\"https://www.moler011.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>moler011.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Molerski Radovi",
+      "description": "Struganje, gletovanje, šmirglanje, krečenje – ručno ili mašinski."
+    },
+    {
+      "title": "Dekorativne Tehnike",
+      "description": "Ottocento, Sabulador, Travertine, Sahara i druge."
+    },
+    {
+      "title": "Gipsani Radovi",
+      "description": "Spušteni plafoni, pregradni zidovi, TV police."
+    },
+    {
+      "title": "Montaža Podova",
+      "description": "Laminat, hoblovanje parketa, zamena lajsni."
+    },
+    {
+      "title": "Hidroizolacija Krova",
+      "description": "Limenih krovova – spolja i iznutra, po m²."
+    },
+    {
+      "title": "Održavanje Objekata",
+      "description": "Mesečni ugovori – krečenje, sitne popravke."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Da li procena na terenu košta?",
+      "answer": "Ne – izlazak je potpuno besplatan."
+    },
+    {
+      "question": "Radite li mašinsko gletovanje u novogradnji?",
+      "answer": "Da – brže, ravnije, idealno za velike površine."
+    },
+    {
+      "question": "Koliko traje krečenje jednog sprata u zgradi?",
+      "answer": "Zavisi od stanja – procena na licu mesta."
+    },
+    {
+      "question": "Postavljate li gipsane lajsne?",
+      "answer": "Da – i stiropor, poliuretan, stirodur."
+    },
+    {
+    "question": "Koje delove Beograda i okoline pokrivate?",
+    "answer": "Usluga pokriva ceo Beograd i širu okolinu što uključuje sledeće opštine: Zemun, Novi Beograd, Vračar, Stari Grad, Palilula, Voždovac, Čukarica, Rakovica, Zvezdara, a dolazim i u Borču, Pančevo, Surčin i Obrenovac."
+    },
+    {
+      "question": "Kako da zakazem termin?",
+      "answer": "Pozovite +381 64 389 3898 ili pošaljite mail na moler011info@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Mobilni Bravar Zoran Beograd - Hitne Intervencije Otvaranja Vrata 24/7",
+  "tip": "majstor",
+  "kategorija": ["Bravar", "Hitne Intervencije", "Otvaranje Vrata", "Ugradnja Pametnih Brava", "Video Nadzor", "Servis Brava"],
+  "opis_kratak": "Zoran – mobilni bravar Beograd. Otvaranje svih vrata bez oštećenja, ugradnja pametnih brava Sciener, video nadzor. Hitne intervencije 24/7, sudska izvršenja. Garancija na rad i opremu.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara", "Surčin"],
+  "adresa": "Marka Čelebonovića 27 11077 Beograd, Srbija",
+  "telefon": "+38169767013",
+  "email": "inkaso.doo@gmail.com",
+  "website": "https://bravarbeograd.com/",
+  "slug": "bravar-zoran-mobilni-beograd-hitne-intervencije",
+  "opening_hours": "Mo-Su 00:00-24:00",
+  "thumbnail": "images/bravar-zoran-mobilni-beograd-hitne-intervencije.webp",
+  "hero_image": "images/bravar-zoran-mobilni-beograd-hitne-intervencije.webp",
+  "discover_title": "Mobilni Bravar Zoran Beograd - Hitne Intervencije Otvaranja Vrata 24/7",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-13",
+  "last_modified": "2025-11-13",
+  "tips_title": "Kako postupiti kada se zaglavi ključ ili zaključate vrata",
+  "tips": [
+    "Ne forsirajte ključ – može dodatno oštetiti bravu",
+    "Pozovite profesionalca odmah – sprečava veće probleme",
+    "Pametne brave Sciener – otvaranje telefonom, bez ključa",
+    "Redovno podmazivanje cilindara produžava vek brave",
+    "Čuvajte rezervni ključ kod poverljive osobe"
+  ],
+  "sections": [
+  
+    {
+      "type": "p",
+      "content": "🌃 AKCIJA! KLJUČ SE SLOMIO? KATASTROFA! 😱  Dug dan je gotov, napokon ste pred svojim vratima, ruka poseže za ključem... KRC! Ključ ostaje u bravi, vi ste zaključani, a panika kreće da pleše! Iz tog trilera, imate jedan smislen izlaz: Da pozovete mobilnog bravara. To nije bravar koji bleji na mobilnom, niti je reč o majstoru za telefone. Reč je o bravaru koji izlazi na teren i otvara brave. Govorim o Zoranu. Vrata otvara bez ijedne ogrebotine, munjevito rešava sve bravarske drame i vraća vas u mirnu zonu. Zoran je vaša hitna linija za sigurnost!"
+    },
+    {
+      "type": "p",
+      "content": "🛠️ STOP DUPLIKATIMA! ZORANOV FOKUS JE EKSTREMNA SIGURNOST! Zaboravite na obično narezivanje ključeva – Zoran radi samo najteže zadatke! Njegova misija je: DEBLOKADA, POPRAVKA, EKSPRESNA ZAMENA cilindara i – da, ići korak dalje – ugradnja moćnih pametnih Sciener sistema i diskretnog video nadzora! Sve što Zoran dotakne ima punu garanciju na rad i opremu, po cenama koje su poštene i transparentne. A za najlakše kvarove (poput slomljenog ključa)? Ponekad, rešenje stiže – BESPLATNO! Samo okrenite njegov broj i rešite problem preko telefona! Brže, sigurnije, Zoran!"
+    },
+    {
+      "type": "h2",
+      "content": "Majstor sa dozvolom za provalu"
+    },
+    {
+    "type": "p",
+    "content": "Nakon višegodišnjih 'vatrenih krštenja' u najgorim bravarskim noćnim morama, Zoran je zaradio titulu 'Hirurga za brave'. Njegovo iskustvo u hitnim intervencijama ne meri se danima, već savršeno otvorenim vratima. On ne obija – on dešifruje! Ulazna, sobna, vatrootporna... Nema vrata koja on ne može da otvori a da vam brava ostane netaknuta. Radi za sve: od zabrinutih komšija do velikih firmi, pa čak i kod nesrećnih sudskih izvršenja, gde je preciznost imperativ."
+  },
+  {
+    "type": "p",
+    "content": "U slučaju da ste došli u gorepomenutu nevolju, ja bih vas samo savetovao ovo: 'Ne forsirajte, ne lomite, ne rizikujte – samo pozovite 'Hirurga'!'"
+  },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38169767013\">+381 69 767 013</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:inkaso.doo@gmail.com\">inkaso.doo@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://bravarbeograd.com/\" target=\"_blank\" rel=\"nofollow\">bravarbeograd.com</a><br>📍 <strong>Područje:</strong> Beograd i okolina"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Zoran Rešava – Od Blokade do Pametne Sigurnosti"
+    },
+    {
+      "type": "p",
+      "content": "Evo šta možete očekivati od njegovih intervencija:"
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Hitne Intervencije 24/7"
+    },
+    {
+      "type": "p",
+      "content": "Otvaranje svih vrata bez oštećenja – ulaznih, sobnih, protivpožarnih. Sudska izvršenja, spašavanje ljudskih života, zaglavljen ključ. Dolazi odmah, čak i noću."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Servis i Zamena Brava"
+    },
+    {
+      "type": "p",
+      "content": "Zamena cilindara, šifri na kasa bravama, podešavanje protivpožarnih vrata. Prepravka kasa sistema na cilindar. Sve sa fokusom na dugovečnost."
+    },
+    {
+      "type": "h3",
+      "content": "🔒 Ugradnja Pametnih Brava Sciener"
+    },
+    {
+      "type": "p",
+      "content": "Ovlašćeni partner za Sciener pametne brave. Otvaranje telefonom, otiskom prsta, šifrom. Bez ključeva, sa punom kontrolom."
+    },
+    {
+      "type": "h3",
+      "content": "📹 Video Nadzor i Sigurnosni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Implementacija kamera i pametnih sistema. Sve povezano sa telefonom – pratite dom iz daljine."
+    },
+    
+    {
+      "type": "h2",
+      "content": "Kako Zoran Radi – Brzo, Bez Stresa, Sa Garancijom"
+    },
+    {
+      "type": "p",
+      "content": "Njegov proces je jednostavan:<br>1. <strong>Pozovite</strong>: +381 69 767 013 – opišite situaciju.<br>2. <strong>Dolazak</strong>: Brzo, često za 20–30 minuta.<br>3. <strong>Procena</strong>: Tačna dijagnostika na licu mesta.<br>4. <strong>Rešenje</strong>: Bez oštećenja, sa profesionalnim alatom.<br>5. <strong>Testiranje</strong>: Provera rada brave ili sistema.<br>6. <strong>Garancija</strong>: Na rad i ugrađenu opremu."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Klijenti Veruju Zoranu"
+    },
+    {
+      "type": "p",
+      "content": "Zoran se ističe po pristupačnosti i profesionalnosti. Klijenti hvale njegovu komunikaciju, brzinu i nesebičnost – često daje savete preko telefona besplatno. Sa 4.9 zvezdica od 50 recenzija, postao je omiljeni bravar Beograda. 'Covek fantastican – od pomoci, za svaku preporuku', kaže Andrija."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/gf46LvVFe3CIPafeB\" target=\"_blank\" rel=\"nofollow\">Andrija Grustam</a>:</strong> Covek fantastican - komunikativan, od pomoci, za svaku preporuku!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/KEMlf7X7Y1Sbm1WXA\" target=\"_blank\" rel=\"nofollow\">N Sretović</a>:</strong> Svaka preporuka za Zorana. Odlicno odradjen posao. 10/10"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/eqprR3ExFXjLATUjt\" target=\"_blank\" rel=\"nofollow\">Radivoje Nikolic</a>:</strong> U današnje vreme iznenađujuće pozitivno iskustvo u kome je bravar za rešenje problema (polomljen ključ u bravi) besplatan savet dao preko telefona. Svaka čast za nesebičnost i bravar Zorana zaslužuje sve preporuke"
+    },
+    {
+      "type": "p",
+      "content": "Zaključani ste? Ključ polomljen? Potrebna pametna brava? Zoran je na poziv. Javite se na <a href=\"tel:+38169767013\"><strong>+381 69 767 013</strong></a> ili posetite <a href=\"https://bravarbeograd.com/\" target=\"_blank\" rel=\"nofollow\"><strong>bravarbeograd.com</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24/7",
+      "description": "Otvaranje svih vrata bez oštećenja. Sudska izvršenja, spašavanje, zaglavljen ključ."
+    },
+    {
+      "title": "Ugradnja Pametnih Brava Sciener",
+      "description": "Ovlašćeni partner. Otvaranje telefonom, otiskom, šifrom. Garancija na opremu."
+    },
+    {
+      "title": "Servis i Zamena Brava",
+      "description": "Zamena cilindara, šifri na kasa bravama. Podešavanje protivpožarnih vrata."
+    },
+    {
+      "title": "Video Nadzor",
+      "description": "Implementacija kamera i pametnih sistema. Praćenje preko telefona."
+    },
+    {
+      "title": "Prepravka Kasa Sistema",
+      "description": "Zamena na cilindar, poboljšanje sigurnosti sefova i trezora."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Dolazite li noću ili za vikend?",
+      "answer": "Da – 24/7, uključujući praznike, bez dodatne naplate."
+    },
+    {
+      "question": "Otvarate li vrata bez oštećenja?",
+      "answer": "Da – profesionalni alati, deblokada bez razbijanja."
+    },
+    {
+      "question": "Radite li sudska izvršenja?",
+      "answer": "Da – po nalogu suda ili policije, brzo i diskretno."
+    },
+    {
+      "question": "Ugrađujete li pametne brave?",
+      "answer": "Da – Sciener, ovlašćeni partner, sa garancijom."
+    },
+    {
+      "question": "Da li narezujete ključeve?",
+      "answer": "Ne – fokus je na otvaranju, popravci i pametnim sistemima."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 69 767 013 ili mail inkaso.doo@gmail.com."
+    }
+  ]
+},
+
+  {
   "ime": "Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije",
   "tip": "majstor",
   "kategorija": ["Električar", "Haus Majstor", "Etažno Grejanje", "Centralno Grejanje", "Servis Bojlera", "Servis TA Peći", "LED Rasveta"],
@@ -1036,7 +1562,7 @@
 
     {
       "type": "p",
-      "content": "Ako vaš <strong>dom čeka mirno leto bez insekata, a živite u Novom Sadu ili okolini</strong> – Insecto je pravi izbor. Javite se na <a href=\"tel:+381611321324\"><strong>061 132 1324</strong></a> ili posetite <a href=\"https://www.insecto.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>insecto.rs</strong></a> – gde komarci ostaju napolju."
+      "content": "Ako vaš <strong>dom čeka mirno leto bez insekata, a živite u Novom Sadu ili okolini</strong> – Insecto je pravi izbor. Javite se na <a href=\"tel:+381611321324\"><strong>061 132 1324</strong></a> ili posetite <a href=\"https://www.insecto.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>Insecto Komarnici Novi Sad</strong></a> – gde komarci ostaju napolju."
     }
   ],
 

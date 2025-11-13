@@ -22,6 +22,7 @@ website:
   url: https://vodoinstalaterjokic.com/
   label: Link do sajta
 slug: vodoinstalater-jokic-novi-sad-24-7
+opening_hours:
 thumbnail: images/vodoinstalater-jokic-novi-sad-24-7.webp
 hero_image: images/vodoinstalater-jokic-novi-sad-24-7.webp
 discover_title: 'Vodoinstalater Jokić Novi Sad: Pouzdani Majstori za Hitne Intervencije

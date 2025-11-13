@@ -23,6 +23,7 @@ website:
   url: https://www.vizijaservis.rs/
   label: Link do sajta
 slug: vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje
+opening_hours:
 thumbnail: images/vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje.webp
 hero_image: images/vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje.webp
 discover_title: Vizija Servis Beograd – Agencija za Čišćenje svih vrsta objekata

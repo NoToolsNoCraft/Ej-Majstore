@@ -24,6 +24,7 @@ website:
   url: https://pozovimajstora.rs/
   label: Link do sajta
 slug: elektricar-toma-beograd-hausmajstor
+opening_hours:
 thumbnail: images/električar-toma-beograd-hausmajstor.webp
 hero_image: images/električar-toma-beograd-hausmajstor.webp
 discover_title: Električar Toma Beograd - Hausmajstor za Grejanje i Hitne Intervencije

@@ -22,6 +22,7 @@ website:
   url: https://www.doka.com/rs/index
   label: Link do sajta
 slug: doka-srbija-oplate-skele-inzenjering
+opening_hours:
 thumbnail: images/Doka-Srbija-Svetski-Lider-u-Oplatama-i-Skelama-za-Velike-Projekte.webp
 hero_image: images/Doka-Srbija-Svetski-Lider-u-Oplatama-i-Skelama-za-Velike-Projekte.webp
 discover_title: Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte

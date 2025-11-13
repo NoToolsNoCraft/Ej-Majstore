@@ -23,6 +23,7 @@ website:
   url: https://goclean.rs/
   label: Link do sajta
 slug: go-clean-temerin-agencija-za-ciscenje-fasada-masinsko-pranje
+opening_hours:
 thumbnail: images/go-clean-temerin-agencija-za-ciscenje-fasada-masinsko-pranje.webp
 hero_image: images/go-clean-temerin-agencija-za-ciscenje-fasada-masinsko-pranje.webp
 discover_title: Go Clean Temerin – Agencija za Čišćenje Koja Stiže Brže Od Prašine

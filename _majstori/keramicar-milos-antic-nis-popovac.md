@@ -20,6 +20,7 @@ website:
   url: https://www.facebook.com/p/Keramicar-Nis-Milos-Antic-100057453039103/
   label: Facebook
 slug: keramicar-milos-antic-nis-popovac
+opening_hours:
 thumbnail: images/keramicar-milos-antic-nis-popovac.webp
 hero_image: images/keramicar-milos-antic-nis-popovac.webp
 discover_title: Keramičar Miloš Antić Niš – Majstor za Pločice i Metalne Konstrukcije

@@ -25,6 +25,7 @@ website:
   url: https://www.facebook.com/p/Interium-100088320567844/
   label: Facebook
 slug: interium-cantavir-namestaj-po-meri-stolarija
+opening_hours:
 thumbnail: images/Interium-Čantavir-Stolarska-Radionica-i-Salon-Nameštaja-po-Meri.webp
 hero_image: images/Interium-Čantavir-Stolarska-Radionica-i-Salon-Nameštaja-po-Meri.webp
 discover_title: Interium Čantavir – Stolarska Radionica i Salon Nameštaja po Meri

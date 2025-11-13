@@ -20,6 +20,7 @@ website:
   url: https://elektricar-i-klima-47ejw1y.gamma.site/
   label: Link do sajta
 slug: elektricar-klima-apatin-samostalni-majstor
+opening_hours:
 thumbnail: images/elektricar-klima-apatin-samostalni-majstor.webp
 hero_image: images/elektricar-klima-apatin-samostalni-majstor.webp
 discover_title: Električar i Majstor za Klime Apatin, ali i šire

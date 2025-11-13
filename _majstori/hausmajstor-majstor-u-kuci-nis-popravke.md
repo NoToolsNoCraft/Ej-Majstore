@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/hausmajstor.majstor.u.kuci.2025
   label: Facebook
 slug: hausmajstor-majstor-u-kuci-nis-popravke
+opening_hours:
 thumbnail: images/hausmajstor-majstor-u-kuci-nis-popravke.webp
 hero_image: images/hausmajstor-majstor-u-kuci-nis-popravke.webp
 discover_title: Hausmajstor Majstor U Kući Niš – Vaš Vikend Majstor za Sve Sitnice

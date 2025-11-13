@@ -26,6 +26,7 @@ website:
   url: https://hitnepopravke.rs
   label: Link do sajta
 slug: el-moma-servis-bele-tehnike-sremska-kamenica
+opening_hours:
 thumbnail: images/el-moma-servis-bele-tehnike-sremska-kamenica.webp
 hero_image: images/el-moma-servis-bele-tehnike-sremska-kamenica.webp
 discover_title: 'Hitne Popravke Bele Tehnike: EL MOMA vraća vaše aparate u pogon –

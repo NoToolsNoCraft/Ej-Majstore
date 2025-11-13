@@ -22,6 +22,7 @@ website:
   url: https://www.facebook.com/parketivanic?locale=sr_RS
   label: Facebook
 slug: parketar-ivanic-nova-pazova-30-godina-tradicije
+opening_hours:
 thumbnail: images/parketar-ivanic-nova-pazova-30-godina-tradicije.webp
 hero_image: images/parketar-ivanic-nova-pazova-30-godina-tradicije.webp
 discover_title: Parketarske Usluge Ivanić Nova Pazova – 30 Godina Tradicije u Drvetu

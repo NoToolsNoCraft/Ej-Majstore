@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/molersombor
   label: Facebook
 slug: milos-moler-sombor-krecenje-gletovanje-sahara
+opening_hours:
 thumbnail: images/milos-moler-sombor-krecenje-gletovanje-sahara.webp
 hero_image: images/milos-moler-sombor-krecenje-gletovanje-sahara.webp
 discover_title: Miloš Moler Sombor – Zidovi Koji Oživljavaju Prostore

@@ -21,6 +21,7 @@ website:
   url: https://www.proto-servis.rs/
   label: Link do sajta
 slug: proto-servis-novi-sad-popravka-bele-tehnike
+opening_hours:
 thumbnail: images/proto-servis-novi-sad-popravka-bele-tehnike.webp
 hero_image: images/proto-servis-novi-sad-popravka-bele-tehnike.webp
 discover_title: Proto Servis Novi Sad – Popravka Bele Tehnike

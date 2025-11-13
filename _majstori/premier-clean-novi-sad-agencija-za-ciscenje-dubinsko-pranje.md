@@ -23,6 +23,7 @@ website:
   url: https://premier-clean.rs/
   label: Link do sajta
 slug: premier-clean-novi-sad-agencija-za-ciscenje-dubinsko-pranje
+opening_hours:
 thumbnail: images/premier-clean-novi-sad-agencija-za-ciscenje-dubinsko-pranje.webp
 hero_image: images/premier-clean-novi-sad-agencija-za-ciscenje-dubinsko-pranje.webp
 discover_title: Premier Clean Novi Sad – Čistoća Koja Se Pamti

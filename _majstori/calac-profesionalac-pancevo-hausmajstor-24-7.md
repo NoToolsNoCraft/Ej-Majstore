@@ -22,6 +22,7 @@ website:
   url: https://calacprofesionalac.rs/
   label: Link do sajta
 slug: calac-profesionalac-pancevo-hausmajstor-24-7
+opening_hours:
 thumbnail: images/calac-profesionalac-pancevo-hausmajstor-24-7.webp
 hero_image: images/calac-profesionalac-pancevo-hausmajstor-24-7.webp
 discover_title: Ćalac Profesionalac Pančevo – Hausmajstor Firma Koja Ne Zna Za „Sutra“

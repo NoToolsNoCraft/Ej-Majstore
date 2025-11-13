@@ -22,6 +22,7 @@ website:
   url: https://ideaps.rs/
   label: Link do sajta
 slug: idea-protection-system-zemun-alarmi-video-nadzor-klime
+opening_hours:
 thumbnail: images/idea-protection-system-zemun-alarmi-video-nadzor-klime.webp
 hero_image: images/idea-protection-system-zemun-alarmi-video-nadzor-klime.webp
 discover_title: Idea Protection System iz Zemuna Čuva Vaš Dom 24/7

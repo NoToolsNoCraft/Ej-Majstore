@@ -70,6 +70,7 @@ data.each do |majstor|
     'googlemaps'     => majstor['googlemaps'] || '',
     'website'        => website,
     'slug'           => majstor['slug'],
+    'opening_hours'  => majstor['opening_hours'],
     'thumbnail'      => fix_image_url(majstor['thumbnail']),
     'hero_image'     => fix_image_url(majstor['hero_image'] || majstor['thumbnail']),
     'discover_title' => majstor['discover_title'],

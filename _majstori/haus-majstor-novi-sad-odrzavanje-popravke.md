@@ -24,6 +24,7 @@ website:
   url: https://www.hausmajstorns.rs/
   label: Link do sajta
 slug: haus-majstor-novi-sad-odrzavanje-popravke
+opening_hours:
 thumbnail: images/haus-majstor-novi-sad-odrzavanje-popravke.webp
 hero_image: images/haus-majstor-novi-sad-odrzavanje-popravke.webp
 discover_title: Haus Majstor Novi Sad – Kompletan Tim za Održavanje i Popravke

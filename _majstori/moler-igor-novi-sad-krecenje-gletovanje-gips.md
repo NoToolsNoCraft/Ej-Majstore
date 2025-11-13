@@ -21,6 +21,7 @@ website:
   url: https://www.moler-novi-sad.com/
   label: Link do sajta
 slug: moler-igor-novi-sad-krecenje-gletovanje-gips
+opening_hours:
 thumbnail: images/moler-igor-novi-sad-krecenje-gletovanje-gips.webp
 hero_image: images/moler-igor-novi-sad-krecenje-gletovanje-gips.webp
 discover_title: Moler Igor Novi Sad – Zidovi Kao Ogledalo, Gips Kao Nov

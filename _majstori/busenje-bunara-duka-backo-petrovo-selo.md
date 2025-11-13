@@ -17,6 +17,7 @@ website:
   url: https://www.facebook.com/oredudicduka
   label: Facebook
 slug: busenje-bunara-duka-backo-petrovo-selo
+opening_hours:
 thumbnail: images/busenje-bunara-duka-backo-petrovo-selo.webp
 hero_image: images/busenje-bunara-duka-backo-petrovo-selo.webp
 discover_title: Bušenje Bunara Duka – Majstor za Bunare do 150m u Srbiji

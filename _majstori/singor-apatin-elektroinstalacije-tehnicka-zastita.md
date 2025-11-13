@@ -24,6 +24,7 @@ website:
   url: https://singor.rs/
   label: Link do sajta
 slug: singor-apatin-elektroinstalacije-tehnicka-zastita
+opening_hours:
 thumbnail: images/Singor-Apatin-elektroinstalacije-thumbnail.webp
 hero_image: images/Singor-Apatin-elektroinstalacije-thumbnail.webp
 discover_title: SINGOR iz Apatina Elektroinstalira Budućnost Bačke

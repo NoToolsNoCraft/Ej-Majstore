@@ -25,6 +25,7 @@ website:
   url: https://nselektricar.rs/
   label: Link do sajta
 slug: elektricar-miodrag-sliva-novi-sad-smart-instalacije
+opening_hours:
 thumbnail: images/elektricar-miodrag-sliva-novi-sad-smart-instalacije.webp
 hero_image: images/elektricar-miodrag-sliva-novi-sad-smart-instalacije.webp
 discover_title: Električar Miodrag Sliva Novi Sad – Struja Koja Radi za Vas

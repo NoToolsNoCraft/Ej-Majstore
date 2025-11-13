@@ -22,6 +22,7 @@ website:
   url: https://www.hausmajstorwinner.com/
   label: Link do sajta
 slug: haus-majstor-winner-srbija-popravke-renoviranje
+opening_hours:
 thumbnail: images/haus-majstor-winner-srbija-popravke-renoviranje.webp
 hero_image: images/haus-majstor-winner-srbija-popravke-renoviranje.webp
 discover_title: Haus Majstor Winner Pretvara Kućne Noćne More u San

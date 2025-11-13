@@ -22,6 +22,7 @@ website:
   url: https://provansadekor.rs/
   label: Link do sajta
 slug: provansa-green-centar-dedinje-uredjenje-dvorista
+opening_hours:
 thumbnail: images/provansa-green-centar-dedinje-uredjenje-dvorista.webp
 hero_image: images/provansa-green-centar-dedinje-uredjenje-dvorista.webp
 discover_title: Provansa Green Centar Dedinje – Vaša Oaza Zelenila i Dekoracije

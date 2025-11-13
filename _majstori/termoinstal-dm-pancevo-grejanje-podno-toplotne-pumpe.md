@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/miletic.termoinstal/
   label: Facebook
 slug: termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe
+opening_hours:
 thumbnail: images/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe.webp
 hero_image: images/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe.webp
 discover_title: Termoinstal DM Pančevo – Majstori za Grejanje i za Zabavu

@@ -25,6 +25,7 @@ website:
   url: https://vodoinstalater-zoki.rs/
   label: Link do sajta
 slug: dezurni-vodoinstalater-zoki-24h-novi-sad
+opening_hours:
 thumbnail: "/images/Vodoinstalater-Zoki-Novi-Sad-24h-Dežurni-Majstor-Koji-Stize-Ekspresno.webp"
 hero_image: "/images/Vodoinstalater-Zoki-Novi-Sad-24h-Dežurni-Majstor-Koji-Stize-Ekspresno.webp"
 discover_title: Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno

@@ -23,6 +23,7 @@ website:
   url: https://radunpvc.com/
   label: Link do sajta
 slug: radun-pvc-alu-stolarija-temerin-komarnici-prozori
+opening_hours:
 thumbnail: images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp
 hero_image: images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp
 discover_title: Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po

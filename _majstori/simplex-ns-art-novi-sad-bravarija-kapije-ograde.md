@@ -27,6 +27,7 @@ website:
   url: https://bravarija.rs/
   label: Link do sajta
 slug: simplex-ns-art-novi-sad-bravarija-kapije-ograde
+opening_hours:
 thumbnail: images/simplex-ns-art-novi-sad-bravarija-kapije-ograde.webp
 hero_image: images/simplex-ns-art-novi-sad-bravarija-kapije-ograde.webp
 discover_title: Simplex NS Art Novi Sad – Bravarija i Metalna Konstrukcija sa 20+

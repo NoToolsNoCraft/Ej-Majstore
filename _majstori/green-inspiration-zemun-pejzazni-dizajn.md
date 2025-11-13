@@ -22,6 +22,7 @@ website:
   url: https://greeninspiration.rs/
   label: Link do sajta
 slug: green-inspiration-zemun-pejzazni-dizajn
+opening_hours:
 thumbnail: images/green-inspiration-zemun-pejzazni-dizajn.webp
 hero_image: images/green-inspiration-zemun-pejzazni-dizajn.webp
 discover_title: Green Inspiration Zemun – Pejzažni Studio za Žive Prostore

@@ -24,6 +24,7 @@ website:
   url: https://www.vodoinstalater-medakovic.rs/
   label: Link do sajta
 slug: vodoinstalater-medakovic-novi-sad-zoran
+opening_hours:
 thumbnail: images/vodoinstalater-medakovic-novi-sad-zoran.webp
 hero_image: images/vodoinstalater-medakovic-novi-sad-zoran.webp
 discover_title: Vodoinstalater Medaković Novi Sad - Majstor za Grejanje, Kupatila

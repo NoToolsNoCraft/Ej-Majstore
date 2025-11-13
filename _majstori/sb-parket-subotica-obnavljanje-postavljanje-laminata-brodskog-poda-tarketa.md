@@ -23,6 +23,7 @@ website:
   url: https://www.facebook.com/people/SB-Parket/100063868303097/
   label: Facebook
 slug: sb-parket-subotica-obnavljanje-postavljanje-laminata-brodskog-poda-tarketa
+opening_hours:
 thumbnail: images/sb-parket-subotica-obnavljanje-postavljanje-laminata-brodskog-poda-tarketa.webp
 hero_image: images/sb-parket-subotica-obnavljanje-postavljanje-laminata-brodskog-poda-tarketa.webp
 discover_title: SB Parket Subotica – Drveni Podovi koji Traju Generacijama

@@ -22,6 +22,7 @@ website:
   url: https://www.dakiplast.rs/
   label: Link do sajta
 slug: daki-plast-sombor-rehau-pvc-alu-stolarija
+opening_hours:
 thumbnail: images/daki-plast-sombor-pvc-alu-stolarija.webp
 hero_image: images/daki-plast-sombor-pvc-alu-stolarija.webp
 discover_title: Daki Plast Sombor – REHAU Profili Koji Ne Propuštaju Ni Zvuk Ni Hladnoću

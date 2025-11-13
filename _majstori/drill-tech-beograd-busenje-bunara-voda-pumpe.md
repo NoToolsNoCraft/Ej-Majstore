@@ -22,6 +22,7 @@ website:
   url: https://busenje-bunara.rs/
   label: Link do sajta
 slug: drill-tech-beograd-busenje-bunara-voda-pumpe
+opening_hours:
 thumbnail: images/drill-tech-beograd-busenje-bunara-voda-pumpe.webp
 hero_image: images/drill-tech-beograd-busenje-bunara-voda-pumpe.webp
 discover_title: Drill Tech Beograd – Bušenje Bunara Širom Srbije

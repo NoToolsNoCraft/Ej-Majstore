@@ -22,6 +22,7 @@ website:
   url: https://www.sitnepopravke.com/
   label: Link do sajta
 slug: haus-majstor-novi-sad-sitne-popravke
+opening_hours:
 thumbnail: images/haus-majstor-novi-sad-sitne-popravke.webp
 hero_image: images/haus-majstor-novi-sad-sitne-popravke.webp
 discover_title: 'Od Prekidača Koji Ne Radi do Laminata na Podu: Kako Haus Majstor

@@ -23,6 +23,7 @@ website:
   url: https://keramicaras.rs/
   label: Link do sajta
 slug: keramicar-as-beograd-postavljanje-plocica
+opening_hours:
 thumbnail: images/keramicar-as-beograd-postavljanje-plocica.webp
 hero_image: images/keramicar-as-beograd-postavljanje-plocica.webp
 discover_title: Keramičar AS – Precizno Postavljanje Pločica u Beogradu

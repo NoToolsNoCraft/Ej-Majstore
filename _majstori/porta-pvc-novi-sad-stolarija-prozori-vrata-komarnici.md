@@ -24,6 +24,7 @@ website:
   url: https://www.porta-pvc.com/
   label: Link do sajta
 slug: porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici
+opening_hours:
 thumbnail: images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp
 hero_image: images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp
 discover_title: Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima

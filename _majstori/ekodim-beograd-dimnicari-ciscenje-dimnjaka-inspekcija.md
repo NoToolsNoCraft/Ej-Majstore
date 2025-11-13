@@ -22,6 +22,7 @@ website:
   url: https://www.ekodim.rs/pocetna.php
   label: Link do sajta
 slug: ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija
+opening_hours:
 thumbnail: images/ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija.webp
 hero_image: images/ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija.webp
 discover_title: EKO-DIM Beograd – Čišćenje Dimnjaka i Ventilacija sa Garancijom

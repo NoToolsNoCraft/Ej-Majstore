@@ -21,6 +21,7 @@ website:
   url: https://www.facebook.com/people/Kerami%C4%8Dar-Novi-Sad-BR/100082827957559/
   label: Facebook
 slug: keramicar-borisa-novi-sad-hidroizolacija-demontaza
+opening_hours:
 thumbnail: images/keramicar-borisa-novi-sad-hidroizolacija-demontaza.webp
 hero_image: images/keramicar-borisa-novi-sad-hidroizolacija-demontaza.webp
 discover_title: Keramičar Boriša Novi Sad – Adaptacija, Hidroizolacija, Demontaža

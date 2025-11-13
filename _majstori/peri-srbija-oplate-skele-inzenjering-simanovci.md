@@ -22,6 +22,7 @@ website:
   url: https://www.peri.rs/
   label: Link do sajta
 slug: peri-srbija-oplate-skele-inzenjering-simanovci
+opening_hours:
 thumbnail: "/images/PERI-Srbija-iz-Simanovaca-Oplate-i-Skele-za-Velike-i-Male-Projekte.webp"
 hero_image: "/images/PERI-Srbija-iz-Simanovaca-Oplate-i-Skele-za-Velike-i-Male-Projekte.webp"
 discover_title: 'PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte'

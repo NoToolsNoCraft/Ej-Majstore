@@ -23,6 +23,7 @@ website:
   url: https://www.lojdservis.com/
   label: Link do sajta
 slug: lojd-servis-novi-sad-bele-tehnike-popravke
+opening_hours:
 thumbnail: images/lojd-servis-novi-sad-bele-tehnike-popravke.webp
 hero_image: images/lojd-servis-novi-sad-bele-tehnike-popravke.webp
 discover_title: LOJD Novi Sad - Pouzdani Servis Bele Tehnike
