@@ -1,9 +1,226 @@
 [
 
   {
+  "ime": "Extra Clean Novi Sad - Dubinsko Pranje i Održavanje",
+  "tip": "firma",
+  "kategorija": ["Čišćenje", "Dubinsko Pranje Nameštaja", "Pranje Tepiha", "Održavanje Poslovnih Prostora", "Pranje Automobila", "Čišćenje Klima Uređaja", "Iznajmljivanje Mašina"],
+  "opis_kratak": "Extra Clean – profesionalno dubinsko pranje nameštaja, tepiha, automobila, čišćenje klima uređaja i održavanje poslovnih prostora. Fleksibilno radno vreme, popusti za penzionere i trudnice. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Sremska Kamenica", "Petrovaradin", "Veternik", "Futog", "Beočin", "Rumenka", "Kać", "Temeri", "Liman"],
+  "adresa": "Petra Kočića 2, Sremska Kamenica 21208",
+  "telefon": "+38163661103",
+  "email": "",
+  "website": "https://www.extracleanns.rs/",
+  "slug": "extra-clean-novi-sad-dubinsko-pranje-ciscenje-odrzavanje",
+  "thumbnail": "images/extra-clean-novi-sad-dubinsko-pranje-ciscenje-odrzavanje.webp",
+  "hero_image": "images/extra-clean-novi-sad-dubinsko-pranje-ciscenje-odrzavanje.webp",
+  "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:00, Su closed",
+  "discover_title": "Extra Clean Novi Sad - Dubinsko Pranje i Održavanje",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-15",
+  "last_modified": "2025-11-15",
+  "tips_title": "Saveti za održavanje čistoće i svežine u domu i poslovnom prostoru",
+  "tips": [
+    "Redovno usisavanje tepiha – sprečava nakupljanje prašine",
+    "Čišćenje klima uređaja – jednom godišnje za zdrav vazduh",
+    "Zaštita kožnog nameštaja – kreme nakon pranja",
+    "Mašinsko pranje podova – svaka 2 nedelje za sjaj",
+    "Redovno održavanje poslovnih prostora – ugodan ambijent za zaposlene i klijente"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Zamislimo da je vaš poslovni prostor pun prašine, tepisi izbledeli, a nameštaj nosi tragove današnjeg haosa. Ili kuća posle dugog perioda bez dubinskog čišćenja – dušeci koji više ne mirišu na dom. U Novom Sadu, Extra Clean donosi rešenje koje nije samo čišćenje, već pravo osveženje. Smešteni u Sremskoj Kamenici, ovaj tim koristi profesionalne mašine i kvalitetna sredstva da svaki kvadratni metar zablista, a vi osetite razliku."
+    },
+    {
+      "type": "p",
+      "content": "Od osnivanja, Extra Clean gradi poverenje kroz kvalitet – zadovoljni klijenti su njihova najbolja reklama. Radno vreme je fleksibilno: ponedeljkom do petkom od 8 do 20h, subotom do 18h, nedelja neradna. A sa 10% popusta za penzionere i trudnice, usluge postaju još pristupačnije."
+    },
+    {
+      "type": "h2",
+      "content": "Extra Clean – Kvalitet koji Se Oseća"
+    },
+    {
+      "type": "p",
+      "content": "Ova firma nije samo servis – to je tim koji razume da čistoća utiče na sve: od produktivnosti u kancelariji do mira u domu. Specijalizovani su za dubinsko pranje, gde svaka usluga dolazi sa garancijom zadovoljstva i mogućnošću reklamacije."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za brzi dogovor:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38162661103\">+381 62 661 103</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.extracleanns.rs/\" target=\"_blank\" rel=\"nofollow\">extracleanns.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cJFsmM8vpopedmFQA\" target=\"_blank\" rel=\"nofollow\">Petra Kočića 2, Sremska Kamenica</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Od Tepiha do Automobila"
+    },
+    {
+      "type": "p",
+      "content": "Extra Clean pokriva širok spektar usluga, sa fokusom na dubinsko i profesionalno čišćenje:"
+    },
+    {
+      "type": "h3",
+      "content": "🧼 Dubinsko Pranje Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Pranje kreveta, dušeka, sobnog nameštaja od tkanine ili kože, stolica, prostirki, jastuka. Koriste specijalne mašine za dubinsko čišćenje, sa garancijom kvaliteta."
+    },
+    {
+      "type": "h3",
+      "content": "🛋️ Pranje Kožnog Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Profesionalno pranje i zaštita kožne površine – odlepljivanje mrlja i produžavanje veka nameštaja. Svaka reklamacija se rešava."
+    },
+    {
+      "type": "h3",
+      "content": "🧹 Tepih Servis"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje i pranje tepiha – dolaze, odnose i vraćaju. Idealno za osvježavanje poda bez muke."
+    },
+    {
+      "type": "h3",
+      "content": "🏢 Održavanje Poslovnih Prostora"
+    },
+    {
+      "type": "p",
+      "content": "Redovno i povremeno čišćenje kancelarija, radnji – po pristupačnim cenama, sa prilagodbom vašem rasporedu."
+    },
+    {
+      "type": "h3",
+      "content": "🚗 Dubinsko Pranje Automobila"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje enterijera vozila – sedišta, tepisi, tapacirung. Brzo i efikasno, za osećaj nove vožnje."
+    },
+    {
+      "type": "h3",
+      "content": "❄️ Čišćenje i Dezinfekcija Klima Uređaja"
+    },
+    {
+      "type": "p",
+      "content": "Uklanjanje prljavštine, buđi, bakterija i dima – preporučeno redovno za zdrav vazduh u prostoru."
+    },
+    {
+      "type": "h3",
+      "content": "💧 Mašine za Isušivanje Vlage"
+    },
+    {
+      "type": "p",
+      "content": "Iznajmljivanje mašina za sušenje zidova, plafona, podova, parketa. Rešavaju problem vlage u kućama i manjim prostorima."
+    },
+    {
+      "type": "h3",
+      "content": "🪔 Poliranje Farova"
+    },
+    {
+      "type": "p",
+      "content": "Reparacija i poliranje stakla farova automobila i motocikala – spolja ili iznutra, za bolju vidljivost."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Extra Clean Radi – Od Poziva do Sjaja"
+    },
+    {
+      "type": "p",
+      "content": "Njihov proces je prilagođen vama:<br>1. <strong>Pozovite</strong>: Opišite potrebu i termin.<br>2. <strong>Dolazak</strong>: Sa profesionalnim mašinama i sredstvima.<br>3. <strong>Pranje</strong>: Dubinsko, bez oštećenja.<br>4. <strong>Sušenje</strong>: Brzo, sa mogućnošću iznajmljivanja mašina.<br>5. <strong>Rezultat</strong>: Proverite pre i posle na sajtu ili videu."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti Extra Clean-a"
+    },
+    {
+      "type": "p",
+      "content": "Šta klijenti vole:<br><strong>Fleksibilnost</strong>: Radno vreme po vašem rasporedu.<br><strong>Kvalitet</strong>: Profesionalne mašine za vrhunske rezultate.<br><strong>Cene</strong>: Pristupačne, sa 10% popusta za penzionere i trudnice.<br><strong>Zadovoljstvo</strong>: Garancija usluge i fokus na preporukama."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/1N1QiFquLeexTZ3LF\" target=\"_blank\" rel=\"nofollow\">Miloš Đurković</a>:</strong> Zadovoljan. Dođu odnesu i vrate. Ljubazni momci."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/tDgRyQnpECfgYClT7\" target=\"_blank\" rel=\"nofollow\">Ivan Vajagić</a>:</strong> Odlična saradnja, sve po dogovoru, stručno i temeljno urađeno!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/1xcY0shlkhndUx951\" target=\"_blank\" rel=\"nofollow\">3LiON</a>:</strong> Veoma operativno i tačno. Klimu su očistili i dezinfikovali kvalitetno i pažljivo. Veoma sam zadovoljan rezultatom!"
+    },
+    {
+      "type": "p",
+      "content": "Tražite li dubinsko čišćenje koje traje? Pozovite Extra Clean na <a href=\"tel:+38163661103\"><strong>+381 63 661 103</strong></a> ili posetite <a href=\"https://www.extracleanns.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>extracleanns.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Dubinsko Pranje Nameštaja",
+      "description": "Pranje dušeka, kreveta, tkanine i kože. Garancija kvaliteta."
+    },
+    {
+      "title": "Tepih Servis",
+      "description": "Čišćenje i pranje tepiha – dolazak, odnošenje, vraćanje."
+    },
+    {
+      "title": "Mašinsko Pranje Podova",
+      "description": "Plocice, mermer – redovno ili povremeno, po kvadraturi."
+    },
+    {
+      "title": "Održavanje Poslovnih Prostora",
+      "description": "Čišćenje kancelarija po pristupačnim cenama."
+    },
+    {
+      "title": "Pranje Automobila",
+      "description": "Dubinsko čišćenje enterijera vozila."
+    },
+    {
+      "title": "Čišćenje Klima Uređaja",
+      "description": "Dezinfekcija od bakterija i buđi."
+    },
+    {
+      "title": "Iznajmljivanje Mašina za Vlagu",
+      "description": "Sušenje zidova, podova, parketa."
+    },
+    {
+      "title": "Poliranje Farova",
+      "description": "Reparacija farova automobila i motocikala."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite na uslugu?",
+      "answer": "Po dogovoru – fleksibilno, često isti dan."
+    },
+    
+    {
+      "question": "Radite li vikendom?",
+      "answer": "Da – subotom od 8 do 18h, nedelja neradna."
+    },
+    {
+      "question": "Šta ako nisam zadovoljan?",
+      "answer": "Garancija usluge – reklamacije rešavamo odmah."
+    },
+    {
+      "question": "Koliko košta?",
+      "answer": "Povoljne cene po kvadraturi; pitajte za ponudu."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina: Sremska Kamenica, Petrovaradin, Veternik, Futog, Beočin itd."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 62 661 103 za brz dogovor."
+    }
+  ]
+},
+
+  {
   "ime": "Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora",
   "tip": "majstor",
-  "kategorija": ["Čistačica", "Čišćenje Stanova", "Čišćenje Kuća", "Čišćenje Poslovnih Prostora", "Pedantno Čišćenje", "Čišćenje sa Kućnim Ljubimcima"],
+  "kategorija": ["Čistačica", "Čišćenje Stanova", "Čišćenje Kuća", "Čišćenje Poslovnih Prostora", "Pranje Prozora"],
   "opis_kratak": "Gordana – pedantna čistačica iz Kragujevca za stanove, kuće i poslovne prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od LANE Miljković Djević.",
   "mesto": ["Kragujevac", "Aerodrom", "Bubanj", "Stanovo", "Ćava", "Lužnica", "Beli Lug", "Čibukovac", "Stragari", "Vinča"],
   "adresa": "Kragujevac, Srbija",
@@ -19,7 +236,7 @@
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-11-15",
   "last_modified": "2025-11-15",
-  "tips_title": "Kako održavati dom čistim uz pomoć profesionalca",
+  "tips_title": "Kako održavati dom čistim samostalno ili uz pomoć profesionalca",
   "tips": [
     "Redovno čišćenje – jednom nedeljno sprečava nakupljanje prašine",
     "Čistačica sa ljubimcima – ključ za miran dom sa psima",
@@ -30,17 +247,16 @@
   "sections": [
     {
       "type": "p",
-      "content": "Dok sam pretraživao LinkedIn u potrazi za proverеnim uslugama u Kragujevcu, naišao sam na objavu koji me je naterala da stanem i pročitam o čemu se radi. Dotična Lana  podelila je iskreno iskustvo o čistačici Gordani. 'Počela je da nam čisti kuću, a vremenom je postala osoba kojoj potpuno verujemo', napisala je Lana. Ova preporuka nije bila običan savet – bila je lično svedočenje. Zato sam odlučio da je podelim i sa vama. Publika naprosto voli da čuje iskustva iz prve ruke."
+      "content": "Dok sam pretraživao LinkedIn u potrazi za proverеnim uslugama u Kragujevcu, naišao sam na objavu koja me je naterala da stanem i pročitam o čemu se radi. Dotična Lana podelila je iskreno iskustvo o čistačici Gordani. 'Počela je da nam čisti kuću, a vremenom je postala osoba kojoj potpuno verujemo', napisala je Lana. Ova preporuka nije bila običan savet – bila je lično svedočenje. Zato sam odlučio da je podelim i sa vama. Publika naprosto voli da čuje iskustva iz prve ruke."
     },
     {
       "type": "p",
-      "content": "Gordana, ili Goca kako je Lana zove, godinama radi u Kragujevcu – čisti stanove, kuće i poslovne prostore sa pedantnošću koja prelazi očekivanja. Lana je istakla: neverovatno je temeljna, vredna i prijatna, a posebno divna sa psima – njeni šnauceri, koji prihvataju samo odabrane, odmah su je zavoleli. Ako tražite nekog ko će očistiti i one ćoškove za koje niste ni znali da postoje, Gordana je pravi izbor."
+      "content": "Gordana, ili Goca kako je Lana zove, godinama radi u Kragujevcu – čisti stanove, kuće i poslovne prostore sa pedantnošću koja prelazi očekivanja. Važno je napomenuti da Gordana ne donosi svoju opremu ni sredstva za čišćenje – klijent je taj koji treba da pripremi svu potrebnu opremu, usisivač, mopove, krpe i sredstva. Gordana obavlja isključivo sam proces čišćenja. Lana je istakla: neverovatno je temeljna, vredna i prijatna, a posebno divna sa psima – njeni šnauceri, koji prihvataju samo odabrane, odmah su je zavoleli. Ako tražite nekog ko će očistiti i one ćoškove za koje niste ni znali da postoje, Gordana je pravi izbor."
     },
     {
       "type": "h2",
       "content": "Kako da stupite u kontakt sa Gordanom"
     },
-
     {
       "type": "p",
       "content": "Kontaktirajte Gordanu direktno:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381605572521\">+381 60 557 2521</a><br>🔗 <strong>Preporuka od Lane:</strong> <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7394981012331548672/\" target=\"_blank\" rel=\"nofollow\">Ceo tekst preporuke</a><br>📍 <strong>Područje:</strong> Kragujevac i okolina"
@@ -59,7 +275,7 @@
     },
     {
       "type": "p",
-      "content": "Od podova do plafona – sve se briše, usisava, dezinfikuje. Posebna pažnja na kuhinje, kupatila i prozore."
+      "content": "Od podova do plafona – sve se briše, usisava, pere i dezinfikuje. Posebna pažnja na kuhinje, kupatila i prozore. Klijent priprema opremu i sredstva."
     },
     {
       "type": "h3",
@@ -67,27 +283,24 @@
     },
     {
       "type": "p",
-      "content": "Kancelarije i radnje – brzo, diskretno, bez ometanja radnog dana."
+      "content": "Kancelarije i radnje – brzo, diskretno, bez ometanja radnog dana. Oprema i sredstva se obezbeđuju u samom prostoru."
     },
-    
     {
       "type": "h3",
       "content": "✨ Temeljno i Dubinsko Čišćenje"
     },
     {
       "type": "p",
-      "content": "Ćoškovi, iza nameštaja, unutar frižidera – ništa ne ostaje neprimećeno."
+      "content": "Ćoškovi, iza nameštaja, unutar frižidera – ništa ne ostaje neprimećeno. Sve se radi opremom koju klijent obezbeđuje."
     },
-    
     {
       "type": "h2",
       "content": "Od Prvog Poziva do Savršenog Doma"
     },
     {
       "type": "p",
-      "content": "Proces je jednostavan:<br>1. <strong>Pozovite</strong>: Opišite prostor i potrebe.<br>2. <strong>Dolazak</strong>: U dogovorenom terminu, sa svim sredstvima.<br>3. <strong>Čišćenje</strong>: Po vašim prioritetima, sa ekološkim preparatima.<br>4. <strong>Provera</strong>: Zajedno pregledate rezultat.<br>5. <strong>Redovnost</strong>: Fleksibilni mesečni aranžmani."
+      "content": "Proces je jednostavan:<br>1. <strong>Pozovite</strong>: Opišite prostor i potrebe.<br>2. <strong>Pripremite opremu</strong>: Klijent obezbeđuje usisivač, krpe, mop, kofe i sredstva za čišćenje.<br>3. <strong>Dolazak</strong>: U dogovorenom terminu, Gordana započinje rad.<br>4. <strong>Čišćenje</strong>: Pažljivo i temeljno, po vašim prioritetima, koristeći vašu opremu.<br>5. <strong>Provera</strong>: Zajedno pregledate rezultat.<br>6. <strong>Redovnost</strong>: Fleksibilni nedeljni i mesečni aranžmani."
     },
-    
     {
       "type": "p",
       "content": "Želite li da vaš prostor diše svežinom? Pozovite Gordanu na <a href=\"tel:+381605572521\"><strong>+381 60 557 2521</strong></a>. Hvala <a href=\"https://www.linkedin.com/in/lanamilj/\" target=\"_blank\" rel=\"nofollow\">Lani</a> na deljenju – takve preporuke menjaju živote."
@@ -96,20 +309,19 @@
   "services": [
     {
       "title": "Čišćenje Stanova",
-      "description": "Temeljno brisanje, usisavanje, dezinfekcija kuhinja i kupatila."
+      "description": "Temeljno brisanje, usisavanje i dezinfekcija kuhinja i kupatila uz opremu koju obezbeđuje klijent."
     },
     {
       "title": "Čišćenje Kuća",
-      "description": "Dubinsko čišćenje podova, nameštaja, prozora. Prilagođeno porodicama."
+      "description": "Dubinsko čišćenje podova, nameštaja i prozora — oprema i sredstva se pripremaju unapred od strane domaćina."
     },
     {
       "title": "Čišćenje Poslovnih Prostora",
-      "description": "Kancelarije i radnje – brzo i bez ometanja rada."
+      "description": "Kancelarije i radnje – brzo i bez ometanja rada. Korišćenje opreme koja se već nalazi u prostoru."
     },
-    
     {
       "title": "Dubinsko Čišćenje",
-      "description": "Ćoškovi, frižideri, iza nameštaja – sve do detalja."
+      "description": "Ćoškovi, frižideri, iza nameštaja – sve do detalja, koristeći opremu i sredstva koja obezbedi klijent."
     }
   ],
   "faq": [
@@ -117,10 +329,9 @@
       "question": "Možete li doći isti dan?",
       "answer": "Da – po dogovoru, posebno za redovne klijente."
     },
-  
     {
       "question": "Koristite li bezbedne proizvode?",
-      "answer": "Da – ekološki, bez štetnih hemikalija."
+      "answer": "Klijent obezbeđuje sredstva za čišćenje, a preporučena su ekološka i bez štetnih hemikalija."
     },
     {
       "question": "Radite li vikendom?",
@@ -128,7 +339,11 @@
     },
     {
       "question": "Imate li pakete za redovno čišćenje?",
-      "answer": "Da – mesečni aranžmani po povoljnijim uslovima."
+      "answer": "Da – nedeljni i mesečni aranžmani po povoljnijim uslovima."
+    },
+    {
+      "question": "Da li donosite svoju opremu i sredstva?",
+      "answer": "Ne — klijent obezbeđuje sve potrebne usisivače, krpe, mopove i sredstva za čišćenje. Gordana obavlja samo sam proces čišćenja."
     },
     {
       "question": "Kako da vas kontaktiram?",

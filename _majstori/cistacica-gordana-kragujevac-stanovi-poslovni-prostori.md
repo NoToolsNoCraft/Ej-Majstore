@@ -3,7 +3,7 @@ layout: majstor_profil
 title: Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora
 description: Gordana – pedantna čistačica iz Kragujevca za stanove, kuće i poslovne
   prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od LANE Miljković
-  Djević. u Kragujevac, Aerodrom, Bubanj, Stanovo, Adžija, Lužnica, Beli Lug, Čibukovac,
+  Djević. u Kragujevac, Aerodrom, Bubanj, Stanovo, Ćava, Lužnica, Beli Lug, Čibukovac,
   Stragari, Vinča.
 ime: Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora
 kategorija:
@@ -11,9 +11,8 @@ kategorija:
 - Čišćenje Stanova
 - Čišćenje Kuća
 - Čišćenje Poslovnih Prostora
-- Pedantno Čišćenje
-- Čišćenje sa Kućnim Ljubimcima
-mesto: Kragujevac, Aerodrom, Bubanj, Stanovo, Adžija, Lužnica, Beli Lug, Čibukovac,
+- Pranje Prozora
+mesto: Kragujevac, Aerodrom, Bubanj, Stanovo, Ćava, Lužnica, Beli Lug, Čibukovac,
   Stragari, Vinča
 address: Nema dostupnu adresu
 kontakt_telefon: "+381605572521"
@@ -36,18 +35,19 @@ sections:
 - type: p
   content: Dok sam pretraživao LinkedIn u potrazi za proverеnim uslugama u Kragujevcu,
     naišao sam na objavu koji me je naterala da stanem i pročitam o čemu se radi.
-    Dotična Lana  podelila je iskreno iskustvo o čistačici Gordani. 'Počela je da
-    nam čisti kuću, a vremenom je postala osoba kojoj potpuno verujemo', napisala
-    je Lana. Ova preporuka nije bila običan savet – bila je lično svedočenje. Zato
-    sam odlučio da je podelim i sa vama. Publika naprosto voli da čuje iskustva iz
-    prve ruke.
+    Dotična Lana podelila je iskreno iskustvo o čistačici Gordani. 'Počela je da nam
+    čisti kuću, a vremenom je postala osoba kojoj potpuno verujemo', napisala je Lana.
+    Ova preporuka nije bila običan savet – bila je lično svedočenje. Zato sam odlučio
+    da je podelim i sa vama. Publika naprosto voli da čuje iskustva iz prve ruke.
 - type: p
   content: 'Gordana, ili Goca kako je Lana zove, godinama radi u Kragujevcu – čisti
-    stanove, kuće i poslovne prostore sa pedantnošću koja prelazi očekivanja. Lana
-    je istakla: neverovatno je temeljna, vredna i prijatna, a posebno divna sa psima
-    – njeni šnauceri, koji prihvataju samo odabrane, odmah su je zavoleli. Ako tražite
-    nekog ko će očistiti i one ćoškove za koje niste ni znali da postoje, Gordana
-    je pravi izbor.'
+    stanove, kuće i poslovne prostore sa pedantnošću koja prelazi očekivanja. Važno
+    je napomenuti da Gordana ne donosi svoju opremu ni sredstva za čišćenje – klijent
+    je taj koji treba da pripremi svu potrebnu opremu, usisivač, mopove, krpe i sredstva.
+    Gordana obavlja isključivo sam proces čišćenja. Lana je istakla: neverovatno je
+    temeljna, vredna i prijatna, a posebno divna sa psima – njeni šnauceri, koji prihvataju
+    samo odabrane, odmah su je zavoleli. Ako tražite nekog ko će očistiti i one ćoškove
+    za koje niste ni znali da postoje, Gordana je pravi izbor.'
 - type: h2
   content: Kako da stupite u kontakt sa Gordanom
 - type: p
@@ -63,24 +63,28 @@ sections:
 - type: h3
   content: "\U0001F3E0 Čišćenje Stanova i Kuća"
 - type: p
-  content: Od podova do plafona – sve se briše, usisava, dezinfikuje. Posebna pažnja
-    na kuhinje, kupatila i prozore.
+  content: Od podova do plafona – sve se briše, usisava, pere i dezinfikuje. Posebna
+    pažnja na kuhinje, kupatila i prozore. Klijent priprema opremu i sredstva.
 - type: h3
   content: "\U0001F3E2 Čišćenje Poslovnih Prostora"
 - type: p
-  content: Kancelarije i radnje – brzo, diskretno, bez ometanja radnog dana.
+  content: Kancelarije i radnje – brzo, diskretno, bez ometanja radnog dana. Oprema
+    i sredstva se obezbeđuju u samom prostoru.
 - type: h3
   content: "✨ Temeljno i Dubinsko Čišćenje"
 - type: p
   content: Ćoškovi, iza nameštaja, unutar frižidera – ništa ne ostaje neprimećeno.
+    Sve se radi opremom koju klijent obezbeđuje.
 - type: h2
   content: Od Prvog Poziva do Savršenog Doma
 - type: p
   content: 'Proces je jednostavan:<br>1. <strong>Pozovite</strong>: Opišite prostor
-    i potrebe.<br>2. <strong>Dolazak</strong>: U dogovorenom terminu, sa svim sredstvima.<br>3.
-    <strong>Čišćenje</strong>: Po vašim prioritetima, sa ekološkim preparatima.<br>4.
-    <strong>Provera</strong>: Zajedno pregledate rezultat.<br>5. <strong>Redovnost</strong>:
-    Fleksibilni mesečni aranžmani.'
+    i potrebe.<br>2. <strong>Pripremite opremu</strong>: Klijent obezbeđuje usisivač,
+    krpe, mop, kofe i sredstva za čišćenje.<br>3. <strong>Dolazak</strong>: U dogovorenom
+    terminu, Gordana započinje rad.<br>4. <strong>Čišćenje</strong>: Pažljivo i temeljno,
+    po vašim prioritetima, koristeći vašu opremu.<br>5. <strong>Provera</strong>:
+    Zajedno pregledate rezultat.<br>6. <strong>Redovnost</strong>: Fleksibilni nedeljni
+    i mesečni aranžmani.'
 - type: p
   content: Želite li da vaš prostor diše svežinom? Pozovite Gordanu na <a href="tel:+381605572521"><strong>+381
     60 557 2521</strong></a>. Hvala <a href="https://www.linkedin.com/in/lanamilj/"
@@ -88,22 +92,30 @@ sections:
     živote.
 services:
 - title: Čišćenje Stanova
-  description: Temeljno brisanje, usisavanje, dezinfekcija kuhinja i kupatila.
+  description: Temeljno brisanje, usisavanje i dezinfekcija kuhinja i kupatila uz
+    opremu koju obezbeđuje klijent.
 - title: Čišćenje Kuća
-  description: Dubinsko čišćenje podova, nameštaja, prozora. Prilagođeno porodicama.
+  description: Dubinsko čišćenje podova, nameštaja i prozora — oprema i sredstva se
+    pripremaju unapred od strane domaćina.
 - title: Čišćenje Poslovnih Prostora
-  description: Kancelarije i radnje – brzo i bez ometanja rada.
+  description: Kancelarije i radnje – brzo i bez ometanja rada. Korišćenje opreme
+    koja se već nalazi u prostoru.
 - title: Dubinsko Čišćenje
-  description: Ćoškovi, frižideri, iza nameštaja – sve do detalja.
+  description: Ćoškovi, frižideri, iza nameštaja – sve do detalja, koristeći opremu
+    i sredstva koja obezbedi klijent.
 faq:
 - question: Možete li doći isti dan?
   answer: Da – po dogovoru, posebno za redovne klijente.
 - question: Koristite li bezbedne proizvode?
-  answer: Da – ekološki, bez štetnih hemikalija.
+  answer: Klijent obezbeđuje sredstva za čišćenje, a preporučena su ekološka i bez
+    štetnih hemikalija.
 - question: Radite li vikendom?
   answer: Da – po dogovoru, kako vama odgovara.
 - question: Imate li pakete za redovno čišćenje?
-  answer: Da – mesečni aranžmani po povoljnijim uslovima.
+  answer: Da – nedeljni i mesečni aranžmani po povoljnijim uslovima.
+- question: Da li donosite svoju opremu i sredstva?
+  answer: Ne — klijent obezbeđuje sve potrebne usisivače, krpe, mopove i sredstva
+    za čišćenje. Gordana obavlja samo sam proces čišćenja.
 - question: Kako da vas kontaktiram?
   answer: Pozovite +381 60 557 2521 za dogovor.
 tips:
@@ -112,6 +124,6 @@ tips:
 - Temeljni pristup – čišćenje frižidera i ispod nameštaja
 - Ekološki preparati – bezbedni za decu i životinje
 - Dogovorite redovne posete – ušteda vremena i stresa
-tips_title: Kako održavati dom čistim uz pomoć profesionalca
+tips_title: Kako održavati dom čistim samostalno ili uz pomoć profesionalca
 permalink: "/izvodjaci/kragujevac/cistacica-gordana-kragujevac-stanovi-poslovni-prostori/"
 ---
