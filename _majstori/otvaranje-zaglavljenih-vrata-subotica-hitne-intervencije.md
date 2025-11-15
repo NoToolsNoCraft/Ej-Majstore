@@ -2,8 +2,8 @@
 layout: majstor_profil
 title: Otvaranje Zaglavljenih Vrata Subotica - Hitne Intervencije 24/7
 description: Otvaranje zaglavljenih vrata Subotica – bez oštećenja, 24/7. Sigurnosna,
-  PVC, drvena, metalna vrata. 18 godina iskustva, preko 150 uspešnih intervencija.
-  Servis, ugradnja brava, rezervni delovi na stanju. u Subotica, Palić, Bajmok, Čantavir,
+  PVC, drvena, metalna vrata. 20+ godina iskustva, mnogo uspešnih intervencija. Servis,
+  ugradnja brava, rezervni delovi na stanju. u Subotica, Palić, Bajmok, Čantavir,
   Bačka Topola, Kanjiža, Senta, Ada.
 ime: Otvaranje Zaglavljenih Vrata Subotica - Hitne Intervencije 24/7
 kategorija:
@@ -39,8 +39,8 @@ sections:
     raste, a vrata ne popuštaju? U Subotici i okolini, postoji tim koji rešava takve
     drame munjevito i – bez ijedne ogrebotine! <strong>Zaglavljena Sigurnosna Vrata</strong>
     je specijalizovan za hitne intervencije 24/7. Sigurnosna, PVC, drvena ili metalna
-    vrata – otvaraju sve, vraćaju funkcionalnost i ostavljaju vas mirnim. Sa maltene
-    20 godina iskustva ovo je pravi 'hitni tim' za brave na teritoriji naše opštine!"
+    vrata – otvaraju sve, vraćaju funkcionalnost i ostavljaju vas mirnim. Sa više
+    od 20 godina iskustva ovo je pravi 'hitni tim' za brave na teritoriji naše opštine!"
 - type: p
   content: "\U0001F6E0️ NE OBIJAJU – DEŠIFRUJU! Zaboravite na razbijanje i bušenje.
     Ovaj tim koristi profesionalne alate i znanje da otvori vrata netaknuta. Polomljena
@@ -61,8 +61,8 @@ sections:
     čekićem i pajserom. Ali često to ne ide. Samo se napravi još veća šteta.'
 - type: p
   content: "Kontaktirajte ih odmah i rešite problem:<br>\U0001F4DE <strong>Hitni poziv
-    24/7:</strong> <a href=\"tel:+381642375828\">+381 64 237 5828</a> ili <a href=\"tel:+381628426044\">+381
-    62 842 6044</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:info@zaglavljenasigurnosnavrata.rs\">info@zaglavljenasigurnosnavrata.rs</a><br>\U0001F310
+    24/7:</strong> <a href=\"tel:+381642375828\">+381 64 237 5828</a><br>\U0001F4E7
+    <strong>Mail:</strong> <a href=\"mailto:info@zaglavljenasigurnosnavrata.rs\">info@zaglavljenasigurnosnavrata.rs</a><br>\U0001F310
     <strong>Website:</strong> <a href=\"https://zaglavljenasigurnosnavrata.rs/\" target=\"_blank\"
     rel=\"nofollow\">zaglavljenasigurnosnavrata.rs</a><br>\U0001F4CD <strong>Područje:</strong>
     Subotica i okolina"
@@ -92,12 +92,11 @@ sections:
 - type: h2
   content: Kako Rade – Brzo, Sigurno, Sa Garancijom
 - type: p
-  content: '1. <strong>Pozovite</strong>: 064 237 5828 ili 062 842 6044 – opišite
-    problem.<br>2. <strong>Dolazak</strong>: Ekspeditivno, često za 15–30 minuta.<br>3.
-    <strong>Procena</strong>: Brza dijagnostika na licu mesta.<br>4. <strong>Otvaranje</strong>:
-    Bez oštećenja, profesionalnim alatom.<br>5. <strong>Popravka</strong>: Ako je
-    potrebno, odmah na licu mesta.<br>6. <strong>Garancija</strong>: Na rad i ugrađene
-    delove.'
+  content: '1. <strong>Pozovite</strong>: 064 237 5828 – opišite problem.<br>2. <strong>Dolazak</strong>:
+    Ekspeditivno, često za 15–30 minuta.<br>3. <strong>Procena</strong>: Brza dijagnostika
+    na licu mesta.<br>4. <strong>Otvaranje</strong>: Bez oštećenja, profesionalnim
+    alatom.<br>5. <strong>Popravka</strong>: Ako je potrebno, odmah na licu mesta.<br>6.
+    <strong>Garancija</strong>: Na rad i ugrađene delove.'
 - type: p
   content: Vrata zaglavljena? Ključ nestao? Pozovite odmah na <a href="tel:+381642375828"><strong>+381
     64 237 5828</strong></a> ili posetite <a href="https://zaglavljenasigurnosnavrata.rs/"
@@ -125,7 +124,7 @@ faq:
 - question: Radite li van Subotice?
   answer: Da – okolina Subotice, Palić, Bačka Topola i dr.
 - question: Kako da vas kontaktiram?
-  answer: Poziv +381 64 237 5828 / +381 62 842 6044 ili mail.
+  answer: Poziv +381 64 237 5828 ili mail.
 tips:
 - Ne forsirajte kvaku – može da pukne mehanizam
 - Ne gurajte ključ silom – lomi se u bravi

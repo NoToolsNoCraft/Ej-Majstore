@@ -86,7 +86,7 @@ sections:
 - type: h3
   content: 6. Građevinski Radovi (u saradnji)
 - type: p
-  content: Renoviranje kuhinja, kupatila, stanova – u partnerstvu sa proverеним firmama.
+  content: Renoviranje kuhinja, kupatila, stanova – u partnerstvu sa proverеnim firmama.
 - type: h2
   content: Reference – Šta je Electro Fix Već Uradio
 - type: p
