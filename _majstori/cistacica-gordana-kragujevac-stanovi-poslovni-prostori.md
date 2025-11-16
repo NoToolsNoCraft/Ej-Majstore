@@ -2,7 +2,7 @@
 layout: majstor_profil
 title: Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora
 description: Gordana – pedantna čistačica iz Kragujevca za stanove, kuće i poslovne
-  prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od LANE Miljković
+  prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od Lane Miljković
   Djević. u Kragujevac, Aerodrom, Bubanj, Stanovo, Ćava, Lužnica, Beli Lug, Čibukovac,
   Stragari, Vinča.
 ime: Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora
@@ -34,7 +34,7 @@ last_modified: '2025-11-15'
 sections:
 - type: p
   content: Dok sam pretraživao LinkedIn u potrazi za proverеnim uslugama u Kragujevcu,
-    naišao sam na objavu koji me je naterala da stanem i pročitam o čemu se radi.
+    naišao sam na objavu koja me je naterala da stanem i pročitam o čemu se radi.
     Dotična Lana podelila je iskreno iskustvo o čistačici Gordani. 'Počela je da nam
     čisti kuću, a vremenom je postala osoba kojoj potpuno verujemo', napisala je Lana.
     Ova preporuka nije bila običan savet – bila je lično svedočenje. Zato sam odlučio

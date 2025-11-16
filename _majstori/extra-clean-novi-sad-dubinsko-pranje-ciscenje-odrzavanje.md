@@ -34,7 +34,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-15'
-last_modified: '2025-11-15'
+last_modified: '2025-11-16'
 sections:
 - type: p
   content: Zamislimo da je vaš poslovni prostor pun prašine, tepisi izbledeli, a nameštaj
@@ -56,7 +56,7 @@ sections:
     pranje, gde svaka usluga dolazi sa garancijom zadovoljstva i mogućnošću reklamacije.'
 - type: p
   content: "Kontaktirajte ih za brzi dogovor:<br>\U0001F4DE <strong>Poziv:</strong>
-    <a href=\"tel:+38162661103\">+381 62 661 103</a><br>\U0001F310 <strong>Website:</strong>
+    <a href=\"tel:+38163661103\">+381 63 661 103</a><br>\U0001F310 <strong>Website:</strong>
     <a href=\"https://www.extracleanns.rs/\" target=\"_blank\" rel=\"nofollow\">extracleanns.rs</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cJFsmM8vpopedmFQA\"
     target=\"_blank\" rel=\"nofollow\">Petra Kočića 2, Sremska Kamenica</a>"
@@ -167,7 +167,7 @@ faq:
   answer: 'Novi Sad i okolina: Sremska Kamenica, Petrovaradin, Veternik, Futog, Beočin
     itd.'
 - question: Kako da vas kontaktiram?
-  answer: Pozovite +381 62 661 103 za brz dogovor.
+  answer: Pozovite +381 63 661 103 za brz dogovor.
 tips:
 - Redovno usisavanje tepiha – sprečava nakupljanje prašine
 - Čišćenje klima uređaja – jednom godišnje za zdrav vazduh

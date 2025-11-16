@@ -1,6 +1,345 @@
 [
 
   {
+  "ime": "M&T Servis Beograd - Servis Sigurnosnih i Protivpožarnih Vrata 24/7",
+  "tip": "firma",
+  "kategorija": ["Bravar", "Servis Sigurnosnih Vrata", "Protivpožarna Vrata", "Hitne Intervencije", "Bravarske Usluge", "Ugradnja Opreme"],
+  "opis_kratak": "M&T Servis – specijalizovana firma za popravku i održavanje sigurnosnih i protivpožarnih vrata u Beogradu. Zamena brava, kvaka, štelovanje, dihtovanje, hitne intervencije 24/7. Vlasnik i glavni majstor Todosije Marković. Brz odziv, korektne cene.",
+  "mesto": ["Beograd", "Zemun", "Novi Beograd", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara"],
+  "adresa": "Bačevci bb, Bajina Bašta (operativno: Beograd)",
+  "telefon": "+381649455117",
+  "email": "todosije1983@gmail.com",
+  "website": "https://servisvrata.rs/",
+  "slug": "mt-servis-beograd-sigurnosna-vrata",
+  "thumbnail": "images/mt-servis-beograd-sigurnosna-vrata.webp",
+  "hero_image": "images/mt-servis-beograd-sigurnosna-vrata.webp",
+  "opening_hours": "Mo-Su 00:00-24:00",
+  "discover_title": "M&T Servis Beograd - Servis Sigurnosnih i Protivpožarnih Vrata 24/7",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-16",
+  "last_modified": "2025-11-16",
+  "tips_title": "Saveti za održavanje sigurnosnih i protivpožarnih vrata",
+  "tips": [
+    "Redovno podmazivanje šarki – produžava vek",
+    "Dihtovanje – štiti od buke i hladnoće",
+    "Godišnji pregled PP vrata – zakonski obavezan",
+    "Ne forsirajte bravu – izbegavajte oštećenja",
+    "Automatski zatvarač – obezbeđuje sigurnost"
+  ],
+  "sections": [
+    {
+    "type": "p",
+    "content": "Zamislite da vam se sigurnosna vrata zaglave usred noći ili da protivpožarna ne želi da se zatvori – panika! Ali tu je M&T Servis, vaš ekspert za hitne intervencije koji stiže brzo, precizno i bez mrlja. Ovu ekipu vodi Todosije Marković, glavni majstor i vlasnik sa dugogodišnjim iskustvom, koji garantuje kvalitet i pristupačne cene."
+    },
+    {
+    "type": "p",
+    "content": "Iz Bajine Bašte za celu Beogradsku žurku! Bilo da vam treba brza zamena brave ili čak posebna nadstrešnica po meri, M&T Servis ima rešenje. Todosije lično nadgleda svaki projekt, kombinujući majstorsku preciznost s prijateljskim pristupom."
+    },
+    {
+    "type": "h2",
+    "content": "Sigurnost je u pouzdanim rukama"
+    },
+    {
+    "type": "p",
+    "content": "Rade sa fizičkim i pravnim licima, koriste najkvalitetnije materijale, a njihov moto bi mogao da zvuči kao obećanje: brzo reagovanje, stručnost i fer cene koje neće opteretiti novčanik."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv/Viber:</strong> <a href=\"tel:+381649455117\">+381 64 945 5117</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:todosije1983@gmail.com\">todosije1983@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://servisvrata.rs/\" target=\"_blank\" rel=\"nofollow\">servisvrata.rs</a><br>📍 <strong>Područje:</strong> Ceo Beograd 24/7"
+    },
+    {
+      "type": "h2",
+      "content": "Kompletan Servis Vrata i Bravarije"
+    },
+    {
+      "type": "p",
+      "content": "M&T Servis pruža širok spektar usluga:"
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Servis Sigurnosnih Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Vrše zamenu kvaka, brava i cilindara, štelovanje i dihtovanje. Ugrađuju dodatnu opremu poput sigurnosnih rozeta, automata i magneta za bolju zaštitu."
+    },
+    {
+      "type": "h3",
+      "content": "🔥 Protivpožarna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Obavljaju godišnji servis, popravku i zamenu delova. Ugrađuju elektromagnetne prihvatnike i druge elemente po propisima."
+    },
+    {
+      "type": "h3",
+      "content": "🛠️ Reparacija i Montaža"
+    },
+    {
+      "type": "p",
+      "content": "Popravljaju oštećenja od provale, habanja ili vremena. Montažu novih vrata rade po meri."
+    },
+    {
+      "type": "h3",
+      "content": "⚡ Hitne Intervencije 24/7"
+    },
+    {
+      "type": "p",
+      "content": "Otvaraju vrata bez oštećenja, dolaze za 30 minuta – noću, danju ili praznikom."
+    },
+    {
+      "type": "h3",
+      "content": "🔨 Bravarske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Izrađuju i montiraju nadstrešnice, ograde, kapije i gelendere po crtežu klijenta."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade – Efikasno i Profesionalno"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jasan:<br>1. <strong>Poziv</strong>: Opis problema na 064 945 5117.<br>2. <strong>Dolazak</strong>: Za 30 minuta u Beogradu.<br>3. <strong>Procena</strong>: Dijagnostika na licu mesta.<br>4. <strong>Popravka</strong>: Bez oštećenja, sa kvalitetnim delovima.<br>5. <strong>Testiranje</strong>: Provera i saveti.<br>6. <strong>Račun</strong>: Transparentna cena."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Baš Ovaj Izvođač – Zbog Poverenja i Kvaliteta"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale njihovu brzinu, ljubaznost i poštenje. Todosije Marković često daje savete i male poklone poput špijunki. Oni grade dugoročno poverenje."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/hCUk27jdjMWkCqvt9\" target=\"_blank\" rel=\"nofollow\">Milica Stanić</a>:</strong> Svaka čast majstoru! Spasio nas je kada su nam se vrata zaglavila. Sve je rešio brzo i bez nerviranja, čak nam je i objasnio kako da održavamo bravu. Ljubazan, pošten i stručan čovek. Danas retko naiđeš na takvog majstora — iskrena preporuka!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/FVfYuCn8qH44PAqeL\" target=\"_blank\" rel=\"nofollow\">Petar Garić</a>:</strong> Odličan majstor i pravi profesionalac! Bravar je stigao brzo nakon poziva, veoma ljubazan i stručan. Vrata su bila potpuno zaglavljena i brava pokvarena, ali je sve rešio bez ikakvog oštećenja. Posle toga nam je odmah ugradio novu bravu i sve sada radi savršeno. Cene su korektne, usluga brza i kvalitetna. Topla preporuka svima koji traže pouzdanog bravara – zaista majstor od poverenja!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://maps.app.goo.gl/6Vh1TjrsuEEumbS36\" target=\"_blank\" rel=\"nofollow\">Lola Bucalo</a>:</strong> Brza i profesionalna usluga, cena korektna, čak smo dobili špijunku na poklon :) Svaka preporuka!"
+    },
+    {
+      "type": "p",
+      "content": "Problemi sa vratima? Kontaktirajte M&T Servis na <a href=\"tel:+381649455117\"><strong>+381 64 945 5117</strong></a>. Detalji na <a href=\"https://servisvrata.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>servisvrata.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Servis Sigurnosnih Vrata",
+      "description": "Zamena brava, kvaka, štelovanje, dihtovanje, dodatna oprema."
+    },
+    {
+      "title": "Protivpožarna Vrata",
+      "description": "Godišnji servis, popravka, ugradnja automata i magneta."
+    },
+    {
+      "title": "Hitne Intervencije 24/7",
+      "description": "Otvaranje bez oštećenja, dolazak za 30 minuta."
+    },
+    {
+      "title": "Bravarske Usluge",
+      "description": "Izrada nadstrešnica, ograda, kapija po meri."
+    },
+    {
+      "title": "Ugradnja Opreme",
+      "description": "Automatski zatvarači, elektro brave, špijunke."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Dolaze li noću?",
+      "answer": "Da – 24/7, dolazak za 30 minuta."
+    },
+    {
+      "question": "Otvaraju li vrata bez oštećenja?",
+      "answer": "Da – profesionalno i pažljivo."
+    },
+    {
+      "question": "Rade li sa PP vratima?",
+      "answer": "Da – servis, popravka, ugradnja opreme."
+    },
+    {
+      "question": "Izrađuju li nadstrešnice?",
+      "answer": "Da – po meri, sa predlogom rešenja."
+    },
+    {
+      "question": "Koliko koštaju usluge?",
+      "answer": "Korektno – tačna ponuda nakon procene."
+    },
+    {
+      "question": "Gde rade u Beogradu?",
+      "answer": "Zemun, Novi Beograd: Hitne. Vračar, Savski Venac: PP vrata. Stari Grad, Palilula: Zamena brava. Voždovac, Čukarica: Bravarija."
+    },
+    {
+      "question": "Kako ih kontaktirati?",
+      "answer": "Poziv/Viber +381 64 945 5117 ili mail todosije1983@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "CleanService Novi Sad - Spremanje Kancelarija i Higijena Zgrada",
+  "tip": "firma",
+  "kategorija": ["Agencija za čišćenje", "Održavanje Stambenih Zajednica", "Spremanje Poslovnih Prostora", "Spremanje Kancelarija", "Mašinsko Čišćenje", "Čišćenje Zgrada", "Generalno Spremanje"],
+  "opis_kratak": "CleanService – lider u održavanju higijene stambenih i poslovnih objekata u Novom Sadu. 50 stalnih radnica, preko 700 zgrada i 120 poslovnih prostora. Sertifikovana sredstva, profesionalni alati. Novi Sad.",
+  "mesto": ["Novi Sad", "Telep", "Liman", "Detelinara", "Sajmište", "Novi Sad Centar", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica"],
+  "adresa": "Lukijana Mušickog 11, Novi Sad 21000",
+  "telefon": "+38121523728",
+  "email": "cleanservice021@gmail.com",
+  "website": "https://www.cleanservice.co.rs/",
+  "slug": "cleanservice-novi-sad-spremanje-kancelarija-higijena-zgrada",
+  "thumbnail": "images/cleanservice-novi-sad-spremanje-kancelarija-higijena-zgrada.webp",
+  "hero_image": "images/cleanservice-novi-sad-spremanje-kancelarija-higijena-zgrada.webp",
+  "discover_title": "CleanService Novi Sad - Spremanje Kancelarija i Higijena Zgrada",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-16",
+  "last_modified": "2025-11-16",
+  "tips_title": "Kako održavati čistoću u zgradi i kancelariji",
+  "tips": [
+    "Redovno čišćenje lifta – sprečava širenje bakterija",
+    "Sertifikovana sredstva – bezbedna za decu i ljubimce",
+    "Mašinsko čišćenje garaža – jednom mesečno za sjaj",
+    "Generalno spremanje godišnje – osvežava ceo objekat",
+    "Dogovor sa upravnikom – ključ za efikasno održavanje"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada uđete u zgradu i osetite miris svežine, ili kada kancelarija zablista bez traga prašine – to nije slučajnost. To je CleanService na delu. Od 2011. godine, ova novosađanska firma postala je sinonim za pouzdano održavanje higijene. Sa 50 stalnih radnica-spremačica, sopstvenim magacinom, vozilima i sertifikovanim hemikalijama proizvedenim samo za njih, oni ne čiste – oni brinu o prostoru kao da je njihov."
+    },
+    {
+      "type": "p",
+      "content": "Danas održavaju preko 700 stambenih zajednica i 120 poslovnih objekata. Njihova tajna? Konstantan kvalitet, iskusne radnice i organizacija koja ne ostavlja prostor za greške. Radno vreme: ponedeljkom do petka od 7 do 15h."
+    },
+    {
+      "type": "h2",
+      "content": "CleanService – Više od Čišćenja, To Je Sistem"
+    },
+    {
+      "type": "p",
+      "content": "Ova firma nije samo servis – to je organizacija koja razume da higijena utiče na sve: od zdravlja stanara do produktivnosti zaposlenih. Sve što koriste – od hemije do alata – je profesionalno, a svaka usluga je prilagođena potrebama klijenta."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38121523728\">+381 21 523 728</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:cleanservice021@gmail.com\">cleanservice021@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.cleanservice.co.rs/\" target=\"_blank\" rel=\"nofollow\">cleanservice.co.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/bo7ETCRrvQTMxYxAA\" target=\"_blank\" rel=\"nofollow\">Lukijana Mušickog 11, Novi Sad</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Od Hodnika do Magacina"
+    },
+    {
+      "type": "p",
+      "content": "CleanService pokriva sve segmente profesionalnog čišćenja:"
+    },
+    {
+      "type": "h3",
+      "content": "🏢 Čišćenje Stambenih Zgrada"
+    },
+    {
+      "type": "p",
+      "content": "Kompletno tekuće održavanje zajedničkih prostora: hodnici, prizemlje, liftovi, stepeništa. Program uključuje čišćenje ispred ulaza (2x nedeljno), pranje ulaza (1x nedeljno), brisanje gelendera, poštanskih ormarića i generalno spremanje po dogovoru."
+    },
+    {
+      "type": "h3",
+      "content": "💼 Spremanje Poslovnog Prostora"
+    },
+    {
+      "type": "p",
+      "content": "Prilagođeno čišćenje kancelarija, prodavnica, restorana – po zahtevu korisnika. Fleksibilni termini, diskretno i efikasno."
+    },
+    {
+      "type": "h3",
+      "content": "🧹 Mašinsko Čišćenje Velikih Prostora"
+    },
+    {
+      "type": "p",
+      "content": "Novo u ponudi: mašinsko čišćenje garaža, magacina, hala. Brzo, dubinski, sa profesionalnim mašinama."
+    },
+    {
+      "type": "h2",
+      "content": "Kako CleanService Radi – Od Dogovora do Besprekorne Higijene"
+    },
+    {
+      "type": "p",
+      "content": "Njihov proces je jasan i efikasan:<br>1. <strong>Kontakt</strong>: Poziv ili mail sa opisom objekta.<br>2. <strong>Procena</strong>: Dolaze na teren, mere, dogovaraju učestalost.<br>3. <strong>Ponuda</strong>: Fiksna cena po m², stanu ili članu domaćinstva.<br>4. <strong>Čišćenje</strong>: Stalne radnice, sertifikovana sredstva.<br>5. <strong>Kontrola</strong>: Upravnik proverava, klijent potvrđuje.<br>6. <strong>Održavanje</strong>: Dugoročni ugovori sa garancijom kvaliteta."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto CleanService – Jer Brojke Govore"
+    },
+    {
+      "type": "p",
+      "content": "50 stalnih radnica. 700 zgrada. 120 poslovnih objekata. To nije slučajnost – to je dokaz poverenja. Klijenti biraju CleanService jer znaju: svaki hodnik će biti čist, svaki lift bezbedan, svaki poslovni prostor spreman za rad. Njihova hemija je proizvedena samo za njih, alati su vrhunski, a organizacija besprekorna."
+    },
+    {
+      "type": "p",
+      "content": "Potrebna vam je higijena koja traje? Pozovite CleanService na <a href=\"tel:+38121523728\"><strong>+381 21 523 728</strong></a> ili pišite na <a href=\"mailto:cleanservice021@gmail.com\"><strong>cleanservice021@gmail.com</strong></a>. Više na <a href=\"https://www.cleanservice.co.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>cleanservice.co.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Čišćenje Stambenih Zgrada",
+      "description": "Tekuće održavanje hodnika, liftova, prizemlja. Preko 700 zajednica."
+    },
+    {
+      "title": "Spremanje Poslovnog Prostora",
+      "description": "Prilagođeno čišćenje kancelarija po zahtevu korisnika."
+    },
+    {
+      "title": "Mašinsko Čišćenje",
+      "description": "Garaže, magacini, hale – dubinski, mašinski."
+    },
+    {
+      "title": "Generalno Spremanje",
+      "description": "Godišnje dubinsko čišćenje po dogovoru sa upravnikom."
+    },
+    {
+      "title": "Čišćenje Ispred Ulaza",
+      "description": "2x nedeljno, uključujući portal i vrata."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko košta održavanje zgrade?",
+      "answer": "Cena po dogovoru – po m² stana, broju članova ili fiksu. Kontaktirajte za ponudu."
+    },
+    {
+      "question": "Koliko često čistite liftove?",
+      "answer": "Čišćenje 2x nedeljno, pranje 3x nedeljno – po standardnom programu."
+    },
+    {
+      "question": "Radite li generalno spremanje?",
+      "answer": "Da – jednom godišnje, po dogovoru sa upravnikom."
+    },
+    {
+      "question": "Imate li stalne radnice?",
+      "answer": "Da – 50 stalno zaposlenih sa dugogodišnjim iskustvom."
+    },
+    {
+      "question": "Koristite li bezbednu hemiju?",
+      "answer": "Da – sertifikovana, proizvedena namenski za nas."
+    },
+    {
+      "question": "Gde radite u Novom Sadu?",
+      "answer": "Telep, Liman, Detelinara: Stambene zgrade. Sajmište, Centar: Poslovni prostori. Petrovaradin, Veternik: Mašinsko čišćenje."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 21 523 728 ili pišite na cleanservice021@gmail.com."
+    }
+  ]
+},
+
+  {
   "ime": "Extra Clean Novi Sad - Dubinsko Pranje i Održavanje",
   "tip": "firma",
   "kategorija": ["Čišćenje", "Dubinsko Pranje Nameštaja", "Pranje Tepiha", "Održavanje Poslovnih Prostora", "Pranje Automobila", "Čišćenje Klima Uređaja", "Iznajmljivanje Mašina"],
@@ -19,7 +358,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-11-15",
-  "last_modified": "2025-11-15",
+  "last_modified": "2025-11-16",
   "tips_title": "Saveti za održavanje čistoće i svežine u domu i poslovnom prostoru",
   "tips": [
     "Redovno usisavanje tepiha – sprečava nakupljanje prašine",
@@ -47,7 +386,7 @@
     },
     {
       "type": "p",
-      "content": "Kontaktirajte ih za brzi dogovor:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38162661103\">+381 62 661 103</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.extracleanns.rs/\" target=\"_blank\" rel=\"nofollow\">extracleanns.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cJFsmM8vpopedmFQA\" target=\"_blank\" rel=\"nofollow\">Petra Kočića 2, Sremska Kamenica</a>"
+      "content": "Kontaktirajte ih za brzi dogovor:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163661103\">+381 63 661 103</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.extracleanns.rs/\" target=\"_blank\" rel=\"nofollow\">extracleanns.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cJFsmM8vpopedmFQA\" target=\"_blank\" rel=\"nofollow\">Petra Kočića 2, Sremska Kamenica</a>"
     },
     {
       "type": "h2",
@@ -212,7 +551,7 @@
     },
     {
       "question": "Kako da vas kontaktiram?",
-      "answer": "Pozovite +381 62 661 103 za brz dogovor."
+      "answer": "Pozovite +381 63 661 103 za brz dogovor."
     }
   ]
 },
@@ -221,7 +560,7 @@
   "ime": "Čistačica Gordana Kragujevac - Od stanova do poslovnih prostora",
   "tip": "majstor",
   "kategorija": ["Čistačica", "Čišćenje Stanova", "Čišćenje Kuća", "Čišćenje Poslovnih Prostora", "Pranje Prozora"],
-  "opis_kratak": "Gordana – pedantna čistačica iz Kragujevca za stanove, kuće i poslovne prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od LANE Miljković Djević.",
+  "opis_kratak": "Gordana – pedantna čistačica iz Kragujevca za stanove, kuće i poslovne prostore. Temeljna, vredna, prijatna i divna sa psima. Preporučena od Lane Miljković Djević.",
   "mesto": ["Kragujevac", "Aerodrom", "Bubanj", "Stanovo", "Ćava", "Lužnica", "Beli Lug", "Čibukovac", "Stragari", "Vinča"],
   "adresa": "Kragujevac, Srbija",
   "telefon": "+381605572521",
