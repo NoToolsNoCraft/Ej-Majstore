@@ -2,8 +2,8 @@
 layout: majstor_profil
 title: Dado Servis Bele Tehnike Subotica - Od Montaže do Popravke
 description: Dado Servis iz Subotice — pouzdan servis bele tehnike i klima uređaja
-  sa nekoliko decenija iskustva. Ovlašćeni LG serviser, montaža, popravke i projektovanje
-  hladnjača. u Subotica, Palić, Bajmok, Aleksandrovo, Đurđin, Čantavir, Bačko Dušanovo.
+  sa nekoliko decenija iskustva. u Subotica, Palić, Bajmok, Aleksandrovo, Đurđin,
+  Čantavir, Bačko Dušanovo.
 ime: Dado Servis Bele Tehnike Subotica - Od Montaže do Popravke
 kategorija:
 - Servis Bele Tehnike
@@ -11,7 +11,6 @@ kategorija:
 - Servis Veš Mašina
 - Ugradnja Klima Uređaja
 - Rashladni Sistemi
-- Hladnjače i industrijska rashladna oprema
 mesto: Subotica, Palić, Bajmok, Aleksandrovo, Đurđin, Čantavir, Bačko Dušanovo
 address: Nema dostupnu adresu
 kontakt_telefon: 024-543-031
@@ -35,9 +34,9 @@ last_modified: '2025-11-17'
 sections:
 - type: p
   content: Dado Servis iz Subotice već treću deceniju stoji na usluzi kada su u pitanju
-    montaža i servisiranje rashladnih i grejnih uređaja. Pod rukovodstvom Dragana
-    Kosovića, tim majstora kombinuje dugogodišnje iskustvo sa savremenim tehnikama
-    održavanja, što ih čini pouzdanim partnerom za domaćinstva i privredu.
+    montaža i servisiranje rashladnih i grejnih uređaja. Tim majstora kombinuje dugogodišnje
+    iskustvo sa savremenim tehnikama održavanja, što ih čini pouzdanim partnerom za
+    domaćinstva i privredu.
 - type: p
   content: Rade po standardima koji garantuju stručnu dijagnostiku, brzu intervenciju
     i upotrebu originalnih rezervnih delova.
@@ -66,26 +65,22 @@ sections:
     rešenjima. Takođe vrše čišćenje, dopunu gasa i redovan servis unutrašnjih i spoljašnjih
     jedinica.'
 - type: h3
-  content: Projektovanje i montaža hladnjača
+  content: Servis veš mašina
 - type: p
-  content: Tim Dado servisa projektuje i montira hladnjače za voće, meso i druge namene
-    koristeći poliuretanske panele debljine 50, 60, 150 ili 200 mm, kvalitetna hladionička
-    vrata i pouzdane rashladne agregate (Bitzer, Maneurope, Dorin). Ugradnja uključuje
-    automatske kontrolere (Carel, Danfoss) i optimizovan sistem rada.
+  content: Popravke svih modela i brendova veš mašina — zamena ležajeva, pumpi, elektronike
+    i ostalih komponenti. Redovni servisi koji produžavaju vek trajanja uređaja i
+    održavaju optimalne performanse.
 - type: h3
-  content: Inverteri i toplotne pumpe — ušteda energije
+  content: Servis frižidera i zamrzivača
 - type: p
-  content: Dado Servis radi sa inverterskom tehnologijom i toplotnim pumpama koje
-    omogućavaju značajne uštede energije. Inverterske jedinice prilagođavaju rad kompresora,
-    čime se postiže ušteda do oko 40–44% u odnosu na klasične sisteme, dok toplotne
-    pumpe u kombinaciji sa podnim sistemima mogu doneti i do 70% uštede u grejanju.
+  content: Dijagnostika, popravke kompresora, zamena delova i održavanje rashladnih
+    sistema. Brza intervencija kako bi se sprečio kvar i očuvala svežina namirnica.
 - type: h2
   content: Za koga rade — domaćinstva i firme
 - type: p
-  content: Bilo da vam treba hitna intervencija kod kuće, redovan servis u firmi ili
-    kompletno projektovanje hladnjače za prehrambenu proizvodnju — Dado Servis pokriva
-    sve te potrebe. Njihovi klijenti su domaćinstva, ugostiteljski objekti, trgovine
-    i industrijski subjekti.
+  content: Bilo da vam treba hitna intervencija kod kuće ili redovan servis u firmi
+    — Dado Servis pokriva sve te potrebe. Njihovi klijenti su domaćinstva, ugostiteljski
+    objekti, trgovine i industrijski subjekti.
 - type: blockquote
   content: '"Zadovoljan uslugom, brzi, efikasni, svima preporučujem" — <a href="https://share.google/v4WFSZ5XBu5DIPuJT"
     target="_blank" rel="nofollow"><strong>Davor Bilinović</strong></a>'
@@ -109,11 +104,6 @@ services:
     sistema.
 - title: Ugradnja i servis klima uređaja
   description: Montaža, vakumiranje, puštanje u rad, čišćenje i dopuna gasa.
-- title: Projektovanje hladnjača
-  description: Izrada hladnjača za voće, meso i ostale potrebe uz poliuretanske panele
-    i profesionalne agregate.
-- title: Servis industrijskih rashladnih sistema
-  description: Održavanje i remont profesionalnih rashladnih postrojenja i agregata.
 faq:
 - question: Da li radite hitne intervencije?
   answer: Da — u zavisnosti od opterećenja i vrste kvara, moguće je izlazak istog
@@ -124,9 +114,6 @@ faq:
 - question: Koje brendove servisirate?
   answer: 'Servisiramo širok spektar brendova: LG, Bosch, Whirlpool, Samsung, Ariston,
     Indesit, Siemens, Gorenje, Zanussi, Merloni, Elin, Sever i dr.'
-- question: Da li projektujete hladnjače po meri?
-  answer: Da — projektujemo i montiramo hladnjače sa odgovarajućim panelima, vratima
-    i agregatima prema nameni.
 - question: Koliko traje montaža klima uređaja?
   answer: Standardna montaža obično traje nekoliko sati, dok kompleksniji zahtevi
     mogu potrajati duže — tačan rok zavisi od lokacije i specifičnosti instalacije.
@@ -137,7 +124,6 @@ tips:
 - Redovno čistite filtere klima uređaja – poboljšava efikasnost i kvalitet vazduha
 - Nemojte preopteretiti veš mašinu — rasporedite težinu i koristite odgovarajuće programe
 - Frižider održavajte čistim i redovno odleđujte zamrzivač
-- Za hladnjače koristite preporučene panele i proverene agregate
 - Kod ugradnje klime insistirajte na profesionalnom vakumiranju i pravilnoj izolaciji
 tips_title: Brzi saveti za održavanje bele tehnike i klima uređaja
 permalink: "/izvodjaci/subotica/dado-servis-bele-tehnike-subotica/"
