@@ -11,7 +11,6 @@ kategorija:
 - Vodoinstalacije
 - Montaža Nameštaja
 - Bušenje i Kačenje
-- Novi Sad
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
   Kać, Temerin, Bački Petrovac
 address: Kraljevića Marka 60, Novi Sad 21000

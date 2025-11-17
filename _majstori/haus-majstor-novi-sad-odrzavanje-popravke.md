@@ -13,7 +13,6 @@ kategorija:
 - Bravarija
 - Stolarija
 - Moleraj
-- Novi Sad
 mesto: Novi Sad, Petrovaradin, Veternik, Futog, Sremska Kamenica, Beočin, Rumenka,
   Kać, Temerin, Bački Petrovac
 address: Bulevar cara Lazara 82, Novi Sad

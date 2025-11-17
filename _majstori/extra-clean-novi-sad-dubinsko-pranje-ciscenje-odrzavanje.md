@@ -4,7 +4,7 @@ title: Extra Clean Novi Sad - Dubinsko Pranje i Održavanje
 description: Extra Clean – profesionalno dubinsko pranje nameštaja, tepiha, automobila,
   čišćenje klima uređaja i održavanje poslovnih prostora. Fleksibilno radno vreme,
   popusti za penzionere i trudnice. Novi Sad i okolina. u Novi Sad, Sremska Kamenica,
-  Petrovaradin, Veternik, Futog, Beočin, Rumenka, Kać, Temeri, Liman.
+  Petrovaradin, Veternik, Futog, Beočin, Rumenka, Kać, Temerin, Liman.
 ime: Extra Clean Novi Sad - Dubinsko Pranje i Održavanje
 kategorija:
 - Čišćenje
@@ -15,7 +15,7 @@ kategorija:
 - Čišćenje Klima Uređaja
 - Iznajmljivanje Mašina
 mesto: Novi Sad, Sremska Kamenica, Petrovaradin, Veternik, Futog, Beočin, Rumenka,
-  Kać, Temeri, Liman
+  Kać, Temerin, Liman
 address: Nema dostupnu adresu
 kontakt_telefon: "+38163661103"
 email: ''

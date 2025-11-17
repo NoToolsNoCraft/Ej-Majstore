@@ -1,6 +1,904 @@
 [
 
   {
+  "ime": "Vidović Komarnici Novi Sad - Efikasno Rešenje Protiv Insekata",
+  "tip": "firma",
+  "kategorija": ["Komarnici", "Plise Komarnici", "Rolo Komarnici", "Fiksni Komarnici", "Montaža Komarnika"],
+  "opis_kratak": "Vidović Alu-Plast – lider u proizvodnji i montaži plise, rolo i fiksnih komarnika u Novom Sadu i Srbiji. Uzimanje mera, transport i montaža u ceni. Garancija, sve boje po RAL karti, posebne pogodnosti za stolare.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Sremska Kamenica", "Veternik", "Futog", "Beočin"],
+  "adresa": "Lenjinova 16a, 21244 Šajkaš",
+  "telefon": "+38163545949",
+  "email": "info@komarnicinovisad.com",
+  "website": "https://www.komarnicinovisad.com/",
+  "slug": "vidovic-komarnici-novi-sad-rolo-plise-fiksni",
+  "thumbnail": "images/vidovic-komarnici-novi-sad-rolo-plise-fiksni.webp",
+  "hero_image": "images/vidovic-komarnici-novi-sad-rolo-plise-fiksni.webp",
+  "discover_title": "Vidović Komarnici Novi Sad - Efikasno Rešenje Protiv Insekata",
+  "opening_hours": "Mo-Fr 07:00-16:00, Sa-Su closed",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-17",
+  "last_modified": "2025-11-17",
+  "tips_title": "Kako da komarnici traju godinama",
+  "tips": [
+    "Plise komarnike zimi skupljajte u kutiju – štiti mrežicu",
+    "Rolo komarnike podižite polako – čuva usporivač",
+    "Mrežicu perite blagim sapunom – nikad hemikalijama",
+    "Fiksne komarnike skinite zimi – produžava vek",
+    "Redovno čistite vodilice – sprečava zapinjanje"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda kad vam sitna napast poremeti san, raspoloženje i ceo dan koji dolazi posle nje. Letnje večeri postanu lutrija: da li će vas pustiti da uživate na terasi, ili ćete završiti pod jorganom usred jula? A tek muve kad navale unutra kad osete promenu vremena?"
+    },
+    {
+      "type": "p",
+      "content": "Upravo tu, u tim malim, ali iritirajućim životnim situacijama, počinje priča o Vidović Alu-Plastu iz Šajkaša – firmi koju Novosađani već godinama jednostavno zovu „Vidović komarnici“. Od 2018. godine oni su odgovor na svu tu letnju nervozu, sinonim za komarnike koji ne samo da štite, već i doprinose miru u kući. Njihovi plise, rolo i fiksni sistemi pravljeni su da traju decenijama, da vizuelno pripadaju svakom prozoru i vratima, i da klijenti od početka znaju na čemu su – mere, transport i profesionalna montaža uvek su uključeni u cenu."
+    },
+    {
+      "type": "p",
+      "content": "Ali najveća vrednost firme krije se u ljudima koji stoje iza nje. Alu-Plast Vidović ne bavi se samo prodajom – oni svaki komarnik sami izrađuju, proveravaju, testiraju i sa ponosom postavljaju. Njihov rad je rezultat godina iskustva i znanja. Posebno izdvajaju plise komarnike, rešenje koje oduševljava vlasnike velikih balkonskih vrata i francuskih prozora. Ako ste se ikada pitali kako da zaštitite dom od insekata bez narušavanja estetike i funkcionalnosti, odgovor je upravo ovde: u rešenjima koja Vidović Alu-Plast donosi u svaku kuću kojoj je potreban mir, tišina i nesmetan letnji san."
+    },
+    {
+      "type": "h2",
+      "content": "Usko specijalizovana firma za ono što rade"
+    },
+    {
+      "type": "p",
+      "content": "Iako je firma mlada (osnovana 2018.), iskustvo ekipe je ogromno. Oni prate svetske trendove, koriste najkvalitetnije aluminijumske profile i fiberglas mrežice otporne na UV zrake, vetar i vlagu. Sve boje po RAL karti, posebne cene za proizvođače ALU i PVC stolarije, veleprodaja repromaterijala – sve je osmišljeno da klijent dobije najviše za svoj novac."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163545949\">+381 63 545 949</a> ili <a href=\"tel:+38163545166\">+381 63 545 166</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@komarnicinovisad.com\">info@komarnicinovisad.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.komarnicinovisad.com/\" target=\"_blank\" rel=\"nofollow\">komarnicinovisad.com</a><br>📍 <strong>Adresa:</strong> <a href=\"https://maps.app.goo.gl/21Syx3YrynB3EGXM8\" target=\"_blank\" rel=\"nofollow\">Lenjinova 16a, Šajkaš</a><br>🕖 <strong>Radno vreme:</strong> Pon–Pet 07–16h"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Tri Tipa Komarnika Koji Rešavaju Sve"
+    },
+    {
+      "type": "p",
+      "content": "Vidović Alu-Plast proizvodi i montira tri osnovna tipa komarnika – svaki sa svojim prednostima:"
+    },
+    {
+      "type": "h3",
+      "content": "🌀 Plise Komarnici – Luksuzno Rešenje za Velike Otvore"
+    },
+    {
+      "type": "p",
+      "content": "Plise komarnici su pravi hit poslednjih godina – i to sa razlogom. Mrežica se skuplja kao harmonika u bočni profil debljine samo 2–3 cm, pa ne smeta ni kada je otvorena. Idealni su za balkonska vrata, francuske prozore i velike terase. Mreža je od posebnog fiberglasa ojačanog nitima – ne lomi se, ne bledi, ne deformiše se ni posle 10 godina. Otporna je na vetar do 100 km/h, UV zrake i vlagu. Može se otvoriti u bilo kom položaju (nema povratni mehanizam), a rukuje se lagano – čak i deca i stariji lako povuku ručicu. Dostupni u beloj, braon, antracit i svim RAL bojama."
+    },
+    {
+      "type": "h3",
+      "content": "🎞️ Rolo Komarnici – Najtraženiji Klasik"
+    },
+    {
+      "type": "p",
+      "content": "Rolo komarnici su i dalje najprodavaniji tip – jer su praktični i povoljni. Mrežica se namotava u aluminijumsku kutiju na vrhu prozora ili sa strane kod vrata. Kada se podigne, potpuno nestaje i ne smeta zalivanju cveća ili sunčanju posteljine. Fiberglas mreža je zategnuta četkicama u vodilicama – nema opuštanja. Imaju usporivač pa se ne zalupi. Mogu biti vertikalni (za prozore) ili horizontalni (za vrata). Kutija i vodilice su u beloj, braon ili po želji."
+    },
+    {
+      "type": "h3",
+      "content": "🖼️ Fiksni Komarnici – Najjeftiniji, a Veoma Efikasan"
+    },
+    {
+      "type": "p",
+      "content": "Fiksni komarnici su nepokretni – montiraju se direktno na prozorski ram i skidaju samo kada prođe sezona (npr. za zimu). Idealni su za kupatila, podrume, ostave ili prozore koje retko otvarate do kraja. Aluminijumski ram sa gumom drži mrežicu čvrsto, a ipak se lako vadi radi pranja prozora. Mreža je skoro nevidljiva, a propušta svetlost i vazduh gotovo 100%. Najjeftinije rešenje, a kvalitet ne zaostaje."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade – Sve Je Uključeno u Cenu"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jednostavan i transparentan:<br>1. <strong>Pozovite</strong> na 063 545 949<br>2. <strong>Besplatan izlazak</strong> na teren – mere se uzimaju milimetarski<br>3. <strong>Ponuda</strong> isti ili sledeći dan<br>4. <strong>Proizvodnja</strong> u roku od 5–7 dana<br>5. <strong>Montaža</strong> – brza, čista, bez bušenja ako nije neophodno<br>6. <strong>Garancija</strong> na proizvod i ugradnju"
+    },
+    {
+      "type": "h2",
+      "content": "Cenovnik (orijentaciono, sa montažom i PDV-om)"
+    },
+    {
+      "type": "p",
+      "content": "<strong>Plise komarnici</strong> – od 35–50 €/m² (min. 1,5 m²)<br><strong>Rolo komarnici</strong> – od 35–45 €/m² (min. 1 m²)<br><strong>Fiksni komarnici</strong> – od 20–30 €/m² (min. 1 m²)<br>Posebne cene za stolare i veće količine."
+    },
+    {
+      "type": "h2",
+      "content": "Najbolji portfolio su zadovoljne mušterije"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu, ljubaznost i preciznost. „Dogovoreno za 2 dana, montirano za 20 minuta“, „sve kako je rečeno, bez zamerke“, „nikad lepše iskustvo sa majstorima“ – to su samo neke od recenzija."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/fU9TgxpIEdmputrBv\" target=\"_blank\" rel=\"nofollow\">Marija Janjin</a>:</strong> Profesionalno. Kvalitetno. Brzo dogovoreno i lepo urađen posao. Sve preporuke."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/P6Sla6irAFfe0DtiT\" target=\"_blank\" rel=\"nofollow\">Jelena</a>:</strong> Zadovoljna sam od komunikacije sa Srđanom i Jovanom pa do ugradnje. Brz dogovor, u istoj nedelji mere i montaža. Sve besprekorno. Topla preporuka!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/U6QBYBz0ZDELyYPzm\" target=\"_blank\" rel=\"nofollow\">Nina Vasović</a>:</strong> Sjajna ekipa, odmah došli na mere, kroz par dana montirali sve za 20 min. Nikad lepše iskustvo sa majstorima, sve preporuke!"
+    },
+    {
+      "type": "p",
+      "content": "Dosađuju vam muve? Ne smete da otvorite prozor? Pozovite i rešite ovaj problem na <a href=\"tel:+38163545949\"><strong>+381 63 545 949</strong></a> ili posetite <a href=\"https://www.komarnicinovisad.com/\" target=\"_blank\" rel=\"nofollow\"><strong>komarnicinovisad.com</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Plise Komarnici",
+      "description": "Harmonika sistem, idealni za velika balkonska vrata i terase. Skupia se u bočni profil, ne smeta kada je otvoren. Otporni na vetar i UV zrake, sve boje."
+    },
+    {
+      "title": "Rolo Komarnici",
+      "description": "Namotavaju se u kutiju, najtraženiji tip. Vertikalni ili horizontalni, sa usporivačem i četkicama. Ne ometaju zalivanje cveća."
+    },
+    {
+      "title": "Fiksni Komarnici",
+      "description": "Nepokretni, najpovoljniji. Lako se skidaju za zimu ili pranje prozora. Idealni za kupatila i manje prozore."
+    },
+    {
+      "title": "Proizvodnja po Meri",
+      "description": "Sve dimenzije, sve boje po RAL karti, fiberglas mrežice vrhunskog kvaliteta."
+    },
+    {
+      "title": "Montaža i Garancija",
+      "description": "Besplatno uzimanje mera, transport i ugradnja. Garancija na proizvod i rad."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo montirate?",
+      "answer": "Uzimanje mera u roku od 1–2 dana, montaža za 5–7 dana od narudžbine."
+    },
+    {
+      "question": "Da li je montaža u ceni?",
+      "answer": "Da – u cenu je uračunato uzimanje mera, transport i profesionalna montaža."
+    },
+    {
+      "question": "Može li plise komarnik za velika vrata?",
+      "answer": "Da – plise komarnici su najbolje rešenje za otvore preko 2 metra širine."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – garancija na proizvod i ugradnju."
+    },
+    {
+      "question": "Radite li van Novog Sada?",
+      "answer": "Da – Novi Sad, Futog, Veternik, Sremska Kamenica, Kać, Sremski Karlovci i šire."
+    },
+    {
+      "question": "Mogu li komarnici u antracit boji?",
+      "answer": "Da – sve boje po RAL karti, uključujući antracit, zlatni hrast, orah itd."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 545 949 ili +381 63 545 166, ili pišite na info@komarnicinovisad.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete",
+  "tip": "firma",
+  "kategorija": ["Bravar", "Hitne Intervencije", "Otvaranje Vrata", "Zamena Brava", "Servis Sigurnosnih Vrata", "Otvaranje Automobila", "Otvaranje Sefova"],
+  "opis_kratak": "Majstor Express – tim iskusnih majstora za hitne intervencije u Novom Sadu. Otvaranje vrata, zamena brava i cilindara, servis vrata. Dolazak za 30 minuta, 24/7. Kvalitetni delovi, garancija 2-5 godina.",
+  "mesto": ["Novi Sad", "Liman", "Detelinara", "Telep", "Petrovaradin", "Sremska Kamenica", "Veternik", "Futog"],
+  "adresa": "Gundulićeva 24, Novi Sad 21101",
+  "telefon": "+381638210786",
+  "email": "nsmajstor.info@gmail.com",
+  "website": "https://majstor-express.rs/",
+  "slug": "majstor-express-novi-sad-bravar-hitne-intervencije",
+  "thumbnail": "images/majstor-express-novi-sad-bravar-hitne-intervencije.webp",
+  "hero_image": "images/majstor-express-novi-sad-bravar-hitne-intervencije.webp",
+  "discover_title": "Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Prikazuje timove proverene i iskusne majstore širom Srbije.",
+  "date": "2025-11-17",
+  "last_modified": "2025-11-17",
+  "tips_title": "Kako sprečiti probleme sa bravama",
+  "tips": [
+    "Ne podmazujte uljem – koristite silikonsko mazivo",
+    "Redovno proveravajte vrata – izbegnite zaglavljivanje",
+    "Ugradite dodatnu bravu – veća sigurnost",
+    "Čuvajte rezervni ključ – kod pouzdane osobe",
+    "Pozovite majstore na vreme – jeftinije od hitne intervencije"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Ključ se slomio u bravi. Vrata se zaglavila u ponoć. Ili ste zaključali auto sa ključevima unutra. U tim trenucima, tim iskusnih majstora iz Majstor Express je tu da pomogne. Dolaze brzo, rade bez oštećenja i daju garanciju od 2 do 5 godina. Koriste proverene brendove poput Cisa, Mottura, Abus – i to 24/7, svaki dan."
+    },
+    {
+      "type": "h2",
+      "content": "Majstori sa dozvolom za obijanje"
+    },
+    {
+      "type": "p",
+      "content": "Majstor Express je firma specijalizovana za hitne i redovne bravarske usluge. Od otvaranja vrata do zamene cilindra, ugradnje brava i servisa vrata. Sve se radi sa delovima vrhunskog kvaliteta i garancijom dugotrajnosti."
+    },
+    {
+      "type": "p",
+      "content": "Najlakši vidovi kontakta:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381638210786\">+381 63 821 0786</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:nsmajstor.info@gmail.com\">nsmajstor.info@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://majstor-express.rs/\" target=\"_blank\" rel=\"nofollow\">majstor-express.rs</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/iLEdM8Rbjnkg8RX27\" target=\"_blank\" rel=\"nofollow\">Gundulićeva 24, Novi Sad</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Sve od Brave do Sefa"
+    },
+    {
+      "type": "p",
+      "content": "Majstor Express pokriva kompletan spektar bravarskih usluga:"
+    },
+    {
+      "type": "h3",
+      "content": "🔓 Otvaranje Vrata Bez Oštećenja"
+    },
+    {
+      "type": "p",
+      "content": "Stan, kuća, garaža – otvaraju bez razbijanja, čak i sigurnosna vrata."
+    },
+    {
+      "type": "h3",
+      "content": "🔧 Zamena Brava i Cilindara"
+    },
+    {
+      "type": "p",
+      "content": "Ugradnja novih brava visoke sigurnosti, dodatne brave sa istim ključem."
+    },
+    {
+      "type": "h3",
+      "content": "🚗 Otvaranje Automobila"
+    },
+    {
+      "type": "p",
+      "content": "U prisustvu vlasnika – brzo, bez oštećenja tapacirunga."
+    },
+    {
+      "type": "h3",
+      "content": "🔒 Otvaranje Sefova"
+    },
+    {
+      "type": "p",
+      "content": "Bez razbijanja – profesionalno i diskretno."
+    },
+    {
+      "type": "h3",
+      "content": "🛠️ Servis Vrata i Prozora"
+    },
+    {
+      "type": "p",
+      "content": "Popravka šarki, štelovanje, dihtovanje i vađenje slomljenog ključa."
+    },
+    {
+      "type": "h2",
+      "content": "Sve se radi Brzo, Čisto i sa Garancijom"
+    },
+    {
+      "type": "p",
+      "content": "Proces saradnje je jednostavan:<br>1. <strong>Pozovite</strong>: 063 821 0786 – 24/7.<br>2. <strong>Dolazak</strong>: Za 30 minuta, bilo gde u Novom Sadu.<br>3. <strong>Procena</strong>: Tačna dijagnostika na licu mesta.<br>4. <strong>Intervencija</strong>: Bez oštećenja, sa kvalitetnim delovima.<br>5. <strong>Test</strong>: Provera rada.<br>6. <strong>Garancija</strong>: 2-5 godina na popravku."
+    },
+    {
+      "type": "p",
+      "content": "Sa 4.8/5 na osnovu 48 recenzija, Majstor Express je već izgradio portfolio koji uliva poverenje. Klijenti hvale brzinu ('došao u ponoć'), fer cene ('manje nego što treba') i profesionalnost ('bez greške')."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/lIKZYnqshmnq3s4Yg\" target=\"_blank\" rel=\"nofollow\">Miljan Jojić</a>:</strong> Свака част Немањи. Појавио се за 20 минута после поноћи. Цена коректна. Све препоруке."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/1PBSKxHo69mEdTjYR\" target=\"_blank\" rel=\"nofollow\">Aleksandar Radojčić</a>:</strong> Majstor za svaku pohvalu! Brz dogovor, kvalitetno urađeno. Preporuka."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/la5UbZq6OlO1HksdQ\" target=\"_blank\" rel=\"nofollow\">Marko Pekez</a>:</strong> Došao nedeljom u ponoć, odradio posao profesionalno i brzo. Svaka čast!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/Rbd4uNJFwnp0m0lit\" target=\"_blank\" rel=\"nofollow\">Zare Fiesta</a>:</strong> Jako zadovoljan brzinom, zamena brave odlična, vrata rade bez greške. Preporuka!"
+    },
+    {
+      "type": "p",
+      "content": "Zaključani? Pozovite Majstor Express na <a href=\"tel:+381638210786\"><strong>+381 63 821 0786</strong></a>. Više na <a href=\"https://majstor-express.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>majstor-express.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitno Otvaranje Vrata",
+      "description": "Bez oštećenja, dolazak za 30 minuta, 24/7."
+    },
+    {
+      "title": "Zamena Brava i Cilindara",
+      "description": "Visoka sigurnost, dodatne brave sa istim ključem."
+    },
+    {
+      "title": "Otvaranje Automobila",
+      "description": "U prisustvu vlasnika, bez oštećenja."
+    },
+    {
+      "title": "Otvaranje Sefova",
+      "description": "Profesionalno, diskretno, bez razbijanja."
+    },
+    {
+      "title": "Servis Vrata i Prozora",
+      "description": "Popravka, štelovanje, vađenje ključa."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Dolazite li noću?",
+      "answer": "Da – 24/7, dolazak za 30 minuta."
+    },
+    {
+      "question": "Otvarate li bez oštećenja?",
+      "answer": "Da – profesionalno, bez razbijanja."
+    },
+    {
+      "question": "Dajete li garanciju?",
+      "answer": "Da – 2 do 5 godina na popravku i delove."
+    },
+    {
+      "question": "Radite li sa automobilima?",
+      "answer": "Da – otvaranje u prisustvu vlasnika."
+    },
+    {
+      "question": "Koliko košta intervencija?",
+      "answer": "Fer cene – tačna ponuda nakon poziva."
+    },
+    {
+      "question": "Gde radite u Novom Sadu?",
+      "answer": "Liman, Detelinara, Petrovaradin, Veternik, Sremska Kamenica, Futog itd."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 821 0786 ili pišite na nsmajstor.info@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "Moler Darko Novi Sad – Krečenje, Gletovanje i Gipsarski Radovi",
+  "tip": "majstor",
+  "kategorija": ["Moler", "Krečenje", "Gletovanje", "Farbanje", "Gipsarski Radovi", "Spušteni Plafoni", "Dekorativne Tehnike"],
+  "opis_kratak": "Moler Darko – pouzdana firma za molerske usluge u Novom Sadu. Krečenje, gletovanje, farbanje, rad sa gipsom i spušteni plafoni. Kvalitetni materijali, prilagođeno svakom klijentu. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Sremska Kamenica", "Veternik", "Liman", "Sremski Karlovci"],
+  "adresa": "Miše Dimitrijevića 24/32, Novi Sad 21000",
+  "telefon": "+381631479947",
+  "email": "",
+  "website": "",
+  "slug": "moler-darko-novi-sad-krecenje-gletovanje-gipsarski-radovi",
+  "thumbnail": "images/moler-darko-novi-sad-krecenje-gletovanje-gipsarski-radovi.webp",
+  "hero_image": "images/moler-darko-novi-sad-krecenje-gletovanje-gipsarski-radovi.webp",
+  "discover_title": "Moler Darko Novi Sad – Krečenje, Gletovanje i Gipsarski Radovi",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-11-17",
+  "last_modified": "2025-11-17",
+  "tips_title": "Saveti za održavanje sveže okrečenih zidova",
+  "tips": [
+    "Redovno brisanje prašine – sprečava žutilo boje",
+    "Ventilacija prostorija – ubrzava sušenje i čuva boju",
+    "Kvalitetne boje – duže traju, manje perutaju",
+    "Izbegavajte vlagu – koristite odvlaživače",
+    "Godišnji pregled – blagovremeno popravite ogrebotine"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Nije retkost da zidovi posive, napuknu ili jednostavno izgube onu svežinu koju su nekad imali. Mnogi stanovi u Novom Sadu, posebno oni starije gradnje, godinama trpe vlagu, neravne zidove ili tragove prethodnih adaptacija. A kada konačno dođe trenutak da se sve to sredi, ljudi obično traže nekoga ko ume da proceni stanje bez ulepšavanja i da posao odradi temeljno, a ne površno."
+    },
+    {
+      "type": "p",
+      "content": "Za one koji žele pouzdano rešenje – bilo da se radi o krečenju stana na Limanu, saniranju neravnina u centru ili ozbiljnijim gipsarskim radovima u kući preko mosta – praktično preporuka po preporuka često dovede do istog imena. Darko, glavni moler i majstor koji vodi svoj tim, godinama se bavi ovakvim problemima i iza sebe ima solidan broj uređenih prostora koji govore više od reklame. Njegova ekipa radi uz njega, prateći njegov način rada i odnos prema poslu."
+    },
+    {
+      "type": "h2",
+      "content": "Kad vam treba majstor koji zna šta radi"
+    },
+    {
+      "type": "p",
+      "content": "Darko i njegova ekipa bave se klasičnim molerskim i gipsarskim poslovima: krečenje, gletovanje, farbanje, sanacija zidova, spušteni plafoni. Materijali su oni koji se u praksi pokazali dobrim, a pristup je jednostavan: pregledati stanje, objasniti šta može da se uradi i odraditi posao tako da traje. Ako živite u Novom Sadu i tražite majstora koji radi pouzdano, Darko je jedna od opcija koju vredi uzeti u obzir."
+    },
+    {
+      "type": "p",
+      "content": "Kontak za brz i lak dogovor:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381631479947\">+381 63 147 9947</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/2owpjeHEu4PQwA5y7\" target=\"_blank\" rel=\"nofollow\">Miše Dimitrijevića 24/32, Novi Sad</a><br>🌍 <strong>Područje:</strong> Novi Sad i okolina"
+    },
+    {
+      "type": "h2",
+      "content": "Šta je sve u ponudi – Kompletni Molerski Paket"
+    },
+    {
+      "type": "p",
+      "content": "Darko pokriva sve faze molerskih radova:"
+    },
+    {
+      "type": "h3",
+      "content": "🎨 Krečenje i Farbanje"
+    },
+    {
+      "type": "p",
+      "content": "Unutrašnje i spoljašnje krečenje, farbanje zidova, plafona, vrata. Kvalitetne boje za dugotrajan sjaj."
+    },
+    {
+      "type": "h3",
+      "content": "🧹 Gletovanje"
+    },
+    {
+      "type": "p",
+      "content": "Priprema zidova – fino gletovanje za savršeno glatku površinu pre bojenja."
+    },
+    {
+      "type": "h3",
+      "content": "🪚 Gipsarski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Izrada pregrada, niša, ukrasa od gipsa. Prilagođeno dizajnu prostora."
+    },
+    {
+      "type": "h3",
+      "content": "🛠️ Spušteni Plafoni"
+    },
+    {
+      "type": "p",
+      "content": "Dizajn i montaža spuštenih plafona sa osvetljenjem. Moderno i funkcionalno."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Oni Rade – Od Procene do Savršenog Zida"
+    },
+    {
+      "type": "p",
+      "content": "Njihov proces je efikasan:<br>1. <strong>Poziv</strong>: Opišite prostor i želje.<br>2. <strong>Izlazak</strong>: Besplatna procena na licu mesta.<br>3. <strong>Ponuda</strong>: Transparentna cena po m².<br>4. <strong>Rad</strong>: Brzo, čisto, sa zaštitom nameštaja.<br>5. <strong>Završetak</strong>: Provera kvaliteta, čišćenje.<br>6. <strong>Garancija</strong>: Dugotrajan rezultat."
+    },
+    {
+      "type": "h2",
+      "content": "Klijenti se ne stide da pohvale ovog izvođača"
+    },
+    {
+      "type": "p",
+      "content": "Poslednji put kada sam proveravao Gugl, Moler Darko je imao ocenu od 4.8/5 zvezdice na osnovu 62 recenzije, što je poprilično dobar rezultat. Ima tu i par ocena sa 1 zvezdicom ali ne i u poslednjih godinu dana. Klijenti hvale brzinu, pedantnost i ljudskost – 'dobar čovek i majstor'."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/NmmpmygBj9JGemZzo\" target=\"_blank\" rel=\"nofollow\">Marijana Novičić</a>:</strong> Darko i ekipa su brzi i efikasni. Vrlo kooperativni. Posao urađen uredno. Za svaku pohvalu i preporuku."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/NX0T9o1qc4KqQp6y5\" target=\"_blank\" rel=\"nofollow\">Gordana T.</a>:</strong> Profesionalnost, brzina i kvalitet na prvom mestu. Prezadovoljna sam krajnjim rezultatom. Svaka preporuka!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/nodF1DflFjkK0CE4F\" target=\"_blank\" rel=\"nofollow\">Aleksandar Gligorov</a>:</strong> Svaka čast majstor Darku, sve ispoštovano, precizno, čisto, pedantno, svaka preporuka za Dareta!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/7RywUWTv6fTmsQYVy\" target=\"_blank\" rel=\"nofollow\">Damir Perisić</a>:</strong> Ako Vam treba majstor koji je i dobar čovek, okrenite ovog momka. Dobričina, vredan, porodičan. Preporuka od srca. 😊"
+    },
+    {
+      "type": "p",
+      "content": "Želite sveže zidove? Pozovite Molera Darka na <a href=\"tel:+381631479947\"><strong>+381 63 147 9947</strong></a> i pređite na posao."
+    }
+  ],
+  "services": [
+    {
+      "title": "Krečenje i Farbanje",
+      "description": "Unutrašnje i spoljašnje, kvalitetne boje za dugotrajan rezultat."
+    },
+    {
+      "title": "Gletovanje",
+      "description": "Fina priprema zidova za savršeno glatku površinu."
+    },
+    {
+      "title": "Gipsarski Radovi",
+      "description": "Pregrade, niše, ukrasi od gipsa po dizajnu."
+    },
+    {
+      "title": "Spušteni Plafoni",
+      "description": "Montaža sa osvetljenjem, moderno rešenje."
+    },
+    {
+      "title": "Dekorativne Tehnike",
+      "description": "Specijalni efekti, prilagođeno prostoru."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite na procenu?",
+      "answer": "Po dogovoru – često isti ili sledeći dan."
+    },
+    {
+      "question": "Koristite li kvalitetne boje?",
+      "answer": "Da – samo sertifikovane, dugotrajne marke."
+    },
+    {
+      "question": "Štite li nameštaj?",
+      "answer": "Da – potpuna zaštita, čišćenje nakon rada."
+    },
+    {
+      "question": "Radite li spoljašnje farbanje?",
+      "answer": "Da – fasade, kapije, ograde."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na materijal i rad."
+    },
+    {
+      "question": "Gde radite u Novom Sadu?",
+      "answer": "Liman 4, Liman 3, Petrovaradin, Sremska Kamenica, Veternik, Detelinara itd."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 147 9947 – uvek dostupni."
+    }
+  ]
+},
+
+  {
+  "ime": "Dado Servis Bele Tehnike Subotica - Od Montaže do Popravke",
+  "tip": "firma",
+  "kategorija": [
+    "Servis Bele Tehnike",
+    "Servis Frižidera",
+    "Servis Veš Mašina",
+    "Ugradnja Klima Uređaja",
+    "Rashladni Sistemi",
+    "Hladnjače i industrijska rashladna oprema"
+  ],
+  "opis_kratak": "Dado Servis iz Subotice — pouzdan servis bele tehnike i klima uređaja sa nekoliko decenija iskustva. Ovlašćeni LG serviser, montaža, popravke i projektovanje hladnjača.",
+  "mesto": ["Subotica", "Palić", "Bajmok", "Aleksandrovo", "Đurđin", "Čantavir", "Bačko Dušanovo"],
+  "adresa": "Bihaćka 17, Subotica",
+  "telefon": "024-543-031",
+  "email": "kdado@sezampro.com",
+  "website": "http://www.dado-servis.com/",
+  "slug": "dado-servis-bele-tehnike-subotica",
+  "thumbnail": "images/dado-servis-bele-tehnike-subotica.webp",
+  "hero_image": "images/dado-servis-bele-tehnike-subotica.webp",
+  "opening_hours": "Mo-Fr 08:00-18:00, Sa 09:00-14:00, Su zatvoreno",
+  "discover_title": "Dado Servis Bele Tehnike Subotica - Od Montaže do Popravke",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru zanatskih usluga u Srbiji. Testira kvalitet usluga i predstavlja proverene majstore širom zemlje.",
+  "date": "2025-11-17",
+  "last_modified": "2025-11-17",
+  "tips_title": "Brzi saveti za održavanje bele tehnike i klima uređaja",
+  "tips": [
+    "Redovno čistite filtere klima uređaja – poboljšava efikasnost i kvalitet vazduha",
+    "Nemojte preopteretiti veš mašinu — rasporedite težinu i koristite odgovarajuće programe",
+    "Frižider održavajte čistim i redovno odleđujte zamrzivač",
+    "Za hladnjače koristite preporučene panele i proverene agregate",
+    "Kod ugradnje klime insistirajte na profesionalnom vakumiranju i pravilnoj izolaciji"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Dado Servis iz Subotice već treću deceniju stoji na usluzi kada su u pitanju montaža i servisiranje rashladnih i grejnih uređaja. Pod rukovodstvom Dragana Kosovića, tim majstora kombinuje dugogodišnje iskustvo sa savremenim tehnikama održavanja, što ih čini pouzdanim partnerom za domaćinstva i privredu."
+    },
+    {
+      "type": "p",
+      "content": "Rade po standardima koji garantuju stručnu dijagnostiku, brzu intervenciju i upotrebu originalnih rezervnih delova."
+    },
+    {
+      "type": "h2",
+      "content": "Sveobuhvatan servis bele tehnike i klima"
+    },
+    {
+      "type": "p",
+      "content": "U ponudi su popravke i redovni servisi za veš mašine, frižidere, zamrzivače, sušilice i ostale kućne uređaje. Majstori iz Dado Servisa rade sa najpoznatijim brendovima (LG, Bosch, Whirlpool, Samsung, Ariston, Indesit, Siemens, Gorenje, Zanussi i drugi) i ugrađuju originalne ili preporučene zamenske delove."
+    },
+    {
+      "type": "p",
+      "content": "📞 <strong>Telefon:</strong> <a href=\"tel:024543031\">024 543-031</a><br>📱 <strong>Mobilni:</strong> <a href=\"tel:063527130\">063 527 130</a><br>📧 <strong>Email:</strong> <a href=\"mailto:kdado@sezampro.com\">kdado@sezampro.com</a><br>🌐 <strong>Website:</strong> <a href=\"http://www.dado-servis.com/\" target=\"_blank\" rel=\"nofollow\">dado-servis.com</a><br>📍 <strong>Adresa:</strong> Bihaćka 17, Subotica — <a href=\"https://maps.app.goo.gl/9EAdY3LDuGZTkL4r6\" target=\"_blank\" rel=\"nofollow\">prikaži na mapi</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Koje sve usluge pokrivaju"
+    },
+    {
+      "type": "h3",
+      "content": "Montaža i servis klima uređaja"
+    },
+    {
+      "type": "p",
+      "content": "Dado Servis nudi kompletnu montažu klima uređaja: izbor mesta ugradnje, profesionalno vakumiranje sistema, pravilno puštanje u rad i savetovanje o najefikasnijim rešenjima. Takođe vrše čišćenje, dopunu gasa i redovan servis unutrašnjih i spoljašnjih jedinica."
+    },
+    {
+      "type": "h3",
+      "content": "Projektovanje i montaža hladnjača"
+    },
+    {
+      "type": "p",
+      "content": "Tim Dado servisa projektuje i montira hladnjače za voće, meso i druge namene koristeći poliuretanske panele debljine 50, 60, 150 ili 200 mm, kvalitetna hladionička vrata i pouzdane rashladne agregate (Bitzer, Maneurope, Dorin). Ugradnja uključuje automatske kontrolere (Carel, Danfoss) i optimizovan sistem rada."
+    },
+    {
+      "type": "h3",
+      "content": "Inverteri i toplotne pumpe — ušteda energije"
+    },
+    {
+      "type": "p",
+      "content": "Dado Servis radi sa inverterskom tehnologijom i toplotnim pumpama koje omogućavaju značajne uštede energije. Inverterske jedinice prilagođavaju rad kompresora, čime se postiže ušteda do oko 40–44% u odnosu na klasične sisteme, dok toplotne pumpe u kombinaciji sa podnim sistemima mogu doneti i do 70% uštede u grejanju."
+    },
+    {
+      "type": "h2",
+      "content": "Za koga rade — domaćinstva i firme"
+    },
+    {
+      "type": "p",
+      "content": "Bilo da vam treba hitna intervencija kod kuće, redovan servis u firmi ili kompletno projektovanje hladnjače za prehrambenu proizvodnju — Dado Servis pokriva sve te potrebe. Njihovi klijenti su domaćinstva, ugostiteljski objekti, trgovine i industrijski subjekti."
+    },
+    {
+      "type": "blockquote",
+      "content": "\"Zadovoljan uslugom, brzi, efikasni, svima preporučujem\" — <a href=\"https://share.google/v4WFSZ5XBu5DIPuJT\" target=\"_blank\" rel=\"nofollow\"><strong>Davor Bilinović</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "\"Prezadovoljna uslugom, brzi, ljubazni, rešili problem, cene razumne\" — <a href=\"https://share.google/L2nJiQryBQUFQExX5\" target=\"_blank\" rel=\"nofollow\"><strong>Ratka Bilinović</strong></a>"
+    },
+    {
+      "type": "blockquote",
+      "content": "\"Odličan servis\" — <a href=\"https://share.google/zSafWQ6gn1fejPZ8n\" target=\"_blank\" rel=\"nofollow\"><strong>Sava Radjenović</strong></a>"
+    },
+    {
+      "type": "p",
+      "content": "Za brzu intervenciju ili savet pozovite <a href=\"tel:024543031\"><strong>024 543-031</strong></a> ili <a href=\"tel:063527130\"><strong>063 527 130</strong></a>. Radno vreme je radnim danima 08:00–18:00, subotom 09:00–14:00."
+    }
+  ],
+  "services": [
+    {
+      "title": "Servis veš mašina",
+      "description": "Popravke svih modela i brendova — zamena ležajeva, pumpi, elektronike i ostalih komponenti."
+    },
+    {
+      "title": "Servis frižidera i zamrzivača",
+      "description": "Dijagnostika, popravke kompresora, zamena delova i održavanje rashladnih sistema."
+    },
+    {
+      "title": "Ugradnja i servis klima uređaja",
+      "description": "Montaža, vakumiranje, puštanje u rad, čišćenje i dopuna gasa."
+    },
+    {
+      "title": "Projektovanje hladnjača",
+      "description": "Izrada hladnjača za voće, meso i ostale potrebe uz poliuretanske panele i profesionalne agregate."
+    },
+    {
+      "title": "Servis industrijskih rashladnih sistema",
+      "description": "Održavanje i remont profesionalnih rashladnih postrojenja i agregata."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Da li radite hitne intervencije?",
+      "answer": "Da — u zavisnosti od opterećenja i vrste kvara, moguće je izlazak istog ili narednog dana."
+    },
+    {
+      "question": "Da li koristite originalne delove?",
+      "answer": "Da — gde je moguće ugrađujemo originalne rezervne delove; alternativno nudimo proveren kvalitet po dogovoru."
+    },
+    {
+      "question": "Koje brendove servisirate?",
+      "answer": "Servisiramo širok spektar brendova: LG, Bosch, Whirlpool, Samsung, Ariston, Indesit, Siemens, Gorenje, Zanussi, Merloni, Elin, Sever i dr."
+    },
+    {
+      "question": "Da li projektujete hladnjače po meri?",
+      "answer": "Da — projektujemo i montiramo hladnjače sa odgovarajućim panelima, vratima i agregatima prema nameni."
+    },
+    {
+      "question": "Koliko traje montaža klima uređaja?",
+      "answer": "Standardna montaža obično traje nekoliko sati, dok kompleksniji zahtevi mogu potrajati duže — tačan rok zavisi od lokacije i specifičnosti instalacije."
+    },
+    {
+      "question": "Kako da zakažem servis?",
+      "answer": "Pozovite telefonom 024 543-031 ili 063 527 130 ili pošaljite upit preko zvaničnog sajta."
+    }
+  ]
+},
+
+  {
+  "ime": "Nameštaj Po Meri Novi Sad – Nikola i Lazar izrađuju Kuhinje, Spavaće i Dnevnih Sobe",
+  "tip": "firma",
+  "kategorija": ["Stolar", "Nameštaj po meri", "Kuhinje Po Meri", "Plakari", "Enterijer", "Ugradnja Nameštaja"],
+  "opis_kratak": "Firma iz Novog Sada sa više od 10 godina iskustva u izradi nameštaja po meri. Kuhinje, dnevne i spavaće sobe, plakari, dečije sobe i poslovni enterijeri. Transparentan cenovnik, besplatno merenje i konsultacije. Nikola i Lazar – profesionalan, iskusan i pouzdan tim.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Sremska Kamenica", "Veternik", "Futog", "Kać", "Klisa", "Liman", "Detelinara", "Grbavica"],
+  "adresa": "Novi Sad",
+  "telefon": "+381600278069",
+  "email": "kontakt@namestajpomeri-novisad.rs",
+  "website": "https://namestajpomeri-novisad.rs/",
+  "slug": "namestaj-po-meri-novi-sad-kuhinje-plakari-sobe-enterijer",
+  "thumbnail": "images/namestaj-po-meri-novi-sad-kuhinje-plakari-sobe-enterijer.webp",
+  "hero_image": "images/namestaj-po-meri-novi-sad-kuhinje-plakari-sobe-enterijer.webp",
+  "opening_hours": "Mo-Su 08:00-21:00",
+  "discover_title": "Nameštaj Po Meri Novi Sad – Kuhinje, Plakari, Sobe i Enterijer Po Vašoj Meri",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru zanatskih usluga u Srbiji. Testira kvalitet izrade, proverava preporuke i predstavlja samo proverene majstore.",
+  "date": "2025-11-17",
+  "last_modified": "2025-11-17",
+  "tips_title": "Saveti za planiranje nameštaja po meri",
+  "tips": [
+    "Pre izrade – napravite listu navika i potreba",
+    "Merite prostor precizno – svaki centimetar znači",
+    "Birajte materijale prema nameni (kuhinja, kupatilo, dnevna soba)",
+    "Razmislite o rasveti unutar plakara i kuhinjskih elemenata",
+    "Pitajte za garanciju – pouzdani stolari je uvek nude"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Opremate stan, kuću ili lokal i želite nešto što savršeno odgovara prostoru? A pri tom živite u Novom Sadu ili okolini. Nikola i Lazar čine tim stolara koji već preko 10 godina izrađuje kuhinje, sobe, plakare i kompletne enterijere po meri, onako kako ste zamislili. Iza svakog projekta stoje majstori poznati po preciznosti, estetici i po tome što uvek drže reč."
+    },
+    {
+      "type": "p",
+      "content": "Njihov pristup je jednostavan: spoj modernog dizajna, kvalitetnih materijala i praktičnih rešenja. Nema šablona – svaki komad se izrađuje od nule, isključivo prema vašem prostoru i potrebama. Kada kažu 'po meri', to zaista i misle."
+    },
+    {
+      "type": "h2",
+      "content": "Decenija iskustva – rezultat: lepši dom, funkcionalniji prostor"
+    },
+    {
+      "type": "p",
+      "content": "Ova firma odavno je postala sinonim za kvalitetnu izradu nameštaja u Novom Sadu. Od početnog saveta, preko merenja i dizajna, do gotove montaže – proces je besprekoran i transparentan. Koriste MDF, puno drvo, melaminske ploče i furnir, a završne obrade birate vi: mat, sjaj, drveni dekori, akril… Mogućnosti su praktično neograničene."
+    },
+    {
+      "type": "p",
+      "content": "📞 <strong>Nikola:</strong> <a href=\"tel:+381600278069\">060 027 80 69</a><br>📞 <strong>Lazar:</strong> <a href=\"tel:+38163519667\">063 519 667</a><br>📧 <strong>Email:</strong> <a href=\"mailto:kontakt@namestajpomeri-novisad.rs\">kontakt@namestajpomeri-novisad.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://namestajpomeri-novisad.rs/\" target=\"_blank\" rel=\"nofollow\">namestajpomeri-novisad.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Kompletna izrada nameštaja po meri"
+    },
+    {
+      "type": "p",
+      "content": "Specijalizovani su za sve vrste stambenog i poslovnog enterijera:"
+    },
+    {
+      "type": "h3",
+      "content": "🍽️ Kuhinje po meri"
+    },
+    {
+      "type": "p",
+      "content": "U kuhinji počinju mirisi, ideje i druženja. Zato izrađuju kuhinje koje će se uklopiti u svaki centimetar prostora – uz izbor materijala, ručkica, radnih ploča i modernih tehničkih rešenja."
+    },
+    {
+      "type": "h3",
+      "content": "🛋️ Dnevne sobe po meri"
+    },
+    {
+      "type": "p",
+      "content": "TV police, komode, zidne jedinice, vitrine – sve što dnevnu sobu čini lepom i organizovanom. Dizajniraju rešenja koja maksimalno koriste prostor, a izgledom podižu ceo enterijer."
+    },
+    {
+      "type": "h3",
+      "content": "🛏️ Spavaće sobe po meri"
+    },
+    {
+      "type": "p",
+      "content": "Spavaća soba je vaša oaza. Izrađuju kompletne sobe, ormane, plakare i noćne elemente koji donose mir, red i udobnost."
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Plakari i police po meri"
+    },
+    {
+      "type": "p",
+      "content": "Ugradni plakari, klizna vrata, police po zidu, biblioteke… Možete birati tačan broj polica, fioka i dimenzija. Sve se pravi po meri – centimetar po centimetar."
+    },
+    {
+      "type": "h3",
+      "content": "🎨 Dečije sobe po meri"
+    },
+    {
+      "type": "p",
+      "content": "Za najmlađe – bezbedni, praktični i kreativni enterijeri koji rastu zajedno sa njima. Prilagođeno prostoru i mašti."
+    },
+    {
+      "type": "h3",
+      "content": "🏢 Poslovni prostor i lokal"
+    },
+    {
+      "type": "p",
+      "content": "Šankovi, barski stolovi, separei, info pultovi i kancelarijski nameštaj. Idealno za vlasnike lokala i firme koje žele jedinstven dizajn."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto je nameštaj po meri najbolji izbor?"
+    },
+    {
+      "type": "p",
+      "content": "Nameštaj po meri pristaje prostoru savršeno – baš kao odelo šiveno po meri. Bez praznih uglova, bez izgubljenih centimetara, bez kompromisa između izgleda i funkcije."
+    },
+    {
+      "type": "p",
+      "content": "Prednosti uključuju:<br>• potpunu prilagodljivost prostoru<br>• izbor materijala, boja i stilova<br>• dugotrajnost i kvalitet izrade<br>• maksimalnu funkcionalnost<br>• unikatan dizajn koji odražava vaš stil"
+    },
+    {
+      "type": "h2",
+      "content": "Kako izgleda proces izrade"
+    },
+    {
+      "type": "p",
+      "content": "1. <strong>Konsultacije:</strong> Razgovor o vašim željama i potrebama.<br>2. <strong>Merenje:</strong> Besplatno merenje prostora.<br>3. <strong>Dizajn:</strong> Predlog izgleda i rasporeda.<br>4. <strong>Izrada:</strong> 4–8 nedelja, precizan rad u radionici.<br>5. <strong>Montaža:</strong> Dolazak na adresu i profesionalna ugradnja.<br>6. <strong>Garancija:</strong> 2–5 godina, u zavisnosti od materijala."
+    },
+    {
+      "type": "h2",
+      "content": "Transparentan cenovnik – jedna od najboljih stvari na njihovom sajtu"
+    },
+    {
+      "type": "p",
+      "content": "Ovaj deo mi se posebno dopao. Za razliku od mnogih drugih firmi iz sličnih branši, Nikola i Lazar imaju jasno istaknut cenovnik. To znači da klijenti odmah znaju okvirne cene, šta mogu očekivati i koliko košta određeni tip nameštaja. U industriji gde većina izbegava da objavi cene – ovo je pravo osveženje. A pri tom, činjenica je da je to korisnicima jedno od glavnih pitanja koliko će sve to koštati."
+    },
+    {
+      "type": "p",
+      "content": "Cenovnik je dostupan ovde: <a href=\"https://namestajpomeri-novisad.rs/cenovnik/\" target=\"_blank\" rel=\"nofollow\">namestajpomeri-novisad.rs/cenovnik</a>"
+    },
+    
+    {
+      "type": "p",
+      "content": "Za sve informacije pozovite Nikolu na <a href=\"tel:+381600278069\"><strong>060 027 80 69</strong></a> ili Lazara na <a href=\"tel:+38163519667\"><strong>063 519 667</strong></a>. Dostupni su svaki dan od 08 do 21h."
+    }
+  ],
+  "services": [
+    {
+      "title": "Kuhinje po meri",
+      "description": "Dizajn, izrada i montaža kuhinja uz izbor materijala, dekoracije i savršen raspored."
+    },
+    {
+      "title": "Dnevne sobe po meri",
+      "description": "TV komode, police, zidne jedinice, vitrine i elementi za organizaciju prostora."
+    },
+    {
+      "title": "Spavaće sobe po meri",
+      "description": "Kompletna izrada soba, plakara, kreveta i praktičnih rešenja za odlaganje."
+    },
+    {
+      "title": "Plakari i police",
+      "description": "Ugradni i klizni plakari, biblioteke, viseće police i sistemi za odlaganje."
+    },
+    {
+      "title": "Nameštaj za lokale",
+      "description": "Barski stolovi, šankovi, separei, info pultovi i kancelarijski nameštaj."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Na kojoj teritoriji radite?",
+      "answer": "Na teritoriji celog Novog Sada i okoline. U posebним slučajevima izlaze i van grada, pa čak i širom Srbije."
+    },
+    {
+      "question": "Kako funkcioniše proces naručivanja?",
+      "answer": "Počinje besplatnim savetovanjem i merenjem, zatim ide dizajn, izrada nameštaja i završna montaža na adresi."
+    },
+    {
+      "question": "Da li nudite besplatne konsultacije i merenje?",
+      "answer": "Da – konsultacije i merenje su potpuno besplatni."
+    },
+    {
+      "question": "Koliko traje izrada?",
+      "answer": "Najčešće između 4 i 8 nedelja, u zavisnosti od kompleksnosti projekta."
+    },
+    {
+      "question": "Koje materijale koristite?",
+      "answer": "MDF, puno drvo, furnir, oplemenjene ploče i razne završne obrade po izboru."
+    },
+    {
+      "question": "Da li mogu da biram boje i obradu?",
+      "answer": "Naravno. Sve se radi prema vašem ukusu, od boje do ručica i završnih detalja."
+    },
+    {
+      "question": "Da li nudite garanciju?",
+      "answer": "Da, garancija je između 2 i 5 godina, zavisno od vrste materijala i izrade."
+    },
+    {
+      "question": "Radite li i poslovne prostore?",
+      "answer": "Da – rade lokale, kancelarije i komercijalne objekte po meri."
+    }
+  ]
+},
+
+  {
   "ime": "M&T Servis Beograd - Servis Sigurnosnih i Protivpožarnih Vrata 24/7",
   "tip": "firma",
   "kategorija": ["Bravar", "Servis Sigurnosnih Vrata", "Protivpožarna Vrata", "Hitne Intervencije", "Bravarske Usluge", "Ugradnja Opreme"],
@@ -344,7 +1242,7 @@
   "tip": "firma",
   "kategorija": ["Čišćenje", "Dubinsko Pranje Nameštaja", "Pranje Tepiha", "Održavanje Poslovnih Prostora", "Pranje Automobila", "Čišćenje Klima Uređaja", "Iznajmljivanje Mašina"],
   "opis_kratak": "Extra Clean – profesionalno dubinsko pranje nameštaja, tepiha, automobila, čišćenje klima uređaja i održavanje poslovnih prostora. Fleksibilno radno vreme, popusti za penzionere i trudnice. Novi Sad i okolina.",
-  "mesto": ["Novi Sad", "Sremska Kamenica", "Petrovaradin", "Veternik", "Futog", "Beočin", "Rumenka", "Kać", "Temeri", "Liman"],
+  "mesto": ["Novi Sad", "Sremska Kamenica", "Petrovaradin", "Veternik", "Futog", "Beočin", "Rumenka", "Kać", "Temerin", "Liman"],
   "adresa": "Petra Kočića 2, Sremska Kamenica 21208",
   "telefon": "+38163661103",
   "email": "",
@@ -6331,7 +7229,7 @@
   {
   "ime": "Haus Majstor Novi Sad – Sitne Popravke Koje Štede Dane",
   "tip": "majstor",
-  "kategorija": ["Sitne Popravke", "Elektro Instalacije", "Vodoinstalacije", "Montaža Nameštaja", "Bušenje i Kačenje", "Novi Sad"],
+  "kategorija": ["Sitne Popravke", "Elektro Instalacije", "Vodoinstalacije", "Montaža Nameštaja", "Bušenje i Kačenje" ],
   "opis_kratak": "Haus Majstor – elektrika, vodovod, montaža, bušenje, popravke. 20+ godina iskustva, tačnost, jasan cenovnik. Novi Sad i okolina.",
   "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Kraljevića Marka 60, Novi Sad 21000",
@@ -7604,7 +8502,7 @@
   {
   "ime": "Haus Majstor Novi Sad – Kompletan Tim za Održavanje i Popravke",
   "tip": "firma",
-  "kategorija": ["Hausmajstor", "Održavanje Objekata", "Vodovod", "Elektro", "Bravarija", "Stolarija", "Moleraj", "Novi Sad"],
+  "kategorija": ["Hausmajstor", "Održavanje Objekata", "Vodovod", "Elektro", "Bravarija", "Stolarija", "Moleraj"],
   "opis_kratak": "Haus Majstor – profesionalni tim za sve popravke, montažu i održavanje. Vodovod, elektro, keramika, moleraj. Novi Sad. Pon–Pet 8–16h.",
   "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temerin", "Bački Petrovac"],
   "address": "Bulevar cara Lazara 82, Novi Sad",
