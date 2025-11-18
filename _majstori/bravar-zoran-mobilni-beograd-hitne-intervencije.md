@@ -15,7 +15,7 @@ kategorija:
 - Servis Brava
 mesto: Beograd, Zemun, Novi Beograd, Vračar, Savski Venac, Stari Grad, Palilula, Voždovac,
   Čukarica, Rakovica, Zvezdara, Surčin
-address: Nema dostupnu adresu
+address: Marka Čelebonovića 27 11077 Beograd, Srbija
 kontakt_telefon: "+38169767013"
 email: inkaso.doo@gmail.com
 googlemaps: ''

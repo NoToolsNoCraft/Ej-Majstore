@@ -16,7 +16,7 @@ kategorija:
 - LED Rasveta
 mesto: Beograd, Zemun, Novi Beograd, Vračar, Savski Venac, Stari Grad, Palilula, Voždovac,
   Rakovica, Čukarica, Surčin, Barajevo
-address: Nema dostupnu adresu
+address: Beograd, Srbija
 kontakt_telefon: "+381628895111"
 email: beogradskimajstor@gmail.com
 googlemaps: ''

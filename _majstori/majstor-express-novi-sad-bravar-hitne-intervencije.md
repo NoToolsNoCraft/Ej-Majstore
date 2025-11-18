@@ -16,7 +16,7 @@ kategorija:
 - Otvaranje Sefova
 mesto: Novi Sad, Liman, Detelinara, Telep, Petrovaradin, Sremska Kamenica, Veternik,
   Futog
-address: Nema dostupnu adresu
+address: Gundulićeva 24, Novi Sad 21101
 kontakt_telefon: "+381638210786"
 email: nsmajstor.info@gmail.com
 googlemaps: ''

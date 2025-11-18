@@ -14,7 +14,7 @@ kategorija:
 - Ugradnja Brava
 - Servis PVC Vrata
 mesto: Subotica, Palić, Bajmok, Čantavir, Bačka Topola, Kanjiža, Senta, Ada
-address: Nema dostupnu adresu
+address: Subotica, Srbija
 kontakt_telefon: "+381642375828"
 email: info@zaglavljenasigurnosnavrata.rs
 googlemaps: ''

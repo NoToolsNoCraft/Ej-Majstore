@@ -15,7 +15,7 @@ kategorija:
 - Spušteni Plafoni
 - Dekorativne Tehnike
 mesto: Novi Sad, Sremska Kamenica, Veternik, Liman, Sremski Karlovci
-address: Nema dostupnu adresu
+address: Miše Dimitrijevića 24/32, Novi Sad 21000
 kontakt_telefon: "+381631479947"
 email: ''
 googlemaps: ''
@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-17'
-last_modified: '2025-11-17'
+last_modified: '2025-11-18'
 sections:
 - type: p
   content: Nije retkost da zidovi posive, napuknu ili jednostavno izgube onu svežinu
@@ -83,7 +83,7 @@ sections:
 - type: p
   content: Dizajn i montaža spuštenih plafona sa osvetljenjem. Moderno i funkcionalno.
 - type: h2
-  content: Kako Oni Rade – Od Procene do Savršenog Zida
+  content: Od Procene do Savršenog Zida
 - type: p
   content: 'Njihov proces je efikasan:<br>1. <strong>Poziv</strong>: Opišite prostor
     i želje.<br>2. <strong>Izlazak</strong>: Besplatna procena na licu mesta.<br>3.

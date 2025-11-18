@@ -33,7 +33,7 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-10-30'
-last_modified: '2025-11-05'
+last_modified: '2025-11-18'
 sections:
 - type: p
   content: 'Pre nekoliko meseci, započeo sam adaptaciju potkrovlja – demontaža, zidovi,
@@ -74,7 +74,9 @@ sections:
 - type: h3
   content: 1. Komarnici (Fiksni, Rolo, Plise)
 - type: p
-  content: Po meri, sve boje. Štite od insekata, lako se montiraju.
+  content: 'Po meri, sve boje. Štite od insekata, lako se montiraju. Ako vam je potrebna
+    pomoć pri odabiru, pročitajte naš vodič: <a href="https://ejmajstore.rs/blog/komarnici-plise-rolo-i-fiksni-koji-je-najbolji-za-vas/">Komarnici:
+    Plise, Rolo i Fiksni – Koji je najbolji za vas?</a>'
 - type: h3
   content: 2. PVC i ALU Paneli
 - type: p

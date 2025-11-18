@@ -13,7 +13,7 @@ kategorija:
 - Fiksni Komarnici
 - Montaža Komarnika
 mesto: Novi Sad, Petrovaradin, Sremska Kamenica, Veternik, Futog, Beočin
-address: Nema dostupnu adresu
+address: Lenjinova 16a, 21244 Šajkaš
 kontakt_telefon: "+38163545949"
 email: info@komarnicinovisad.com
 googlemaps: ''
@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-17'
-last_modified: '2025-11-17'
+last_modified: '2025-11-18'
 sections:
 - type: p
   content: 'Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda
@@ -75,8 +75,9 @@ sections:
 - type: h2
   content: Šta Nude – Tri Tipa Komarnika Koji Rešavaju Sve
 - type: p
-  content: 'Vidović Alu-Plast proizvodi i montira tri osnovna tipa komarnika – svaki
-    sa svojim prednostima:'
+  content: Vidović Alu-Plast proizvodi i montira tri osnovna tipa komarnika – svaki
+    sa svojim prednostima. Ako niste sigurni <a href="https://ejmajstore.rs/blog/komarnici-plise-rolo-i-fiksni-koji-je-najbolji-za-vas/">koji
+    je najbolji za vaš dom – plise, rolo ili fiksni</a>, pročitajte naš detaljni vodič.
 - type: h3
   content: "\U0001F300 Plise Komarnici – Luksuzno Rešenje za Velike Otvore"
 - type: p

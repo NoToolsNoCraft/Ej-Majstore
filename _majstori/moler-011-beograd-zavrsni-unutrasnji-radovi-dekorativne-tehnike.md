@@ -17,7 +17,7 @@ kategorija:
 - Održavanje Objekata
 mesto: Beograd, Zemun, Novi Beograd, Vračar, Savski Venac, Stari Grad, Palilula, Voždovac,
   Čukarica, Rakovica, Zvezdara, Surčin
-address: Nema dostupnu adresu
+address: Darinke Radović 5n, 11000 Beograd, Srbija
 kontakt_telefon: "+381643893898"
 email: moler011info@gmail.com
 googlemaps: ''

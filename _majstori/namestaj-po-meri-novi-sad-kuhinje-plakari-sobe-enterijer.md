@@ -18,7 +18,7 @@ kategorija:
 - Ugradnja Nameštaja
 mesto: Novi Sad, Petrovaradin, Sremska Kamenica, Veternik, Futog, Kać, Klisa, Liman,
   Detelinara, Grbavica
-address: Nema dostupnu adresu
+address: Novi Sad
 kontakt_telefon: "+381600278069"
 email: kontakt@namestajpomeri-novisad.rs
 googlemaps: ''

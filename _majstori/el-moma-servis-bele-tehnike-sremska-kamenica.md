@@ -18,7 +18,7 @@ kategorija:
 - Električni Šporeti
 mesto: Sremska Kamenica, Novi Sad, Petrovaradin, Veternik, Futog, Beočin, Liman, Telep,
   Detelinara, Rumenka
-address: Nema dostupnu adresu
+address: Partizanska 12, Sremska Kamenica 21208
 kontakt_telefon: "+381653373555"
 email: elmomaservis@gmail.com
 googlemaps: ''

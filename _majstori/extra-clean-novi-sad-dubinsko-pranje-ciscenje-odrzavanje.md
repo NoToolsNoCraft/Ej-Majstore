@@ -16,7 +16,7 @@ kategorija:
 - Iznajmljivanje Mašina
 mesto: Novi Sad, Sremska Kamenica, Petrovaradin, Veternik, Futog, Beočin, Rumenka,
   Kać, Temerin, Liman
-address: Nema dostupnu adresu
+address: Petra Kočića 2, Sremska Kamenica 21208
 kontakt_telefon: "+38163661103"
 email: ''
 googlemaps: ''

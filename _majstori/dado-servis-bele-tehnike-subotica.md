@@ -12,7 +12,7 @@ kategorija:
 - Ugradnja Klima Uređaja
 - Rashladni Sistemi
 mesto: Subotica, Palić, Bajmok, Aleksandrovo, Đurđin, Čantavir, Bačko Dušanovo
-address: Nema dostupnu adresu
+address: Bihaćka 17, Subotica
 kontakt_telefon: 024-543-031
 email: kdado@sezampro.com
 googlemaps: ''

@@ -15,7 +15,7 @@ kategorija:
 - Šporeti
 mesto: Novi Sad, Adice, Veternik, Futog, Petrovaradin, Sremska Kamenica, Telep, Liman,
   Detelinara, Novi Sad Centar
-address: Nema dostupnu adresu
+address: Desanke Maksimović 76, Novi Sad 21000
 kontakt_telefon: "+381631363588"
 email: ''
 googlemaps: ''

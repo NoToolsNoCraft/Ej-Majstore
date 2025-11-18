@@ -15,7 +15,7 @@ kategorija:
 - Sudo Mašine
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
   Kać, Temerin, Bački Petrovac
-address: Nema dostupnu adresu
+address: Dr Laze Markovića 2, Novi Sad 21000
 kontakt_telefon: "+38163581921"
 email: info@lojdservis.com
 googlemaps: ''

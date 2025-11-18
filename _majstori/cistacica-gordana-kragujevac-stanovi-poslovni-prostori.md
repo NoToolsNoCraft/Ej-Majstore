@@ -14,7 +14,7 @@ kategorija:
 - Pranje Prozora
 mesto: Kragujevac, Aerodrom, Bubanj, Stanovo, Ćava, Lužnica, Beli Lug, Čibukovac,
   Stragari, Vinča
-address: Nema dostupnu adresu
+address: Kragujevac, Srbija
 kontakt_telefon: "+381605572521"
 email: ''
 googlemaps: ''

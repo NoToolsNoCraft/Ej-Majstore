@@ -16,7 +16,7 @@ kategorija:
 - Ugradnja Opreme
 mesto: Beograd, Zemun, Novi Beograd, Vračar, Savski Venac, Stari Grad, Palilula, Voždovac,
   Čukarica, Rakovica, Zvezdara
-address: Nema dostupnu adresu
+address: 'Bačevci bb, Bajina Bašta (operativno: Beograd)'
 kontakt_telefon: "+381649455117"
 email: todosije1983@gmail.com
 googlemaps: ''

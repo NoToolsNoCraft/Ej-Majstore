@@ -16,8 +16,7 @@ kategorija:
 mesto: Novi Sad, Avijatičarsko Naselje, Petrovaradin, Klisa, Sremska Kamenica, Beočin,
   Liman, Bistrica, Telep, City Centre, Detelinara, Bukovac, Kać, Rumenka, Podbara,
   Adice, Salajka, Sajlovo
-address: <a href="https://maps.app.goo.gl/nAE9MsnAZrhirnMs7" target="_blank" rel="nofollow">Bulevar
-  Kralja Petra Prvog, Novi Sad 21000</a>
+address: Bulevar Kralja Petra Prvog, Novi Sad 21000
 kontakt_telefon: "+381613049189"
 email: elektricar021novisad@gmail.com
 googlemaps: ''

@@ -58,7 +58,7 @@ defaults:
       type: posts
     values:
       sitemap:
-        lastmod: "2025-10-18"
+        lastmod: "2025-11-18"
         priority: 0.9
         changefreq: "daily"
   - scope:

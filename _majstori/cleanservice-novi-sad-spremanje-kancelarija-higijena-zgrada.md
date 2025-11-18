@@ -16,7 +16,7 @@ kategorija:
 - Generalno Spremanje
 mesto: Novi Sad, Telep, Liman, Detelinara, Sajmište, Novi Sad Centar, Petrovaradin,
   Veternik, Futog, Sremska Kamenica
-address: Nema dostupnu adresu
+address: Lukijana Mušickog 11, Novi Sad 21000
 kontakt_telefon: "+38121523728"
 email: cleanservice021@gmail.com
 googlemaps: ''

@@ -32,7 +32,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-10'
-last_modified: '2025-11-10'
+last_modified: '2025-11-18'
 sections:
 - type: p
   content: Komarnika za prozor ili vrata se često setimo tek kada su prozori i vrata
@@ -71,7 +71,9 @@ sections:
 - type: h2
   content: Šta Insecto Radi – Od Mere do Mira
 - type: p
-  content: 'Evo kakve vam probleme rešava – sa detaljima:'
+  content: Evo kakve vam probleme rešava – sa detaljima. Ukoliko vam je potrebna pomoć
+    oko odabira, ovde možete pročitati <a href="https://ejmajstore.rs/blog/komarnici-plise-rolo-i-fiksni-koji-je-najbolji-za-vas/">detaljno
+    poređenje plise, rolo i fiksnih komarnika</a>.
 - type: h3
   content: "\U0001F99F Plise Komarnici"
 - type: p

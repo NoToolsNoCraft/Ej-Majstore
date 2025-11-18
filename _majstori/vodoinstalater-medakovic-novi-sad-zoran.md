@@ -16,7 +16,7 @@ kategorija:
 - Podno Grejanje
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica, Beočin, Rumenka,
   Kać, Temerin, Liman, Telep, Adice
-address: Nema dostupnu adresu
+address: Nova 36, Novi Sad 21000
 kontakt_telefon: "+381638433590"
 email: info@vodoinstalater-medakovic.rs
 googlemaps: ''
