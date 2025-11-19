@@ -5,7 +5,7 @@ description: Strahinja – zamena slavina, odgušenje, kačenje polica, popravka
   sastavljanje nameštaja. 0-24, Vršac i okolina. u Vršac.
 ime: Strahinja Dondur Vršac – Hausmajstor za Vodovod i Kačenje Elemenata
 kategorija:
-- Vodovodar
+- Vodoinstalater
 - Hausmajstor
 - Odgušenje odvoda
 - Popravke

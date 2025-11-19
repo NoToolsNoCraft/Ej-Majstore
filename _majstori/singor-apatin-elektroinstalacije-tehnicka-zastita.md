@@ -4,8 +4,7 @@ title: SINGOR iz Apatina Elektroinstalira Budućnost Bačke
 description: SINGOR iz Apatina – 15+ godina iskustva u projektovanju, izvođenju i
   merenju elektroinstalacija. Specijalisti za alarmne sisteme, video nadzor, rasvetu
   i pametne instalacije. Radimo u skladu sa standardima – od stana do industrije.
-  u Apatin, Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica, Obrovac, Svilojevo,
-  Selenča, Prigrevica.
+  u Apatin, Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica.
 ime: SINGOR iz Apatina Elektroinstalira Budućnost Bačke
 kategorija:
 - Elektroinstalacije
@@ -14,8 +13,7 @@ kategorija:
 - Video nadzor
 - Alarmni sistemi
 - Rasveta
-mesto: Apatin, Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica, Obrovac, Svilojevo,
-  Selenča, Prigrevica
+mesto: Apatin, Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica
 address: 25. maj br. 7, 25260 Apatin
 kontakt_telefon: "+38169779560"
 email: sinisamedic23@gmail.com
@@ -34,31 +32,50 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
-last_modified: '2025-10-29'
+last_modified: '2025-11-19'
 sections:
 - type: p
-  content: Na adresi <strong>25. maj br. 7 u Apatinu</strong> nalazi se <strong>SINGOR</strong>
-    – firma koja od 2009. godine projektuje, izvodi i meri elektroinstalacije širom
-    Vojvodine. Specijalizovani za jake i slabe struje, alarmne sisteme, video nadzor,
-    rasvetu i energetsku efikasnost – rade u skladu sa svim standardima i zakonima.
+  content: U svakom gradu postoji ona zgrada koja ima večiti problem sa osiguračima.
+    U jednoj kući svetla trepere kad god se uključi veš mašina, a u drugoj poslovnoj
+    zgradi alarm se pali bez ikakvog razloga – jednom nedeljno, uvek u najgorem trenutku.
+    Neke porodice traže način da konačno urede rasvetu u dvorištu koja neće pregoreti
+    svaka tri meseca, dok preduzetnici shvataju da im treba ozbiljniji video nadzor
+    jer ‘jeftina varijanta’ jednostavno nije dovoljna. U Vojvodini, problemi sa strujom
+    i instalacijama nisu retkost – retkost je pronaći firmu kojoj možeš verovati da
+    ih reši.
 - type: p
-  content: 'Od stambenih zgrada u Novom Sadu, preko hotela u Apatinu, do industrijskih
-    hala u Somboru – SINGOR je ostavio trag na preko <strong>50 realizovanih projekata</strong>.
-    Njihov moto: <em>„Bezbedno. Kvalitetno. Trajno.“</em>'
+  content: 'Zato se često spominje jedna adresa: <strong>25. maj br. 7 u Apatinu</strong>.
+    Tamo se nalazi <strong>SINGOR</strong> – firma koja od 2009. godine ulazi u domove,
+    lokale i hale širom regiona i tamo gde drugi vide ‘kablove i haos’, oni vide projektni
+    zadatak. Specijalizovani za jake i slabe struje, alarmne sisteme, video nadzor,
+    rasvetu i energetsku efikasnost, rade tiho, precizno i po svim standardima koji
+    garantiraju sigurnost.'
 - type: h2
-  content: Ko je SINGOR – Kratak Pregled
+  content: Kada treba rešenje – a ne samo majstor
 - type: p
-  content: Osnovani pre više od <strong>15 godina</strong>, SINGOR je postao sinonim
-    za pouzdanost u elektrotehnici. Rade na projektima svih veličina – od jednosobnog
-    stana do industrijske hale. Tim čine stručnjaci sa licencom, koji koriste savremenu
-    opremu i materijale.
+  content: 'Ako ste ikada menjali instalaciju u starom stanu, znate šta znači kad
+    majstor radi napamet. A znate i šta znači kada radi tim koji ima iskustva u <strong>preko
+    50 završenih projekata</strong> – od stambenih zgrada u Novom Sadu, preko hotela
+    u Apatinu, do industrijskih objekata u Somboru. Kod SINGOR-a se svaki kabl planira,
+    svaka utičnica ima svoju logiku, a svaki sistem funkcioniše godinama bez improvizacije.
+    Njihov moto nije samo slogan već obećanje klijentima: <em>„Bezbedno. Kvalitetno.
+    Trajno.“</em>'
+- type: h2
+  content: Ko je SINGOR?
+- type: p
+  content: Osnovani pre skoro <strong>20 godina</strong>, SINGOR je postao sinonim
+    za pouzdanost u elektrotehnici širom Vojvodine. Rade sve – od malih stanova do
+    kompleksnih industrijskih postrojenja. Njihov tim čine licencirani stručnjaci
+    koji koriste savremenu opremu i materijale, ali ono što klijenti najviše pamte
+    jeste osećaj da je posao obavljen tačno onako kako treba – bez improvizacije,
+    bez rizika i bez nepredviđenih iznenađenja.
 - type: p
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+38169779560\">+381 69 779 560</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:sinisamedic23@gmail.com\">sinisamedic23@gmail.com</a><br>\U0001F310
-    <strong>Veb-sajt:</strong> <a href=\"https://singor.rs/\" target=\"_blank\" rel=\"noopener
-    nofollow\">singor.rs</a><br>\U0001F4CD <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/VGbDUdrAzDcs2SMr7\"
-    target=\"_blank\" rel=\"noopener nofollow\">25. maj br. 7, Apatin</a>"
+    <strong>Veb-sajt:</strong> <a href=\"https://singor.rs/\" target=\"_blank\" rel=\"noopener\">singor.rs</a><br>\U0001F4CD
+    <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/VGbDUdrAzDcs2SMr7\"
+    target=\"_blank\" rel=\"noopener\">25. maj br. 7, Apatin</a>"
 - type: p
   content: "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 08:00–14:30h<br>Subota:
     09:00–12:00h"

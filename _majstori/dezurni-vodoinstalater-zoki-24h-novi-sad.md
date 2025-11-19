@@ -4,9 +4,7 @@ title: Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspres
 description: Zoran Minić – Zoki, dežurni vodoinstalater Novog Sada. 24/7 hitne intervencije,
   mašinsko odgušenje, popravka bojlera i zamena sanitarija. Preko 400 recenzija sa
   prosečnom ocenom 5.0 – stiže za 30–45 minuta, bez obzira na doba dana. u Novi Sad,
-  Liman, Novo Naselje, Detelinara, Veternik, Petrovaradin, Sremska Kamenica, Futog,
-  Rumenka, Kać, Adice, Podbara, Stari Grad, Sajlovo, Telep, Avijacija, Bulevar, Grbavica,
-  Rotkvarija, Salajka.
+  Liman, Novo Naselje, Detelinara, Veternik, Petrovaradin.
 ime: Vodoinstalater Zoki Novi Sad 24h – Dežurni Majstor Koji Stiže Ekspresno
 kategorija:
 - Vodoinstalater
@@ -14,9 +12,7 @@ kategorija:
 - Odgušenje kanalizacije
 - Popravka bojlera
 - Zamena sanitarija
-mesto: Novi Sad, Liman, Novo Naselje, Detelinara, Veternik, Petrovaradin, Sremska
-  Kamenica, Futog, Rumenka, Kać, Adice, Podbara, Stari Grad, Sajlovo, Telep, Avijacija,
-  Bulevar, Grbavica, Rotkvarija, Salajka
+mesto: Novi Sad, Liman, Novo Naselje, Detelinara, Veternik, Petrovaradin
 address: Bulevar Oslobođenja 4, 21000 Novi Sad
 kontakt_telefon: '0641848856'
 email: zoranminic65@gmail.com
@@ -35,39 +31,44 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-28'
-last_modified: '2025-10-28'
+last_modified: '2025-11-19'
 sections:
 - type: p
-  content: 'Bilo je <strong>2:47 ujutru</strong>. Zvuk kapljanja probudio me je iz
-    sna – najpre tih, a onda sve glasniji, kao da pljušti letnja kiša. Samo što nije
-    bila napolju. Voda je nadirala ispod vrata kupatila. <em>Pukla cev.</em> Panika.
-    Telefon u ruke. Ukucavam: „<strong>Dežurni vodoinstalater Novi Sad</strong>“.
-    Među prvima – <strong>Zoki</strong>.'
+  content: 'Uvek se dogodi onda kada najmanje treba. Kasno je u noć, gradska svetla
+    blede, a iz kupatila se čuje ono poznato – tup... tup... tup. Nekad je to nevin
+    zvuk kapljanja, ali ponekad postane nešto mnogo ozbiljnije. Poplava u dva ujutru,
+    hladna voda koja pronalazi put kroz fuge, ili ono najgore – tihi lom cevi koji
+    se primeti tek kada je već kasno. Mnogi su se našli u tim situacijama: ne znate
+    koga da zovete, a vreme curi jednako brzo kao i voda.'
 - type: p
-  content: 'Zovem ga. Glas miran, siguran: <em>„Dolazim odmah“</em>. I za manje od
-    <strong>40 minuta</strong>, vrata su se otvorila – čovek sa alatom, lampom i osmehom
-    koji kao da kaže: <em>„Ne brini, ovo će biti rešeno.“</em>'
+  content: 'Ili jutarnji klasik – spremate se za posao, a iz sudopere izbija voda
+    kao da ste u scenama iz starog crtanog filma. Ili vikendom, kad ste sigurni da
+    niko ne radi, šolja iznenada krene da se preliva. Ljudi tada obično pretražuju
+    isto: <strong>„hitni vodoinstalater Novi Sad“, „začepljena kanalizacija noću“,
+    „pukla cev šta da radim“</strong>.'
 - type: h2
-  content: Ko je Zoki – Vodoinstalater Koji Radi Kada Svi Ostali Spavaju
+  content: Ko Je Zadužen Za Te Najgore Trenutke?
 - type: p
-  content: "<strong>Zoran Minić – Zoki</strong>, u Novom Sadu ima reputaciju koju
-    majstori retko steknu – <em>dežurni spasilac</em>. Više od <strong>15 godina iskustva</strong>,
-    profesionalne mašine, kamere i sajle, i jedno jednostavno pravilo: <em>„Ako ne
-    stignem za 45 minuta – ne plaćaš ništa.“</em>"
+  content: 'U tim neplaniranim, napetim situacijama, u Novom Sadu postoji jedno ime
+    koje se često preporučuje – <strong>Zoran Minić, poznatiji kao Zoki</strong>.
+    Sa sada već <strong>mnogo godina iskustva</strong> na terenu, sa sobom donosi
+    profesionalne mašine, kamere, sajle, i pre svega – spremnost da izađe na intervenciju
+    onda kada drugi majstori ne dižu slušalicu. Njegovo nepisano pravilo mnogi već
+    znaju: <em>„Ako ne rešim – ne naplaćujem.“</em>'
 - type: p
-  content: 'Njegove intervencije nisu samo popravke. To su <strong>spasene noći</strong>,
-    spratovi bez poplava, i ljudi koji se sutra probude zahvalni. Preko <strong>400
-    recenzija na Google-u sa prosečnom ocenom 5.0</strong> – i svaka ima sličan ton:
-    brz, pedantan, pošten.'
+  content: 'Zokijeve intervencije nisu samo popravke. Često su to <strong>spasene
+    noći</strong>, izbegnute poplave, prozorići kroz koje sutradan ljudi prođu sa
+    olakšanjem. Preko <strong>400 recenzija na Google-u, sa prosečnom ocenom 5.0</strong>,
+    potvrđuju ono što se u gradu već zna: brz, tačan, pošten i uvek spreman da pomogne
+    kada voda rešava da testira živce.'
 - type: p
   content: Njegova baza je na <strong>Bulevaru Oslobođenja 4</strong> u Novom Sadu
     – <a href="https://maps.app.goo.gl/NW2F8xtgvNpZgdex5" target="_blank" rel="noopener
     nofollow">vidi lokaciju na mapi</a>. Sve usluge i cene nalaze se na sajtu <a href="https://vodoinstalater-zoki.rs/"
-    target="_blank" rel="noopener nofollow">vodoinstalater-zoki.rs</a>.
+    target="_blank" rel="noopener">vodoinstalater-zoki.rs</a>.
 - type: ul
   items:
   - Dostupan <strong>24/7</strong> – stiže u roku od <strong>30–45 minuta</strong>
-  - Preko <strong>400 zadovoljnih klijenata</strong> sa ocenama <strong>5.0</strong>
   - Mašinsko odgušenje i <strong>dijagnostika kamerom</strong>
   - "<strong>Garancija na svaki rad i deo</strong>"
   - Bez skrivenih troškova – dogovor pre početka rada
@@ -100,9 +101,6 @@ sections:
     za <strong>pouzdanog vodoinstalatera u Novom Sadu</strong>.
 - type: h2
   content: 5 Znakova da Vam je Potrebna Hitna Intervencija
-- type: p
-  content: 'Zoki često kaže: <em>„Cev uvek upozori pre nego što pukne.“</em> Ako primetite
-    neki od ovih znakova – reagujte odmah:'
 - type: ol
   items:
   - Kapljanje i kada su slavine zatvorene
@@ -120,11 +118,6 @@ sections:
     cena</strong>, brza i čista intervencija. Zoki koristi profesionalnu opremu i
     uvek pokazuje šta je tačno bilo problem. Nakon toga – savetuje kako da se situacija
     ne ponovi.'
-- type: p
-  content: "<em>„Nisam samo vodoinstalater“</em>, kaže Zoki. <em>„Ja sam noćni spasilac.
-    Kad drugi spavaju, ja radim da bi oni imali miran san.“</em>"
-- type: p
-  content: I zato kad Novi Sad pomisli na hitnu intervenciju – pomisli na <strong>Zokija</strong>.
 services:
 - title: Mašinsko i Ručno Odgušenje Kanalizacije 24/7
   description: Najbrže i najpovoljnije odgušenje WC šolja, sudopera, kada i slivnika
@@ -147,13 +140,13 @@ faq:
 - question: Koliko košta hitna intervencija u 3 ujutru?
   answer: Cene su transparentne i formiraju se nakon procene na licu mesta. Nema skrivenih
     troškova – uvek najbolji odnos cene i kvaliteta.
-- question: Koliko brzo Zoki stiže na Liman ili Veternik?
+- question: Koliko brzo stiže na Liman ili Veternik?
   answer: Za hitne slučajeve stiže unutar 30–45 minuta, bez obzira na lokaciju – Liman,
     Detelinara, Veternik, Petrovaradin, Futog...
 - question: Da li Zoki daje garanciju na popravku?
   answer: Da, na sve zamenjene delove i rad daje pismenu garanciju. Koristi samo originalne
     rezervne delove.
-- question: Da li Zoki radi u Futogu, Kaću ili Sremskoj Kamenici?
+- question: Da li radi u Futogu, Kaću ili Sremskoj Kamenici?
   answer: Da, redovno izlazi u Veternik, Petrovaradin, Sremsku Kamenicu, Rumenku,
     Kać i Futog – bez dodatnih troškova za put.
 - question: Kako da kontaktiram Zokija?
@@ -165,6 +158,7 @@ tips:
 - Koristite filtere za vodu – produžite vek bojlera za 5+ godina
 - Imajte dežurni broj u kontaktima – ne čekajte jutro
 - Tražite pismenu garanciju – pravi majstor je uvek spreman da stane iza svog rada
-tips_title: '5 Zlatnih Saveta od Zokija: Kako Nikad Nećete Pozvati Dežurnog Vodoinstalatera'
+tips_title: Na šta posebno obratiti pažnju kada su vodovodarski hitni slučajevi u
+  pitanju
 permalink: "/izvodjaci/novi-sad/dezurni-vodoinstalater-zoki-24h-novi-sad/"
 ---

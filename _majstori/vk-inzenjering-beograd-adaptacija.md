@@ -15,8 +15,8 @@ kategorija:
 - Keramičarski Radovi
 - Molerski Radovi
 - Rušenje i Odvoženje Šuta
-- Tesarski Radovi
-- Vodoinstalaterski Radovi
+- Tesar
+- Vodoinstalater
 - Parketarski Radovi
 - Limarski Radovi
 - Elektroinstalacije
