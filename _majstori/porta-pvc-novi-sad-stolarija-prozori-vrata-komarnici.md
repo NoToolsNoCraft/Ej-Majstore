@@ -36,27 +36,38 @@ date: '2025-10-31'
 last_modified: '2025-10-31'
 sections:
 - type: p
-  content: Pre par godina, renovirao sam stan u Limanu – stari drveni prozori, promaja,
-    buka sa ulice, računi za grejanje preko 15.000 dinara zimi. Čuo sam za <strong>subvencije
-    Grada Novog Sada</strong> za zamenu stolarije, pa sam potražio firmu koja radi
-    brzo i kvalitetno. Naišao sam na <strong>Porta PVC</strong> na <strong>Futoškom
-    putu 5</strong>. Dogovor preko telefona, merenje za 2 dana, ugradnja za nedelju
-    – i evo, sada je stan tih, topao, a računi manji za 40%. To je bio moj prvi kontakt
-    sa Porta PVC – i nije bio poslednji.
+  content: 'Mnogi Novosađani znaju onaj trenutak kada shvate da je vreme za promenu
+    stolarije: zimi promaja nosi zavese kao da ste otvorili balkon, leti se zidovi
+    pregrevaju, a buka sa ulice ne prestaje čak ni noću. Računi rastu, udobnost opada
+    – i onda kreće pitanje: „Da li da menjam? Koga da zovem? Hoće li to zaista vredeti?“'
+- type: p
+  content: Upravo u takvim situacijama pojavljuje se <strong>Porta PVC</strong>, sa
+    adresom na <strong>Futoškom putu 5</strong>. Za mnoge domaćine i stanare, oni
+    su bili prvi korak ka toplijem, tišem i energetski efikasnijem domu – pogotovo
+    otkako je <strong>Grad Novi Sad uveo subvencije</strong> za zamenu stolarije.
+    Ljudi ih kontaktiraju jer traže brzinu, tačnost, garantovan kvalitet i pošten
+    pristup bez „skrivenih stavki“.
 - type: p
   content: "<strong>Porta PVC D.O.O.</strong> je <strong>sertifikovani uvoznik i montažer
-    Trocal PVC profila</strong>. Preko <strong>2500 zadovoljnih korisnika</strong>,
-    <strong>1600 realizovanih projekata</strong>. Specijalizovani za <em>energetski
-    efikasnu stolariju, subvencionisane zamene, rolo komarnike i sigurnosna vrata</em>."
+    Trocal PVC profila</strong>, sa preko <strong>2500 zadovoljnih korisnika</strong>
+    i <strong>1600 realizovanih projekata</strong>. Njihova specijalnost su <em>energetski
+    efikasna PVC stolarija, subvencionisane zamene, rolo komarnici i sigurnosna vrata</em>
+    – sve ono što pravi razliku između problematičnog stana i doma u kom je konačno
+    udobno."
 - type: p
-  content: 'Tako sam zaključio nešto što bi mogao biti njihov moto: <em>„Kvalitet
-    nije skup – promaja jeste.“</em> Fokus na <strong>uštedu energije, tišinu, sigurnost</strong>.'
+  content: 'Kroz sve priče njihovih klijenata provlači se ista misao, ona koja bi
+    mogla biti i moto firme: <em>„Kvalitet nije skup – promaja jeste.“</em> I zaista,
+    kada se fokus stavi na <strong>uštedu energije, tišinu i sigurnost</strong>, ulaganje
+    postaje logično, a rezultat vidljiv već prve sezone.'
 - type: h2
   content: Ko je Porta PVC – Lider u Energetskoj Efikasnosti u Novom Sadu
 - type: p
-  content: Firma sa <strong>dugogodišnjim iskustvom</strong>, ekskluzivni partner
-    <strong>Trocal (Nemačka)</strong>. Koriste <strong>LOW-E staklo, argon, termo
-    prekid</strong>. Montaža po <strong>RAAL standardima</strong>.
+  content: 'Porta PVC je firma sa <strong>dugogodišnjim iskustvom</strong>, ekskluzivni
+    partner <strong>Trocal (Nemačka)</strong>, poznatog po premium PVC profilima.
+    Koriste <strong>LOW-E staklo, argon punjenje i termo prekid</strong>, a svaka
+    montaža se izvodi po <strong>RAAL standardima</strong> – što znači precizno, energetski
+    efikasno i trajno. Njihov pristup: da svaka ugradnja bude ulaganje koje traje
+    decenijama.'
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38169774754\">+381
     69 774 754</a><br>\U0001F4E7 <strong>Email:</strong> <a href=\"mailto:portanspvc@gmail.com\">portanspvc@gmail.com</a><br>\U0001F310
@@ -89,17 +100,6 @@ sections:
 - type: p
   content: Pomoć oko prijave, do 50.000 dinara refundacije po stanu.
 - type: h2
-  content: Gde Radi Porta PVC – Ceo Novi Sad i Okolina
-- type: p
-  content: 'Baziran u <strong>Novom Sadu</strong>, montiraju u:'
-- type: ul
-  items:
-  - "<strong>Liman, Detelinara</strong> – zamena starih prozora"
-  - "<strong>Telep, Adice</strong> – sigurnosna vrata"
-  - "<strong>Petrovaradin, Sremska Kamenica</strong> – roletne"
-  - "<strong>Veternik, Futog</strong> – rolo komarnici"
-  - "<strong>Beočin, Rumenka</strong> – kompletna stolarija"
-- type: h2
   content: Kako Funkcioniše Saradnja sa Porta PVC
 - type: p
   content: "<strong>1. Poziv/Mail</strong> – opišete šta vam treba<br><strong>2. Merenje</strong>
@@ -108,6 +108,8 @@ sections:
     garancija"
 - type: h2
   content: Zašto Porta PVC – Rezultati Govore
+- type: p
+  content: 'Ovo su podaci koje oni iznose sa ponosom, a ja vam ih samo prenosim:'
 - type: p
   content: "<strong>2500+</strong> zadovoljnih korisnika<br><strong>1600+</strong>
     realizovanih projekata<br><strong>650+</strong> uspešnih saradnji"

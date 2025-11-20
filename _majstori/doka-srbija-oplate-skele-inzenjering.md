@@ -3,8 +3,7 @@ layout: majstor_profil
 title: Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte
 description: Doka Srbija – deo globalne Doka grupacije. Pruža inovativne oplatne sisteme,
   skele, inženjersku podršku i digitalna rešenja za bezbednu i efikasnu gradnju u
-  Srbiji. u Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Pančevo, Zemun,
-  Sremska Mitrovica, Inđija.
+  Srbiji. u Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Pančevo.
 ime: Doka Srbija – Svetski Lider u Oplatama i Skelama za Velike Projekte
 kategorija:
 - Oplate
@@ -12,8 +11,7 @@ kategorija:
 - Inženjering
 - Građevinska Oprema
 - Digitalna Rešenja
-mesto: Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Pančevo, Zemun, Sremska
-  Mitrovica, Inđija
+mesto: Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Pančevo
 address: Svetogorska 4, 22310 Šimanovci
 kontakt_telefon: "+38122400100"
 email: serb@doka.com
@@ -35,28 +33,37 @@ date: '2025-10-29'
 last_modified: '2025-10-29'
 sections:
 - type: p
-  content: Na adresi <strong>Svetogorska 4 u Šimanovcima</strong> nalazi se <strong>Doka
-    Srbija</strong> – ogranak globalne <strong>Doka grupacije</strong> sa preko <em>160
-    lokacija u 50+ zemalja</em>. Specijalizovani za <strong>oplate, skele i inženjerska
-    rešenja</strong> za najzahtevnije građevinske projekte u Srbiji.
+  content: 'Svako ko se bavi građevinom zna onaj osećaj kada se projekat približava
+    kritičnoj tački: visine rastu, rokovi pritiskaju, a konstrukcija mora biti savršeno
+    stabilna. Greške se ne praštaju, a improvizacija – ona jednostavno ne postoji
+    u ozbiljnoj gradnji. U takvim trenucima firme traže ono najbolje što industrija
+    može da ponudi.'
 - type: p
-  content: 'Od mostova i tunela do nebodera i stambenih kompleksa – Doka sistemi su
-    <strong>garancija sigurnosti, brzine i preciznosti</strong>. Njihov moto: <em>„Bezbednost
-    na prvom mestu. Efikasnost u svakom detalju.“</em>'
+  content: "<strong>Doka Srbija</strong> je domaći ogranak globalne <strong>Doka grupacije</strong>,
+    kompanije koja posluje u <em>50+ zemalja</em> i na preko <em>160 lokacija širom
+    sveta</em>. Specijalizovani su za <strong>oplate, skele i inženjerska rešenja</strong>
+    za najzahtevnije infrastrukturne i visokogradnje projekte u Srbiji."
+- type: p
+  content: Od mostova koji povezuju gradove, tunela koji skraćuju putovanja, do nebodera
+    i velikih stambenih kompleksa – Doka sistemi su sinonim za <strong>sigurnost,
+    brzinu i preciznost</strong>. Oni ne samo da isporučuju opremu – već stvaraju
+    uslove da projekti napreduju onako kako je planirano.
 - type: h2
-  content: Ko je Doka – Globalni Standard u Građevinarstvu
+  content: Globalni Standard u Građevinarstvu
 - type: p
-  content: Doka je deo <strong>Umdasch grupacije</strong> i svetski lider u <strong>oplatnim
-    tehnologijama</strong>. U Srbiji posluju iz <strong>Šimanovaca</strong>, pružajući
-    <em>prodaju, iznajmljivanje, inženjering i obuku</em>. Njihov tim čine iskusni
-    inženjeri i terenski stručnjaci.
+  content: 'Doka je deo <strong>Umdasch grupacije</strong> i svetski lider u <strong>oplatnim
+    tehnologijama</strong>. U Srbiji posluju iz <strong>Šimanovaca</strong>, gde pružaju
+    kompletne usluge: <em>prodaju, iznajmljivanje, inženjering i obuku</em>. Njihov
+    tim čine iskusni projektanti i terenski stručnjaci koji razumeju šta znači raditi
+    pod pritiskom rokova – i zato nude rešenja koja ubrzavaju rad, povećavaju bezbednost
+    i smanjuju troškove.'
 - type: p
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+38122400100\">+381 22 400 100</a><br>\U0001F4E7 <strong>Email:</strong>
     <a href=\"mailto:serb@doka.com\">serb@doka.com</a><br>\U0001F310 <strong>Veb-sajt:</strong>
-    <a href=\"https://www.doka.com/rs/index\" target=\"_blank\" rel=\"noopener nofollow\">doka.com/rs</a><br>\U0001F4CD
+    <a href=\"https://www.doka.com/rs/index\" target=\"_blank\" rel=\"noopener\">doka.com/rs</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/cDfUMmW5pN4v7DHd9\"
-    target=\"_blank\" rel=\"noopener nofollow\">Svetogorska 4, Šimanovci</a>"
+    target=\"_blank\" rel=\"noopener\">Svetogorska 4, Šimanovci</a>"
 - type: h2
   content: Šta Nudi Doka Srbija – Kompletna Rešenja za Velike Projekte
 - type: p
@@ -86,18 +93,6 @@ sections:
 - type: p
   content: Obuka za montažere, nadzor na gradilištu, brza intervencija. <strong>Bezbednost
     na prvom mestu</strong>.
-- type: h2
-  content: Gde Radi Doka – Cela Srbija
-- type: p
-  content: 'Iako bazirani u <strong>Šimanovcima</strong>, Doka je prisutna na svim
-    velikim projektima:'
-- type: ul
-  items:
-  - "<strong>Beograd</strong> – Beograd na vodi, mostovi preko Save"
-  - "<strong>Novi Sad</strong> – stambeni kompleksi, Petrovaradin"
-  - "<strong>Niš</strong> – infrastruktura, tuneli"
-  - "<strong>Kragujevac, Subotica</strong> – industrijske hale"
-  - "<strong>Pančevo, Inđija</strong> – logistički centri"
 - type: h2
   content: Kako Funkcioniše Saradnja sa Dokom
 - type: p
@@ -135,14 +130,14 @@ faq:
 - question: Koje oplate Doka nudi?
   answer: Zidne (Framax), pločaste (Dokaflex), penjuće, stubne – sve modularne i višekratne.
 - question: Da li Doka iznajmljuje opremu?
-  answer: Da, nudimo iznajmljivanje oplata i skela sa logistikom i podrškom.
+  answer: Da, nude iznajmljivanje oplata i skela sa logistikom i podrškom.
 - question: Šta je Concremote?
   answer: Digitalni sistem za praćenje zrelosti betona u realnom vremenu – štedi dane
     čekanja.
-- question: Radite li samo u Beogradu?
-  answer: Ne, pokrivamo celu Srbiju – od Novog Sada do Niša, sa skladištem u Šimanovcima.
-- question: Da li pružate obuku?
-  answer: Da, organizujemo obuke za montažere i supervizore – besplatno uz veće projekte.
+- question: Rade li samo u Beogradu?
+  answer: Ne, pokrivaju celu Srbiju – od Novog Sada do Niša, sa skladištem u Šimanovcima.
+- question: Da li pružaju obuku?
+  answer: Da, organizuju obuke za montažere i supervizore – besplatno za veće projekte.
 - question: Kako da dobijem ponudu?
   answer: Pošaljite upit na serb@doka.com ili pozovite +381 22 400 100.
 tips:

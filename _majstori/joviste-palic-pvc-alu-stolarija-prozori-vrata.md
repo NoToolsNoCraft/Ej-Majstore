@@ -1,11 +1,11 @@
 ---
 layout: majstor_profil
-title: Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva
-description: 'Jovište – proizvođač PVC i ALU stolarije sa 18 godina iskustva. Kompletna
-  usluga: dizajn, proizvodnja, montaža. Energetski efikasni prozori, vrata, komarnici,
-  žaluzine. Pokrivamo Suboticu i Vojvodinu. u Subotica, Palić, Novi Sad, Sombor, Kanjiza,
-  Senta, Bačka Topola, Mali Iđoš, Ada, Čantavir, Bečej.'
-ime: Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva
+title: Jovište Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga
+description: 'Jovište – proizvođač PVC i ALU stolarije sa skoro 20 godina iskustva.
+  Kompletna usluga: dizajn, proizvodnja, montaža. Energetski efikasni prozori, vrata,
+  komarnici, žaluzine. Pokrivaju Suboticu i Vojvodinu. u Subotica, Palić, Novi Sad,
+  Sombor, Kanjiza, Senta, Bačka Topola, Ada, Čantavir.'
+ime: Jovište Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga
 kategorija:
 - PVC Stolarija
 - ALU Stolarija
@@ -13,8 +13,7 @@ kategorija:
 - Vrata
 - Komarnici
 - Žaluzine
-mesto: Subotica, Palić, Novi Sad, Sombor, Kanjiza, Senta, Bačka Topola, Mali Iđoš,
-  Ada, Čantavir, Bečej
+mesto: Subotica, Palić, Novi Sad, Sombor, Kanjiza, Senta, Bačka Topola, Ada, Čantavir
 address: Horgoški put 81b, 24413 Palić
 kontakt_telefon: "+38124530350"
 email: office@joviste.rs
@@ -26,39 +25,44 @@ slug: joviste-palic-pvc-alu-stolarija-prozori-vrata
 opening_hours:
 thumbnail: images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp
 hero_image: images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp
-discover_title: Jovište Palić – PVC i ALU Stolarija po Meri sa 18 Godina Iskustva
+discover_title: Jovište Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-31'
-last_modified: '2025-11-10'
+last_modified: '2025-11-20'
 sections:
 - type: p
   content: Već godinama sarađujem sa Jovištem, a sve je počelo preko Atile Lašu-a
     iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore
-    za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, više puta smo organizovali
-    kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovištu, pa je ovo
-    firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet
-    se vidi na svakoj kući.
+    za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata
+    smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u
+    Jovištu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od
+    usta do usta, a kvalitet se vidi na svakoj kući.
 - type: p
   content: Na adresi <strong>Horgoški put 81b u Paliću</strong> nalazi se <strong>Jovište</strong>
-    – kompanija sa <strong>18 godina iskustva</strong> u <em>proizvodnji PVC i ALU
-    stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>.
+    – kompanija sa skoro <strong>20 godina iskustva</strong> u <em>proizvodnji PVC
+    i ALU stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>.
     Specijalizovani za <strong>prozore, vrata, komarnike, žaluzine</strong>.
 - type: h2
-  content: Ko je Jovište – Kompanija Okrenuta Budućnosti
+  content: Kompanija Okrenuta Savremenim Rešenjima
 - type: p
   content: 'Osnovani <strong>2007.</strong> kao nabavljači, danas <strong>proizvođači
     sa CNC mašinama</strong>. Partneri: <strong>Rehau, Alumil, GU, Guardian</strong>.
-    Fabrika u Paliću, sertifikati: <strong>ISO 9001, 14001, 45001, 50001</strong>.'
+    Fabrika im se nalazi na Paliću, sertifikati: <strong>ISO 9001, 14001, 45001, 50001</strong>.'
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38124530350\">+381
     24 530 350</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://www.joviste.rs/\"
-    target=\"_blank\" rel=\"noopener nofollow\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/Vd6X2dT8rk1JCKEYA\" target=\"_blank\" rel=\"noopener
-    nofollow\">Horgoški put 81b, Palić</a>"
+    target=\"_blank\" rel=\"noopener\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
+    <a href=\"https://maps.app.goo.gl/8dY1fRj8Jw3jtus2A\" target=\"_blank\" rel=\"noopener\">Horgoški
+    put 81b, Palić</a>"
+- type: image
+  src: images/joviste-krovni-prozor-roto.webp
+  alt: Krovni prozor marke Roto.
+  caption: Nedavno sam prilikom adaptacije potkrovlja preko Jovišta ugradio krovni
+    prozor marke Roto.
 - type: h2
   content: Šta Nudi Jovište – Od Ideje do Montaže
 - type: p
@@ -104,32 +108,32 @@ sections:
   content: „Kompanija sa izuzetnom energijom i poslovnim znanjem. Izuzetno ljubazni
     zaposleni, kako u prodajnom prostoru tako i na montaži. Odlična stolarija, vrhunski
     kvalitet. Za svačiji džep i ukus.“ – <a href="https://share.google/WY14NKenO7OfrcKpL"
-    target="_blank" rel="noopener nofollow"><strong>Sanja Stepić</strong></a>
+    target="_blank" rel="noopener"><strong>Sanja Stepić</strong></a>
 - type: blockquote
   content: „Izuzetno kvalitetna stolarija, precizna izrada i odlični materijali. Sve
     je isporučeno u dogovorenom roku, a montaža je urađena profesionalno i bez greške.
     Posebno bih pohvalila ljubazno i profesionalno osoblje koje je strpljivo objasnilo
     sve detalje i pomoglo pri izboru. Topla preporuka svima koji žele dugotrajan i
     pouzdan proizvod.“ – <a href="https://share.google/MBKMnSbJnS5HuSWPz" target="_blank"
-    rel="noopener nofollow"><strong>Teodora Vasić</strong></a>
+    rel="noopener"><strong>Teodora Vasić</strong></a>
 - type: blockquote
   content: „Izuzetno sam zadovoljna saradnjom sa kompanijom Joviste. Kvalitet prozora
     i ulaznih vrata je na visokom nivou, a ekipa za montazu je profesionaona, brza
     i ljubazna. Svaki dogovor je ispostovan u dogovorenom roku. Svaka preporuka za
     saradnju sa njima!!!!“ – <a href="https://share.google/7kJWY4NtWdbUHIrxX" target="_blank"
-    rel="noopener nofollow"><strong>Jovana Đukić</strong></a>
+    rel="noopener"><strong>Jovana Đukić</strong></a>
 - type: blockquote
   content: „Najbolja firma, odlični među-ljudski odnosi, zadovoljni kupci, i odlične
     preporuke. Mogućnost napredovanja i usavršavanja, redovni prihodi. Poslovna etika
     i međusobno poštovanje prvi kriterijumi koji se traže u firmi Joviste zahvaljujući
     direktoru firme Siniše i , tehničkog direktora Frederika... Kompanija sa 5 zvezdica.“
-    – <a href="https://share.google/QcXwtU653wXPAq4Gr" target="_blank" rel="noopener
-    nofollow"><strong>Dejan Đurović</strong></a>
+    – <a href="https://share.google/QcXwtU653wXPAq4Gr" target="_blank" rel="noopener"><strong>Dejan
+    Đurović</strong></a>
 - type: h2
   content: Ključne Prednosti
 - type: ul
   items:
-  - 18 godina iskustva – 120.000+ zadovoljnih korisnika
+  - Mnogo iskustva na veoma konkuretnom tržištu
   - Kompletna proizvodnja – CNC mašine, Rehau, Alumil
   - Energetski efikasni proizvodi – LOW-E, izolacija
   - 3D dizajn i savetovanje – besplatno
@@ -155,13 +159,13 @@ faq:
   answer: Zavisi od mere – obično 2-4 nedelje. Brza dostava i montaža.
 - question: Da li je dizajn besplatan?
   answer: Da, 3D prikaz i savetovanje su uključeni.
-- question: Pokrivata li celu Vojvodinu?
+- question: Pokrivaju li celu Vojvodinu?
   answer: Da, od Subotice do Novog Sada i šire – dostava i montaža.
-- question: Da li dajete garanciju?
+- question: Da li daju garanciju?
   answer: Da, na profile 10 godina, staklo 5 godina, montažu 2 godine.
-- question: Radite li po meri?
+- question: Rade li po meri?
   answer: Da, sve po meri – od dimenzija do boje i dodataka.
-- question: Kako da vas kontaktiram?
+- question: Kako da ih kontaktiram?
   answer: Pozovite +381 24 530 350 ili posetite joviste.rs.
 tips:
 - LOW-E staklo – zimi toplo, leti hladno, ušteda 40%

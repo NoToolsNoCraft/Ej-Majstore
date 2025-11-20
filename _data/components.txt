@@ -20,9 +20,9 @@ Image
 
       {
       "type": "image",
-      "src": "images/Dragan-Jovanovic-Recenzija-SB-Parket.webp",
-      "alt": "Dragan Jovanović je podelio fotku svoje prostorije nakon što je SB Parket odradio pod.",
-      "caption": "Dragan Jovanović je podelio fotku svoje prostorije nakon što je SB Parket odradio pod."
+      "src": "images/joviste-krovni-prozor-roto.webp",
+      "alt": "Krovni prozor marke Roto.",
+      "caption": "Nedavno sam prilikom adaptacije potkrovlja preko Jovišta ugradio krovni prozor marke Roto."
     },
 
 

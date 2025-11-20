@@ -1,11 +1,11 @@
 ---
 layout: majstor_profil
-title: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod (Vojvodina)'
+title: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod'
 description: OSTROTHERM iz Sombora – stručni projektanti i izvođači za podno grejanje,
   toplotne pumpe, gasne sisteme, vodovod i klimatizaciju. Pokrivamo celu Vojvodinu
-  – od Novog Sada do Subotice. u Sombor, Novi Sad, Subotica, Zrenjanin, Bačka Palanka,
-  Vrbas, Apatin, Kula, Odžaci, Bečej, Senta, Bač, Titel.
-ime: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod (Vojvodina)'
+  – od Novog Sada do Subotice. u Sombor, Novi Sad, Subotica, Zrenjanin, Apatin, Kula,
+  Odžaci.
+ime: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod'
 kategorija:
 - Centralno Grejanje
 - Podno Grejanje
@@ -15,8 +15,7 @@ kategorija:
 - Gasne Instalacije
 - Klima Uređaji
 - Kotlovi na Pelet
-mesto: Sombor, Novi Sad, Subotica, Zrenjanin, Bačka Palanka, Vrbas, Apatin, Kula,
-  Odžaci, Bečej, Senta, Bač, Titel
+mesto: Sombor, Novi Sad, Subotica, Zrenjanin, Apatin, Kula, Odžaci
 address: XII Vojvođanske udarne brigade 129, 25101 Sombor
 kontakt_telefon: "+381611516625"
 email: ''
@@ -28,32 +27,40 @@ slug: ostrotherm-sombor-grejanje-vodovod-toplotne-pumpe
 opening_hours:
 thumbnail: images/OSTROTHERM-Sombor-Podno-Grejanje-Toplotne-Pumpe-i-Vodovod.webp
 hero_image: images/OSTROTHERM-Sombor-Podno-Grejanje-Toplotne-Pumpe-i-Vodovod.webp
-discover_title: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod (Vojvodina)'
+discover_title: 'OSTROTHERM Sombor: Podno Grejanje, Toplotne Pumpe i Vodovod'
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
-last_modified: '2025-10-29'
+last_modified: '2025-11-19'
 sections:
 - type: p
-  content: Na adresi <strong>XII Vojvođanske udarne brigade 129 u Somboru</strong>
-    nalazi se <strong>OSTROTHERM</strong> – etablirana firma specijalizovana za <em>projektovanje,
-    ugradnju i servis</em> svih vrsta grejnih, vodovodnih i klimatizacionih sistema.
-    Pokrivaju <strong>celu Vojvodinu</strong> – od Novog Sada do Subotice.
+  content: 'Svi znamo kako izgleda trenutak kada shvatiš da je vreme za promenu: zima
+    se približava, stari kotao više ne greje kao nekada, pod u dnevnoj sobi je hladan,
+    ili renoviranje stana preraste u dilemu – koji sistem grejanja je zapravo najbolji?
+    A onda kreće potraga za majstorima, ponudama i rešenjima koja neće razočarati
+    posle prve sezone.'
 - type: p
-  content: 'Bilo da gradite novu kuću, adaptirate stan ili želite da zamenite stari
-    kotao – OSTROTHERM nudi <strong>kompletna rešenja</strong>: podno i zidno grejanje,
-    toplotne pumpe, gasne instalacije, vodovod, kanalizacija i klimatizacija. Sve
-    sa fokusom na <em>energetsku efikasnost i dugovečnost</em>.'
+  content: 'U tim situacijama mnogi u Bačkoj imaju istu adresu zapisanu negde u telefonu:
+    <strong>XII Vojvođanske udarne brigade 129 u Somboru</strong>. Tu se nalazi <strong>OSTROTHERM</strong>
+    – firma koja godinama projektuje, ugrađuje i održava <em>grejanje, vodovod i klimatizaciju</em>
+    širom <strong>cele Vojvodine</strong>, od Subotice do Novog Sada.'
+- type: p
+  content: 'Bilo da planirate <strong>novu kuću</strong>, adaptaciju postojećeg prostora
+    ili samo želite da zamenite zastarelu opremu, OSTROTHERM nudi <strong>kompletna,
+    dugotrajna rešenja</strong>: podno i zidno grejanje, toplotne pumpe, gasne instalacije,
+    klimatizaciju, vodovod i kanalizaciju. Sve je prilagođeno energetskoj efikasnosti,
+    dugotrajnosti i komforu koji se oseća svakog dana.'
 - type: h2
-  content: Ko je OSTROTHERM – Pouzdan Izvođač u Vojvodini
+  content: Ko je OSTROTHERM – Pouzdan Izvođač u Bačkoj
 - type: p
-  content: OSTROTHERM je <strong>vodeći izvođač termotehničkih radova u Bačkoj</strong>.
-    Koriste samo <strong>sertifikovane komponente</strong> i <strong>najsavremeniju
-    opremu</strong>. Njihov tim čine iskusni projektanti, monteri i serviseri – sve
-    u skladu sa <em>evropskim standardima</em>.
+  content: OSTROTHERM je danas prepoznat kao jedan od<strong>vodećih izvođača termotehničkih
+    radova u Bačkoj</strong>. Njihov tim projektanata, montera i servisera radi u
+    skladu sa <em>evropskim standardima</em>, koristeći <strong>najsavremeniju opremu</strong>
+    i <strong>sertifikovane komponente</strong>. Sve je usmereno ka jednom cilju –
+    stabilnim, kvalitetnim i dugovečnim instalacijama koje rade bez iznenađenja.
 - type: p
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+381611516625\">+381 61 151 66 25</a><br>\U0001F310 <strong>Instagram:</strong>
@@ -95,17 +102,6 @@ sections:
 - type: p
   content: Ugradnja inverter, multi-split i podnih klima. Servis, čišćenje, popravka.
     Ventilacioni sistemi za svež vazduh.
-- type: h2
-  content: Gde Radi OSTROTHERM – Cela Vojvodina
-- type: p
-  content: 'Iako bazirani u <strong>Somboru</strong>, OSTROTHERM redovno radi u:'
-- type: ul
-  items:
-  - "<strong>Novi Sad</strong> – podno grejanje u novim zgradama"
-  - "<strong>Subotica</strong> – toplotne pumpe u porodičnim kućama"
-  - "<strong>Zrenjanin</strong> – gasne instalacije"
-  - "<strong>Bačka Palanka, Vrbas, Apatin</strong> – vodovod i kanalizacija"
-  - "<strong>Senta, Bečej, Kula</strong> – servis klima uređaja"
 - type: h2
   content: Kako Funkcioniše Saradnja sa OSTROTHERM-om
 - type: p

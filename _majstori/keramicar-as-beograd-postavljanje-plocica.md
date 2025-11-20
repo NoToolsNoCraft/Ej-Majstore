@@ -32,23 +32,28 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-11-01'
-last_modified: '2025-11-01'
+last_modified: '2025-11-19'
 sections:
 - type: p
-  content: 'U Beogradu, gde se renovira više nego što se spava, <strong>Keramičar
-    AS</strong> je tim koji ne ostavlja trag – osim savršeno postavljenih pločica.
-    <strong>Saša</strong> i <strong>Igor</strong> rade kao da postavljaju keramiku
-    u sopstvenom stanu: precizno, čisto, i uvek po dogovoru. Od malog kupatila u starogradnji
-    do velike terase na krovu – svaki posao dobije istu pažnju.'
+  content: 'U Beogradu, gde se stalno nešto renovira – od kupatila u starim zgradama
+    do novih terasa koje gledaju na Dunav – ime <strong>Keramičar AS</strong> se već
+    dugo provlači među preporukama. Na terenu ih najčešće predstavljaju <strong>Saša</strong>
+    i <strong>Igor</strong>, majstori poznati po tome što rade mirno, precizno i bez
+    improvizacija. Njihov pristup je isti u svakom stanu: kao da rade u sopstvenom
+    domu.'
 - type: p
-  content: 'Njihov moto: <em>„Nije gotovo dok ne prođe metar i nivo.“</em> Radovi
-    u enterijeru i eksterijeru, sa fokusom na detalje: fuge, ivice, hidroizolaciju.'
+  content: Ono što klijenti posebno cene jeste da iza njih stoji uigrana ekipa – dovoljno
+    velika da se projekti završavaju na vreme, a dovoljno odabrana da kvalitet bude
+    ujednačen. Bilo da je u pitanju malo kupatilo, zahtevna kuhinjska zona ili velika
+    terasa, posao se vodi pažljivo i organizovano.
 - type: h2
-  content: Ko je Keramičar AS – Tim Saše i Igora
+  content: Ko je Keramičar AS – Saša, Igor i njihova ekipa
 - type: p
-  content: Dvočlani tim sa <strong>godinama iskustva</strong>. Sarađuju sa privatnim
-    klijentima, investitorima, firmama. Rade <em>brzo, ali bez žurbe</em> – kvalitet
-    je prioritet.
+  content: Saša i Igor su majstori koji godinama grade poverenje klijenata, ali svakodnevno
+    rade zajedno sa ekipom ljudi kojima veruju i koje su sami formirali. To im omogućava
+    da preuzmu različite projekte istovremeno, bez žurbe i bez pada kvaliteta. Sarađuju
+    sa privatnim klijentima, investitorima i firmama, a poznati su po tome što <em>rade
+    brzo, ali nikada površno</em>.
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Saša:</strong> <a href=\"tel:+381601526860\">+381
     60 152 6860</a><br>\U0001F4DE <strong>Igor:</strong> <a href=\"tel:+381644178230\">+381
@@ -81,17 +86,6 @@ sections:
   content: 5. Kompletna Adaptacija Kupatila
 - type: p
   content: Rušenje, vodoinstalacije, gips, keramika – sa drugim majstorima.
-- type: h2
-  content: Gde Radi Keramičar AS – Beograd i Okolina
-- type: p
-  content: 'Baziran u <strong>Beogradu</strong>, postavlja u:'
-- type: ul
-  items:
-  - "<strong>Zemun, Novi Beograd</strong> – kupatila u novogradnji"
-  - "<strong>Voždovac, Banjica</strong> – terase i lođe"
-  - "<strong>Palilula, Karaburma</strong> – adaptacija starih stanova"
-  - "<strong>Čukarica, Železnik</strong> – stepeništa i hodnici"
-  - "<strong>Vračar, Dedinje</strong> – luksuzni mozaici"
 - type: h2
   content: Kako Funkcioniše Saradnja sa AS Timom
 - type: p

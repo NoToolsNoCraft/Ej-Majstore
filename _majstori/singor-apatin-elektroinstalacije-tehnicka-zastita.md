@@ -1,10 +1,10 @@
 ---
 layout: majstor_profil
 title: SINGOR iz Apatina Elektroinstalira Budućnost Bačke
-description: SINGOR iz Apatina – 15+ godina iskustva u projektovanju, izvođenju i
-  merenju elektroinstalacija. Specijalisti za alarmne sisteme, video nadzor, rasvetu
-  i pametne instalacije. Radimo u skladu sa standardima – od stana do industrije.
-  u Apatin, Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica.
+description: SINGOR iz Apatina – 20 godina iskustva u projektovanju, izvođenju i merenju
+  elektroinstalacija. Specijalisti za alarmne sisteme, video nadzor, rasvetu i pametne
+  instalacije. Radimo u skladu sa standardima – od stana do industrije. u Apatin,
+  Sombor, Novi Sad, Bač, Veternik, Sremska Kamenica.
 ime: SINGOR iz Apatina Elektroinstalira Budućnost Bačke
 kategorija:
 - Elektroinstalacije
@@ -45,7 +45,7 @@ sections:
     ih reši.
 - type: p
   content: 'Zato se često spominje jedna adresa: <strong>25. maj br. 7 u Apatinu</strong>.
-    Tamo se nalazi <strong>SINGOR</strong> – firma koja od 2009. godine ulazi u domove,
+    Tamo se nalazi <strong>SINGOR</strong> – firma koja od 2007. godine ulazi u domove,
     lokale i hale širom regiona i tamo gde drugi vide ‘kablove i haos’, oni vide projektni
     zadatak. Specijalizovani za jake i slabe struje, alarmne sisteme, video nadzor,
     rasvetu i energetsku efikasnost, rade tiho, precizno i po svim standardima koji
@@ -205,7 +205,6 @@ tips:
 - Alarm i video nadzor povećavaju bezbednost i vrednost objekta
 - Gromobranska zaštita je obavezna – ne čekajte oluju
 - Za svaki rad tražite atest i garanciju – to je vaš mir
-tips_title: '6 Ključnih Saveta od SINGOR-a: Kako da Vaša Elektroinstalacija Traje
-  Decenijama'
+tips_title: Kako da Vaša Elektroinstalacija Traje Decenijama
 permalink: "/izvodjaci/apatin/singor-apatin-elektroinstalacije-tehnicka-zastita/"
 ---
