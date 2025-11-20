@@ -21,7 +21,7 @@ Image
       {
       "type": "image",
       "src": "images/joviste-krovni-prozor-roto.webp",
-      "alt": "Krovni prozor marke Roto.",
+      "alt": "Krovni prozor marke Rotoo.",
       "caption": "Nedavno sam prilikom adaptacije potkrovlja preko Jovišta ugradio krovni prozor marke Roto."
     },
 
