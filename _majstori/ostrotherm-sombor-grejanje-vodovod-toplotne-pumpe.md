@@ -34,7 +34,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
-last_modified: '2025-11-19'
+last_modified: '2025-11-21'
 sections:
 - type: p
   content: 'Svi znamo kako izgleda trenutak kada shvatiš da je vreme za promenu: zima
@@ -43,10 +43,9 @@ sections:
     A onda kreće potraga za majstorima, ponudama i rešenjima koja neće razočarati
     posle prve sezone.'
 - type: p
-  content: 'U tim situacijama mnogi u Bačkoj imaju istu adresu zapisanu negde u telefonu:
-    <strong>XII Vojvođanske udarne brigade 129 u Somboru</strong>. Tu se nalazi <strong>OSTROTHERM</strong>
-    – firma koja godinama projektuje, ugrađuje i održava <em>grejanje, vodovod i klimatizaciju</em>
-    širom <strong>cele Vojvodine</strong>, od Subotice do Novog Sada.'
+  content: Zato danas govorimo o  <strong>OSTROTHERM-u</strong> – firmi koja godinama
+    projektuje, ugrađuje i održava <em>grejanje, vodovod i klimatizaciju</em> širom
+    <strong>Vojvodine</strong>, od Subotice do Novog Sada.
 - type: p
   content: 'Bilo da planirate <strong>novu kuću</strong>, adaptaciju postojećeg prostora
     ili samo želite da zamenite zastarelu opremu, OSTROTHERM nudi <strong>kompletna,
@@ -54,9 +53,9 @@ sections:
     klimatizaciju, vodovod i kanalizaciju. Sve je prilagođeno energetskoj efikasnosti,
     dugotrajnosti i komforu koji se oseća svakog dana.'
 - type: h2
-  content: Ko je OSTROTHERM – Pouzdan Izvođač u Bačkoj
+  content: Izvođač specijalizovan za grejne sisteme
 - type: p
-  content: OSTROTHERM je danas prepoznat kao jedan od<strong>vodećih izvođača termotehničkih
+  content: OSTROTHERM je danas prepoznat kao <strong>pouzdani izvođač termotehničkih
     radova u Bačkoj</strong>. Njihov tim projektanata, montera i servisera radi u
     skladu sa <em>evropskim standardima</em>, koristeći <strong>najsavremeniju opremu</strong>
     i <strong>sertifikovane komponente</strong>. Sve je usmereno ka jednom cilju –
@@ -66,8 +65,8 @@ sections:
     href=\"tel:+381611516625\">+381 61 151 66 25</a><br>\U0001F310 <strong>Instagram:</strong>
     <a href=\"https://www.instagram.com/ostrotherm/\" target=\"_blank\" rel=\"noopener
     nofollow\">instagram.com/ostrotherm</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6\" target=\"_blank\" rel=\"noopener
-    nofollow\">XII Vojvođanske udarne brigade 129, Sombor</a>"
+    <a href=\"https://maps.app.goo.gl/ZUcJT7mvnAt8ALeF6\" target=\"_blank\" rel=\"noopener\">XII
+    Vojvođanske udarne brigade 129, Sombor</a>"
 - type: h2
   content: Šta Nudi OSTROTHERM – Sve na Jednom Mestu
 - type: p
@@ -110,6 +109,18 @@ sections:
     Brza Realizacija</strong> – u dogovorenom roku, čisto i uredno<br><strong>4. Servis
     i Garancija</strong> – redovno održavanje, garancija na rad"
 - type: h2
+  content: Šta Kažu Klijenti – Iskustva Koja Govore
+- type: p
+  content: 'Uvek dobro dođe da čujemo mišljenja stvarnih klijenata potpisanih imenom
+    i prezimenom:'
+- type: blockquote
+  content: <strong><a href="https://share.google/cRUk3F7muxSBV7jMr" target="_blank">Milena
+    Kusturin</a>:</strong> Tim koji daje sve od sebe, rešavaju i nemoguće. Univerzalni,
+    profesionalni i pouzdani. Da ima ocena 10 dobili bi od mene, ovako samo 5+.
+- type: blockquote
+  content: <strong><a href="https://share.google/KEJgVhUoC3Sjy2NCf" target="_blank">Lukać
+    Franja</a>:</strong> Brzi, kvalitetni i stručni. Može se na njih osloniti.
+- type: h2
   content: Zašto OSTROTHERM – Ključne Prednosti
 - type: ul
   items:
@@ -121,7 +132,7 @@ sections:
   - Besplatna konsultacija i ponuda
 - type: p
   content: 'Ako tražite firmu koja <strong>zaista razume grejanje, vodovod i klimatizaciju</strong>
-    – <strong>OSTROTHERM Sombor</strong> je pravi izbor. Pozovite za besplatnu procenu:
+    – <strong>OSTROTHERM Sombor</strong> je sjajan izbor. Pozovite za besplatnu procenu:
     <a href="tel:+381611516625"><strong>+381 61 151 66 25</strong></a>.'
 services:
 - title: Toplotne Pumpe i Grejni Sistemi
@@ -144,18 +155,18 @@ faq:
   answer: Za novogradnju najčešće preporučujemo toplotnu pumpu + podno grejanje. To
     je najefikasnije i dugoročno najisplativije rešenje.
 - question: Da li OSTROTHERM pokriva celu Vojvodinu?
-  answer: Da, aktivno radimo u Somboru, Novom Sadu, Subotici, Zrenjaninu, Bačkoj Palanci
+  answer: Da, aktivno rade u Somboru, Novom Sadu, Subotici, Zrenjaninu, Bačkoj Palanci
     i šire.
-- question: Da li radite toplotne pumpe voda-voda?
-  answer: Da, specijalizovani smo za sve tipove toplotnih pumpi – vazduh-voda, voda-voda,
+- question: Da li rade toplotne pumpe voda-voda?
+  answer: Da, specijalizovani su za sve tipove toplotnih pumpi – vazduh-voda, voda-voda,
     zemlja-voda.
 - question: Koliko traje ugradnja podnog grejanja?
   answer: Za prosečnu kuću od 100m² – 3 do 5 radnih dana, u zavisnosti od pripreme
     podloge.
-- question: Da li nudite servis klima uređaja?
-  answer: Da, vršimo montažu, redovan servis, čišćenje i popravku svih vrsta klima.
+- question: Da li nude servis klima uređaja?
+  answer: Da, vrše montažu, redovan servis, čišćenje i popravku svih vrsta klima.
 - question: Kako da zakazem besplatnu konsultaciju?
-  answer: 'Pozovite +381 61 151 66 25 ili pošaljite poruku na Instagram: @ostrotherm.'
+  answer: Pozovite +381 61 151 66 25.
 tips:
 - Podno grejanje + toplotna pumpa = do 70% uštede na računima
 - Redovno servisirajte kotao – produžite vek za 5+ godina

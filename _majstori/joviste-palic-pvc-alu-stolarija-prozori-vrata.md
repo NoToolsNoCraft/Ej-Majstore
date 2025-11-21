@@ -87,7 +87,7 @@ sections:
 - type: image
   src: images/joviste-krovni-prozor-roto.webp
   alt: Krovni prozor marke Roto.
-  caption: Nedavno sam prilikom adaptacije potkrovlja preko Jovišta ugradio krovni
+  caption: Nedavno sam prilikom adaptacije potkrovlja preko Jovista ugradio krovni
     prozor marke Roto.
 - type: h2
   content: 'Zanimljiva Priča o Imenu: Zašto Joviste Nije „Jovište“'
