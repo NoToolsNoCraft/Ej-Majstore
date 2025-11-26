@@ -76,6 +76,7 @@ data.each_with_index do |article, index|
     'title' => article['title'],
     'description' => excerpt,
     'date' => date,
+    'last_modified_at' => article['date_modified'] || date,
     'author' => author,
     'slug' => slug,
     'image' => article['image'],

@@ -5,6 +5,7 @@ description: Plise, rolo ili fiksni komarnici? U ovom članku detaljno upoređuj
   sve tri vrste – cene, prednosti, mane, za koje prozore i vrata su najbolji i koji
   je najjeftiniji, a koji najpraktičniji.
 date: '2025-11-18'
+last_modified_at: '2025-11-18'
 author: Petar Škrbić
 slug: komarnici-plise-rolo-i-fiksni-koji-je-najbolji-za-vas
 image: "/images/komarnici-plise-rolo-i-fiksni-koji-je-najbolji-za-vas.webp"

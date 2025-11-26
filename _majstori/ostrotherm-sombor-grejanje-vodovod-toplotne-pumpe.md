@@ -55,11 +55,11 @@ sections:
 - type: h2
   content: Izvođač specijalizovan za grejne sisteme
 - type: p
-  content: OSTROTHERM je danas prepoznat kao <strong>pouzdani izvođač termotehničkih
+  content: 'OSTROTHERM je danas prepoznat kao <strong>pouzdani izvođač termotehničkih
     radova u Bačkoj</strong>. Njihov tim projektanata, montera i servisera radi u
     skladu sa <em>evropskim standardima</em>, koristeći <strong>najsavremeniju opremu</strong>
-    i <strong>sertifikovane komponente</strong>. Sve je usmereno ka jednom cilju –
-    stabilnim, kvalitetnim i dugovečnim instalacijama koje rade bez iznenađenja.
+    i <strong>sertifikovane komponente</strong>. Sve je usmereno ka jednom cilju:
+    stabilnim, kvalitetnim i dugovečnim instalacijama koje rade bez iznenađenja.'
 - type: p
   content: "Kontaktirajte ih direktno:<br>\U0001F4DE <strong>Telefon:</strong> <a
     href=\"tel:+381611516625\">+381 61 151 66 25</a><br>\U0001F310 <strong>Instagram:</strong>
@@ -121,15 +121,14 @@ sections:
   content: <strong><a href="https://share.google/KEJgVhUoC3Sjy2NCf" target="_blank">Lukać
     Franja</a>:</strong> Brzi, kvalitetni i stručni. Može se na njih osloniti.
 - type: h2
-  content: Zašto OSTROTHERM – Ključne Prednosti
+  content: Prednosti saradnje sa ovim izvođačem
 - type: ul
   items:
   - Kompletna usluga – od projekta do servisiranja
-  - Pokrivaju celu Vojvodinu – brzi dolazak
   - Samo sertifikovani materijali i oprema
   - Fokus na energetsku efikasnost i uštedu
   - Pedantan rad – sve po standardima
-  - Besplatna konsultacija i ponuda
+  - Besplatna konsultacija
 - type: p
   content: 'Ako tražite firmu koja <strong>zaista razume grejanje, vodovod i klimatizaciju</strong>
     – <strong>OSTROTHERM Sombor</strong> je sjajan izbor. Pozovite za besplatnu procenu:
@@ -166,7 +165,7 @@ faq:
 - question: Da li nude servis klima uređaja?
   answer: Da, vrše montažu, redovan servis, čišćenje i popravku svih vrsta klima.
 - question: Kako da zakazem besplatnu konsultaciju?
-  answer: Pozovite +381 61 151 66 25.
+  answer: Pozovite +381 61 151 66 25 ili pišite na Viber.
 tips:
 - Podno grejanje + toplotna pumpa = do 70% uštede na računima
 - Redovno servisirajte kotao – produžite vek za 5+ godina

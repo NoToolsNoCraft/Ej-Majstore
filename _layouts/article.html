@@ -11,7 +11,7 @@ layout: default
         Using date filter to format it consistently, avoiding full time string 
         that may look messy. Using sr_Latn_RS lang from config. 
       {% endcomment %}
-      Objavljeno: {{ page.date | date: "%d-%m-%Y" }} | Autor: {{ page.author }}
+      Objavljeno: {{ page.date | date: "%d-%m-%Y" }} | Modifikovano: {{ page.last_modified_at | date: "%d-%m-%Y" }} | Autor: {{ page.author }}
     </p>
     {% if page.image %}
       <img src="{{ page.image }}" alt="{{ page.title }}" class="article-image">
