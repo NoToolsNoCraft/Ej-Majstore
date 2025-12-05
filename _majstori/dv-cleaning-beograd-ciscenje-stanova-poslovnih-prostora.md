@@ -7,6 +7,7 @@ description: DV Cleaning – profesionalno čišćenje stanova, kuća i poslovni
   Inđija, Novi Sad, Golubinci, Beograd.
 ime: DV Cleaning – Profesionalno Čišćenje Stanova i Poslovnih Prostora
 kategorija:
+- Agencija za čišćenje
 - Čišćenje Stanova
 - Generalno Čišćenje
 - Čišćenje Poslovnih Prostora
@@ -30,8 +31,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-26'
-last_modified: '2025-11-26'
+last_modified: '2025-12-05'
 sections:
+- type: p
+  content: <a href="/agencije-za-ciscenje-beograd/">Agencije za čišćenje u Beogradu</a>
+    › DV Cleaning
 - type: p
   content: Posle krečenja sve izgleda savršeno – dok ne primetite prašinu na svakom
     ćošku, farbu na parketu i tragove na staklima. Ili se selite u nov stan, a prethodni

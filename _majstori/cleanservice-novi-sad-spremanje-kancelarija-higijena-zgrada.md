@@ -34,8 +34,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-16'
-last_modified: '2025-11-16'
+last_modified: '2025-12-05'
 sections:
+- type: p
+  content: <a href="/agencije-za-ciscenje-novi-sad/">Agencije za čišćenje u Novom
+    Sadu</a> › CleanService
 - type: p
   content: Kada uđete u zgradu i osetite miris svežine, ili kada kancelarija zablista
     bez traga prašine – to nije slučajnost. To je CleanService na delu. Od 2011. godine,

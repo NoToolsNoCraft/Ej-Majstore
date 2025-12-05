@@ -33,8 +33,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-08'
-last_modified: '2025-11-08'
+last_modified: '2025-12-05'
 sections:
+- type: p
+  content: <a href="/agencije-za-ciscenje-beograd/">Agencije za čišćenje u Beogradu</a>
+    › Vizija Servis
 - type: p
   content: Kada prašina od maltera pokrije sve, tepih miriše na psa, a stakla su mutnija
     od magle – većina pomisli da se prostorija nikada neće očistiti. Ali ne u Beogradu.
