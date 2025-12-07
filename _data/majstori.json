@@ -1,6 +1,145 @@
 [
 
   {
+  "ime": "Dejan Jelić – Izrada i Sklapanje Nameštaja po Meri Beograd",
+  "tip": "majstor",
+  "kategorija": ["Izrada Nameštaja po Meri", "Sklapanje Nameštaja", "Transport Nameštaja", "IKEA Nameštaj", "Forma Ideale Nameštaj", "JYSK Nameštaj"],
+  "opis_kratak": "Dejan Jelić – majstor za izradu nameštaja po meri, sklapanje IKEA, Forma Ideale i JYSK nameštaja, transport. Brzo, pouzdano, kvalitetno. Beograd i okolina.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Stari Grad", "Palilula"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381665062100",
+  "email": "",
+  "website": "",
+  "slug": "dejan-jelic-izrada-namestaja-po-meri-beograd",
+  "thumbnail": "images/dejan-jelic-izrada-namestaja-po-meri-beograd.webp",
+  "hero_image": "images/dejan-jelic-izrada-namestaja-po-meri-beograd.webp",
+  "discover_title": "Dejan Jelić Beograd – Nameštaj po Meri, Brz i Pouzdan",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-07",
+  "last_modified": "2025-12-07",
+  "tips_title": "Saveti za savršen nameštaj po meri",
+  "tips": [
+    "Izmerite tačno – greška od 1 cm može pokvariti sav dizajn",
+    "Birajte kvalitetno drvo ili MDF – traje godinama",
+    "IKEA sklapanje – uvek proverite uputstvo pre početka",
+    "Transport – zaštitite nameštaj folijom i ćebadima",
+    "Po meri – razmislite o funkcionalnosti (povlačenje, police)"
+  ],
+  "sections": [
+    {
+    "type": "p",
+    "content": "Zamislite situaciju: kupili ste kvalitetan IKEA krevet ili komplet za dnevnu sobu, ali kutije i dalje stoje neotvorene jer jednostavno nemate vremena da se bavite sklapanjem. Ili ste konačno osmislili kuhinju po meri koja savršeno koristi svaki centimetar prostora, ali vam nedostaje pouzdan majstor koji će posao uraditi precizno i u roku. Upravo u takvim trenucima Dejan Jelić postaje ključna osoba – čovek koji probleme rešava profesionalno, efikasno i bez komplikacija."
+  },
+  {
+    "type": "p",
+    "content": "Dejan je specijalizovan za izradu nameštaja po meri, stručno sklapanje fabričkog nameštaja (IKEA, Forma Ideale, JYSK) i organizovan transport. Njegov rad se zasniva na jasnim principima: pažljivo saslušati potrebe klijenta, koristiti pouzdane materijale i ispoštovati dogovorene rokove. Zahvaljujući svojoj posvećenosti, pretvara idejne skice u konkretna i funkcionalna rešenja – bilo da je reč o kuhinjama, plakarima, radnim površinama ili garderobnim sistemima."
+  },
+  {
+    "type": "h2",
+    "content": "Majstor koji Razume Vaše Prioritete"
+  },
+  {
+    "type": "p",
+    "content": "Dejan Jelić je majstor koji svoj zanat shvata ozbiljno, a to se vidi u svakom urađenom projektu. Radi na teritoriji Beograda i okoline, pružajući usluge koje klijentima donose sigurnost, uštedu vremena i predvidljiv rezultat. Od sklapanja gotovog nameštaja do kompletne izrade po meri, Dejan pristupa svakom poslu sa istom pažnjom i profesionalizmom. Njegova posvećenost detaljima i spremnost da pronađe optimalno rešenje za svaki prostor izdvajaju ga kao pouzdan izbor za sve koji žele kvalitetan i dugotrajan rezultat."
+  },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ga direktno:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381665062100\">066 50 62 100</a><br>📸 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/sklapanjenamestajabgd/\" target=\"_blank\" rel=\"nofollow\">@sklapanjenamestajabgd</a><br>🔗 <strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/dejan-jeli%C4%87-127a9b314/\" target=\"_blank\" rel=\"nofollow\">Dejan Jelić</a><br>📍 <strong>Područje:</strong> Beograd i okolina"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Dejan Nudi – Od Sklapanja do Po Meri"
+    },
+    {
+      "type": "p",
+      "content": "Dejan pokriva sve faze – od ideje do gotovog nameštaja:"
+    },
+    {
+      "type": "h3",
+      "content": "🛋️ Sklapanje Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "IKEA, Forma Ideale, JYSK – sklapa krevete, ormare, kuhinje, stolove. Dolazi kod vas, sa svim alatom, i završava za sat-dva. Bez grešaka, bez oštećenja."
+    },
+    {
+      "type": "h3",
+      "content": "📏 Izrada Nameštaja po Meri"
+    },
+    {
+      "type": "p",
+      "content": "Kuhinje, plakari, garderobe, radni stolovi, police – sve po vašim merama i dizajnu. Birajte materijale (drvo, medijapan itd.), boje i funkcije (povlačenje, LED osvetljenje)."
+    },
+    {
+      "type": "h3",
+      "content": "🚚 Transport Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Dostava od prodavnice do kuće, ili selidba nameštaja. Sigurno, sa zaštitom, bez ogrebotina."
+    },
+    {
+      "type": "h2",
+      "content": "Brzo i Bez Glavobolje"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jednostavan:<br>1. <strong>Pozovite</strong>: Opišite šta vam treba.<br>2. <strong>Dolazak</strong>: Besplatno za procenu mera.<br>3. <strong>Ponuda</strong>: Jasna cena, rokovi.<br>4. <strong>Izrada/Sklapanje</strong>: Na licu mesta ili u radionici.<br>5. <strong>Završetak</strong>: Provera, saveti za održavanje."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Dejan – Jer Je Pouzdan i Ljubazan"
+    },
+    {
+      "type": "p",
+      "content": "On nije samo majstor – on je partner koji sluša i savetuje. Klijenti hvale njegovu brzinu, preciznost i ljudski pristup."
+    },
+    {
+      "type": "p",
+      "content": "Nameštaj po meri ili sklapanje? Pozovite Dejana na <a href=\"tel:+381665062100\"><strong>066 50 62 100</strong></a> – i uživajte u savršenom domu."
+    }
+  ],
+  "services": [
+    {
+      "title": "Sklapanje Nameštaja",
+      "description": "IKEA, Forma Ideale, JYSK – kreveti, ormari, kuhinje. Dolazak kod vas, brzo i bez grešaka."
+    },
+    {
+      "title": "Izrada Nameštaja po Meri",
+      "description": "Kuhinje, plakari, garderobe, stolovi – po vašim merama, materijalima i dizajnu."
+    },
+    {
+      "title": "Transport Nameštaja",
+      "description": "Dostava i selidba – sigurno, sa zaštitom, bez oštećenja."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazi na sklapanje?",
+      "answer": "Po dogovoru – često isti ili sledeći dan."
+    },
+    {
+      "question": "Šta podrazumeva izrada nameštaja po meri?",
+      "answer": "Čitav proces odd ideje do gotovog proizvoda."
+    },
+    {
+      "question": "Šta ako nameštaj oštetim u transportu?",
+      "answer": "Zaštitimo ga folijom i ćebadima – sigurno stiže."
+    },
+    {
+      "question": "Gde radi?",
+      "answer": "Beograd i okolina – Novi Beograd, Zemun, Vračar."
+    },
+    {
+      "question": "Kako da ga kontaktiram?",
+      "answer": "Pozovite 066 50 62 100 ili Instagram @sklapanjenamestajabgd."
+    }
+  ]
+},
+
+  {
   "ime": "DV Cleaning – Profesionalno Čišćenje Stanova i Poslovnih Prostora",
   "tip": "firma",
   "kategorija": ["Agencija za čišćenje", "Čišćenje Stanova", "Generalno Čišćenje", "Čišćenje Poslovnih Prostora", "Čišćenje Nakon Krečenja", "Dubinsko Čišćenje", "Redovno Održavanje"],
@@ -622,7 +761,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-11-17",
-  "last_modified": "2025-11-18",
+  "last_modified": "2025-12-07",
   "tips_title": "Kako da komarnici traju godinama",
   "tips": [
     "Plise komarnike zimi skupljajte u kutiju – štiti mrežicu",
@@ -632,6 +771,10 @@
     "Redovno čistite vodilice – sprečava zapinjanje"
   ],
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Vidović Komarnici"
+    },
     {
       "type": "p",
       "content": "Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda kad vam sitna napast poremeti san, raspoloženje i ceo dan koji dolazi posle nje. Letnje večeri postanu lutrija: da li će vas pustiti da uživate na terasi, ili ćete završiti pod jorganom usred jula? A tek muve kad navale unutra kad osete promenu vremena?"
@@ -3635,7 +3778,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-11-10",
-  "last_modified": "2025-11-18",
+  "last_modified": "2025-12-07",
 
   "tips_title": "Šta morate znati o Insecto komarnicima u osnovnim crtama",
   "tips": [
@@ -3648,6 +3791,10 @@
   ],
 
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Insecto Komarnici"
+    },
     {
       "type": "p",
       "content": "Komarnika za prozor ili vrata se često setimo tek kada su prozori i vrata već postavljeni, a bube počnu da nas nerviraju. Tako sam ja prošao sad skoro prilikom adaptacije potkrovlja. Postavljeni su novi PVC prozori, naravno bez komarnika. Gore je, s obzirom da radovi još teku, sparno. Međutim, na moje otvaranje prozora neverovatan roj muva navali da uđe i sve se zalepe za zidove od gips ploča, valda im odgovara temperatura."
@@ -11379,7 +11526,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-30",
-  "last_modified": "2025-11-18",
+  "last_modified": "2025-12-07",
 
   "tips_title": "Kako da Vaši Prozori i Vrata Traju 20+ Godina",
   "tips": [
@@ -11392,6 +11539,11 @@
   ],
 
   "sections": [
+
+    {
+      "type": "p",
+      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Radun PVC i ALU Stolarija"
+    },
     
     {
       "type": "p",
@@ -11813,7 +11965,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-30",
-  "last_modified": "2025-10-30",
+  "last_modified": "2025-12-07",
 
   "tips_title": "6 ULMA Saveta za Efikasniju i Bezbedniju Gradnju",
   "tips": [
@@ -11826,7 +11978,10 @@
   ],
 
   "sections": [
-    
+    {
+      "type": "p",
+      "content": "<a href=\"/oplate-i-skele-srbija/\">Oplate i Skele – Najam i Prodaja Opreme za Gradilišta u Srbiji</a> › ULMA Srbija"
+    },
     {
       "type": "p",
       "content": "<strong>ULMA Construction</strong> je <strong>španski lider</strong> sa sedištem u Baskiji, prisutan u <em>preko 50 zemalja</em>. Iako bez zvaničnog predstavništva u Srbiji, njihovi sistemi se koriste na <strong>domaćim projektima</strong> kroz međunarodne partnere. Specijalizovani za <em>oplate, skele i inženjering</em>."
@@ -12404,7 +12559,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-29",
-  "last_modified": "2025-10-29",
+  "last_modified": "2025-12-07",
 
   "tips_title": "6 Saveta za Bezbednu i Brzu Gradnju",
   "tips": [
@@ -12417,6 +12572,10 @@
   ],
 
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/oplate-i-skele-srbija/\">Oplate i Skele – Najam i Prodaja Opreme za Gradilišta u Srbiji</a> › DOKA Srbija"
+    },
    
     {
       "type": "p",
@@ -13656,7 +13815,7 @@
   "tip": "firma",
   "kategorija": ["Oplate", "Skele", "Inženjering", "Građevinska oprema"],
   "opis_kratak": "PERI Srbija je deo globalne PERI grupe osnovane 1969. godine. Sa sedištem u Šimanovcima, nudi sisteme oplata, skele i inženjerske usluge za efikasniju i bezbedniju izgradnju u Srbiji – sve na jednom mestu.",
-  "mesto": ["Šimanovci", "Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Ruma", "Inđija", "Stara Pazova", "Sremska Mitrovica", "Pančevo", "Zemun", "Novi Beograd", "Vračar", "Voždovac"],
+  "mesto": ["Šimanovci", "Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Ruma"],
   "address": "Zmaja Ognjenog Vuka 2, 22310 Šimanovci",
   "telefon": "+38122408200",
   "email": "office@peri.rs",
@@ -13671,7 +13830,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
   "date": "2025-10-28",
-  "last_modified": "2025-10-28",
+  "last_modified": "2025-12-07",
 
   "tips_title": "6 Praktičnih Saveta od PERI Srbija: Kako Optimizovati Gradilište uz Njihove Sisteme",
   "tips": [
@@ -13684,6 +13843,10 @@
   ],
 
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/oplate-i-skele-srbija/\">Oplate i Skele – Najam i Prodaja Opreme za Gradilišta u Srbiji</a> › PERI Srbija"
+    },
     {
       "type": "p",
       "content": "Pre nekoliko meseci, jedan prijatelj mi je pokazao nešto što me je odmah zaintrigiralo – <strong>PERI QuickSolve</strong>, besplatnu web aplikaciju za brzo planiranje oplata. Bio je to moj prvi susret sa <strong>PERI Srbija</strong>, kompanijom iz Šimanovaca koja stoji iza ovog alata. Odmah sam video potencijal, ali i priliku za poboljšanje načina na koji se predstavlja korisnicima."

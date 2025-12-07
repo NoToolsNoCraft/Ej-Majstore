@@ -4,16 +4,14 @@ title: 'PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte'
 description: PERI Srbija je deo globalne PERI grupe osnovane 1969. godine. Sa sedištem
   u Šimanovcima, nudi sisteme oplata, skele i inženjerske usluge za efikasniju i bezbedniju
   izgradnju u Srbiji – sve na jednom mestu. u Šimanovci, Beograd, Novi Sad, Niš, Kragujevac,
-  Subotica, Ruma, Inđija, Stara Pazova, Sremska Mitrovica, Pančevo, Zemun, Novi Beograd,
-  Vračar, Voždovac.
+  Subotica, Ruma.
 ime: 'PERI Srbija iz Šimanovaca: Oplate i Skele za Velike i Male Projekte'
 kategorija:
 - Oplate
 - Skele
 - Inženjering
 - Građevinska oprema
-mesto: Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Ruma, Inđija, Stara
-  Pazova, Sremska Mitrovica, Pančevo, Zemun, Novi Beograd, Vračar, Voždovac
+mesto: Šimanovci, Beograd, Novi Sad, Niš, Kragujevac, Subotica, Ruma
 address: Zmaja Ognjenog Vuka 2, 22310 Šimanovci
 kontakt_telefon: "+38122408200"
 email: office@peri.rs
@@ -32,8 +30,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-28'
-last_modified: '2025-10-28'
+last_modified: '2025-12-07'
 sections:
+- type: p
+  content: <a href="/oplate-i-skele-srbija/">Oplate i Skele – Najam i Prodaja Opreme
+    za Gradilišta u Srbiji</a> › PERI Srbija
 - type: p
   content: Pre nekoliko meseci, jedan prijatelj mi je pokazao nešto što me je odmah
     zaintrigiralo – <strong>PERI QuickSolve</strong>, besplatnu web aplikaciju za

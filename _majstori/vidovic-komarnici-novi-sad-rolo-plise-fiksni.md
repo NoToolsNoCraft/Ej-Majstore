@@ -31,8 +31,10 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-17'
-last_modified: '2025-11-18'
+last_modified: '2025-12-07'
 sections:
+- type: p
+  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Vidović Komarnici
 - type: p
   content: 'Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda
     kad vam sitna napast poremeti san, raspoloženje i ceo dan koji dolazi posle nje.

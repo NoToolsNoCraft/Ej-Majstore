@@ -32,8 +32,10 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-11-10'
-last_modified: '2025-11-18'
+last_modified: '2025-12-07'
 sections:
+- type: p
+  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Insecto Komarnici
 - type: p
   content: Komarnika za prozor ili vrata se često setimo tek kada su prozori i vrata
     već postavljeni, a bube počnu da nas nerviraju. Tako sam ja prošao sad skoro prilikom

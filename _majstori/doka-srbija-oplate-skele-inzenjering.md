@@ -30,8 +30,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
-last_modified: '2025-10-29'
+last_modified: '2025-12-07'
 sections:
+- type: p
+  content: <a href="/oplate-i-skele-srbija/">Oplate i Skele – Najam i Prodaja Opreme
+    za Gradilišta u Srbiji</a> › DOKA Srbija
 - type: p
   content: 'Svako ko se bavi građevinom zna onaj osećaj kada se projekat približava
     kritičnoj tački: visine rastu, rokovi pritiskaju, a konstrukcija mora biti savršeno

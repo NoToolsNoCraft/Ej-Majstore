@@ -34,8 +34,11 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-10-30'
-last_modified: '2025-10-30'
+last_modified: '2025-12-07'
 sections:
+- type: p
+  content: <a href="/oplate-i-skele-srbija/">Oplate i Skele – Najam i Prodaja Opreme
+    za Gradilišta u Srbiji</a> › ULMA Srbija
 - type: p
   content: "<strong>ULMA Construction</strong> je <strong>španski lider</strong> sa
     sedištem u Baskiji, prisutan u <em>preko 50 zemalja</em>. Iako bez zvaničnog predstavništva
