@@ -110,7 +110,7 @@ faq:
 - question: Koliko brzo dolazi na sklapanje?
   answer: Po dogovoru – često isti ili sledeći dan.
 - question: Šta podrazumeva izrada nameštaja po meri?
-  answer: Čitav proces odd ideje do gotovog proizvoda.
+  answer: Čitav proces od ideje do gotovog proizvoda.
 - question: Šta ako nameštaj oštetim u transportu?
   answer: Zaštitimo ga folijom i ćebadima – sigurno stiže.
 - question: Gde radi?

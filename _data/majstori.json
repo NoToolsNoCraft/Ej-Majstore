@@ -1,6 +1,583 @@
 [
 
   {
+  "ime": "Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove",
+  "tip": "firma",
+  "kategorija": ["Aluminijumska Stolarija", "PVC Stolarija", "Prozori Po Meri", "Vrata Po Meri", "Sistemi Zaštite Od Sunca", "Komarnici", "Klizna Vrata", "Stakleni Portali"],
+  "opis_kratak": "Koral SU – lider u proizvodnji i montaži aluminijumske i PVC stolarije u Subotici od 1995. Prozori, vrata, klizna vrata, sistemi zaštite od sunca i insekata. Koriste ALUMIL profile – kvalitet, trajnost, estetika. Subotica i Srbija.",
+  "mesto": ["Subotica", "Palić", "Bačka Topola", "Senta", "Sombor"],
+  "adresa": "Subotica, Srbija",
+  "telefon": "+38163568011",
+  "email": "koralsu@gmail.com",
+  "website": "https://koralsu.rs/",
+  "slug": "koral-su-subotica-aluminijum-pvc-stolarija",
+  "thumbnail": "images/koral-su-subotica-aluminijum-pvc-stolarija.webp",
+  "hero_image": "images/koral-su-subotica-aluminijum-pvc-stolarija.webp",
+  "discover_title": "Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-08",
+  "last_modified": "2025-12-08",
+  "tips_title": "Saveti za savršenu stolariju u vašem domu",
+  "tips": [
+    "Aluminijum za velike otvore – otporan na vetar i vlagu",
+    "PVC za energetsku efikasnost – ušteda do 30% na računima",
+    "Trostruko staklo – bolja zvučna i toplotna izolacija",
+    "Sistem zaštite od sunca – sprečava pregrevanje leta",
+    "Po meri – uvek uzimajte mere sa majstorom na licu mesta"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › Koral SU"
+    },
+    {
+      "type": "p",
+      "content": "U Subotici, gradu gde se tradicija spaja sa savremenim dizajnom, postoji firma koja je postala sinonim za kvalitetnu stolariju – Koral SU. Od osnivanja 1995. godine, oni su izgradili reputaciju lidera u proizvodnji i montaži aluminijumske i PVC stolarije. Sa proizvodnim pogonom od preko 1500 m², izložbenim salonom i timom stručnjaka, Koral SU nije samo proizvođač – oni su partner koji razume da svaki prozor, svaka vrata moraju biti savršeno uokvirena za vaš dom ili poslovni prostor."
+    },
+    {
+      "type": "p",
+      "content": "Njihova specijalnost? Koriste renomirane ALUMIL profile – grčke, sertifikovane, sa savršenom ravnotežom između snage, izolacije i estetike. Bilo da renovirate stan u centru Subotice ili gradite poslovni objekat u Paliću, Koral SU osigurava da svaki detalj bude precizan i dugotrajan."
+    },
+    {
+      "type": "h2",
+      "content": "Koral SU – 30 Godina Iskustva u Savršenoj Stolariji"
+    },
+    {
+      "type": "p",
+      "content": "Osnovana u srcu Vojvodine, Koral SU je porasla iz male radionice u regionalnog lidera. Danas, sa naprednom opremom i sertifikovanim materijalima, oni odgovaraju na najzahtevnije projekte – od stambenih kuća do komercijalnih objekata. Njihov tim ne samo da montira – oni savetuju, projektuju i garantuju rezultate koji traju decenijama."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163568011\">+381 63 568 011</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:koralsu@gmail.com\">koralsu@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://koralsu.rs/\" target=\"_blank\">koralsu.rs</a><br>📍 <strong>Područje:</strong> Subotica i Srbija"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Kompletna Ponuda za Moderne Domove"
+    },
+    {
+      "type": "p",
+      "content": "Koral SU pokriva sve što vaš dom treba za savršenu zaštitu i estetiku:"
+    },
+    {
+      "type": "h3",
+      "content": "🪟 Aluminijumska Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Prozori i vrata od ALUMIL profila – termo-prekinuti za maksimalnu izolaciju, sa sigurnosnim staklom. Idealni za velike fasade, komercijalne objekte ili moderne kuće gde snaga sreće dizajn."
+    },
+    {
+      "type": "h3",
+      "content": "🚪 PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Višekomorni profili sa odličnom zvučnom i toplinskom izolacijom. Sobna vrata, unutrašnja vrata – pristupačna, dugotrajna rešenja za svakodnevni komfor."
+    },
+    {
+      "type": "h3",
+      "content": "🔒 Klizna Vrata i Stakleni Portali"
+    },
+    {
+      "type": "p",
+      "content": "Elegantna klizna vrata sa glatkim mehanizmom, stakleni portali za maksimalnu svetlost. Savršeni za terase, balkone ili poslovne prostore – funkcionalno i sofisticirano."
+    },
+    {
+      "type": "h3",
+      "content": "☀️ Sistemi Zaštite Od Sunca"
+    },
+    {
+      "type": "p",
+      "content": "Roletne, žaluzine, pergole – integrisani sa stolarijom. Sprečavaju pregrevanje, štite nameštaj od UV zraka, a izgledaju moderni."
+    },
+    {
+      "type": "h3",
+      "content": "🛡️ Sistemi Zaštite Od Insekata"
+    },
+    {
+      "type": "p",
+      "content": "Komarnici – plise, rolo, fiksni. Integrisani u prozore i vrata, nevidljivi, ali efikasni protiv svakog insekta."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti Koral SU – Kvalitet Koji Se Oseća"
+    },
+    {
+      "type": "p",
+      "content": "Oni nisu samo proizvođači – oni grade za budućnost:"
+    },
+    {
+      "type": "h3",
+      "content": "Termička Izolacija"
+    },
+    {
+      "type": "p",
+      "content": "Sistemi zadržavaju toplotu zimi, hladnoću leti – do 30% niži računi za grejanje/hlađenje."
+    },
+    {
+      "type": "h3",
+      "content": "Otpornost Na Vremenske Uslove"
+    },
+    {
+      "type": "p",
+      "content": "ALUMIL profili izdržavaju vetar, kišu, UV – bez deformacija godinama."
+    },
+    {
+      "type": "h3",
+      "content": "Bezbednosne Funkcije"
+    },
+    {
+      "type": "p",
+      "content": "Višetačna zaključavanja, ojačani profili – zaštita od provala i požara."
+    },
+    {
+      "type": "h2",
+      "content": "Projekti Koji Govore – Lideri U Delu"
+    },
+    {
+      "type": "p",
+      "content": "Koral SU je radio na brojnim prestižnim objektima:"
+    },
+    {
+      "type": "h3",
+      "content": "Super Shop Subotica"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna PVC i ALU stolarija – prozori, vrata, automatska vrata. Maksimalna svetlost i efikasnost."
+    },
+    {
+      "type": "h3",
+      "content": "Dr. Max Apoteka"
+    },
+    {
+      "type": "p",
+      "content": "PVC i ALU vrata/prozori – unutrašnja i ulazna, sa zaštitom od sunca."
+    },
+    {
+      "type": "h3",
+      "content": "Škoda Izložbeni Salon Palić"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna PVC/ALU stolarija – fasadni prozori, vrata, servisni deo."
+    },
+    {
+      "type": "h3",
+      "content": "Stambeno-Poslovni Prostor"
+    },
+    {
+      "type": "p",
+      "content": "PVC prozori u stambenom delu, ALU izlozi u poslovnom – usklađena estetika."
+    },
+    {
+      "type": "h3",
+      "content": "Univerexport"
+    },
+    {
+      "type": "p",
+      "content": "PVC/ALU prozori/vrata, automatska vrata, stakleni elementi – savremeni dizajn."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade – Od Ponude Do Montiranog Okvira"
+    },
+    {
+      "type": "p",
+      "content": "Proces je precizan:<br>1. <strong>Ponuda</strong> – besplatna procena<br>2. <strong>Proizvodnja</strong> – u sopstvenom pogonu<br>3. <strong>Montaža</strong> – stručni tim, bez oštećenja<br>4. <strong>Garancija</strong> – na sve"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Koral SU – Jer Svaki Dom Zaslužuje Savršen Okvir"
+    },
+    {
+      "type": "p",
+      "content": "Sa 30 godina iskustva, Koral SU je lider u Subotici – kvalitetni ALUMIL, pouzdana montaža, zadovoljni klijenti širom Srbije."
+    },
+    {
+      "type": "p",
+      "content": "Tražite stolariju koja traje? Zatražite ponudu od Koral SU na <a href=\"tel:+38163568011\"><strong>+381 63 568 011</strong></a> ili <a href=\"mailto:koralsu@gmail.com\"><strong>koralsu@gmail.com</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Aluminijumska Stolarija",
+      "description": "Prozori, vrata, klizna – termo-prekinuti profili, sigurno staklo."
+    },
+    {
+      "title": "PVC Stolarija",
+      "description": "Višekomorni profili, unutrašnja vrata – izolacija i dizajn."
+    },
+    {
+      "title": "Sistemi Zaštite Od Sunca",
+      "description": "Roletne, žaluzine – integrisani sa stolarijom."
+    },
+    {
+      "title": "Sistemi Zaštite Od Insekata",
+      "description": "Komarnici – plise, rolo, fiksni."
+    },
+    {
+      "title": "Stakleni Portali",
+      "description": "Veliki otvori, HS sistemi za svetlost i prostor."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koja je razlika između aluminijumske i PVC stolarije?",
+      "answer": "Aluminijum je jači za velike otvore, PVC pristupačniji za izolaciju. Nudimo oba po meri."
+    },
+    {
+      "question": "Mogu li prilagoditi boju i veličinu?",
+      "answer": "Da – sve po RAL karti, tačno po vašim merama."
+    },
+    {
+      "question": "Koliko traje proizvodnja i montaža?",
+      "answer": "Proizvodnja 7–14 dana, montaža 1–2 dana po objektu."
+    },
+    {
+      "question": "Dostupni li su sistemi za insekte za sve prozore?",
+      "answer": "Da – klizni, standardni, ZIP – integrisani sa stolarijom."
+    },
+    {
+      "question": "Da li imaju garanciju?",
+      "answer": "Da – minimalno 2 godine, plus CE sertifikati."
+    },
+    {
+      "question": "Gde sve rade?",
+      "answer": "Subotica, Palić, Bačka Topola, Sombor i cela Srbija."
+    },
+    {
+      "question": "Kako da ih kontaktiram?",
+      "answer": "Pozovite +381 63 568 011 ili pišite na koralsu@gmail.com."
+    }
+  ]
+},
+
+  {
+  "ime": "AR Company Subotica - PVC Stolarija i Alu Ograde",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Stakleni Portali", "Roletne", "Komarnici", "Podprozorske Klupice", "Aluminijumske Ograde", "Motorizovane Ograde"],
+  "opis_kratak": "AR Company – proizvodnja i ugradnja PVC stolarije po meri u Subotici. Prozori, vrata, stakleni portali, roletne, komarnici, podprozorske klupice + alu ograde sa elektromotorom. Kvalitet, brzina, garancija. Subotica i okolina.",
+  "mesto": ["Subotica", "Palić", "Bačka Topola", "Sombor", "Kula", "Vrbas", "Bačko Dušanovo", "Čantavir", "Bajmok", "Stari Žednik", "Tornjoš", "Hajdukovo"],
+  "adresa": "Majšanski put 321, Subotica 24000",
+  "telefon": "+38162665801",
+  "email": "",
+  "website": "",
+  "slug": "ar-company-subotica-pvc-stolarija-alu-ograde",
+  "thumbnail": "images/ar-company-subotica-pvc-stolarija-alu-ograde.webp",
+  "hero_image": "images/ar-company-subotica-pvc-stolarija-alu-ograde.webp",
+  "discover_title": "AR Company Subotica - PVC Stolarija i Alu Ograde Koje Traju",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-08",
+  "last_modified": "2025-12-08",
+  "tips_title": "Kako odabrati pravu PVC stolariju",
+  "tips": [
+    "6-komorni profil + trostruko staklo = ušteda do 40% na grejanju",
+    "Alu ograde sa motorom – otvaranje daljinskim, nema buke",
+    "Podprozorske klupice od kompakta – ne pucaju od sunca",
+    "Roletne sa komarnikom – sve u jednom",
+    "Mere uzimajte sa majstorom – sprečite kasnije probleme"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › AR Company"
+    },
+    {
+      "type": "p",
+      "content": "Kada u Subotici tražite PVC stolariju koja nije samo dobra, već i izgleda savršeno, povoljan put svakako vodi do AR Company na Majšanskom putu 321. Aleksa Radulović i njegov tim proizvode i montiraju prozore, vrata, staklene portale, roletne, komarnike i podprozorske klupice – sve po meri, sve sa garancijom. A posebnost? Alu ograde sa elektromotorom – prava retkost u okolini."
+    },
+    {
+      "type": "p",
+      "content": "Ova firma je pravi primer kako se spaja tradicionalni subotički kvalitet sa modernim rešenjima. Radno vreme pon–pet 8–16h, subotom 8–13h – ali za hitne slučajeve uvek se nađe rešenje."
+    },
+    {
+      "type": "h2",
+      "content": "AR Company – Firma Koja Razume Vaš Dom"
+    },
+    {
+      "type": "p",
+      "content": "AR Company nije samo prodavnica stolarije – to je proizvodnja u punom smislu. Sve se radi u njihovoj radionici: od sečenja profila do finalne montaže. Aleksa Radulović lično stoji iza svakog posla, a ekipa montira brzo i pedantno."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38162665801\">+381 62 665 801</a><br>📸 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/pvcstolarija_arcompany/\" target=\"_blank\" rel=\"nofollow\">@pvcstolarija_arcompany</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://share.google/590jTIK8eNM8uxGoz\" target=\"_blank\">Majšanski put 321, Subotica</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Sve Za Savršene Prozore i Ograde"
+    },
+    {
+      "type": "p",
+      "content": "AR Company pokriva kompletan spektar:"
+    },
+    {
+      "type": "h3",
+      "content": "🪟 PVC Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "5-6 komorni profili, dvo/trostruko staklo, sve boje i oblici. Idealna zvučna i toplotna izolacija."
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Stakleni Portali i Klizna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Veliki portali za terase, HS sistemi, minimalni pragovi – svetlost i prostor."
+    },
+    {
+      "type": "h3",
+      "content": "🪞 Roletne i Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Roletne sa ili bez komarnika, rolo/plise/fiksni komarnici – sve u jednom."
+    },
+    {
+      "type": "h3",
+      "content": "🪟 Podprozorske Klupice"
+    },
+    {
+      "type": "p",
+      "content": "Unutrašnje i spoljašnje, od kompakt ploča – ne pucaju, ne blede."
+    },
+    {
+      "type": "h3",
+      "content": "🛡️ Aluminijumske Ograde sa Elektromotorom"
+    },
+    {
+      "type": "p",
+      "content": "Ograde sa staklom, pleksi ili punim ispustima + elektromotor i daljinski. Luksuz i sigurnost."
+    },
+    {
+      "type": "h2",
+      "content": "Kako Rade – Od Mere do Gotovog Posla"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jasan:<br>1. <strong>Poziv</strong> – dogovor termina<br>2. <strong>Besplatne mere</strong> – dolaze na lice mesta<br>3. <strong>Ponuda</strong> – tačna cena i rok<br>4. <strong>Proizvodnja</strong> – u njihovoj radionici<br>5. <strong>Montaža</strong> – brzo, čisto, sa garancijom"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto AR Company – Jer Kvalitet Govori"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu, preciznost i fer odnos. Aleksa i tim ne prodaju samo stolariju – oni grade dugoročno poverenje."
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija ili ograde? Pozovite AR Company na <a href=\"tel:+38162665801\"><strong>+381 62 665 801</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori i Vrata",
+      "description": "6-komorni profili, trostruko staklo, sve boje i oblici."
+    },
+    {
+      "title": "Stakleni Portali",
+      "description": "HS sistemi, veliki otvori, minimalni pragovi."
+    },
+    {
+      "title": "Roletne i Komarnici",
+      "description": "Roletne sa ugrađenim komarnikom, sve vrste."
+    },
+    {
+      "title": "Podprozorske Klupice",
+      "description": "Kompatne, unutrašnje i spoljašnje."
+    },
+    {
+      "title": "Aluminijumske Ograde sa Motorom",
+      "description": "Staklo, pleksi, puna ispuna + daljinski upravljač."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite za mere?",
+      "answer": "Po dogovoru – obično isti ili sledeći dan."
+    },
+    {
+      "question": "Radite li subotom?",
+      "answer": "Da – do 13h."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na materijal i montažu."
+    },
+    {
+      "question": "Može li ograda sa motorom?",
+      "answer": "Da – specijalnost firme."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Subotica, Palić, Bačka Topola i cela okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 62 665 801 ili Instagram @pvcstolarija_arcompany."
+    }
+  ]
+},
+
+  {
+  "ime": "Čantaplast Bačko Dušanovo - Drvena i PVC Stolarija po Meri",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Drvena Stolarija", "Prozori po Meri", "Vrata po Meri", "Craft Master", "Montaža Stolarije"],
+  "opis_kratak": "Čantaplast – porodična firma iz Bačkog Dušanova (vlasnik Turi Laslo) specijalizovana za izradu PVC i drvene stolarije po meri. Prozori, vrata, craft master – sve dimenzije, sve boje. Kvalitet, brzina, garancija. Bačko Dušanovo, Subotica i okolina.",
+  "mesto": ["Bačko Dušanovo", "Čantavir", "Subotica", "Bačka Topola", "Sombor", "Kula", "Vrbas", "Tornjoš", "Višnjevac", "Bajmok", "Stari Žednik"],
+  "adresa": "Petra Drapšina 18, 24220 Bačko Dušanovo",
+  "telefon": "+38163547835",
+  "email": "cantaplast@freemail.hu",
+  "website": "",
+  "slug": "cantaplast-backo-dusanovo-pvc-drvena-stolarija",
+  "thumbnail": "images/cantaplast-backo-dusanovo-pvc-drvena-stolarija.webp",
+  "hero_image": "images/cantaplast-backo-dusanovo-pvc-drvena-stolarija.webp",
+  "discover_title": "Čantaplast Bačko Dušanovo - Stolarija Koja Traje Generacijama",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-08",
+  "last_modified": "2025-12-08",
+  "tips_title": "Kako odabrati pravu stolariju za vaš dom",
+  "tips": [
+    "PVC za minimalno održavanje – idealno za porodične kuće",
+    "Drvo za toplinu i prirodan izgled – savršeno za seoske domove",
+    "Craft master vrata – vrhunska izrada, dug vek",
+    "Trostruko staklo – ušteda na grejanju do 40%",
+    "Mere uzimajte sa majstorom – sprečite kasnije probleme"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › Čantaplast"
+    },
+    {
+      "type": "p",
+      "content": "U Bačkom Dušanovu, selu gde se svi poznajemo, postoji jedna radionica u koju uvek ulazim sa osmehom – Čantaplast. Lasla Turija i njegov tim poznajem godinama. Dok sam radio na ugradnji PVC prozora po selu, nebrojeno puta smo sarađivali: ja sam postavljao, oni su pravili prozore i vrata tačno po meri. Svaki put isti utisak – preciznost do milimetra, kvalitet koji traje i ljudi koji stoje iza svog rada."
+    },
+    {
+      "type": "p",
+      "content": "Čantaplast nije obična stolarska radionica – to je mala firma koja već dve decenije pravi PVC i drvenu stolariju po meri. Od klasičnih prozora i vrata do craft master komada koji izgledaju kao umetničko delo. Sve se radi u Bačkom Dušanovu, sve se montira lično, sve se garantuje."
+    },
+    {
+      "type": "h2",
+      "content": "Čantaplast – Firma Koja Zna Šta Znači Prava Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Laslo Turi je čovek koji stoji iza svakog komada stolarije. Njegov tim radi sa najkvalitetnijim profilima, okovima i staklima – sve po želji klijenta. Bilo da želite klasičan beli PVC prozor ili drvena vrata sa duborezom, oni to prave tačno onako kako zamislite."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih direktno:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163547835\">+381 63 547 835</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+38124783609\">024 783 609</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:cantaplast@freemail.hu\">cantaplast@freemail.hu</a><br>📍 <strong>Lokacija:</strong> Petra Drapšina 18, Bačko Dušanovo"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Čantaplast Radi – Sve Po Vašoj Meri"
+    },
+    {
+      "type": "p",
+      "content": "Oni pokrivaju kompletan spektar stolarije:"
+    },
+    {
+      "type": "h3",
+      "content": "🪟 PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Prozori i vrata od najkvalitetnijih profila (5-6 komora), sa dvo ili trostrukim staklom. Sve boje, sve dimenzije. Montaža sa dihtovanjem i garancijom."
+    },
+    {
+      "type": "h3",
+      "content": "🌲 Drvena Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Klasični drveni prozori i vrata – hrast, bor, meranti. Ručna izrada, duborez, stakla po želji. Za one koji vole toplinu pravog drveta."
+    },
+    {
+      "type": "h3",
+      "content": "🚪 Craft Master Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Vrhunska izrada vrata – ulazna, sobna, sa staklom ili puna. Sve po meri, sve ručno."
+    },
+    {
+      "type": "h3",
+      "content": "🛠️ Montaža i Saveti"
+    },
+    {
+      "type": "p",
+      "content": "Besplatno uzimanje mera, saveti, transport. Montaža sa dihtovanjem i podešavanjem."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Čantaplast – Jer Laslo Stoji Iza Svakog Prozora"
+    },
+    {
+      "type": "p",
+      "content": "Lično sam sarađivao sa Laslom na desetinama projekata – i uvek isto: tačnost, kvalitet, fer cena. Nema kašnjenja, nema iznenađenja. Klijenti iz Bačkog Dušanova, Čantavira, Subotice – svi se vraćaju."
+    },
+    {
+      "type": "p",
+      "content": "Tražite stolariju koja traje? Pozovite Lasla na <a href=\"tel:+38163547835\"><strong>+381 63 547 835</strong></a>. Čantaplast – jer prava stolarija ima ime."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori i Vrata",
+      "description": "Sve dimenzije, sve boje, 5-6 komora, trostruko staklo. Montaža uključena."
+    },
+    {
+      "title": "Drvena Stolarija",
+      "description": "Hrast, bor, meranti – ručna izrada, duborez, klasičan izgled."
+    },
+    {
+      "title": "Craft Master Vrata",
+      "description": "Ulazna i sobna vrata vrhunske izrade, po meri."
+    },
+    {
+      "title": "Montaža i Saveti",
+      "description": "Besplatno uzimanje mera, transport, profesionalna montaža."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite za mere?",
+      "answer": "Po dogovoru – obično isti ili sledeći dan."
+    },
+    {
+      "question": "Radite li drvenu stolariju?",
+      "answer": "Da – hrast, bor, meranti, ručna izrada."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na materijal i montažu."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Bačko Dušanovo, Čantavir, Subotica, Bačka Topola i okolina."
+    },
+    {
+      "question": "Može li craft master?",
+      "answer": "Da – vrhunska izrada, sve po vašem dizajnu."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 547 835 ili +381 24 783 609."
+    }
+  ]
+},
+
+  {
   "ime": "Dejan Jelić – Izrada i Sklapanje Nameštaja po Meri Beograd",
   "tip": "majstor",
   "kategorija": ["Izrada Nameštaja po Meri", "Sklapanje Nameštaja", "Transport Nameštaja", "IKEA Nameštaj", "Forma Ideale Nameštaj", "JYSK Nameštaj"],
@@ -122,7 +699,7 @@
     },
     {
       "question": "Šta podrazumeva izrada nameštaja po meri?",
-      "answer": "Čitav proces odd ideje do gotovog proizvoda."
+      "answer": "Čitav proces od ideje do gotovog proizvoda."
     },
     {
       "question": "Šta ako nameštaj oštetim u transportu?",
