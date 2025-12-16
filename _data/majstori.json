@@ -1,6 +1,617 @@
 [
 
   {
+  "ime": "Vrednica Beograd - Čistoća Sa Srcem",
+  "tip": "firma",
+  "kategorija": ["Čišćenje Stanova", "Generalno Čišćenje", "Redovno Održavanje", "Mašinsko Pranje Podova", "Čišćenje Nameštaja", "Čišćenje Ulaza", "Čišćenje Nakon Radova", "Peglanje Veša", "Dezinfekcija"],
+  "opis_kratak": "Vrednica – agencija za čišćenje Beograd sa misijom da pruži posao vrednim ženama i besprekorno čist prostor klijentima. Standardno, generalno, dubinsko čišćenje, mašinsko pranje podova, peglanje. Beograd i okolina.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381612436391",
+  "email": "info@vrednica.rs",
+  "website": "https://www.vrednica.rs/",
+  "slug": "vrednica-agencija-ciscenje-beograd",
+  "thumbnail": "images/vrednica-agencija-ciscenje-beograd.webp",
+  "hero_image": "images/vrednica-agencija-ciscenje-beograd.webp",
+  "discover_title": "Vrednica Beograd - Čistoća Sa Srcem",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-16",
+  "last_modified": "2025-12-16",
+  "tips_title": "Kako da Vaš Dom Uvek Miriše Na Sveže",
+  "tips": [
+    "Redovno brisanje prašine – sprečava alergije",
+    "Dezinfekcija toaleta – ključ za zdravlje",
+    "Mašinsko pranje podova – sjaj bez truda",
+    "Peglanje veša – prepustite profesionalcima",
+    "Čišćenje nakon radova – brzo uklonite prašinu"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/agencije-za-ciscenje-beograd/\">Agencije za čišćenje Beograd</a> › Vrednica"
+    },
+    {
+      "type": "p",
+      "content": "Čist dom nije samo pitanje estetike – to je pitanje zdravlja, mira i harmonije. Ali u brzom tempu Beograda, malo ko ima vremena za detaljno čišćenje. Tu nastupa Vrednica – agencija koja je nastala sa plemenitom misijom: da pruži posao vrednim nezaposlenim ženama i istovremeno obezbedi klijentima besprekorno čist prostor."
+    },
+    {
+      "type": "p",
+      "content": "Vrednica nije obična agencija – to je tim žena koje rade srcem. One čiste stanove, ulaze, poslovne prostore – standardno, generalno, dubinsko, nakon radova. Sa pažnjom na svaki detalj, one pretvaraju haos u red."
+    },
+    {
+      "type": "h2",
+      "content": "Vrednica – Čišćenje Sa Misijom"
+    },
+    {
+      "type": "p",
+      "content": "Vrednica je više od posla – to je prilika za nove početke. Osnovana sa željom da pomogne ženama, danas je prepoznata po kvalitetu, pouzdanosti i ljudskosti. Njihov tim radi sa osmehom, a rezultati su uvek isti – prostor koji miriše na sveže."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za zakazivanje:<br>📞 <strong>Branka:</strong> <a href=\"tel:+381612436391\">+381 61 243 63 91</a><br>📞 <strong>Maja:</strong> <a href=\"tel:+381638254710\">+381 63 825 47 10</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@vrednica.rs\">info@vrednica.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.vrednica.rs/\" target=\"_blank\" rel=\"nofollow\">vrednica.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge Koje Nude – Od Standardnog Do Dubinskog"
+    },
+    {
+      "type": "h3",
+      "content": "Standardno Čišćenje"
+    },
+    {
+      "type": "p",
+      "content": "Usisavanje, brisanje prašine, pranje podova, dezinfekcija toaleta – sve ono što održava dom svežim iz dana u dan."
+    },
+    {
+      "type": "h3",
+      "content": "Redovno Održavanje"
+    },
+    {
+      "type": "p",
+      "content": "Nedeljno ili dvonedeljno – za one koji žele uvek uredan prostor bez velikog čišćenja."
+    },
+    {
+      "type": "h3",
+      "content": "Generalno i Kompletno Čišćenje"
+    },
+    {
+      "type": "p",
+      "content": "Dubinsko čišćenje svih prostorija, uključujući teško dostupna mesta, plakare, aparate."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Teško Zaprljanih Stanova"
+    },
+    {
+      "type": "p",
+      "content": "Kada je prljavština godinama nakupljana – oni vraćaju sjaj."
+    },
+    {
+      "type": "h3",
+      "content": "Mašinsko Pranje Podova"
+    },
+    {
+      "type": "p",
+      "content": "Novo u ponudi – parket, pločice, laminat – sjaj bez traga."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Brisanje, poliranje, dubinsko – nameštaj kao nov."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Ulaza i Zgrada"
+    },
+    {
+      "type": "p",
+      "content": "Hodnici, liftovi – uvek čisto i mirisno."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Nakon Izgradnje/Radova"
+    },
+    {
+      "type": "p",
+      "content": "Uklanjanje građevinske prašine, maltera, lepkova – prostor spreman za useljenje."
+    },
+    {
+      "type": "h3",
+      "content": "Peglanje Veša"
+    },
+    {
+      "type": "p",
+      "content": "Posle pranja – savršeno ispeglano."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Vrednica – Jer Čistoća Ima Srce"
+    },
+    {
+      "type": "p",
+      "content": "Vrednica nije samo čišćenje – to je podrška ženama i mir za klijente. Njihov tim radi sa pažnjom, poštovanjem i osmehom."
+    },
+    {
+      "type": "p",
+      "content": "Želite dom koji zablista? Pozovite Vrednicu na <a href=\"tel:+381612436391\"><strong>+381 61 243 63 91</strong></a> (Branka) ili <a href=\"tel:+381638254710\"><strong>+381 63 825 47 10</strong></a> (Maja)."
+    }
+  ],
+  "services": [
+    {
+      "title": "Standardno i Redovno Čišćenje",
+      "description": "Usisavanje, brisanje prašine, pranje podova, dezinfekcija."
+    },
+    {
+      "title": "Generalno i Kompletno Čišćenje",
+      "description": "Dubinsko, uključujući plakare i aparate."
+    },
+    {
+      "title": "Mašinsko Pranje Podova",
+      "description": "Parket, pločice – sjaj i svežina."
+    },
+    {
+      "title": "Čišćenje Nakon Radova",
+      "description": "Uklanjanje građevinske prašine i tragova."
+    },
+    {
+      "title": "Peglanje Veša",
+      "description": "Savršeno ispeglano, bez bora."
+    },
+    {
+      "title": "Čišćenje Ulaza i Zgrada",
+      "description": "Hodnici, liftovi – uvek uredno."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li redovno održavanje?",
+      "answer": "Da – nedeljno, dvonedeljno ili mesečno."
+    },
+    {
+      "question": "Čistite li nakon renoviranja?",
+      "answer": "Da – specijalnost za teško zaprljane prostore."
+    },
+    {
+      "question": "Imate li mašinsko pranje?",
+      "answer": "Da – novo u ponudi za sve vrste podova."
+    },
+    {
+      "question": "Peglate li veš?",
+      "answer": "Da – posle pranja, savršeno ispeglano."
+    },
+    {
+      "question": "Gde radite u Beogradu?",
+      "answer": "Ceo Beograd – Novi Beograd, Zemun, Vračar i dalje."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite Branku +381 61 243 63 91 ili Maju +381 63 825 47 10."
+    }
+  ]
+},
+
+  {
+  "ime": "As Clean Agencija za Čišćenje Beograd",
+  "tip": "firma",
+  "kategorija": ["Čišćenje Stanova", "Generalno Čišćenje", "Redovno Održavanje", "Čišćenje Poslovnih Prostora", "Čišćenje Zgrada", "Čišćenje Nakon Radova", "Dubinsko Pranje", "Mašinsko Pranje Podova", "Pranje Staklenih Površina"],
+  "opis_kratak": "As Clean – profesionalna agencija za čišćenje stanova, poslovnih prostora i zgrada u Beogradu od 2015. Generalno, redovno, dubinsko čišćenje, pranje nakon radova. Fleksibilno, kvalitetno, bez dodatnih troškova.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara"],
+  "adresa": "Marička 20/8, Beograd 11090",
+  "telefon": "+381605622257",
+  "email": "office@asclean.rs",
+  "website": "https://asclean.rs/",
+  "slug": "as-clean-agencija-ciscenje-beograd",
+  "thumbnail": "images/as-clean-agencija-ciscenje-beograd.webp",
+  "hero_image": "images/as-clean-agencija-ciscenje-beograd.webp",
+  "discover_title": "As Clean Beograd - Čistoća Koja Se Oseća",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-16",
+  "last_modified": "2025-12-16",
+  "tips_title": "Zašto je Profesionalno Čišćenje Bolje Od Samostalnog",
+  "tips": [
+    "Mašinsko pranje podova – sjaj bez tragova",
+    "Dubinsko pranje nameštaja – uklanja alergene",
+    "Čišćenje nakon radova – sprečava prašinu u plućima",
+    "Redovno održavanje zgrade – sprečava veće troškove",
+    "Pranje visokih stakala – bezbedno i efikasno"
+  ],
+  "sections": [
+
+    {
+      "type": "p",
+      "content": "<a href=\"/agencije-za-ciscenje-beograd/\">Agencije za čišćenje u Beogradu</a> › As Clean"
+    },
+    {
+      "type": "p",
+      "content": "Čist prostor nije samo lep – on je zdrav, miran i produktivan. U Beogradu, gde vreme leti, malo ko ima snage za dubinsko čišćenje nakon radova ili redovno održavanje zgrade. Tu nastupa As Clean – agencija osnovana 2015. koja je iz jednog čoveka izrasla u tim profesionalaca, spremnih 365 dana godišnje."
+    },
+    {
+      "type": "p",
+      "content": "Oni čiste stanove, kancelarije, zgrade, hotele – generalno, redovno, nakon renoviranja, mašinski, dubinski. Sve sa najnovijim mašinama, stručnim osobljem i bez skrivenih troškova."
+    },
+    {
+      "type": "h2",
+      "content": "As Clean – Pouzdan Partner Za Čistoću"
+    },
+    {
+      "type": "p",
+      "content": "As Clean je više od agencije – to je tim koji brine o vašem prostoru kao o svom. Od osnivanja 2015. fokusirani su na kvalitet, ljubaznost i preporuke zadovoljnih klijenata. Rade brzo, efikasno i sa garancijom zadovoljstva."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381605622257\">060 56 222 57</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@asclean.rs\">office@asclean.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://asclean.rs/\" target=\"_blank\" rel=\"nofollow\">asclean.rs</a><br>📍 <strong>Adresa:</strong> Marička 20/8, Beograd 11090"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge Koje Nude – Sve Vrste Čišćenja"
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Poslovnih Prostora"
+    },
+    {
+      "type": "p",
+      "content": "Hoteli, restorani, ordinacije, kancelarije – dnevno, nedeljno ili povremeno. Sa ili bez njihovog materijala."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Stanova"
+    },
+    {
+      "type": "p",
+      "content": "Generalno ili redovno – od 1.400–1.600 din/h, minimalno 5h."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Zgrada"
+    },
+    {
+      "type": "p",
+      "content": "Od 800 din/stan – nedeljno čišćenje, nega zelenila, prilazi. Poklon otirač i kanta."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Nakon Građevinskih Radova"
+    },
+    {
+      "type": "p",
+      "content": "Uklanjanje prašine, maltera, lepkova – sve površine, uključujući teško dostupna mesta."
+    },
+    {
+      "type": "h3",
+      "content": "Pranje Staklenih Površina"
+    },
+    {
+      "type": "p",
+      "content": "Prozori, izlozi, visoka stakla – bezbedno, sa profesionalnom opremom."
+    },
+    {
+      "type": "h3",
+      "content": "Mašinsko Pranje Podova"
+    },
+    {
+      "type": "p",
+      "content": "Mermer, parket, industrijski podovi – dubinski, sa sjajem."
+    },
+    {
+      "type": "h3",
+      "content": "Dubinsko Pranje"
+    },
+    {
+      "type": "p",
+      "content": "Nameštaj, tepisi, itisoni – uklanjanje mrlja, mirisa, alergena."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Garaža i Podruma"
+    },
+    {
+      "type": "p",
+      "content": "Uklanjanje prljavštine, ulja, prašine iz podzemnih prostora."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto As Clean – Prednosti Koje Se Osećaju"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Brza i efektivna usluga – bez odlaganja",
+        "100% zagarantovan kvalitet",
+        "Najnovije mašine i oprema",
+        "Stručno i ljubazno osoblje",
+        "Fleksibilno radno vreme – 365 dana",
+        "Bez dodatnih troškova – sve uključeno"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Govore"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale pedantnost, ljubaznost i rezultate:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/o0ztChP6EoioZOpJs\" target=\"_blank\" rel=\"nofollow\">Милорад Закић</a>:</strong> Све похвале за Слађу и њену маму. Пре свега јако пријатне особе. Стан је очишћен перфектно. Изузетно су вредне и педантне и воде рачуна о најситнијим детаљима. Апсолутна препорука!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/WMqkuuhqnybFO7Axn\" target=\"_blank\" rel=\"nofollow\">Sanja</a>:</strong> Sjajni ljudi! Izuzetno profesionalno i detaljno čišćenje, bez greške! Svima ih preporučujem jer ono što dogovoriš i platiš, stvarno i dobiješ, bez ikakve potrebe za nadgledanjem."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/UuTRyC09TZB5jxACP\" target=\"_blank\" rel=\"nofollow\">Milica Pandrc</a>:</strong> Sjajna ekipa, vrlo temeljni i brzi! Preporuka za sve vrste prostora, biće kao novi ☺️"
+    },
+    {
+      "type": "p",
+      "content": "Čistoća je harmonija – zakazujte As Clean na <a href=\"tel:+381605622257\"><strong>060 56 222 57</strong></a> ili <a href=\"mailto:office@asclean.rs\"><strong>office@asclean.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Čišćenje Poslovnih Prostora",
+      "description": "Hoteli, restorani, ordinacije – dnevno, nedeljno, povremeno."
+    },
+    {
+      "title": "Čišćenje Stanova",
+      "description": "Generalno ili redovno – 1.400–1.600 din/h."
+    },
+    {
+      "title": "Čišćenje Zgrada",
+      "description": "Od 800 din/stan – hodnici, prilazi, nega zelenila."
+    },
+    {
+      "title": "Čišćenje Nakon Radova",
+      "description": "Uklanjanje prašine, maltera, lepkova."
+    },
+    {
+      "title": "Dubinsko Pranje",
+      "description": "Nameštaj, tepisi, itisoni – uklanjanje mrlja i mirisa."
+    },
+    {
+      "title": "Mašinsko Pranje Podova",
+      "description": "Mermer, parket, industrijski – sa sjajem."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko košta čišćenje stana?",
+      "answer": "Redovno 1.400 din/h, generalno 1.600 din/h – min. 5h."
+    },
+    {
+      "question": "Radite li subotom i nedeljom?",
+      "answer": "Da – fleksibilno, 365 dana."
+    },
+    {
+      "question": "Donosite li opremu?",
+      "answer": "Da – najnovije mašine i sredstva."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – 100% zadovoljstvo."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd – sve opštine."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite 060 56 222 57 ili pišite na office@asclean.rs."
+    }
+  ]
+},
+
+  {
+  "ime": "Perfektno Čisto Agencija za Čišćenje Beograd",
+  "tip": "firma",
+  "kategorija": ["Čišćenje Stanova", "Generalno Čišćenje", "Redovno Održavanje", "Čišćenje Poslovnih Prostora", "Čišćenje Zgrada", "Dubinsko Čišćenje", "Čišćenje Nakon Radova"],
+  "opis_kratak": "Perfektno Čisto – profesionalna agencija za generalno, redovno, dubinsko i čišćenje nakon radova u Beogradu. Stanovi, zgrade, poslovni prostori. Brzo, temeljno, ekološki prihvatljiva sredstva. Garancija zadovoljstva.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Savski Venac"],
+  "adresa": "Hercegovačka 16, Beograd 11000",
+  "telefon": "+381654259508",
+  "email": "kontakt@perfektno-cisto.rs",
+  "website": "https://perfektno-cisto.rs/",
+  "slug": "perfektno-cisto-agencija-ciscenje-beograd",
+  "thumbnail": "images/perfektno-cisto-agencija-ciscenje-beograd.webp",
+  "hero_image": "images/perfektno-cisto-agencija-ciscenje-beograd.webp",
+  "discover_title": "Perfektno Čisto Agencija za Čišćenje Beograd",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-16",
+  "last_modified": "2025-12-16",
+  "tips_title": "Kako da Vaš Prostor Uvek Bude Savršeno Čist",
+  "tips": [
+    "Generalno čišćenje posle renoviranja – prepustite profesionalcima",
+    "Redovno održavanje – sprečava nakupljanje prljavštine",
+    "Dubinsko pranje tepiha – uklanja alergene i mirise",
+    "Čišćenje nakon radova – brzo uklonite građevinsku prašinu",
+    "Ekološka sredstva – bezbedna za decu i ljubimce"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/agencije-za-ciscenje-beograd/\">Agencije za čišćenje u Beogradu</a> › Perfektno Čisto"
+    },
+    {
+      "type": "p",
+      "content": "Posle krečenja sve izgleda savršeno – dok ne primetite prašinu na svakom ćošku, farbu na parketu i tragove na staklima. Ili se selite u nov stan, a prethodni stanari nisu baš bili pedantni. Ili jednostavno nemate snage za generalno čišćenje pre praznika."
+    },
+    {
+      "type": "p",
+      "content": "Tu nastupa <strong>Perfektno Čisto</strong> – agencija koja već godinama profesionalno čisti stanove, kuće i poslovne prostore širom Beograda. Rade brzo, temeljno, sa sopstvenom profesionalnom hemijom i opremom, a cene su više nego pristupačne."
+    },
+    {
+      "type": "h2",
+      "content": "Perfektno Čisto – Čišćenje Koje Ne Ostavlja Trag (Osim Sjaja)"
+    },
+    {
+      "type": "p",
+      "content": "Perfektno Čisto je agencija koja veruje da čist prostor donosi harmoniju. Danas su prepoznati po ljubaznosti, preciznosti i fleksibilnosti – dolaze kad vama odgovara, čak i vikendom."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381654259508\">+381 65 425 9508</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@perfektno-cisto.rs\">kontakt@perfektno-cisto.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://perfektno-cisto.rs/\" target=\"_blank\" rel=\"nofollow\">perfektno-cisto.rs</a><br>📍 <strong>Adresa:</strong> Hercegovačka 16, Beograd 11000"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge Koje Nude – Sve Na Jednom Mestu"
+    },
+    {
+      "type": "h3",
+      "content": "Redovno Održavanje Poslovnih Prostora"
+    },
+    {
+      "type": "p",
+      "content": "Kancelarije, saloni, prodavnice – redovno usisavanje, brisanje prašine, pranje podova, čišćenje sanitarnog čvora. Idealno za firme koje žele uvek besprekoran izgled."
+    },
+    {
+      "type": "h3",
+      "content": "Generalno Čišćenje Stanova i Kuća"
+    },
+    {
+      "type": "p",
+      "content": "Dubinsko čišćenje svih prostorija, pranje prozora sa obe strane, čišćenje kuhinjskih elemenata, kupatila, plakara. Sve ono što sami nikad ne stignete."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Nakon Krečenja i Završnih Radova"
+    },
+    {
+      "type": "p",
+      "content": "Uklanjanje građevinske prašine, farbe sa podova i prozora, pranje pločica do sjaja. Stan spreman za useljenje za jedan dan."
+    },
+    {
+      "type": "h3",
+      "content": "Dubinsko Pranje"
+    },
+    {
+      "type": "p",
+      "content": "Dubinsko pranje tepiha, prostirki, tapaciranog nameštaja (sofe, fotelje, jastuci) i tvrdih podova (parket, pločice, laminat). Koriste specijalizovane aparate koji prodiru duboko u vlakna, uklanjaju mrlje, alergene i mirise. Prostor postaje kao nov."
+    },
+    {
+      "type": "h3",
+      "content": "Dodatne Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje pre i posle selidbe, pranje venecijanera, dubinsko pranje tepiha i nameštaja (po dogovoru), čišćenje zgrada i hodnika."
+    },
+    {
+      "type": "h2",
+      "content": "Gde Rade – Veliko Područje Pokrivenosti"
+    },
+    {
+      "type": "p",
+      "content": "Perfektno Čisto pokriva ceo Beograd: Novi Beograd, Zemun, Vračar, Voždovac, Čukarica, Palilula i sve ostale opštine."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Klijenti Biraju Perfektno Čisto – Recenzije Govore"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu, pedantnost i ljubaznost ekipe:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/Ad7Igqq5pj7lTlS1P\" target=\"_blank\" rel=\"nofollow\">Suzana Kovačević</a>:</strong> Juče su kod mene bile dve devojke iz agencije, i mogu samo da kažem da sam i više nego zadovoljna...svaka čast i sve pohvale za agenciju. Bravo💪💪"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/GSbftHlPDmhQN5sD7\" target=\"_blank\" rel=\"nofollow\">Radica Kosović</a>:</strong> Danas su kod mene bile dve žene. Prezadovoljna sam, detaljne, pedantne, profesionalne. Devojke sve pohvale. Nastavljamo i dalje saradnju."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/FaZoCtLfeaNkVmYm4\" target=\"_blank\" rel=\"nofollow\">Marko Radovanović</a>:</strong> Svaka preporuka, svaka čast. Do sada su se najbolje pokazali od svih, vrlo profesionalno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Klijenti Biraju Perfektno Čisto"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dolaze sa svom opremom i hemijom – vi ne morate ništa da spremate",
+        "Fiksna cena po satu ili dogovor po kvadraturi",
+        "Ljubazna i proverena ekipa",
+        "Fleksibilni termini – radnim danima, subotom i nedeljom",
+        "Brzo i temeljno – stan od 70 m² generalno za 5–6 sati"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Treba vam čišćenje koje zaista menja stvari? Pozovite Perfektno Čisto na <a href=\"tel:+381654259508\"><strong>+381 65 425 9508</strong></a> ili pišite na <a href=\"mailto:kontakt@perfektno-cisto.rs\"><strong>kontakt@perfektno-cisto.rs</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Redovno Održavanje Poslovnih Prostora",
+      "description": "Kancelarije, saloni, prodavnice. Svakodnevni sjaj bez brige."
+    },
+    {
+      "title": "Generalno Čišćenje Stanova i Kuća",
+      "description": "Dubinsko čišćenje svih prostorija, prozori, kuhinja, kupatilo."
+    },
+    {
+      "title": "Čišćenje Nakon Krečenja",
+      "description": "Uklanjanje građevinske prašine i fleka. Stan spreman za useljenje."
+    },
+    {
+      "title": "Dubinsko Pranje",
+      "description": "Tepisi, nameštaj, tvrdi podovi – uklanjanje mrlja, alergena i mirisa."
+    },
+    {
+      "title": "Čišćenje Pre/Posle Selidbe",
+      "description": "Kompletna priprema starog ili novog stana – sve zablista za jedan dan."
+    },
+    {
+      "title": "Pranje Prozora i Venecijanera",
+      "description": "Sa obe strane, uključujući okvire i špalete. Kristalno čisto."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko traje generalno čišćenje prosečnog stana?",
+      "answer": "Za stan 50–70 m² obično 5–7 sati, u zavisnosti od stanja."
+    },
+    {
+      "question": "Da li donosite svoju opremu i hemiju?",
+      "answer": "Da, dolazimo sa svime – profesionalnim usisivačima, paročistačima i sredstvima."
+    },
+    {
+      "question": "Može li vikendom?",
+      "answer": "Da – subotom i nedeljom po dogovoru."
+    },
+    {
+      "question": "Radite li i u Novom Sadu?",
+      "answer": "Fokus je na Beogradu, ali po dogovoru dolazimo i šire."
+    },
+    {
+      "question": "Kako se plaća – po satu ili po kvadratu?",
+      "answer": "Po dogovoru – najčešće po satu, ali za veće poslove možemo i po kvadratu."
+    },
+    {
+      "question": "Da li su sredstva bezbedna za decu i kućne ljubimce?",
+      "answer": "Koristimo profesionalnu hemiju koja je bezbedna nakon sušenja."
+    },
+    {
+      "question": "Kako da zakazem termin?",
+      "answer": "Pozovite +381 65 425 9508 ili pišite na kontakt@perfektno-cisto.rs."
+    }
+  ]
+},
+
+  {
   "ime": "Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove",
   "tip": "firma",
   "kategorija": ["Aluminijumska Stolarija", "PVC Stolarija", "Prozori Po Meri", "Vrata Po Meri", "Sistemi Zaštite Od Sunca", "Komarnici", "Klizna Vrata", "Stakleni Portali"],
