@@ -1,6 +1,568 @@
 [
 
   {
+  "ime": "Temma Trade Novi Sad - Kuhinje po Meri",
+  "tip": "firma",
+  "kategorija": ["Kuhinje po Meri", "Nameštaj po Meri", "Kancelarijski Nameštaj", "Opremanje Enterijera", "Dizajn Enterijera"],
+  "opis_kratak": "Temma Trade – lideri sa 30+ godina iskustva u izradi kuhinja po meri u Novom Sadu (Petrovaradin). Univer, medijapan, puno drvo – sve boje, stilovi, dimenzije. Besplatna montaža, garancija do 12 godina, servis i van garancije.",
+  "mesto": ["Novi Sad", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Bačka Palanka"],
+  "adresa": "Preradovićeva 32, Petrovaradin, Novi Sad",
+  "telefon": "+38121400859",
+  "email": "temma@temmatrade.com",
+  "website": "https://temmatrade.com/",
+  "slug": "temma-trade-novi-sad-kuhinje-po-meri",
+  "thumbnail": "images/temma-trade-novi-sad-kuhinje-po-meri.webp",
+  "hero_image": "images/temma-trade-novi-sad-kuhinje-po-meri.webp",
+  "discover_title": "Temma Trade Novi Sad - Kuhinje Iz Snova Sa 30 Godina Iskustva",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-17",
+  "last_modified": "2025-12-17",
+  "tips_title": "Kako da Vaša Kuhinja Bude Funkcionalna i Lepa",
+  "tips": [
+    "Univer frontovi – pristupačni i raznovrsni",
+    "Puno drvo – za večnu toplinu",
+    "Garancija do 12 godina – miran san",
+    "Besplatna montaža – uvek uključena",
+    "Projektant na terenu – tačne mere, bolji dizajn"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Izrada kuhinja po meri Novi Sad</a> › Temma Trade"
+    },
+  
+  {
+    "type": "p",
+    "content": "Kuhinja je pravo srce doma – mesto gde se pije prva jutarnja kafa, spremaju omiljena jela i dele najlepši trenuci sa porodicom. Zato ona treba da bude baš po vašoj meri: u skladu sa vašim stilom, prostorom i budžetom. U Petrovaradinu (Novi Sad) postoji ime koje se već više od 30 godina vezuje za kvalitet i poverenje – Temma Trade, firma koja je opremila preko 80.000 zadovoljnih klijenata. Njihove kuhinje po meri nisu samo komadi nameštaja, već pametna, dugotrajna rešenja sa garancijom do 12 godina i servisom čak i nakon isteka garancije."
+  },
+  {
+    "type": "p",
+    "content": "U impresivnom salonu od preko 1000 m² i uz pomoć iskusnih projektanata, Temma Trade stvara kuhinje od univera, medijapana i punog drveta – u više od 50 boja i tekstura. Bez obzira da li maštate o modernoj, minimalističkoj beloj kuhinji ili toploj, rustičnoj varijanti od drveta, njihov tim vašu ideju pretvara u stvarnost."
+  },
+  {
+    "type": "h2",
+    "content": "Temma Trade – 30 Godina Tradicije u Savremenim Kuhinjama"
+  },
+  {
+    "type": "p",
+    "content": "Još od 1995. godine, Temma Trade gradi reputaciju lidera u kancelarijskom nameštaju i opremanju enterijera, ali kuhinje po meri su njihova posebna ljubav. Zahvaljujući sopstvenoj proizvodnji i stručnom timu, nude kompletno i bezbrižno iskustvo – od prve ideje i saveta, pa sve do precizne montaže."
+  },
+
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Novi Sad:</strong> <a href=\"tel:+38121400859\">021 400 859</a> / <a href=\"tel:+38163653239\">063 653 239</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:temma@temmatrade.com\">temma@temmatrade.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://temmatrade.com/\" target=\"_blank\">temmatrade.com</a><br>📍 <strong>Salon:</strong> Preradovićeva 32, Petrovaradin"
+    },
+    {
+      "type": "h2",
+      "content": "Kako Prave Kuhinje – Korak Po Korak"
+    },
+    {
+      "type": "p",
+      "content": "Proces je jednostavan i transparentan:"
+    },
+    {
+      "type": "h3",
+      "content": "Upoznavanje"
+    },
+    {
+      "type": "p",
+      "content": "Opišite viziju ili pokažite slike – oni slušaju."
+    },
+    {
+      "type": "h3",
+      "content": "Rešenje i Cena"
+    },
+    {
+      "type": "p",
+      "content": "Predlog cene i roka na osnovu okvirnih mera."
+    },
+    {
+      "type": "h3",
+      "content": "Izlazak na Teren"
+    },
+    {
+      "type": "p",
+      "content": "Precizne mere, finalni detalji."
+    },
+    {
+      "type": "h3",
+      "content": "Isporuka i Montaža"
+    },
+    {
+      "type": "p",
+      "content": "30–45 dana, besplatna montaža."
+    },
+    {
+      "type": "h2",
+      "content": "Materijali i Mogućnosti – Sve Po Vašoj Želji"
+    },
+    {
+      "type": "p",
+      "content": "Izbor materijala: univer, medijapan, puno drvo. 50+ boja i tekstura. Kuhinjske radne ploče, okovi, ručke – sve kombinacije."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti Temma Trade"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "30+ godina iskustva",
+        "80.000+ zadovoljnih klijenata",
+        "Garancija do 12 godina",
+        "Besplatna montaža",
+        "Servis i van garancije",
+        "Rešenja za svaki budžet"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Stanić Aleksandar</strong>: Nameštaj rade baš po želji kupca. Veoma uslužni, sjajni za saradnju. Sve pohvale."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Predrag Obradović</strong>: Izvanredan servis i profesionalna usluga. Za svaku preporuku!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Stefan Mijailović</strong>: Fenomenalan nameštaj, odlična korisnička podrška!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Predrag Ristić</strong>: Svima bih preporučio saradnju sa firmom Temma Trade, svaka pohvala za posvećenost poslu i požrtvovanost u realizaciji projekata."
+    },
+    {
+      "type": "p",
+      "content": "Kuhinja iz snova? Zatražite ponudu od Temma Trade na <a href=\"tel:+38121400859\"><strong>021 400 859</strong></a> ili posetite salon u Petrovaradinu."
+    }
+  ],
+  "services": [
+    {
+      "title": "Kuhinje po Meri",
+      "description": "Univer, medijapan, puno drvo – sve boje, stilovi, dimenzije."
+    },
+    {
+      "title": "Kancelarijski Nameštaj",
+      "description": "Kompletno opremanje kancelarija."
+    },
+    {
+      "title": "Opremanje Enterijera",
+      "description": "Dizajn i realizacija za domove i poslovne prostore."
+    },
+    {
+      "title": "Montaža i Servis",
+      "description": "Besplatna montaža, servis i van garancije."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Kolika je cena kuhinje po meri?",
+      "answer": "Formira se po projektu – kontaktirajte za ponudu."
+    },
+    {
+      "question": "Koliko traje izrada?",
+      "answer": "30–45 dana od mera."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – do 12 godina."
+    },
+    {
+      "question": "Radite li servis van garancije?",
+      "answer": "Da – uvek dostupni."
+    },
+    {
+      "question": "Gde je salon u Novom Sadu?",
+      "answer": "Preradovićeva 32, Petrovaradin."
+    },
+    {
+      "question": "Kako da zakazem konsultacije?",
+      "answer": "Pozovite 021 400 859 ili 063 653 239."
+    }
+  ]
+},
+
+  {
+  "ime": "Moj Stolar Novi Sad - Kuhinje Koje Odražavaju Vaš Stil",
+  "tip": "firma",
+  "kategorija": ["Kuhinje po Meri", "Izrada Nameštaja po Meri", "Stepenice", "Ograde", "Dečije Sobe", "Kreveti po Meri", "TV Police", "Ploče od Epoksi Smole"],
+  "opis_kratak": "Moj Stolar – platforma za kuhinje po meri sa lokalnom proizvodnjom u Novom Sadu i Kragujevcu. Moderne, rustične, minimalističke, italijanske, skandinavske – sve stilove. Brza montaža, personalizovani dizajn. Novi Sad i Srbija.",
+  "mesto": ["Novi Sad", "Telep", "Podbara", "Petrovaradin", "Veternik", "Futog", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Bačka Palanka"],
+  "adresa": "Novi Sad, Srbija",
+  "telefon": "+381653355330",
+  "email": "office@mojstolar.rs",
+  "website": "https://mojstolar.rs/",
+  "slug": "moj-stolar-novi-sad-kuhinje-po-meri",
+  "thumbnail": "images/moj-stolar-novi-sad-kuhinje-po-meri.webp",
+  "hero_image": "images/moj-stolar-novi-sad-kuhinje-po-meri.webp",
+  "discover_title": "Moj Stolar Novi Sad - Kuhinje Koje Odražavaju Vaš Stil",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-17",
+  "last_modified": "2025-12-17",
+  "tips_title": "Kako da Vaša Kuhinja Bude Savršena Po Vašem Ukus",
+  "tips": [
+    "Izaberite stil pre mera – moderan, rustik ili skandinavski",
+    "Kuhinjsko ostrvo – centar porodičnog života",
+    "Šank – za brze obroke i druženje",
+    "Lokalna proizvodnja – brža isporuka u Novom Sadu",
+    "Kombinujte boje – bela za svetlost, crna za eleganciju"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Izrada kuhinja po meri Novi Sad</a> › Moj Stolar"
+    },
+    {
+      "type": "p",
+      "content": "Kuhinja je srce doma – mesto gde se kuva, jede, priča i živi. Zato ona mora biti tačno onakva kakvu sanjate: po vašem stilu, po vašim merama, po vašem budžetu. U Novom Sadu, Moj Stolar je platforma koja spaja najbolje stolara i kupce – sa lokalnom proizvodnjom u gradu, brza montaža i dizajn koji oduzima dah."
+    },
+    {
+      "type": "p",
+      "content": "Moj Stolar nije obična firma – to je mreža majstora koji prave kuhinje po meri u različitim stilovima: moderne, rustične, minimalističke, njujorške, italijanske, francuske seoske, industrijske, skandinavske, bele, crne, zelene. Bilo da živite na Telepu, Podbari ili Petrovaradinu – oni dolaze, mere, savetuju i montiraju."
+    },
+    {
+      "type": "h2",
+      "content": "Kuhinje Koje Se Prave Kako ih Zamislite"
+    },
+    {
+      "type": "p",
+      "content": "Moj Stolar je platforma koja okuplja iskusne stolare iz Novog Sada. Njihova snaga je lokalna proizvodnja, što podrazumeva bržu isporuku i montažu. Svaka kuhinja je personalizovana: od rasporeda elemenata do izbora materijala i boja. Oni slušaju vaše želje i pretvaraju ih u stvarnost."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv/Viber/WhatsApp:</strong> <a href=\"tel:+381653355330\">+381 65 33 55 330</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@mojstolar.rs\">office@mojstolar.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://mojstolar.rs/\" target=\"_blank\">mojstolar.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Stilovi Kuhinja – Pronađite Svoj"
+    },
+    {
+      "type": "p",
+      "content": "Moj Stolar nudi preko 70 modela u različitim stilovima:"
+    },
+    {
+      "type": "h3",
+      "content": "Moderne Kuhinje"
+    },
+    {
+      "type": "p",
+      "content": "Čiste linije, visoki sjaj, minimalizam – za savremene domove."
+    },
+    {
+      "type": "h3",
+      "content": "Rustik Kuhinje"
+    },
+    {
+      "type": "p",
+      "content": "Drvo, toplina, seoski šarm – za one koji vole tradiciju."
+    },
+    {
+      "type": "h3",
+      "content": "Minimalističke"
+    },
+    {
+      "type": "p",
+      "content": "Bez viška – samo ono što treba, u savršenom redu."
+    },
+    {
+      "type": "h3",
+      "content": "New York Style"
+    },
+    {
+      "type": "p",
+      "content": "Industrijski šik – cigla, metal, otvoreni prostor."
+    },
+    {
+      "type": "h3",
+      "content": "Italijanske, Francuske Seoske, Skandinavske"
+    },
+    {
+      "type": "p",
+      "content": "Elegancija, toplina, priroda – stilovi koji dišu."
+    },
+    {
+      "type": "h3",
+      "content": "Bele, Crne, Zelene Kuhinje"
+    },
+    {
+      "type": "p",
+      "content": "Boje koje definišu prostor – svetle, tamne, prirodne."
+    },
+    {
+      "type": "h2",
+      "content": "Dodaci Koji Čine Razliku"
+    },
+    {
+      "type": "h3",
+      "content": "Kuhinjsko Ostrvo"
+    },
+    {
+      "type": "p",
+      "content": "Centar kuhinje – radna površina, šporet, sudopera ili šank."
+    },
+    {
+      "type": "h3",
+      "content": "Šankovi"
+    },
+    {
+      "type": "p",
+      "content": "Za brze obroke, kafu ili druženje – praktično i stilski."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Moj Stolar – Jer Je Lokalno i Lično"
+    },
+    {
+      "type": "p",
+      "content": "Lokalna proizvodnja u Novom Sadu – brže, jeftinije, bolje. Montaža od strane najboljih stolara. Kalkulator cene na sajtu – znate tačno šta plaćate."
+    },
+    {
+      "type": "p",
+      "content": "Kuhinja iz snova? Zatražite ponudu na <a href=\"https://mojstolar.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>mojstolar.rs</strong></a> ili pozovite <a href=\"tel:+381653355330\"><strong>+381 65 33 55 330</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Kuhinje po Meri",
+      "description": "Svi stilovi – moderne, rustik, skandinavske, sa ostrvom ili šankom."
+    },
+    {
+      "title": "Stepenice",
+      "description": "Drvo, metal, staklo – unutrašnje i spoljne."
+    },
+    {
+      "title": "Ograde",
+      "description": "Aluminijumske, kovane, staklene, CNC."
+    },
+    {
+      "title": "Dečije Sobe i Kreveti",
+      "description": "Po meri, funkcionalno i lepo."
+    },
+    {
+      "title": "Epoksi Stolovi",
+      "description": "Unikatni, ručna izrada."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Gde se proizvode kuhinje?",
+      "answer": "Deo u Novom Sadu – brža isporuka, deo u Kragujevcu."
+    },
+    {
+      "question": "Imate li kalkulator cene?",
+      "answer": "Da – na sajtu za brzu procenu."
+    },
+    {
+      "question": "Radite li montažu u Novom Sadu?",
+      "answer": "Da – profesionalna, brza."
+    },
+    {
+      "question": "Koliko stilova nudite?",
+      "answer": "Preko 10 – moderne, rustik, skandinavske i više."
+    },
+    {
+      "question": "Može li sa ostrvom?",
+      "answer": "Da – ostrvo ili šank po želji."
+    },
+    {
+      "question": "Kako da zatražim ponudu?",
+      "answer": "Pozovite +381 65 33 55 330 ili preko sajta."
+    }
+  ]
+},
+
+  {
+  "ime": "Rational Nameštaj Novi Sad - Kuhinje Koje Se Prilagođavaju Vama",
+  "tip": "firma",
+  "kategorija": ["Izrada Nameštaja po Meri", "Kuhinje po Meri", "Plakari po Meri", "Dečije Sobe", "Dnevni Boravak", "Kancelarijski Nameštaj", "Kreveti i Dušeci"],
+  "opis_kratak": "Rational Nameštaj – specijalisti za kuhinje po meri u Novom Sadu. Linijske, L, U, sa ostrvom – svaka kuhinja iskorišćena do poslednjeg centimetra. Veliki izbor materijala, besplatna dostava i montaža. Novi Sad i okolina.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica"],
+  "adresa": "Temerinski put 85, 21000 Novi Sad",
+  "telefon": "+38121426160",
+  "email": "rationalns@gmail.com",
+  "website": "https://rational-namestaj.rs/",
+  "slug": "rational-namestaj-novi-sad-kuhinje-po-meri",
+  "thumbnail": "images/rational-namestaj-novi-sad-kuhinje-po-meri.webp",
+  "hero_image": "images/rational-namestaj-novi-sad-kuhinje-po-meri.webp",
+  "discover_title": "Rational Nameštaj Novi Sad - Kuhinje Koje Se Prilagođavaju Vama",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "date": "2025-12-17",
+  "last_modified": "2025-12-17",
+  "tips_title": "Kako da Vaša Kuhinja Bude Savršena",
+  "tips": [
+    "Po meri – iskoristite svaki centimetar",
+    "L kuhinja sa ostrvom – idealna za porodične kuće",
+    "Visina radne ploče – prilagodite vašoj visini (85–100 cm)",
+    "Compact ploče – otporne na vodu i ogrebotine",
+    "Besplatna montaža – uvek tražite od proizvođača"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Izrada kuhinja po meri Novi Sad</a> › Rational Nameštaj"
+    },
+    {
+      "type": "p",
+      "content": "Kuhinja nije samo mesto za pripremu hrane – to je srce doma gde se okuplja porodica, dele priče i stvaraju uspomene. Zato ona mora biti tačno po vašoj meri: funkcionalna, lepa i iskorišćena do poslednjeg centimetra. U Novom Sadu, Rational Nameštaj je izvođač za takve kuhinje koje se prilagođavaju korisnicima, a ne obrnuto."
+    },
+    {
+      "type": "p",
+      "content": "Sa dugogodišnjim iskustvom, oni prave kuhinje po meri koje su pravi primer kako se spaja estetika sa praktičnošću. Bez obzira da li imate mali stan ili veliku kuću, Rational će dizajnirati raspored koji maksimalno koristi prostor – linijski, L, U, sa ostrvom ili dvostran."
+    },
+    {
+      "type": "h2",
+      "content": "Kuhinje Koje Se Prave Po Vašem Srcu"
+    },
+    {
+      "type": "p",
+      "content": "Rational nije samo prodavnica – to je radionica gde se ideje pretvaraju u stvarnost. Njihovo ljubazno osoblje sluša vaše želje: izbor materijala (iveral, MDF, furnir, visoki sjaj, compact), boje, raspored elemenata – sve je vaše. Oni savetuju, vi odlučujete. Rezultat? Kuhinja koja je jedinstvena, funkcionalna i po pristupačnim cenama."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za savet:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38121426160\">021 426 160</a> / <a href=\"tel:+38162678051\">062 678 051</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:rationalns@gmail.com\">rationalns@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://rational-namestaj.rs/\" target=\"_blank\" rel=\"nofollow\">rational-namestaj.rs</a><br>📍 <strong>Adresa:</strong> Temerinski put 85, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Kako Prave Kuhinje Po Meri – Korak Po Korak"
+    },
+    {
+      "type": "p",
+      "content": "Rational pristupa svakoj kuhinji individualno – jer nijedan prostor nije isti:"
+    },
+    {
+      "type": "h3",
+      "content": "Linijska Kuhinja"
+    },
+    {
+      "type": "p",
+      "content": "Svi elementi duž jednog zida – idealno za uske prostore (min. 240–285 cm). Maksimalna iskorišćenost, minimalan hod."
+    },
+    {
+      "type": "h3",
+      "content": "Dvostrana Kuhinja"
+    },
+    {
+      "type": "p",
+      "content": "Elementi na dva zida, razmak 120 cm – ili pult nasuprot. Više radne površine, bolji protok."
+    },
+    {
+      "type": "h3",
+      "content": "L Kuhinja"
+    },
+    {
+      "type": "p",
+      "content": "Najpopularnija – elementi na dva zida u obliku slova L. Unutrašnji prostor slobodan za sto ili ostrvo."
+    },
+    {
+      "type": "h3",
+      "content": "L Kuhinja sa Ostrvom"
+    },
+    {
+      "type": "p",
+      "content": "Luksuzno rešenje – ostrvo u sredini sa šporetom, sudoperom ili radnom površinom. Savršeno za veće kuhinje."
+    },
+    {
+      "type": "h3",
+      "content": "U Kuhinja"
+    },
+    {
+      "type": "p",
+      "content": "Najfunkcionalnija – elementi na tri zida. Ekonomičan pokret, sve na dohvat ruke – za male i velike prostore."
+    },
+    {
+      "type": "h3",
+      "content": "Visina Radne Ploče"
+    },
+    {
+      "type": "p",
+      "content": "Standard 85 cm, ali prilagođavaju vašoj visini – čak do 100 cm. Jer kuhinja mora biti udobna."
+    },
+    {
+      "type": "h2",
+      "content": "Materijali i Oprema – Izbor Koji Traje"
+    },
+    {
+      "type": "p",
+      "content": "Veliki izbor: iveral, MDF, furnir, visoki sjaj, compact ploče, kuhinjske radne ploče. Sve kombinacije, sve boje. Besplatna dostava i montaža."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Rational – Jer Klijenti Govore"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/l1OgMAecdlTEFiIPT\" target=\"_blank\" rel=\"nofollow\">Ljubica Zarić</a>:</strong> Više puta smo kupovali krevete i dušeke... Uvek zadovoljni proporcijom cene i kvalitete. Isporuka ranije nego dogovoreno. Osoblje ljubazno i predusretljivo."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/ec165S2zBtjlRUmqP\" target=\"_blank\" rel=\"nofollow\">Saša Živojnović</a>:</strong> Naručio dečiji krevet, rok 30 dana – za 5 dana zovu da preuzmem. Odličan kvalitet."
+    },
+    {
+      "type": "p",
+      "content": "Kuhinja po meri? Pozovite Rational na <a href=\"tel:+38121426160\"><strong>021 426 160</strong></a> ili <a href=\"tel:+38162678051\"><strong>062 678 051</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Kuhinje po Meri",
+      "description": "Linijske, L, U, sa ostrvom – svaka prilagođena prostoru i potrebama."
+    },
+    {
+      "title": "Plakari i Garderobe",
+      "description": "Po meri, klizna vrata, unutrašnji raspored po želji."
+    },
+    {
+      "title": "Dečije i Sobne",
+      "description": "Kreveti, stolovi, police – funkcionalno i lepo."
+    },
+    {
+      "title": "Dnevni Boravak",
+      "description": "Komode, TV police, regali po meri."
+    },
+    {
+      "title": "Kancelarijski Nameštaj",
+      "description": "Stolovi, police, ormari – za produktivan rad."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko traje izrada kuhinje?",
+      "answer": "Po dogovoru – obično 3–6 nedelja."
+    },
+    {
+      "question": "Imate li besplatnu montažu?",
+      "answer": "Da – dostava i montaža uključene."
+    },
+    {
+      "question": "Može li nestandardna visina?",
+      "answer": "Da – radna ploča po vašoj visini."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na materijal i rad."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 021 426 160 ili 062 678 051."
+    }
+  ]
+},
+
+  {
   "ime": "Vrednica Beograd - Čistoća Sa Srcem",
   "tip": "firma",
   "kategorija": ["Čišćenje Stanova", "Generalno Čišćenje", "Redovno Održavanje", "Mašinsko Pranje Podova", "Čišćenje Nameštaja", "Čišćenje Ulaza", "Čišćenje Nakon Radova", "Peglanje Veša", "Dezinfekcija"],
@@ -2639,7 +3201,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru zanatskih usluga u Srbiji. Testira kvalitet izrade, proverava preporuke i predstavlja samo proverene majstore.",
   "date": "2025-11-17",
-  "last_modified": "2025-11-17",
+  "last_modified": "2025-12-17",
   "tips_title": "Saveti za planiranje nameštaja po meri",
   "tips": [
     "Pre izrade – napravite listu navika i potreba",
@@ -2649,6 +3211,10 @@
     "Pitajte za garanciju – pouzdani stolari je uvek nude"
   ],
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Kuhinje po meri Novi Sad</a> › Nikola i Lazar"
+    },
     {
       "type": "p",
       "content": "Opremate stan, kuću ili lokal i želite nešto što savršeno odgovara prostoru? A pri tom živite u Novom Sadu ili okolini. Nikola i Lazar čine tim stolara koji već preko 10 godina izrađuje kuhinje, sobe, plakare i kompletne enterijere po meri, onako kako ste zamislili. Iza svakog projekta stoje majstori poznati po preciznosti, estetici i po tome što uvek drže reč."

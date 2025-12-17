@@ -37,8 +37,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru zan
   usluga u Srbiji. Testira kvalitet izrade, proverava preporuke i predstavlja samo
   proverene majstore.
 date: '2025-11-17'
-last_modified: '2025-11-17'
+last_modified: '2025-12-17'
 sections:
+- type: p
+  content: <a href="/izrada-kuhinja-po-meri-novi-sad/">Kuhinje po meri Novi Sad</a>
+    › Nikola i Lazar
 - type: p
   content: Opremate stan, kuću ili lokal i želite nešto što savršeno odgovara prostoru?
     A pri tom živite u Novom Sadu ili okolini. Nikola i Lazar čine tim stolara koji
