@@ -28,9 +28,10 @@ hero_image: images/parketar-ivanic-nova-pazova-30-godina-tradicije.webp
 discover_title: Parketarske Usluge Ivanić Nova Pazova – 30 Godina Tradicije u Drvetu
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-11-03'
 last_modified: '2025-11-03'
 sections:

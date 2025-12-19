@@ -27,9 +27,10 @@ hero_image: images/dv-cleaning-beograd-ciscenje-stanova-poslovnih-prostora.webp
 discover_title: DV Cleaning – Profesionalno Čišćenje Stanova i Poslovnih Prostora
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-11-26'
 last_modified: '2025-12-05'
 sections:

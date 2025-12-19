@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="sr">
 <head>
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTRMQRDK4R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BTRMQRDK4R');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -293,7 +304,7 @@
   </a>
 </div>
 
-      <p style="margin-bottom: 1rem;">Pronađite pouzdane majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
+      <p style="margin-bottom: 1rem;">Lako pronađite majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
       
       <div class="nav-buttons">
         <a href="/izvodjaci/" class="nav-btn">Pretraga Izvođača</a>
@@ -392,6 +403,136 @@
     background: #333333; /* Darker on hover */
 }
 
+
+
+/* ==== STICKY DIRECT CONTACT BUTTONS - MOBILE & TABLET ONLY ==== */
+.direct-contact-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  padding: 16px 20px;
+  z-index: 1000;
+  max-width: 320px;
+  width: calc(100% - 40px);
+  font-family: inherit;
+  border: 1px solid #eee;
+  display: none; /* Hidden by default */
+}
+
+/* Show only on tablets and phones (max-width: 1024px covers most tablets) */
+@media (max-width: 1024px) {
+  .direct-contact-container {
+    display: block;
+    position: fixed;
+    bottom: 0; /* Dock it to the absolute bottom */
+    left: 0;
+    right: 0;
+    transform: none; /* Remove the centering hack */
+    width: 100%;
+    max-width: none;
+    background: #ffffff;
+    padding: 10px 15px; /* Thinner padding */
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
+    border-radius: 0; /* Squared edges feel more 'app-like' on bottom */
+    border-top: 1px solid #eee;
+  }
+
+  .direct-contact-title {
+    display: none; /* KILL the title. The icons speak for themselves. */
+  }
+
+  .direct-contact-btn-wrapper {
+    display: flex; /* Put buttons SIDE BY SIDE */
+    gap: 10px;
+  }
+
+  .direct-contact-btn {
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9rem; /* Smaller text for side-by-side */
+    flex: 1; /* Both buttons take equal space */
+  }
+}
+
+.direct-contact-title {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+.direct-contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.whatsapp-direct {
+  background: #25D366;
+  color: white;
+}
+
+.whatsapp-direct:hover {
+  background: #1ebe57;
+  transform: translateY(-3px);
+}
+
+.viber-direct {
+  background: #7360F2;
+  color: white;
+}
+
+.viber-direct:hover {
+  background: #6652d8;
+  transform: translateY(-3px);
+}
+
+.direct-contact-btn i {
+  font-size: 1.6rem;
+}
+
+.btn-text {
+  flex: 1;
+  text-align: center;
+}
+
+.marketing-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d9534f; /* red-ish to indicate attention */
+  margin: 0.5rem 0 1rem 0;
+  display: inline-block;
+}
+
+/* Extra polish for small phones */
+@media (max-width: 480px) {
+  .direct-contact-container {
+    bottom: 15px;
+    padding: 14px 16px;
+    border-radius: 14px;
+  }
+  
+  .direct-contact-btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
 </style>
 
 <article class="majstor-story">
@@ -419,17 +560,43 @@
         style="aspect-ratio:1200/630;">
     </picture>
   
+<p style="margin: 0.75rem 0 1.25rem 0; line-height: 1.4;">
+  <span style="
+    display: inline-block;
+    padding: 0.2rem 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #b52b27;
+    background-color: #fdecea;
+    border-radius: 4px;
+    vertical-align: middle;
+  ">
+    📢 Marketinški sadržaj
+  </span>
+  <span style="
+    margin-left: 0.4rem;
+    font-size: 0.85rem;
+    color: #555;
+    vertical-align: middle;
+  ">
+  Ovaj sadržaj je pripremljen u marketinške svrhe i ne predstavlja nezavisnu uredničku preporuku.
+  </span>
+</p>
+
 
   <h1 class="page-title">
-    Aleksandra Clean Novi Sad - Profesionalno Čišćenje Prostorija
-  </h1>
+  Aleksandra Clean Novi Sad - Profesionalno Čišćenje Prostorija
+</h1>
+
 
   
   <div class="author-bio">
-    <p><strong>Verifikovao:</strong> Petar Škrbić |
+    <p><strong>Uredio:</strong> Petar Škrbić |
       <strong>Ažurirano:</strong> 18. 12. 2025 |
        <a href="/o-nama/">O autoru</a></p>
-    <p>Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.</p>
+    <p>Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.</p>
   </div>
   
 
@@ -440,7 +607,7 @@
     <p class="section-p"><a href="/agencije-za-ciscenje-novi-sad/">Servis za čišćenje Novi Sad</a> › Aleksandra Clean</p>
       
   
-    <p class="section-p">Zamisli da se vratiš kući posle dugog dana – a stan miriše na sveže, podovi blistaju, prozori su kristalno čisti, a ti nemaš ni prstom da mrdneš. To nije san, to je Aleksandra Clean u Novom Sadu. Haha, ne brini, nije fora iz televizijskog oglasa xD. Aleksandra i njen tim su pravi superheroji čistoće: brzi, temeljni i uvek sa osmehom.</p>
+    <p class="section-p">Zamisli da se vratiš kući posle dugog dana – a stan miriše na sveže, podovi blistaju, prozori su kristalno čisti, a ti nemaš ni prstom da mrdneš. To nije san, to je Aleksandra Clean iz Novog Sada. Haha, ne brini, nije fora iz televizijskog oglasa xD. Aleksandra i njen tim su pravi superheroji čistoće: brzi, temeljni i uvek sa osmehom.</p>
       
   
     <p class="section-p">Oni čiste stanove, kuće, lokale, poslovne prostore – sve ono što treba da zablista. Toplo vam preporučujem da pogledate njihov porfolio sređenih prostorija na Aleksandrinom Facebook profilu.</p>
@@ -560,18 +727,13 @@
   </div>
   
 
-  <!-- ==== SHARE BUTTONS ==== -->
-  <div class="share-section">
-    <p>Podeli Izvođača sa drugima:</p>
-    <a href="https://api.whatsapp.com/send?text=Aleksandra%20Clean%20Novi%20Sad%20-%20Profesionalno%20%C4%8Ci%C5%A1%C4%87enje%20Prostorija%20https://ejmajstore.rs/izvodjaci/novi-sad/aleksandra-clean-ciscenje-novi-sad/" 
-       target="_blank" rel="noopener" class="share-btn whatsapp">WhatsApp</a>
-    <a href="viber://forward?text=Aleksandra%20Clean%20Novi%20Sad%20-%20Profesionalno%20%C4%8Ci%C5%A1%C4%87enje%20Prostorija%20https://ejmajstore.rs/izvodjaci/novi-sad/aleksandra-clean-ciscenje-novi-sad/"
-       class="share-btn viber">Viber</a>
-    <a href="https://t.me/share/url?url=https://ejmajstore.rs/izvodjaci/novi-sad/aleksandra-clean-ciscenje-novi-sad/&text=Aleksandra%20Clean%20Novi%20Sad%20-%20Profesionalno%20%C4%8Ci%C5%A1%C4%87enje%20Prostorija" 
-       target="_blank" rel="noopener" class="share-btn telegram">Telegram</a>
+  <!-- ==== SHARE BUTTONS (only copy link) ==== -->
+<div class="share-section">
+  <p>Podeli Izvođača sa drugima:</p>
+  <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
+</div>
 
-       <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
-  </div>
+
 
 
   <div class="cta-section">
@@ -582,6 +744,28 @@
 
 </article>
 
+<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
+<div class="direct-contact-container">
+  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
+  
+  
+  
+    <a href="https://wa.me/+38163563760?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
+       target="_blank"
+       class="direct-contact-btn whatsapp-direct"
+       onclick="trackLead?.('WhatsApp', 'Aleksandra Clean Novi Sad - Profesionalno Čišćenje Prostorija')">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="btn-text">Piši na WhatsApp</span>
+    </a>
+
+    <a href="viber://chat?number=%2B+38163563760?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
+       class="direct-contact-btn viber-direct"
+       onclick="trackLead?.('Viber', 'Aleksandra Clean Novi Sad - Profesionalno Čišćenje Prostorija')">
+      <i class="fa-brands fa-viber"></i>
+      <span class="btn-text">Piši na Viber</span>
+    </a>
+  
+</div>
 
 <script>
   
@@ -756,8 +940,8 @@ document.addEventListener("DOMContentLoaded", function() {
   <section class="cta-section">
     <div class="cta-duo-container desktop-shift">
       <div class="cta-duo-block cta-user">
-        <h2>Tražite POUZDANOG majstora?</h2>
-        <p>Imamo najkvalitetniji adresar zanatlija i firmi u Srbiji. Kliknite i pronađite rešenje za svoj problem!</p>
+        <h2>Tražite majstora ili firmu?</h2>
+        <p>Pregledajte naš adresar zanatlija i pronađite izvođače po kategoriji i lokaciji.</p>
         <a href="/izvodjaci/" class="cta" style="margin-top: 1rem;">Pretraga Majstora</a>
       </div>
 

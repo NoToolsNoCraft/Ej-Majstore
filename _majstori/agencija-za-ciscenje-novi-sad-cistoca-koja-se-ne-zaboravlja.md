@@ -30,9 +30,10 @@ hero_image: images/agencija-za-ciscenje-novi-sad-cistoca-koja-se-ne-zaboravlja.w
 discover_title: Agencija za Čišćenje Novi Sad - Čistoća Koja Se Ne Zaboravlja
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-12-18'
 last_modified: '2025-12-18'
 sections:

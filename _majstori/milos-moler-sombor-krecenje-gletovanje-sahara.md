@@ -27,9 +27,10 @@ hero_image: images/milos-moler-sombor-krecenje-gletovanje-sahara.webp
 discover_title: Miloš Moler Sombor – Zidovi Koji Oživljavaju Prostore
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-11-07'
 last_modified: '2025-11-07'
 sections:

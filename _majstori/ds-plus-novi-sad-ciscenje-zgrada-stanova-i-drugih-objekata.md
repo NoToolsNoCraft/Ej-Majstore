@@ -3,8 +3,8 @@ layout: majstor_profil
 title: DS Plus Novi Sad - Čišćenje zgrada, stanova i drugih objekata
 description: DS Plus – profesionalno čišćenje zgrada, stanova, apartmana i vikendica
   u Novom Sadu i okolini. Redovno održavanje, generalno čišćenje, upravljanje zgradama.
-  Transparentan cenovnik na sajtu, garancija kvaliteta. u Novi Sad, Sremska Kamenica,
-  Petrovaradin, Veternik, Futog, Beočin, Rumenka, Kać, Liman, Telep, Detelinara.
+  Transparentan cenovnik na sajtu. u Novi Sad, Sremska Kamenica, Petrovaradin, Veternik,
+  Futog, Beočin, Rumenka, Kać, Liman, Telep, Detelinara.
 ime: DS Plus Novi Sad - Čišćenje zgrada, stanova i drugih objekata
 kategorija:
 - Čišćenje Zgrada
@@ -29,11 +29,12 @@ hero_image: images/ds-plus-novi-sad-ciscenje-zgrada-stanova-i-drugih-objekata.we
 discover_title: DS Plus Novi Sad - Čišćenje zgrada, stanova i drugih objekata
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-12-18'
-last_modified: '2025-12-18'
+last_modified: '2025-12-19'
 sections:
 - type: p
   content: <a href="/agencije-za-ciscenje-novi-sad/">Agencije za ciscenje zgrada Novi
@@ -85,7 +86,7 @@ sections:
 - type: p
   content: 'Lično volim kada firma kaže tačno koliko košta – bez „videćemo na licu
     mesta“. DS Plus ima detaljan cenovnik na sajtu: čišćenje zgrada po stanu, generalno
-    po objektu – sve jasno. Plus profesionalnost, brzina i garancija.'
+    po objektu – sve jasno. Plus profesionalnost i brzina.'
 - type: p
   content: Čista zgrada ili stan? Pozovite DS Plus na <a href="tel:+381691967909"><strong>+381
     69 196 79 09</strong></a> – jer čistoća ne mora da bude misterija.
@@ -104,7 +105,7 @@ faq:
 - question: Radite li generalno čišćenje?
   answer: Da – stanovi, apartmani, vikendice.
 - question: Imate li upravljanje zgradama?
-  answer: Da – profesionalni upravnik, sve po zakonu.
+  answer: Da – profesionalni upravnik.
 - question: Gde radite?
   answer: Novi Sad i okolina – Sremska Kamenica, Petrovaradin.
 - question: Kako da dobijem ponudu?

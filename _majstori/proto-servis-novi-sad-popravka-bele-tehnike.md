@@ -27,11 +27,12 @@ hero_image: images/proto-servis-novi-sad-popravka-bele-tehnike.webp
 discover_title: Proto Servis Novi Sad – Popravka Bele Tehnike
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-11-07'
-last_modified: '2025-11-07'
+last_modified: '2025-12-19'
 sections:
 - type: p
   content: Kada frižider počne da bruji kao stari traktor ili veš mašina odluči da
@@ -116,7 +117,7 @@ sections:
   - Hitne intervencije isti dan – mleko se neće ukvariti
   - Garancija 6–12 meseci – na rad i delove
   - Transparentna cena – znate pre nego što krene
-  - Fiskalni račun + kartice – sve po zakonu
+  - Fiskalni račun + kartice – firma navodi da posluje u skladu sa važećim propisima
   - Saradnja sa brendovima – originalni delovi
   - Čisto posle rada – zaštita, usisivač, red
 - type: p

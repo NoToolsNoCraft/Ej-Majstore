@@ -30,9 +30,10 @@ hero_image: images/cleanservice-novi-sad-spremanje-kancelarija-higijena-zgrada.w
 discover_title: CleanService Novi Sad - Spremanje Kancelarija i Higijena Zgrada
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  zanatskih usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika
-  širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-11-16'
 last_modified: '2025-12-05'
 sections:

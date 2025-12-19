@@ -1,5 +1,6 @@
 ---
 layout: default
+marketing_content: true
 ---
 
 <!-- ==== PRELOAD HERO IMAGE (CRITICAL FOR LCP) ==== -->
@@ -90,6 +91,136 @@ layout: default
     background: #333333; /* Darker on hover */
 }
 
+
+
+/* ==== STICKY DIRECT CONTACT BUTTONS - MOBILE & TABLET ONLY ==== */
+.direct-contact-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  padding: 16px 20px;
+  z-index: 1000;
+  max-width: 320px;
+  width: calc(100% - 40px);
+  font-family: inherit;
+  border: 1px solid #eee;
+  display: none; /* Hidden by default */
+}
+
+/* Show only on tablets and phones (max-width: 1024px covers most tablets) */
+@media (max-width: 1024px) {
+  .direct-contact-container {
+    display: block;
+    position: fixed;
+    bottom: 0; /* Dock it to the absolute bottom */
+    left: 0;
+    right: 0;
+    transform: none; /* Remove the centering hack */
+    width: 100%;
+    max-width: none;
+    background: #ffffff;
+    padding: 10px 15px; /* Thinner padding */
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
+    border-radius: 0; /* Squared edges feel more 'app-like' on bottom */
+    border-top: 1px solid #eee;
+  }
+
+  .direct-contact-title {
+    display: none; /* KILL the title. The icons speak for themselves. */
+  }
+
+  .direct-contact-btn-wrapper {
+    display: flex; /* Put buttons SIDE BY SIDE */
+    gap: 10px;
+  }
+
+  .direct-contact-btn {
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9rem; /* Smaller text for side-by-side */
+    flex: 1; /* Both buttons take equal space */
+  }
+}
+
+.direct-contact-title {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+.direct-contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.whatsapp-direct {
+  background: #25D366;
+  color: white;
+}
+
+.whatsapp-direct:hover {
+  background: #1ebe57;
+  transform: translateY(-3px);
+}
+
+.viber-direct {
+  background: #7360F2;
+  color: white;
+}
+
+.viber-direct:hover {
+  background: #6652d8;
+  transform: translateY(-3px);
+}
+
+.direct-contact-btn i {
+  font-size: 1.6rem;
+}
+
+.btn-text {
+  flex: 1;
+  text-align: center;
+}
+
+.marketing-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d9534f; /* red-ish to indicate attention */
+  margin: 0.5rem 0 1rem 0;
+  display: inline-block;
+}
+
+/* Extra polish for small phones */
+@media (max-width: 480px) {
+  .direct-contact-container {
+    bottom: 15px;
+    padding: 14px 16px;
+    border-radius: 14px;
+  }
+  
+  .direct-contact-btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
 </style>
 
 <article class="majstor-story">
@@ -117,14 +248,40 @@ layout: default
         style="aspect-ratio:1200/630;">
     </picture>
   {% endif %}
+<p style="margin: 0.75rem 0 1.25rem 0; line-height: 1.4;">
+  <span style="
+    display: inline-block;
+    padding: 0.2rem 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #b52b27;
+    background-color: #fdecea;
+    border-radius: 4px;
+    vertical-align: middle;
+  ">
+    📢 Marketinški sadržaj
+  </span>
+  <span style="
+    margin-left: 0.4rem;
+    font-size: 0.85rem;
+    color: #555;
+    vertical-align: middle;
+  ">
+  Ovaj sadržaj je pripremljen u marketinške svrhe i ne predstavlja nezavisnu uredničku preporuku.
+  </span>
+</p>
+
 
   <h1 class="page-title">
-    {{ page.discover_title | default: page.title }}
-  </h1>
+  {{ page.discover_title | default: page.title }}
+</h1>
+
 
   {% if page.author %}
   <div class="author-bio">
-    <p><strong>Verifikovao:</strong> {{ page.author }} |
+    <p><strong>Uredio:</strong> {{ page.author }} |
       <strong>Ažurirano:</strong> {{ page.last_modified | default: site.time | date: '%d. %m. %Y' }} |
        <a href="/o-nama/">O autoru</a></p>
     <p>{{ page.author_bio | default: 'Ej Majstore! tim istražuje i testira majstore širom Srbije.' }}</p>
@@ -226,18 +383,13 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- ==== SHARE BUTTONS ==== -->
-  <div class="share-section">
-    <p>Podeli Izvođača sa drugima:</p>
-    <a href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
-       target="_blank" rel="noopener" class="share-btn whatsapp">WhatsApp</a>
-    <a href="viber://forward?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}"
-       class="share-btn viber">Viber</a>
-    <a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}&text={{ page.title | uri_escape }}" 
-       target="_blank" rel="noopener" class="share-btn telegram">Telegram</a>
+  <!-- ==== SHARE BUTTONS (only copy link) ==== -->
+<div class="share-section">
+  <p>Podeli Izvođača sa drugima:</p>
+  <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
+</div>
 
-       <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
-  </div>
+
 
 
   <div class="cta-section">
@@ -248,6 +400,28 @@ layout: default
 
 </article>
 
+<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
+<div class="direct-contact-container">
+  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
+  
+  {% assign phone_clean = page.kontakt_telefon | remove: ' ' | remove: '-' | remove: '.' %}
+  {% if phone_clean != '' and phone_clean != 'Nemadostupankontakt' %}
+    <a href="https://wa.me/{{ phone_clean | prepend: '' }}?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
+       target="_blank"
+       class="direct-contact-btn whatsapp-direct"
+       onclick="trackLead?.('WhatsApp', '{{ page.ime }}')">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="btn-text">Piši na WhatsApp</span>
+    </a>
+
+    <a href="viber://chat?number=%2B{{ phone_clean | prepend: '' }}?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
+       class="direct-contact-btn viber-direct"
+       onclick="trackLead?.('Viber', '{{ page.ime }}')">
+      <i class="fa-brands fa-viber"></i>
+      <span class="btn-text">Piši na Viber</span>
+    </a>
+  {% endif %}
+</div>
 
 <script>
   
