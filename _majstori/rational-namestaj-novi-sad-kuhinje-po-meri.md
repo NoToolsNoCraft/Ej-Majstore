@@ -16,7 +16,7 @@ kategorija:
 - Kreveti i Dušeci
 mesto: Novi Sad, Veternik, Futog, Petrovaradin, Sremska Kamenica
 address: Nema dostupnu adresu
-kontakt_telefon: "+38121426160"
+kontakt_telefon: "+38162678051"
 email: rationalns@gmail.com
 googlemaps: ''
 website:
@@ -34,7 +34,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-17'
-last_modified: '2025-12-17'
+last_modified: '2025-12-20'
 sections:
 - type: p
   content: <a href="/izrada-kuhinja-po-meri-novi-sad/">Izrada kuhinja po meri Novi

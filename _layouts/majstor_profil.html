@@ -99,16 +99,15 @@ marketing_content: true
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: white;
+  
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  
   padding: 16px 20px;
   z-index: 1000;
-  max-width: 320px;
   width: calc(100% - 40px);
   font-family: inherit;
-  border: 1px solid #eee;
   display: none; /* Hidden by default */
+  max-width: 65%;
 }
 
 /* Show only on tablets and phones (max-width: 1024px covers most tablets) */
@@ -120,11 +119,7 @@ marketing_content: true
     left: 0;
     right: 0;
     transform: none; /* Remove the centering hack */
-    width: 100%;
-    max-width: none;
-    background: #ffffff;
     padding: 10px 15px; /* Thinner padding */
-    box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
     border-radius: 0; /* Squared edges feel more 'app-like' on bottom */
     border-top: 1px solid #eee;
   }
@@ -140,7 +135,6 @@ marketing_content: true
 
   .direct-contact-btn {
     margin: 0;
-    padding: 10px;
     font-size: 0.9rem; /* Smaller text for side-by-side */
     flex: 1; /* Both buttons take equal space */
   }
@@ -159,7 +153,6 @@ marketing_content: true
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 14px 18px;
   margin: 8px 0;
   border-radius: 50px;
   text-decoration: none;
@@ -194,10 +187,7 @@ marketing_content: true
   font-size: 1.6rem;
 }
 
-.btn-text {
-  flex: 1;
-  text-align: center;
-}
+
 
 .marketing-label {
   font-size: 0.95rem;
