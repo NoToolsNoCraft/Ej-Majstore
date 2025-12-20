@@ -96,7 +96,7 @@
     background: linear-gradient(135deg, var(--color-primary), #0073e6);
     color: #fff;
     position: relative;
-    padding: 3.5rem 1rem 2.5rem;
+    padding: 1.5rem 1rem 2.5rem;
     text-align: center;
     overflow: hidden;
   }
@@ -433,7 +433,7 @@
     transform: none; /* Remove the centering hack */
     padding: 10px 15px; /* Thinner padding */
     border-radius: 0; /* Squared edges feel more 'app-like' on bottom */
-    border-top: 1px solid #eee;
+    
   }
 
   .direct-contact-title {
@@ -449,6 +449,7 @@
     margin: 0;
     font-size: 0.9rem; /* Smaller text for side-by-side */
     flex: 1; /* Both buttons take equal space */
+    max-width: fit-content;
   }
 }
 
@@ -464,15 +465,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   margin: 8px 0;
   border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
-  width: 100%;
   transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: fit-content;
 }
 
 .whatsapp-direct {
@@ -784,14 +784,14 @@
        class="direct-contact-btn whatsapp-direct"
        onclick="trackLead?.('WhatsApp', 'Temma Trade Novi Sad - Kuhinje po Meri')">
       <i class="fa-brands fa-whatsapp"></i>
-      <span class="btn-text">Piši na WhatsApp</span>
+      <span class="btn-text"></span>
     </a>
 
     <a href="viber://chat?number=++38121400859"
        class="direct-contact-btn viber-direct"
        onclick="trackLead?.('Viber', 'Temma Trade Novi Sad - Kuhinje po Meri')">
       <i class="fa-brands fa-viber"></i>
-      <span class="btn-text">Piši na Viber</span>
+      <span class="btn-text"></span>
     </a>
   
 </div>
