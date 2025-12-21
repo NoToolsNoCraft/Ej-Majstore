@@ -289,7 +289,49 @@
 
 
 
+
 </style>
+
+<script>
+// Funkcija za otvaranje taba (već postoji, samo je ponavljamo radi sigurnosti)
+function openCity(evt, cityName) {
+  document.querySelectorAll('.city-tab').forEach(tab => {
+    tab.classList.remove('active');
+  });
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  document.getElementById(cityName).classList.add('active');
+  const button = document.querySelector(`.tab-button[data-city="${cityName}"]`);
+  if (button) {
+    button.classList.add('active');
+  }
+}
+
+// Proveri URL parametre kada se stranica učita
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  
+  // Ako postoji parametar ?sekcija=kategorije
+  if (params.get('sekcija') === 'kategorije') {
+    // 1. Skroluj do sekcije #kategorije
+    const kategorijeSection = document.getElementById('kategorije');
+    if (kategorijeSection) {
+      kategorijeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
+    // 2. Aktiviraj default tab (Beograd) – ovo već radiš u drugom skriptu, ali osiguraj
+    const beogradTab = document.querySelector('.tab-button[data-city="beograd"]');
+    if (beogradTab) {
+      beogradTab.click(); // osigurava da je Beograd aktivan
+    }
+  } else {
+    // Ako nema parametra, samo aktiviraj prvi tab (kao što već radiš)
+    const firstTab = document.querySelector('.tab-button');
+    if (firstTab) firstTab.click();
+  }
+});
+</script>
 
 
 <body>
@@ -307,7 +349,7 @@
       <p style="margin-bottom: 1rem;">Lako pronađite majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
       
       <div class="nav-buttons">
-        <a href="/izvodjaci/" class="nav-btn">Pretraga Izvođača</a>
+        <a href="/?sekcija=kategorije" class="nav-btn m">Pronađite Majstore</a>
         <a href="/blog/" class="nav-btn">Blog</a>
       </div>
     </div>
@@ -945,4 +987,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </footer>
 </body>
+
+
+
 </html>
