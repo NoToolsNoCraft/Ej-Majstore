@@ -1,6 +1,579 @@
 [
 
   {
+  "ime": "Boško i Deca Novi Sad - PVC Stolarija, Servis i Montaža",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Servis Stolarije", "Montaža Roletni", "Komarnici", "Zavese i Draperije", "Garažna Vrata", "Medijapan Vrata", "Sigurnosna Vrata"],
+  "opis_kratak": "Boško i Deca – majstori za servis i montažu PVC stolarije, roletni, komarnika, zavesa, garažnih i sigurnosnih vrata u Novom Sadu. Brzo, precizno, sa garancijom. Boško Stojkov i tim – sve na jednom mestu.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin"],
+  "adresa": "Partizanska 1, Novi Sad 21000",
+  "telefon": "+381642621032",
+  "email": "",
+  "website": "",
+  "slug": "bosko-i-deca-novi-sad-pvc-stolarija-servis",
+  "thumbnail": "images/bosko-i-deca-novi-sad-pvc-stolarija-servis.webp",
+  "hero_image": "images/bosko-i-deca-novi-sad-pvc-stolarija-servis.webp",
+  "discover_title": "Boško i Deca Novi Sad - Kada Stolarija Treba Popravku Ili Novi Sjaj",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-21",
+  "last_modified": "2025-12-21",
+  "tips_title": "Kako da Vaša Stolarija Traje Duže",
+  "tips": [
+    "Redovan servis roletni – sprečava zaglavljivanje",
+    "Komarnici na vreme – leto bez zujanja",
+    "Sigurnosna vrata – miran san",
+    "Zavese sa draperijama – toplina i stil",
+    "Garažna vrata – udobnost svaki dan"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-novi-sad/\">PVC Stolarija Novi Sad</a> › Boško i Deca"
+    },
+    {
+      "type": "p",
+      "content": "Prozor škripi, roletna se zaglavila, komarnik visi, a garažna vrata neće da se otvore? Ili jednostavno želite nove zavese koje će stan učiniti toplijim? U Novom Sadu, kada stolarija treba popravku ili nadogradnju, svi zovu Boška Stojkova i njegov tim – Boško i Deca."
+    },
+    {
+      "type": "p",
+      "content": "Boško nije samo majstor – on je čovek koji rešava probleme brzo i sa osmehom. Njegov tim radi sve: od servisa PVC stolarije do montaže garažnih vrata, roletni, komarnika, zavesa sa draperijama, medijapan i sigurnosnih vrata. Precizno, pedantno i uvek po dogovoru."
+    },
+    {
+      "type": "h2",
+      "content": "Boško i Deca – Majstori Koji Znaju Svaki Šraf"
+    },
+    {
+      "type": "p",
+      "content": "Boško Stojkov vodi tim koji pokriva sve što se tiče stolarije i oko nje. Od popravke škripećeg prozora do ugradnje novih sigurnosnih vrata – oni dolaze, vide, reše. Radno vreme pon–pet 8–16h, ali za hitne slučajeve uvek nađu termin."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381642621032\">064 262 1032</a><br>📍 <strong>Adresa:</strong> Partizanska 1, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Rade – Sve Što Stolarija Traži"
+    },
+    {
+      "type": "h3",
+      "content": "Servis i Montaža PVC Stolarije"
+    },
+    {
+      "type": "p",
+      "content": "Popravka, štelovanje, zamena delova – prozori i vrata rade kao novi."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne"
+    },
+    {
+      "type": "p",
+      "content": "Montaža, popravka, zamena traka – sve vrste."
+    },
+    {
+      "type": "h3",
+      "content": "Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Plise, rolo, fiksni – leto bez insekata."
+    },
+    {
+      "type": "h3",
+      "content": "Zavese i Draperije"
+    },
+    {
+      "type": "p",
+      "content": "Trakaste, zebra, klasične sa draperijama – toplina i stil."
+    },
+    {
+      "type": "h3",
+      "content": "Garažna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Montaža, servis – udobnost svaki dan."
+    },
+    {
+      "type": "h3",
+      "content": "Medijapan i Sigurnosna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Unutrašnja, ulazna – kvalitet i bezbednost."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Govore"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale profesionalnost i ljubaznost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/hrXiWT6RXRyLWAXIu\" target=\"_blank\" rel=\"nofollow\">Snežana Kis</a>:</strong> Kvalitetan proizvod, urađeno profesionalno. Vrlo simpatičan tim😄"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/t2dlAbbk4IbfZJCCr\" target=\"_blank\" rel=\"nofollow\">Stana</a>:</strong> Izuzetno profesionalni, pedantni i precizni. Topla preporuka."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/KsDNVwhs30xgy2xJY\" target=\"_blank\" rel=\"nofollow\">Svetozar Miladinov</a>:</strong> Sve pohvale, poštuju rok i rade po dogovoru, vrata vrh."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Boško i Deca – Jer Reše Sve"
+    },
+    {
+      "type": "p",
+      "content": "Brzo dolaze, precizno rade, ljubazni su – i uvek po dogovoru."
+    },
+    {
+      "type": "p",
+      "content": "Stolarija treba popravku? Pozovite Boška na <a href=\"tel:+381642621032\"><strong>064 262 1032</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Servis PVC Stolarije",
+      "description": "Popravka, štelovanje, zamena delova."
+    },
+    {
+      "title": "Montaža Roletni i Komarnika",
+      "description": "Sve vrste – brzo i precizno."
+    },
+    {
+      "title": "Zavese i Draperije",
+      "description": "Trakaste, zebra, klasične – po meri."
+    },
+    {
+      "title": "Garažna i Sigurnosna Vrata",
+      "description": "Montaža, servis – bezbednost i udobnost."
+    },
+    {
+      "title": "Medijapan Vrata",
+      "description": "Unutrašnja – kvalitet i dizajn."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li vikendom?",
+      "answer": "Ne – pon–pet 8–16h, ali za hitno dogovor."
+    },
+    {
+      "question": "Popravljate li roletne?",
+      "answer": "Da – zamena traka, servis."
+    },
+    {
+      "question": "Montažate li komarnike?",
+      "answer": "Da – sve vrste."
+    },
+    {
+      "question": "Radite li garažna vrata?",
+      "answer": "Da – montaža i popravka."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 064 262 1032."
+    }
+  ]
+},
+
+  {
+  "ime": "Stolarija NS Plus Novi Sad - PVC Koji Ne Pušta Hladnoću",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Komarnici", "Ugradnja Stolarije", "Popravka Stolarije", "Demontaža Stolarije", "Stakleni Klizni Sistemi"],
+  "opis_kratak": "Stolarija NS Plus – specijalisti za PVC stolariju Rehau i Alu Plast u Novom Sadu. Prozori, vrata, komarnici, klizni sistemi – brza ugradnja, kvalitet, garancija. Besplatna procena i merenje.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin"],
+  "adresa": "Račkog 130, Novi Sad",
+  "telefon": "+381648213471",
+  "email": "stolarijansplus@gmail.com",
+  "website": "https://stolarijansplus.rs/",
+  "slug": "pvc-stolarija-ns-plus-novi-sad",
+  "thumbnail": "images/pvc-stolarija-ns-plus-novi-sad.webp",
+  "hero_image": "images/pvc-stolarija-ns-plus-novi-sad.webp",
+  "discover_title": "Stolarija NS Plus Novi Sad - PVC Koji Ne Pušta Hladnoću",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-21",
+  "last_modified": "2025-12-21",
+  "tips_title": "Kako da Vaši Prozori Ne Puštaju Račune Za Grejanje",
+  "tips": [
+    "Rehau profili – tišina i toplina u paketu",
+    "Besplatno merenje – jer svaki centimetar važan",
+    "Komarnici u kompletu – leto bez zujanja",
+    "Brza ugradnja – zimi ne čekate proleće",
+    "Garancija i servis – miran san godinama"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-novi-sad/\">Gotova PVC Stolarija Novi Sad</a> › NS Plus"
+    },
+    {
+      "type": "p",
+      "content": "Zamisli da zimi sediš u fotelji, a kroz prozor ne duva – ni promaja, ni hladnoća, ni buka sa ulice. Ili leti, kada sunce prži, a u stanu prijatna hladovina. To nije magija – to je dobra PVC stolarija. U Novom Sadu, Stolarija NS Plus je ekipa koja pretvara te snove u stvarnost – sa Rehau i Alu Plast profilima koji su pravi šampioni u izolaciji."
+    },
+    {
+      "type": "p",
+      "content": "Oni nisu samo prodavci – oni su majstori koji mere, demontiraju staro, ugrađuju novo i ostavljaju sve besprekorno. Brzo, pedantno i sa garancijom koja traje."
+    },
+    {
+      "type": "h2",
+      "content": "Stolarija NS Plus – PVC Majstori Sa Iskustvom Iz Prve Ruke"
+    },
+    {
+      "type": "p",
+      "content": "NS Plus je firma koja zna šta znači dobar prozor – onaj koji štedi novac, čuva tišinu i traje godinama. Specijalisti su za Rehau i Alu Plast – brendove koji su sinonim za kvalitet. Od običnog prozora do kliznih sistema za terasu – sve rade sa strašću."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite ih za besplatnu procenu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381648213471\">+381 64 821 34 71</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:stolarijansplus@gmail.com\">stolarijansplus@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://stolarijansplus.rs/\" target=\"_blank\" rel=\"nofollow\">stolarijansplus.rs</a><br>📍 <strong>Adresa:</strong> Račkog 130, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Rade – Od Demontaže Do Sjaja"
+    },
+    {
+      "type": "p",
+      "content": "NS Plus pokriva sve što vam treba za novu stolariju:"
+    },
+    {
+      "type": "h3",
+      "content": "Demontaža Stare Stolarije"
+    },
+    {
+      "type": "p",
+      "content": "Staro ide van – bez prašine i haosa."
+    },
+    {
+      "type": "h3",
+      "content": "Ugradnja PVC Prozora i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Rehau i Alu Plast – precizno, brzo, sa dihtovanjem."
+    },
+    {
+      "type": "h3",
+      "content": "Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Vrhunski – leto bez zujanja."
+    },
+    {
+      "type": "h3",
+      "content": "Stakleni Klizni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Za terase – svetlost i prostor."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka i Servis"
+    },
+    {
+      "type": "p",
+      "content": "Garancija 3 godine, servis i posle."
+    },
+    {
+      "type": "h3",
+      "content": "Transport"
+    },
+    {
+      "type": "p",
+      "content": "Novo stiže, staro ide na deponiju."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Greju"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale profesionalnost i brzinu:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/SjOFADdOhYsb2UHg7\" target=\"_blank\" rel=\"nofollow\">Aleksandar Ilić</a>:</strong> Laka i kvalitetna saradnja."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/UBDNbcWHEJazOlsuo\" target=\"_blank\" rel=\"nofollow\">Dejan Resanović</a>:</strong> Odličan kvalitet stolarije uz izuzetno laku saradnju i profesionalno odrađen posao."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/tI1pdzyD0dT7ay8bm\" target=\"_blank\" rel=\"nofollow\">Ivana Janjić</a>:</strong> Sve preporuke. Pedantni, brzi, kvalitet na najvišem nivou."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto NS Plus – Jer Znaju Posao"
+    },
+    {
+      "type": "p",
+      "content": "Brzina, kvalitet, ljubaznost – i sve po dogovoru. Besplatna procena, garancija, servis."
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija? Pozovite NS Plus na <a href=\"tel:+381648213471\"><strong>+381 64 821 34 71</strong></a> – jer dobar prozor menja sve."
+    }
+  ],
+  "services": [
+    {
+      "title": "Ugradnja PVC Prozora i Vrata",
+      "description": "Rehau i Alu Plast – precizno, brzo."
+    },
+    {
+      "title": "Demontaža Stare Stolarije",
+      "description": "Bez haosa – staro van, novo unutra."
+    },
+    {
+      "title": "Komarnici",
+      "description": "Vrhunski kvalitet – leto bez insekata."
+    },
+    {
+      "title": "Stakleni Klizni Sistemi",
+      "description": "Za terase – svetlost i prostor."
+    },
+    {
+      "title": "Popravka i Servis",
+      "description": "Garancija 3 godine, servis i posle."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Imate li besplatno merenje?",
+      "answer": "Da – dolazimo na teren."
+    },
+    {
+      "question": "Koliko traje ugradnja?",
+      "answer": "Brzo – po dogovoru."
+    },
+    {
+      "question": "Radite li komarnike?",
+      "answer": "Da – vrhunski kvalitet."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – 3 godine, plus servis."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 64 821 34 71."
+    }
+  ]
+},
+
+  {
+  "ime": "Marnivi Novi Sad - PVC Prozori Koji Štede i Štite",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "PVC Vrata", "ALU Prozori", "ALU Vrata", "Sigurnosni Prozori", "Energetski Efikasni Prozori"],
+  "opis_kratak": "Marnivi – specijalisti za PVC i ALU stolariju u Novom Sadu. Prozori i vrata po meri od 90€/m², energetski efikasni, sa UV zaštitom, zvučnom izolacijom i sigurnošću. Besplatno merenje, brza montaža.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica"],
+  "adresa": "Braće Ribnikar 57, Novi Sad 21102",
+  "telefon": "+381658226006",
+  "email": "marnivi@marnivi.rs",
+  "website": "https://marnivi.rs/",
+  "slug": "marnivi-novi-sad-pvc-alu-stolarija",
+  "thumbnail": "images/marnivi-novi-sad-pvc-alu-stolarija.webp",
+  "hero_image": "images/marnivi-novi-sad-pvc-alu-stolarija.webp",
+  "discover_title": "Marnivi Novi Sad - PVC Prozori Koji Štede i Štite",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-21",
+  "last_modified": "2025-12-21",
+  "tips_title": "Kako Odabrati PVC Prozore Koji Traju",
+  "tips": [
+    "Trostruko staklo + 6 komora – ušteda na grejanju do 40%",
+    "UV zaštita – nameštaj ne bledi",
+    "Sigurnosno staklo – miran san",
+    "Besplatno merenje – uvek tačne dimenzije",
+    "RAL boje – kuhinja u vašoj omiljenoj nijansi"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-novi-sad/\">PVC Stolarija Novi Sad</a> › Marnivi"
+    },
+    {
+      "type": "p",
+      "content": "Zima kuca na vrata, a stari prozori propuštaju hladnoću kao sito? Ili leti stan postane sauna jer sunce prži kroz staklo? U Novom Sadu, Marnivi je firma koja rešava te probleme – sa fokusom na PVC stolariju koja štedi energiju, štiti od buke i UV zraka, a izgleda savršeno. Ali ne zaboravljaju ni ALU – za one koji žele jače, modernije profile."
+    },
+    {
+      "type": "p",
+      "content": "Marnivi nudi sve: od standardnih belih prozora za 90€/m² do luksuznih sistema sa specijalnim staklima do 8000€/m². Besplatno merenje, brza montaža i garancija – sve da vaš dom bude topao, tih i bezbedan."
+    },
+    {
+      "type": "h2",
+      "content": "Marnivi – PVC Stolarija Koja Čini Razliku"
+    },
+    {
+      "type": "p",
+      "content": "Marnivi je firma sa iskustvom – direktor Nikolaj Pereslavcev lično brine o kvalitetu. Njihova snaga je PVC stolarija: energetski efikasna, ekološka, sa odličnom zvučnom izolacijom. Ali rade i ALU – za fasade, velike portale ili moderne objekte gde je potrebna veća čvrstoća."
+    },
+    {
+      "type": "p",
+      "content": "Kontaktirajte ih za besplatno merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381658226006\">+381 65 8226 006</a> / <a href=\"tel:+381658226007\">+381 65 8226 007</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:marnivi@marnivi.rs\">marnivi@marnivi.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://marnivi.rs/\" target=\"_blank\">marnivi.rs</a><br>📍 <strong>Adresa:</strong> Braće Ribnikar 57, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – PVC Sa Svime Što Treba"
+    },
+    {
+      "type": "p",
+      "content": "Marnivi se ističe PVC stolarijom – od standardnih do specijalnih:"
+    },
+    {
+      "type": "h3",
+      "content": "Energetski Efikasni Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Toplo zimi, hladno leti – ušteda na grejanju i klimi."
+    },
+    {
+      "type": "h3",
+      "content": "Prozori Sa Zvučnom Izolacijom"
+    },
+    {
+      "type": "p",
+      "content": "Mir u stanu – čak i pored saobraćajnice."
+    },
+    {
+      "type": "h3",
+      "content": "Sigurnosni Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Ojačani okvir, sigurnosno staklo – zaštita od provale."
+    },
+    {
+      "type": "h3",
+      "content": "UV Zaštita"
+    },
+    {
+      "type": "p",
+      "content": "Nameštaj ne bledi, oči zaštićene."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Za jače konstrukcije, fasade, velike portale."
+    },
+    {
+      "type": "h3",
+      "content": "Dodaci"
+    },
+    {
+      "type": "p",
+      "content": "Komarnici, podprozorske klupice, okapnice, špalete."
+    },
+    {
+      "type": "h2",
+      "content": "Boje i Oblik – Sve Po Vašoj Želji"
+    },
+    {
+      "type": "p",
+      "content": "Bela, antracit, breza, hrast, metalik, RAL boje, RENOLIT filmovi – fiksni, klizni, specijalni, fasadni."
+    },
+    {
+      "type": "h2",
+      "content": "Recenzije Koje Potvrđuju Sve Gore Navedeno"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu, ljubaznost i preciznost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/pisIyGQDWwde3TdAA\" target=\"_blank\" rel=\"nofollow\">Aleksandra Manojlović</a>:</strong> Dalibor je odmah odgovorio na moj poziv i izašao na teren da vidi o čemu se radi. Vrlo je ljubazan i rešio nam je problem. Za svaku preporuku."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/Yb76l8L5M3AsatOXH\" target=\"_blank\" rel=\"nofollow\">Miroslav Maksić</a>:</strong> Čist profesionalizam! Brza i kvalitetna usluga, definitivno za svaku pohvalu i preporuku!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/qXN1yNjtTLHIuHKMT\" target=\"_blank\" rel=\"nofollow\">Milica Marić</a>:</strong> Pozvali smo bili Dalibora jer nam je staklo na prozoru odlučilo pući. U roku od par dana je došao, premerio, izradio staklo i stavio ga. Vala svaka mu čast. 10/10, dogodine na slavu da nam dođe! 😃"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Marnivi – Jer Se Ističu Pouzdanošću"
+    },
+    {
+      "type": "p",
+      "content": "Besplatno merenje, brza izrada, garancija, ekološki materijali – sve da vaš dom bude bolji."
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite Marnivi na <a href=\"tel:+381658226006\"><strong>+381 65 8226 006</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori i Vrata",
+      "description": "Energetski efikasni, zvučna izolacija, UV zaštita, sigurnosni."
+    },
+    {
+      "title": "ALU Stolarija",
+      "description": "Jači profili za fasade i velike otvore."
+    },
+    {
+      "title": "Klizni Sistemi",
+      "description": "HS, PSK – za terase i balkone."
+    },
+    {
+      "title": "Komarnici i Dodaci",
+      "description": "Podprozorske klupice, okapnice, špalete."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko košta PVC prozor?",
+      "answer": "Od 90€/m² pa naviše – zavisi od profila i stakla."
+    },
+    {
+      "question": "Radite li ALU?",
+      "answer": "Da – za jače i moderne konstrukcije."
+    },
+    {
+      "question": "Imate li besplatno merenje?",
+      "answer": "Da – dolazimo na adresu."
+    },
+    {
+      "question": "Koliko traje montaža?",
+      "answer": "Brzo – po dogovoru."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i Srbija."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite +381 65 8226 006 ili +381 65 8226 007."
+    }
+  ]
+},
+
+  {
   "ime": "DS Plus Novi Sad - Čišćenje zgrada, stanova i drugih objekata",
   "tip": "firma",
   "kategorija": ["Čišćenje Zgrada", "Generalno Čišćenje Stanova", "Redovno Održavanje Zgrada", "Upravljanje Stambenim Zajednicama", "Čišćenje Apartmana", "Čišćenje Vikendica"],
@@ -13278,16 +13851,14 @@
   "email": "portanspvc@gmail.com",
   "website": "https://www.porta-pvc.com/",
   "slug": "porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici",
-
   "thumbnail": "images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp",
   "hero_image": "images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp",
-
   "discover_title": "Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-10-31",
-  "last_modified": "2025-10-31",
+  "last_modified": "2025-12-21",
 
   "tips_title": "Kako da Vaš Dom Bude Topao, Tiha i Jeftiniji za Grejanje",
   "tips": [
@@ -13300,6 +13871,11 @@
   ],
 
   "sections": [
+
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-novi-sad/\">PVC Stolarija Novi Sad</a> › Porta PVC"
+    },
     
     {
       "type": "p",

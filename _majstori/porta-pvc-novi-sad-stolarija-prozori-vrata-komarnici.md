@@ -30,11 +30,15 @@ hero_image: images/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici.webp
 discover_title: Porta PVC Novi Sad – Sertifikovana PVC Stolarija sa Trocal Profilima
 author: Petar Škrbić
 author_slug: petar-skrbic
-author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
-  usluga. Lično testira majstore i prikuplja stvarna iskustva korisnika širom Srbije.
+author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
+  preporuku niti garanciju kvaliteta.
 date: '2025-10-31'
-last_modified: '2025-10-31'
+last_modified: '2025-12-21'
 sections:
+- type: p
+  content: <a href="/pvc-stolarija-novi-sad/">PVC Stolarija Novi Sad</a> › Porta PVC
 - type: p
   content: 'Mnogi Novosađani znaju onaj trenutak kada shvate da je vreme za promenu
     stolarije: zimi promaja nosi zavese kao da ste otvorili balkon, leti se zidovi
