@@ -447,31 +447,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- Article Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{% if page.discover_title %}{{ page.discover_title }}{% else %}{{ page.title }}{% endif %}",
-  "description": "{{ page.description | truncate: 250 }}",
-  {% if hero_img %}
-  "image": "{{ hero_img | absolute_url }}?width=1200&format=webp",
-  {% endif %}
-  "author": {
-    "@type": "Person",
-    "name": "{{ page.author | default: 'Ej Majstore! Tim' }}",
-    "url": "https://ejmajstore.rs/author/{{ page.author_slug | default: 'team' }}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Ej Majstore!",
-    "logo": { "@type": "ImageObject", "url": "https://ejmajstore.rs/assets/logo.png" }
-  },
-  "datePublished": "{{ page.date | default: site.time | date: '%Y-%m-%d' }}",
-  "dateModified": "{{ page.last_modified | default: site.time | date: '%Y-%m-%d' }}",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
-}
-</script>
+
 
 <!-- LocalBusiness Schema -->
 <script type="application/ld+json">
