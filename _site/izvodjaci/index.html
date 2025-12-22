@@ -293,7 +293,7 @@
 </style>
 
 <script>
-// Funkcija za otvaranje taba (već postoji, samo je ponavljamo radi sigurnosti)
+// Funkcija za otvaranje taba
 function openCity(evt, cityName) {
   document.querySelectorAll('.city-tab').forEach(tab => {
     tab.classList.remove('active');
@@ -308,27 +308,81 @@ function openCity(evt, cityName) {
   }
 }
 
-// Proveri URL parametre kada se stranica učita
-document.addEventListener('DOMContentLoaded', () => {
-  const params = new URLSearchParams(window.location.search);
-  
-  // Ako postoji parametar ?sekcija=kategorije
-  if (params.get('sekcija') === 'kategorije') {
-    // 1. Skroluj do sekcije #kategorije
-    const kategorijeSection = document.getElementById('kategorije');
-    if (kategorijeSection) {
-      kategorijeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+// Funkcija koja pokušava da skroluje i aktivira tab – sa više pokušaja
+function scrollToKategorijeAndActivateTab() {
+  const kategorijeSection = document.getElementById('kategorije');
+  const beogradBtn = document.querySelector('.tab-button[data-city="beograd"]');
+
+  if (kategorijeSection && beogradBtn) {
+    // Offset za header (plavi header ~120px)
+    const headerOffset = 120;
+    const elementPosition = kategorijeSection.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
     
-    // 2. Aktiviraj default tab (Beograd) – ovo već radiš u drugom skriptu, ali osiguraj
-    const beogradTab = document.querySelector('.tab-button[data-city="beograd"]');
-    if (beogradTab) {
-      beogradTab.click(); // osigurava da je Beograd aktivan
-    }
+    // Aktiviraj Beograd tab
+    beogradBtn.click();
+    return true;
+  }
+  return false;
+}
+
+// Glavna funkcija za klik na "Pronađite Majstore"
+function goToKategorije() {
+  const homepagePath = '/'.replace(/\/+$/, '') || '/';
+  const currentPath = window.location.pathname;
+
+  if (currentPath === homepagePath || currentPath === '/') {
+    // ✅ NA HOMEPAGE-U: PRISILNO RELOAD sa ?sekcija=kategorije (ZNAŠ DA OVO RADI!)
+    const url = new URL(window.location.href);
+    url.searchParams.set('sekcija', 'kategorije');
+    window.location.href = url.toString();
   } else {
-    // Ako nema parametra, samo aktiviraj prvi tab (kao što već radiš)
-    const firstTab = document.querySelector('.tab-button');
-    if (firstTab) firstTab.click();
+    // ✅ SA DRUGIH STRANICA: sessionStorage + clean redirect
+    sessionStorage.setItem('scrollToKategorije', 'true');
+    window.location.href = '/';
+  }
+}
+
+// Retry funkcija (poboljšana)
+function attemptScrollWithRetry() {
+  let attempts = 0;
+  const maxAttempts = 50; // 5 sekundi
+
+  const tryScroll = () => {
+    attempts++;
+    if (scrollToKategorijeAndActivateTab()) {
+      return;
+    }
+    if (attempts < maxAttempts) {
+      setTimeout(tryScroll, 100);
+    }
+  };
+  tryScroll();
+}
+
+// DOMContentLoaded – pokriva SVE slučajeve
+document.addEventListener('DOMContentLoaded', () => {
+  // 1. sessionStorage (sa drugih stranica)
+  if (sessionStorage.getItem('scrollToKategorije') === 'true') {
+    sessionStorage.removeItem('scrollToKategorije');
+    attemptScrollWithRetry();
+  } 
+  // 2. ?sekcija=kategorije (sa homepage reload-a + stari linkovi)
+  else {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('sekcija') === 'kategorije') {
+      attemptScrollWithRetry();
+    } 
+    // 3. Default: aktiviraj prvi tab
+    else {
+      const firstTab = document.querySelector('.tab-button');
+      if (firstTab) firstTab.click();
+    }
   }
 });
 </script>
@@ -349,7 +403,11 @@ document.addEventListener('DOMContentLoaded', () => {
       <p style="margin-bottom: 1rem;">Lako pronađite majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
       
       <div class="nav-buttons">
-        <a href="/?sekcija=kategorije" class="nav-btn m">Pronađite Majstore</a>
+        <a href="/" 
+          class="nav-btn m" 
+          onclick="goToKategorije(); return false;">
+          Pronađite Majstore
+        </a>
         <a href="/blog/" class="nav-btn">Blog</a>
       </div>
     </div>
@@ -820,11 +878,35 @@ document.addEventListener('DOMContentLoaded', () => {
         
           <label><input type="radio" name="kategorija" value="PVC Stolarija"> PVC Stolarija</label>
         
+          <label><input type="radio" name="kategorija" value="Aluminijumska Stolarija"> Aluminijumska Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="PVC Prozori"> PVC Prozori</label>
+        
+          <label><input type="radio" name="kategorija" value="ALU Prozori"> ALU Prozori</label>
+        
+          <label><input type="radio" name="kategorija" value="PVC Vrata"> PVC Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="ALU Vrata"> ALU Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="RAL Montaža"> RAL Montaža</label>
+        
+          <label><input type="radio" name="kategorija" value="Roletne i Komarnici"> Roletne i Komarnici</label>
+        
+          <label><input type="radio" name="kategorija" value="Klizni Sistemi"> Klizni Sistemi</label>
+        
+          <label><input type="radio" name="kategorija" value="Roletne"> Roletne</label>
+        
+          <label><input type="radio" name="kategorija" value="Ulazna Vrata"> Ulazna Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Balkonska Vrata"> Balkonska Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Komarnici"> Komarnici</label>
+        
+          <label><input type="radio" name="kategorija" value="Krovni Prozori Velux"> Krovni Prozori Velux</label>
+        
           <label><input type="radio" name="kategorija" value="Servis Stolarije"> Servis Stolarije</label>
         
           <label><input type="radio" name="kategorija" value="Montaža Roletni"> Montaža Roletni</label>
-        
-          <label><input type="radio" name="kategorija" value="Komarnici"> Komarnici</label>
         
           <label><input type="radio" name="kategorija" value="Zavese i Draperije"> Zavese i Draperije</label>
         
@@ -834,10 +916,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
           <label><input type="radio" name="kategorija" value="Sigurnosna Vrata"> Sigurnosna Vrata</label>
         
-          <label><input type="radio" name="kategorija" value="PVC Prozori"> PVC Prozori</label>
-        
-          <label><input type="radio" name="kategorija" value="PVC Vrata"> PVC Vrata</label>
-        
           <label><input type="radio" name="kategorija" value="Ugradnja Stolarije"> Ugradnja Stolarije</label>
         
           <label><input type="radio" name="kategorija" value="Popravka Stolarije"> Popravka Stolarije</label>
@@ -845,12 +923,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <label><input type="radio" name="kategorija" value="Demontaža Stolarije"> Demontaža Stolarije</label>
         
           <label><input type="radio" name="kategorija" value="Stakleni Klizni Sistemi"> Stakleni Klizni Sistemi</label>
-        
-          <label><input type="radio" name="kategorija" value="Aluminijumska Stolarija"> Aluminijumska Stolarija</label>
-        
-          <label><input type="radio" name="kategorija" value="ALU Prozori"> ALU Prozori</label>
-        
-          <label><input type="radio" name="kategorija" value="ALU Vrata"> ALU Vrata</label>
         
           <label><input type="radio" name="kategorija" value="Sigurnosni Prozori"> Sigurnosni Prozori</label>
         
@@ -941,8 +1013,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <label><input type="radio" name="kategorija" value="Klizna Vrata"> Klizna Vrata</label>
         
           <label><input type="radio" name="kategorija" value="Stakleni Portali"> Stakleni Portali</label>
-        
-          <label><input type="radio" name="kategorija" value="Roletne"> Roletne</label>
         
           <label><input type="radio" name="kategorija" value="Podprozorske Klupice"> Podprozorske Klupice</label>
         
@@ -1744,6 +1814,8 @@ document.addEventListener('DOMContentLoaded', () => {
       
         <label><input type="radio" name="mesto" value="Zemun Polje"> Zemun Polje</label>
       
+        <label><input type="radio" name="mesto" value="Zmajevo"> Zmajevo</label>
+      
         <label><input type="radio" name="mesto" value="Zrenjanin"> Zrenjanin</label>
       
         <label><input type="radio" name="mesto" value="Zvezdara"> Zvezdara</label>
@@ -1778,8 +1850,56 @@ document.addEventListener('DOMContentLoaded', () => {
 </section>
 
 <section id="majstori-lista">
-  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">86</span></p>
+  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">89</span></p>
   <div id="kartice-kontejner">
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="PVC Stolarija,Aluminijumska Stolarija,PVC Prozori,ALU Prozori,PVC Vrata,ALU Vrata,RAL Montaža,Roletne i Komarnici" data-mesto="Novi Sad,Zmajevo,Futog,Veternik,Beočin,Sremska Kamenica" style="display: none;">
+        <img loading="lazy" src="/images/marcijus-pvc-alu-stolarija-novi-sad.webp" alt="Marcijuš PVC i ALU Stolarija Novi Sad thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Marcijuš PVC i ALU Stolarija Novi Sad</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>PVC Stolarija, Aluminijumska Stolarija, PVC Prozori, ALU Prozori, PVC Vrata, ALU Vrata, RAL Montaža, Roletne i Komarnici</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Zmajevo, Futog, Veternik, Beočin, Sremska Kamenica</p> 
+          
+            <p>Marcijuš – majstori za PVC (Trocal, Rehau, Roloplast) i ALU (Alumil, Elvial) stolariju u Novom Sadu. Prozori, vrata, klizni sistemi – RAL montaža, energetska efikasnost, dugotrajnost.</p>
+          
+          <a href="/izvodjaci/novi-sad/marcijus-pvc-alu-stolarija-novi-sad/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="PVC Stolarija,Aluminijumska Stolarija,PVC Prozori,ALU Prozori,Klizni Sistemi,Roletne,Ulazna Vrata,Balkonska Vrata" data-mesto="Novi Sad,Futog,Veternik,Petrovaradin,Sremska Kamenica" style="display: none;">
+        <img loading="lazy" src="/images/alu-pvc-goran-novi-sad-stolarija.webp" alt="PVC i ALU Stolarija Goran Novi Sad - Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>PVC i ALU Stolarija Goran Novi Sad - Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>PVC Stolarija, Aluminijumska Stolarija, PVC Prozori, ALU Prozori, Klizni Sistemi, Roletne, Ulazna Vrata, Balkonska Vrata</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Futog, Veternik, Petrovaradin, Sremska Kamenica</p> 
+          
+            <p>Alu-PVC Goran – majstori za PVC i ALU stolariju u Novom Sadu preko 10 godina. Prozori, vrata, klizni sistemi, roletne – termo i zvučna izolacija, sigurnost, dizajn. Futog i Novi Sad.</p>
+          
+          <a href="/izvodjaci/novi-sad/alu-pvc-goran-novi-sad-stolarija/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="PVC Stolarija,Aluminijumska Stolarija,PVC Prozori,ALU Prozori,PVC Vrata,ALU Vrata,Roletne,Komarnici,Krovni Prozori Velux" data-mesto="Novi Sad,Beograd,Veternik,Futog,Petrovaradin,Sremska Kamenica,Zemun,Vračar" style="display: none;">
+        <img loading="lazy" src="/images/megaplast-novi-sad-pvc-alu-stolarija.webp" alt="Megaplast Novi Sad - PVC i ALU Stolarija Koja Štede Novac i Nerve thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Megaplast Novi Sad - PVC i ALU Stolarija Koja Štede Novac i Nerve</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>PVC Stolarija, Aluminijumska Stolarija, PVC Prozori, ALU Prozori, PVC Vrata, ALU Vrata, Roletne, Komarnici, Krovni Prozori Velux</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Beograd, Veternik, Futog, Petrovaradin, Sremska Kamenica, Zemun, Vračar</p> 
+          
+            <p>Megaplast – premium PVC i ALU stolarija Rehau u Novom Sadu i Beogradu. Energetski efikasni prozori i vrata, 10 godina garancije, servisna podrška. Izrada po meri, ušteda energije, zvučna izolacija.</p>
+          
+          <a href="/izvodjaci/novi-sad/megaplast-novi-sad-pvc-alu-stolarija/">Pročitaj više</a>
+        </div>
+      </div>
     
       
       

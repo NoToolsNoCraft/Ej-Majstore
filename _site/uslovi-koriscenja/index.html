@@ -293,7 +293,7 @@
 </style>
 
 <script>
-// Funkcija za otvaranje taba (već postoji, samo je ponavljamo radi sigurnosti)
+// Funkcija za otvaranje taba
 function openCity(evt, cityName) {
   document.querySelectorAll('.city-tab').forEach(tab => {
     tab.classList.remove('active');
@@ -308,27 +308,81 @@ function openCity(evt, cityName) {
   }
 }
 
-// Proveri URL parametre kada se stranica učita
-document.addEventListener('DOMContentLoaded', () => {
-  const params = new URLSearchParams(window.location.search);
-  
-  // Ako postoji parametar ?sekcija=kategorije
-  if (params.get('sekcija') === 'kategorije') {
-    // 1. Skroluj do sekcije #kategorije
-    const kategorijeSection = document.getElementById('kategorije');
-    if (kategorijeSection) {
-      kategorijeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+// Funkcija koja pokušava da skroluje i aktivira tab – sa više pokušaja
+function scrollToKategorijeAndActivateTab() {
+  const kategorijeSection = document.getElementById('kategorije');
+  const beogradBtn = document.querySelector('.tab-button[data-city="beograd"]');
+
+  if (kategorijeSection && beogradBtn) {
+    // Offset za header (plavi header ~120px)
+    const headerOffset = 120;
+    const elementPosition = kategorijeSection.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
     
-    // 2. Aktiviraj default tab (Beograd) – ovo već radiš u drugom skriptu, ali osiguraj
-    const beogradTab = document.querySelector('.tab-button[data-city="beograd"]');
-    if (beogradTab) {
-      beogradTab.click(); // osigurava da je Beograd aktivan
-    }
+    // Aktiviraj Beograd tab
+    beogradBtn.click();
+    return true;
+  }
+  return false;
+}
+
+// Glavna funkcija za klik na "Pronađite Majstore"
+function goToKategorije() {
+  const homepagePath = '/'.replace(/\/+$/, '') || '/';
+  const currentPath = window.location.pathname;
+
+  if (currentPath === homepagePath || currentPath === '/') {
+    // ✅ NA HOMEPAGE-U: PRISILNO RELOAD sa ?sekcija=kategorije (ZNAŠ DA OVO RADI!)
+    const url = new URL(window.location.href);
+    url.searchParams.set('sekcija', 'kategorije');
+    window.location.href = url.toString();
   } else {
-    // Ako nema parametra, samo aktiviraj prvi tab (kao što već radiš)
-    const firstTab = document.querySelector('.tab-button');
-    if (firstTab) firstTab.click();
+    // ✅ SA DRUGIH STRANICA: sessionStorage + clean redirect
+    sessionStorage.setItem('scrollToKategorije', 'true');
+    window.location.href = '/';
+  }
+}
+
+// Retry funkcija (poboljšana)
+function attemptScrollWithRetry() {
+  let attempts = 0;
+  const maxAttempts = 50; // 5 sekundi
+
+  const tryScroll = () => {
+    attempts++;
+    if (scrollToKategorijeAndActivateTab()) {
+      return;
+    }
+    if (attempts < maxAttempts) {
+      setTimeout(tryScroll, 100);
+    }
+  };
+  tryScroll();
+}
+
+// DOMContentLoaded – pokriva SVE slučajeve
+document.addEventListener('DOMContentLoaded', () => {
+  // 1. sessionStorage (sa drugih stranica)
+  if (sessionStorage.getItem('scrollToKategorije') === 'true') {
+    sessionStorage.removeItem('scrollToKategorije');
+    attemptScrollWithRetry();
+  } 
+  // 2. ?sekcija=kategorije (sa homepage reload-a + stari linkovi)
+  else {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('sekcija') === 'kategorije') {
+      attemptScrollWithRetry();
+    } 
+    // 3. Default: aktiviraj prvi tab
+    else {
+      const firstTab = document.querySelector('.tab-button');
+      if (firstTab) firstTab.click();
+    }
   }
 });
 </script>
@@ -349,7 +403,11 @@ document.addEventListener('DOMContentLoaded', () => {
       <p style="margin-bottom: 1rem;">Lako pronađite majstore i firme za sve zanatske i građevinske usluge u Srbiji!</p>
       
       <div class="nav-buttons">
-        <a href="/?sekcija=kategorije" class="nav-btn m">Pronađite Majstore</a>
+        <a href="/" 
+          class="nav-btn m" 
+          onclick="goToKategorije(); return false;">
+          Pronađite Majstore
+        </a>
         <a href="/blog/" class="nav-btn">Blog</a>
       </div>
     </div>
@@ -378,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <h2>4. Promene uslova</h2>
   <p>Zadržavamo pravo izmene ovih uslova. Obavestićemo vas o značajnim promenama email-om.</p>
 
-  <p><em>Poslednja izmena: 21.12.2025</em></p>
+  <p><em>Poslednja izmena: 22.12.2025</em></p>
 </div>
   </main>
 

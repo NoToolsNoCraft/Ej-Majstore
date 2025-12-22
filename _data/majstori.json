@@ -1,6 +1,496 @@
 [
 
   {
+  "ime": "Marcijuš PVC i ALU Stolarija Novi Sad",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "RAL Montaža", "Roletne i Komarnici"],
+  "opis_kratak": "Marcijuš – majstori za PVC (Trocal, Rehau, Roloplast) i ALU (Alumil, Elvial) stolariju u Novom Sadu. Prozori, vrata, klizni sistemi – RAL montaža, energetska efikasnost, dugotrajnost.",
+  "mesto": ["Novi Sad", "Zmajevo", "Futog", "Veternik", "Beočin", "Sremska Kamenica"],
+  "adresa": "Zmajevac, magistralni put Novi Sad - Vrbas",
+  "telefon": "+381600193812",
+  "email": "kontakt@pvcmarcijus.rs",
+  "website": "https://www.pvcmarcijus.rs/",
+  "slug": "marcijus-pvc-alu-stolarija-novi-sad",
+  "thumbnail": "images/marcijus-pvc-alu-stolarija-novi-sad.webp",
+  "hero_image": "images/marcijus-pvc-alu-stolarija-novi-sad.webp",
+  "discover_title": "Marcijuš Novi Sad - Stolarija Koja Ne Pušta Ni Vetar Ni Hladnoću",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-22",
+  "last_modified": "2025-12-22",
+  "tips_title": "Kako da Prozori Rade Za Vas",
+  "tips": [
+    "RAL montaža – nema vlage i buđi",
+    "Trocal ili Rehau – tišina i toplina",
+    "ALU za velika vrata – lakše i čvršće",
+    "Komarnici u kompletu – leto bez zujanja",
+    "Cene od 50€/m² – kvalitet ne mora biti skup"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-novi-sad/\">ALU Stolarija Novi Sad</a> › Marcijuš"
+    },
+    {
+      "type": "p",
+      "content": "Kada stari prozori propuštaju hladnoću, a računi za grejanje skaču – vreme je za promenu. U Zmajevcu (na putu Novi Sad - Vrbas), Marcijuš je adresa gde se to rešava bez glavobolje. Oni rade PVC i ALU stolariju sa premium profilima – Trocal, Rehau, Roloplast za PVC, Alumil i Elvial za ALU. Sve po meri, sa RAL montažom koja sprečava vlagu."
+    },
+    {
+      "type": "p",
+      "content": "Marcijuš nije samo prodavac – oni mere, savetuju, proizvode i montiraju. Od običnog prozora do velikih kliznih sistema – sve sa fokusom na izolaciju, sigurnost i dizajn."
+    },
+    {
+      "type": "h2",
+      "content": "Marcijuš – Stolarija Koja Traje"
+    },
+    {
+      "type": "p",
+      "content": "Sa dugim iskustvom, Marcijuš bira samo proverene brendove. PVC sa 5–8 komora za tišinu i uštedu, ALU za čvrstoću i velike otvore. Plus roletne, komarnici i grilje – sve na jednom mestu."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381600193812\">+381 60 019 3812</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@pvcmarcijus.rs\">kontakt@pvcmarcijus.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.pvcmarcijus.rs/\" target=\"_blank\" rel=\"nofollow\">pvcmarcijus.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – PVC i ALU Za Sve"
+    },
+    {
+      "type": "p",
+      "content": "Marcijuš radi sve:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Trocal, Rehau, Roloplast – 5–8 komora, fixni, krilni."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Alumil, Elvial – hladni/termo prekid."
+    },
+    {
+      "type": "h3",
+      "content": "Klizni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Za velike otvore – terase kao deo sobe."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne i Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Nadgradne/spoljne – zaštita od sunca i insekata."
+    },
+    {
+      "type": "h3",
+      "content": "RAL Montaža"
+    },
+    {
+      "type": "p",
+      "content": "Bez vlage – ušteda energije."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Marcijuš – Jer Znaju Šta Rade"
+    },
+    {
+      "type": "p",
+      "content": "Kvalitetni profili, precizna izrada, fer cene – i kupci se vraćaju."
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija? Pozovite Marcijuš na <a href=\"tel:+381600193812\"><strong>+381 60 019 3812</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Stolarija",
+      "description": "Trocal, Rehau, Roloplast – energetska efikasnost."
+    },
+    {
+      "title": "ALU Stolarija",
+      "description": "Alumil, Elvial – čvrsto za velike otvore."
+    },
+    {
+      "title": "Klizni Sistemi",
+      "description": "Veliki otvori – terasa u sobi."
+    },
+    {
+      "title": "Roletne i Komarnici",
+      "description": "Zaštita od sunca i insekata."
+    },
+    {
+      "title": "RAL Montaža",
+      "description": "Bez vlage i buđi."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko košta PVC prozor?",
+      "answer": "Od 50€/m² fixni, 85€ krilni – okvirno."
+    },
+    {
+      "question": "Radite li ALU?",
+      "answer": "Da – Alumil i Elvial."
+    },
+    {
+      "question": "Imate li RAL montažu?",
+      "answer": "Da – ušteda energije."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad, Zmajevo, Vrbas i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na profile i rad."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 60 019 3812."
+    }
+  ]
+},
+
+  {
+  "ime": "PVC i ALU Stolarija Goran Novi Sad - Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "ALU Prozori", "Klizni Sistemi", "Roletne", "Ulazna Vrata", "Balkonska Vrata"],
+  "opis_kratak": "Alu-PVC Goran – majstori za PVC i ALU stolariju u Novom Sadu preko 10 godina. Prozori, vrata, klizni sistemi, roletne – termo i zvučna izolacija, sigurnost, dizajn. Futog i Novi Sad.",
+  "mesto": ["Novi Sad", "Futog", "Veternik", "Petrovaradin", "Sremska Kamenica"],
+  "adresa": "Lazara Kneževića 3, Futog",
+  "telefon": "+381604156765",
+  "email": "alupvcgoran@gmail.com",
+  "website": "https://alu-pvc-goran.rs/",
+  "slug": "alu-pvc-goran-novi-sad-stolarija",
+  "thumbnail": "images/alu-pvc-goran-novi-sad-stolarija.webp",
+  "hero_image": "images/alu-pvc-goran-novi-sad-stolarija.webp",
+  "discover_title": "PVC i ALU Stolarija Goran Novi Sad - Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-22",
+  "last_modified": "2025-12-22",
+  "tips_title": "Kako da Prozori Rade Za Vas, a Ne Protiv",
+  "tips": [
+    "5–6 komora u profilu – tišina i toplina garantovano",
+    "Klizni sistemi – terasa postaje deo sobe",
+    "Roletne sa komarnikom – leto bez zujanja",
+    "ALU za velike otvore – čvrsto i moderno",
+    "Nadgradne ili spoljne roletne – birajte po potrebi"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-novi-sad/\">ALU Stolarija Novi Sad</a> › Goran"
+    },
+    {
+      "type": "p",
+      "content": "Kada stari prozori škripe, puštaju promaju ili jednostavno ne drže toplotu – vreme je za promenu. U Futogu (a radi po celom Novom Sadu), Alu-PVC Goran je ekipa koja već preko 10 godina rešava te muke. Nisu samo prodavci – oni mere, savetuju, proizvode i montiraju PVC i ALU stolariju koja traje i štedi."
+    },
+    {
+      "type": "p",
+      "content": "Njihov fokus? PVC sa 5–6 komora za vrhunsku izolaciju i ALU za čvrstoću velikih površina. Plus klizni sistemi koji otvaraju prostor i roletne koje štite od svega – od sunca do insekata."
+    },
+    {
+      "type": "h2",
+      "content": "Alu-PVC Goran – Stolarija Koja Radi Posao"
+    },
+    {
+      "type": "p",
+      "content": "Sa radionicom punom savremenih alata i iskusnim monterima, Goran pravi stolariju koja odgovara svakom objektu. Od jednokrilnih prozora do podizno-kliznih stena – sve sa preciznošću i garancijom kvaliteta."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite ih za savet:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381604156765\">+381 60 415 67 65</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:alupvcgoran@gmail.com\">alupvcgoran@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://alu-pvc-goran.rs/\" target=\"_blank\" rel=\"nofollow\">alu-pvc-goran.rs</a><br>📍 <strong>Adresa:</strong> Lazara Kneževića 3, Futog"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Od Prozora Do Kliznih Stena"
+    },
+    {
+      "type": "p",
+      "content": "Goran radi sve vrste:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "5–6 komora – odlična termo i zvučna izolacija, energetska ušteda."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Lakša, čvrsta – za velike površine, eloksirana, sve boje."
+    },
+    {
+      "type": "h3",
+      "content": "Klizni Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Nagibno-klizni, harmonika, podizno-klizni, paralelni – otvaraju prostor."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne"
+    },
+    {
+      "type": "p",
+      "content": "Nadgradne ili spoljne, sa ili bez komarnika – zaštita od svega."
+    },
+    {
+      "type": "h3",
+      "content": "Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Ulazna, balkonska, pregradna – jednokrilna, dvokrilna."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti – Što Traje i Štedi"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Energetska efikasnost – manji računi",
+        "Zvučna izolacija – tišina u kući",
+        "Otpornost na vetar, kišu, sunce",
+        "Sigurnost – protivprovalna zaštita",
+        "Dizajn – moderne linije i boje"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija? Pozovite Gorana na <a href=\"tel:+381604156765\"><strong>+381 60 415 67 65</strong></a> – jer dobar prozor menja sve."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori i Vrata",
+      "description": "5–6 komora – izolacija i ušteda."
+    },
+    {
+      "title": "ALU Stolarija",
+      "description": "Čvrsta za velike površine, sve boje."
+    },
+    {
+      "title": "Klizni Sistemi",
+      "description": "PSK, harmonika, podizno-klizni – otvoreni prostor."
+    },
+    {
+      "title": "Roletne",
+      "description": "Nadgradne/spoljne, sa komarnikom."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko traje izrada?",
+      "answer": "Po dogovoru – brzo i precizno."
+    },
+    {
+      "question": "Radite li ALU?",
+      "answer": "Da – za veće i jače konstrukcije."
+    },
+    {
+      "question": "Imate li roletne?",
+      "answer": "Da – nadgradne i spoljne."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad, Futog i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na kvalitet i montažu."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 60 415 67 65."
+    }
+  ]
+},
+
+  {
+  "ime": "Megaplast Novi Sad - PVC i ALU Stolarija Koja Štede Novac i Nerve",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "Roletne", "Komarnici", "Krovni Prozori Velux"],
+  "opis_kratak": "Megaplast – premium PVC i ALU stolarija Rehau u Novom Sadu i Beogradu. Energetski efikasni prozori i vrata, 10 godina garancije, servisna podrška. Izrada po meri, ušteda energije, zvučna izolacija.",
+  "mesto": ["Novi Sad", "Beograd", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Zemun", "Vračar"],
+  "adresa": "Bulevar oslobođenja 38, Novi Sad",
+  "telefon": "+381654770216",
+  "email": "",
+  "website": "https://megaplast.rs/",
+  "slug": "megaplast-novi-sad-pvc-alu-stolarija",
+  "thumbnail": "images/megaplast-novi-sad-pvc-alu-stolarija.webp",
+  "hero_image": "images/megaplast-novi-sad-pvc-alu-stolarija.webp",
+  "discover_title": "Megaplast Novi Sad - PVC i ALU Stolarija Koja Štede Novac i Nerve",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-22",
+  "last_modified": "2025-12-22",
+  "tips_title": "Trikovi Za Prozore Koji Ne Puštaju Hladnoću",
+  "tips": [
+    "Rehau Geneo – budućnost bez promaje",
+    "Trostruko staklo – računi za grejanje prepolovljeni",
+    "ALU za velike otvore – čvrsto kao stena",
+    "10 godina garancije – miran san",
+    "Servis i posle – jer prozori žive duže"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-novi-sad/\">ALU Stolarija Novi Sad</a> › Megaplast"
+    },
+    {
+      "type": "p",
+      "content": "Kada zima pokuca, a račun za grejanje vas nokautira – vreme je za nove prozore. U Novom Sadu, Megaplast je adresa gde se to rešava bez muke. Više od 20 godina rade premium PVC i ALU stolariju Rehau – one prozore koji štede energiju, blokiraju buku i izgledaju kao iz kataloga."
+    },
+    {
+      "type": "p",
+      "content": "Nije šala – njihovi prozori imaju 10 godina garancije, servisnu podršku i sertifikate koji potvrđuju da nije samo marketing. Od Ecosol ekonomičnih do Geneo high-tech – sve po meri, sve sa besplatnim merenjem."
+    },
+    {
+      "type": "h2",
+      "content": "Megaplast – Rehau Prozori Koji Rade Posao"
+    },
+    {
+      "type": "p",
+      "content": "Megaplast je tim koji zna šta radi – Rehau profili, Maco okovi, višeslojna stakla. PVC za uštedu i tišinu, ALU za čvrstoću i velike otvore. Salon u Novom Sadu pun uzoraka, tim koji dolazi na teren i sve montira bez haosa."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite ih za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381654770216\">+381 65 4770 216</a><br>🌐 <strong>Website:</strong> <a href=\"https://megaplast.rs/\" target=\"_blank\" rel=\"nofollow\">megaplast.rs</a><br>📍 <strong>Salon Novi Sad:</strong> Bulevar oslobođenja 38"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Od Ekonomičnih Do Luksuznih"
+    },
+    {
+      "type": "p",
+      "content": "Megaplast ima sve:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Ecosol – najbolji prodavac za svetle domove. Synego – standardi budućnosti. Geneo – high-tech sa Rau-Fipro materijalom."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Imperial, Genesis, Synergy – čvrsti, elegantni, sa dekorima drveta."
+    },
+    {
+      "type": "h3",
+      "content": "Vrata"
+    },
+    {
+      "type": "p",
+      "content": "PVC i ALU – ulazna, unutrašnja, sa sigurnošću."
+    },
+    {
+      "type": "h3",
+      "content": "Dodaci"
+    },
+    {
+      "type": "p",
+      "content": "Roletne, komarnici, Velux krovni prozori, tende."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti – Više Od Samo Prozora"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "10 godina garancije",
+        "Energetska efikasnost – manji računi",
+        "Zvučna izolacija – tišina u stanu",
+        "Sigurnost – Maco okovi protiv provale",
+        "UV zaštita – nameštaj ne bledi",
+        "Servis i posle garancije"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite Megaplast na <a href=\"tel:+381654770216\"><strong>+381 65 4770 216</strong></a> – jer dobar prozor menja život."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori Rehau",
+      "description": "Ecosol, Synego, Geneo – energetski efikasni."
+    },
+    {
+      "title": "ALU Prozori",
+      "description": "Imperial, Genesis, Synergy – čvrsti i elegantni."
+    },
+    {
+      "title": "PVC i ALU Vrata",
+      "description": "Ulazna, sigurnosna – po meri."
+    },
+    {
+      "title": "Roletne i Komarnici",
+      "description": "Zaštita od sunca i insekata."
+    },
+    {
+      "title": "Velux Krovni Prozori",
+      "description": "Svetlost sa tavana."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko je garancija?",
+      "answer": "10 godina – plus servis."
+    },
+    {
+      "question": "Radite li ALU?",
+      "answer": "Da – premium profili."
+    },
+    {
+      "question": "Imate li besplatno merenje?",
+      "answer": "Da – dolazimo na teren."
+    },
+    {
+      "question": "Gde je salon?",
+      "answer": "Bulevar oslobođenja 38, Novi Sad."
+    },
+    {
+      "question": "Radite li u Beogradu?",
+      "answer": "Da – salon i u Beogradu."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite +381 65 4770 216."
+    }
+  ]
+},
+
+  {
   "ime": "Boško i Deca Novi Sad - PVC Stolarija, Servis i Montaža",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "Servis Stolarije", "Montaža Roletni", "Komarnici", "Zavese i Draperije", "Garažna Vrata", "Medijapan Vrata", "Sigurnosna Vrata"],
