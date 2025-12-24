@@ -41,7 +41,7 @@ sections:
   content: <a href="/alu-stolarija-novi-sad/">ALU Stolarija Novi Sad</a> › Marcijuš
 - type: p
   content: Kada stari prozori propuštaju hladnoću, a računi za grejanje skaču – vreme
-    je za promenu. U Zmajevcu (na putu Novi Sad - Vrbas), Marcijuš je adresa gde se
+    je za promenu. U Zmajevu (na putu Novi Sad - Vrbas), Marcijuš je adresa gde se
     to rešava bez glavobolje. Oni rade PVC i ALU stolariju sa premium profilima –
     Trocal, Rehau, Roloplast za PVC, Alumil i Elvial za ALU. Sve po meri, sa RAL montažom
     koja sprečava vlagu.

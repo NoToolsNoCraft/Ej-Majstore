@@ -1,12 +1,897 @@
 [
 
   {
+  "ime": "Profiplast Beograd - Rehau PVC i Alumil ALU Stolarija",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "Alu-Drvo Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "Roletne", "Komarnici"],
+  "opis_kratak": "Profiplast – Rehau premium partner za PVC i Alumil za ALU stolariju u Beogradu preko 20 godina. Prozori, vrata, alu-drvo – energetska efikasnost, dizajn, garancija. Konjarnik i okolina.",
+  "mesto": ["Beograd", "Konjarnik", "Voždovac", "Medaković", "Zvezdara", "Vračar", "Braće Jerković", "Kumodraž", "Trošarina"],
+  "adresa": "Pita Maravića 11a, Beograd",
+  "telefon": "+381606416042",
+  "email": "office@profiplast.rs",
+  "website": "https://profiplast.rs/",
+  "slug": "profiplast-beograd-rehau-pvc-alumil-alu",
+  "thumbnail": "images/profiplast-beograd-rehau-pvc-alumil-alu.webp",
+  "hero_image": "images/profiplast-beograd-rehau-pvc-alumil-alu.webp",
+  "discover_title": "Profiplast Beograd - Rehau Prozori Koji Ne Puštaju Ni Račune Ni Buku",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-24",
+  "last_modified": "2025-12-24",
+  "tips_title": "Kako da Vaši Prozori Ne Troše, Već Štede",
+  "tips": [
+    "Rehau Synego – tišina i toplina u paketu",
+    "Alu-drvo – lepota drveta, čvrstoća metala",
+    "Troslojno staklo – računi manji za pola",
+    "RAL boje – prozori koji se uklapaju u fasadu",
+    "Garancija na Rehau – jer kvalitet traje"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-beograd/\">PVC Stolarija Beograd</a> › Profiplast"
+    },
+    {
+      "type": "p",
+      "content": "Kada zimi sedite pored prozora, a osećate hladnoću kao da ste napolju – vreme je za Rehau. U Beogradu, Profiplast je ekipa koja više od 20 godina radi premium Rehau PVC i Alumil ALU stolariju. Nisu samo prozori – to su štitovi od buke, hladnoće i visokih računa."
+    },
+    {
+      "type": "p",
+      "content": "Od Euro-Design 70 za svakodnevne heroje do Artevo za one koji vole luksuz – sve sa Maco okovima, troslojnim staklom i dizajnom koji oduzima dah. Plus alu-drvo za one koji vole toplinu drveta uz čvrstoću metala."
+    },
+    {
+      "type": "h2",
+      "content": "Profiplast – Rehau Koji Ne Izneveri"
+    },
+    {
+      "type": "p",
+      "content": "Profiplast je Rehau premium partner – znači, koriste samo originalne nemačke profile. Od 5 komora za standard do 7 za vrhunsku izolaciju. Alumil za ALU, alu-drvo za posebne ukuse."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+3811162717470\">011 27 17 470</a> / <a href=\"tel:+3811162717480\">011 27 17 480</a><br>🌐 <strong>Website:</strong> <a href=\"https://profiplast.rs/\" target=\"_blank\" rel=\"nofollow\">profiplast.rs</a><br>📍 <strong>Adresa:</strong> Pita Maravića 11a, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Rehau Za Svaki Ukus"
+    },
+    {
+      "type": "p",
+      "content": "Profiplast radi:"
+    },
+    {
+      "type": "h3",
+      "content": "Rehau Euro-Design 70"
+    },
+    {
+      "type": "p",
+      "content": "5 komora – balans cene i kvaliteta."
+    },
+    {
+      "type": "h3",
+      "content": "Rehau Synego"
+    },
+    {
+      "type": "p",
+      "content": "Visoke performanse – tišina i ušteda."
+    },
+    {
+      "type": "h3",
+      "content": "Rehau Artevo"
+    },
+    {
+      "type": "p",
+      "content": "LowE tehnologija – vrhunac efikasnosti."
+    },
+    {
+      "type": "h3",
+      "content": "Synego Slide i Podizno-Klizni"
+    },
+    {
+      "type": "p",
+      "content": "Veliki otvori – terasa kao deo sobe."
+    },
+    {
+      "type": "h3",
+      "content": "Alumil ALU i Alu-Drvo"
+    },
+    {
+      "type": "p",
+      "content": "Čvrstoća metala + toplina drveta."
+    },
+    {
+      "type": "h3",
+      "content": "Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Ulazna, balkonska – sigurnost i stil."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Profiplast – Jer Rehau Zna Posao"
+    },
+    {
+      "type": "p",
+      "content": "Rehau profili, Maco okovi, troslojno staklo – garancija da nećete zvati majstora godinama."
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite Profiplast na <a href=\"tel:+3811162717470\"><strong>011 27 17 470</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Rehau PVC Prozori",
+      "description": "Euro-Design, Synego, Artevo – izolacija i dizajn."
+    },
+    {
+      "title": "Alumil ALU Stolarija",
+      "description": "Čvrsta za velike otvore."
+    },
+    {
+      "title": "Alu-Drvo Stolarija",
+      "description": "Lepota drveta + čvrstoća ALU."
+    },
+    {
+      "title": "Klizni Sistemi",
+      "description": "Synego Slide, podizno-klizni."
+    },
+    {
+      "title": "Ulazna Vrata",
+      "description": "PVC i ALU – sigurnost i stil."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko je garancija?",
+      "answer": "Na Rehau profile – dugogodišnja."
+    },
+    {
+      "question": "Radite li ALU i alu-drvo?",
+      "answer": "Da – Alumil i Aluris."
+    },
+    {
+      "question": "Imate li klizne sisteme?",
+      "answer": "Da – Synego i podizno-klizni."
+    },
+    {
+      "question": "Gde je salon?",
+      "answer": "Pita Maravića 11a, Beograd."
+    },
+    {
+      "question": "Radite li troslojno staklo?",
+      "answer": "Da – za maksimalnu izolaciju."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite 011 27 17 470."
+    }
+  ]
+},
+
+  {
+  "ime": "SN Windows Beograd - PVC Stolarija Rehau",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Energetski Efikasni Prozori", "Rehau Profili", "Obrada Špaletni"],
+  "opis_kratak": "SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac). Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina na profil. Obrada špaletni, precizna montaža.",
+  "mesto": ["Beograd", "Voždovac", "Dušanovac", "Konjarnik", "Medaković", "Trošarina", "Kumodraž", "Jajinci", "Braće Jerković", "Šumice"],
+  "adresa": "Husova 6, Voždovac, Beograd",
+  "telefon": "+381655450707",
+  "email": "pvcstolarijarehau@gmail.com",
+  "website": "",
+  "slug": "sn-windows-beograd-pvc-stolarija-rehau",
+  "thumbnail": "images/sn-windows-beograd-pvc-stolarija-rehau.webp",
+  "hero_image": "images/sn-windows-beograd-pvc-stolarija-rehau.webp",
+  "discover_title": "SN Windows Beograd - Rehau Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-24",
+  "last_modified": "2025-12-24",
+  "tips_title": "Kako da Prozori Ne Troše Novac",
+  "tips": [
+    "Troslojno staklo – računi manji za trećinu",
+    "Rehau profili – ne menjaju boju, ne deformišu se",
+    "Obrada špaletni – nema vlage i buđi",
+    "10 godina garancije na profil – miran san",
+    "Niskoemisiono staklo – toplije zimi, hladnije leti"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-beograd/\">PVC Stolarija Beograd</a> › SN Windows"
+    },
+    {
+      "type": "p",
+      "content": "Kada stari prozori puštaju promaju, a grejanje radi punom parom – vreme je za Rehau. U Voždovcu (kod Dušanovačke pijace), SN Windows je mesto gde se to rešava bez drame. Oni rade isključivo Rehau PVC stolariju – nemačke profile koji štede energiju, čuvaju tišinu i ne menjaju boju godinama."
+    },
+    {
+      "type": "p",
+      "content": "Nije samo stolarija – oni mere, savetuju, obrade špaletne i montiraju precizno. Dvoslojno ili troslojno staklo, 5–6 komora – sve da vaš stan bude topao, tih i bez kondenzacije."
+    },
+    {
+      "type": "h2",
+      "content": "SN Windows – Rehau Koji Traje"
+    },
+    {
+      "type": "p",
+      "content": "SN Windows koristi Rehau profile – od 5 do 7 komora, sa niskoemisionim staklima punjenim argonom. Garancija 10 godina na profil, 5 na okov – jer znaju da njihov posao traje."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381114112136\">011 411 2136</a> / <a href=\"tel:+381655450707\">065 545 0707</a> / <a href=\"tel:+38162232475\">062 232 475</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:pvcstolarijarehau@gmail.com\">pvcstolarijarehau@gmail.com</a><br>📍 <strong>Adresa:</strong> Husova 6, Voždovac"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Rehau Za Svaki Stan"
+    },
+    {
+      "type": "p",
+      "content": "SN Windows radi Rehau profile:"
+    },
+    {
+      "type": "h3",
+      "content": "5–6 Komora"
+    },
+    {
+      "type": "p",
+      "content": "Standardna izolacija – dvoslojno ili troslojno staklo."
+    },
+    {
+      "type": "h3",
+      "content": "Troslojno Staklo"
+    },
+    {
+      "type": "p",
+      "content": "Za maksimalnu uštedu – nema kondenzacije."
+    },
+    {
+      "type": "h3",
+      "content": "Obrada Špaletni"
+    },
+    {
+      "type": "p",
+      "content": "Po dogovoru – sve uredno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto SN Windows – Jer Znaju Rehau"
+    },
+    {
+      "type": "p",
+      "content": "Rehau nije jeftin – ali traje. Nema farbanja, nema deformacije, samo tišina i toplina."
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite SN Windows na <a href=\"tel:+381114112136\"><strong>011 411 2136</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori Rehau",
+      "description": "5–7 komora, dvoslojno/troslojno staklo."
+    },
+    {
+      "title": "PVC Vrata",
+      "description": "Ulazna, balkonska – sigurnost i izolacija."
+    },
+    {
+      "title": "Obrada Špaletni",
+      "description": "Po dogovoru – bez vlage."
+    },
+    {
+      "title": "Montaža i Saveti",
+      "description": "Precizno, brzo."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko je garancija?",
+      "answer": "10 godina na profil, 5 na okov."
+    },
+    {
+      "question": "Radite li troslojno staklo?",
+      "answer": "Da – za maksimalnu izolaciju."
+    },
+    {
+      "question": "Imate li obradu špaletni?",
+      "answer": "Da – po dogovoru."
+    },
+    {
+      "question": "Gde je salon?",
+      "answer": "Husova 6, Voždovac."
+    },
+    {
+      "question": "Radite li samo Rehau?",
+      "answer": "Da – premium nemački profili."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite 011 411 2136 ili 065 545 0707."
+    }
+  ]
+},
+
+  {
+  "ime": "Eko-Plast Zemun - PVC i ALU Stolarija",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "Drvena Stolarija", "Roletne", "Komarnici", "Garažna Vrata", "Sobna Vrata", "Ulazna Vrata", "Zastakljivanje Terasa"],
+  "opis_kratak": "Eko-Plast – majstori za PVC, ALU i drvenu stolariju u Zemunu od 2005. Prozori, vrata, roletne, komarnici, garažna vrata, venecijaneri – brza montaža za 1 dan, energetska efikasnost, garancija. Beograd i okolina.",
+  "mesto": ["Zemun", "Novi Beograd", "Beograd", "Surčin", "Batajnica", "Altina", "Zemun Polje", "Ugrinovci", "Jakovo", "Dobanovci"],
+  "adresa": "Zemun, Beograd",
+  "telefon": "+381603149114",
+  "email": "",
+  "website": "",
+  "slug": "eko-plast-zemun-pvc-alu-stolarija",
+  "thumbnail": "images/eko-plast-zemun-pvc-alu-stolarija.webp",
+  "hero_image": "images/eko-plast-zemun-pvc-alu-stolarija.webp",
+  "discover_title": "Eko-Plast Zemun - Stolarija Koja Ne Pušta Ni Promaju Ni Bubu",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-24",
+  "last_modified": "2025-12-24",
+  "tips_title": "Kako da Vaš Dom Bude Topao, Tiš i Bez Insekata",
+  "tips": [
+    "Plise komarnici – ne buše, a rade posao",
+    "Montaža za 1 dan – bez prašine i čekanja",
+    "Garažna vrata – tiha i sigurna",
+    "Zebra zavese – svetlost po vašoj meri",
+    "RAL boje – prozori koji se uklapaju u fasadu"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-beograd/\">PVC Stolarija Beograd</a> › Eko-Plast"
+    },
+    {
+      "type": "p",
+      "content": "Kada prozor pušta promaju, roletna se zaglavi, a komarci ulete čim otvorite vrata – vreme je za ozbiljnu promenu. U Zemunu, Eko-Plast je ekipa koja to rešava od 2005. – PVC, ALU, drvo, roletne, komarnici, garažna vrata, venecijaneri... Sve što treba da vaš dom bude topao, tih i bez zujanja."
+    },
+    {
+      "type": "p",
+      "content": "Oni nisu samo prodavci – oni mere, savetuju, montiraju za dan i ostavljaju sve besprekorno. Brza montaža, garancija i cene koje ne bole – zato ih preporučuju stotine zadovoljnih klijenata."
+    },
+    {
+      "type": "h2",
+      "content": "Eko-Plast – Sve Za Vaš Dom Na Jednom Mestu"
+    },
+    {
+      "type": "p",
+      "content": "Od 2005. Eko-Plast radi po evropskim standardima – PVC za izolaciju, ALU za čvrstoću, drvo za toplinu. Plus sve ono što ide uz prozore: roletne, komarnici bez bušenja, zebra zavese, garažna vrata koja ne buče."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381603149114\">+381 60 314 9114</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Od Prozora Do Garažnih Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Eko-Plast radi sve:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC i ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Prozori, vrata – energetski efikasni, po meri."
+    },
+    {
+      "type": "h3",
+      "content": "Drvena Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Toplina pravog drveta – klasičan šarm."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne i Venecijaneri"
+    },
+    {
+      "type": "p",
+      "content": "Zaštita od sunca i pogleda."
+    },
+    {
+      "type": "h3",
+      "content": "Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Rolo, plise – bez bušenja."
+    },
+    {
+      "type": "h3",
+      "content": "Trakaste i Zebra Zavese"
+    },
+    {
+      "type": "p",
+      "content": "Stil i kontrola svetlosti."
+    },
+    {
+      "type": "h3",
+      "content": "Garažna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Tiha, sigurna – po meri."
+    },
+    {
+      "type": "h3",
+      "content": "Sobna i Ulazna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Medijapan, sigurnosna – kvalitet."
+    },
+    {
+      "type": "h3",
+      "content": "Zastakljivanje Terasa"
+    },
+    {
+      "type": "p",
+      "content": "Terasa cele godine."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Govore"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu i ljubaznost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/1i5QKpgVqEPjuZdln\" target=\"_blank\" rel=\"nofollow\">Jana Pejčić</a>:</strong> Svaka preporuka... Brzi i efikasni, javljaju se na telefon, laki za dogovor... Carevi ste!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/VxThazRJjiTXuVwxU\" target=\"_blank\" rel=\"nofollow\">Miloš Jelić</a>:</strong> Svaka preporuka. Posebna pohvala za majstore Marka i Nikolu, veseli nasmejani momci koji veoma profesionalno rade svoj posao."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/efKMimqzQeIwB8B2h\" target=\"_blank\" rel=\"nofollow\">Tanja Mandić</a>:</strong> Ne pamtim da sam imala ovoliko pozitivno iskustvo... Brzo, povoljno, kvalitetno. Svaka čast momci."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Eko-Plast – Jer Reše Sve Brzo"
+    },
+    {
+      "type": "p",
+      "content": "Montaža za dan, garancija, kvalitet – i uvek sa osmehom."
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija ili komarnici? Pozovite Eko-Plast na <a href=\"tel:+381603149114\"><strong>+381 60 314 9114</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC i ALU Stolarija",
+      "description": "Prozori, vrata – energetski efikasni."
+    },
+    {
+      "title": "Drvena Stolarija",
+      "description": "Toplina i klasičan izgled."
+    },
+    {
+      "title": "Roletne i Venecijaneri",
+      "description": "Zaštita od sunca."
+    },
+    {
+      "title": "Komarnici",
+      "description": "Rolo, plise – bez bušenja."
+    },
+    {
+      "title": "Garažna Vrata",
+      "description": "Tiha i sigurna."
+    },
+    {
+      "title": "Zastakljivanje Terasa",
+      "description": "Celogodišnja upotreba."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko traje montaža?",
+      "answer": "Za 1 dan – brzo i uredno."
+    },
+    {
+      "question": "Radite li ALU i drvo?",
+      "answer": "Da – pored PVC-a."
+    },
+    {
+      "question": "Imate li komarnike bez bušenja?",
+      "answer": "Da – plise."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Zemun, Beograd i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – višegodišnja."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 60 314 9114."
+    }
+  ]
+},
+
+  {
+  "ime": "Mond Line Pro Beograd - PVC Stolarija",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Klizni Sistemi", "Energetski Efikasni Prozori", "Zvučna Izolacija"],
+  "opis_kratak": "Mond Line Pro – majstori za VEKA PVC stolariju u Beogradu skoro 20 godina. Prozori i vrata sa troslojnim staklom, 10 godina garancije, ušteda energije, tišina. Brza ponuda, precizna montaža.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Savski Venac", "Stari Grad", "Palilula", "Voždovac", "Čukarica", "Rakovica", "Zvezdara"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+38163373542",
+  "email": "",
+  "website": "",
+  "slug": "mond-line-pro-beograd-pvc-stolarija",
+  "thumbnail": "images/mond-line-pro-beograd-pvc-stolarija.webp",
+  "hero_image": "images/mond-line-pro-beograd-pvc-stolarija.webp",
+  "discover_title": "Mond Line Pro Beograd - PVC Stolarija",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-24",
+  "last_modified": "2025-12-24",
+  "tips_title": "Kako da Prozori Ne Puštaju Ni Buku Ni Hladnoću",
+  "tips": [
+    "Troslojno staklo – računi manji, stan topliji",
+    "VEKA profili – nemački kvalitet koji traje",
+    "Ponuda za 24h – ne čekate nedeljama",
+    "10 godina garancije – miran san",
+    "Montaža bez haosa – sve uredno"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-beograd/\">PVC Stolarija Beograd</a> › Mond Line Pro"
+    },
+    {
+      "type": "p",
+      "content": "Zimi promaja, leti sauna, a buka sa ulice kao da ste na trotoaru – poznato? U Beogradu, Mond Line Pro je tim koji to rešava skoro 20 godina. Njihovi VEKA prozori i vrata nisu samo stolarija – to su štit od hladnoće, buke i visokih računa."
+    },
+    {
+      "type": "p",
+      "content": "Sa fokusom na troslojno staklo i nemačke profile, oni prave prozore koji štede energiju, čuvaju tišinu i izgledaju savršeno. Ponuda stiže za 24 sata, montaža brzo i precizno – bez prašine i kašnjenja."
+    },
+    {
+      "type": "h2",
+      "content": "Mond Line Pro – VEKA Prozori Koji Rade Za Vas"
+    },
+    {
+      "type": "p",
+      "content": "Mond Line Pro koristi VEKA profile – nemačke, sa 5–7 komora. Od VEKA 70 za standard do Softline 82 sa ALU oblogom za luksuz. Sve sa ROTO okovima, troslojnim staklom i garancijom 10 godina."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163373542\">+381 63 373 542</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Od Standardnih Do Luksuznih"
+    },
+    {
+      "type": "p",
+      "content": "Mond Line Pro radi:"
+    },
+    {
+      "type": "h3",
+      "content": "VEKA 70"
+    },
+    {
+      "type": "p",
+      "content": "5 komora, dvoslojno staklo – ekonomično i efikasno."
+    },
+    {
+      "type": "h3",
+      "content": "Softline 82"
+    },
+    {
+      "type": "p",
+      "content": "7 komora, troslojno – vrhunska izolacija."
+    },
+    {
+      "type": "h3",
+      "content": "Softline 82 sa ALU Oblogom"
+    },
+    {
+      "type": "p",
+      "content": "Elegancija metala + izolacija PVC-a."
+    },
+    {
+      "type": "h3",
+      "content": "Vekamotion"
+    },
+    {
+      "type": "p",
+      "content": "Podizno-klizna vrata – veliki otvori, moderan komfor."
+    },
+    {
+      "type": "h2",
+      "content": "Prednosti – Štednja i Mir"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "10 godina garancije",
+        "Troslojno staklo – manji računi",
+        "Zvučna izolacija do 47 dB",
+        "Brza ponuda – 24h",
+        "Precizna montaža – bez haosa"
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale kvalitet i profesionalnost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Ljubica Matić</strong>: Све похвале и препоруке... Изузетна и пријатна сарадња... Алу столарија у боји 7044 изгледа фантастично."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Aleksandar Ninković</strong>: Професионално, брзо, квалитетно."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Maja Jokšić</strong>: Одлична сарадња... Мајстори уредни... Прозори високог квалитета."
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite Mond Line Pro na <a href=\"tel:+38163373542\"><strong>+381 63 373 542</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori VEKA",
+      "description": "70, Softline 82, sa ALU oblogom – izolacija i dizajn."
+    },
+    {
+      "title": "PVC Vrata",
+      "description": "Ulazna, balkonska – sigurnost i toplina."
+    },
+    {
+      "title": "Klizni Sistemi",
+      "description": "Vekamotion – veliki otvori."
+    },
+    {
+      "title": "Montaža i Servis",
+      "description": "Brzo, precizno, garancija."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko je garancija?",
+      "answer": "10 godina."
+    },
+    {
+      "question": "Koliko brzo ponuda?",
+      "answer": "Za 24 sata."
+    },
+    {
+      "question": "Imate li troslojno staklo?",
+      "answer": "Da – standard u Softline 82."
+    },
+    {
+      "question": "Radite li ALU oblogu?",
+      "answer": "Da – za eleganciju."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i okolina."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite +381 63 373 542."
+    }
+  ]
+},
+
+  {
+  "ime": "Elit Stolarija Beograd - PVC i ALU Prozori i Vrata",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "Zastakljivanje Terasa", "Sigurnosna Vrata", "Roletne"],
+  "opis_kratak": "Elit Stolarija – premium PVC i ALU stolarija u Beogradu. Prozori i vrata sa troslojnim staklom po ceni dvoslojnog, 10 godina garancije, RAL montaža. Saloni na Voždovcu i Novom Beogradu.",
+  "mesto": ["Beograd", "Voždovac", "Braće Jerković", "Medaković", "Konjarnik", "Mirijevo"],
+  "adresa": "Braće Jerkovića 201e i Jurija Gagarina 29g, Beograd",
+  "telefon": "+381694518350",
+  "email": "",
+  "website": "",
+  "slug": "elit-stolarija-beograd-pvc-alu",
+  "thumbnail": "images/elit-stolarija-beograd-pvc-alu.webp",
+  "hero_image": "images/elit-stolarija-beograd-pvc-alu.webp",
+  "discover_title": "Elit Stolarija Beograd - Prozori Koji Ne Puštaju Račune",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-24",
+  "last_modified": "2025-12-24",
+  "tips_title": "Kako da Prozori Štede, a Ne Troše",
+  "tips": [
+    "Troslojno staklo po ceni dvoslojnog – akcija koja traje",
+    "RAL montaža – nema vlage i buđi",
+    "10 godina garancije – miran san",
+    "Zastakljivanje terasa – više prostora bez grejanja",
+    "Sigurnosna vrata – ulaz koji štiti"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/pvc-stolarija-beograd/\">PVC Stolarija Beograd</a> › Elit"
+    },
+    {
+      "type": "p",
+      "content": "Kada stari prozori puštaju hladnoću, a računi za grejanje skaču – vreme je za pametnu zamenu. U Beogradu, Elit Stolarija je mesto gde se to radi sa stilom: troslojno staklo po ceni dvoslojnog (dok akcija traje), 10 godina garancije i RAL montaža koja sprečava vlagu. Saloni na Braće Jerkoviću i u Bloku 70 – lako dostupni, puni uzoraka."
+    },
+    {
+      "type": "p",
+      "content": "Elit nije samo prodavac – oni savetuju, mere, montiraju i stoje iza svakog prozora. PVC za uštedu, ALU za čvrstoću, plus zastakljivanje terasa, sigurnosna vrata, roletne."
+    },
+    {
+      "type": "h2",
+      "content": "Elit Stolarija – Prozori Koji Štede Novac"
+    },
+    {
+      "type": "p",
+      "content": "Elit nudi premium nemačke profile – VEKA i slične, sa fokusom na energetsku efikasnost. Akcija sa troslojnim staklom po ceni dvoslojnog je hit – jer zašto platiti više za manje izolacije?"
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381694518350\">069 451 83 50</a> / <a href=\"tel:+38162451838\">062 451 838</a><br>📍 <strong>Saloni:</strong> Braće Jerkovića 201e i Jurija Gagarina 29g"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Od Prozora Do Terasa"
+    },
+    {
+      "type": "p",
+      "content": "Elit radi sve:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "5–7 komora, troslojno staklo – ušteda i tišina."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Čvrsti za velike otvore i moderne fasade."
+    },
+    {
+      "type": "h3",
+      "content": "Zastakljivanje Terasa"
+    },
+    {
+      "type": "p",
+      "content": "Više prostora – bez grejanja cele godine."
+    },
+    {
+      "type": "h3",
+      "content": "Sigurnosna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Ulaz koji štiti – miran san."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne, Venecijaneri, Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Zaštita od sunca, insekata i pogleda."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Greju"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale kvalitet i profesionalnost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/nzdP6la1MnNsERVCD\" target=\"_blank\" rel=\"nofollow\">Nikola Milovanović</a>:</strong> Врхункски мајстори, свака част момцима! Никад задовољнији нисам био, све препоруке свима, нећете се покајати!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/EcnGmwELXVx2cCQ6U\" target=\"_blank\" rel=\"nofollow\">Petar Dotlić</a>:</strong> Odlična ekipa !!! Korektna cena, kvalitetna stolarija, sve po dogovoru. Majstori došli u 9h i završili do 14h. Svaka čast!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/hBkCoNnTWYCV03GpZ\" target=\"_blank\" rel=\"nofollow\">Vladimir Stanković</a>:</strong> Jako sam zadovoljan kvalitetom stolarije, profesionalnim odnosom, poštovanjem rokova i prihvatljivim cenama. Za svaku preporuku!"
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Elit – Jer Štede i Traju"
+    },
+    {
+      "type": "p",
+      "content": "Akcija sa troslojnim staklom, 10 godina garancije, RAL montaža – sve da vaš stan bude topao, tih i bezbedan."
+    },
+    {
+      "type": "p",
+      "content": "Novi prozori? Pozovite Elit na <a href=\"tel:+381694518350\"><strong>069 451 83 50</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Prozori i Vrata",
+      "description": "Premium profili, troslojno staklo – akcija."
+    },
+    {
+      "title": "ALU Prozori i Vrata",
+      "description": "Čvrsti za moderne objekte."
+    },
+    {
+      "title": "Zastakljivanje Terasa",
+      "description": "Više prostora – bez grejanja."
+    },
+    {
+      "title": "Sigurnosna Vrata",
+      "description": "Zaštita ulaza."
+    },
+    {
+      "title": "Roletne i Komarnici",
+      "description": "Zaštita od sunca i insekata."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko je garancija?",
+      "answer": "10 godina."
+    },
+    {
+      "question": "Imate li akciju?",
+      "answer": "Da – troslojno staklo po ceni dvoslojnog."
+    },
+    {
+      "question": "Radite li RAL montažu?",
+      "answer": "Da – bez vlage."
+    },
+    {
+      "question": "Gde su saloni?",
+      "answer": "Braće Jerkovića 201e i Jurija Gagarina 29g."
+    },
+    {
+      "question": "Radite li ALU?",
+      "answer": "Da – za jače konstrukcije."
+    },
+    {
+      "question": "Kako da zakazem?",
+      "answer": "Pozovite 069 451 83 50 ili 062 451 838."
+    }
+  ]
+},
+
+  {
   "ime": "Marcijuš PVC i ALU Stolarija Novi Sad",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "RAL Montaža", "Roletne i Komarnici"],
   "opis_kratak": "Marcijuš – majstori za PVC (Trocal, Rehau, Roloplast) i ALU (Alumil, Elvial) stolariju u Novom Sadu. Prozori, vrata, klizni sistemi – RAL montaža, energetska efikasnost, dugotrajnost.",
   "mesto": ["Novi Sad", "Zmajevo", "Futog", "Veternik", "Beočin", "Sremska Kamenica"],
-  "adresa": "Zmajevac, magistralni put Novi Sad - Vrbas",
+  "adresa": "Zmajevo, magistralni put Novi Sad - Vrbas",
   "telefon": "+381600193812",
   "email": "kontakt@pvcmarcijus.rs",
   "website": "https://www.pvcmarcijus.rs/",
@@ -34,7 +919,7 @@
     },
     {
       "type": "p",
-      "content": "Kada stari prozori propuštaju hladnoću, a računi za grejanje skaču – vreme je za promenu. U Zmajevcu (na putu Novi Sad - Vrbas), Marcijuš je adresa gde se to rešava bez glavobolje. Oni rade PVC i ALU stolariju sa premium profilima – Trocal, Rehau, Roloplast za PVC, Alumil i Elvial za ALU. Sve po meri, sa RAL montažom koja sprečava vlagu."
+      "content": "Kada stari prozori propuštaju hladnoću, a računi za grejanje skaču – vreme je za promenu. U Zmajevu (na putu Novi Sad - Vrbas), Marcijuš je adresa gde se to rešava bez glavobolje. Oni rade PVC i ALU stolariju sa premium profilima – Trocal, Rehau, Roloplast za PVC, Alumil i Elvial za ALU. Sve po meri, sa RAL montažom koja sprečava vlagu."
     },
     {
       "type": "p",
