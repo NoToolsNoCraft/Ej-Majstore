@@ -38,6 +38,9 @@ date: '2025-11-13'
 last_modified: '2025-11-13'
 sections:
 - type: p
+  content: <a href="/bravar-hitne-intervencije-beograd/">Bravar Hitne Intervencije
+    Beograd</a> › Mobilni Bravar Zoran
+- type: p
   content: "\U0001F303 AKCIJA! KLJUČ SE SLOMIO? KATASTROFA! \U0001F631  Dug dan je
     gotov, napokon ste pred svojim vratima, ruka poseže za ključem... KRC! Ključ ostaje
     u bravi, vi ste zaključani, a panika kreće da pleše! Iz tog trilera, imate jedan

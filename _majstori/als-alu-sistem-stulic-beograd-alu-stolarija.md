@@ -61,7 +61,7 @@ sections:
 - type: h2
   content: Ponuda – ALU Je Specijalnost
 - type: p
-  content: 'ALS ističe ALU:'
+  content: 'ALS ističe sledeće vrste proizvoda:'
 - type: h3
   content: ALU Prozori i Vrata
 - type: p

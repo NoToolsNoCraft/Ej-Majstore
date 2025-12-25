@@ -38,6 +38,9 @@ date: '2025-11-16'
 last_modified: '2025-11-16'
 sections:
 - type: p
+  content: <a href="/bravar-hitne-intervencije-beograd/">Bravar Hitne Intervencije
+    Beograd</a> › M&T Servis
+- type: p
   content: Zamislite da vam se sigurnosna vrata zaglave usred noći ili da protivpožarna
     ne želi da se zatvori – panika! Ali tu je M&T Servis, vaš ekspert za hitne intervencije
     koji stiže brzo, precizno i bez mrlja. Ovu ekipu vodi Todosije Marković, glavni

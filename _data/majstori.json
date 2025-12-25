@@ -1,6 +1,515 @@
 [
 
   {
+  "ime": "Bravar Aca Novi Beograd - Kada Brava Neće, Aca Hoće 24h",
+  "tip": "firma",
+  "kategorija": ["Hitne Bravarske Intervencije", "Otvaranje Zaključanih Vrata", "Popravka Brava", "Zamena Brava", "Deblokada Vrata", "Podešavanje Vrata", "Promena Šifre Brava"],
+  "opis_kratak": "Bravar Aca – hitne intervencije 24h u Beogradu i Srbiji. Otvaranje vrata bez oštećenja, popravka, zamena brava, podešavanje – brzo, precizno, sa 33 godine iskustva.",
+  "mesto": ["Novi Beograd", "Zemun", "Stari Grad", "Vračar", "Voždovac", "Palilula", "Zvezdara"],
+  "adresa": "Antifašističke borbe 38/34, Novi Beograd",
+  "telefon": "+381637110011",
+  "email": "",
+  "website": "https://www.bravar-aca.com/",
+  "slug": "bravar-aca-novi-beograd-hitne-intervencije",
+  "thumbnail": "images/bravar-aca-novi-beograd-hitne-intervencije.webp",
+  "hero_image": "images/bravar-aca-novi-beograd-hitne-intervencije.webp",
+  "discover_title": "Bravar Aca Novi Beograd - Kada Brava Neće, Aca Hoće 24h",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da Brava Ne Pravi Probleme",
+  "tips": [
+    "Ne forsirajte – pozovite Acu",
+    "Redovno podešavanje – vrata traju duže",
+    "Promena šifre – više sigurnosti",
+    "Rezervni ključ – kod pouzdanog komšije",
+    "Hitni broj u telefonu – za svaki slučaj"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/bravar-hitne-intervencije-beograd/\">Bravar Hitne Intervencije Beograd</a> › Bravar Aca"
+    },
+    {
+      "type": "p",
+      "content": "Ključ ostao unutra, vrata zalupljena, brava se zaglavila usred noći – poznata priča? U Novom Beogradu, Bravar Aca je čovek koji to rešava bez drame. Hitne intervencije 24h, dolazi brzo, otvara bez oštećenja – i sve sa 33 godine iskustva iza sebe."
+    },
+    {
+      "type": "p",
+      "content": "Aca nije samo bravar – on je spasilac kada brava odluči da bude tvrdoglava. Preko 6000 intervencija, pokriva ceo Beograd – od Novog Beograda do periferije."
+    },
+    {
+      "type": "h2",
+      "content": "Bravar Aca – 24h Kada Vrata Kažu 'Ne'"
+    },
+    {
+      "type": "p",
+      "content": "Sa bazom u Novom Beogradu, Aca dolazi gde god treba – hitno otvaranje, popravka, zamena brava, podešavanje vrata. Sve bez oštećenja gde je moguće, sve precizno."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za hitnu:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381637110011\">063 711 0011</a><br>📍 <strong>Adresa:</strong> Antifašističke borbe 38/34, Novi Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Otvaranja Do Podešavanja"
+    },
+    {
+      "type": "h3",
+      "content": "Hitno Otvaranje Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Bez oštećenja – stan, auto, sef."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka Brava"
+    },
+    {
+      "type": "p",
+      "content": "Vraća funkcionalnost – sve vrste."
+    },
+    {
+      "type": "h3",
+      "content": "Zamena Brava"
+    },
+    {
+      "type": "p",
+      "content": "Nove, sigurnije – po meri."
+    },
+    {
+      "type": "h3",
+      "content": "Podešavanje Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Sobna, ulazna – lako zatvaranje."
+    },
+    {
+      "type": "h3",
+      "content": "Promena Šifre"
+    },
+    {
+      "type": "p",
+      "content": "Na sigurnosnim vratima – brzo."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Aca – Jer Iskustvo Govori"
+    },
+    {
+      "type": "p",
+      "content": "33 godine, 6000 intervencija – dolazi brzo, radi čisto, cena fer."
+    },
+    {
+      "type": "p",
+      "content": "Zaključani? Pozovite Acu na <a href=\"tel:+381637110011\"><strong>063 711 0011</strong></a> – vrata se otvaraju!"
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitno Otvaranje Vrata",
+      "description": "Bez oštećenja – 24h."
+    },
+    {
+      "title": "Popravka i Zamena Brava",
+      "description": "Sve vrste – garancija."
+    },
+    {
+      "title": "Podešavanje Vrata",
+      "description": "Lako zatvaranje."
+    },
+    {
+      "title": "Promena Šifre",
+      "description": "Sigurnosna vrata."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – hitne intervencije non-stop."
+    },
+    {
+      "question": "Otvarate li bez oštećenja?",
+      "answer": "Da – gde je moguće."
+    },
+    {
+      "question": "Pokrivate li ceo Beograd?",
+      "answer": "Da – i Srbiju."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na rad."
+    },
+    {
+      "question": "Radite li podešavanje vrata?",
+      "answer": "Da – sobna i ulazna."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "+381 63 711 0011."
+    }
+  ]
+},
+
+  {
+  "ime": "Bravar Miša Beograd - Hitne Intervencije 24h",
+  "tip": "firma",
+  "kategorija": ["Hitne Bravarske Intervencije", "Otvaranje Zaključanih Vrata", "Popravka Brava", "Zamena Brava", "Deblokada Vrata", "Podešavanje Vrata", "Zamena Cilindara"],
+  "opis_kratak": "Bravar Miša – hitne intervencije 24h u Beogradu. Otvaranje vrata bez oštećenja, dolazak za 30 minuta, fer cene, garancija. Miša i tim – brzo, precizno, pouzdano.",
+  "mesto": ["Beograd", "Zvezdara", "Vračar", "Voždovac", "Palilula", "Stari Grad", "Novi Beograd", "Zemun", "Čukarica", "Rakovica"],
+  "adresa": "Antifašističke borbe 15, Beograd",
+  "telefon": "+381603120060",
+  "email": "info@otvaranjebrava.rs",
+  "website": "https://www.otvaranjebrava.rs/",
+  "slug": "bravar-misa-beograd-hitne-intervencije",
+  "thumbnail": "images/bravar-misa-beograd-hitne-intervencije.webp",
+  "hero_image": "images/bravar-misa-beograd-hitne-intervencije.webp",
+  "discover_title": "Bravar Miša Beograd - Kada Vrata Kažu 'Zatvoreno' 24h",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da Se Ne Zaključate Napolju",
+  "tips": [
+    "Rezervni ključ kod komšije – spasava nerve",
+    "Ne forsirajte bravu – pozovite Mišu",
+    "Redovno podešavanje – vrata traju duže",
+    "Zamena cilindra – više sigurnosti",
+    "Hitni broj u telefonu – za svaki slučaj"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/bravar-hitne-intervencije-beograd/\">Bravar Hitne Intervencije Beograd</a> › Bravar Miša"
+    },
+    {
+      "type": "p",
+      "content": "Kasno je, kiša lije, ključ ostao unutra – ili vrata zalupljena, a vi napolju. U Beogradu, kada brava odluči da bude tvrdoglava, zovete Bravara Mišu. Hitne intervencije 24h, dolazak za 30 minuta, otvaranje bez oštećenja – i sve po fer ceni koju dogovorite telefonom."
+    },
+    {
+      "type": "p",
+      "content": "Miša i tim su ekipa koja rešava probleme brzo i sa osmehom. Preko 15 godina iskustva, 1500+ intervencija – od obične brave do blind vrata."
+    },
+    {
+      "type": "h2",
+      "content": "Bravar Miša – Hitno Znači Hitno"
+    },
+    {
+      "type": "p",
+      "content": "Miša je majstor koji dolazi kada drugi spavaju – 00-24h, 7 dana nedeljno. Dolazak u 90% slučajeva za manje od 30 minuta, cena dogovorena telefonom – bez iznenađenja."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za hitnu:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381603120060\">+381 60 312 0060</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@otvaranjebrava.rs\">info@otvaranjebrava.rs</a><br>📍 <strong>Adresa:</strong> Antifašističke borbe 15, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Otvaranja Do Podešavanja"
+    },
+    {
+      "type": "h3",
+      "content": "Hitno Otvaranje Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Bez oštećenja – Cisa, Mottura, Securemme."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka Brava"
+    },
+    {
+      "type": "p",
+      "content": "Vraćaju funkcionalnost – brzo i pouzdano."
+    },
+    {
+      "type": "h3",
+      "content": "Zamena Cilindara"
+    },
+    {
+      "type": "p",
+      "content": "Više sigurnosti – novi ključevi."
+    },
+    {
+      "type": "h3",
+      "content": "Podešavanje Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Sobna, ulazna – lako se zatvaraju."
+    },
+    {
+      "type": "h3",
+      "content": "Deblokada Bez Oštećenja"
+    },
+    {
+      "type": "p",
+      "content": "Sigurnost na prvom mestu."
+    },
+    {
+      "type": "h3",
+      "content": "Zamena Šifre"
+    },
+    {
+      "type": "p",
+      "content": "Brzo i sigurno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Miša – Jer Brzo i Fer"
+    },
+    {
+      "type": "p",
+      "content": "Fer cene, brzi dolazak, garancija na opremu – i saveti gratis."
+    },
+    {
+      "type": "p",
+      "content": "Zaključani? Pozovite Mišu na <a href=\"tel:+381603120060\"><strong>+381 60 312 0060</strong></a> – vrata se otvaraju!"
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitno Otvaranje Vrata",
+      "description": "Bez oštećenja, dolazak za 30 min."
+    },
+    {
+      "title": "Popravka i Zamena Brava",
+      "description": "Cisa, Mottura – garancija."
+    },
+    {
+      "title": "Podešavanje Vrata",
+      "description": "Lako zatvaranje – sobna/ulazna."
+    },
+    {
+      "title": "Zamena Cilindara",
+      "description": "Više sigurnosti."
+    },
+    {
+      "title": "Deblokada Vrata",
+      "description": "Bez oštećenja."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – 00-24h, 7 dana."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "U 90% za manje od 30 minuta."
+    },
+    {
+      "question": "Imate li skrivenih troškova?",
+      "answer": "Ne – cena dogovorena telefonom."
+    },
+    {
+      "question": "Radite li samo u Beogradu?",
+      "answer": "Da – i okolina do 30 km."
+    },
+    {
+      "question": "Otvarate li blind vrata?",
+      "answer": "Da – bez oštećenja gde je moguće."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "+381 60 312 0060."
+    }
+  ]
+},
+
+  {
+  "ime": "Bravar Stojanović Beograd - Hitne Bravarske Usluge",
+  "tip": "firma",
+  "kategorija": ["Hitne Bravarske Intervencije", "Otvaranje Zaključanih Vrata", "Popravka Brava", "Zamena Brava", "Izrada Ključeva", "Auto Bravar", "Prodaja Brava"],
+  "opis_kratak": "Bravar Stojanović – ovlašćeni sudski bravar na Zvezdari sa hitnim intervencijama 24h. Otvaranje, popravka, zamena brava, izrada ključeva, auto bravar. Brzo, precizno, pouzdano – Beograd i okolina.",
+  "mesto": ["Beograd", "Zvezdara", "Vračar", "Konjarnik", "Mirijevo", "Slavija", "Autokomanda", "Centar", "Stari Grad", "Karaburma", "Palilula", "Voždovac"],
+  "adresa": "Bulevar Kralja Aleksandra 367, Beograd",
+  "telefon": "+381606169451",
+  "email": "bravarstojanovic@gmail.com",
+  "website": "",
+  "slug": "bravar-stojanovic-beograd-hitne-intervencije",
+  "thumbnail": "images/bravar-stojanovic-beograd-hitne-intervencije.webp",
+  "hero_image": "images/bravar-stojanovic-beograd-hitne-intervencije.webp",
+  "discover_title": "Bravar Stojanović Beograd - Hitne Bravarske Usluge",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da Se Ne Zaključate Napolju",
+  "tips": [
+    "Rezervni ključ kod komšije – uvek spasava",
+    "Ne forsirajte bravu – pozovite majstora",
+    "Redovan servis – brava traje duže",
+    "Sigurnosna brava – manje briga",
+    "Hitni broj u telefonu – za svaki slučaj"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/bravar-hitne-intervencije-beograd/\">Hitne Bravarske Usluge u Beogradu</a> › Bravar Stojanović"
+    },
+    {
+      "type": "p",
+      "content": "Zamisli: kasno je, kiša lije, a ključ ostao unutra. Ili auto neće da se otključa baš pred važan sastanak. U Beogradu, kada brava kaže 'ne' – zovete Bravara Stojanovića. Ovlašćeni sudski bravar sa Zvezdare, hitne intervencije 24h, brzo dolaze i rešavaju bez drame."
+    },
+    {
+      "type": "p",
+      "content": "Preko 15 godina iskustva – otvaranje, popravka, zamena brava, izrada ključeva, auto bravar. Od obične brave do blindiranih vrata – oni imaju rešenje."
+    },
+    {
+      "type": "h2",
+      "content": "Bravar Stojanović – Kada Brava Kaže 'Stop'"
+    },
+    {
+      "type": "p",
+      "content": "Stojanović nije samo bravar – on je spasilac u hitnim situacijama. Hitne intervencije 00-24h, pokrivaju ceo Beograd: Zvezdara, Vračar, centar, Karaburma... Dolaze brzo, rade precizno, ostavljaju sve čisto."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za hitnu intervenciju:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381606169451\">+381 60 616 94 51</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381112864291\">011 286 42 91</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:bravarstojanovic@gmail.com\">bravarstojanovic@gmail.com</a><br>📍 <strong>Adresa:</strong> Bulevar Kralja Aleksandra 367, Zvezdara"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Ključa Do Blind Vrata"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije 24h"
+    },
+    {
+      "type": "p",
+      "content": "Zaključana vrata, ostao ključ unutra – dolaze brzo, otvaraju bez oštećenja."
+    },
+    {
+      "type": "h3",
+      "content": "Otvaranje i Obijanje Brava"
+    },
+    {
+      "type": "p",
+      "content": "Stan, auto, sef – sve vrste."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka i Zamena Brava"
+    },
+    {
+      "type": "p",
+      "content": "Od obične do sigurnosne – sve modele."
+    },
+    {
+      "type": "h3",
+      "content": "Izrada i Narezivanje Ključeva"
+    },
+    {
+      "type": "p",
+      "content": "Brzo, precizno – svi tipovi."
+    },
+    {
+      "type": "h3",
+      "content": "Auto Bravar"
+    },
+    {
+      "type": "p",
+      "content": "Otvaranje, kodiranje, izrada ključeva."
+    },
+    {
+      "type": "h3",
+      "content": "Prodaja Brava"
+    },
+    {
+      "type": "p",
+      "content": "Širok izbor – katanci, okovi."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Govore"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu i profesionalnost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Milutin D.</strong>: Došli za 25 minuta i otvorili bravu za 1 minut! Hvala puno... PREPORUKA!"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Marko J.</strong>: Odlična usluga. Ljubazan, brz i efikasan. Otključane i popravljene 3 brave za 45 minuta."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Nevena M.</strong>: Veoma efikasni i brz dolazak na hitnu intervenciju obijanja blindiranih vrata! Hvala na svemu."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Stojanović – Jer Hitno Znači Hitno"
+    },
+    {
+      "type": "p",
+      "content": "24h, brzo dolaze, rade čisto – ovlašćeni sudski bravar."
+    },
+    {
+      "type": "p",
+      "content": "Zaključani? Pozovite Stojanovića na <a href=\"tel:+381606169451\"><strong>+381 60 616 94 51</strong></a> – vrata se otvaraju!"
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Otvaranje zaključanih vrata – brzo i bez oštećenja."
+    },
+    {
+      "title": "Popravka i Zamena Brava",
+      "description": "Sve vrste – stan, auto, sef."
+    },
+    {
+      "title": "Izrada Ključeva",
+      "description": "Brzo narezivanje – svi tipovi."
+    },
+    {
+      "title": "Auto Bravar",
+      "description": "Otvaranje, kodiranje, izrada ključeva."
+    },
+    {
+      "title": "Prodaja Brava",
+      "description": "Širok izbor – katanci, okovi."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – hitne intervencije non-stop."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Brzo – po Beogradu za 20–30 minuta."
+    },
+    {
+      "question": "Otvarate li blind vrata?",
+      "answer": "Da – bez oštećenja gde je moguće."
+    },
+    {
+      "question": "Radite li auto bravar?",
+      "answer": "Da – otvaranje, ključevi."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd – Zvezdara, Vračar, centar."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "Hitno: +381 60 616 94 51."
+    }
+  ]
+},
+
+  {
   "ime": "ALS Alu Sistem Štulić Beograd - Alu Stolarija",
   "tip": "firma",
   "kategorija": ["Aluminijumska Stolarija", "ALU Prozori", "ALU Vrata", "Alu-Drvo Stolarija", "Aluminijumske Roletne", "Komarnici", "Staklene Fasade", "PVC Stolarija"],
@@ -58,7 +567,7 @@
     },
     {
       "type": "p",
-      "content": "ALS ističe ALU:"
+      "content": "ALS ističe sledeće vrste proizvoda:"
     },
     {
       "type": "h3",
@@ -6330,6 +6839,10 @@
   ],
   "sections": [
     {
+      "type": "p",
+      "content": "<a href=\"/bravar-hitne-intervencije-beograd/\">Bravar Hitne Intervencije Beograd</a> › M&T Servis"
+    },
+    {
     "type": "p",
     "content": "Zamislite da vam se sigurnosna vrata zaglave usred noći ili da protivpožarna ne želi da se zatvori – panika! Ali tu je M&T Servis, vaš ekspert za hitne intervencije koji stiže brzo, precizno i bez mrlja. Ovu ekipu vodi Todosije Marković, glavni majstor i vlasnik sa dugogodišnjim iskustvom, koji garantuje kvalitet i pristupačne cene."
     },
@@ -7372,6 +7885,10 @@
     "Čuvajte rezervni ključ kod poverljive osobe"
   ],
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/bravar-hitne-intervencije-beograd/\">Bravar Hitne Intervencije Beograd</a> › Mobilni Bravar Zoran"
+    },
   
     {
       "type": "p",
