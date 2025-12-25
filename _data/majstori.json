@@ -1,6 +1,511 @@
 [
 
   {
+  "ime": "ALS Alu Sistem Štulić Beograd - Alu Stolarija",
+  "tip": "firma",
+  "kategorija": ["Aluminijumska Stolarija", "ALU Prozori", "ALU Vrata", "Alu-Drvo Stolarija", "Aluminijumske Roletne", "Komarnici", "Staklene Fasade", "PVC Stolarija"],
+  "opis_kratak": "ALS Alu Sistem Štulić – specijalisti za ALU stolariju u Beogradu (Leštane). Prozori, vrata, fasade, alu-drvo – čvrstoća, dizajn, termo i zvučna izolacija. Tradicija i kvalitet.",
+  "mesto": ["Beograd", "Leštane", "Voždovac", "Vinča", "Grocka", "Ripanj", "Boleč", "Kumodraž", "Avala", "Rakovica"],
+  "adresa": "Malo Polje 48, Leštane, Beograd",
+  "telefon": "+38163300627",
+  "email": "info@als-bgd.com",
+  "website": "",
+  "slug": "als-alu-sistem-stulic-beograd-alu-stolarija",
+  "thumbnail": "images/als-alu-sistem-stulic-beograd-alu-stolarija.webp",
+  "hero_image": "images/als-alu-sistem-stulic-beograd-alu-stolarija.webp",
+  "discover_title": "ALS Alu Sistem Štulić Beograd - Alu Stolarija",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da ALU Stolarija Bude Još Bolja",
+  "tips": [
+    "Termo prekid – toplina bez gubitka",
+    "Alu-drvo – lepota drveta, čvrstoća metala",
+    "Veliki otvori – fasade koje dišu",
+    "Eloksaža ili plastifikacija – boje koje ne blede",
+    "Komarnici i roletne – kompletna zaštita"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-beograd/\">Aluminijumska Stolarija Beograd</a> › ALS Alu Sistem Štulić"
+    },
+    {
+      "type": "p",
+      "content": "Kada želite prozore koji ne savijaju se, vrata koja trpe sve ili fasadu koja blista godinama – ALU je pravi izbor. U Leštanima (Beograd), ALS Alu Sistem Štulić je tim koji to radi sa stilom. Njihova specijalnost? ALU stolarija – čvrsta, lagana, savršena za velike površine i moderne objekte."
+    },
+    {
+      "type": "p",
+      "content": "Od standardnih ALU prozora do alu-drvo luksuznih kombinacija – sve sa termo prekidom, zvučnom izolacijom i dizajnom koji oduzima dah. PVC rade, ali ALU je ono gde su majstori."
+    },
+    {
+      "type": "h2",
+      "content": "ALS Alu Sistem – ALU Koji Traje"
+    },
+    {
+      "type": "p",
+      "content": "ALS je tim sa tradicijom – ALU profili sa ili bez termo mosta, eloksaža ili plastifikacija u svim bojama. Alu-drvo za one koji vole toplinu drveta uz čvrstoću metala. Plus roletne, komarnici, žaluzine, okapnice."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163300627\">063 300 627</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@als-bgd.com\">info@als-bgd.com</a><br>📍 <strong>Adresa:</strong> Malo Polje 48, Leštane"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – ALU Je Specijalnost"
+    },
+    {
+      "type": "p",
+      "content": "ALS ističe ALU:"
+    },
+    {
+      "type": "h3",
+      "content": "ALU Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Termo/hladni – za velike otvore i čvrstoću."
+    },
+    {
+      "type": "h3",
+      "content": "Alu-Drvo Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Luksuz – toplina drveta, snaga ALU."
+    },
+    {
+      "type": "h3",
+      "content": "Staklene Fasade"
+    },
+    {
+      "type": "p",
+      "content": "Elegancija i svetlost – za moderne objekte."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne i Žaluzine"
+    },
+    {
+      "type": "p",
+      "content": "Zaštita od sunca i pogleda."
+    },
+    {
+      "type": "h3",
+      "content": "Komarnici i Okapnice"
+    },
+    {
+      "type": "p",
+      "content": "Kompletna zaštita."
+    },
+    {
+      "type": "h3",
+      "content": "PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Za izolaciju – kvalitetni profili."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto ALS – Jer ALU Znači Luksuz"
+    },
+    {
+      "type": "p",
+      "content": "ALU je čvrst, lagan, moderan – idealan za fasade i velika vrata. Sa tradicijom i znanjem."
+    },
+    {
+      "type": "p",
+      "content": "ALU stolarija? Pozovite ALS na <a href=\"tel:+38163300627\"><strong>063 300 627</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "ALU Prozori i Vrata",
+      "description": "Termo/hladni – čvrsti za velike površine."
+    },
+    {
+      "title": "Alu-Drvo Stolarija",
+      "description": "Luksuz – toplina drveta + snaga ALU."
+    },
+    {
+      "title": "Staklene Fasade",
+      "description": "Elegancija i svetlost."
+    },
+    {
+      "title": "Roletne i Žaluzine",
+      "description": "Zaštita od sunca."
+    },
+    {
+      "title": "Komarnici",
+      "description": "Bez insekata."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Specijalnost ALU?",
+      "answer": "Da – termo, hladni, alu-drvo."
+    },
+    {
+      "question": "Radite li PVC?",
+      "answer": "Da – kvalitetni profili."
+    },
+    {
+      "question": "Imate li fasade?",
+      "answer": "Da – staklene."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd, Leštane i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite 063 300 627."
+    }
+  ]
+},
+
+  {
+  "ime": "Spartan Stolarija Beograd - ALU i PVC Majstori",
+  "tip": "firma",
+  "kategorija": ["Aluminijumska Stolarija", "PVC Stolarija", "ALU Prozori", "ALU Vrata", "Klizni ALU Sistemi", "PVC Prozori", "PVC Vrata", "Balkonska Vrata"],
+  "opis_kratak": "Spartan Stolarija – specijalisti za ALU stolariju (čvrsti profili za velike površine) i Inoutic PVC u Beogradu od 1993. Prozori, vrata, klizni sistemi – besplatno merenje, demontaža, montaža.",
+  "mesto": ["Beograd", "Zemun", "Dobanovci", "Ugrinovci", "Novi Beograd", "Surčin", "Batajnica", "Altina", "Jakovo", "Zemun Polje"],
+  "adresa": "Dobanovci, Beograd",
+  "telefon": "+38163228970",
+  "email": "",
+  "website": "",
+  "slug": "spartan-stolarija-beograd-alu-pvc",
+  "thumbnail": "images/spartan-stolarija-beograd-alu-pvc.webp",
+  "hero_image": "images/spartan-stolarija-beograd-alu-pvc.webp",
+  "discover_title": "Spartan Stolarija Beograd - ALU i PVC Majstori",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da ALU Stolarija Bude Još Jača",
+  "tips": [
+    "ALU za velika vrata – ne savija se",
+    "Termo prekid – toplina bez gubitka",
+    "Klizni ALU – terasa kao soba",
+    "Balkonska vrata – otporna na sve",
+    "Besplatna demontaža – staro van bez muke"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-beograd/\">ALU Stolarija Beograd</a> › Spartan"
+    },
+    {
+      "type": "p",
+      "content": "Kada želite prozore ili vrata koji ne škripe, ne savijaju se i izdrže sve – ALU je kralj. U Beogradu (sa bazom u Dobanovcima), Spartan Stolarija je tim koji to radi od 1993. Njihova specijalnost? ALU stolarija – čvrsta, lagana, savršena za velike površine i ulazna vrata koja trpe svakodnevnu upotrebu."
+    },
+    {
+      "type": "p",
+      "content": "PVC rade (Inoutic nemački profili), ali ALU je ono gde blistaju – hladni ili sa termo mostom, klizni sistemi koji otvaraju prostor, ulazna vrata koja izgledaju moćno."
+    },
+    {
+      "type": "h2",
+      "content": "Spartan Stolarija – ALU Koji Traje"
+    },
+    {
+      "type": "p",
+      "content": "Od svog nastanka Spartan je evoluirao od stakla do majstora za ALU – jer aluminijum je jači, lakši i idealan za velika vrata i prozore. Plus PVC za izolaciju – sve sa besplatnim merenjem, demontažom i montažom."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163228970\">+381 63 228 970</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – ALU Je Specijalnost"
+    },
+    {
+      "type": "p",
+      "content": "Spartan ističe ALU:"
+    },
+    {
+      "type": "h3",
+      "content": "ALU Prozori"
+    },
+    {
+      "type": "p",
+      "content": "Hladni ili sa termo mostom – za velike površine."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Ulazna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Jednokrilna, dvokrilna – čvrsta i elegantna."
+    },
+    {
+      "type": "h3",
+      "content": "Klizni ALU Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Povezuju unutra i spolja – terasa bez granica."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Balkonska Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Jednokrilna, višekrilna – otporna na sve."
+    },
+    {
+      "type": "h3",
+      "content": "PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Inoutic – termo i zvučna izolacija."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale profesionalnost:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Jelena Škorić (Zemun)</strong>: Vaš tim majstora najbolji... Profesionalni, ljubazni, posao besprekorno, brzina izvanredna."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Miloš Đorđević (Ugrinovci)</strong>: Spartan stolarija mi se toliko dopala... Buka nestala, dom topliji i lepši."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Spartan – Jer ALU Znači Snaga"
+    },
+    {
+      "type": "p",
+      "content": "ALU za velika vrata i prozore – ne savija se, traje. Plus PVC za izolaciju."
+    },
+    {
+      "type": "p",
+      "content": "ALU stolarija? Pozovite Spartan na <a href=\"tel:+38163228970\"><strong>+381 63 228 970</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "ALU Prozori i Vrata",
+      "description": "Čvrsti za velike površine, termo/hladni."
+    },
+    {
+      "title": "Klizni ALU Sistemi",
+      "description": "Veliki otvori – terasa u sobi."
+    },
+    {
+      "title": "ALU Ulazna Vrata",
+      "description": "Jednokrilna/dvokrilna – sigurnost."
+    },
+    {
+      "title": "PVC Stolarija Inoutic",
+      "description": "Izolacija i ušteda."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Specijalnost ALU?",
+      "answer": "Da – za čvrstoću i velike otvore."
+    },
+    {
+      "question": "Radite li PVC?",
+      "answer": "Da – Inoutic nemački profili."
+    },
+    {
+      "question": "Imate li besplatno merenje?",
+      "answer": "Da – dolazimo na teren."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd, Zemun, Dobanovci i okolina."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 63 228 970."
+    }
+  ]
+},
+
+  {
+  "ime": "Alu-Plast Engineering Barajevo - ALU Specijalisti",
+  "tip": "firma",
+  "kategorija": ["Aluminijumska Stolarija", "ALU Prozori", "ALU Vrata", "ALU Fasadne", "ALU Ulazna Vrata Deluxe Line", "Staklene Fasade", "Alubond Fasade", "PVC Stolarija", "Klizni Sistemi"],
+  "opis_kratak": "Alu-Plast Engineering – specijalisti za ALU stolariju u Barajevu (Beograd). Deluxe Line ulazna vrata, fasade, ograde, pergole. Schuco i Profilink za PVC, ali ALU je prava strast – čvrsto, moderno, dugotrajno.",
+  "mesto": ["Barajevo", "Beograd", "Umka", "Sremčica", "Ripanj", "Resnik", "Rakovica", "Voždovac", "Lazarevac", "Obrenovac"],
+  "adresa": "Svetosavska 248, 11460 Barajevo",
+  "telefon": "+381640911111",
+  "email": "office@alu-plast.rs",
+  "website": "",
+  "slug": "alu-plast-engineering-barajevo-alu-stolarija",
+  "thumbnail": "images/alu-plast-engineering-barajevo-alu-stolarija.webp",
+  "hero_image": "images/alu-plast-engineering-barajevo-alu-stolarija.webp",
+  "discover_title": "Alu-Plast Engineering Barajevo - ALU Specijalisti",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-25",
+  "last_modified": "2025-12-25",
+  "tips_title": "Kako da ALU Stolarija Bude Još Bolja",
+  "tips": [
+    "Deluxe Line vrata – ulaz koji oduzima dah",
+    "Alubond fasade – moderan izgled bez muke",
+    "Klizni ALU sistemi – terasa bez granica",
+    "Staklene fasade – svetlost u svakom ćošku",
+    "Subvencije u Barajevu – 50% plaća opština"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/alu-stolarija-beograd/\">ALU Stolarija Beograd</a> › Alu-Plast Engineering"
+    },
+    {
+      "type": "p",
+      "content": "Kada želite ulazna vrata koja izgledaju kao iz magazina, fasadu koja blista godinama ili prozore koji ne puštaju ni kap kiše – u Barajevu, Alu-Plast Engineering je prava adresa. Oni su majstori za ALU stolariju – od Deluxe Line vrata sa panelima do staklenih fasada i alubond obloga. PVC rade (Schuco i Profilink), ali ALU je ono gde sijaju – čvrsto, lagano, moderno."
+    },
+    {
+      "type": "p",
+      "content": "Sa radionicom punom savremenih alata, oni prave stolariju koja traje – otporna na vetar, kišu, sunce. Plus roletne, komarnici, pergole – sve da vaš objekat bude IN."
+    },
+    {
+      "type": "h2",
+      "content": "Alu-Plast – ALU Majstori Sa Stilom"
+    },
+    {
+      "type": "p",
+      "content": "Alu-Plast je specijalista za ALU – jer aluminijum je lakši, jači i savršen za velike površine. Deluxe Line ulazna vrata sa panelima su hit – izaberite dizajn i budite IN. Fasade, ograde, pergole – sve sa preciznošću."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381640911111\">+381 64 091 1111</a> / <a href=\"tel:+381640866666\">+381 64 086 6666</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@alu-plast.rs\">office@alu-plast.rs</a><br>📍 <strong>Adresa:</strong> Svetosavska 248, Barajevo"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – ALU Je Specijalnost"
+    },
+    {
+      "type": "p",
+      "content": "Alu-Plast ističe ALU:"
+    },
+    {
+      "type": "h3",
+      "content": "Deluxe Line ALU Ulazna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Veliki izbor panela – ulaz koji oduzima dah."
+    },
+    {
+      "type": "h3",
+      "content": "Staklene Fasade"
+    },
+    {
+      "type": "p",
+      "content": "Svetlost i prozračnost – za poslovne i luksuzne objekte."
+    },
+    {
+      "type": "h3",
+      "content": "Alubond Fasade"
+    },
+    {
+      "type": "p",
+      "content": "Moderan izgled, otpornost na sve."
+    },
+    {
+      "type": "h3",
+      "content": "Klizni ALU Sistemi"
+    },
+    {
+      "type": "p",
+      "content": "Veliki otvori – terasa bez granica."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Čvrsti, lagani – za stalnu upotrebu."
+    },
+    {
+      "type": "h3",
+      "content": "PVC Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Schuco i Profilink – za izolaciju."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Alu-Plast – Jer ALU Znači Kvalitet"
+    },
+    {
+      "type": "p",
+      "content": "ALU je lakši, čvršći – idealan za velika vrata i fasade. Plus subvencije u Barajevu – 50% plaća opština."
+    },
+    {
+      "type": "p",
+      "content": "ALU stolarija? Pozovite Alu-Plast na <a href=\"tel:+381640911111\"><strong>+381 64 091 1111</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Deluxe Line ALU Ulazna Vrata",
+      "description": "Veliki izbor panela – moderan ulaz."
+    },
+    {
+      "title": "Staklene i Alubond Fasade",
+      "description": "Elegancija i svetlost."
+    },
+    {
+      "title": "ALU Prozori i Vrata",
+      "description": "Čvrsti za velike površine."
+    },
+    {
+      "title": "Klizni ALU Sistemi",
+      "description": "Veliki otvori – prostranost."
+    },
+    {
+      "title": "PVC Stolarija",
+      "description": "Schuco i Profilink – izolacija."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Specijalnost ALU?",
+      "answer": "Da – Deluxe Line vrata, fasade."
+    },
+    {
+      "question": "Radite li PVC?",
+      "answer": "Da – Rehau i Profilink."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Barajevo, Beograd i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na kvalitet."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "Pozovite +381 64 091 1111."
+    }
+  ]
+},
+
+  {
   "ime": "Profiplast Beograd - Rehau PVC i Alumil ALU Stolarija",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "Alu-Drvo Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "Roletne", "Komarnici"],
