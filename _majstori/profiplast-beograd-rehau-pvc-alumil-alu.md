@@ -3,8 +3,8 @@ layout: majstor_profil
 title: Profiplast Beograd - Rehau PVC i Alumil ALU Stolarija
 description: Profiplast – Rehau premium partner za PVC i Alumil za ALU stolariju u
   Beogradu preko 20 godina. Prozori, vrata, alu-drvo – energetska efikasnost, dizajn,
-  garancija. Konjarnik i okolina. u Beograd, Konjarnik, Voždovac, Medaković, Zvezdara,
-  Vračar, Braće Jerković, Kumodraž, Trošarina.
+  garancija. Konjarnik i okolina. u Beograd, Konjarnik, Voždovac, Zvezdara, Vračar,
+  Braće Jerković, Kumodraž, Trošarina.
 ime: Profiplast Beograd - Rehau PVC i Alumil ALU Stolarija
 kategorija:
 - PVC Stolarija
@@ -16,8 +16,7 @@ kategorija:
 - ALU Vrata
 - Roletne
 - Komarnici
-mesto: Beograd, Konjarnik, Voždovac, Medaković, Zvezdara, Vračar, Braće Jerković,
-  Kumodraž, Trošarina
+mesto: Beograd, Konjarnik, Voždovac, Zvezdara, Vračar, Braće Jerković, Kumodraž, Trošarina
 address: Nema dostupnu adresu
 kontakt_telefon: "+381606416042"
 email: office@profiplast.rs

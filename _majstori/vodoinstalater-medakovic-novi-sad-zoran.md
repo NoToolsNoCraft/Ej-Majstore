@@ -36,8 +36,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-11-12'
-last_modified: '2025-11-12'
+last_modified: '2025-12-26'
 sections:
+- type: p
+  content: <a href="/vodoinstalater-novi-sad-hitne-intervencije-24h/">Vodoinstalater
+    Hitne Intervencije Novi Sad</a> › Medaković
 - type: p
   content: Kada se problem dogodi (bilo da je to bojler koji procuri u 6 ujutru, zagušena
     kanalizacija pred sam dolazak gostiju, ili dugo planirana adaptacija kupatila),

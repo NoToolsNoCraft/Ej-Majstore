@@ -35,6 +35,9 @@ date: '2025-10-30'
 last_modified: '2025-10-30'
 sections:
 - type: p
+  content: <a href="/vodoinstalater-novi-sad-hitne-intervencije-24h/">Vodoinstalater
+    Hitne Intervencije Novi Sad</a> › Braća Jokić
+- type: p
   content: "<strong>Vodoinstalater Jokić</strong> iz <strong>Novog Sada</strong> su
     braća <strong>Stefan i Miroslav</strong> sa <strong>10+ godina iskustva</strong>.
     Specijalizovani za <em>hitne intervencije 24/7, renoviranje kupatila, odgušenje

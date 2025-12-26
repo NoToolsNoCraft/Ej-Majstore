@@ -39,8 +39,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-11-05'
-last_modified: '2025-11-06'
+last_modified: '2025-12-26'
 sections:
+- type: p
+  content: <a href="/vodoinstalater-novi-sad-hitne-intervencije-24h/">Vodoinstalater
+    Hitne Intervencije Novi Sad</a> › Miško
 - type: p
   content: U Novom Sadu, gde <em>bojler curi u 3 ujutru, a kupatilo čeka na novi život</em>
     – <strong>Majstor Miško</strong> dolazi sa 30+ godina iskustva. Od hitnih intervencija

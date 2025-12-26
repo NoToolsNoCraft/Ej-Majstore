@@ -1,6 +1,332 @@
 [
 
   {
+  "ime": "Aqua Sever Clean Novi Sad - Odgušenje i Hitne Vodoinstalaterske Usluge",
+  "tip": "firma",
+  "kategorija": ["Odgušenje Kanalizacije", "Vodoinstalaterske Usluge", "Snimanje Kanalizacije", "Čišćenje Septičkih Jama", "Hitne Intervencije", "Građevinski Radovi"],
+  "opis_kratak": "Aqua Sever Clean – specijalisti za odgušenje kanalizacije, snimanje cevi i vodoinstalaterske usluge u Novom Sadu. Mašinsko i pod pritiskom, kombi i kamion – brzo, efikasno, 24h dostupni.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica", "Beočin", "Rumenka", "Kać", "Temeri", "Liman", "Telep", "Detelinara"],
+  "adresa": "Zlatiborska 21, Novi Sad 21123",
+  "telefon": "+38163480626",
+  "email": "aquaseverclean@gmail.com",
+  "website": "",
+  "slug": "aqua-sever-clean-novi-sad-odgusenje",
+  "thumbnail": "images/aqua-sever-clean-novi-sad-odgusenje.webp",
+  "hero_image": "images/aqua-sever-clean-novi-sad-odgusenje.webp",
+  "discover_title": "Aqua Sever Clean Novi Sad - Kada Kanalizacija Kaže 'Dosta'",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-26",
+  "last_modified": "2025-12-26",
+  "tips_title": "Kako da Kanalizacija Ne Pravi Haos",
+  "tips": [
+    "Mašinsko odgušenje – brže i temeljnije",
+    "Pod pritiskom – cevi kao nove",
+    "Snimanje kamera – vidimo problem pre kopanja",
+    "Čišćenje septičke – miris nestaje",
+    "Hitno – ne čekate danima"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-novi-sad-hitne-intervencije-24h/\">Vodoinstalater Hitne Intervencije Novi Sad</a> › Aqua Sever Clean"
+    },
+    {
+      "type": "p",
+      "content": "Voda ne odlazi, miris se širi, a vi stojite bespomoćni pored lavaboa? U Novom Sadu, Aqua Sever Clean je ekipa koja rešava te noćne more – odgušenje mašinski ili pod pritiskom, snimanje cevi, čišćenje septičkih jama. Sa kombijem i kamionom, dolaze gde treba i rade temeljno."
+    },
+    {
+      "type": "p",
+      "content": "Nisu samo odgušivači – rade vodoinstalaterske usluge, građevinske radove, renoviranje mreže. Uvek uvode nove tehnologije da problem nestane brzo i trajno."
+    },
+    {
+      "type": "h2",
+      "content": "Aqua Sever Clean – Kanalizacija Pod Kontrolom"
+    },
+    {
+      "type": "p",
+      "content": "Sa bazom u Zlatiborskoj, Aqua Sever Clean pokriva Novi Sad i okolinu. Specijalnost: odgušenje pod pritiskom ili spiralama, snimanje kamera da vide gde je problem, čišćenje septičkih jama kamionom."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za intervenciju:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163480626\">063 480 626</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:aquaseverclean@gmail.com\">aquaseverclean@gmail.com</a><br>📍 <strong>Adresa:</strong> Zlatiborska 21, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Cevovoda Do Septičke"
+    },
+    {
+      "type": "h3",
+      "content": "Odgušenje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Pod pritiskom ili mašinski – cevi čiste."
+    },
+    {
+      "type": "h3",
+      "content": "Snimanje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Kamera – vidimo problem bez kopanja."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Septičkih Jama"
+    },
+    {
+      "type": "p",
+      "content": "Kamion – brzo i čisto."
+    },
+    {
+      "type": "h3",
+      "content": "Vodoinstalaterske Usluge"
+    },
+    {
+      "type": "p",
+      "content": "Popravke, zamene – sve za vodu."
+    },
+    {
+      "type": "h3",
+      "content": "Građevinski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Renoviranje mreže – sve na ključ."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Aqua Sever Clean – Jer Rešavaju Brzo"
+    },
+    {
+      "type": "p",
+      "content": "Nove tehnologije, kombi i kamion – problem nestaje, a vi mirno spavate."
+    },
+    {
+      "type": "p",
+      "content": "Kanalizacija zapušena? Pozovite Aqua Sever Clean na <a href=\"tel:+38163480626\"><strong>063 480 626</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Pod pritiskom ili mašinski – kombi/kamion."
+    },
+    {
+      "title": "Snimanje Kanalizacije",
+      "description": "Kamera – precizna dijagnostika."
+    },
+    {
+      "title": "Čišćenje Septičkih Jama",
+      "description": "Kamion – brzo i čisto."
+    },
+    {
+      "title": "Vodoinstalaterske Usluge",
+      "description": "Popravke, zamene cevi."
+    },
+    {
+      "title": "Građevinski Radovi",
+      "description": "Renoviranje mreže."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – dostupni non-stop."
+    },
+    {
+      "question": "Imate li kamion za septičke?",
+      "answer": "Da – čišćenje velikih jama."
+    },
+    {
+      "question": "Snimate li cevi?",
+      "answer": "Da – kamera za preciznu dijagnostiku."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na kvalitet rada."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 480 626."
+    }
+  ]
+},
+
+  {
+  "ime": "Dežurni Vodoinstalaterski Servis Beograd - Hitne Intervencije 24h",
+  "tip": "firma",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Popravka Bojlera", "Zamena Ventila", "Detekcija Curenja", "Adaptacija Kupatila", "Montaža Sanitarija"],
+  "opis_kratak": "Vodoinstalater Beograd – hitne intervencije 24h, dolazak za 30 minuta. Odgušenje, popravka bojlera, zamena cevi, adaptacija kupatila – ceo Beograd, garancija i račun.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Savski Venac"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381642250570",
+  "email": "vodoinstalaterskiservisbeograd@gmail.com",
+  "website": "",
+  "slug": "dezurni-vodoinstalater-beograd-hitne-intervencije-24h",
+  "thumbnail": "images/dezurni-vodoinstalater-beograd-hitne-intervencije-24h.webp",
+  "hero_image": "images/dezurni-vodoinstalater-beograd-hitne-intervencije-24h.webp",
+  "discover_title": "Dežurni Vodoinstalaterski Servis Beograd - Hitne Intervencije 24h",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-26",
+  "last_modified": "2025-12-26",
+  "tips_title": "Kako da Voda Ne Pravi Haos",
+  "tips": [
+    "Curenje? Pozovite odmah – manje štete",
+    "Redovno odgušenje – sprečava poplave",
+    "Dolazak za 30 min – ne čekate danima",
+    "Garancija i račun – sve regularno",
+    "24h – jer voda ne zna za praznike"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Voda curi, bojler ne greje, kanalizacija se pobunila usred noći – poznato? U Beogradu, Vodoinstalater Beograd je ekipa koja rešava te krize 24h, dolazi za 30 minuta i sve sredjuje bez drame. Od 1989. rade – iskustvo tri decenije, preko 20 majstora spremnih za akciju."
+    },
+    {
+      "type": "p",
+      "content": "Hitne intervencije su im specijalnost – odgušenje, curenje, popravka bojlera, adaptacija kupatila. Dolaze brzo, rade čisto, daju garanciju i račun."
+    },
+    {
+      "type": "h2",
+      "content": "Vodoinstalater Beograd – Hitno Znači Hitno"
+    },
+    {
+      "type": "p",
+      "content": "Sa više ekipa po gradu, stižu za 30 minuta – dan, noć, praznik. Sve usluge: odgušenje vertikale, zamena cevi, montaža sanitarija – sve sa profesionalnim alatom i garancijom."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za hitnu:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381642250570\">064 225 05 70</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381114015576\">011 401 55 76</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:vodoinstalaterskiservisbeograd@gmail.com\">vodoinstalaterskiservisbeograd@gmail.com</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Curenja Do Adaptacije"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije 24h"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, poplava – dolaze odmah."
+    },
+    {
+      "type": "h3",
+      "content": "Odgušenje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Vertikala, lavabo, wc – sve čisto."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka Bojlera"
+    },
+    {
+      "type": "p",
+      "content": "Greje opet – brzo i pouzdano."
+    },
+    {
+      "type": "h3",
+      "content": "Detekcija Curenja"
+    },
+    {
+      "type": "p",
+      "content": "Pronalaze problem – bez razbijanja."
+    },
+    {
+      "type": "h3",
+      "content": "Adaptacija Kupatila i Kuhinje"
+    },
+    {
+      "type": "p",
+      "content": "Novo kupatilo – sve na ključ."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža Sanitarija"
+    },
+    {
+      "type": "p",
+      "content": "Wc, lavabo, tuš kabina – sve radi."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Ovaj Servis – Jer Brzo i Kvalitetno"
+    },
+    {
+      "type": "p",
+      "content": "30 minuta dolazak, garancija, račun – i preporuke hiljada klijenata."
+    },
+    {
+      "type": "p",
+      "content": "Voda curi? Pozovite Vodoinstalatera na <a href=\"tel:+381642250570\"><strong>064 225 05 70</strong></a> – problem nestaje!"
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Dolazak za 30 min – curenje, poplava."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Vertikala, lavabo, wc – sve."
+    },
+    {
+      "title": "Popravka Bojlera",
+      "description": "Greje opet – brzo."
+    },
+    {
+      "title": "Detekcija Curenja",
+      "description": "Bez razbijanja."
+    },
+    {
+      "title": "Adaptacija Kupatila",
+      "description": "Novo kupatilo – sve usluge."
+    },
+    {
+      "title": "Montaža Sanitarija",
+      "description": "Wc, lavabo, tuš."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – 365 dana, uključujući praznike."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Za 30 minuta – hitno."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – i račun."
+    },
+    {
+      "question": "Radite li odgušenje vertikale?",
+      "answer": "Da – 24h."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd uključujući periferiju."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "064 225 05 70 ili 011 401 55 76."
+    }
+  ]
+},
+
+  {
   "ime": "Bravar Aca Novi Beograd - Kada Brava Neće, Aca Hoće 24h",
   "tip": "firma",
   "kategorija": ["Hitne Bravarske Intervencije", "Otvaranje Zaključanih Vrata", "Popravka Brava", "Zamena Brava", "Deblokada Vrata", "Podešavanje Vrata", "Promena Šifre Brava"],
@@ -1019,7 +1345,7 @@
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "Aluminijumska Stolarija", "Alu-Drvo Stolarija", "PVC Prozori", "ALU Prozori", "PVC Vrata", "ALU Vrata", "Roletne", "Komarnici"],
   "opis_kratak": "Profiplast – Rehau premium partner za PVC i Alumil za ALU stolariju u Beogradu preko 20 godina. Prozori, vrata, alu-drvo – energetska efikasnost, dizajn, garancija. Konjarnik i okolina.",
-  "mesto": ["Beograd", "Konjarnik", "Voždovac", "Medaković", "Zvezdara", "Vračar", "Braće Jerković", "Kumodraž", "Trošarina"],
+  "mesto": ["Beograd", "Konjarnik", "Voždovac", "Zvezdara", "Vračar", "Braće Jerković", "Kumodraž", "Trošarina"],
   "adresa": "Pita Maravića 11a, Beograd",
   "telefon": "+381606416042",
   "email": "office@profiplast.rs",
@@ -1190,7 +1516,7 @@
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Energetski Efikasni Prozori", "Rehau Profili", "Obrada Špaletni"],
   "opis_kratak": "SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac). Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina na profil. Obrada špaletni, precizna montaža.",
-  "mesto": ["Beograd", "Voždovac", "Dušanovac", "Konjarnik", "Medaković", "Trošarina", "Kumodraž", "Jajinci", "Braće Jerković", "Šumice"],
+  "mesto": ["Beograd", "Voždovac", "Dušanovac", "Konjarnik", "Trošarina", "Kumodraž", "Jajinci", "Braće Jerković", "Šumice"],
   "adresa": "Husova 6, Voždovac, Beograd",
   "telefon": "+381655450707",
   "email": "pvcstolarijarehau@gmail.com",
@@ -8221,7 +8547,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-11-12",
-  "last_modified": "2025-11-12",
+  "last_modified": "2025-12-26",
   "tips_title": "Ključni saveti za održavanje vodovoda i grejanja",
   "tips": [
     "Redovno čišćenje bojlera od kamenca – svake 2 godine",
@@ -8231,6 +8557,10 @@
     "Snimanje cevi kamerom – otkriva skrivene probleme"
   ],
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-novi-sad-hitne-intervencije-24h/\">Vodoinstalater Hitne Intervencije Novi Sad</a> › Medaković"
+    },
     {
       "type": "p",
       "content": "Kada se problem dogodi (bilo da je to bojler koji procuri u 6 ujutru, zagušena kanalizacija pred sam dolazak gostiju, ili dugo planirana adaptacija kupatila), ne treba vam samo majstor — treba vam pouzdano rešenje i mir u kući. Zoran Medaković iz Novog Sada je ime koje stoji iza upravo takvog kvaliteta. Sa dugogodišnjim iskustvom u kompletnim adaptacijama, ugradnji svih sistema grejanja i hitnim intervencijama, Zoran garantuje da će svaki rad biti izveden po najvišim standardima, koristeći isključivo sertifikovane materijale i ostavljajući za sobom besprekoran red."
@@ -12544,7 +12874,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-11-05",
-  "last_modified": "2025-11-06",
+  "last_modified": "2025-12-26",
 
   "tips_title": "Kako da Vaše Kupatilo i Grejanje Traju Decenijama",
   "tips": [
@@ -12556,7 +12886,10 @@
   ],
 
   "sections": [
-    
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-novi-sad-hitne-intervencije-24h/\">Vodoinstalater Hitne Intervencije Novi Sad</a> › Miško"
+    },
     {
       "type": "p",
       "content": "U Novom Sadu, gde <em>bojler curi u 3 ujutru, a kupatilo čeka na novi život</em> – <strong>Majstor Miško</strong> dolazi sa 30+ godina iskustva. Od hitnih intervencija do kompletne adaptacije – sve <em>stručno, brzo, 24/7</em>."
@@ -16953,7 +17286,10 @@
   ],
 
   "sections": [
-    
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-novi-sad-hitne-intervencije-24h/\">Vodoinstalater Hitne Intervencije Novi Sad</a> › Braća Jokić"
+    },
     {
       "type": "p",
       "content": "<strong>Vodoinstalater Jokić</strong> iz <strong>Novog Sada</strong> su braća <strong>Stefan i Miroslav</strong> sa <strong>10+ godina iskustva</strong>. Specijalizovani za <em>hitne intervencije 24/7, renoviranje kupatila, odgušenje kanalizacije i popravku bojlera</em>. Preko <strong>1.000 zadovoljnih klijenata</strong>."

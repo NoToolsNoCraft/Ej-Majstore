@@ -4,7 +4,7 @@ title: SN Windows Beograd - PVC Stolarija Rehau
 description: SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac).
   Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina
   na profil. Obrada špaletni, precizna montaža. u Beograd, Voždovac, Dušanovac, Konjarnik,
-  Medaković, Trošarina, Kumodraž, Jajinci, Braće Jerković, Šumice.
+  Trošarina, Kumodraž, Jajinci, Braće Jerković, Šumice.
 ime: SN Windows Beograd - PVC Stolarija Rehau
 kategorija:
 - PVC Stolarija
@@ -13,8 +13,8 @@ kategorija:
 - Energetski Efikasni Prozori
 - Rehau Profili
 - Obrada Špaletni
-mesto: Beograd, Voždovac, Dušanovac, Konjarnik, Medaković, Trošarina, Kumodraž, Jajinci,
-  Braće Jerković, Šumice
+mesto: Beograd, Voždovac, Dušanovac, Konjarnik, Trošarina, Kumodraž, Jajinci, Braće
+  Jerković, Šumice
 address: Nema dostupnu adresu
 kontakt_telefon: "+381655450707"
 email: pvcstolarijarehau@gmail.com
