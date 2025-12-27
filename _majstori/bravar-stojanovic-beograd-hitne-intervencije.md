@@ -54,8 +54,7 @@ sections:
     Dolaze brzo, rade precizno, ostavljaju sve čisto.'
 - type: p
   content: "Pozovite za hitnu intervenciju:<br>\U0001F4DE <strong>Hitno:</strong>
-    <a href=\"tel:+381606169451\">+381 60 616 94 51</a><br>\U0001F4DE <strong>Fiksni:</strong>
-    <a href=\"tel:+381112864291\">011 286 42 91</a><br>\U0001F4E7 <strong>Mail:</strong>
+    <a href=\"tel:+381606169451\">+381 60 616 94 51</a><br>\U0001F4E7 <strong>Mail:</strong>
     <a href=\"mailto:bravarstojanovic@gmail.com\">bravarstojanovic@gmail.com</a><br>\U0001F4CD
     <strong>Adresa:</strong> Bulevar Kralja Aleksandra 367, Zvezdara"
 - type: h2

@@ -1,6 +1,368 @@
 [
 
   {
+  "ime": "Aqvatok Vodoinstalater Beograd - Kada Voda Ne Čeka 24h",
+  "tip": "firma",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Montaža Bojlera", "Zamena Sanitarija", "Adaptacija Kupatila", "Popravka Cevi", "Montaža Sudo Mašine"],
+  "opis_kratak": "Aqvatok – hitne vodoinstalaterske intervencije 24h u Beogradu. Odgušenje, montaža bojlera, zamena sanitarija, adaptacija kupatila – brz dolazak, popusti za penzionere i Rakovicu.",
+  "mesto": ["Beograd", "Rakovica", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Zvezdara", "Palilula", "Čukarica", "Stari Grad"],
+  "adresa": "Slavoljuba Vuksanovića 7, Rakovica, Beograd",
+  "telefon": "+381641248607",
+  "email": "",
+  "website": "",
+  "slug": "aqvatok-vodoinstalater-beograd-hitne-intervencije",
+  "thumbnail": "images/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp",
+  "hero_image": "images/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp",
+  "discover_title": "Aqvatok Beograd - Kada Voda Ne Čeka 24h",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-27",
+  "last_modified": "2025-12-27",
+  "tips_title": "Kako da Voda Ne Pravi Probleme",
+  "tips": [
+    "Odgušenje na vreme – sprečava poplave",
+    "Popust za penzionere – 10% manje",
+    "Montaža za dan – sve radi odmah",
+    "Jasne cene – nema iznenađenja",
+    "24h – jer kvarovi ne čekaju radno vreme"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Aqvatok"
+    },
+    {
+      "type": "p",
+      "content": "Bojler ne greje, sudopera ne odvodnjava, a voda curi svuda – noć ili dan, Aqvatok je tu. Sa bazom u Rakovici, ova ekipa radi hitne intervencije 24h po celom Beogradu. 30 godina iskustva, brz dolazak, popusti za penzionere i lokalce – sve da problem nestane brzo."
+    },
+    {
+      "type": "p",
+      "content": "Nisu samo hitni – rade odgušenje, montažu bojlera, adaptaciju kupatila, zamenu cevi. Jasne cene, garancija – i klijenti se vraćaju."
+    },
+    {
+      "type": "h2",
+      "content": "Aqvatok – Hitno 24h Po Beogradu"
+    },
+    {
+      "type": "p",
+      "content": "Aqvatok je ekipa koja ne spava – 00-24h, dolaze brzo, rade sve: odgušenje wc-a, lavaboa, vertikale, montaža bojlera, tuš kabina, sudo mašine. Popust 10% za penzionere i Rakovicu."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za hitnu:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381641248607\">064 124 86 07</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381112322602\">011 232 26 02</a> / <a href=\"tel:+381113592624\">011 359 26 24</a><br>📍 <strong>Adresa:</strong> Slavoljuba Vuksanovića 7, Rakovica"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Odgušenja Do Adaptacije"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije 24h"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, poplava – dolaze odmah."
+    },
+    {
+      "type": "h3",
+      "content": "Odgušenje"
+    },
+    {
+      "type": "p",
+      "content": "Wc, sudopera, vertikala, spoljna kanalizacija."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža i Zamena"
+    },
+    {
+      "type": "p",
+      "content": "Bojler, wc, lavabo, sudo mašina, ventili."
+    },
+    {
+      "type": "h3",
+      "content": "Adaptacija Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Grubi radovi – novo kupatilo."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti"
+    },
+    {
+      "type": "p",
+      "content": "Klijenti hvale brzinu i kvalitet:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Miloš Stojadinović</strong>: Препорука... У најкраћем року дошао и решио квар. Добар утисак и као мајстор и као човек."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Aleksandar Mićić</strong>: Veoma zadovoljan zamenom grejača... Svaka preporuka za majstora Tomasa."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong>Nikola Milovanović</strong>: Brza i kvalitetna usluga. Cene iskomunicirane unapred... Preporuka."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Aqvatok – Jer Brzo i Sa Popustom"
+    },
+    {
+      "type": "p",
+      "content": "24h, brz dolazak, popusti – i 30 godina iskustva."
+    },
+    {
+      "type": "p",
+      "content": "Voda curi? Pozovite Aqvatok na <a href=\"tel:+381641248607\"><strong>064 124 86 07</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Brz dolazak – curenje, poplava."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Wc, sudopera, vertikala."
+    },
+    {
+      "title": "Montaža Bojlera",
+      "description": "Nova ugradnja, zamena grejača."
+    },
+    {
+      "title": "Zamena Sanitarija",
+      "description": "Wc, lavabo, sudo mašina."
+    },
+    {
+      "title": "Adaptacija Kupatila",
+      "description": "Grubi radovi – instalacije."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – non-stop."
+    },
+    {
+      "question": "Imate li popust?",
+      "answer": "Da – 10% za penzionere i Rakovicu."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Brzo – hitno odmah."
+    },
+    {
+      "question": "Radite li montažu sudo mašine?",
+      "answer": "Da – sa prepravkama."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "064 124 86 07."
+    }
+  ]
+},
+
+  {
+  "ime": "Vodoinstalater Vlada Beograd - Hitne Vodoinstalaterske Intervencije",
+  "tip": "majstor",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Popravka Bojlera", "Adaptacija Kupatila", "Montaža Sanitarija", "Zamena Cevi", "Popravka Curenja"],
+  "opis_kratak": "Vodoinstalater Vlada – hitne intervencije u Beogradu, mašinsko otpušavanje, adaptacija kupatila i kuhinje, servis bojlera. Brz dolazak, fer cene, 5 zvezdica od 317 recenzija.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Savski Venac"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+38162434499",
+  "email": "kontakt@vodoinstalater-otpusavanje-beograd.rs",
+  "website": "",
+  "slug": "vodoinstalater-vlada-beograd-hitne-intervencije",
+  "thumbnail": "images/vodoinstalater-vlada-beograd-hitne-intervencije.webp",
+  "hero_image": "images/vodoinstalater-vlada-beograd-hitne-intervencije.webp",
+  "discover_title": "Vodoinstalater Vlada Beograd - Hitne Vodoinstalaterske Intervencije",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-27",
+  "last_modified": "2025-12-27",
+  "tips_title": "Kako da Voda Ne Pravi Problema",
+  "tips": [
+    "Curenje? Pozovite odmah – manje štete",
+    "Mašinsko otpušavanje – brže i trajnije",
+    "Adaptacija kupatila – novo bez stresa",
+    "Servis bojlera – greje kao nov",
+    "Fer cene – bez iznenađenja"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Vodoinstalater Vlada"
+    },
+    {
+      "type": "p",
+      "content": "Voda curi, kanalizacija zapušena, bojler ne greje – a vi stojite bespomoćni? U Beogradu, Vodoinstalater Vlada je čovek koji to rešava brzo i maksimalno efikasno. Hitne intervencije, mašinsko otpušavanje, adaptacija kupatila – sve sa dugogodišnjim iskustvom i 5 zvezdica od 317 recenzija na Guglu prilikom poslednje provere."
+    },
+    {
+      "type": "p",
+      "content": "Vlada nije samo vodoinstalater – on je spasilac kada voda odluči da pravi haos. Brz dolazak, fer cene, kvalitetan rad – od curenja do kompletne renovacije."
+    },
+    {
+      "type": "h2",
+      "content": "Vodoinstalater Vlada – Hitno Znači Hitno"
+    },
+    {
+      "type": "p",
+      "content": "Vlada dolazi kada drugi oklevaju – hitne intervencije, mašinsko otpušavanje pod pritiskom, popravka cevi. Radno vreme 08-20h svaki dan, ali za hitno uvek nađe termin."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za intervenciju:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38162434499\">062 434 499</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@vodoinstalater-otpusavanje-beograd.rs\">kontakt@vodoinstalater-otpusavanje-beograd.rs</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Curenja Do Renovacije"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, poplava – dolazi odmah."
+    },
+    {
+      "type": "h3",
+      "content": "Mašinsko Otpušavanje"
+    },
+    {
+      "type": "p",
+      "content": "Sudopera, kanalizacija – sve čisto."
+    },
+    {
+      "type": "h3",
+      "content": "Adaptacija Kupatila i Kuhinje"
+    },
+    {
+      "type": "p",
+      "content": "Novo kupatilo – sve na ključ."
+    },
+    {
+      "type": "h3",
+      "content": "Servis Bojlera"
+    },
+    {
+      "type": "p",
+      "content": "Čišćenje kamenca, zamena grejača."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža Sanitarija"
+    },
+    {
+      "type": "p",
+      "content": "Wc, lavabo, tuš – sve radi."
+    },
+    {
+      "type": "h3",
+      "content": "Zamena Cevi"
+    },
+    {
+      "type": "p",
+      "content": "Nove instalacije – bez curenja."
+    },
+    {
+      "type": "h2",
+      "content": "Šta Kažu Klijenti – Recenzije Koje Govore"
+    },
+    {
+      "type": "p",
+      "content": "317 recenzija, 5 zvezdica:"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/PMNtjdIjAccoPjRdO\" target=\"_blank\" rel=\"nofollow\">Đorđe Milanović</a>:</strong> Све похвале... Љубазан, одговоран, посао у кратком року. Препорука."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/vo5DsRhMbUJYouezG\" target=\"_blank\" rel=\"nofollow\">Mik Đorđe</a>:</strong> Веома брза интервенција и професионално одрађен посао. Све препоруке за мајстора Владу."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/hN66f43nT2icGadLV\" target=\"_blank\" rel=\"nofollow\">Žika Gagić</a>:</strong> Laka komunikacija i dogovor. Popravka prošla bez problema. Preporuka."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Vlada – Jer Rešava Brzo i Kvalitetno"
+    },
+    {
+      "type": "p",
+      "content": "Brz dolazak, fer cene, kvalitet – i klijenti se vraćaju."
+    },
+    {
+      "type": "p",
+      "content": "Voda curi? Pozovite Vladu na <a href=\"tel:+38162434499\"><strong>062 434 499</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije",
+      "description": "Curenje, poplava – brz dolazak."
+    },
+    {
+      "title": "Mašinsko Otpušavanje",
+      "description": "Sudopera, kanalizacija – pod pritiskom."
+    },
+    {
+      "title": "Adaptacija Kupatila",
+      "description": "Novo kupatilo – kompletno."
+    },
+    {
+      "title": "Servis Bojlera",
+      "description": "Čišćenje, zamena delova."
+    },
+    {
+      "title": "Montaža Sanitarija",
+      "description": "Wc, lavabo, slavine."
+    },
+    {
+      "title": "Zamena Cevi",
+      "description": "Nove instalacije – bez problema."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li hitno?",
+      "answer": "Da – brz dolazak."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Brzo – po dogovoru."
+    },
+    {
+      "question": "Imate li garanciju?",
+      "answer": "Da – na rad."
+    },
+    {
+      "question": "Radite li adaptaciju?",
+      "answer": "Da – kupatilo, kuhinja."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "062 434 499."
+    }
+  ]
+},
+
+  {
   "ime": "Aqua Sever Clean Novi Sad - Odgušenje i Hitne Vodoinstalaterske Usluge",
   "tip": "firma",
   "kategorija": ["Odgušenje Kanalizacije", "Vodoinstalaterske Usluge", "Snimanje Kanalizacije", "Čišćenje Septičkih Jama", "Hitne Intervencije", "Građevinski Radovi"],
@@ -177,7 +539,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-26",
-  "last_modified": "2025-12-26",
+  "last_modified": "2025-12-27",
   "tips_title": "Kako da Voda Ne Pravi Haos",
   "tips": [
     "Curenje? Pozovite odmah – manje štete",
@@ -187,6 +549,10 @@
     "24h – jer voda ne zna za praznike"
   ],
   "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Dežurni Vodoinstalaterski Servis"
+    },
     {
       "type": "p",
       "content": "Voda curi, bojler ne greje, kanalizacija se pobunila usred noći – poznato? U Beogradu, Vodoinstalater Beograd je ekipa koja rešava te krize 24h, dolazi za 30 minuta i sve sredjuje bez drame. Od 1989. rade – iskustvo tri decenije, preko 20 majstora spremnih za akciju."
@@ -698,7 +1064,7 @@
     },
     {
       "type": "p",
-      "content": "Pozovite za hitnu intervenciju:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381606169451\">+381 60 616 94 51</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381112864291\">011 286 42 91</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:bravarstojanovic@gmail.com\">bravarstojanovic@gmail.com</a><br>📍 <strong>Adresa:</strong> Bulevar Kralja Aleksandra 367, Zvezdara"
+      "content": "Pozovite za hitnu intervenciju:<br>📞 <strong>Hitno:</strong> <a href=\"tel:+381606169451\">+381 60 616 94 51</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:bravarstojanovic@gmail.com\">bravarstojanovic@gmail.com</a><br>📍 <strong>Adresa:</strong> Bulevar Kralja Aleksandra 367, Zvezdara"
     },
     {
       "type": "h2",

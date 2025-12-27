@@ -31,8 +31,11 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-26'
-last_modified: '2025-12-26'
+last_modified: '2025-12-27'
 sections:
+- type: p
+  content: <a href="/vodoinstalater-hitne-intervencije-beograd/">Vodoinstalater Hitne
+    Intervencije Beograd</a> › Dežurni Vodoinstalaterski Servis
 - type: p
   content: Voda curi, bojler ne greje, kanalizacija se pobunila usred noći – poznato?
     U Beogradu, Vodoinstalater Beograd je ekipa koja rešava te krize 24h, dolazi za
