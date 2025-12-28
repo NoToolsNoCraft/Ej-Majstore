@@ -36,6 +36,8 @@ date: '2025-10-31'
 last_modified: '2025-11-20'
 sections:
 - type: p
+  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › Joviste
+- type: p
   content: Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a
     iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore
     za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata
@@ -55,10 +57,8 @@ sections:
     Fabrika im se nalazi na Paliću, sertifikati: <strong>ISO 9001, 14001, 45001, 50001</strong>.'
 - type: p
   content: "Kontaktirajte ih:<br>\U0001F4DE <strong>Telefon:</strong> <a href=\"tel:+38124530350\">+381
-    24 530 350</a><br>\U0001F310 <strong>Veb-sajt:</strong> <a href=\"https://www.joviste.rs/\"
-    target=\"_blank\" rel=\"noopener\">joviste.rs</a><br>\U0001F4CD <strong>Lokacija:</strong>
-    <a href=\"https://maps.app.goo.gl/8dY1fRj8Jw3jtus2A\" target=\"_blank\" rel=\"noopener\">Horgoški
-    put 81b, Palić</a>"
+    24 530 350</a><br>\U0001F4CD <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/8dY1fRj8Jw3jtus2A\"
+    target=\"_blank\" rel=\"noopener\">Horgoški put 81b, Palić</a>"
 - type: h2
   content: Šta Nudi Joviste – Od Ideje do Montaže
 - type: p
