@@ -1,6 +1,496 @@
 [
 
   {
+  "ime": "Hidra Vodoinstalater Beograd - Hitne Intervencije",
+  "tip": "firma",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Zamena Bojlera", "Montaža Sanitarija", "Popravka Slavina", "Vodoinstalaterski Radovi"],
+  "opis_kratak": "Hidra – vodoinstalater Beograd sa hitnim intervencijama 24h. Odgušenje kanalizacije motornim sajlama, zamena bojlera, slavina, sanitarija – dolazak 20–40 minuta, plaćanje preko računa.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Zvezdara", "Palilula", "Čukarica", "Rakovica", "Stari Grad"],
+  "adresa": "Hercegovačka 19, Beograd",
+  "telefon": "+381631430340",
+  "email": "office@hidra.rs",
+  "website": "",
+  "slug": "hidra-vodoinstalater-beograd-hitne-intervencije",
+  "thumbnail": "images/hidra-vodoinstalater-beograd-hitne-intervencije.webp",
+  "hero_image": "images/hidra-vodoinstalater-beograd-hitne-intervencije.webp",
+  "discover_title": "Hidra Vodoinstalater Beograd - Hitne Intervencije",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-28",
+  "last_modified": "2025-12-28",
+  "tips_title": "Kako da Sprečite Vodovodne Nezgode",
+  "tips": [
+    "Redovno čišćenje sifona – manje zapušenja",
+    "Ne bacajte otpad u wc – sajla ostaje u torbi",
+    "Provera slavina – curenje na vreme",
+    "Plaćanje preko računa – sve regularno",
+    "Hitni poziv – kvar ne raste"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Hidra"
+    },
+    {
+      "type": "p",
+      "content": "Kada odvod odluči da ne radi ili bojler prestane da greje baš u najgorem trenutku – Hidra je tim koji stiže brzo. Od 2022. zvanično, ali sa iskustvom od 1998. – hitne intervencije 24h, odgušenje motornim sajlama, zamena svega što curi ili ne radi."
+    },
+    {
+      "type": "p",
+      "content": "Radovi pedantni, materijali kvalitetni, dolazak 20–40 minuta. Plaćanje preko računa – sve transparentno."
+    },
+    {
+      "type": "h2",
+      "content": "Hidra – Rešenje Kada Voda Pravi Problema"
+    },
+    {
+      "type": "p",
+      "content": "Hidra pokriva Beograd – od centra do periferije. Specijalnost: hitne situacije – zapušeni odvodi, curenje, kvarovi na bojleru. Plus redovni poslovi – zamena sanitarija, slavina, adaptacija."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za intervenciju:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381631430340\">063 143 03 40</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@hidra.rs\">office@hidra.rs</a><br>📍 <strong>Adresa:</strong> Hercegovačka 19, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Rade – Od Hitnog Do Renovacije"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije 24h"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, zapušenje – dolaze odmah."
+    },
+    {
+      "type": "h3",
+      "content": "Odgušenje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Motornim sajlama – wc, sudopera, vertikala."
+    },
+    {
+      "type": "h3",
+      "content": "Zamena Bojlera"
+    },
+    {
+      "type": "p",
+      "content": "Nova ugradnja, grejači – sve radi."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža Sanitarija"
+    },
+    {
+      "type": "p",
+      "content": "Wc, lavabo, slavine – precizno."
+    },
+    {
+      "type": "h3",
+      "content": "Vodoinstalaterski Radovi"
+    },
+    {
+      "type": "p",
+      "content": "Instalacije, popravke – kvalitetno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Hidra – Jer Rade Kvalitetno"
+    },
+    {
+      "type": "p",
+      "content": "Iskustvo od 1998, brzina, plaćanje preko računa – poslovi urađeni kako treba."
+    },
+    {
+      "type": "p",
+      "content": "Problem sa vodom? Pozovite Hidru na <a href=\"tel:+381631430340\"><strong>063 143 03 40</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Dolazak 20–40 min – curenje, zapušenje."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Motornim sajlama – sve vrste."
+    },
+    {
+      "title": "Zamena Bojlera",
+      "description": "Ugradnja, grejači."
+    },
+    {
+      "title": "Montaža Sanitarija",
+      "description": "Wc, lavabo, slavine."
+    },
+    {
+      "title": "Vodoinstalaterski Radovi",
+      "description": "Instalacije, popravke."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – hitne intervencije non-stop."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "20–40 minuta – zavisno od lokacije."
+    },
+    {
+      "question": "Može li plaćanje preko računa?",
+      "answer": "Da – sve regularno."
+    },
+    {
+      "question": "Radite li odgušenje?",
+      "answer": "Da – motornim sajlama."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i šire po potrebi."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 143 03 40."
+    }
+  ]
+},
+
+  {
+  "ime": "Brza Voda Beograd - Kada Kvar Ne Sme Da Čeka",
+  "tip": "firma",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Sanacija Curenja", "Popravka Bojlera", "Snimanje Kanalizacije", "Čišćenje Septičkih Jama", "Adaptacija Instalacija"],
+  "opis_kratak": "Brza Voda – dežurni vodoinstalater Beograd 24h. Hitne intervencije, odgušenje, sanacija curenja, popravka bojlera – brza reakcija, profesionalna oprema, garancija.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Stari Grad", "Savski Venac"],
+  "adresa": "Ruža 15J, Beograd",
+  "telefon": "+381638330005",
+  "email": "rade.brzavoda@gmail.com",
+  "website": "",
+  "slug": "brza-voda-beograd-hitne-vodoinstalaterske-intervencije",
+  "thumbnail": "images/brza-voda-beograd-hitne-vodoinstalaterske-intervencije.webp",
+  "hero_image": "images/brza-voda-beograd-hitne-vodoinstalaterske-intervencije.webp",
+  "discover_title": "Brza Voda Beograd - Kada Kvar Ne Sme Da Čeka",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-28",
+  "last_modified": "2025-12-28",
+  "tips_title": "Praktični Trikovi Protiv Vodovodnih Kvarova",
+  "tips": [
+    "Redovna provera ventila – sprečava curenje",
+    "Ne bacajte otpad u odvode – manje zapušenja",
+    "Inspekcija kamera – otkriva problem rano",
+    "Hitni poziv – manja šteta, manji račun",
+    "Garancija na rad – sigurnost posle intervencije"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Brza Voda"
+    },
+    {
+      "type": "p",
+      "content": "Curenje koje ne prestaje, odvod koji ne radi ili bojler koji odluči da prestane da greje baš usred zime – Brza Voda je tim koji to rešava bez odlaganja. Dostupni 24/7, sa opremom za sve – od mašinskog odgušenja do snimanja cevi kamerom."
+    },
+    {
+      "type": "p",
+      "content": "Fokus na hitnim intervencijama – pucanje cevi, prelivanje kanalizacije, kvarovi koji ne čekaju jutro. Dolaze brzo, rade precizno, koriste savremenu tehnologiju."
+    },
+    {
+      "type": "h2",
+      "content": "Brza Voda – Reaguje Kada Je Najpotrebnije"
+    },
+    {
+      "type": "p",
+      "content": "Brza Voda pokriva ceo Beograd – od centra do periferije. Specijalnost: hitne situacije – curenje, zapušenja, poplave. Plus redovne usluge – adaptacija, čišćenje, inspekcija."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za intervenciju:<br>📞 <strong>Mobilni:</strong> <a href=\"tel:+381638330005\">063 833 00 05</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381113221713\">011 322 17 13</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:rade.brzavoda@gmail.com\">rade.brzavoda@gmail.com</a><br>📍 <strong>Adresa:</strong> Ruža 15J, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Rešavaju – Od Hitnog Do Preventivnog"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije"
+    },
+    {
+      "type": "p",
+      "content": "Pucanje cevi, poplave – trenutna reakcija."
+    },
+    {
+      "type": "h3",
+      "content": "Odgušenje"
+    },
+    {
+      "type": "p",
+      "content": "Odvodi, kanalizacija – mašinski."
+    },
+    {
+      "type": "h3",
+      "content": "Popravka Bojlera"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, grejanje – vraćaju funkciju."
+    },
+    {
+      "type": "h3",
+      "content": "Snimanje Cevi"
+    },
+    {
+      "type": "p",
+      "content": "Kamera – precizna lokacija problema."
+    },
+    {
+      "type": "h3",
+      "content": "Čišćenje Kanalizacije"
+    },
+    {
+      "type": "p",
+      "content": "Dubinsko – sprečava buduće kvarove."
+    },
+    {
+      "type": "h3",
+      "content": "Grejanje"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, nepravilan rad – sanacija."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Brza Voda – Jer Kvarovi Ne Čekaju"
+    },
+    {
+      "type": "p",
+      "content": "24/7 dostupnost, savremena oprema, garancija – problem rešavaju trajno."
+    },
+    {
+      "type": "p",
+      "content": "Kvar na vidiku? Pozovite Brzu Vodu na <a href=\"tel:+381638330005\"><strong>063 833 00 05</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Curenje, poplava – trenutna reakcija."
+    },
+    {
+      "title": "Odgušenje Kanalizacije",
+      "description": "Mašinski – odvodi, vertikala."
+    },
+    {
+      "title": "Popravka Bojlera",
+      "description": "Curenje, grejanje – sanacija."
+    },
+    {
+      "title": "Snimanje Cevi",
+      "description": "Kamera – precizna dijagnostika."
+    },
+    {
+      "title": "Čišćenje Kanalizacije",
+      "description": "Dubinsko – prevencija."
+    },
+    {
+      "title": "Grejanje",
+      "description": "Curenje, kvarovi – popravka."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – non-stop, praznici uključeni."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Brzo – hitno odmah."
+    },
+    {
+      "question": "Imate li kameru za snimanje?",
+      "answer": "Da – za preciznu lokaciju."
+    },
+    {
+      "question": "Radite li grejanje?",
+      "answer": "Da – sanacija kvarova."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 833 00 05 ili 011 322 17 13."
+    }
+  ]
+},
+
+  {
+  "ime": "Hidrofix Beograd - Voda Pod Kontrolom 24h",
+  "tip": "firma",
+  "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Mašinsko Odgušenje", "Detekcija Curenja", "Adaptacija Kupatila", "Montaža Sanitarija", "Servis Bojlera", "Snimanje Kanalizacije"],
+  "opis_kratak": "Hidrofix – profesionalni vodoinstalater u Beogradu sa hitnim intervencijama 24h. Mašinsko odgušenje, detekcija curenja termalnom kamerom, adaptacija kupatila, montaža sanitarija – ceo Beograd.",
+  "mesto": ["Beograd", "Voždovac", "Zvezdara", "Novi Beograd", "Banjica", "Mirijevo"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381613180780",
+  "email": "hidrofix.vodoinstalater@gmail.com",
+  "website": "",
+  "slug": "hidrofix-vodoinstalater-beograd-hitne-intervencije",
+  "thumbnail": "images/hidrofix-vodoinstalater-beograd-hitne-intervencije.webp",
+  "hero_image": "images/hidrofix-vodoinstalater-beograd-hitne-intervencije.webp",
+  "discover_title": "Hidrofix Beograd - Voda Pod Kontrolom 24h",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-28",
+  "last_modified": "2025-12-28",
+  "tips_title": "Praktični Saveti Za Vodovod Bez Kvarova",
+  "tips": [
+    "Redovna provera cevi – sprečava curenje",
+    "Termalna kamera – otkriva problem bez razbijanja",
+    "Mašinsko odgušenje – brže i temeljnije",
+    "Adaptacija na vreme – novo kupatilo bez stresa",
+    "Hitni poziv – manje štete, manji troškovi"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/vodoinstalater-hitne-intervencije-beograd/\">Vodoinstalater Hitne Intervencije Beograd</a> › Hidrofix"
+    },
+    {
+      "type": "p",
+      "content": "Kada voda odluči da pravi probleme – curenje koje ne vidite, odvod koji ne radi ili kupatilo koje treba osvežiti – Hidrofix je tim koji to rešava. Sa modernim alatima poput termalnih kamera za detekciju curenja i mašinskim odgušenjem, oni rade brzo i precizno po celom Beogradu."
+    },
+    {
+      "type": "p",
+      "content": "Hitne intervencije 24h, adaptacija kupatila, montaža sanitarija – sve sa fokusom na kvalitet i efikasnost. Pokrivaju sve opštine, od Voždovca do Zemuna."
+    },
+    {
+      "type": "h2",
+      "content": "Hidrofix – Preciznost U Svakom Kvaru"
+    },
+    {
+      "type": "p",
+      "content": "Hidrofix koristi najnovije tehnologije – termalne kamere za skrivena curenja, mašine za odgušenje, profesionalnu opremu za montažu. Rezultat? Kvarovi rešeni bez nepotrebnog razbijanja i kašnjenja."
+    },
+    {
+      "type": "p",
+      "content": "Kontakt za intervenciju:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381613180780\">+381 61 318 0780</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:hidrofix.vodoinstalater@gmail.com\">hidrofix.vodoinstalater@gmail.com</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Šta Nude – Od Hitnog Do Renovacije"
+    },
+    {
+      "type": "h3",
+      "content": "Hitne Intervencije 24h"
+    },
+    {
+      "type": "p",
+      "content": "Curenje, poplava – brz odgovor."
+    },
+    {
+      "type": "h3",
+      "content": "Mašinsko Odgušenje"
+    },
+    {
+      "type": "p",
+      "content": "Wc, lavabo, vertikala – sve čisto."
+    },
+    {
+      "type": "h3",
+      "content": "Detekcija Curenja"
+    },
+    {
+      "type": "p",
+      "content": "Termalna kamera – bez razbijanja."
+    },
+    {
+      "type": "h3",
+      "content": "Adaptacija Kupatila"
+    },
+    {
+      "type": "p",
+      "content": "Renoviranje – nove instalacije."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža Sanitarija"
+    },
+    {
+      "type": "p",
+      "content": "Bojler, wc, tuš – sve postavljeno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Hidrofix – Jer Kvalitet Ne Čeka"
+    },
+    {
+      "type": "p",
+      "content": "Brz dolazak, moderne metode, kvalitetan rad – i klijenti se vraćaju."
+    },
+    {
+      "type": "p",
+      "content": "Voda pravi probleme? Pozovite Hidrofix na <a href=\"tel:+381613180780\"><strong>+381 61 318 0780</strong></a>."
+    }
+    
+  ],
+  "services": [
+    {
+      "title": "Hitne Intervencije 24h",
+      "description": "Brz odgovor – curenje, poplava."
+    },
+    {
+      "title": "Mašinsko Odgušenje",
+      "description": "Wc, lavabo, vertikala."
+    },
+    {
+      "title": "Detekcija Curenja",
+      "description": "Termalna kamera – precizno."
+    },
+    {
+      "title": "Adaptacija Kupatila",
+      "description": "Renoviranje instalacija."
+    },
+    {
+      "title": "Montaža Sanitarija",
+      "description": "Bojler, wc, tuš."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "15 min do sat – zavisno od lokacije."
+    },
+    {
+      "question": "Radite li 24h?",
+      "answer": "Da – non-stop."
+    },
+    {
+      "question": "Imate li termalnu kameru?",
+      "answer": "Da – za detekciju curenja."
+    },
+    {
+      "question": "Radite li adaptaciju?",
+      "answer": "Da – kupatila."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Ceo Beograd – sve opštine."
+    },
+    {
+      "question": "Kako da vas kontaktiram?",
+      "answer": "+381 61 318 0780."
+    }
+  ]
+},
+
+  {
   "ime": "Aqvatok Vodoinstalater Beograd - Kada Voda Ne Čeka 24h",
   "tip": "firma",
   "kategorija": ["Hitne Vodoinstalaterske Intervencije", "Odgušenje Kanalizacije", "Montaža Bojlera", "Zamena Sanitarija", "Adaptacija Kupatila", "Popravka Cevi", "Montaža Sudo Mašine"],
