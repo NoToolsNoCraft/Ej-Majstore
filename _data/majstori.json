@@ -1,13 +1,321 @@
 [
 
   {
+  "ime": "Trans Auto Logistiks Beograd - Nameštaj Sigurno Stiže",
+  "tip": "firma",
+  "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kamionski Prevoz", "Selidbe Stanova", "Selidbe Firmi", "Međugradske Selidbe", "Selidbe u Inostranstvo"],
+  "opis_kratak": "Trans Auto Logistiks – kamionski prevoz nameštaja i selidbe u Beogradu i Srbiji. Siguran transport, iskusni vozači, zaštita tereta – stanovi, firme, inostranstvo (BiH, Crna Gora).",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Voždovac", "Vračar", "Zvezdara", "Palilula"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381643505884",
+  "email": "tal.beograd@gmail.com",
+  "website": "",
+  "slug": "trans-auto-logistiks-beograd-prevoz-namestaja",
+  "thumbnail": "images/trans-auto-logistiks-beograd-prevoz-namestaja.webp",
+  "hero_image": "images/trans-auto-logistiks-beograd-prevoz-namestaja.webp",
+  "discover_title": "Trans Auto Logistiks Beograd - Nameštaj Sigurno Stiže",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-29",
+  "last_modified": "2025-12-29",
+  "tips_title": "Kako da Prevoz Nameštaja Bude Bezbedan",
+  "tips": [
+    "Kamion za velike komade – sve staje",
+    "Zaštita tereta – ni ogrebotina",
+    "Iskusni vozači – 20 godina staža",
+    "Inostranstvo – BiH, Crna Gora"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/prevoz-namestaja-beograd/\">Transport nameštaja u Beogradu</a> i Srbiji zahteva pouzdanog partnera – Trans Auto Logistiks je upravo to. Kamioni za velike selidbe, iskusni vozači, zaštita tereta – od plakara do kancelarijske opreme."
+    },
+    {
+      "type": "p",
+      "content": "Specijalnost: kamionski prevoz – stanovi, firme, inostranstvo (BiH, Crna Gora)."
+    },
+    {
+      "type": "h2",
+      "content": "Trans Auto Logistiks – Kamion Za Sve"
+    },
+    {
+      "type": "p",
+      "content": "Trans Auto Logistiks koristi kamione sa rampama – lak utovar, sigurno pričvršćivanje. Vozači sa 20 godina staža – sve stiže celo."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za prevoz:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381643505884\">064 3505 884</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:tal.beograd@gmail.com\">tal.beograd@gmail.com</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Kamionski Transport"
+    },
+    {
+      "type": "h3",
+      "content": "Prevoz Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Plakari, trosedi, kuhinje – sve sigurno."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Stanova/Kuća"
+    },
+    {
+      "type": "p",
+      "content": "Kompletne – sa zaštitom."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Firmi"
+    },
+    {
+      "type": "p",
+      "content": "Kancelarije, IT oprema – pažljivo."
+    },
+    {
+      "type": "h3",
+      "content": "Međugradske Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Srbija – Novi Sad, Niš..."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe u Inostranstvo"
+    },
+    {
+      "type": "p",
+      "content": "BiH, Crna Gora – organizovano."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Trans Auto Logistiks – Jer Kamion Znači Sigurnost"
+    },
+    {
+      "type": "p",
+      "content": "Rampi, zaštita, iskusni vozači – nameštaj stiže bez oštećenja."
+    },
+    {
+      "type": "p",
+      "content": "Prevoz potreban? Pozovite Trans Auto Logistiks na <a href=\"tel:+381643505884\"><strong>064 3505 884</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Prevoz Nameštaja",
+      "description": "Kamion – veliki komadi."
+    },
+    {
+      "title": "Selidbe Stanova",
+      "description": "Kompletne – sa zaštitom."
+    },
+    {
+      "title": "Selidbe Firmi",
+      "description": "Kancelarije, IT."
+    },
+    {
+      "title": "Međugradske Selidbe",
+      "description": "Srbija – sigurno."
+    },
+    {
+      "title": "Selidbe u Inostranstvo",
+      "description": "BiH, Crna Gora."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li inostranstvo?",
+      "answer": "Da – BiH, Crna Gora."
+    },
+    {
+      "question": "Imate li kamion?",
+      "answer": "Da – sa rampama."
+    },
+    {
+      "question": "Radite li kombi?",
+      "answer": "Da – za manje."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd, Srbija."
+    },
+    {
+      "question": "Imate li zaštitu?",
+      "answer": "Da – teret pričvršćen."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "064 3505 884."
+    }
+  ]
+},
+
+  {
+  "ime": "Star Selidbe Beograd - Nameštaj Sigurno Na Novu Adresu",
+  "tip": "firma",
+  "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kombi Selidbe", "Selidbe Firmi", "Međugradske Selidbe", "Selidbe Salona Nameštaja"],
+  "opis_kratak": "Star Selidbe – specijalisti za prevoz nameštaja i selidbe salona u Beogradu. Siguran transport, profesionalna oprema (rampe, trake, kolica), osiguranje tereta – brzo, efikasno, transparentne cene.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Voždovac", "Vračar", "Palilula", "Zvezdara", "Čukarica", "Rakovica", "Stari Grad"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381638809654",
+  "email": "star.selidbe@gmail.com",
+  "website": "",
+  "slug": "star-selidbe-beograd-prevoz-namestaja",
+  "thumbnail": "images/star-selidbe-beograd-prevoz-namestaja.webp",
+  "hero_image": "images/star-selidbe-beograd-prevoz-namestaja.webp",
+  "discover_title": "Star Selidbe Beograd - Nameštaj Sigurno Na Novu Adresu",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-29",
+  "last_modified": "2025-12-29",
+  "tips_title": "Kako da Prevoz Nameštaja Bude Bez Rizika",
+  "tips": [
+    "Trake za nošenje – teški komadi lakše",
+    "Rampe na kamionima – brz utovar",
+    "Osiguran teret – miran san",
+    "Saradnja sa salonima – iskustvo sa nameštajem"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/prevoz-namestaja-beograd/\">Prevoz nameštaja u Beogradu</a> zna da bude komplikovan – teški komadi, uski prolazi, strah od oštećenja. Star Selidbe to rešava sa profesionalnom opremom – rampe, trake za nošenje, kolica. Specijalnost: selidbe salona nameštaja i prevoz velikih komada."
+    },
+    {
+      "type": "p",
+      "content": "Teret osiguran, vozila prilagođena – sve da nameštaj stigne neoštećen."
+    },
+    {
+      "type": "h2",
+      "content": "Star Selidbe – Prevoz Bez Neprijatnih Iznenađenja"
+    },
+    {
+      "type": "p",
+      "content": "Star koristi moderne metode – trake za kontrolisano nošenje, rampe za lak utovar, zaštitu za svaki komad. Saradnja sa salonima nameštaja – znaju kako sa skupim komadima."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za prevoz:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381638809654\">063 880 96 54</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:star.selidbe@gmail.com\">star.selidbe@gmail.com</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Salona Do Stana"
+    },
+    {
+      "type": "h3",
+      "content": "Prevoz Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Iz salona, stanova – sa osiguranjem."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Salona"
+    },
+    {
+      "type": "p",
+      "content": "Veliki komadi – iskustvo sa salonima."
+    },
+    {
+      "type": "h3",
+      "content": "Kombi Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Manje količine – brzo po gradu."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Firmi"
+    },
+    {
+      "type": "p",
+      "content": "Kancelarije – bez zastoja."
+    },
+    {
+      "type": "h3",
+      "content": "Međugradske Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Srbija – sigurno."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Star – Jer Oprema Čini Razliku"
+    },
+    {
+      "type": "p",
+      "content": "Trake, rampe, osiguranje – nameštaj stiže kao nov."
+    },
+    {
+      "type": "p",
+      "content": "Prevoz potreban? Pozovite Star na <a href=\"tel:+381638809654\"><strong>063 880 96 54</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Prevoz Nameštaja",
+      "description": "Iz salona/stanova – osiguran."
+    },
+    {
+      "title": "Selidbe Salona",
+      "description": "Veliki komadi – iskustvo."
+    },
+    {
+      "title": "Kombi Selidbe",
+      "description": "Brzo po gradu."
+    },
+    {
+      "title": "Selidbe Firmi",
+      "description": "Kancelarije."
+    },
+    {
+      "title": "Međugradske Selidbe",
+      "description": "Srbija – sigurno."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Je li teret osiguran?",
+      "answer": "Da – kompletno."
+    },
+    {
+      "question": "Radite li salone nameštaja?",
+      "answer": "Da – specijalnost."
+    },
+    {
+      "question": "Imate li rampe?",
+      "answer": "Da – lak utovar."
+    },
+    {
+      "question": "Radite li međugradski?",
+      "answer": "Da – Srbija."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i Srbija."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 880 96 54."
+    }
+  ]
+},
+
+  {
   "ime": "Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala",
   "tip": "firma",
   "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kombi Selidbe", "Kamionske Selidbe", "Selidbe Firmi", "Međunarodne Selidbe", "Montaža Nameštaja"],
   "opis_kratak": "Selidbe Stošić – profesionalni prevoz nameštaja i selidbe u Beogradu 15 godina. Kombi/kamion, podizanje na kanape, montaža, zaštita – brzo, sigurno, pristupačno.",
   "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Zvezdara", "Palilula"],
   "adresa": "Vodovodska 177 i2, Beograd",
-  "telefon": "+381631111154",
+  "telefon": "+381652571606",
   "email": "kontakt@selidbe-stosic.com",
   "website": "",
   "slug": "selidbe-stosic-beograd-prevoz-namestaja",
@@ -45,7 +353,7 @@
     },
     {
       "type": "p",
-      "content": "Pozovite za selidbu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381631111154\">063 111 11 54</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@selidbe-stosic.com\">kontakt@selidbe-stosic.com</a><br>📍 <strong>Adresa:</strong> Vodovodska 177 i2, Beograd"
+      "content": "Pozovite za selidbu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381652571606\">065 2571606</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@selidbe-stosic.com\">kontakt@selidbe-stosic.com</a><br>📍 <strong>Adresa:</strong> Vodovodska 177 i2, Beograd"
     },
     {
       "type": "h2",
@@ -101,7 +409,7 @@
     },
     {
       "type": "p",
-      "content": "Selidba u planu? Pozovite Stošić na <a href=\"tel:+381631111154\"><strong>063 111 11 54</strong></a>."
+      "content": "Selidba u planu? Pozovite Stošić na <a href=\"tel:+381652571606\"><strong>065 2571606</strong></a>."
     }
   ],
   "services": [
@@ -149,7 +457,7 @@
     },
     {
       "question": "Kako da vas pozovem?",
-      "answer": "063 111 11 54."
+      "answer": "065 2571606."
     }
   ]
 },

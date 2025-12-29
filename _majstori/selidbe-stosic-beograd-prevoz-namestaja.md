@@ -15,7 +15,7 @@ kategorija:
 - Montaža Nameštaja
 mesto: Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara, Palilula
 address: Nema dostupnu adresu
-kontakt_telefon: "+381631111154"
+kontakt_telefon: "+381652571606"
 email: kontakt@selidbe-stosic.com
 googlemaps: ''
 website: Nema dostupan website
@@ -46,8 +46,8 @@ sections:
   content: Stošić koristi kombi i kamion, kanape za spratove, zaštitu za svaki komad.
     Montaža, demontaža – sve u paketu.
 - type: p
-  content: "Pozovite za selidbu:<br>\U0001F4DE <strong>Poziv:</strong> <a href=\"tel:+381631111154\">063
-    111 11 54</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:kontakt@selidbe-stosic.com\">kontakt@selidbe-stosic.com</a><br>\U0001F4CD
+  content: "Pozovite za selidbu:<br>\U0001F4DE <strong>Poziv:</strong> <a href=\"tel:+381652571606\">065
+    2571606</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:kontakt@selidbe-stosic.com\">kontakt@selidbe-stosic.com</a><br>\U0001F4CD
     <strong>Adresa:</strong> Vodovodska 177 i2, Beograd"
 - type: h2
   content: Usluge – Od Prevoza Do Montaže
@@ -76,8 +76,8 @@ sections:
 - type: p
   content: Iskustvo, oprema, pristupačne cene – nameštaj stiže neoštećen.
 - type: p
-  content: Selidba u planu? Pozovite Stošić na <a href="tel:+381631111154"><strong>063
-    111 11 54</strong></a>.
+  content: Selidba u planu? Pozovite Stošić na <a href="tel:+381652571606"><strong>065
+    2571606</strong></a>.
 services:
 - title: Prevoz Nameštaja
   description: Iz salona, stanova – sa zaštitom.
@@ -101,7 +101,7 @@ faq:
 - question: Gde radite?
   answer: Beograd i Srbija.
 - question: Kako da vas pozovem?
-  answer: 063 111 11 54.
+  answer: 065 2571606.
 tips:
 - Podizanje na kanape – za visoke spratove
 - Zaštita stvari – sve stiže celo
