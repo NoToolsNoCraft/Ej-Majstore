@@ -65,8 +65,7 @@ sections:
   content: "Načini na koje ih možete kontaktirati:<br>\U0001F4DE <strong>Poziv:</strong>
     <a href=\"tel:+381611321324\">061 132 1324</a><br>\U0001F4E7 <strong>Mail:</strong>
     <a href=\"mailto:insectokomarnici@gmail.com\">insectokomarnici@gmail.com</a><br>\U0001F310
-    <strong>Website:</strong> <a href=\"https://www.insecto.rs/\" target=\"_blank\"
-    rel=\"nofollow\">insecto.rs</a><br>\U0001F310 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/insectokomarnici/\"
+    <strong>Facebook:</strong> <a href=\"https://www.facebook.com/insectokomarnici/\"
     target=\"_blank\" rel=\"nofollow\">Facebook</a><br>\U0001F310 <strong>Instagram:</strong>
     <a href=\"https://www.instagram.com/insecto.rs/\" target=\"_blank\" rel=\"nofollow\">Instagram</a><br>\U0001F4CD
     <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/PnkghKUymBbwZCo86\"

@@ -236,6 +236,7 @@
 <script>
   const searchIndex = [
     { title: "Agencije za čišćenje Beograd", url: "/agencije-za-ciscenje-beograd/" },
+    { title: "Prevoz Nameštaja Beograd", url: "/prevoz-namestaja-beograd/" },
     { title: "PVC Stolarija Beograd", url: "/pvc-stolarija-beograd/" },
     { title: "Aluminijumska Stolarija Beograd", url: "/alu-stolarija-beograd/" },
     { title: "Hitne Bravarske Usluge Beograd", url: "/bravar-hitne-intervencije-beograd/" },
@@ -734,7 +735,39 @@
         <label><input type="radio" name="kategorija" value=""> Sve kategorije</label>
         
         
+          <label><input type="radio" name="kategorija" value="Selidbe"> Selidbe</label>
+        
+          <label><input type="radio" name="kategorija" value="Prevoz Nameštaja"> Prevoz Nameštaja</label>
+        
+          <label><input type="radio" name="kategorija" value="Kombi Selidbe"> Kombi Selidbe</label>
+        
+          <label><input type="radio" name="kategorija" value="Kamionske Selidbe"> Kamionske Selidbe</label>
+        
+          <label><input type="radio" name="kategorija" value="Selidbe Firmi"> Selidbe Firmi</label>
+        
+          <label><input type="radio" name="kategorija" value="Međunarodne Selidbe"> Međunarodne Selidbe</label>
+        
+          <label><input type="radio" name="kategorija" value="Montaža Nameštaja"> Montaža Nameštaja</label>
+        
+          <label><input type="radio" name="kategorija" value="Transport Robe"> Transport Robe</label>
+        
+          <label><input type="radio" name="kategorija" value="Montaža i Demontaža Nameštaja"> Montaža i Demontaža Nameštaja</label>
+        
+          <label><input type="radio" name="kategorija" value="Komarnici"> Komarnici</label>
+        
           <label><input type="radio" name="kategorija" value="PVC Stolarija"> PVC Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="ALU Stolarija"> ALU Stolarija</label>
+        
+          <label><input type="radio" name="kategorija" value="Roletne"> Roletne</label>
+        
+          <label><input type="radio" name="kategorija" value="Zavese"> Zavese</label>
+        
+          <label><input type="radio" name="kategorija" value="Harmonika Vrata"> Harmonika Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Garažna Vrata"> Garažna Vrata</label>
+        
+          <label><input type="radio" name="kategorija" value="Podprozorske Daske"> Podprozorske Daske</label>
         
           <label><input type="radio" name="kategorija" value="PVC Prozori"> PVC Prozori</label>
         
@@ -743,10 +776,6 @@
           <label><input type="radio" name="kategorija" value="Balkonska Vrata"> Balkonska Vrata</label>
         
           <label><input type="radio" name="kategorija" value="Ulazna Vrata"> Ulazna Vrata</label>
-        
-          <label><input type="radio" name="kategorija" value="Roletne"> Roletne</label>
-        
-          <label><input type="radio" name="kategorija" value="Komarnici"> Komarnici</label>
         
           <label><input type="radio" name="kategorija" value="Rolo Zavese"> Rolo Zavese</label>
         
@@ -851,8 +880,6 @@
           <label><input type="radio" name="kategorija" value="Obrada Špaletni"> Obrada Špaletni</label>
         
           <label><input type="radio" name="kategorija" value="Drvena Stolarija"> Drvena Stolarija</label>
-        
-          <label><input type="radio" name="kategorija" value="Garažna Vrata"> Garažna Vrata</label>
         
           <label><input type="radio" name="kategorija" value="Sobna Vrata"> Sobna Vrata</label>
         
@@ -1278,8 +1305,6 @@
         
           <label><input type="radio" name="kategorija" value="Stolarija"> Stolarija</label>
         
-          <label><input type="radio" name="kategorija" value="ALU Stolarija"> ALU Stolarija</label>
-        
           <label><input type="radio" name="kategorija" value="Prozori"> Prozori</label>
         
           <label><input type="radio" name="kategorija" value="Vrata"> Vrata</label>
@@ -1317,8 +1342,6 @@
           <label><input type="radio" name="kategorija" value="Sitne Popravke"> Sitne Popravke</label>
         
           <label><input type="radio" name="kategorija" value="Elektro Instalacije"> Elektro Instalacije</label>
-        
-          <label><input type="radio" name="kategorija" value="Montaža Nameštaja"> Montaža Nameštaja</label>
         
           <label><input type="radio" name="kategorija" value="Bušenje i Kačenje"> Bušenje i Kačenje</label>
         
@@ -1846,20 +1869,84 @@
 </section>
 
 <section id="majstori-lista">
-  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">109</span></p>
+  <p style="margin-bottom: 1rem;" id="rezultati-broj" aria-live="polite">Pronađeno: <span id="broj-majstora">113</span></p>
   <div id="kartice-kontejner">
     
       
       
-      <div class="majstor-kartica" data-tip="firma" data-kategorija="PVC Stolarija,PVC Prozori,PVC Vrata,Balkonska Vrata,Ulazna Vrata,Roletne,Komarnici,Rolo Zavese" data-mesto="Subotica,Palić,Bačka Topola,Sombor,Kula,Kanjiža,Senta,Ada" style="display: none;">
-        <img loading="lazy" src="/images/rolometal-subotica-pvc-stolarija-salamander.webp" alt="Rolometal Subotica - PVC Stolarija Salamander thumbnail" class="majstor-image">
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Selidbe,Prevoz Nameštaja,Kombi Selidbe,Kamionske Selidbe,Selidbe Firmi,Međunarodne Selidbe,Montaža Nameštaja" data-mesto="Beograd,Novi Beograd,Zemun,Vračar,Voždovac,Zvezdara,Palilula" style="display: none;">
+        <img loading="lazy" src="/images/selidbe-stosic-beograd-prevoz-namestaja.webp" alt="Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala thumbnail" class="majstor-image">
         <div class="majstor-content">
-          <h3>Rolometal Subotica - PVC Stolarija Salamander</h3>
+          <h3>Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Selidbe, Prevoz Nameštaja, Kombi Selidbe, Kamionske Selidbe, Selidbe Firmi, Međunarodne Selidbe, Montaža Nameštaja</p> 
+          <p><strong>Mesto: </strong>Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara, Palilula</p> 
+          
+            <p>Selidbe Stošić – profesionalni prevoz nameštaja i selidbe u Beogradu 15 godina. Kombi/kamion, podizanje na kanape, montaža, zaštita – brzo, sigurno, pristupačno.</p>
+          
+          <a href="/izvodjaci/beograd/selidbe-stosic-beograd-prevoz-namestaja/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Selidbe,Prevoz Nameštaja,Kombi Selidbe,Kamionske Selidbe,Selidbe Firmi,Međunarodne Selidbe,Montaža Nameštaja" data-mesto="Beograd,Novi Beograd,Zemun,Vračar,Voždovac,Zvezdara" style="display: none;">
+        <img loading="lazy" src="/images/alisa-selidbe-beograd-prevoz-namestaja.webp" alt="Alisa Selidbe Beograd - Nameštaj Stiže Ceo thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Alisa Selidbe Beograd - Nameštaj Stiže Ceo</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Selidbe, Prevoz Nameštaja, Kombi Selidbe, Kamionske Selidbe, Selidbe Firmi, Međunarodne Selidbe, Montaža Nameštaja</p> 
+          <p><strong>Mesto: </strong>Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara</p> 
+          
+            <p>Alisa Selidbe – profesionalni prevoz nameštaja i selidbe u Beogradu. Kombi ili kamion, demontaža/montaža, zaštita stvari – brzo, sigurno, povoljno. Beograd i inostranstvo.</p>
+          
+          <a href="/izvodjaci/beograd/alisa-selidbe-beograd-prevoz-namestaja/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Selidbe,Prevoz Nameštaja,Kombi Selidbe,Kamionske Selidbe,Selidbe Firmi,Transport Robe,Montaža i Demontaža Nameštaja" data-mesto="Beograd,Novi Beograd,Zemun,Vračar,Surčin" style="display: none;">
+        <img loading="lazy" src="/images/ajkula-selidbe-beograd-prevoz-namestaja.webp" alt="Ajkula Selidbe Beograd - Kada Transport Mora Da Bude Brz i Siguran thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Ajkula Selidbe Beograd - Kada Transport Mora Da Bude Brz i Siguran</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Selidbe, Prevoz Nameštaja, Kombi Selidbe, Kamionske Selidbe, Selidbe Firmi, Transport Robe, Montaža i Demontaža Nameštaja</p> 
+          <p><strong>Mesto: </strong>Beograd, Novi Beograd, Zemun, Vračar, Surčin</p> 
+          
+            <p>Ajkula Selidbe – profesionalne kombi i kamionske selidbe u Beogradu od 2006. Selidbe stanova, kuća, firmi, prevoz nameštaja, montaža. Brzo, pouzdano, full zaštita stvari. Beograd i Srbija.</p>
+          
+          <a href="/izvodjaci/beograd/ajkula-selidbe-beograd-prevoz-namestaja/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="Komarnici,PVC Stolarija,ALU Stolarija,Roletne,Zavese,Harmonika Vrata,Garažna Vrata,Podprozorske Daske" data-mesto="Novi Sad,Veternik,Futog,Petrovaradin,Telep,Detelinara" style="display: none;">
+        <img loading="lazy" src="/images/unoplast-novi-sad-komarnici-stolarija.webp" alt="Unoplast Novi Sad - Komarnici i Stolarija thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Unoplast Novi Sad - Komarnici i Stolarija</h3>
+          <p><strong>Izvođač: </strong>Firma</p>
+          <p><strong>Usluge: </strong>Komarnici, PVC Stolarija, ALU Stolarija, Roletne, Zavese, Harmonika Vrata, Garažna Vrata, Podprozorske Daske</p> 
+          <p><strong>Mesto: </strong>Novi Sad, Veternik, Futog, Petrovaradin, Telep, Detelinara</p> 
+          
+            <p>Unoplast – specijalisti za komarnike (fiksni, rolo, plise, vrata) u Novom Sadu. Plus PVC i ALU stolarija, roletne, zavese, garažna vrata – sve po meri, sa ugradnjom.</p>
+          
+          <a href="/izvodjaci/novi-sad/unoplast-novi-sad-komarnici-stolarija/">Pročitaj više</a>
+        </div>
+      </div>
+    
+      
+      
+      <div class="majstor-kartica" data-tip="firma" data-kategorija="PVC Stolarija,PVC Prozori,PVC Vrata,Balkonska Vrata,Ulazna Vrata,Roletne,Komarnici,Rolo Zavese" data-mesto="Subotica,Palić,Bačka Topola,Sombor,Kula,Kanjiža,Senta,Ada" style="display: none;">
+        <img loading="lazy" src="/images/rolometal-subotica-pvc-stolarija-salamander.webp" alt="Rolometal Subotica - PVC Stolarija Salamander i Winner thumbnail" class="majstor-image">
+        <div class="majstor-content">
+          <h3>Rolometal Subotica - PVC Stolarija Salamander i Winner</h3>
           <p><strong>Izvođač: </strong>Firma</p>
           <p><strong>Usluge: </strong>PVC Stolarija, PVC Prozori, PVC Vrata, Balkonska Vrata, Ulazna Vrata, Roletne, Komarnici, Rolo Zavese</p> 
           <p><strong>Mesto: </strong>Subotica, Palić, Bačka Topola, Sombor, Kula, Kanjiža, Senta, Ada</p> 
           
-            <p>Rolometal – PVC stolarija Salamander u Subotici. Prozori, vrata, roletne, komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja po meri, transport i ugradnja.</p>
+            <p>Rolometal – PVC stolarija Salamander i Winner u Subotici. Prozori, vrata, roletne, komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja po meri, transport i ugradnja.</p>
           
           <a href="/izvodjaci/subotica/rolometal-subotica-pvc-stolarija-salamander/">Pročitaj više</a>
         </div>

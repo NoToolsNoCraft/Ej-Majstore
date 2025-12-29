@@ -25,7 +25,7 @@ slug: proline-pvc-sistemi-novi-sad-subotica
 opening_hours:
 thumbnail: images/proline-pvc-sistemi-novi-sad-subotica.webp
 hero_image: images/proline-pvc-sistemi-novi-sad-subotica.webp
-discover_title: ProLine Vojvodina - PVC Koji Ne Pušta Hladnoću
+discover_title: ProLine PVC Sistemi - PVC Stolarija Koju Tražite
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih

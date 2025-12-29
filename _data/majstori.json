@@ -1,10 +1,635 @@
 [
 
   {
-  "ime": "Rolometal Subotica - PVC Stolarija Salamander",
+  "ime": "Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala",
+  "tip": "firma",
+  "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kombi Selidbe", "Kamionske Selidbe", "Selidbe Firmi", "Međunarodne Selidbe", "Montaža Nameštaja"],
+  "opis_kratak": "Selidbe Stošić – profesionalni prevoz nameštaja i selidbe u Beogradu 15 godina. Kombi/kamion, podizanje na kanape, montaža, zaštita – brzo, sigurno, pristupačno.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Zvezdara", "Palilula"],
+  "adresa": "Vodovodska 177 i2, Beograd",
+  "telefon": "+381631111154",
+  "email": "kontakt@selidbe-stosic.com",
+  "website": "",
+  "slug": "selidbe-stosic-beograd-prevoz-namestaja",
+  "thumbnail": "images/selidbe-stosic-beograd-prevoz-namestaja.webp",
+  "hero_image": "images/selidbe-stosic-beograd-prevoz-namestaja.webp",
+  "discover_title": "Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-29",
+  "last_modified": "2025-12-29",
+  "tips_title": "Kako da Selidba Nameštaja Prođe Bez Oštećenja",
+  "tips": [
+    "Podizanje na kanape – za visoke spratove",
+    "Zaštita stvari – sve stiže celo",
+    "Prevoz iz Ikea/Forma Ideale – direktno kući",
+    "Montaža na licu mesta – sve radi"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/prevoz-namestaja-beograd/\">Selidba nameštaja u Beogradu</a> zna da bude pravi izazov – uski prolazi, visoki spratovi bez lifta, gužva u saobraćaju. Selidbe Stošić to rešava sa 15 godina iskustva – podizanje na kanape, zaštita, prevoz iz salona direktno kući."
+    },
+    {
+      "type": "p",
+      "content": "Specijalnost: prevoz nameštaja – Ikea, Forma Ideale, starinski komadi."
+    },
+    {
+      "type": "h2",
+      "content": "Selidbe Stošić – Nameštaj Sigurno Na Odredište"
+    },
+    {
+      "type": "p",
+      "content": "Stošić koristi kombi i kamion, kanape za spratove, zaštitu za svaki komad. Montaža, demontaža – sve u paketu."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za selidbu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381631111154\">063 111 11 54</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@selidbe-stosic.com\">kontakt@selidbe-stosic.com</a><br>📍 <strong>Adresa:</strong> Vodovodska 177 i2, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Prevoza Do Montaže"
+    },
+    {
+      "type": "h3",
+      "content": "Prevoz Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Iz salona, stanova – kombi/kamion."
+    },
+    {
+      "type": "h3",
+      "content": "Podizanje Na Kanape"
+    },
+    {
+      "type": "p",
+      "content": "Visoki spratovi – bez problema."
+    },
+    {
+      "type": "h3",
+      "content": "Montaža/Demontaža"
+    },
+    {
+      "type": "p",
+      "content": "Sve komade – precizno."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Stanova/Firmi"
+    },
+    {
+      "type": "p",
+      "content": "Kompletne – sa zaštitom."
+    },
+    {
+      "type": "h3",
+      "content": "Međunarodne Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Inostranstvo – organizovano."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Stošić – Jer 15 Godina Znače Mnogo"
+    },
+    {
+      "type": "p",
+      "content": "Iskustvo, oprema, pristupačne cene – nameštaj stiže neoštećen."
+    },
+    {
+      "type": "p",
+      "content": "Selidba u planu? Pozovite Stošić na <a href=\"tel:+381631111154\"><strong>063 111 11 54</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Prevoz Nameštaja",
+      "description": "Iz salona, stanova – sa zaštitom."
+    },
+    {
+      "title": "Podizanje Na Kanape",
+      "description": "Visoki spratovi."
+    },
+    {
+      "title": "Montaža/Demontaža",
+      "description": "Sve komade."
+    },
+    {
+      "title": "Selidbe Stanova",
+      "description": "Kompletne."
+    },
+    {
+      "title": "Selidbe Firmi",
+      "description": "Bez zastoja."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li podizanje na kanape?",
+      "answer": "Da – za visoke spratove."
+    },
+    {
+      "question": "Prevozite li iz Ikea?",
+      "answer": "Da – direktno kući."
+    },
+    {
+      "question": "Imate li montažu?",
+      "answer": "Da – sve postavljeno."
+    },
+    {
+      "question": "Radite li inostranstvo?",
+      "answer": "Da – međunarodne selidbe."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i Srbija."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 111 11 54."
+    }
+  ]
+},
+
+  {
+  "ime": "Alisa Selidbe Beograd - Nameštaj Stiže Ceo",
+  "tip": "firma",
+  "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kombi Selidbe", "Kamionske Selidbe", "Selidbe Firmi", "Međunarodne Selidbe", "Montaža Nameštaja"],
+  "opis_kratak": "Alisa Selidbe – profesionalni prevoz nameštaja i selidbe u Beogradu. Kombi ili kamion, demontaža/montaža, zaštita stvari – brzo, sigurno, povoljno. Beograd i inostranstvo.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Voždovac", "Zvezdara"],
+  "adresa": "Pive Karamatijevića 10, Beograd",
+  "telefon": "+38166128128",
+  "email": "selidbealisa@gmail.com",
+  "website": "",
+  "slug": "alisa-selidbe-beograd-prevoz-namestaja",
+  "thumbnail": "images/alisa-selidbe-beograd-prevoz-namestaja.webp",
+  "hero_image": "images/alisa-selidbe-beograd-prevoz-namestaja.webp",
+  "discover_title": "Alisa Selidbe Beograd - Nameštaj Stiže Ceo",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-29",
+  "last_modified": "2025-12-29",
+  "tips_title": "Kako da Prevoz Nameštaja Prođe Bez Oštećenja",
+  "tips": [
+    "Demontaža – lakše nošenje",
+    "Zaštita kartonom i folijom – nema ogrebotina",
+    "Kombi za grad, kamion za veće – po potrebi",
+    "Montaža na licu mesta – sve radi odmah"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/prevoz-namestaja-beograd/\">Prevoz Nameštaja Beograd</a> › Alisa"
+    },
+    {
+      "type": "p",
+      "content": "Selidba nameštaja je uvek izazov – veliki komadi, uski prolazi, strah od ogrebotina. U Beogradu, Alisa Selidbe to rešava bez muke. Demontaža, zaštita, prevoz kombijem ili kamionom, montaža – sve da nameštaj stigne kao nov."
+    },
+    {
+      "type": "p",
+      "content": "Alisa je specijalista za prevoz nameštaja – od starinskog do modernog. Ako tražite pouzdan <a href=\"/prevoz-namestaja-beograd/\">transport nameštaja u Beogradu</a>, oni su pravi izbor."
+    },
+    {
+      "type": "h2",
+      "content": "Alisa Selidbe – Nameštaj Pod Kontrolom"
+    },
+    {
+      "type": "p",
+      "content": "Sa iskustvom u selidbama stanova, kuća, firmi – Alisa zna kako da nameštaj prođe kroz vrata, stepenice, lift. Zaštita kartonom, streč folijom, drvenim okvirima – sve sigurno."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za selidbu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38166128128\">066 128 128</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381112466726\">011 24 66 726</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:selidbealisa@gmail.com\">selidbealisa@gmail.com</a><br>📍 <strong>Adresa:</strong> Pive Karamatijevića 10, Beograd"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Demontaže Do Montaže"
+    },
+    {
+      "type": "h3",
+      "content": "Prevoz Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Kombi ili kamion – po količini."
+    },
+    {
+      "type": "h3",
+      "content": "Demontaža i Montaža"
+    },
+    {
+      "type": "p",
+      "content": "Sve se rastavlja i sastavlja."
+    },
+    {
+      "type": "h3",
+      "content": "Zaštita Stvari"
+    },
+    {
+      "type": "p",
+      "content": "Kartoni, folija – nema oštećenja."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Stanova i Firmi"
+    },
+    {
+      "type": "p",
+      "content": "Kompletne – sa pakovanjem."
+    },
+    {
+      "type": "h3",
+      "content": "Međunarodne Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Inostranstvo – sve organizovano."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Alisa – Jer Nameštaj Stiže Ceo"
+    },
+    {
+      "type": "p",
+      "content": "Iskuštvo, oprema, pažnja – sve za bezbedan prevoz."
+    },
+    {
+      "type": "p",
+      "content": "Selidba pred vratima? Pozovite Alisu na <a href=\"tel:+38166128128\"><strong>066 128 128</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Prevoz Nameštaja",
+      "description": "Kombi/kamion – sa zaštitom."
+    },
+    {
+      "title": "Demontaža i Montaža",
+      "description": "Sve komade – precizno."
+    },
+    {
+      "title": "Selidbe Stanova",
+      "description": "Kompletne – sa pakovanjem."
+    },
+    {
+      "title": "Selidbe Firmi",
+      "description": "Bez zastoja u radu."
+    },
+    {
+      "title": "Međunarodne Selidbe",
+      "description": "Inostranstvo – organizovano."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li demontažu?",
+      "answer": "Da – i montažu."
+    },
+    {
+      "question": "Imate li zaštitu?",
+      "answer": "Da – karton, folija."
+    },
+    {
+      "question": "Radite li inostranstvo?",
+      "answer": "Da – međunarodne selidbe."
+    },
+    {
+      "question": "Imate li kamion?",
+      "answer": "Da – za veće selidbe."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i Srbija."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "066 128 128."
+    }
+  ]
+},
+
+  {
+  "ime": "Ajkula Selidbe Beograd - Kada Transport Mora Da Bude Brz i Siguran",
+  "tip": "firma",
+  "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kombi Selidbe", "Kamionske Selidbe", "Selidbe Firmi", "Transport Robe", "Montaža i Demontaža Nameštaja"],
+  "opis_kratak": "Ajkula Selidbe – profesionalne kombi i kamionske selidbe u Beogradu od 2006. Selidbe stanova, kuća, firmi, prevoz nameštaja, montaža. Brzo, pouzdano, full zaštita stvari. Beograd i Srbija.",
+  "mesto": ["Beograd", "Novi Beograd", "Zemun", "Vračar", "Surčin"],
+  "adresa": "Beograd, Srbija",
+  "telefon": "+381642819025",
+  "email": "",
+  "website": "",
+  "slug": "ajkula-selidbe-beograd-prevoz-namestaja",
+  "thumbnail": "images/ajkula-selidbe-beograd-prevoz-namestaja.webp",
+  "hero_image": "images/ajkula-selidbe-beograd-prevoz-namestaja.webp",
+  "discover_title": "Ajkula Selidbe Beograd - Kada Transport Mora Da Bude Brz i Siguran",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-29",
+  "last_modified": "2025-12-29",
+  "tips_title": "Kako da Selidba Prođe Bez Stresa",
+  "tips": [
+    "Zaštita nameštaja – sve stiže celo",
+    "Montaža/demontaža – ne morate sami",
+    "Kombi ili kamion – po vašoj kvadraturi",
+    "Fiksna cena – nema iznenađenja"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/prevoz-namestaja-beograd/\">Prevoz Nameštaja Beograd</a> › Ajkula"
+    },
+    {
+      "type": "p",
+      "content": "Selidba je uvek avantura – kutije svuda, nameštaj koji ne prolazi kroz vrata, a rokovi pritiskaju. U Beogradu, Ajkula Selidbe je ekipa koja to pretvara u šetnju. Od 2006. rade kombi i kamionske selidbe – stanova, kuća, firmi, prevoz nameštaja. Full zaštita stvari, obučeni radnici, evropski nivo usluge po fer ceni."
+    },
+    {
+      "type": "p",
+      "content": "Ajkula nije samo prevoznik – oni pakuju, nose, montiraju, demontiraju. Ako tražite izvođača za <a href=\"/prevoz-namestaja-beograd/\">transport nameštaja u Beogradu</a>, oni su među najboljima."
+    },
+    {
+      "type": "h2",
+      "content": "Ajkula Selidbe – Kada Treba Brzo i Sigurno"
+    },
+    {
+      "type": "p",
+      "content": "Sa 20 godina iskustva, Ajkula je izbor salona nameštaja i firmi – jer znaju da stvari stignu cele. Kombi za male selidbe, kamion za velike – sve sa zaštitom i montažom."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za selidbu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381642819025\">064 281 90 25</a>"
+    },
+    {
+      "type": "h2",
+      "content": "Usluge – Od Pakovanja Do Montaže"
+    },
+    {
+      "type": "h3",
+      "content": "Kombi Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Mali stanovi, nameštaj – brzo i povoljno."
+    },
+    {
+      "type": "h3",
+      "content": "Kamionske Selidbe"
+    },
+    {
+      "type": "p",
+      "content": "Velike kuće, firme – sve na vreme."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Firmi"
+    },
+    {
+      "type": "p",
+      "content": "Kancelarije – bez prekida rada."
+    },
+    {
+      "type": "h3",
+      "content": "Prevoz i Montaža Nameštaja"
+    },
+    {
+      "type": "p",
+      "content": "Od salona do stana – sve montirano."
+    },
+    {
+      "type": "h3",
+      "content": "Selidbe Sa Radnicima"
+    },
+    {
+      "type": "p",
+      "content": "Pakovanje, nošenje – vi samo kažete gde."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Ajkula – Jer Rade Kao Tim"
+    },
+    {
+      "type": "p",
+      "content": "Obučeni radnici, zaštita stvari, poštovanje rokova – i preporuke salona nameštaja."
+    },
+    {
+      "type": "p",
+      "content": "Selidba pred vratima? Pozovite Ajkulu na <a href=\"tel:+381642819025\"><strong>064 281 90 25</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Kombi Selidbe",
+      "description": "Mali stanovi, nameštaj – brzo."
+    },
+    {
+      "title": "Kamionske Selidbe",
+      "description": "Velike kuće, firme."
+    },
+    {
+      "title": "Selidbe Firmi",
+      "description": "Kancelarije – bez zastoja."
+    },
+    {
+      "title": "Prevoz Nameštaja",
+      "description": "Sa montažom."
+    },
+    {
+      "title": "Selidbe Sa Radnicima",
+      "description": "Pakovanje i nošenje."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Imate li zaštitu stvari?",
+      "answer": "Da – full zaštita nameštaja."
+    },
+    {
+      "question": "Radite li montažu?",
+      "answer": "Da – demontaža i montaža."
+    },
+    {
+      "question": "Koliko brzo dolazite?",
+      "answer": "Brzo – po dogovoru."
+    },
+    {
+      "question": "Imate li kamion?",
+      "answer": "Da – za veće selidbe."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Beograd i Srbija."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "064 281 90 25."
+    }
+  ]
+},
+
+  {
+  "ime": "Unoplast Novi Sad - Komarnici i Stolarija",
+  "tip": "firma",
+  "kategorija": ["Komarnici", "PVC Stolarija", "ALU Stolarija", "Roletne", "Zavese", "Harmonika Vrata", "Garažna Vrata", "Podprozorske Daske"],
+  "opis_kratak": "Unoplast – specijalisti za komarnike (fiksni, rolo, plise, vrata) u Novom Sadu. Plus PVC i ALU stolarija, roletne, zavese, garažna vrata – sve po meri, sa ugradnjom.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Telep", "Detelinara"],
+  "adresa": "Koste Abraševića 47, Novi Sad",
+  "telefon": "+38163454399",
+  "email": "info@unoplast.rs",
+  "website": "",
+  "slug": "unoplast-novi-sad-komarnici-stolarija",
+  "thumbnail": "images/unoplast-novi-sad-komarnici-stolarija.webp",
+  "hero_image": "images/unoplast-novi-sad-komarnici-stolarija.webp",
+  "discover_title": "Unoplast Novi Sad - Komarnici i Stolarija",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2025-12-28",
+  "last_modified": "2025-12-28",
+  "tips_title": "Kako da Leto Bude Bez Zujanja",
+  "tips": [
+    "Plise komarnici – za balkon bez prepreka",
+    "Rolo – namota se kada ne treba",
+    "Fiksni – potpuna zaštita za prozore",
+    "Vrata komarnik – sa magnetom za lako zatvaranje",
+    "Mere na licu mesta – sve tačno"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Unoplast"
+    },
+    {
+      "type": "p",
+      "content": "Leto u Novom Sadu ne mora značiti borbu sa insektima. Unoplast nudi vrhunska rešenja za komarnike po meri u Novom Sadu – od elegantnih plise sistema do izdržljivih rolo i fiksnih mrežica koje garantuju miran san bez hemije."
+    },
+    {
+      "type": "p",
+      "content": "Kao jedan od lidera u našem pregledu za <strong><a href=\"/komarnici-novi-sad/\">najbolje komarnike u Novom Sadu</a></strong>, ovaj tim je prepoznat po preciznoj ugradnji i dugotrajnosti. Pored zaštite od insekata, Unoplast je stručan i za PVC stolariju, roletne i garažna vrata, čineći ih kompletnim partnerom za vaš dom."
+    },
+    {
+      "type": "h2",
+      "content": "Unoplast – Komarnici Koji Rade Posao"
+    },
+    {
+      "type": "p",
+      "content": "Unoplast je specijalista za komarnike – četiri vrste za svaku potrebu. Fiksni za prozore, rolo za zalivanje cveća, plise za balkon, vrata sa magnetom za prolaz."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za mere:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163454399\">063 454 399</a> / <a href=\"tel:+381645967027\">064 596 70 27</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381212702208\">021 270 220 8</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@unoplast.rs\">info@unoplast.rs</a><br>📍 <strong>Adresa:</strong> Koste Abraševića 47, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Komarnici i Više"
+    },
+    {
+      "type": "p",
+      "content": "Unoplast nudi:"
+    },
+    {
+      "type": "h3",
+      "content": "Komarnici"
+    },
+    {
+      "type": "p",
+      "content": "Fiksni, rolo, plise, vrata – fiberglas mreža otporna na sve."
+    },
+    {
+      "type": "h3",
+      "content": "PVC i ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Prozori, vrata – kvalitetni profili."
+    },
+    {
+      "type": "h3",
+      "content": "Roletne i Zavese"
+    },
+    {
+      "type": "p",
+      "content": "Zaštita od sunca i pogleda."
+    },
+    {
+      "type": "h3",
+      "content": "Harmonika i Garažna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Praktična rešenja za prostor."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Unoplast – Jer Znaju Komarnike"
+    },
+    {
+      "type": "p",
+      "content": "Mere na licu mesta, ugradnja bez problema – leto bez insekata."
+    },
+    {
+      "type": "p",
+      "content": "Komarnici potrebni? Pozovite Unoplast na <a href=\"tel:+38163454399\"><strong>063 454 399</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Komarnici",
+      "description": "Fiksni, rolo, plise, vrata – po meri."
+    },
+    {
+      "title": "PVC i ALU Stolarija",
+      "description": "Prozori, vrata – kvalitet."
+    },
+    {
+      "title": "Roletne i Zavese",
+      "description": "Zaštita od sunca."
+    },
+    {
+      "title": "Harmonika Vrata",
+      "description": "Praktičnost."
+    },
+    {
+      "title": "Garažna Vrata",
+      "description": "Sigurnost i udobnost."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Imate li plise komarnike?",
+      "answer": "Da – za balkon."
+    },
+    {
+      "question": "Radite li rolo?",
+      "answer": "Da – namotaju se."
+    },
+    {
+      "question": "Mere na licu mesta?",
+      "answer": "Da – besplatno."
+    },
+    {
+      "question": "Radite li stolariju?",
+      "answer": "Da – PVC i ALU."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "063 454 399."
+    }
+  ]
+},
+
+  {
+  "ime": "Rolometal Subotica - PVC Stolarija Salamander i Winner",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Balkonska Vrata", "Ulazna Vrata", "Roletne", "Komarnici", "Rolo Zavese"],
-  "opis_kratak": "Rolometal – PVC stolarija Salamander u Subotici. Prozori, vrata, roletne, komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja po meri, transport i ugradnja.",
+  "opis_kratak": "Rolometal – PVC stolarija Salamander i Winner u Subotici. Prozori, vrata, roletne, komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja po meri, transport i ugradnja.",
   "mesto": ["Subotica", "Palić", "Bačka Topola", "Sombor", "Kula", "Kanjiža", "Senta", "Ada"],
   "adresa": "382. Nova 9/a, Subotica",
   "telefon": "+381638398716",
@@ -13,7 +638,7 @@
   "slug": "rolometal-subotica-pvc-stolarija-salamander",
   "thumbnail": "images/rolometal-subotica-pvc-stolarija-salamander.webp",
   "hero_image": "images/rolometal-subotica-pvc-stolarija-salamander.webp",
-  "discover_title": "Rolometal Subotica - PVC Stolarija Salamander",
+  "discover_title": "Rolometal Subotica - PVC Stolarija Salamander i Winner",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
@@ -34,7 +659,7 @@
     },
     {
       "type": "p",
-      "content": "U Subotici, kada želite PVC stolariju koja ne pušta hladnoću, ne bledi i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata, roletne, komarnici – sve po meri, sa transportom i ugradnjom."
+      "content": "U Subotici, kada želite PVC stolariju koja ne pušta hladnoću, ne bledi i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander i Winner profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata, roletne, komarnici – sve po meri, sa transportom i ugradnjom."
     },
     {
       "type": "p",
@@ -42,11 +667,11 @@
     },
     {
       "type": "h2",
-      "content": "Rolometal – Salamander Kvalitet U Subotici"
+      "content": "Rolometal – Salamander i Winner Kvalitet U Subotici"
     },
     {
       "type": "p",
-      "content": "Rolometal koristi Salamander profile – višekomorne, sa odličnom izolacijom. Proizvodnja po meri, precizna montaža – sve da dom bude topao, tih i lep."
+      "content": "Rolometal koristi Salamander i Winner profile – višekomorne, sa odličnom izolacijom. Proizvodnja po meri, precizna montaža – sve da dom bude topao, tih i lep."
     },
     {
       "type": "p",
@@ -62,7 +687,7 @@
     },
     {
       "type": "h3",
-      "content": "PVC Prozori"
+      "content": "PVC Prozori i Vrata"
     },
     {
       "type": "p",
@@ -90,16 +715,9 @@
     },
     {
       "type": "p",
-      "content": "Rolo, fiksni – zaštita od insekata."
+      "content": "Rolo, fiksni i plise – zaštita od insekata."
     },
-    {
-      "type": "h3",
-      "content": "Roletne i Rolo Zavese"
-    },
-    {
-      "type": "p",
-      "content": "Kontrola svetlosti – moderan izgled."
-    },
+    
     {
       "type": "h2",
       "content": "Zašto Rolometal – Jer Salamander Traje"
@@ -10506,7 +11124,7 @@
   
     {
       "type": "p",
-      "content": "Načini na koje ih možete kontaktirati:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381611321324\">061 132 1324</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:insectokomarnici@gmail.com\">insectokomarnici@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://www.insecto.rs/\" target=\"_blank\" rel=\"nofollow\">insecto.rs</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/insectokomarnici/\" target=\"_blank\" rel=\"nofollow\">Facebook</a><br>🌐 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/insecto.rs/\" target=\"_blank\" rel=\"nofollow\">Instagram</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/PnkghKUymBbwZCo86\" target=\"_blank\" rel=\"nofollow\">Dimitrije Bugarskog 24b, Novi Sad</a>"
+      "content": "Načini na koje ih možete kontaktirati:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381611321324\">061 132 1324</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:insectokomarnici@gmail.com\">insectokomarnici@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/insectokomarnici/\" target=\"_blank\" rel=\"nofollow\">Facebook</a><br>🌐 <strong>Instagram:</strong> <a href=\"https://www.instagram.com/insecto.rs/\" target=\"_blank\" rel=\"nofollow\">Instagram</a><br>📍 <strong>Lokacija:</strong> <a href=\"https://maps.app.goo.gl/PnkghKUymBbwZCo86\" target=\"_blank\" rel=\"nofollow\">Dimitrije Bugarskog 24b, Novi Sad</a>"
     },
 
     {

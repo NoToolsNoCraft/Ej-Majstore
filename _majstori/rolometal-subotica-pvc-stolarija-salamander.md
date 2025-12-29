@@ -1,11 +1,11 @@
 ---
 layout: majstor_profil
-title: Rolometal Subotica - PVC Stolarija Salamander
-description: Rolometal – PVC stolarija Salamander u Subotici. Prozori, vrata, roletne,
-  komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja po meri,
-  transport i ugradnja. u Subotica, Palić, Bačka Topola, Sombor, Kula, Kanjiža, Senta,
-  Ada.
-ime: Rolometal Subotica - PVC Stolarija Salamander
+title: Rolometal Subotica - PVC Stolarija Salamander i Winner
+description: Rolometal – PVC stolarija Salamander i Winner u Subotici. Prozori, vrata,
+  roletne, komarnici – energetski efikasni, otporni, sa modernim dizajnom. Proizvodnja
+  po meri, transport i ugradnja. u Subotica, Palić, Bačka Topola, Sombor, Kula, Kanjiža,
+  Senta, Ada.
+ime: Rolometal Subotica - PVC Stolarija Salamander i Winner
 kategorija:
 - PVC Stolarija
 - PVC Prozori
@@ -25,7 +25,7 @@ slug: rolometal-subotica-pvc-stolarija-salamander
 opening_hours:
 thumbnail: images/rolometal-subotica-pvc-stolarija-salamander.webp
 hero_image: images/rolometal-subotica-pvc-stolarija-salamander.webp
-discover_title: Rolometal Subotica - PVC Stolarija Salamander
+discover_title: Rolometal Subotica - PVC Stolarija Salamander i Winner
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
@@ -39,17 +39,18 @@ sections:
   content: <a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › Rolometal
 - type: p
   content: U Subotici, kada želite PVC stolariju koja ne pušta hladnoću, ne bledi
-    i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander profile
-    – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata, roletne, komarnici
-    – sve po meri, sa transportom i ugradnjom.
+    i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander i
+    Winner profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata,
+    roletne, komarnici – sve po meri, sa transportom i ugradnjom.
 - type: p
   content: Salamander nije običan PVC – otporan na UV, vlagu, mehanička oštećenja.
     Plus boje drveta i aluminijuma – za svaki stil.
 - type: h2
-  content: Rolometal – Salamander Kvalitet U Subotici
+  content: Rolometal – Salamander i Winner Kvalitet U Subotici
 - type: p
-  content: Rolometal koristi Salamander profile – višekomorne, sa odličnom izolacijom.
-    Proizvodnja po meri, precizna montaža – sve da dom bude topao, tih i lep.
+  content: Rolometal koristi Salamander i Winner profile – višekomorne, sa odličnom
+    izolacijom. Proizvodnja po meri, precizna montaža – sve da dom bude topao, tih
+    i lep.
 - type: p
   content: "Pozovite za merenje:<br>\U0001F4DE <strong>Poziv:</strong> <a href=\"tel:+381638398716\">063
     839 8716</a><br>\U0001F4DE <strong>Fiksni:</strong> <a href=\"tel:+38124534470\">024
@@ -60,7 +61,7 @@ sections:
 - type: p
   content: 'Rolometal nudi:'
 - type: h3
-  content: PVC Prozori
+  content: PVC Prozori i Vrata
 - type: p
   content: Maksimalna izolacija – tišina i toplina.
 - type: h3
@@ -74,11 +75,7 @@ sections:
 - type: h3
   content: Komarnici
 - type: p
-  content: Rolo, fiksni – zaštita od insekata.
-- type: h3
-  content: Roletne i Rolo Zavese
-- type: p
-  content: Kontrola svetlosti – moderan izgled.
+  content: Rolo, fiksni i plise – zaštita od insekata.
 - type: h2
   content: Zašto Rolometal – Jer Salamander Traje
 - type: p
