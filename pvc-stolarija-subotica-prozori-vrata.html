@@ -6,7 +6,7 @@ permalink: /pvc-stolarija-subotica/
 canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
 ---
 
-<!-- COLLECTIONPAGE + ITEMLIST SCHEMA – ažurirano sa 6 firmi -->
+<!-- SCHEMA – ažurirano za lead generation (uklonjen premium slot, 6 firmi) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -23,23 +23,13 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
         "position": 1,
         "item": {
           "@type": "LocalBusiness",
-          "name": "Istaknuta firma – Top preporuka",
-          "description": "Postanite istaknuti partner i preuzmite sve direktne upite za PVC stolariju u Subotici.",
-          "url": "https://ejmajstore.rs/kontakt/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "LocalBusiness",
           "name": "Čantaplast Bačko Dušanovo",
           "url": "https://ejmajstore.rs/izvodjaci/backo-dusanovo/cantaplast-backo-dusanovo-pvc-drvena-stolarija/"
         }
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 2,
         "item": {
           "@type": "LocalBusiness",
           "name": "AR Company Subotica",
@@ -48,7 +38,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 3,
         "item": {
           "@type": "LocalBusiness",
           "name": "Koral SU Subotica",
@@ -57,7 +47,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 4,
         "item": {
           "@type": "LocalBusiness",
           "name": "Rolometal Subotica",
@@ -66,7 +56,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       },
       {
         "@type": "ListItem",
-        "position": 6,
+        "position": 5,
         "item": {
           "@type": "LocalBusiness",
           "name": "ProLine PVC Sistemi",
@@ -75,7 +65,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       },
       {
         "@type": "ListItem",
-        "position": 7,
+        "position": 6,
         "item": {
           "@type": "LocalBusiness",
           "name": "Joviste Palić",
@@ -110,7 +100,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
 </script>
 
 <style>
-  /* Stilovi prilagođeni novom šablonu – zelenkasti tonovi za PVC */
+  /* Zeleni tonovi za PVC stolariju */
   .category-hero{background:linear-gradient(135deg,#2d7748,#4caf50);color:white;padding:6rem 1rem 5rem;text-align:center;margin-bottom:4rem;position:relative;overflow:hidden;margin-top:1rem;border-radius:2rem}
   .category-hero h1{font-size:clamp(2.4rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;color:white}
   .category-hero p{font-size:1.25rem;max-width:820px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6}
@@ -125,7 +115,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   .services-intro{max-width:900px;margin:0 auto 4rem;padding:0 1rem;line-height:1.8;font-size:1.12rem}
   .services-intro ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.3rem;margin:3rem 0;padding:0;list-style:none}
   .services-intro li{background:#fff;padding:1.3rem;border-radius:14px;border:4px solid #4caf50;box-shadow:0 3px 10px rgba(0,0,0,.07)}
-  .services-intro li strong{display:block;margin-bottom:.5rem;font-size:1.05rem}
+  .services-intro li strong{display:block;margin-bottom:.5rem;font-size:1.05rem;color:#2d7748}
 
   .business-grid-container{max-width:1160px;margin:4rem auto;padding:0 1rem;display:flex;flex-direction:column;gap:2.5rem}
   .premium-promo{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);border:3px dashed #4caf50;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(76,175,80,.15);text-align:center;padding:2.5rem 1.5rem;transition:all .35s ease}
@@ -133,16 +123,21 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   .premium-promo .badge{background:#4caf50;color:white;padding:6px 16px;border-radius:30px;font-size:0.9rem;font-weight:bold;letter-spacing:0.5px}
   .premium-promo h3{font-size:2rem;margin:1.5rem 0 1rem;color:#1b5e20}
   .premium-promo p{font-size:1.15rem;color:#33691e;line-height:1.6;max-width:800px;margin:0 auto 2rem}
-  .premium-promo .contact-btn{background:#4caf50;color:white;padding:1rem 2.5rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
+  .premium-promo .contact-buttons{display:flex;justify-content:center;align-items:center;gap:1.2rem;flex-wrap:wrap;margin-top:1.5rem}
+  .premium-promo .contact-btn{background:#4caf50;color:white;padding:1rem 2.2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
   .premium-promo .contact-btn:hover{background:#388e3c;transform:translateY(-4px)}
+  .premium-promo .contact-btn.whatsapp{background:#25D366}
+  .premium-promo .contact-btn.whatsapp:hover{background:#128C7E}
+  .premium-promo .contact-btn.viber{background:#665cac}
+  .premium-promo .contact-btn.viber:hover{background:#5a4a9a}
 
   .business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:2rem}
 
   .business-card{background:white;border:2px solid #000;border-radius:16px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.08);transition:all .35s ease}
   .business-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,.18)}
-  .business-header{background:linear-gradient(135deg,#f8f9fa,#fff);padding:1.4rem;text-align:center;border-bottom:1px dashed #ddd}
-  .business-header h3{margin:0;font-size:1.35rem;color:#1f2937}
-  .business-header .location{font-size:.98rem;color:#6b7280;margin-top:.5rem}
+  .business-header{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);padding:1.4rem;text-align:center;border-bottom:1px dashed #a5d6a7}
+  .business-header h3{margin:0;font-size:1.35rem;color:#1b5e20}
+  .business-header .location{font-size:.98rem;color:#2e7d32;margin-top:.5rem}
   .business-body{padding:1.4rem}
   .business-body p{margin:0 0 1.2rem;color:#4b5563;font-size:.98rem;line-height:1.5}
   .contact-buttons{display:flex;flex-direction:column;gap:.8rem}
@@ -154,7 +149,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   .intent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.8rem;max-width:1160px;margin:5rem auto 6rem;padding:0 1rem}
   .intent-card{background:white;border:2px solid #4caf50;border-radius:18px;padding:1.8rem;box-shadow:0 6px 20px rgba(76,175,80,.1);transition:all .35s ease;position:relative;overflow:hidden}
   .intent-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(76,175,80,.18)}
-  .intent-card h3{font-size:1.35rem;margin:0 0 1rem;color:#1f2937;position:relative;z-index:2}
+  .intent-card h3{font-size:1.35rem;margin:0 0 1rem;color:#1b5e20;position:relative;z-index:2}
   .intent-card p{margin:0;line-height:1.7;color:#4b5563;font-size:1.02rem;position:relative;z-index:2}
 
   .section-separator{display:flex;align-items:center;justify-content:center;gap:1.5rem;margin:6rem auto 4rem;max-width:1160px;padding:0 1rem}
@@ -162,33 +157,18 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   .separator-text{font-size:1.15rem;font-weight:600;color:#4caf50;background:white;padding:0 1.5rem}
 
   .faq-section{max-width:1000px;margin:6rem auto 4rem;padding:0 1rem}
-  .faq-section h2{text-align:center;font-size:2.2rem;margin-bottom:3.5rem;color:#1f2937}
+  .faq-section h2{text-align:center;font-size:2.2rem;margin-bottom:3.5rem;color:#1b5e20}
   .faq-item{background:white;border-radius:16px;margin-bottom:1.2rem;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.08)}
-  .faq-question{padding:1.6rem 2rem;background:linear-gradient(135deg,#f8f9fa,#fff);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1.22rem;color:#1f2937}
+  .faq-question{padding:1.6rem 2rem;background:linear-gradient(135deg,#e8f5e9,#c8e6c9);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1.22rem;color:#1b5e20}
   .faq-question::after{content:"↓";font-size:1.8rem;margin-left:1rem;color:#4caf50;transition:transform .3s ease}
   .faq-item.active .faq-question::after{transform:rotate(180deg)}
   .faq-answer{padding:0 2rem;max-height:0;overflow:hidden;transition:all .4s ease;background:white}
   .faq-item.active .faq-answer{padding:1.8rem 2rem;max-height:300px}
   .faq-answer p{margin:0;line-height:1.75;color:#4b5563;font-size:1.05rem}
 
-  @media (max-width: 768px) {
-    .business-grid {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .intent-grid {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-  }
-
   @media (max-width: 480px) {
-    .business-grid,
-    .intent-grid {
-      grid-template-columns: 1fr;
-    }
-    .services-intro ul {
-      grid-template-columns: 1fr;
+    .premium-promo .contact-buttons{
+      flex-direction:column;
     }
   }
 </style>
@@ -197,8 +177,8 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
 <div class="category-hero">
   <h1>PVC Stolarija Subotica</h1>
   <p>Pronađite firme za PVC prozore, vrata, klizne sisteme i roletne u Subotici i okolini.</p>
-  <a href="#lista-firmi" class="scroll-cta">
-    <span>Pogledajte sve firme</span>
+  <a href="#lead-contact" class="scroll-cta">
+    <span>Dobijte ponudu odmah</span>
     <i class="fa-solid fa-angles-down"></i>
   </a>
 </div>
@@ -227,25 +207,42 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   Korisnici samostalno stupaju u kontakt sa navedenim firmama i odgovorni su za proveru uslova saradnje. Ukoliko ste imali negativno iskustvo sa nekim od izvođača, slobodno nam pišite na mejl ili zovite.
 </div>
 
-
-
-<!-- NOVI LAYOUT SA PREMIUM SLOTOM -->
-<div class="business-grid-container">
-
-  <!-- PREMIUM PROMO SLOT -->
-  <div class="premium-promo">
-    <span class="badge">ZAUZMITE PRVU POZICIJU</span>
-    <h3>Želite li da vaša firma bude istaknuta na vrhu liste?</h3>
-    <p>Postanite jedina <strong>preporučena firma</strong> za PVC stolariju u Subotici i primajte sve direktne upite pre konkurencije.</p>
-    <a href="tel:+381631050515" class="contact-btn">
-      <i class="fa-solid fa-phone"></i> Pozovite za detalje promocije
-    </a>
-  </div>
 <div id="lista-firmi"></div>
-  <!-- FREE KARTICE – stare 3 + nove 3 -->
+
+<!-- LEAD GENERATION SLOT -->
+<div id="lead-contact" class="business-grid-container">
+
+  <div class="premium-promo">
+    <span class="badge">BRZI KONTAKT</span>
+
+    <h3>Tražite PVC stolariju u Subotici?</h3>
+
+    <p>
+      Pozovite ili pišite i recite šta vam treba (dimenzije, broj prozora, vrsta profila, roletne ili komarnici). 
+      Povezujemo vas sa firmom koja je
+      <strong>dostupna za besplatno merenje</strong>.
+    </p>
+
+    <div class="contact-buttons">
+      <a href="tel:+381631050515" class="contact-btn">
+        <i class="fa-solid fa-phone"></i> Pozovite za ponudu
+      </a>
+      <a href="https://wa.me/381631050515" class="contact-btn whatsapp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Pišite na WhatsApp
+      </a>
+      <a href="viber://chat?number=%2B381631050515" class="contact-btn viber">
+        <i class="fa-brands fa-viber"></i> Pišite na Viber
+      </a>
+    </div>
+
+    <p style="margin-top:1.5rem;font-size:0.9rem;opacity:.85;">
+      *Kontakt služi isključivo za povezivanje sa firmama za PVC stolariju.
+    </p>
+  </div>
+
+  <!-- BESPLATNE KARTICE -->
   <div class="business-grid">
 
-    <!-- 1. Čantaplast -->
     <div class="business-card">
       <div class="business-header">
         <h3>Čantaplast – PVC i Drvo</h3>
@@ -259,7 +256,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       </div>
     </div>
 
-    <!-- 2. AR Company -->
     <div class="business-card">
       <div class="business-header">
         <h3>AR Company – PVC i ALU ograde</h3>
@@ -273,7 +269,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       </div>
     </div>
 
-    <!-- 3. Koral SU -->
     <div class="business-card">
       <div class="business-header">
         <h3>Koral SU – ALU i PVC</h3>
@@ -287,7 +282,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       </div>
     </div>
 
-    <!-- 4. Rolometal (nova) -->
     <div class="business-card">
       <div class="business-header">
         <h3>Rolometal – Salamander PVC</h3>
@@ -301,7 +295,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       </div>
     </div>
 
-    <!-- 5. ProLine (nova) -->
     <div class="business-card">
       <div class="business-header">
         <h3>ProLine PVC Sistemi</h3>
@@ -315,7 +308,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       </div>
     </div>
 
-    <!-- 6. Joviste Palić (nova) -->
     <div class="business-card">
       <div class="business-header">
         <h3>Joviste – Rehau i Alumil</h3>

@@ -159,8 +159,13 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
   .premium-promo .badge{background:#f57c00;color:white;padding:6px 16px;border-radius:30px;font-size:0.9rem;font-weight:bold;letter-spacing:0.5px}
   .premium-promo h3{font-size:2rem;margin:1.5rem 0 1rem;color:#e65100}
   .premium-promo p{font-size:1.15rem;color:#ef6c00;line-height:1.6;max-width:800px;margin:0 auto 2rem}
-  .premium-promo .contact-btn{background:#f57c00;color:white;padding:1rem 2.5rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
+  .premium-promo .contact-buttons{display:flex;justify-content:center;align-items:center;gap:1.2rem;flex-wrap:wrap;margin-top:1.5rem}
+  .premium-promo .contact-btn{background:#f57c00;color:white;padding:1rem 2.2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
   .premium-promo .contact-btn:hover{background:#e65100;transform:translateY(-4px)}
+  .premium-promo .contact-btn.whatsapp{background:#25D366}
+  .premium-promo .contact-btn.whatsapp:hover{background:#128C7E}
+  .premium-promo .contact-btn.viber{background:#665cac}
+  .premium-promo .contact-btn.viber:hover{background:#5a4a9a}
 
   .business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:2rem}
 
@@ -216,6 +221,9 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
     .services-intro ul {
       grid-template-columns: 1fr;
     }
+    .premium-promo .contact-buttons{
+      flex-direction:column;
+    }
   }
 </style>
 
@@ -223,8 +231,8 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
 <div class="category-hero">
   <h1>Prevoz Nameštaja Beograd</h1>
   <p>Pouzdane firme za selidbe i prevoz nameštaja u Beogradu – kombi i kamionski transport, podizanje na sprat, demontaža i montaža.</p>
-  <a href="#lista-firmi" class="scroll-cta">
-    <span>Brzo pronađite prevoznika</span>
+  <a href="#lead-contact" class="scroll-cta">
+    <span>Pozovite i dobijte ponudu odmah</span>
     <i class="fa-solid fa-angles-down"></i>
   </a>
 </div>
@@ -247,39 +255,42 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
 
 <h2>Lista firmi za prevoz nameštaja u Beogradu</h2>
 
-
-
 <div id="lista-firmi"></div>
 
-<!-- LAYOUT SA PREMIUM SLOTOM -->
-<div class="business-grid-container">
+<!-- LEAD GENERATION SLOT -->
+<div id="lead-contact" class="business-grid-container">
 
-  <!-- PREMIUM PROMO SLOT -->
-<div class="premium-promo">
-  <span class="badge">JEDNA ISTAKNUTA POZICIJA</span>
+  <div class="premium-promo">
+    <span class="badge">BRZI KONTAKT</span>
 
-  <h3>Prva pozicija u ovoj kategoriji je rezervisana za samo jednu firmu</h3>
+    <h3>Tražite prevoz nameštaja u Beogradu?</h3>
 
-  <p>
-    Firma u ovoj poziciji je <strong>jedina preporučena</strong> na vrhu stranice i dobija
-    najveći broj direktnih poziva i upita od korisnika koji traže
-    <strong>prevoz nameštaja u Beogradu</strong>.
-  </p>
+    <p>
+      Pozovite ili pišite i recite šta vam je potrebno (količina, sprat, lokacija). 
+      Na osnovu vašeg zahteva povezujemo vas sa firmom koja je
+      <strong>dostupna za termin i vrstu selidbe</strong>.
+    </p>
 
-  <p>
-    Ostale firme se prikazuju niže na listi bez istaknute preporuke.
-  </p>
+    <div class="contact-buttons">
+      <a href="tel:+381631050515" class="contact-btn">
+        <i class="fa-solid fa-phone"></i> Pozovite za ponudu
+      </a>
+      <a href="https://wa.me/381631050515" class="contact-btn whatsapp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Pišite na WhatsApp
+      </a>
+      <a href="viber://chat?number=%2B381631050515" class="contact-btn viber">
+        <i class="fa-brands fa-viber"></i> Pišite na Viber
+      </a>
+    </div>
 
-  <a href="tel:+381631050515" class="contact-btn">
-    <i class="fa-solid fa-phone"></i> Proverite dostupnost prve pozicije
-  </a>
-</div>
+    <p style="margin-top:1.5rem;font-size:0.9rem;opacity:.85;">
+      *Kontakt služi isključivo za povezivanje sa firmama za prevoz nameštaja.
+    </p>
+  </div>
 
-
-  <!-- FREE KARTICE – dodate 2 nove firme -->
+  <!-- FREE BUSINESS CARDS -->
   <div class="business-grid">
 
-    <!-- 1. Alisa Selidbe -->
     <div class="business-card">
       <div class="business-header">
         <h3>Alisa Selidbe – Prevoz nameštaja</h3>
@@ -293,7 +304,6 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
       </div>
     </div>
 
-    <!-- 2. Ajkula Selidbe -->
     <div class="business-card">
       <div class="business-header">
         <h3>Ajkula Selidbe – Kombi i kamion</h3>
@@ -307,7 +317,6 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
       </div>
     </div>
 
-    <!-- 3. Selidbe Stošić -->
     <div class="business-card">
       <div class="business-header">
         <h3>Selidbe Stošić – Podizanje kanapima</h3>
@@ -321,7 +330,6 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
       </div>
     </div>
 
-    <!-- 4. Star Selidbe (nova) -->
     <div class="business-card">
       <div class="business-header">
         <h3>Star Selidbe – Prevoz salona</h3>
@@ -335,7 +343,6 @@ canonical: https://ejmajstore.rs/prevoz-namestaja-beograd/
       </div>
     </div>
 
-    <!-- 5. Trans Auto Logistiks (nova) -->
     <div class="business-card">
       <div class="business-header">
         <h3>Trans Auto Logistiks – Kamionski prevoz</h3>
