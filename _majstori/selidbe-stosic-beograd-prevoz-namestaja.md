@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-29'
-last_modified: '2025-12-29'
+last_modified: '2026-01-03'
 sections:
 - type: p
   content: <a href="/prevoz-namestaja-beograd/">Selidba nameštaja u Beogradu</a> zna
@@ -66,7 +66,8 @@ sections:
 - type: h3
   content: Selidbe Stanova/Firmi
 - type: p
-  content: Kompletne – sa zaštitom.
+  content: Kompletne – sa zaštitom. Uzgred, ako vas zanimaju <a href="/medjugradske-selidbe-cena/">cene
+    međugradske selidbe</a> pogledajte naš kalkulator.
 - type: h3
   content: Međunarodne Selidbe
 - type: p

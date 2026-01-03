@@ -325,7 +325,7 @@ description: Pronađite majstore i firme za vodoinstalaterske, električarske, k
     <div class="feature-block">
       <i class="fa-solid fa-magnifying-glass-location"></i>
       <h3>Brzo Pronađite Majstora</h3>
-      <p>Lako pretražujte po mestu i kategoriji posla. Pronađite stručnjake u vašoj blizini za tren oka.</p>
+      <p>Lako <a href="/izvodjaci/">pretražujte izvođače</a> po mestu i kategoriji posla. Pronađite stručnjake u vašoj blizini za tren oka.</p>
     </div>
 
     <div class="feature-block">
@@ -530,6 +530,15 @@ description: Pronađite majstore i firme za vodoinstalaterske, električarske, k
           </div>
         </a>
 
+        <a href="/medjugradske-selidbe-cena/" class="city-card">
+          <div class="card-image" style="background: linear-gradient(135deg, #ecd71c, #da8421);"></div>
+          <div class="card-body">
+            <h3>Cena Međugradske Selidbe</h3>
+            <p>Okvirno procenite koliko će vas koštati selidba iz jednog u drugi grad sa svim dodatnim uslugama koje su uključene.</p>
+            <span class="card-link">Izračunaj cenu medjugradske selidbe →</span>
+          </div>
+        </a>
+
       </div>
     </div>
 
@@ -602,7 +611,7 @@ description: Pronađite majstore i firme za vodoinstalaterske, električarske, k
   box-shadow: 0 20px 40px rgba(0,0,0,0.18);
 }
 .card-image {
-  height: 170px;
+  height: 70px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -672,171 +681,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
-<section class="kategorije kategorije-pro">
-  <h2 style="margin-top: 4rem;">Kategorije Poslova</h2>
-  
-  <div class="kategorije-grid">
 
-    <!-- 1. VODOINSTALATERSKE USLUGE -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-faucet"></i> Vodoinstalaterske Usluge
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Vodoinstalater' | relative_url }}" class="secondary-button"><i class="fa-solid fa-faucet"></i> Vodoinstalater</a>
-        <a href="{{ '/izvodjaci/?kategorija=Renoviranje kupatila' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bath"></i> Renoviranje kupatila</a>
-        <a href="{{ '/izvodjaci/?kategorija=Odgušenje kanalizacije' | relative_url }}" class="secondary-button"><i class="fa-solid fa-toilet"></i> Odgušenje kanalizacije</a>
-        <a href="{{ '/izvodjaci/?kategorija=Popravka bojlera' | relative_url }}" class="secondary-button"><i class="fa-solid fa-water"></i> Popravka bojlera</a>
-        <a href="{{ '/izvodjaci/?kategorija=Bušenje Bunara' | relative_url }}" class="secondary-button"><i class="fa-solid fa-water"></i> Bušenje Bunara</a>
-      </div>
-    </details>
-
-    <!-- 2. ELEKTRIČARSKE USLUGE -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-bolt"></i> Električarske Usluge
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Električar' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bolt"></i> Električar</a>
-        <a href="{{ '/izvodjaci/?kategorija=Projektovanje Elektroinstalacija' | relative_url }}" class="secondary-button"><i class="fa-solid fa-diagram-project"></i> Projektovanje Elektroinstalacija</a>
-        <a href="{{ '/izvodjaci/?kategorija=Rasveta' | relative_url }}" class="secondary-button"><i class="fa-solid fa-lightbulb"></i> Rasveta</a>
-        <a href="{{ '/izvodjaci/?kategorija=LED Rasveta' | relative_url }}" class="secondary-button"><i class="fa-solid fa-lightbulb"></i> LED Rasveta</a>
-        <a href="{{ '/izvodjaci/?kategorija=Alarmni Sistemi' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bell"></i> Alarmni Sistemi</a>
-        <a href="{{ '/izvodjaci/?kategorija=Video nadzor' | relative_url }}" class="secondary-button"><i class="fa-solid fa-video"></i> Video nadzor</a>
-        <a href="{{ '/izvodjaci/?kategorija=Gromobrani' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bolt-lightning"></i> Gromobrani</a>
-        <a href="{{ '/izvodjaci/?kategorija=Računarske Mreže' | relative_url }}" class="secondary-button"><i class="fa-solid fa-network-wired"></i> Računarske Mreže</a>
-        <a href="{{ '/izvodjaci/?kategorija=Etažno Grejanje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fire"></i> Etažno Grejanje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Centralno Grejanje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-house-chimney-crack"></i> Centralno Grejanje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Servis Bojlera' | relative_url }}" class="secondary-button"><i class="fa-solid fa-toilet-portable"></i> Servis Bojlera</a>
-        <a href="{{ '/izvodjaci/?kategorija=Servis TA Peći' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fan"></i> Servis TA Peći</a>
-        <a href="{{ '/izvodjaci/?kategorija=Servis Bele Tehnike' | relative_url }}" class="secondary-button"><i class="fa-solid fa-blender"></i> Servis Bele Tehnike</a>
-      </div>
-    </details>
-
-    <!-- 3. GREJANJE I KLIMATIZACIJA -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-fire"></i> Grejanje i Klimatizacija
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Grejanje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fire"></i> Grejanje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Servis Klima Uređaja' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fan"></i> Servis Klima Uređaja</a>
-        <a href="{{ '/izvodjaci/?kategorija=Čišćenje dimnjaka' | relative_url }}" class="secondary-button"><i class="fa-solid fa-smog"></i> Čišćenje dimnjaka</a>
-      </div>
-    </details>
-
-    <!-- 4. PODOVI I ZIDOVI -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-border-all"></i> Podovi i Zidovi
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Keramičar' | relative_url }}" class="secondary-button"><i class="fa-solid fa-border-all"></i> Keramičar</a>
-        <a href="{{ '/izvodjaci/?kategorija=Postavljanje Parketa' | relative_url }}" class="secondary-button"><i class="fa-solid fa-house-crack"></i> Postavljanje Parketa</a>
-        <a href="{{ '/izvodjaci/?kategorija=Laminat' | relative_url }}" class="secondary-button"><i class="fa-solid fa-layer-group"></i> Laminat</a>
-        <a href="{{ '/izvodjaci/?kategorija=Brodski Pod' | relative_url }}" class="secondary-button"><i class="fa-solid fa-building"></i> Brodski Pod</a>
-      </div>
-    </details>
-
-
-    <details class="primary-category">
-    <summary class="primary-button">
-        <i class="fa-solid fa-paintbrush"></i> Molersko-Gipsarski Radovi
-    </summary>
-    <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Moleraj' | relative_url }}" class="secondary-button"><i class="fa-solid fa-paint-roller"></i> Moleraj</a>
-        <a href="{{ '/izvodjaci/?kategorija=Gletovanje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fill-drip"></i> Gletovanje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Gipsarski Radovi' | relative_url }}" class="secondary-button"><i class="fa-solid fa-layer-group"></i> Gipsarski Radovi</a>
-        <a href="{{ '/izvodjaci/?kategorija=Dekorativni Radovi' | relative_url }}" class="secondary-button"><i class="fa-solid fa-palette"></i> Dekorativni Radovi</a>
-        <a href="{{ '/izvodjaci/?kategorija=Adaptacija Potkrovlja' | relative_url }}" class="secondary-button"><i class="fa-solid fa-house-chimney"></i> Adaptacija Potkrovlja</a>
-        <a href="{{ '/izvodjaci/?kategorija=Krečenje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-paintbrush"></i> Krečenje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Unutrašnja Izolacija' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fire-extinguisher"></i> Unutrašnja Izolacija</a>
-    </div>
-</details>
-
-    <!-- 5. GRAĐEVINSKE USLUGE -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-hard-hat"></i> Građevinske Usluge
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Zidari' | relative_url }}" class="secondary-button"><i class="fa-solid fa-border-top-left"></i> Zidari</a>
-        <a href="{{ '/izvodjaci/?kategorija=Betoniranje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-mountain"></i> Betoniranje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Fasade' | relative_url }}" class="secondary-button"><i class="fa-solid fa-building"></i> Fasade</a>
-        <a href="{{ '/izvodjaci/?kategorija=Majstori za krov' | relative_url }}" class="secondary-button"><i class="fa-solid fa-house"></i> Majstori za krov</a>
-        <a href="{{ '/izvodjaci/?kategorija=Oplate' | relative_url }}" class="secondary-button"><i class="fa-solid fa-layer-group"></i> Oplate</a>
-        <a href="{{ '/izvodjaci/?kategorija=Skele' | relative_url }}" class="secondary-button"><i class="fa-solid fa-tower-observation"></i> Skele</a>
-        <a href="{{ '/izvodjaci/?kategorija=Adaptacija potkrovlja' | relative_url }}" class="secondary-button"><i class="fa-solid fa-house-chimney"></i> Adaptacija potkrovlja</a>
-        <a href="{{ '/izvodjaci/?kategorija=Inženjering' | relative_url }}" class="secondary-button"><i class="fa-solid fa-drafting-compass"></i> Inženjering</a>
-        <a href="{{ '/izvodjaci/?kategorija=Građevinska oprema' | relative_url }}" class="secondary-button"><i class="fa-solid fa-truck-pickup"></i> Građevinska oprema</a>
-      </div>
-    </details>
-
-    <!-- 6. STOLARIJA I NAMEŠTAJ -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-ruler-combined"></i> Stolarija i Nameštaj
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Stolarija' | relative_url }}" class="secondary-button"><i class="fa-solid fa-ruler-combined"></i> Stolarija</a>
-        <a href="{{ '/izvodjaci/?kategorija=Nameštaj' | relative_url }}" class="secondary-button"><i class="fa-solid fa-couch"></i> Nameštaj</a>
-        <a href="{{ '/izvodjaci/?kategorija=Prozori i Vrata' | relative_url }}" class="secondary-button"><i class="fa-solid fa-door-open"></i> Prozori i Vrata</a>
-        <a href="{{ '/izvodjaci/?kategorija=Komarnici' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bug"></i> Komarnici</a>
-        
-      </div>
-    </details>
-
-    <details class="primary-category">
-      <summary class="primary-button">
-          <i class="fa-solid fa-key"></i> Bravarija
-      </summary>
-      <div class="secondary-buttons">
-          <a href="{{ '/izvodjaci/?kategorija=Bravar' | relative_url }}" class="secondary-button"><i class="fa-solid fa-user-lock"></i> Bravar</a>
-          <a href="{{ '/izvodjaci/?kategorija=Otvaranje Vrata' | relative_url }}" class="secondary-button"><i class="fa-solid fa-door-open"></i> Otvaranje Vrata</a>
-          <a href="{{ '/izvodjaci/?kategorija=Hitne Intervencije' | relative_url }}" class="secondary-button"><i class="fa-solid fa-truck-medical"></i> Hitne Intervencije</a>
-          <a href="{{ '/izvodjaci/?kategorija=Servis Sigurnosnih Vrata' | relative_url }}" class="secondary-button"><i class="fa-solid fa-shield-halved"></i> Servis Sigurnosnih Vrata</a>
-          <a href="{{ '/izvodjaci/?kategorija=Ugradnja Brava' | relative_url }}" class="secondary-button"><i class="fa-solid fa-cog"></i> Ugradnja Brava</a>
-          <a href="{{ '/izvodjaci/?kategorija=Servis PVC Vrata' | relative_url }}" class="secondary-button"><i class="fa-solid fa-door-closed"></i> Servis PVC Vrata</a>
-      </div>
-  </details>
-
-    <!-- 7. ENTERIJER I DEKORACIJA -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-palette"></i> Enterijer i Dekoracija
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Enterijer' | relative_url }}" class="secondary-button"><i class="fa-solid fa-palette"></i> Enterijer</a>
-        <a href="{{ '/izvodjaci/?kategorija=Dekoracija doma' | relative_url }}" class="secondary-button"><i class="fa-solid fa-brush"></i> Dekoracija doma</a>
-      </div>
-    </details>
-
-    <!-- 8. ČIŠĆENJE I ODRŽAVANJE -->
-    <details class="primary-category">
-      <summary class="primary-button">
-        <i class="fa-solid fa-broom"></i> Čišćenje i Održavanje
-      </summary>
-      <div class="secondary-buttons">
-        <a href="{{ '/izvodjaci/?kategorija=Agencija za čišćenje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-broom"></i> Agencija za čišćenje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Čistačica' | relative_url }}" class="secondary-button"><i class="fa-solid fa-broom"></i> Čistačica</a>
-        <a href="{{ '/izvodjaci/?kategorija=Održavanje Poslovnih Prostora' | relative_url }}" class="secondary-button"><i class="fa-solid fa-building"></i> Održavanje Poslovnih Prostora</a>
-        <a href="{{ '/izvodjaci/?kategorija=Dubinsko Pranje i Pranje Tepiha' | relative_url }}" class="secondary-button"><i class="fa-solid fa-bath"></i> Dubinsko Pranje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Čišćenje Posle Građevinskih Radova' | relative_url }}" class="secondary-button"><i class="fa-solid fa-hard-hat"></i> Čišćenje Posle Građevinskih Radova</a>
-        <a href="{{ '/izvodjaci/?kategorija=Pranje Prozora' | relative_url }}" class="secondary-button"><i class="fa-solid fa-window-restore"></i> Pranje Prozora i Staklenih Površina</a>
-        <a href="{{ '/izvodjaci/?kategorija=Pranje Automobila' | relative_url }}" class="secondary-button"><i class="fa-solid fa-car"></i> Pranje Automobila</a>
-        <a href="{{ '/izvodjaci/?kategorija=Čišćenje Klima Uređaja' | relative_url }}" class="secondary-button"><i class="fa-solid fa-fan"></i> Čišćenje Klima Uređaja</a>
-        <a href="{{ '/izvodjaci/?kategorija=Iznajmljivanje Mašina za Čišćenje' | relative_url }}" class="secondary-button"><i class="fa-solid fa-box-open"></i> Iznajmljivanje Mašina za Čišćenje</a>
-        <a href="{{ '/izvodjaci/?kategorija=Hausmajstor' | relative_url }}" class="secondary-button"><i class="fa-solid fa-screwdriver-wrench"></i> Hausmajstor</a>
-        <a href="{{ '/izvodjaci/?kategorija=Uređenje Dvorišta' | relative_url }}" class="secondary-button"><i class="fa-solid fa-tree"></i> Uređenje Dvorišta</a>
-      </div>
-    </details>
-
-  </div>
-
-  <div class="cta-container" style="margin-bottom: 1rem; text-align: center; margin-top: 1.5rem;">
-    <a href="{{ '/izvodjaci/' | relative_url }}" class="cta">Pogledajte Sve Majstore i Firme</a>
-  </div>
-</section>
 
 
 

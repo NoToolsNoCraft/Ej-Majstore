@@ -31,12 +31,13 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-29'
-last_modified: '2025-12-29'
+last_modified: '2026-01-03'
 sections:
 - type: p
   content: <a href="/prevoz-namestaja-beograd/">Transport nameštaja u Beogradu</a>
-    i Srbiji zahteva pouzdanog partnera – Trans Auto Logistiks je to. Kamioni za velike
-    selidbe, iskusni vozači, zaštita tereta – od plakara do kancelarijske opreme.
+    i Srbiji zahteva pouzdanog partnera – Trans Auto Logistiks je upravo to. Kamioni
+    za velike selidbe, iskusni vozači, zaštita tereta – od plakara do kancelarijske
+    opreme.
 - type: p
   content: 'Specijalnost: kamionski prevoz – stanovi, firme, inostranstvo (BiH, Crna
     Gora).'
@@ -63,7 +64,7 @@ sections:
 - type: p
   content: Kancelarije, IT oprema – pažljivo.
 - type: h3
-  content: Međugradske Selidbe
+  content: <a href="/medjugradske-selidbe-cena/">Međugradske Selidbe</a>
 - type: p
   content: Srbija – Novi Sad, Niš...
 - type: h3

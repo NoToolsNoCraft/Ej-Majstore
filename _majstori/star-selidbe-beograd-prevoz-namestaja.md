@@ -32,7 +32,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-29'
-last_modified: '2025-12-29'
+last_modified: '2026-01-03'
 sections:
 - type: p
   content: '<a href="/prevoz-namestaja-beograd/">Prevoz nameštaja u Beogradu</a> zna
@@ -69,9 +69,9 @@ sections:
 - type: p
   content: Kancelarije – bez zastoja.
 - type: h3
-  content: Međugradske Selidbe
+  content: <a href="/medjugradske-selidbe-cena/">Medjugradske Selidbe</a>
 - type: p
-  content: Srbija – sigurno.
+  content: Širom Srbije – sigurno.
 - type: h2
   content: Zašto Star – Jer Oprema Čini Razliku
 - type: p

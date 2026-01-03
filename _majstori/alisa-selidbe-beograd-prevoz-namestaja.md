@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-29'
-last_modified: '2025-12-29'
+last_modified: '2026-01-03'
 sections:
 - type: p
   content: <a href="/prevoz-namestaja-beograd/">Prevoz Nameštaja Beograd</a> › Alisa
@@ -79,7 +79,9 @@ sections:
 - type: h2
   content: Zašto Alisa – Jer Nameštaj Stiže Ceo
 - type: p
-  content: Iskuštvo, oprema, pažnja – sve za bezbedan prevoz.
+  content: Iskuštvo, oprema, pažnja – sve za bezbedan prevoz. Toplo vam preporučujemo
+    da pogledate <a href="/medjugradske-selidbe-cena/">cene za medjugradske selidbe</a>
+    ako planirate selidbu van Beograda.
 - type: p
   content: Selidba pred vratima? Pozovite Alisu na <a href="tel:+38166128128"><strong>066
     128 128</strong></a>.

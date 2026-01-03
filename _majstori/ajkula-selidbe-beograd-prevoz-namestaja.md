@@ -31,7 +31,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-29'
-last_modified: '2025-12-29'
+last_modified: '2026-01-03'
 sections:
 - type: p
   content: <a href="/prevoz-namestaja-beograd/">Prevoz Nameštaja Beograd</a> › Ajkula
@@ -74,7 +74,9 @@ sections:
 - type: h3
   content: Selidbe Sa Radnicima
 - type: p
-  content: Pakovanje, nošenje – vi samo kažete gde.
+  content: Pakovanje, nošenje – vi samo kažete gde. Verujem da će vam biti korisno
+    da pogledate i naš vodič o <a href="/medjugradske-selidbe-cena/">cenama medjugradskih
+    selidbi</a> ako planirate selidbu van Beograda.
 - type: h2
   content: Zašto Ajkula – Jer Rade Kao Tim
 - type: p
