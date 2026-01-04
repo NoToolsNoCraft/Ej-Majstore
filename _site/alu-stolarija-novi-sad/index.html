@@ -249,6 +249,7 @@
     { title: "Vodoinstalater Hitne Intervencije Beograd", url: "/vodoinstalater-hitne-intervencije-beograd/" },
     { title: "PVC Stolarija Subotica", url: "/pvc-stolarija-subotica/" },
     { title: "Oplate i Skele Srbija", url: "/oplate-i-skele-srbija/" },
+    { title: "Cenovnik PVC Stolarije u Subotici", url: "/pvc-stolarija-subotica-cenovnik/" },
     { title: "Cena Međugradske Selidbe", url: "/medjugradske-selidbe-cena/" }
   ];
 </script>
@@ -377,87 +378,408 @@
 </script>
 
 <style>
+  /* Osnovni reset i container */
+  .container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
   /* Sivi/metalni tonovi za ALU stolariju */
-  .category-hero{background:linear-gradient(135deg,#4a5568,#718096);color:white;padding:6rem 1rem 5rem;text-align:center;margin-bottom:4rem;position:relative;overflow:hidden;margin-top:1rem;border-radius:2rem}
-  .category-hero h1{font-size:clamp(2.4rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;color:white}
-  .category-hero p{font-size:1.25rem;max-width:820px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6}
-  .scroll-cta{display:inline-flex;align-items:center;gap:.9rem;background:rgba(255,255,255,.92);color:#4a5568;border:2px solid #4a5568;padding:1.1rem 2.5rem;border-radius:50px;font-weight:600;font-size:1.2rem;text-decoration:none;transition:all .35s ease;box-shadow:0 8px 25px rgba(0,0,0,.22);position:relative;z-index:2}
-  .scroll-cta:hover{background:#4a5568;color:white;transform:translateY(-5px);box-shadow:0 15px 35px rgba(0,0,0,.3)}
-  .scroll-cta i{font-size:1.5rem;animation:bounce 2s infinite}
-@keyframes bounce{
+  .category-hero {
+    background: linear-gradient(135deg, #4a5568, #718096);
+    color: white;
+    padding: 6rem 1rem 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+    border-radius: 2rem;
+  }
+  .category-hero h1 {
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    margin: 0 0 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+  }
+  .category-hero p {
+    font-size: 1.25rem;
+    max-width: 820px;
+    margin: 0 auto 2.5rem;
+    opacity: .95;
+    line-height: 1.6;
+  }
+  .scroll-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: .9rem;
+    background: rgba(255,255,255,.92);
+    color: #4a5568;
+    border: 2px solid #4a5568;
+    padding: 1.1rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all .35s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,.22);
+    position: relative;
+    z-index: 2;
+  }
+  .scroll-cta:hover {
+    background: #4a5568;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+  }
+  .scroll-cta i {
+    font-size: 1.5rem;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
     0%,20%,50%,80%,100% { transform: translateY(0); }
     40% { transform: translateY(-12px); }
     60% { transform: translateY(-6px); }
   }
-  .services-intro{max-width:900px;margin:0 auto 4rem;padding:0 1rem;line-height:1.8;font-size:1.12rem}
-  .services-intro ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.3rem;margin:3rem 0;padding:0;list-style:none}
-  .services-intro li{background:#fff;padding:1.3rem;border-radius:14px;border:4px solid #718096;box-shadow:0 3px 10px rgba(0,0,0,.07)}
-  .services-intro li strong{display:block;margin-bottom:.5rem;font-size:1.05rem;color:#4a5568}
 
-  .business-grid-container{max-width:1160px;margin:4rem auto;padding:0 1rem;display:flex;flex-direction:column;gap:2.5rem}
-  .premium-promo{background:linear-gradient(135deg,#f0f7ff,#e0ecff);border:3px dashed #718096;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(74,85,104,.15);text-align:center;padding:2.5rem 1.5rem;transition:all .35s ease}
-  .premium-promo:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(74,85,104,.25)}
-  .premium-promo .badge{background:#4a5568;color:white;padding:6px 16px;border-radius:30px;font-size:0.9rem;font-weight:bold;letter-spacing:0.5px}
-  .premium-promo h3{font-size:2rem;margin:1.5rem 0 1rem;color:#1e293b}
-  .premium-promo p{font-size:1.15rem;color:#374151;line-height:1.6;max-width:800px;margin:0 auto 2rem}
-  .premium-promo .contact-buttons{display:flex;justify-content:center;align-items:center;gap:1.2rem;flex-wrap:wrap;margin-top:1.5rem}
-  .premium-promo .contact-btn{background:#4a5568;color:white;padding:1rem 2.2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
-  .premium-promo .contact-btn:hover{background:#2d3748;transform:translateY(-4px)}
-  .premium-promo .contact-btn.whatsapp{background:#25D366}
-  .premium-promo .contact-btn.whatsapp:hover{background:#128C7E}
-  .premium-promo .contact-btn.viber{background:#665cac}
-  .premium-promo .contact-btn.viber:hover{background:#5a4a9a}
+  .services-intro {
+    max-width: 900px;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
+    line-height: 1.8;
+    font-size: 1.12rem;
+  }
+  .services-intro ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.3rem;
+    margin: 3rem 0;
+    padding: 0;
+    list-style: none;
+  }
+  .services-intro li {
+    background: #fff;
+    padding: 1.3rem;
+    border-radius: 14px;
+    border: 4px solid #718096;
+    box-shadow: 0 3px 10px rgba(0,0,0,.07);
+  }
+  .services-intro li strong {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.05rem;
+    color: #4a5568;
+  }
 
-  .business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:2rem}
+  /* Business grid container */
+  .business-grid-container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
 
-  .business-card{background:white;border:2px solid #000;border-radius:16px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.08);transition:all .35s ease}
-  .business-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,.18)}
-  .business-header{background:linear-gradient(135deg,#f8f9fa,#fff);padding:1.4rem;text-align:center;border-bottom:1px dashed #ddd}
-  .business-header h3{margin:0;font-size:1.35rem;color:#1f2937}
-  .business-header .location{font-size:.98rem;color:#6b7280;margin-top:.5rem}
-  .business-body{padding:1.4rem}
-  .business-body p{margin:0 0 1.2rem;color:#4b5563;font-size:.98rem;line-height:1.5}
-  .contact-buttons{display:flex;flex-direction:column;gap:.8rem}
-  .contact-btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:.85rem 1.2rem;background:#718096;color:white;border-radius:40px;font-weight:600;font-size:.98rem;transition:all .25s}
-  .contact-btn:hover{background:#4a5568;transform:translateY(-3px)}
-  .contact-btn.secondary{background:#a0aec0}
-  .contact-btn.secondary:hover{background:#718096}
+  .premium-promo {
+    background: linear-gradient(135deg, #f0f7ff, #e0ecff);
+    border: 3px dashed #718096;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(74,85,104,.15);
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    transition: all .35s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .premium-promo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(74,85,104,.25);
+  }
+  .premium-promo .badge {
+    background: #4a5568;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  .premium-promo h3 {
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem;
+    color: #1e293b;
+  }
+  .premium-promo p {
+    font-size: 1.15rem;
+    color: #374151;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  .premium-promo .contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+  .premium-promo .contact-btn {
+    background: #4a5568;
+    color: white;
+    padding: 1rem 2.2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    transition: all .3s;
+  }
+  .premium-promo .contact-btn:hover {
+    background: #2d3748;
+    transform: translateY(-4px);
+  }
+  .premium-promo .contact-btn.whatsapp { background: #25D366; }
+  .premium-promo .contact-btn.whatsapp:hover { background: #128C7E; }
+  .premium-promo .contact-btn.viber { background: #665cac; }
+  .premium-promo .contact-btn.viber:hover { background: #5a4a9a; }
 
-  .intent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.8rem;max-width:1160px;margin:5rem auto 6rem;padding:0 1rem}
-  .intent-card{background:white;border:2px solid #718096;border-radius:18px;padding:1.8rem;box-shadow:0 6px 20px rgba(74,85,104,.1);transition:all .35s ease;position:relative;overflow:hidden}
-  .intent-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(74,85,104,.18)}
-  .intent-card h3{font-size:1.35rem;margin:0 0 1rem;color:#1f2937;position:relative;z-index:2}
-  .intent-card p{margin:0;line-height:1.7;color:#4b5563;font-size:1.02rem;position:relative;z-index:2}
+  .business-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+  }
 
-  .section-separator{display:flex;align-items:center;justify-content:center;gap:1.5rem;margin:6rem auto 4rem;max-width:1160px;padding:0 1rem}
-  .separator-line{flex:1;height:3px;background:linear-gradient(to right,transparent,#718096,transparent)}
-  .separator-text{font-size:1.15rem;font-weight:600;color:#718096;background:white;padding:0 1.5rem}
+  .business-card {
+    background: white;
+    border: 2px solid #000;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    transition: all .35s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .business-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.18);
+  }
+  .business-header {
+    background: linear-gradient(135deg, #f8f9fa, #fff);
+    padding: 1.4rem;
+    text-align: center;
+    border-bottom: 1px dashed #ddd;
+  }
+  .business-header h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    color: #1f2937;
+  }
+  .business-header .location {
+    font-size: .98rem;
+    color: #6b7280;
+    margin-top: .5rem;
+  }
+  .business-body {
+    padding: 1.4rem;
+  }
+  .business-body p {
+    margin: 0 0 1.2rem;
+    color: #4b5563;
+    font-size: .98rem;
+    line-height: 1.5;
+  }
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+  .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    padding: .85rem 1.2rem;
+    background: #718096;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: .98rem;
+    transition: all .25s;
+    text-decoration: none;
+  }
+  .contact-btn:hover {
+    background: #4a5568;
+    transform: translateY(-3px);
+  }
+  .contact-btn.secondary {
+    background: #a0aec0;
+  }
+  .contact-btn.secondary:hover {
+    background: #718096;
+  }
 
-  .faq-section{max-width:1000px;margin:6rem auto 4rem;padding:0 1rem}
-  .faq-section h2{text-align:center;font-size:2.2rem;margin-bottom:3.5rem;color:#1f2937}
-  .faq-item{background:white;border-radius:16px;margin-bottom:1.2rem;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.08)}
-  .faq-question{padding:1.6rem 2rem;background:linear-gradient(135deg,#f8f9fa,#fff);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1.22rem;color:#1f2937}
-  .faq-question::after{content:"↓";font-size:1.8rem;margin-left:1rem;color:#718096;transition:transform .3s ease}
-  .faq-item.active .faq-question::after{transform:rotate(180deg)}
-  .faq-answer{padding:0 2rem;max-height:0;overflow:hidden;transition:all .4s ease;background:white}
-  .faq-item.active .faq-answer{padding:1.8rem 2rem;max-height:300px}
-  .faq-answer p{margin:0;line-height:1.75;color:#4b5563;font-size:1.05rem}
+  /* Intent grid – potpuno responsivan i centriran */
+  .intent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+    width: 100%;
+    max-width: 1160px;
+    margin: 5rem auto 6rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  .intent-card {
+    background: white;
+    border: 2px solid #718096;
+    border-radius: 18px;
+    padding: 1.8rem;
+    box-shadow: 0 6px 20px rgba(74,85,104,.1);
+    transition: all .35s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .intent-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(74,85,104,.18);
+  }
+  .intent-card h3 {
+    font-size: 1.35rem;
+    margin: 0 0 1rem;
+    color: #1f2937;
+  }
+  .intent-card p {
+    margin: 0;
+    line-height: 1.7;
+    color: #4b5563;
+    font-size: 1.02rem;
+  }
+
+  .section-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 6rem auto 4rem;
+    max-width: 1160px;
+    padding: 0 1rem;
+  }
+  .separator-line {
+    flex: 1;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #718096, transparent);
+  }
+  .separator-text {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #718096;
+    background: white;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+  }
+
+  .faq-section {
+    max-width: 1000px;
+    margin: 6rem auto 4rem;
+    padding: 0 1rem;
+  }
+  .faq-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+    color: #1f2937;
+  }
+  .faq-item {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+  }
+  .faq-question {
+    padding: 1.6rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa, #fff);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.22rem;
+    color: #1f2937;
+  }
+  .faq-question::after {
+    content: "↓";
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    color: #718096;
+    transition: transform .3s ease;
+  }
+  .faq-item.active .faq-question::after {
+    transform: rotate(180deg);
+  }
+  .faq-answer {
+    padding: 0 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s ease;
+    background: white;
+  }
+  .faq-item.active .faq-answer {
+    padding: 1.8rem 2rem;
+    max-height: 300px;
+  }
+  .faq-answer p {
+    margin: 0;
+    line-height: 1.75;
+    color: #4b5563;
+    font-size: 1.05rem;
+  }
+
+  /* Mobilne prilagodbe */
+  @media (max-width: 768px) {
+    .premium-promo .contact-buttons {
+      flex-direction: column;
+    }
+    .premium-promo .contact-btn {
+      width: 100%;
+      max-width: 320px;
+      justify-content: center;
+    }
+  }
 
   @media (max-width: 480px) {
-    .premium-promo .contact-buttons{
-      flex-direction:column;
+    .category-hero {
+      padding: 4rem 1rem 3rem;
+    }
+    .business-grid {
+      gap: 1.5rem;
+    }
+    .intent-grid {
+      gap: 1.5rem;
     }
   }
 </style>
 
 <!-- HERO -->
 <div class="category-hero">
-  <h1>ALU Stolarija Novi Sad</h1>
-  <p>Pronađite firme za aluminijumske prozore, vrata, fasade i klizne sisteme u Novom Sadu.</p>
-  <a href="#lead-contact" class="scroll-cta">
-    <span>Dobijte ponudu odmah</span>
-    <i class="fa-solid fa-angles-down"></i>
-  </a>
+  <div class="container">
+    <h1>ALU Stolarija Novi Sad</h1>
+    <p>Pronađite firme za aluminijumske prozore, vrata, fasade i klizne sisteme u Novom Sadu.</p>
+    <a href="#lead-contact" class="scroll-cta">
+      <span>Dobijte ponudu odmah</span>
+      <i class="fa-solid fa-angles-down"></i>
+    </a>
+  </div>
 </div>
 
 <!-- UVODNI TEKST -->
@@ -476,13 +798,9 @@
   </ul>
 </div>
 
-<h2>Lista firmi za ALU stolariju u Novom Sadu</h2>
+<h2 style="text-align:center;max-width:1160px;margin:0 auto 2rem;padding:0 1rem;">Lista firmi za ALU stolariju u Novom Sadu</h2>
 
-<div class="directory-disclaimer" style="max-width:1100px;margin:2rem auto;padding:1.2rem 1.5rem;border:2px solid #e5e7eb;border-radius:12px;background:#f9fafb;font-size:0.95rem;color:#374151;">
-  <strong>Važna napomena:</strong><br>
-  Ej Majstore! je informativni online adresar. Ne proveravamo zakonitost poslovanja, licence, dozvole, niti istinitost navoda izvođača. 
-  Korisnici samostalno stupaju u kontakt sa navedenim firmama i odgovorni su za proveru uslova saradnje. Ukoliko ste imali negativno iskustvo sa nekim od izvođača, slobodno nam pišite na mejl ili zovite.
-</div>
+
 
 <div id="lista-firmi"></div>
 
@@ -559,6 +877,11 @@
       </div>
     </div>
 
+  </div>
+  <div class="directory-disclaimer" style="max-width:1100px;margin:2rem auto;padding:1.2rem 1.5rem;border:2px solid #e5e7eb;border-radius:12px;background:#f9fafb;font-size:0.95rem;color:#374151;">
+        <strong>Važna napomena:</strong><br>
+        Ej Majstore! je informativna platforma koja povezuje korisnike sa dostupnim izvođačima usluga na osnovu javno dostupnih podataka i tržišne ponude. Ne učestvujemo u realizaciji radova niti u sklapanju ugovora između korisnika i izvođača. Konačni dogovor, cena, rokovi i uslovi saradnje ugovaraju se direktno između korisnika i odabrane firme. Preporučujemo da korisnici samostalno provere sve detalje pre početka saradnje. Ukoliko primetite netačne informacije ili imate povratnu informaciju o radu nekog izvođača, možete nam se obratiti putem mejla ili telefona.
+      </div>
   </div>
 </div>
 
@@ -655,7 +978,7 @@
   
   <footer>
     <p>
-      &copy; 2026 Ej Majstore! - Adresar zanatskih usluga | 
+      &copy; 2026 Ej Majstore! - Platforma zanatskih usluga u Srbiji | 
       Odgovorno lice: 
       <a href="https://www.linkedin.com/in/petar-skrbic/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
         Petar Škrbić
