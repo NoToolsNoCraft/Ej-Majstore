@@ -1,0 +1,382 @@
+---
+layout: default
+title: Tuš Kabine po Meri Novi Sad – Cena i Izrada
+description: Izrada i montaža staklenih tuš kabina po meri u Novom Sadu. Premium rešenja od kaljenog stakla sa profesionalnom ugradnjom i garancijom.
+permalink: /tus-kabine-po-meri-novi-sad/
+canonical: https://ejmajstore.rs/tus-kabine-po-meri-novi-sad/
+---
+
+<style>
+  :root {
+    --primary: #1e40af;
+    --primary-dark: #1e3a8a;
+    --accent: #334155;
+    --light-bg: #f8fafc;
+    --mid-gray: #e2e8f0;
+    --text: #1e293b;
+    --heading: #0f172a;
+  }
+
+  * {box-sizing:border-box;}
+  body {margin:0;font-family:system-ui,-apple-system,sans-serif;line-height:1.6;color:var(--text);}
+
+  .container {max-width:1160px;margin:0 auto;padding:0 1.5rem;}
+
+  .hero {
+    background:linear-gradient(135deg,#1e40af,#3b82f6);
+    color:white;
+    padding:5rem 1.5rem 4rem;
+    text-align:center;
+    margin:2rem auto 4rem;
+    border-radius:2rem;
+    overflow:hidden;
+    max-width:1200px;
+  }
+  .hero h1 {font-size:clamp(2.2rem,6vw,3.2rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
+  .hero p {font-size:clamp(1.1rem,4vw,1.25rem);max-width:820px;margin:0 auto 2.5rem;opacity:.95;}
+  .hero .cta-btn {
+    display:inline-block;
+    background:white;
+    color:var(--primary);
+    padding:1rem 2.5rem;
+    border-radius:50px;
+    font-weight:700;
+    font-size:clamp(1.1rem,3vw,1.2rem);
+    text-decoration:none;
+    transition:all .3s;
+    box-shadow:0 8px 25px rgba(0,0,0,.2);
+  }
+  .hero .cta-btn:hover {background:#f1f5f9;transform:translateY(-5px);}
+
+  .section {max-width:1000px;margin:4rem auto;padding:0 1.5rem;}
+
+  .filter-section {
+    background:white;
+    border:3px solid var(--primary);
+    border-radius:20px;
+    padding:2.5rem 1.5rem;
+    box-shadow:0 12px 40px rgba(30,64,175,.15);
+    display:grid;
+    grid-template-columns:1fr;
+    gap:2.5rem;
+  }
+  @media (min-width:768px) {
+    .filter-section {grid-template-columns:repeat(2,1fr);padding:3rem 2.5rem;gap:3rem;}
+  }
+  .filter-block h3 {font-size:clamp(1.6rem,4vw,1.8rem);margin-bottom:1.2rem;color:var(--primary);text-align:center;}
+  .filter-block ul {list-style:none;padding:0;margin:0;}
+  .filter-block li {
+    padding:.8rem 0 .8rem 2.2rem;
+    font-size:1.05rem;
+    position:relative;
+    line-height:1.6;
+  }
+  .filter-block li::before {
+    position:absolute;
+    left:0;
+    top:.6rem;
+    font-size:1.6rem;
+    font-weight:bold;
+  }
+  .yes-block li::before {content:"✅";color:#16a34a;}
+  .no-block li::before {content:"❌";color:#dc2626;}
+
+  .types-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1.8rem;
+    margin:3rem 0;
+  }
+  .type-card {
+    background:white;
+    border:2px solid var(--mid-gray);
+    border-radius:16px;
+    padding:2rem 1.5rem;
+    text-align:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+    transition:all .3s;
+  }
+  .type-card:hover {transform:translateY(-8px);box-shadow:0 15px 35px rgba(30,64,175,.15);}
+  .type-card h3 {font-size:1.45rem;margin:0 0 1rem;color:var(--accent);}
+  .type-card .price {font-size:1.5rem;font-weight:700;color:var(--heading);margin:1.2rem 0;}
+  .type-card p {font-size:1rem;line-height:1.6;color:var(--text);margin:0;}
+
+  .price-table {
+    background:white;
+    border:3px solid var(--primary);
+    border-radius:20px;
+    padding:2rem 1.5rem;
+    box-shadow:0 10px 30px rgba(30,64,175,.15);
+    margin:4rem 0;
+  }
+  .price-table h2 {text-align:center;margin:0 0 2rem;font-size:clamp(1.8rem,5vw,2.2rem);color:var(--heading);}
+  .price-table-wrapper {
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    margin:0 -1.5rem;
+    padding:0 1.5rem;
+  }
+  @media (min-width:640px) {
+    .price-table-wrapper {overflow-x:visible;margin:0;padding:0;}
+  }
+  table {
+    width:100%;
+    min-width:520px;
+    border-collapse:collapse;
+    margin:0 auto;
+  }
+  th, td {padding:1rem 1.2rem;text-align:left;border-bottom:1px solid var(--mid-gray);}
+  th {background:var(--light-bg);color:var(--heading);font-weight:600;}
+  .price-range {font-size:1.25rem;font-weight:700;color:var(--primary);}
+  .price-table p {margin:1.5rem 0 0;text-align:center;font-style:italic;font-size:1rem;}
+
+  .process-steps {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1.8rem;
+    margin:3rem 0;
+  }
+  .step {
+    text-align:center;
+    padding:1.8rem 1.2rem;
+    background:white;
+    border-radius:16px;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+  }
+  .step-number {
+    width:56px;height:56px;background:var(--primary);color:white;
+    border-radius:50%;display:flex;align-items:center;justify-content:center;
+    margin:0 auto 1.2rem;font-size:1.6rem;font-weight:700;
+  }
+  .step h3 {font-size:1.3rem;margin:0 0 .8rem;color:var(--heading);}
+  .step p {font-size:1rem;margin:0;color:var(--text);}
+
+  .cta-section {
+    background:var(--light-bg);
+    padding:3.5rem 1.5rem;
+    text-align:center;
+    border-radius:20px;
+    margin:5rem auto;
+    max-width:900px;
+    box-shadow:0 10px 30px rgba(30,64,175,.15);
+  }
+  .cta-section p {font-size:clamp(1.15rem,4vw,1.3rem);margin-bottom:1.8rem;line-height:1.6;}
+  .phone-number {
+    font-size:clamp(2rem,8vw,2.5rem);font-weight:700;color:var(--primary);
+    margin:1.5rem 0;
+  }
+  .cta-section > p:last-of-type {font-size:1.05rem;margin:1rem 0 2rem;opacity:.9;}
+  .call-btn {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.8rem;
+    background:var(--primary);
+    color:white;
+    padding:1.2rem 3rem;
+    border-radius:50px;
+    font-size:1.2rem;
+    font-weight:700;
+    text-decoration:none;
+    transition:all .3s;
+    min-width:260px;
+  }
+  .call-btn:hover {background:var(--primary-dark);transform:translateY(-3px);}
+
+  .faq-section {max-width:1000px;margin:6rem auto 4rem;padding:0 1.5rem;}
+  .faq-section h2 {text-align:center;font-size:clamp(1.9rem,5vw,2.2rem);margin-bottom:3rem;color:var(--heading);}
+  .faq-item {background:white;border-radius:16px;margin-bottom:1.2rem;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.08);}
+  .faq-question {
+    padding:1.4rem 1.8rem;
+    background:linear-gradient(135deg,#f0f7ff,#e0ecff);
+    cursor:pointer;
+    display:flex;justify-content:space-between;align-items:center;
+    font-weight:600;font-size:1.15rem;color:var(--heading);
+  }
+  .faq-question::after {content:"↓";font-size:1.6rem;margin-left:1rem;color:var(--primary);transition:transform .3s;}
+  .faq-item.active .faq-question::after {transform:rotate(180deg);}
+  .faq-answer {padding:0 1.8rem;max-height:0;overflow:hidden;transition:all .4s;background:white;}
+  .faq-item.active .faq-answer {padding:1.6rem 1.8rem;max-height:800px;}
+  .faq-answer p {margin:0;line-height:1.75;font-size:1.05rem;}
+
+  .disclaimer {
+    max-width:900px;margin:4rem auto;padding:1.5rem 2rem;
+    background:#f9fafb;border-left:4px solid var(--primary);
+    font-size:.95rem;color:var(--text);line-height:1.6;
+  }
+
+  @media (max-width:480px) {
+    .container, .section, .faq-section {padding:0 1rem;}
+    .hero {margin:1rem 1rem 3rem;border-radius:1.5rem;padding:4rem 1rem;}
+    .filter-section {padding:2rem 1.2rem;border-radius:16px;}
+    .price-table {padding:1.5rem 1rem;border-radius:16px;}
+    .cta-section {padding:3rem 1.2rem;border-radius:16px;}
+    .type-card, .step {padding:1.5rem 1rem;}
+    .call-btn {min-width:auto;width:90%;max-width:320px;}
+    .price-table-wrapper {margin:0 -1rem;padding:0 1rem;}
+  }
+</style>
+
+<div class="hero">
+  <div class="container">
+    <h1 style="color: white;">Tuš Kabine po Meri Novi Sad – Cena i Izrada</h1>
+    <p>Izrada i montaža staklenih tuš kabina po meri za kupatila u Novom Sadu i okolini.<br>Projekti sa profesionalnom ugradnjom i garancijom.</p>
+    <a href="tel:+381631050515" class="cta-btn">
+      Proverite da li je tuš kabina po meri pravo rešenje za vaše kupatilo
+    </a>
+  </div>
+</div>
+
+<section class="section">
+  <div class="filter-section">
+    <div class="filter-block yes-block">
+      <h3>✅ Ovo jeste za vas ako:</h3>
+      <ul>
+        <li>Želite moderan i funkcionalan izgled kupatila</li>
+        <li>Imate nestandardne dimenzije ili oblik kupatila</li>
+        <li>Tražite dugotrajno rešenje sa lakim održavanjem</li>
+      </ul>
+    </div>
+    <div class="filter-block no-block">
+      <h3>❌ Ovo nije za vas ako:</h3>
+      <ul>
+        <li>Tražite najjeftiniju standardnu kabinu iz prodavnice</li>
+        <li>Želite brzo i privremeno rešenje</li>
+        <li>Upoređujete samo cenu bez kvaliteta i mera</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);margin-top: 2rem;">Vrste tuš kabina koje su u ponudi</h2>
+  <div class="types-grid">
+    <div class="type-card">
+      <h3>Klizne i fiksne tuš kabine</h3>
+      <div class="price">800–1.500 €</div>
+      <p>Najčešći izbor – klizna vrata ili fiksni paravan od kaljenog stakla 8–10 mm.</p>
+    </div>
+    <div class="type-card">
+      <h3>Walk-in tuš kabine</h3>
+      <div class="price">1.200–2.000 €</div>
+      <p>Otvoreni tip bez vrata – moderan izgled sa fiksnim staklenim paravanom.</p>
+    </div>
+    <div class="type-card">
+      <h3>Tuš kabine sa printom ili mat staklom</h3>
+      <div class="price">1.000 €+</div>
+      <p>Personalizovano staklo – peskirano, sa printom ili tonirano za veću privatnost.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section price-table">
+  <h2>Koliko košta tuš kabina po meri u Novom Sadu?</h2>
+  <div class="price-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Vrsta tuš kabine</th>
+          <th>Orijentaciona cena</th>
+          <th>Napomena</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Klizne ili fiksne kabine</td>
+          <td class="price-range">800–1.500 €</td>
+          <td>Standardne dimenzije, kaljeno staklo 8–10 mm</td>
+        </tr>
+        <tr>
+          <td>Walk-in paravani</td>
+          <td class="price-range">1.200–2.000 €</td>
+          <td>Otvoreni tip, veći komfor</td>
+        </tr>
+        <tr>
+          <td>Sa printom, mat ili tonirano staklo</td>
+          <td class="price-range">1.000 €+</td>
+          <td>Personalizovani dizajn</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Ukupna cena zavisi od dimenzija, tipa stakla, okova i uslova montaže.</p>
+</section>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);margin-top: 2rem;">Kako funkcioniše saradnja?</h2>
+  <div class="process-steps">
+    <div class="step">
+      <div class="step-number">1</div>
+      <h3>Pozovite nas</h3>
+      <p>Kratak razgovor (do 10 minuta) o dimenzijama i željama.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">2</div>
+      <h3>Proverimo podobnost</h3>
+      <p>Da li je izrada po meri najbolje rešenje za vaše kupatilo.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">3</div>
+      <h3>Povežemo vas sa partnerom</h3>
+      <p>Sa specijalizovanim izvođačem za staklene tuš kabine.</p>
+    </div>
+    <div class="step">
+      <div class="step-number">4</div>
+      <h3>Besplatno merenje i ponuda</h3>
+      <p>Partner dolazi na lice mesta i daje tačnu cenu.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <p>Ako planirate tuš kabinu po meri,<br>pozovite nas za kratku proveru vašeg projekta.</p>
+  <div class="phone-number">063 105 05 15</div>
+  <p>Pozivi do 10 minuta • Bez obaveze • Svaki dan 0-24h</p>
+  <div style="text-align: center;">
+    <a href="tel:+381631050515" class="call-btn">📞 Pozovite sada</a>
+  </div>
+</section>
+
+<section class="faq-section">
+  <h2 style="margin-top: 2rem;">Često postavljana pitanja</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Koliko košta tuš kabina po meri u Novom Sadu?</div>
+    <div class="faq-answer"><p>Cene kreću od 800 € naviše za klizne/fiksne kabine, do 2.000 € za walk-in ili personalizovane varijante.</p></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">Da li je staklo bezbedno?</div>
+    <div class="faq-answer"><p>Da. Koristimo kaljeno staklo 8–10 mm koje je sertifikovano. U slučaju loma raspada se na sitne, neopasn krhotine.</p></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">Koliko traje izrada i montaža?</div>
+    <div class="faq-answer"><p>Izrada traje 1–3 nedelje, montaža 1 dan. Ukupno 2–4 nedelje od narudžbine.</p></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">Da li se dobija garancija?</div>
+    <div class="faq-answer"><p>Da, 5–10 godina garancije na staklo i okov, u zavisnosti od proizvođača.</p></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">Da li radite manje ili standardne kabine?</div>
+    <div class="faq-answer"><p>Fokus je na projektima po meri. Standardne kabine iz prodavnica nisu u našem domenu.</p></div>
+  </div>
+</section>
+
+<div class="disclaimer">
+  <strong>Napomena:</strong> Ova stranica je informativnog karaktera i ne predstavlja direktnu ponudu. Tačna cena i izvodljivost utvrđuju se nakon besplatnog merenja na objektu. Povezujemo vas sa proverеним partnerima specijalizovanim za staklene tuš kabine po meri.
+</div>
+
+<script>
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const wasActive = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      if (!wasActive) item.classList.add('active');
+    });
+  });
+</script>
