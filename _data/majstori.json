@@ -1,6 +1,316 @@
 [
 
   {
+  "ime": "Ukras Novi Sad - PVC i ALU Stolarija",
+  "tip": "firma",
+  "kategorija": ["PVC Stolarija", "ALU Stolarija", "Ulazna Vrata", "Zastakljivanje Terasa", "Roletne", "Komarnici", "Klizni Sistemi"],
+  "opis_kratak": "Ukras PVC – firma u Novom Sadu preko 15 godina. Rehau i Roloplast PVC, Elvial ALU – prozori, vrata, zastakljivanje terasa po meri. Kvalitetna montaža, boje drveta.",
+  "mesto": ["Novi Sad", "Klisa", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica"],
+  "adresa": "Vladimira Demetrovića 26, Novi Sad",
+  "telefon": "+381641172211",
+  "email": "office@pvcukras.rs",
+  "website": "https://www.pvcukras.rs/",
+  "slug": "ukras-novi-sad-pvc-alu-stolarija",
+  "thumbnail": "images/ukras-pvc-novi-sad-stolarija.webp",
+  "hero_image": "images/ukras-pvc-novi-sad-stolarija.webp",
+  "discover_title": "Ukras PVC Novi Sad - Stolarija Koja Štedi i Traje",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2026-01-07",
+  "last_modified": "2026-01-07",
+  "tips_title": "Kako da Stolarija Bude Još Bolja",
+  "tips": [
+    "Rehau profili – izolacija bez kompromisa",
+    "Boje drveta – toplina u prostoru",
+    "Zastakljivanje terasa – dodatni kvadrati",
+    "Plise komarnici – bez zujanja",
+    "Kvalitetna montaža – sve radi godinama"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada tražite PVC ili ALU stolariju koja štedi energiju, ne pušta buku i izgleda kao nova godinama – u Novom Sadu, Ukras je firma koja to radi preko 15 godina. Rehau i Roloplast za PVC, Elvial za ALU – sve po meri, sa profesionalnom montažom."
+    },
+    {
+      "type": "p",
+      "content": "Specijalnost: <a href=\"/zastakljivanje-terasa-novi-sad/\">zastakljivanje terasa</a> – dodatni prostor cele godine, sa maksimalnom izolacijom."
+    },
+    {
+      "type": "h2",
+      "content": "Ukras PVC – Kvalitet Na Prvom Mestu"
+    },
+    {
+      "type": "p",
+      "content": "Ukras koristi premium profile – Rehau Euro-Design 70 i Synego za <a href=\"/pvc-stolarija-novi-sad/\">PVC stolariju</a>, Elvial za <a href=\"/alu-stolarija-novi-sad/\">ALU stolariju</a>. Plus roletne, komarnici, klizni sistemi."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za mere:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381641172211\">064 117 22 11</a> / <a href=\"tel:+381644095284\">064 409 52 84</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381216338401\">021 633 84 01</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@pvcukras.rs\">office@pvcukras.rs</a><br>📍 <strong>Adresa:</strong> Vladimira Demetrovića 26, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – PVC i ALU Po Meri"
+    },
+    {
+      "type": "p",
+      "content": "Ukras nudi:"
+    },
+    {
+      "type": "h3",
+      "content": "PVC Prozori i Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Rehau – termo i zvučna izolacija."
+    },
+    {
+      "type": "h3",
+      "content": "ALU Stolarija"
+    },
+    {
+      "type": "p",
+      "content": "Elvial – čvrstoća za velike otvore."
+    },
+    {
+      "type": "h3",
+      "content": "Ulazna Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Sigurnost i dizajn – boje drveta."
+    },
+    {
+      "type": "h3",
+      "content": "Dodaci"
+    },
+    {
+      "type": "p",
+      "content": "Roletne, <a href=\"/komarnici-novi-sad/\">komarnici</a> – kompletna zaštita."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Ukras – Jer Kvalitet Govori"
+    },
+    {
+      "type": "p",
+      "content": "U pitanju je firma koja nudi premium materijale i zadovoljne kupce – sve za topliji i tiši dom."
+    },
+    {
+      "type": "p",
+      "content": "Nova stolarija? Pozovite Ukras na <a href=\"tel:+381641172211\"><strong>064 117 22 11</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "PVC Stolarija Rehau",
+      "description": "Prozori, vrata – izolacija."
+    },
+    {
+      "title": "ALU Stolarija Elvial",
+      "description": "Čvrstoća – klizni sistemi."
+    },
+    {
+      "title": "Zastakljivanje Terasa",
+      "description": "Dodatni prostor – cele godine."
+    },
+    {
+      "title": "Ulazna Vrata",
+      "description": "Sigurnost – boje drveta."
+    },
+    {
+      "title": "Roletne i Komarnici",
+      "description": "Zaštita – kompletno."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Koristite li Rehau?",
+      "answer": "Da – Euro-Design i Synego."
+    },
+    {
+      "question": "Imate li ALU?",
+      "answer": "Da – Elvial."
+    },
+    {
+      "question": "Radite li terase?",
+      "answer": "Da – PVC i ALU klizni."
+    },
+    {
+      "question": "Imate li montažu?",
+      "answer": "Da – profesionalna."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "064 117 22 11."
+    }
+  ]
+},
+
+  {
+  "ime": "Vulić Glass Novi Sad - Staklorezac",
+  "tip": "firma",
+  "kategorija": ["Staklorezac", "Tuš Kabine", "Staklene Ograde", "Zastakljivanje Terasa", "Staklena Vrata", "Zidne Obloge Staklo", "Ogledala", "Savijanje Stakla", "Ustakljivanje Objekata"],
+  "opis_kratak": "Vulić Glass – staklorezac u Novom Sadu od 2006. Tuš kabine po meri, staklene ograde, zastakljivanje terasa, vrata, zidne obloge, ogledala – kaljeno, laminirano staklo, štampa i farbanje.",
+  "mesto": ["Novi Sad", "Veternik", "Futog", "Petrovaradin", "Sremska Kamenica"],
+  "adresa": "Profesora Grčića bb, Novi Sad",
+  "telefon": "+381692291491",
+  "email": "info@vulic-glass.rs",
+  "website": "https://vulic-glass.rs/",
+  "slug": "vulic-glass-novi-sad-staklorezac",
+  "thumbnail": "images/vulic-glass-novi-sad-staklorezac.webp",
+  "hero_image": "images/vulic-glass-novi-sad-staklorezac.webp",
+  "discover_title": "Vulić Glass Novi Sad - Staklo Koje Traje",
+  "author": "Petar Škrbić",
+  "author_slug": "petar-skrbic",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "date": "2026-01-07",
+  "last_modified": "2026-01-07",
+  "tips_title": "Kako da Staklo Bude Još Lepše",
+  "tips": [
+    "Kaljeno staklo – sigurnost i otpornost",
+    "Štampa na staklu – zidovi sa stilom",
+    "Plise komarnici – za balkon bez prepreka",
+    "Laminirano za ograde – stabilnost",
+    "Tuš kabine po meri – savršeno uklapanje"
+  ],
+  "sections": [
+    {
+      "type": "p",
+      "content": "Kada želite tuš kabinu koja tačno staje, ogradu koja blista ili terasu koja se koristi cele godine – Vulić Glass u Novom Sadu je odgovarajuća firma za to. Od 2006. rade kaljeno i laminirano staklo – tuš kabine, ograde, zastakljivanje, vrata, zidne obloge."
+    },
+    {
+      "type": "p",
+      "content": "Specijalnost: <a href=\"/tus-kabine-po-meri-novi-sad/\">izrada tuš kabina po meri</a>, <a href=\"/staklene-ograde-novi-sad/\">staklene ograde</a> i <a href=\"/zastakljivanje-terasa-novi-sad/\">zastakljivanje terasa i balkona</a>."
+    },
+    {
+      "type": "h2",
+      "content": "Vulić Glass – Staklo Koje Menja Prostor"
+    },
+    {
+      "type": "p",
+      "content": "Vulić Glass koristi kaljeno i laminirano staklo – sigurno, otporno, moderno. Štampa, farbanje, savijanje – sve po meri."
+    },
+    {
+      "type": "p",
+      "content": "Pozovite za mere:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381692291491\">069 229 1491</a><br>📞 <strong>Fiksni:</strong> <a href=\"tel:+381212614780\">021 261 4780</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:info@vulic-glass.rs\">info@vulic-glass.rs</a><br>📍 <strong>Adresa:</strong> Profesora Grčića bb, Novi Sad"
+    },
+    {
+      "type": "h2",
+      "content": "Ponuda – Staklo Za Sve"
+    },
+    {
+      "type": "p",
+      "content": "Vulić Glass radi:"
+    },
+    {
+      "type": "h3",
+      "content": "Tuš Kabine"
+    },
+    {
+      "type": "p",
+      "content": "Po meri – savršeno uklapanje."
+    },
+    {
+      "type": "h3",
+      "content": "Staklene Ograde"
+    },
+    {
+      "type": "p",
+      "content": "<a href=\"/staklene-ograde-za-stepenice-novi-sad/\">Staklene ograde za stepenice</a>, balkone – kaljeno laminirano."
+    },
+    {
+      "type": "h3",
+      "content": "Zastakljivanje Terasa"
+    },
+    {
+      "type": "p",
+      "content": "Dodatni prostor – cele godine."
+    },
+    {
+      "type": "h3",
+      "content": "Staklena Vrata"
+    },
+    {
+      "type": "p",
+      "content": "Klizna, klasična – elegantna."
+    },
+    {
+      "type": "h3",
+      "content": "Zidne Obloge"
+    },
+    {
+      "type": "p",
+      "content": "Farbanje, štampa – moderan izgled."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto Vulić Glass – Jer Staklo Zna Posao"
+    },
+    {
+      "type": "p",
+      "content": "Iskustvo od 2006, kvalitetni materijali – prostor postaje lepši i funkcionalniji."
+    },
+    {
+      "type": "p",
+      "content": "Staklo potrebno? Pozovite Vulić Glass na <a href=\"tel:+381692291491\"><strong>069 229 1491</strong></a>."
+    }
+  ],
+  "services": [
+    {
+      "title": "Tuš Kabine Po Meri",
+      "description": "Kaljeno staklo – savršeno uklapanje."
+    },
+    {
+      "title": "Staklene Ograde",
+      "description": "Za stepenice, balkone – sigurnost."
+    },
+    {
+      "title": "Zastakljivanje Terasa",
+      "description": "Dodatni prostor – izolacija."
+    },
+    {
+      "title": "Staklena Vrata",
+      "description": "Klizna, klasična – moderan dizajn."
+    },
+    {
+      "title": "Zidne Obloge Staklo",
+      "description": "Štampa, farbanje – stil."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Radite li tuš kabine po meri?",
+      "answer": "Da – sve dimenzije."
+    },
+    {
+      "question": "Koristite li kaljeno staklo?",
+      "answer": "Da – sigurnost na prvom mestu."
+    },
+    {
+      "question": "Radite li ograde za stepenice?",
+      "answer": "Da – laminirano kaljeno."
+    },
+    {
+      "question": "Imate li štampu na staklu?",
+      "answer": "Da – za zidne obloge."
+    },
+    {
+      "question": "Gde radite?",
+      "answer": "Novi Sad i okolina."
+    },
+    {
+      "question": "Kako da vas pozovem?",
+      "answer": "069 229 1491."
+    }
+  ]
+},
+
+  {
   "ime": "Trans Auto Logistiks Beograd - Nameštaj Sigurno Stiže",
   "tip": "firma",
   "kategorija": ["Selidbe", "Prevoz Nameštaja", "Kamionski Prevoz", "Selidbe Stanova", "Selidbe Firmi", "Međugradske Selidbe", "Selidbe u Inostranstvo"],

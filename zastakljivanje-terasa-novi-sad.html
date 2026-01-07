@@ -1,0 +1,410 @@
+---
+layout: default
+title: Zastakljivanje terasa Novi Sad – Cena po m² i ozbiljni izvođači
+description: Zastakljivanje terasa u Novom Sadu. Cene po m², klizni i harmonika sistemi. Radimo samo sa ozbiljnim projektima i proverenim izvođačima.
+permalink: /zastakljivanje-terasa-novi-sad/
+canonical: https://ejmajstore.rs/zastakljivanje-terasa-novi-sad/
+---
+
+<style>
+  :root {
+    --primary: #1e40af;
+    --primary-dark: #1e3a8a;
+    --accent: #334155;
+    --light-bg: #f8fafc;
+    --mid-gray: #e2e8f0;
+    --text: #1e293b;
+    --heading: #0f172a;
+  }
+
+  * {box-sizing:border-box;}
+  html, body {
+    margin:0;
+    padding:0;
+    font-family:system-ui,-apple-system,sans-serif;
+    line-height:1.6;
+    color:var(--text);
+    background:#fff;
+    overflow-x:hidden;
+  }
+
+  main {padding:0 0;}
+
+  .container {max-width:1160px;margin:0 auto;padding:0 1.5rem;}
+
+  .hero {
+    background:linear-gradient(135deg,#1e40af,#3b82f6);
+    color:white;
+    padding:5rem 1.5rem 4.5rem;
+    text-align:center;
+    margin:2rem auto 4rem;
+    border-radius:2rem;
+    overflow:hidden;
+    max-width:1200px;
+  }
+  .hero h1 {font-size:clamp(2rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
+  .hero p {font-size:clamp(1.15rem,4vw,1.3rem);max-width:840px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
+  .hero p strong {font-weight:700;}
+
+  .hero-callout {
+    max-width:840px;
+    margin:2.5rem auto 0;
+    font-size:1.2rem;
+    line-height:1.7;
+  }
+
+  .gallery {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1.5rem;
+    margin:4rem 0;
+  }
+  .gallery img {
+    width:100%;
+    height:auto;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+    transition:all .3s;
+  }
+  .gallery img:hover {transform:scale(1.03);box-shadow:0 15px 40px rgba(0,0,0,.25);}
+
+  .gallery-caption {
+    text-align:center;
+    margin-top:.5rem;
+    font-size:.95rem;
+    color:#64748b;
+  }
+
+  .section {max-width:1000px;margin:4rem auto;padding:0 1.5rem;}
+
+  .qualification-section {
+    background:white;
+    border:3px solid var(--primary);
+    border-radius:20px;
+    padding:2.8rem 2rem;
+    box-shadow:0 12px 40px rgba(30,64,175,.15);
+    display:grid;
+    grid-template-columns:1fr;
+    gap:2.5rem;
+    overflow:hidden;
+  }
+  @media (min-width:768px) {
+    .qualification-section {grid-template-columns:repeat(2,1fr);padding:3.5rem 3rem;gap:3.5rem;}
+  }
+  .qualification-block h3 {font-size:clamp(1.7rem,4vw,1.9rem);margin-bottom:1.4rem;color:var(--primary);text-align:center;}
+  .qualification-block ul {list-style:none;padding:0;margin:0;}
+  .qualification-block li {
+    padding:.9rem 0 .9rem 2.4rem;
+    font-size:1.1rem;
+    position:relative;
+    line-height:1.6;
+  }
+  .qualification-block li::before {
+    position:absolute;
+    left:0;
+    top:.7rem;
+    font-size:1.7rem;
+    font-weight:bold;
+  }
+  .yes-block li::before {content:"✅";color:#16a34a;}
+  .no-block li::before {content:"❌";color:#dc2626;}
+
+  .systems-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:2rem;
+    margin:3rem 0;
+  }
+  .system-card {
+    background:white;
+    border:2px solid var(--mid-gray);
+    border-radius:18px;
+    padding:2.2rem 1.8rem;
+    text-align:left;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+    transition:all .3s;
+    overflow:hidden;
+  }
+  .system-card:hover {transform:translateY(-8px);box-shadow:0 18px 40px rgba(30,64,175,.18);}
+  .system-card h3 {font-size:1.55rem;margin:0 0 1.2rem;color:var(--accent);}
+  .system-card p {font-size:1.05rem;line-height:1.7;color:var(--text);margin:0;}
+
+  .price-table {
+    background:white;
+    border:3px solid var(--primary);
+    border-radius:20px;
+    padding:2.5rem 1.5rem;
+    box-shadow:0 10px 30px rgba(30,64,175,.15);
+    margin:4rem 0;
+    overflow:hidden;
+  }
+  .price-table h2 {text-align:center;margin:0 0 2.2rem;font-size:clamp(1.9rem,5vw,2.3rem);color:var(--heading);}
+  .price-table-wrapper {
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    width:100%;
+  }
+  table {
+    width:100%;
+    min-width:520px;
+    max-width:100%;
+    border-collapse:collapse;
+  }
+  th, td {padding:1rem 0.8rem;text-align:left;border-bottom:1px solid var(--mid-gray);word-wrap:break-word;}
+  th {background:var(--light-bg);color:var(--heading);font-weight:600;}
+  .price-range {font-size:1.25rem;font-weight:700;color:var(--primary);}
+  .price-table p {margin:2rem 0 0;text-align:center;font-style:italic;font-size:1.05rem;}
+
+  .why-us {
+    background:var(--light-bg);
+    padding:3.2rem 2rem;
+    border-radius:20px;
+    margin:4rem 0;
+    box-shadow:0 10px 30px rgba(30,64,175,.1);
+    overflow:hidden;
+  }
+  .why-us h2 {text-align:center;margin-bottom:2.2rem;color:var(--heading);font-size:clamp(1.8rem,5vw,2.2rem);}
+  .why-us ul {max-width:820px;margin:0 auto;padding:0;}
+  .why-us li {padding:.9rem 0;font-size:1.1rem;line-height:1.7;}
+
+  .cta-section {
+    background:var(--light-bg);
+    padding:4rem 2rem;
+    text-align:center;
+    border-radius:20px;
+    margin:5rem auto;
+    max-width:900px;
+    box-shadow:0 10px 30px rgba(30,64,175,.15);
+  }
+  .cta-section p {font-size:clamp(1.2rem,4vw,1.35rem);margin-bottom:2rem;line-height:1.7;}
+  .phone-number {
+    font-size:clamp(2.2rem,8vw,2.8rem);font-weight:700;color:var(--primary);
+    margin:1.8rem 0;
+  }
+  .cta-section > p:last-of-type {font-size:1.1rem;margin:1.2rem 0 2.5rem;opacity:.9;}
+  .contact-buttons {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1.2rem;
+    margin-top:1.5rem;
+  }
+  @media (min-width:480px) {
+    .contact-buttons {flex-direction:row;justify-content:center;gap:1.5rem;}
+  }
+  .contact-btn {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+    padding:1.3rem 3rem;
+    border-radius:50px;
+    font-size:1.25rem;
+    font-weight:700;
+    text-decoration:none;
+    transition:all .3s;
+    min-width:280px;
+  }
+  .call-btn {background:var(--primary);color:white;}
+  .call-btn:hover {background:var(--primary-dark);transform:translateY(-4px);}
+  .whatsapp-btn {background:#25D366;color:white;}
+  .whatsapp-btn:hover {background:#128C7E;transform:translateY(-4px);}
+  .viber-btn {background:#665cac;color:white;}
+  .viber-btn:hover {background:#5a4a9a;transform:translateY(-4px);}
+
+  .disclaimer {
+    max-width:900px;margin:4rem auto;padding:1.8rem 2rem;
+    background:#f9fafb;border-left:4px solid var(--primary);
+    font-size:.98rem;color:var(--text);line-height:1.7;
+  }
+
+  @media (max-width:640px) {
+    html, body {overflow-x:hidden;}
+    .container, .section {padding:0 1rem;}
+    .hero {margin:1rem 1rem 3rem;border-radius:1.8rem;padding:4.5rem 1.2rem;}
+    .qualification-section {padding:2.5rem 1.5rem;border-radius:18px;}
+    .price-table {padding:2rem 1.2rem;border-radius:18px;}
+    .cta-section {padding:3.5rem 1.5rem;border-radius:18px;}
+    .system-card {padding:2rem 1.5rem;}
+    .contact-btn {min-width:auto;width:92%;max-width:340px;padding:1.2rem 2.5rem;font-size:1.2rem;}
+    .price-table-wrapper {width:100%;margin:0;padding:0;}
+    table {min-width:480px;}
+    th, td {padding:0.9rem 0.6rem;font-size:0.95rem;}
+  }
+
+  @media (max-width:480px) {
+    .hero {padding:4rem 1rem;}
+    .section {padding:0 1rem;}
+    .qualification-section {padding:2.2rem 1.2rem;}
+    table th, table td {padding:0.8rem 0.5rem;font-size:0.92rem;}
+  }
+</style>
+
+<div class="hero">
+  <div class="container">
+    <h1 style="color: white;">Zastakljivanje terasa u Novom Sadu – cena, sistemi i pouzdani izvođači</h1>
+    <p>Želite da svoju terasu pretvorite u udoban prostor koji možete koristiti cele godine?<br>Mi vam pomažemo da dobijete kvalitetno rešenje od lokalnih izvođača.</p>
+    
+    <div class="hero-callout">
+      <p style="margin:0;">
+        📞 Pozovite nas i recite:<br>
+        • kolika je terasa<br>
+        • koji sistem vas zanima<br>
+        • gde se nalazi objekat (zgrada u Novom Sadu)
+      </p>
+    </div>
+    
+    <p style="margin-top:2rem;">Na osnovu vaših informacija, povezaćemo vas sa odgovarajućim izvođačem.</p>
+  </div>
+</div>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Primeri zastakljivanja terasa</h2>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .gallery div {
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition);
+        background: #fff;
+    }
+    .gallery div:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+    }
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+    .gallery-caption {
+      padding: 1rem;
+      margin: 0;
+      font-weight: 600;
+      color: var(--accent);
+      text-align: center;
+    }
+  </style>
+  <div class="gallery">
+    <div>
+      <img src="https://vulic-glass.rs/img/portfolio/service-01/portfolio-02.jpg" alt="Stakleni krov terase - izvođač Vulić Glass">
+      <p class="gallery-caption">Stakleni krov terase - izvođač Vulić Glass</p>
+    </div>
+    <div>
+      <img src="https://www.pvcukras.rs/wp-content/uploads/2024/07/IMG_20240523_145133.jpg" alt="Zatvaranje terase ALU kliznim sistemom - firma Ukras Novi Sad">
+      <p class="gallery-caption">Zatvaranje terase ALU kliznim sistemom - firma Ukras Novi Sad</p>
+    </div>
+    <div>
+      <img src="https://www.pvcukras.rs/wp-content/uploads/2025/12/IMG_20251024_093339.jpg" alt="Pogled iznutra - izvođač Ukras Novi Sad">
+      <p class="gallery-caption">Pogled iznutra - izvođač Ukras Novi Sad</p>
+    </div>
+    
+  </div>
+  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije su ilustrativnog karaktera – predstavljaju tipove sistema koji su u ponudi.</p>
+</section>
+
+<section class="section qualification-section">
+  <div class="qualification-block yes-block">
+    <h3>✅ Ovo jeste za vas ako:</h3>
+    <ul>
+      <li>Imate konkretan objekat i terasu u Novom Sadu koju želite da zastaklite</li>
+      <li>Znate okvirnu veličinu terase</li>
+      <li>Tražite kvalitetno i dugotrajno rešenje</li>
+    </ul>
+  </div>
+  <div class="qualification-block no-block">
+    <h3>❌ Ovo nije za vas ako:</h3>
+    <ul>
+      <li>Samo istražujete ili “gledate cene”</li>
+      <li>Tražite najjeftiniju moguću opciju</li>
+      <li>Nemate definisan projekat</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Sistemi za zastakljivanje terasa</h2>
+  <div class="systems-grid">
+    <div class="system-card">
+      <h3>Klizni sistem za terase</h3>
+      <p>Najčešći izbor za tipične terase u novogradnji i starijim zgradama u Novom Sadu. Ako imate ograničen budžet i manju terasu — ovo je realan izbor. Ako želite luksuzan izgled bez ramova — nije.</p>
+    </div>
+    <div class="system-card">
+      <h3>Harmonika sistem</h3>
+      <p>Sklopivi paneli za potpuno otvaranje. Idealno za veće terase gde želite maksimalan prostor leti. Skupiji je i zahtevniji za montažu — ne preporučujemo za male terase.</p>
+    </div>
+    <div class="system-card">
+      <h3>PVC zastakljivanje terasa</h3>
+      <p>Najbolji odnos cene i izolacije za cele godine korišćenja. Pogodno za većinu stanova u Novom Sadu. Pogledajte i <a href="/pvc-stolarija-novi-sad/">PVC stolariju</a>.</p>
+    </div>
+    <div class="system-card">
+      <h3>Aluminijumski profili</h3>
+      <p>Tanji ramovi i moderniji izgled za veće terase i zahtevnije objekte. Skupiji, ali dugotrajniji. Pogledajte i <a href="/alu-stolarija-novi-sad/">ALU stolariju</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section price-table">
+  <h2>Koliko košta zastakljivanje terase u Novom Sadu?</h2>
+  <div class="price-table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Sistem</th>
+          <th>Orijentaciona cena po m²</th>
+          <th>Napomena</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PVC klizni sistem</td>
+          <td class="price-range">120–180 €</td>
+          <td>Najbolja izolacija, standardni izbor</td>
+        </tr>
+        <tr>
+          <td>Harmonika sistem</td>
+          <td class="price-range">160–250 €</td>
+          <td>Maksimalan otvor, premium izgled</td>
+        </tr>
+        <tr>
+          <td>Aluminijumski profili</td>
+          <td class="price-range">180–300 €</td>
+          <td>Tanji ramovi, moderniji dizajn</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Cene zavise od spratnosti, sistema, montaže i pristupa objektu u Novom Sadu.</p>
+</section>
+
+<section class="section why-us">
+  <h2 style="margin-top: 2rem;">Zašto raditi preko nas?</h2>
+  <ul>
+    <li>Povezujemo vas samo sa lokalnim izvođačima u Novom Sadu</li>
+    <li>Pomažemo vam da izaberete pravi sistem za vaš objekat i budžet</li>
+    <li>Štedimo vam vreme – ne morate tražiti i proveravati firme sami</li>
+    <li>Odgovaramo isti dan i koordiniramo merenje</li>
+  </ul>
+</section>
+
+<section class="cta-section">
+  <p style="margin-top: 2rem;">Ako planirate zastakljivanje terase i imate konkretan projekat,<br>pozovite nas ili pišite.</p>
+  <div class="phone-number">063 105 05 15</div>
+  <p>Pozivi do 10 minuta • Bez obaveze • Svaki dan 0-24h</p>
+  <div class="contact-buttons">
+    <a href="tel:+381631050515" class="contact-btn call-btn">📞 Pozovite sada</a>
+    <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
+    <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
+  </div>
+</section>
+
+<div class="disclaimer">
+  <strong>Napomena:</strong> Povezujemo vas sa specijalizovanim izvođačima za zastakljivanje terasa. Tačna cena i tehničko rešenje utvrđuju se nakon merenja na objektu.
+</div>
