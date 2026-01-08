@@ -33,11 +33,11 @@ author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta
   usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.
 date: '2025-10-30'
-last_modified: '2025-12-07'
+last_modified: '2026-01-08'
 sections:
 - type: p
-  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Radun PVC i ALU
-    Stolarija
+  content: <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/">Kompletna zamena
+    PVC i ALU Stolarije u Novom Sadu</a> › Radun PVC i ALU Stolarija
 - type: p
   content: 'Pre nekoliko meseci, započeo sam adaptaciju potkrovlja – demontaža, zidovi,
     struja, sve ide po planu. Prozore sam uzeo od lokalne firme iz Subotice, <a href="https://ejmajstore.rs/izvodjaci/subotica/joviste-palic-pvc-alu-stolarija-prozori-vrata/"
