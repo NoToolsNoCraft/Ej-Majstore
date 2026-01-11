@@ -33,43 +33,203 @@ layout: default
             <iframe width="100%" height="315" src="{{ section.src }}" 
                     title="{{ section.title }}" frameborder="0" allowfullscreen></iframe>
           </div>
+
+          {% when 'kerisan_form' %}
+          <div class="kerisan-form-container">
+            <h2>Kontaktirajte Kerisan</h2>
+            <p>Popunite formular ispod i bićete kontaktirani u vezi sa traktorskim seckalicama za grane.</p>
+
+            <form action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST" id="kerisan-form">
+              <!-- Hidden fields -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_autoresponse" value="Hvala! Vaš zahtev je poslat. Uskoro će Vas kontaktirati proizvođač Kerisan.">
+
+              <div class="form-row">
+                <label for="name">Ime i prezime:</label>
+                <input type="text" id="name" name="name" placeholder="Unesite vaše ime" required>
+              </div>
+
+              <div class="form-row">
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Unesite broj telefona" required>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Dodatna pitanja (opciono):</label>
+                <textarea id="message" name="message" placeholder="Npr. vrsta traktora, tip drveta, količina granja"></textarea>
+              </div>
+
+              <div class="form-row consent-row">
+                <label>
+                  <input type="checkbox" name="consent" required>
+                  Slažem se da me kontaktira proizvođač seckalica Kerisan
+                </label>
+              </div>
+
+              <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}">
+              <input type="hidden" name="page_title" value="{{ page.title }}">
+
+              <div class="form-row">
+                <button type="submit">Pošalji zahtev</button>
+              </div>
+
+              <p id="form-success">
+                Hvala! Vaš zahtev je poslat. Uskoro će Vas kontaktirati proizvođač Kerisan.
+              </p>
+            </form>
+          </div>
+
+          <style>
+          /* --- Form Container --- */
+          .kerisan-form-container {
+            max-width: 700px;
+            margin: 3rem auto;
+            padding: 2.5rem;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+            border: 2px solid #0077cc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: all 0.3s ease;
+          }
+
+          .kerisan-form-container h2 {
+            margin-bottom: 0.5rem;
+            color: #0077cc;
+            font-size: 2em;
+            text-align: center;
+          }
+
+          .kerisan-form-container p {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #555;
+            font-size: 1rem;
+          }
+
+          /* --- Form Fields --- */
+          .kerisan-form-container form .form-row {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .kerisan-form-container label {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #333;
+          }
+
+          .kerisan-form-container input[type="text"],
+          .kerisan-form-container input[type="email"],
+          .kerisan-form-container input[type="tel"],
+          .kerisan-form-container textarea {
+            padding: 0.85rem 1rem;
+            font-size: 1rem;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            outline: none;
+          }
+
+          .kerisan-form-container input:focus,
+          .kerisan-form-container textarea:focus {
+            border-color: #0077cc;
+            box-shadow: 0 0 8px rgba(0, 119, 204, 0.2);
+          }
+
+          .kerisan-form-container textarea {
+            min-height: 100px;
+            resize: vertical;
+          }
+
+          /* --- Consent Checkbox --- */
+          .consent-row label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+            color: #333;
+          }
+
+          .consent-row input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #0077cc;
+          }
+
+          /* --- Submit Button --- */
+          .kerisan-form-container button[type="submit"] {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #0077cc, #005a99);
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 15px rgba(0, 119, 204, 0.3);
+          }
+
+          .kerisan-form-container button[type="submit"]:hover {
+            background: linear-gradient(135deg, #005a99, #0077cc);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 119, 204, 0.4);
+          }
+
+          /* --- Success Message --- */
+          #form-success {
+            display: none;
+            color: #28a745;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 1rem;
+          }
+
+          /* Responsive */
+          @media (max-width: 768px) {
+            .kerisan-form-container {
+              padding: 2rem 1.5rem;
+            }
+          }
+          </style>
+
+
+    <script>
+      const form = document.getElementById('kerisan-form');
+      const successMessage = document.getElementById('form-success');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            successMessage.style.display = 'block';
+            form.reset();
+          } else {
+            alert('Došlo je do greške, pokušajte ponovo.');
+          }
+        }).catch(error => {
+          alert('Došlo je do greške, pokušajte ponovo.');
+        });
+      });
+    </script>
+  </div>
       {% endcase %}
     {% endfor %}
   </div>
 
-    <!-- ✅ SOCIAL SHARE BUTTONS -->
-  <div class="share-section">
-    <p>Podelite članak:</p>
-    <div class="share-buttons">
-      <!-- WhatsApp -->
-      <a 
-        href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        class="share-btn whatsapp"
-      >
-        <i class="fa-brands fa-whatsapp"></i> WhatsApp
-      </a>
-
-      <!-- Viber -->
-      <a 
-        href="viber://forward?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" 
-        class="share-btn viber"
-      >
-        <i class="fa-brands fa-viber"></i> Viber
-      </a>
-
-      <!-- Telegram -->
-      <a
-        href="https://t.me/share/url?url={{ site.url }}{{ page.url }}&text={{ page.title | uri_escape }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="share-btn telegram"
-      >
-        <i class="fa-brands fa-telegram"></i> Telegram
-      </a>
-    </div>
-  </div>
+    
 
 
   <!-- ✅ NEW: CTA BUTTON SECTION -->
@@ -173,3 +333,6 @@ layout: default
 
 
 </style>
+
+
+
