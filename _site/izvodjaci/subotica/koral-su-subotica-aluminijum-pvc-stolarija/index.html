@@ -420,51 +420,7 @@
   }
 }
 
-.direct-contact-title {
-  margin: 0 0 12px 0;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-  font-weight: 600;
-}
 
-.direct-contact-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 8px 0;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: fit-content;
-}
-
-.whatsapp-direct {
-  background: #25D366;
-  color: white;
-}
-
-.whatsapp-direct:hover {
-  background: #1ebe57;
-  transform: translateY(-3px);
-}
-
-.viber-direct {
-  background: #7360F2;
-  color: white;
-}
-
-.viber-direct:hover {
-  background: #6652d8;
-  transform: translateY(-3px);
-}
-
-.direct-contact-btn i {
-  font-size: 1.6rem;
-}
 
 
 
@@ -488,6 +444,67 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* Kontejner koji prekida skrolovanje */
+.lead-hijack-container {
+    background: #fffcf5; /* Blago krem boja, asocira na papir/zanat */
+    border-left: 5px solid #ff6b35; /* Jaka narandžasta "traka" pažnje */
+    border-top: 1px solid #ffe0b2;
+    border-bottom: 1px solid #ffe0b2;
+    border-right: 1px solid #ffe0b2;
+    border-radius: 4px 16px 16px 4px;
+    padding: 24px;
+    margin: 2.5rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lead-hijack-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff6b35;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.lead-hijack-title {
+    font-size: 1.3rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.lead-hijack-text {
+    font-size: 1rem !important;
+    color: #4a4a4a !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* Dugme koje dominira na palcu (Mobile Optimized) */
+.lead-hijack-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 24px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.lead-hijack-btn:active {
+    transform: scale(0.96); /* Efekat klika na mobilnom */
+}
+
+.lead-hijack-btn i {
+    margin-left: 10px;
 }
 
 </style>
@@ -551,7 +568,7 @@
   
   <div class="author-bio">
     <p><strong>Uredio:</strong> Petar Škrbić |
-      <strong>Ažurirano:</strong> 08. 12. 2025 |
+      <strong>Ažurirano:</strong> 12. 01. 2026 |
        <a href="/o-nama/">O autoru</a></p>
     <p>Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.</p>
   </div>
@@ -561,13 +578,22 @@
 
   <!-- ==== DYNAMIC CONTENT SECTIONS ==== -->
   
-    <p class="section-p"><a href="/pvc-stolarija-subotica/">PVC Stolarija u Subotici</a> › Koral SU</p>
-      
-  
     <p class="section-p">U Subotici, gradu gde se tradicija spaja sa savremenim dizajnom, postoji firma koja je postala sinonim za kvalitetnu stolariju – Koral SU. Od osnivanja 1995. godine, oni su izgradili reputaciju lidera u proizvodnji i montaži aluminijumske i PVC stolarije. Sa proizvodnim pogonom od preko 1500 m², izložbenim salonom i timom stručnjaka, Koral SU nije samo proizvođač – oni su partner koji razume da svaki prozor, svaka vrata moraju biti savršeno uokvirena za vaš dom ili poslovni prostor.</p>
       
   
     <p class="section-p">Njihova specijalnost? Koriste renomirane ALUMIL profile – grčke, sertifikovane, sa savršenom ravnotežom između snage, izolacije i estetike. Bilo da renovirate stan u centru Subotice ili gradite poslovni objekat u Paliću, Koral SU osigurava da svaki detalj bude precizan i dugotrajan.</p>
+      
+  
+    
+      <div class="lead-hijack-container">
+        <div class="lead-hijack-tag">Provera tržišnih cena</div>
+        <h3 class="lead-hijack-title">Koliko zapravo košta PVC stolarija?</h3>
+        <p class="lead-hijack-text">Cene profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.</p>
+        <a href="/pvc-stolarija-subotica-cenovnik/" class="lead-hijack-btn">
+          Pogledaj cene PVC Stolarije u Subotici <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
       
   
     <h2 class="section-h2">Koral SU – 30 Godina Iskustva u Savršenoj Stolariji</h2>
@@ -591,7 +617,7 @@
     <p class="section-p">Prozori i vrata od ALUMIL profila – termo-prekinuti za maksimalnu izolaciju, sa sigurnosnim staklom. Idealni za velike fasade, komercijalne objekte ili moderne kuće gde snaga sreće dizajn.</p>
       
   
-    <h3 class="section-h3">🚪 PVC Stolarija</h3>
+    <h3 class="section-h3"><a href="/pvc-stolarija-subotica/">🚪 PVC Stolarija</a></h3>
       
   
     <p class="section-p">Višekomorni profili sa odličnom zvučnom i toplinskom izolacijom. Sobna vrata, unutrašnja vrata – pristupačna, dugotrajna rešenja za svakodnevni komfor.</p>
@@ -784,28 +810,7 @@
 
 </article>
 
-<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
-<div class="direct-contact-container">
-  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
-  
-  
-  
-    <a href="https://wa.me/+38163568011?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
-       target="_blank"
-       class="direct-contact-btn whatsapp-direct"
-       onclick="trackLead?.('WhatsApp', 'Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove')">
-      <i class="fa-brands fa-whatsapp"></i>
-      <span class="btn-text"></span>
-    </a>
 
-    <a href="viber://chat?number=++38163568011"
-       class="direct-contact-btn viber-direct"
-       onclick="trackLead?.('Viber', 'Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove')">
-      <i class="fa-brands fa-viber"></i>
-      <span class="btn-text"></span>
-    </a>
-  
-</div>
 
 <script>
   
@@ -843,25 +848,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Koral SU Subotica - Aluminijum i PVC Stolarija Koja Definiše Moderne Domove",
   "description": "Koral SU – lider u proizvodnji i montaži aluminijumske i PVC stolarije u Subotici od 1995. Prozori, vrata, klizna vrata, sistemi zaštite od sunca i insekata. Koriste ALUMIL profile – kvalitet, trajnost, estetika. Subotica i Srbija. u Subotica, Palić, Bačka Topola, Senta, Sombor.",
+  "url": "https://ejmajstore.rs/izvodjaci/subotica/koral-su-subotica-aluminijum-pvc-stolarija/",
   
   "image": "https://ejmajstore.rs/images/koral-su-subotica-aluminijum-pvc-stolarija.webp?width=800&format=webp",
   
-  "url": "https://ejmajstore.rs/izvodjaci/subotica/koral-su-subotica-aluminijum-pvc-stolarija/",
+  
   "telephone": "+38163568011",
+  
+  
   "email": "koralsu@gmail.com",
+  
   
   "sameAs": "https://koralsu.rs/",
   
   "address": {
     "@type": "PostalAddress",
-    
     "addressLocality": "Subotica",
     
     "addressCountry": "RS"
@@ -869,12 +876,24 @@ document.addEventListener("DOMContentLoaded", function() {
   "openingHours": "Mo-Su 08:00-20:00",
   "priceRange": "$$",
   "areaServed": [
-    "Subotica, Palić, Bačka Topola, Senta, Sombor"
+    
+    
+      "Subotica",
+    
+      "Palić",
+    
+      "Bačka Topola",
+    
+      "Senta",
+    
+      "Sombor"
+    
   ]
   
   ,"makesOffer": [
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Aluminijumska Stolarija",
@@ -882,7 +901,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "PVC Stolarija",
@@ -890,7 +910,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Sistemi Zaštite Od Sunca",
@@ -898,7 +919,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Sistemi Zaštite Od Insekata",
@@ -906,7 +928,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Stakleni Portali",

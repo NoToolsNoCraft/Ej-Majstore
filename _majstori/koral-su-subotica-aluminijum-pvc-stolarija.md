@@ -36,11 +36,8 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-08'
-last_modified: '2025-12-08'
+last_modified: '2026-01-12'
 sections:
-- type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija u Subotici</a> › Koral
-    SU
 - type: p
   content: U Subotici, gradu gde se tradicija spaja sa savremenim dizajnom, postoji
     firma koja je postala sinonim za kvalitetnu stolariju – Koral SU. Od osnivanja
@@ -54,6 +51,14 @@ sections:
     sa savršenom ravnotežom između snage, izolacije i estetike. Bilo da renovirate
     stan u centru Subotice ili gradite poslovni objekat u Paliću, Koral SU osigurava
     da svaki detalj bude precizan i dugotrajan.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cene PVC Stolarije u Subotici
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: Koral SU – 30 Godina Iskustva u Savršenoj Stolariji
 - type: p
@@ -78,7 +83,7 @@ sections:
     sa sigurnosnim staklom. Idealni za velike fasade, komercijalne objekte ili moderne
     kuće gde snaga sreće dizajn.
 - type: h3
-  content: "\U0001F6AA PVC Stolarija"
+  content: "<a href=\"/pvc-stolarija-subotica/\">\U0001F6AA PVC Stolarija</a>"
 - type: p
   content: Višekomorni profili sa odličnom zvučnom i toplinskom izolacijom. Sobna
     vrata, unutrašnja vrata – pristupačna, dugotrajna rešenja za svakodnevni komfor.

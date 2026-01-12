@@ -33,18 +33,25 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-28'
-last_modified: '2025-12-28'
+last_modified: '2026-01-12'
 sections:
 - type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › Rolometal
-- type: p
-  content: U Subotici, kada želite PVC stolariju koja ne pušta hladnoću, ne bledi
-    i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander i
-    Winner profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata,
-    roletne, komarnici – sve po meri, sa transportom i ugradnjom.
+  content: U Subotici, kada želite <a href="/pvc-stolarija-subotica/">PVC stolariju</a>
+    koja ne pušta hladnoću, ne bledi i izgleda kao nova godinama – Rolometal je adresa.
+    Od 2008. rade Salamander i Winner profile – nemačke, sa vrhunskom termo i zvučnom
+    izolacijom. Prozori, vrata, roletne, komarnici – sve po meri, sa transportom i
+    ugradnjom.
 - type: p
   content: Salamander nije običan PVC – otporan na UV, vlagu, mehanička oštećenja.
     Plus boje drveta i aluminijuma – za svaki stil.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cene PVC Stolarije za Suboticu
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: Rolometal – Salamander i Winner Kvalitet U Subotici
 - type: p

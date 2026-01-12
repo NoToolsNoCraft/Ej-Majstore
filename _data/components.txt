@@ -43,3 +43,16 @@ Image
     {% endfor %}
   </div>
   {% endif %}
+
+
+
+
+
+{
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cenovnik za Suboticu",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
+    },

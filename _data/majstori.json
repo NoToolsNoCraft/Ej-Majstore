@@ -1261,7 +1261,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
-  "last_modified": "2025-12-28",
+  "last_modified": "2026-01-12",
   "tips_title": "Kako da PVC Stolarija Bude Još Bolja",
   "tips": [
     "Salamander profili – izolacija i otpornost",
@@ -1271,17 +1271,22 @@
     "Precizna ugradnja – sve radi kako treba"
   ],
   "sections": [
+    
     {
       "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija Subotica</a> › Rolometal"
-    },
-    {
-      "type": "p",
-      "content": "U Subotici, kada želite PVC stolariju koja ne pušta hladnoću, ne bledi i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander i Winner profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata, roletne, komarnici – sve po meri, sa transportom i ugradnjom."
+      "content": "U Subotici, kada želite <a href=\"/pvc-stolarija-subotica/\">PVC stolariju</a> koja ne pušta hladnoću, ne bledi i izgleda kao nova godinama – Rolometal je adresa. Od 2008. rade Salamander i Winner profile – nemačke, sa vrhunskom termo i zvučnom izolacijom. Prozori, vrata, roletne, komarnici – sve po meri, sa transportom i ugradnjom."
     },
     {
       "type": "p",
       "content": "Salamander nije običan PVC – otporan na UV, vlagu, mehanička oštećenja. Plus boje drveta i aluminijuma – za svaki stil."
+    },
+    {
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cene PVC Stolarije za Suboticu",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     {
       "type": "h2",
@@ -1413,7 +1418,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
-  "last_modified": "2025-12-28",
+  "last_modified": "2026-01-12",
   "tips_title": "Sažetak jedne kvalitetne usluge PVC stolarije",
   "tips": [
     "Boje drveta – zlatni hrast, tamni hrast za toplinu",
@@ -1423,17 +1428,22 @@
     "Više salona – lakše za merenje"
   ],
   "sections": [
+    
     {
       "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija Subotica</a> › ProLine"
-    },
-    {
-      "type": "p",
-      "content": "U Vojvodini, kada tražite PVC prozore koji ne puštaju hladnoću, a izgledaju kao drvo – svi put vodi do ProLine salona. Od Subotice preko Novog Sada, Sombora, Inđije, Stare Pazove do Rume – ova mreža salona nudi Rehau kvalitet, boje zlatni/tamni hrast, mahagoni, antracit i besplatnu montažu."
+      "content": "U Vojvodini, kada tražite <a href=\"/pvc-stolarija-subotica/\">PVC prozore</a> koji ne puštaju hladnoću, a izgledaju kao drvo – svi put vodi do ProLine salona. Od Subotice preko Novog Sada, Sombora, Inđije, Stare Pazove do Rume – ova mreža salona nudi Rehau kvalitet, boje zlatni/tamni hrast, mahagoni, antracit i besplatnu montažu."
     },
     {
       "type": "p",
       "content": "ProLine nije samo prodaja – oni mere, savetuju, montiraju i garantuju. Excellent SME sertifikat od Privredne komore – to nije šala."
+    },
+    {
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cenovnik za Suboticu",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     {
       "type": "h2",
@@ -6175,8 +6185,8 @@
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
-  "date": "2025-12-17",
-  "last_modified": "2025-12-17",
+  "date": "2026-01-12",
+  "last_modified": "2026-01-12",
   "tips_title": "Kako da Vaša Kuhinja Bude Funkcionalna i Lepa",
   "tips": [
     "Univer frontovi – pristupačni i raznovrsni",
@@ -6186,19 +6196,27 @@
     "Projektant na terenu – tačne mere, bolji dizajn"
   ],
   "sections": [
-    {
-      "type": "p",
-      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Izrada kuhinja po meri Novi Sad</a> › Temma Trade"
-    },
+    
   
   {
     "type": "p",
     "content": "Kuhinja je pravo srce doma – mesto gde se pije prva jutarnja kafa, spremaju omiljena jela i dele najlepši trenuci sa porodicom. Zato ona treba da bude baš po vašoj meri: u skladu sa vašim stilom, prostorom i budžetom. U Petrovaradinu (Novi Sad) postoji ime koje se već više od 30 godina vezuje za kvalitet i poverenje – Temma Trade, firma koja je opremila preko 80.000 zadovoljnih klijenata. Njihove kuhinje po meri nisu samo komadi nameštaja, već pametna, dugotrajna rešenja sa garancijom do 12 godina i servisom čak i nakon isteka garancije."
   },
+  
   {
     "type": "p",
     "content": "U impresivnom salonu od preko 1000 m² i uz pomoć iskusnih projektanata, Temma Trade stvara kuhinje od univera, medijapana i punog drveta – u više od 50 boja i tekstura. Bez obzira da li maštate o modernoj, minimalističkoj beloj kuhinji ili toploj, rustičnoj varijanti od drveta, njihov tim vašu ideju pretvara u stvarnost."
   },
+
+  {
+  "type": "hijack",
+  "tag": "Savet za uštedu vremena",
+  "title": "Teško je naći slobodnog majstora?",
+  "content": "Ne trošite sate zovući majstore koji su zauzeti mesecima unapred. Mi znamo ko u Novom Sadu ima slobodne termine.",
+  "btn_text": "Pronađi slobodnog stolara",
+  "url": "/izrada-kuhinja-po-meri-novi-sad/"
+},
+  
   {
     "type": "h2",
     "content": "Temma Trade – 30 Godina Tradicije u Savremenim Kuhinjama"
@@ -6210,7 +6228,7 @@
 
     {
       "type": "p",
-      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Novi Sad:</strong> <a href=\"tel:+38121400859\">021 400 859</a> / <a href=\"tel:+38163653239\">063 653 239</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:temma@temmatrade.com\">temma@temmatrade.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://temmatrade.com/\" target=\"_blank\">temmatrade.com</a><br>📍 <strong>Salon:</strong> Preradovićeva 32, Petrovaradin"
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Novi Sad:</strong> <a href=\"tel:+38121400859\">021 400 859</a> / <a href=\"tel:+38163653239\">063 653 239</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:temma@temmatrade.com\">temma@temmatrade.com</a><br>📍 <strong>Salon:</strong> Preradovićeva 32, Petrovaradin"
     },
     {
       "type": "h2",
@@ -6374,10 +6392,7 @@
     "Kombinujte boje – bela za svetlost, crna za eleganciju"
   ],
   "sections": [
-    {
-      "type": "p",
-      "content": "<a href=\"/izrada-kuhinja-po-meri-novi-sad/\">Izrada kuhinja po meri Novi Sad</a> › Moj Stolar"
-    },
+    
     {
       "type": "p",
       "content": "Kuhinja je srce doma – mesto gde se kuva, jede, priča i živi. Zato ona mora biti tačno onakva kakvu sanjate: po vašem stilu, po vašim merama, po vašem budžetu. U Novom Sadu, Moj Stolar je platforma koja spaja najbolje stolara i kupce – sa lokalnom proizvodnjom u gradu, brza montaža i dizajn koji oduzima dah."
@@ -6385,6 +6400,14 @@
     {
       "type": "p",
       "content": "Moj Stolar nije obična firma – to je mreža majstora koji prave kuhinje po meri u različitim stilovima: moderne, rustične, minimalističke, njujorške, italijanske, francuske seoske, industrijske, skandinavske, bele, crne, zelene. Bilo da živite na Telepu, Podbari ili Petrovaradinu – oni dolaze, mere, savetuju i montiraju."
+    },
+    {
+      "type": "hijack",
+      "tag": "Savet za uštedu vremena",
+      "title": "Teško je naći slobodnog majstora?",
+      "content": "Ne trošite sate zovući majstore koji su zauzeti mesecima unapred. Mi znamo ko u Novom Sadu ima slobodne termine.",
+      "btn_text": "Pronađi slobodnog stolara",
+      "url": "/izrada-kuhinja-po-meri-novi-sad/"
     },
     {
       "type": "h2",
@@ -7349,7 +7372,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-08",
-  "last_modified": "2025-12-08",
+  "last_modified": "2026-01-12",
   "tips_title": "Saveti za savršenu stolariju u vašem domu",
   "tips": [
     "Aluminijum za velike otvore – otporan na vetar i vlagu",
@@ -7359,10 +7382,7 @@
     "Po meri – uvek uzimajte mere sa majstorom na licu mesta"
   ],
   "sections": [
-    {
-      "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › Koral SU"
-    },
+    
     {
       "type": "p",
       "content": "U Subotici, gradu gde se tradicija spaja sa savremenim dizajnom, postoji firma koja je postala sinonim za kvalitetnu stolariju – Koral SU. Od osnivanja 1995. godine, oni su izgradili reputaciju lidera u proizvodnji i montaži aluminijumske i PVC stolarije. Sa proizvodnim pogonom od preko 1500 m², izložbenim salonom i timom stručnjaka, Koral SU nije samo proizvođač – oni su partner koji razume da svaki prozor, svaka vrata moraju biti savršeno uokvirena za vaš dom ili poslovni prostor."
@@ -7370,6 +7390,14 @@
     {
       "type": "p",
       "content": "Njihova specijalnost? Koriste renomirane ALUMIL profile – grčke, sertifikovane, sa savršenom ravnotežom između snage, izolacije i estetike. Bilo da renovirate stan u centru Subotice ili gradite poslovni objekat u Paliću, Koral SU osigurava da svaki detalj bude precizan i dugotrajan."
+    },
+    {
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cene PVC Stolarije u Subotici",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     {
       "type": "h2",
@@ -7401,7 +7429,7 @@
     },
     {
       "type": "h3",
-      "content": "🚪 PVC Stolarija"
+      "content": "<a href=\"/pvc-stolarija-subotica/\">🚪 PVC Stolarija</a>"
     },
     {
       "type": "p",
@@ -7591,7 +7619,7 @@
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "PVC Prozori", "PVC Vrata", "Stakleni Portali", "Roletne", "Komarnici", "Podprozorske Klupice", "Aluminijumske Ograde", "Motorizovane Ograde"],
   "opis_kratak": "AR Company – proizvodnja i ugradnja PVC stolarije po meri u Subotici. Prozori, vrata, stakleni portali, roletne, komarnici, podprozorske klupice + alu ograde sa elektromotorom. Kvalitet, brzina, garancija. Subotica i okolina.",
-  "mesto": ["Subotica", "Palić", "Bačka Topola", "Sombor", "Kula", "Vrbas", "Bačko Dušanovo", "Čantavir", "Bajmok", "Stari Žednik", "Tornjoš", "Hajdukovo"],
+  "mesto": ["Subotica", "Palić", "Bačka Topola", "Tornjoš", "Hajdukovo"],
   "adresa": "Majšanski put 321, Subotica 24000",
   "telefon": "+38162665801",
   "email": "",
@@ -7604,7 +7632,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-08",
-  "last_modified": "2025-12-08",
+  "last_modified": "2026-01-12",
   "tips_title": "Kako odabrati pravu PVC stolariju",
   "tips": [
     "6-komorni profil + trostruko staklo = ušteda do 40% na grejanju",
@@ -7616,15 +7644,19 @@
   "sections": [
     {
       "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › AR Company"
+      "content": "Kada u Subotici tražite <a href=\"/pvc-stolarija-subotica/\">PVC stolariju</a> koja nije samo dobra, već i izgleda savršeno, povoljan put svakako vodi do AR Company na Majšanskom putu 321. Aleksa Radulović i njegov tim proizvode i montiraju prozore, vrata, staklene portale, roletne, komarnike i podprozorske klupice – sve po meri, sve sa garancijom. A posebnost? Alu ograde sa elektromotorom – prava retkost u okolini."
     },
     {
       "type": "p",
-      "content": "Kada u Subotici tražite PVC stolariju koja nije samo dobra, već i izgleda savršeno, povoljan put svakako vodi do AR Company na Majšanskom putu 321. Aleksa Radulović i njegov tim proizvode i montiraju prozore, vrata, staklene portale, roletne, komarnike i podprozorske klupice – sve po meri, sve sa garancijom. A posebnost? Alu ograde sa elektromotorom – prava retkost u okolini."
+      "content": "Ova firma je pravi primer kako se spaja tradicionalni subotički kvalitet sa modernim rešenjima. Radno vreme pon–pet 8–16h, subotom 8–13h – ali za hitne slučajeve uvek se nađe rešenje. Ipak, ako vas interesuju kako se kreću <a href=\"/pvc-stolarija-subotica-cenovnik/\">cene PVC stolarije u Subotici</a>, slobodno bacite pogled na kalkulator koji smo pripremili."
     },
     {
-      "type": "p",
-      "content": "Ova firma je pravi primer kako se spaja tradicionalni subotički kvalitet sa modernim rešenjima. Radno vreme pon–pet 8–16h, subotom 8–13h – ali za hitne slučajeve uvek se nađe rešenje."
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cenovnik za Suboticu",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     {
       "type": "h2",
@@ -7775,7 +7807,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-08",
-  "last_modified": "2025-12-08",
+  "last_modified": "2026-01-12",
   "tips_title": "Kako odabrati pravu stolariju za vaš dom",
   "tips": [
     "PVC za minimalno održavanje – idealno za porodične kuće",
@@ -7787,15 +7819,19 @@
   "sections": [
     {
       "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija u Subotici</a> › Čantaplast"
-    },
-    {
-      "type": "p",
       "content": "U Bačkom Dušanovu, selu gde se svi poznajemo, postoji jedna radionica u koju uvek ulazim sa osmehom – Čantaplast. Lasla Turija i njegov tim poznajem godinama. Dok sam radio na ugradnji PVC prozora po selu, nebrojeno puta smo sarađivali: ja sam postavljao, oni su pravili prozore i vrata tačno po meri. Svaki put isti utisak – preciznost do milimetra, kvalitet koji traje i ljudi koji stoje iza svog rada."
     },
     {
       "type": "p",
       "content": "Čantaplast nije obična stolarska radionica – to je mala firma koja već dve decenije pravi PVC i drvenu stolariju po meri. Od klasičnih prozora i vrata do craft master komada koji izgledaju kao umetničko delo. Sve se radi u Bačkom Dušanovu, sve se montira lično, sve se garantuje."
+    },
+    {
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cenovnik za Suboticu",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     {
       "type": "h2",
@@ -7819,7 +7855,7 @@
     },
     {
       "type": "h3",
-      "content": "🪟 PVC Stolarija"
+      "content": "<a href=\"/pvc-stolarija-subotica/\">🪟 PVC Stolarija</a>"
     },
     {
       "type": "p",
@@ -19219,17 +19255,23 @@
   ],
 
   "sections": [
+    
     {
       "type": "p",
-      "content": "<a href=\"/pvc-stolarija-subotica/\">PVC Stolarija Subotica</a> › Joviste"
-    },
-    {
-      "type": "p",
-      "content": "Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet se vidi na svakoj kući."
+      "content": "Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio <a href=\"/pvc-stolarija-subotica/\">PVC prozore za kuću</a> – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet se vidi na svakoj kući."
     },
     {
       "type": "p",
       "content": "Na adresi <strong>Horgoški put 81b u Paliću</strong> nalazi se <strong>Joviste</strong> – kompanija sa skoro <strong>20 godina iskustva</strong> u <em>proizvodnji PVC i ALU stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>. Specijalizovani za <strong>prozore, vrata, komarnike, žaluzine</strong>."
+    },
+
+    {
+      "type": "hijack",
+      "tag": "Provera tržišnih cena",
+      "title": "Koliko zapravo košta PVC stolarija?",
+      "content": "Cene profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.",
+      "btn_text": "Pogledaj cene PVC Stolarije u Subotici",
+      "url": "/pvc-stolarija-subotica-cenovnik/"
     },
     
     {

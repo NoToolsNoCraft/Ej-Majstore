@@ -33,10 +33,8 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-08'
-last_modified: '2025-12-08'
+last_modified: '2026-01-12'
 sections:
-- type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija u Subotici</a> › Čantaplast
 - type: p
   content: 'U Bačkom Dušanovu, selu gde se svi poznajemo, postoji jedna radionica
     u koju uvek ulazim sa osmehom – Čantaplast. Lasla Turija i njegov tim poznajem
@@ -49,6 +47,14 @@ sections:
     dve decenije pravi PVC i drvenu stolariju po meri. Od klasičnih prozora i vrata
     do craft master komada koji izgledaju kao umetničko delo. Sve se radi u Bačkom
     Dušanovu, sve se montira lično, sve se garantuje.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cenovnik za Suboticu
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: Čantaplast – Firma Koja Zna Šta Znači Prava Stolarija
 - type: p
@@ -66,7 +72,7 @@ sections:
 - type: p
   content: 'Oni pokrivaju kompletan spektar stolarije:'
 - type: h3
-  content: "\U0001FA9F PVC Stolarija"
+  content: "<a href=\"/pvc-stolarija-subotica/\">\U0001FA9F PVC Stolarija</a>"
 - type: p
   content: Prozori i vrata od najkvalitetnijih profila (5-6 komora), sa dvo ili trostrukim
     staklom. Sve boje, sve dimenzije. Montaža sa dihtovanjem i garancijom.

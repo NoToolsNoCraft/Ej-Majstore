@@ -420,51 +420,7 @@
   }
 }
 
-.direct-contact-title {
-  margin: 0 0 12px 0;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-  font-weight: 600;
-}
 
-.direct-contact-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 8px 0;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: fit-content;
-}
-
-.whatsapp-direct {
-  background: #25D366;
-  color: white;
-}
-
-.whatsapp-direct:hover {
-  background: #1ebe57;
-  transform: translateY(-3px);
-}
-
-.viber-direct {
-  background: #7360F2;
-  color: white;
-}
-
-.viber-direct:hover {
-  background: #6652d8;
-  transform: translateY(-3px);
-}
-
-.direct-contact-btn i {
-  font-size: 1.6rem;
-}
 
 
 
@@ -488,6 +444,67 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* Kontejner koji prekida skrolovanje */
+.lead-hijack-container {
+    background: #fffcf5; /* Blago krem boja, asocira na papir/zanat */
+    border-left: 5px solid #ff6b35; /* Jaka narandžasta "traka" pažnje */
+    border-top: 1px solid #ffe0b2;
+    border-bottom: 1px solid #ffe0b2;
+    border-right: 1px solid #ffe0b2;
+    border-radius: 4px 16px 16px 4px;
+    padding: 24px;
+    margin: 2.5rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lead-hijack-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff6b35;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.lead-hijack-title {
+    font-size: 1.3rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.lead-hijack-text {
+    font-size: 1rem !important;
+    color: #4a4a4a !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* Dugme koje dominira na palcu (Mobile Optimized) */
+.lead-hijack-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 24px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.lead-hijack-btn:active {
+    transform: scale(0.96); /* Efekat klika na mobilnom */
+}
+
+.lead-hijack-btn i {
+    margin-left: 10px;
 }
 
 </style>
@@ -732,28 +749,7 @@
 
 </article>
 
-<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
-<div class="direct-contact-container">
-  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
-  
-  
-  
-    <a href="https://wa.me/+38163421841?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
-       target="_blank"
-       class="direct-contact-btn whatsapp-direct"
-       onclick="trackLead?.('WhatsApp', 'VK Inženjering Beograd - Adaptacija i Renovacija')">
-      <i class="fa-brands fa-whatsapp"></i>
-      <span class="btn-text"></span>
-    </a>
 
-    <a href="viber://chat?number=++38163421841"
-       class="direct-contact-btn viber-direct"
-       onclick="trackLead?.('Viber', 'VK Inženjering Beograd - Adaptacija i Renovacija')">
-      <i class="fa-brands fa-viber"></i>
-      <span class="btn-text"></span>
-    </a>
-  
-</div>
 
 <script>
   
@@ -791,25 +787,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "VK Inženjering Beograd - Adaptacija i Renovacija",
   "description": "VK Inženjering – kompletnu adaptaciju stambenih i poslovnih prostora u Beogradu. Gips, keramika, molerski radovi, rušenje, tesarija, vodoinstalacije i više. Besplatna procena, savet, kvalitetni materijali, rokovi po dogovoru. Beograd i okolina. u Beograd, Novi Beograd, Zemun, Vračar.",
+  "url": "https://ejmajstore.rs/izvodjaci/beograd/vk-inzenjering-beograd-adaptacija/",
   
   "image": "https://ejmajstore.rs/images/vk-inzenjering-beograd-adaptacija.webp?width=800&format=webp",
   
-  "url": "https://ejmajstore.rs/izvodjaci/beograd/vk-inzenjering-beograd-adaptacija/",
+  
   "telephone": "+38163421841",
+  
+  
   "email": "vkadaptacija@gmail.com",
+  
   
   "sameAs": "https://vkinzenjering.rs/",
   
   "address": {
     "@type": "PostalAddress",
-    
     "addressLocality": "Beograd",
     
     "addressCountry": "RS"
@@ -817,12 +815,22 @@ document.addEventListener("DOMContentLoaded", function() {
   "openingHours": "Mo-Su 08:00-20:00",
   "priceRange": "$$",
   "areaServed": [
-    "Beograd, Novi Beograd, Zemun, Vračar"
+    
+    
+      "Beograd",
+    
+      "Novi Beograd",
+    
+      "Zemun",
+    
+      "Vračar"
+    
   ]
   
   ,"makesOffer": [
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Adaptacija Stanova i Kuća",
@@ -830,7 +838,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Adaptacija Poslovnih Prostora",
@@ -838,7 +847,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Gipsarski Radovi",
@@ -846,7 +856,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Keramičarski Radovi",
@@ -854,7 +865,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Molersko-Farbarski Radovi",
@@ -862,7 +874,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Rušenje i Odvoženje Šuta",
@@ -870,7 +883,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Tesarski Radovi",
@@ -878,7 +892,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Vodovod i Kanalizacija",
@@ -886,7 +901,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Ostali Radovi",

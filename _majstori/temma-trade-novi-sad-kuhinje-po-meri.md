@@ -32,12 +32,9 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
-date: '2025-12-17'
-last_modified: '2025-12-17'
+date: '2026-01-12'
+last_modified: '2026-01-12'
 sections:
-- type: p
-  content: <a href="/izrada-kuhinja-po-meri-novi-sad/">Izrada kuhinja po meri Novi
-    Sad</a> › Temma Trade
 - type: p
   content: 'Kuhinja je pravo srce doma – mesto gde se pije prva jutarnja kafa, spremaju
     omiljena jela i dele najlepši trenuci sa porodicom. Zato ona treba da bude baš
@@ -51,6 +48,13 @@ sections:
     Temma Trade stvara kuhinje od univera, medijapana i punog drveta – u više od 50
     boja i tekstura. Bez obzira da li maštate o modernoj, minimalističkoj beloj kuhinji
     ili toploj, rustičnoj varijanti od drveta, njihov tim vašu ideju pretvara u stvarnost.
+- type: hijack
+  tag: Savet za uštedu vremena
+  title: Teško je naći slobodnog majstora?
+  content: Ne trošite sate zovući majstore koji su zauzeti mesecima unapred. Mi znamo
+    ko u Novom Sadu ima slobodne termine.
+  btn_text: Pronađi slobodnog stolara
+  url: "/izrada-kuhinja-po-meri-novi-sad/"
 - type: h2
   content: Temma Trade – 30 Godina Tradicije u Savremenim Kuhinjama
 - type: p
@@ -61,8 +65,7 @@ sections:
 - type: p
   content: "Kontaktirajte ih za ponudu:<br>\U0001F4DE <strong>Novi Sad:</strong> <a
     href=\"tel:+38121400859\">021 400 859</a> / <a href=\"tel:+38163653239\">063 653
-    239</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:temma@temmatrade.com\">temma@temmatrade.com</a><br>\U0001F310
-    <strong>Website:</strong> <a href=\"https://temmatrade.com/\" target=\"_blank\">temmatrade.com</a><br>\U0001F4CD
+    239</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:temma@temmatrade.com\">temma@temmatrade.com</a><br>\U0001F4CD
     <strong>Salon:</strong> Preradovićeva 32, Petrovaradin"
 - type: h2
   content: Kako Prave Kuhinje – Korak Po Korak

@@ -36,19 +36,25 @@ date: '2025-10-31'
 last_modified: '2025-11-20'
 sections:
 - type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › Joviste
-- type: p
   content: Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a
-    iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore
-    za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata
-    smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u
-    Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od
-    usta do usta, a kvalitet se vidi na svakoj kući.
+    iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio <a href="/pvc-stolarija-subotica/">PVC
+    prozore za kuću</a> – brza dostava, savršena montaža, zadovoljan. Od tada, u više
+    navrata smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca
+    radi u Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke
+    idu od usta do usta, a kvalitet se vidi na svakoj kući.
 - type: p
   content: Na adresi <strong>Horgoški put 81b u Paliću</strong> nalazi se <strong>Joviste</strong>
     – kompanija sa skoro <strong>20 godina iskustva</strong> u <em>proizvodnji PVC
     i ALU stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>.
     Specijalizovani za <strong>prozore, vrata, komarnike, žaluzine</strong>.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cene PVC Stolarije u Subotici
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: Kompanija Okrenuta Savremenim Rešenjima
 - type: p

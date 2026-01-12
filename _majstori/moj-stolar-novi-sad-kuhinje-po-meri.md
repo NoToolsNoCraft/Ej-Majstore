@@ -40,9 +40,6 @@ date: '2025-12-17'
 last_modified: '2025-12-17'
 sections:
 - type: p
-  content: <a href="/izrada-kuhinja-po-meri-novi-sad/">Izrada kuhinja po meri Novi
-    Sad</a> › Moj Stolar
-- type: p
   content: 'Kuhinja je srce doma – mesto gde se kuva, jede, priča i živi. Zato ona
     mora biti tačno onakva kakvu sanjate: po vašem stilu, po vašim merama, po vašem
     budžetu. U Novom Sadu, Moj Stolar je platforma koja spaja najbolje stolara i kupce
@@ -53,6 +50,13 @@ sections:
     italijanske, francuske seoske, industrijske, skandinavske, bele, crne, zelene.
     Bilo da živite na Telepu, Podbari ili Petrovaradinu – oni dolaze, mere, savetuju
     i montiraju.'
+- type: hijack
+  tag: Savet za uštedu vremena
+  title: Teško je naći slobodnog majstora?
+  content: Ne trošite sate zovući majstore koji su zauzeti mesecima unapred. Mi znamo
+    ko u Novom Sadu ima slobodne termine.
+  btn_text: Pronađi slobodnog stolara
+  url: "/izrada-kuhinja-po-meri-novi-sad/"
 - type: h2
   content: Kuhinje Koje Se Prave Kako ih Zamislite
 - type: p

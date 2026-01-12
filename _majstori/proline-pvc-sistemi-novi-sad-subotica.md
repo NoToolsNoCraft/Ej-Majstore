@@ -33,18 +33,25 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-28'
-last_modified: '2025-12-28'
+last_modified: '2026-01-12'
 sections:
 - type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › ProLine
-- type: p
-  content: U Vojvodini, kada tražite PVC prozore koji ne puštaju hladnoću, a izgledaju
-    kao drvo – svi put vodi do ProLine salona. Od Subotice preko Novog Sada, Sombora,
-    Inđije, Stare Pazove do Rume – ova mreža salona nudi Rehau kvalitet, boje zlatni/tamni
-    hrast, mahagoni, antracit i besplatnu montažu.
+  content: U Vojvodini, kada tražite <a href="/pvc-stolarija-subotica/">PVC prozore</a>
+    koji ne puštaju hladnoću, a izgledaju kao drvo – svi put vodi do ProLine salona.
+    Od Subotice preko Novog Sada, Sombora, Inđije, Stare Pazove do Rume – ova mreža
+    salona nudi Rehau kvalitet, boje zlatni/tamni hrast, mahagoni, antracit i besplatnu
+    montažu.
 - type: p
   content: ProLine nije samo prodaja – oni mere, savetuju, montiraju i garantuju.
     Excellent SME sertifikat od Privredne komore – to nije šala.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cenovnik za Suboticu
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: ProLine – PVC Po Celoj Vojvodini
 - type: p

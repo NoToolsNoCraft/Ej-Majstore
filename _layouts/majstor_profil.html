@@ -141,51 +141,7 @@ marketing_content: true
   }
 }
 
-.direct-contact-title {
-  margin: 0 0 12px 0;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-  font-weight: 600;
-}
 
-.direct-contact-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 8px 0;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: fit-content;
-}
-
-.whatsapp-direct {
-  background: #25D366;
-  color: white;
-}
-
-.whatsapp-direct:hover {
-  background: #1ebe57;
-  transform: translateY(-3px);
-}
-
-.viber-direct {
-  background: #7360F2;
-  color: white;
-}
-
-.viber-direct:hover {
-  background: #6652d8;
-  transform: translateY(-3px);
-}
-
-.direct-contact-btn i {
-  font-size: 1.6rem;
-}
 
 
 
@@ -209,6 +165,67 @@ marketing_content: true
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* Kontejner koji prekida skrolovanje */
+.lead-hijack-container {
+    background: #fffcf5; /* Blago krem boja, asocira na papir/zanat */
+    border-left: 5px solid #ff6b35; /* Jaka narandžasta "traka" pažnje */
+    border-top: 1px solid #ffe0b2;
+    border-bottom: 1px solid #ffe0b2;
+    border-right: 1px solid #ffe0b2;
+    border-radius: 4px 16px 16px 4px;
+    padding: 24px;
+    margin: 2.5rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lead-hijack-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff6b35;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.lead-hijack-title {
+    font-size: 1.3rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.lead-hijack-text {
+    font-size: 1rem !important;
+    color: #4a4a4a !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* Dugme koje dominira na palcu (Mobile Optimized) */
+.lead-hijack-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 24px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.lead-hijack-btn:active {
+    transform: scale(0.96); /* Efekat klika na mobilnom */
+}
+
+.lead-hijack-btn i {
+    margin-left: 10px;
 }
 
 </style>
@@ -295,6 +312,16 @@ marketing_content: true
         <ol class="section-ol">
           {% for i in s.items %}<li>{{ i }}</li>{% endfor %}
         </ol>
+
+        {% when 'hijack' %}
+      <div class="lead-hijack-container">
+        {% if s.tag %}<div class="lead-hijack-tag">{{ s.tag }}</div>{% endif %}
+        <h3 class="lead-hijack-title">{{ s.title }}</h3>
+        <p class="lead-hijack-text">{{ s.content }}</p>
+        <a href="{{ s.url }}" class="lead-hijack-btn">
+          {{ s.btn_text }} <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
 
       {% when 'image' %}
         {% assign img_url = s.src | relative_url %}
@@ -390,28 +417,7 @@ marketing_content: true
 
 </article>
 
-<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
-<div class="direct-contact-container">
-  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
-  
-  {% assign phone_clean = page.kontakt_telefon | remove: ' ' | remove: '-' | remove: '.' %}
-  {% if phone_clean != '' and phone_clean != 'Nemadostupankontakt' %}
-    <a href="https://wa.me/{{ phone_clean | prepend: '' }}?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
-       target="_blank"
-       class="direct-contact-btn whatsapp-direct"
-       onclick="trackLead?.('WhatsApp', '{{ page.ime }}')">
-      <i class="fa-brands fa-whatsapp"></i>
-      <span class="btn-text"></span>
-    </a>
 
-    <a href="viber://chat?number=+{{ phone_clean }}"
-       class="direct-contact-btn viber-direct"
-       onclick="trackLead?.('Viber', '{{ page.ime }}')">
-      <i class="fa-brands fa-viber"></i>
-      <span class="btn-text"></span>
-    </a>
-  {% endif %}
-</div>
 
 <script>
   
@@ -449,44 +455,52 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "{{ page.ime | escape }}",
-  "description": "{{ page.description | strip }}",
+  "name": {{ page.ime | default: page.title | jsonify }},
+  "description": {{ page.description | strip_html | strip_newlines | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
   {% if page.thumbnail %}
-  "image": "{{ page.thumbnail | absolute_url }}?width=800&format=webp",
+  "image": {{ page.thumbnail | absolute_url | append: "?width=800&format=webp" | jsonify }},
   {% endif %}
-  "url": "{{ page.url | absolute_url }}",
-  "telephone": "{{ page.kontakt_telefon | strip | escape }}",
-  "email": "{{ page.email | strip | escape }}",
-  {% if page.website != 'Nema dostupan website' %}
-  "sameAs": "{{ page.website.url | default: page.website }}",
+  {% if page.kontakt_telefon and page.kontakt_telefon != "" %}
+  "telephone": {{ page.kontakt_telefon | jsonify }},
+  {% endif %}
+  {% if page.email and page.email != "" and page.email != "Nema" %}
+  "email": {{ page.email | jsonify }},
+  {% endif %}
+  {% if page.website and page.website.url %}
+  "sameAs": {{ page.website.url | jsonify }},
+  {% elsif page.website and page.website != "" and page.website != "Nema dostupan website" %}
+  "sameAs": {{ page.website | jsonify }},
   {% endif %}
   "address": {
     "@type": "PostalAddress",
-    {% if page.address != 'Nema dostupnu adresu' %}
-    "streetAddress": "{{ page.address | escape }}",
-    {% else %}
-    "addressLocality": "{{ page.mesto | split: ', ' | first | escape }}",
+    "addressLocality": {{ page.mesto | split: ', ' | first | jsonify }},
+    {% if page.address and page.address != "" and page.address != "Nema dostupnu adresu" %}
+    "streetAddress": {{ page.address | jsonify }},
     {% endif %}
     "addressCountry": "RS"
   },
-  "openingHours": "{{ page.opening_hours | default: 'Mo-Su 08:00-20:00' }}",
+  "openingHours": {{ page.opening_hours | default: 'Mo-Su 08:00-20:00' | jsonify }},
   "priceRange": "$$",
   "areaServed": [
-    {% for m in page.mesto | split: ', ' %}"{{ m | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+    {% assign mesta = page.mesto | split: ', ' %}
+    {% for m in mesta %}
+      {{ m | strip | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
   ]
-  {% if page.services.size > 0 %}
+  {% if page.services and page.services.size > 0 %}
   ,"makesOffer": [
     {% for s in page.services %}
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
-        "name": "{{ s.title | escape }}",
-        "description": "{{ s.description | escape }}"
+        "name": {{ s.title | jsonify }},
+        "description": {{ s.description | jsonify }}
       }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}

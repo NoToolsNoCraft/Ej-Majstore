@@ -4,8 +4,7 @@ title: AR Company Subotica - PVC Stolarija i Alu Ograde
 description: AR Company – proizvodnja i ugradnja PVC stolarije po meri u Subotici.
   Prozori, vrata, stakleni portali, roletne, komarnici, podprozorske klupice + alu
   ograde sa elektromotorom. Kvalitet, brzina, garancija. Subotica i okolina. u Subotica,
-  Palić, Bačka Topola, Sombor, Kula, Vrbas, Bačko Dušanovo, Čantavir, Bajmok, Stari
-  Žednik, Tornjoš, Hajdukovo.
+  Palić, Bačka Topola, Tornjoš, Hajdukovo.
 ime: AR Company Subotica - PVC Stolarija i Alu Ograde
 kategorija:
 - PVC Stolarija
@@ -17,8 +16,7 @@ kategorija:
 - Podprozorske Klupice
 - Aluminijumske Ograde
 - Motorizovane Ograde
-mesto: Subotica, Palić, Bačka Topola, Sombor, Kula, Vrbas, Bačko Dušanovo, Čantavir,
-  Bajmok, Stari Žednik, Tornjoš, Hajdukovo
+mesto: Subotica, Palić, Bačka Topola, Tornjoš, Hajdukovo
 address: Nema dostupnu adresu
 kontakt_telefon: "+38162665801"
 email: ''
@@ -36,20 +34,28 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-08'
-last_modified: '2025-12-08'
+last_modified: '2026-01-12'
 sections:
 - type: p
-  content: <a href="/pvc-stolarija-subotica/">PVC Stolarija u Subotici</a> › AR Company
-- type: p
-  content: Kada u Subotici tražite PVC stolariju koja nije samo dobra, već i izgleda
-    savršeno, povoljan put svakako vodi do AR Company na Majšanskom putu 321. Aleksa
-    Radulović i njegov tim proizvode i montiraju prozore, vrata, staklene portale,
-    roletne, komarnike i podprozorske klupice – sve po meri, sve sa garancijom. A
-    posebnost? Alu ograde sa elektromotorom – prava retkost u okolini.
+  content: Kada u Subotici tražite <a href="/pvc-stolarija-subotica/">PVC stolariju</a>
+    koja nije samo dobra, već i izgleda savršeno, povoljan put svakako vodi do AR
+    Company na Majšanskom putu 321. Aleksa Radulović i njegov tim proizvode i montiraju
+    prozore, vrata, staklene portale, roletne, komarnike i podprozorske klupice –
+    sve po meri, sve sa garancijom. A posebnost? Alu ograde sa elektromotorom – prava
+    retkost u okolini.
 - type: p
   content: Ova firma je pravi primer kako se spaja tradicionalni subotički kvalitet
     sa modernim rešenjima. Radno vreme pon–pet 8–16h, subotom 8–13h – ali za hitne
-    slučajeve uvek se nađe rešenje.
+    slučajeve uvek se nađe rešenje. Ipak, ako vas interesuju kako se kreću <a href="/pvc-stolarija-subotica-cenovnik/">cene
+    PVC stolarije u Subotici</a>, slobodno bacite pogled na kalkulator koji smo pripremili.
+- type: hijack
+  tag: Provera tržišnih cena
+  title: Koliko zapravo košta PVC stolarija?
+  content: Cene Rehau profila u Subotici mogu značajno varirati kod različitih prodavaca.
+    Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu
+    sa prosečnim cenama po dimenzijama.
+  btn_text: Pogledaj cenovnik za Suboticu
+  url: "/pvc-stolarija-subotica-cenovnik/"
 - type: h2
   content: AR Company – Firma Koja Razume Vaš Dom
 - type: p

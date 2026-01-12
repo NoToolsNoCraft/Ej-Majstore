@@ -26,10 +26,13 @@
 .services-section h2,.faq-section h2{font-size:1.6rem;color:#1F2A44;margin-bottom:2rem;}
 .service-card,.faq-item{background:#fff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:1px solid #000;}
 .service-card h3,.faq-item h3{margin:0 0 .5rem;color:#1F2A44;}
-.faq-item h3{cursor:pointer;display:flex;justify-content:space-between;align-items:center;}
-.faq-item .toggle{font-weight:bold;font-size:1.2rem;color:#007bff;margin-left:.5rem;}
-.faq-answer{display:none;margin-top:.5rem;color:#555;}
-.faq-answer p{margin:0;}
+.faq-item {
+    background: #f9fafb !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    margin-bottom: 0.75rem !important;
+    border: 1px solid #e5e7eb !important; /* Suptilno, ne vrišti */
+}
 .share-section{margin-top:3rem;padding-top:1.5rem;border-top:2px solid #000;text-align:center;}
 .share-section p{margin-bottom:1rem;color:#333;}
 .share-btn{display:inline-block;margin:.5rem;padding:.5rem 1rem;color:#fff;text-decoration:none;border-radius:6px;font-size:.9rem;}

@@ -420,51 +420,7 @@
   }
 }
 
-.direct-contact-title {
-  margin: 0 0 12px 0;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-  font-weight: 600;
-}
 
-.direct-contact-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 8px 0;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: fit-content;
-}
-
-.whatsapp-direct {
-  background: #25D366;
-  color: white;
-}
-
-.whatsapp-direct:hover {
-  background: #1ebe57;
-  transform: translateY(-3px);
-}
-
-.viber-direct {
-  background: #7360F2;
-  color: white;
-}
-
-.viber-direct:hover {
-  background: #6652d8;
-  transform: translateY(-3px);
-}
-
-.direct-contact-btn i {
-  font-size: 1.6rem;
-}
 
 
 
@@ -488,6 +444,67 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* Kontejner koji prekida skrolovanje */
+.lead-hijack-container {
+    background: #fffcf5; /* Blago krem boja, asocira na papir/zanat */
+    border-left: 5px solid #ff6b35; /* Jaka narandžasta "traka" pažnje */
+    border-top: 1px solid #ffe0b2;
+    border-bottom: 1px solid #ffe0b2;
+    border-right: 1px solid #ffe0b2;
+    border-radius: 4px 16px 16px 4px;
+    padding: 24px;
+    margin: 2.5rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lead-hijack-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff6b35;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.lead-hijack-title {
+    font-size: 1.3rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.lead-hijack-text {
+    font-size: 1rem !important;
+    color: #4a4a4a !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* Dugme koje dominira na palcu (Mobile Optimized) */
+.lead-hijack-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 24px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.lead-hijack-btn:active {
+    transform: scale(0.96); /* Efekat klika na mobilnom */
+}
+
+.lead-hijack-btn i {
+    margin-left: 10px;
 }
 
 </style>
@@ -561,13 +578,22 @@
 
   <!-- ==== DYNAMIC CONTENT SECTIONS ==== -->
   
-    <p class="section-p"><a href="/pvc-stolarija-subotica/">PVC Stolarija Subotica</a> › Joviste</p>
-      
-  
-    <p class="section-p">Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio PVC prozore za kuću – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet se vidi na svakoj kući.</p>
+    <p class="section-p">Već godinama sarađujem sa Jovistem, a sve je počelo preko Atile Lašu-a iz Čantavira, koji tamo radi već dugo. Preko njega sam prvi put naručio <a href="/pvc-stolarija-subotica/">PVC prozore za kuću</a> – brza dostava, savršena montaža, zadovoljan. Od tada, u više navrata smo organizovali kupovinu i ugradnju prozora i vrata. Dosta Čantaviraca radi u Jovistu, pa je ovo firma koja je jako aktivna u našem kraju – preporuke idu od usta do usta, a kvalitet se vidi na svakoj kući.</p>
       
   
     <p class="section-p">Na adresi <strong>Horgoški put 81b u Paliću</strong> nalazi se <strong>Joviste</strong> – kompanija sa skoro <strong>20 godina iskustva</strong> u <em>proizvodnji PVC i ALU stolarije</em>. 95 zaposlenih, preko <strong>120.000 zadovoljnih korisnika</strong>. Specijalizovani za <strong>prozore, vrata, komarnike, žaluzine</strong>.</p>
+      
+  
+    
+      <div class="lead-hijack-container">
+        <div class="lead-hijack-tag">Provera tržišnih cena</div>
+        <h3 class="lead-hijack-title">Koliko zapravo košta PVC stolarija?</h3>
+        <p class="lead-hijack-text">Cene profila u Subotici mogu značajno varirati kod različitih prodavaca. Pre nego što zatražite ponudu, pogledajte naš ažurirani cenovnik za 2026. godinu sa prosečnim cenama po dimenzijama.</p>
+        <a href="/pvc-stolarija-subotica-cenovnik/" class="lead-hijack-btn">
+          Pogledaj cene PVC Stolarije u Subotici <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
       
   
     <h2 class="section-h2">Kompanija Okrenuta Savremenim Rešenjima</h2>
@@ -796,28 +822,7 @@ Solomatik žaluzine – automatske.</p>
 
 </article>
 
-<!-- ==== STICKY DIRECT CONTACT BUTTONS ==== -->
-<div class="direct-contact-container">
-  <p class="direct-contact-title"><strong>Brzi kontakt sa izvođačem:</strong></p>
-  
-  
-  
-    <a href="https://wa.me/+38124530350?text=Pozdrav,%20video%20sam%20vaš%20profil%20na%20'Ej%20Majstore!'%20i%20zanima%20me%20ponuda%20vezana%20za..."
-       target="_blank"
-       class="direct-contact-btn whatsapp-direct"
-       onclick="trackLead?.('WhatsApp', 'Joviste Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga')">
-      <i class="fa-brands fa-whatsapp"></i>
-      <span class="btn-text"></span>
-    </a>
 
-    <a href="viber://chat?number=++38124530350"
-       class="direct-contact-btn viber-direct"
-       onclick="trackLead?.('Viber', 'Joviste Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga')">
-      <i class="fa-brands fa-viber"></i>
-      <span class="btn-text"></span>
-    </a>
-  
-</div>
 
 <script>
   
@@ -855,24 +860,28 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Joviste Palić – PVC i ALU Stolarija po Meri sa Velikim Porfoliom Usluga",
   "description": "Joviste – proizvođač PVC i ALU stolarije sa skoro 20 godina iskustva. Kompletna usluga: dizajn, proizvodnja, montaža. Energetski efikasni prozori, vrata, komarnici, žaluzine. Pokrivaju Suboticu i Vojvodinu. u Subotica, Palić, Novi Sad, Sombor, Kanjiza, Senta, Bačka Topola, Ada, Čantavir.",
+  "url": "https://ejmajstore.rs/izvodjaci/subotica/joviste-palic-pvc-alu-stolarija-prozori-vrata/",
   
   "image": "https://ejmajstore.rs/images/joviste-palic-pvc-alu-stolarija-prozori-vrata.webp?width=800&format=webp",
   
-  "url": "https://ejmajstore.rs/izvodjaci/subotica/joviste-palic-pvc-alu-stolarija-prozori-vrata/",
+  
   "telephone": "+38124530350",
+  
+  
   "email": "office@joviste.rs",
+  
   
   "sameAs": "https://www.joviste.rs/",
   
   "address": {
     "@type": "PostalAddress",
+    "addressLocality": "Subotica",
     
     "streetAddress": "Horgoški put 81b, 24413 Palić",
     
@@ -881,12 +890,32 @@ document.addEventListener("DOMContentLoaded", function() {
   "openingHours": "Mo-Su 08:00-20:00",
   "priceRange": "$$",
   "areaServed": [
-    "Subotica, Palić, Novi Sad, Sombor, Kanjiza, Senta, Bačka Topola, Ada, Čantavir"
+    
+    
+      "Subotica",
+    
+      "Palić",
+    
+      "Novi Sad",
+    
+      "Sombor",
+    
+      "Kanjiza",
+    
+      "Senta",
+    
+      "Bačka Topola",
+    
+      "Ada",
+    
+      "Čantavir"
+    
   ]
   
   ,"makesOffer": [
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "PVC i ALU Prozori",
@@ -894,7 +923,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "PVC i ALU Vrata",
@@ -902,7 +932,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Komarnici (Fiksni, Rolo, Plise)",
@@ -910,7 +941,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Žaluzine, Zavese, Okapnice",
@@ -918,7 +950,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     },
     
-    { "@type": "Offer",
+    {
+      "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
         "name": "Set za Održavanje i Dodaci",
