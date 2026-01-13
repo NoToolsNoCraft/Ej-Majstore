@@ -24,8 +24,8 @@ website:
   label: Link do sajta
 slug: porta-look-beograd-komarnici-popravka-stolarije
 opening_hours:
-thumbnail: images/porta-look-beograd-komarnici-popravka-stolarije.webp
-hero_image: images/porta-look-beograd-komarnici-popravka-stolarije.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/porta-look-beograd-komarnici-popravka-stolarije.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/porta-look-beograd-komarnici-popravka-stolarije.webp
 discover_title: 'Porta Look Beograd: Aluminijumski Komarnici i Popravka Stolarije'
 author: Petar Škrbić
 author_slug: petar-skrbic

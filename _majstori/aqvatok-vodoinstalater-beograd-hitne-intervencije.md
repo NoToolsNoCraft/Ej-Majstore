@@ -23,8 +23,8 @@ googlemaps: ''
 website: Nema dostupan website
 slug: aqvatok-vodoinstalater-beograd-hitne-intervencije
 opening_hours:
-thumbnail: images/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp
-hero_image: images/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/aqvatok-vodoinstalater-beograd-hitne-intervencije.webp
 discover_title: Aqvatok Beograd - Kada Voda Ne Čeka 24h
 author: Petar Škrbić
 author_slug: petar-skrbic

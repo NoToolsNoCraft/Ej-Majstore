@@ -23,8 +23,8 @@ website:
   label: Link do sajta
 slug: top-keramicar-beograd-postavljanje-plocica-renoviranje
 opening_hours:
-thumbnail: images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
-hero_image: images/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/top-keramicar-beograd-postavljanje-plocica-renoviranje.webp
 discover_title: Top Keramičar Beograd – Profesionalni Tim za Ugradnju Pločica i Adaptaciju
 author: Petar Škrbić
 author_slug: petar-skrbic

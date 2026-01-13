@@ -23,8 +23,8 @@ website:
   label: Link do sajta
 slug: haus-majstor-winner-srbija-popravke-renoviranje
 opening_hours:
-thumbnail: images/haus-majstor-winner-srbija-popravke-renoviranje.webp
-hero_image: images/haus-majstor-winner-srbija-popravke-renoviranje.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/haus-majstor-winner-srbija-popravke-renoviranje.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/haus-majstor-winner-srbija-popravke-renoviranje.webp
 discover_title: Haus Majstor Winner Pretvara Kućne Noćne More u San
 author: Petar Škrbić
 author_slug: petar-skrbic

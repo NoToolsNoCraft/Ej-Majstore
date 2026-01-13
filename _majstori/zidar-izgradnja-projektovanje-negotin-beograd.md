@@ -24,8 +24,8 @@ website:
   label: Link do sajta
 slug: zidar-izgradnja-projektovanje-negotin-beograd
 opening_hours:
-thumbnail: images/zidar-izgradnja-projektovanje-negotin-beograd.webp
-hero_image: images/zidar-izgradnja-projektovanje-negotin-beograd.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/zidar-izgradnja-projektovanje-negotin-beograd.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/zidar-izgradnja-projektovanje-negotin-beograd.webp
 discover_title: Zidar d.o.o. – Izgradnja i Projektovanje Stambeno-Poslovnih Objekata
   Ključ u Ruke
 author: Petar Škrbić

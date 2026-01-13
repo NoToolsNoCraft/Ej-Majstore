@@ -23,8 +23,8 @@ website:
   label: Link do sajta
 slug: singor-apatin-elektroinstalacije-tehnicka-zastita
 opening_hours:
-thumbnail: images/Singor-Apatin-elektroinstalacije-thumbnail.webp
-hero_image: images/Singor-Apatin-elektroinstalacije-thumbnail.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/Singor-Apatin-elektroinstalacije-thumbnail.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/Singor-Apatin-elektroinstalacije-thumbnail.webp
 discover_title: SINGOR iz Apatina Elektroinstalira Budućnost Bačke
 author: Petar Škrbić
 author_slug: petar-skrbic
@@ -32,7 +32,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kva
   zanatskih usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika
   širom Srbije.
 date: '2025-10-29'
-last_modified: '2025-11-19'
+last_modified: '2026-01-13'
 sections:
 - type: p
   content: U svakom gradu postoji ona zgrada koja ima večiti problem sa osiguračima.

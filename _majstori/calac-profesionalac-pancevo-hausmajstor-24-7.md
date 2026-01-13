@@ -23,8 +23,8 @@ website:
   label: Link do sajta
 slug: calac-profesionalac-pancevo-hausmajstor-24-7
 opening_hours:
-thumbnail: images/calac-profesionalac-pancevo-hausmajstor-24-7.webp
-hero_image: images/calac-profesionalac-pancevo-hausmajstor-24-7.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/calac-profesionalac-pancevo-hausmajstor-24-7.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/calac-profesionalac-pancevo-hausmajstor-24-7.webp
 discover_title: Ćalac Profesionalac Pančevo – Hausmajstor Firma Koja Ne Zna Za „Sutra“
 author: Petar Škrbić
 author_slug: petar-skrbic

@@ -18,8 +18,8 @@ googlemaps: ''
 website: Nema dostupan website
 slug: strahinja-dondur-vrsac-hausmajstor-vodovodar
 opening_hours:
-thumbnail: images/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp
-hero_image: images/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp
+thumbnail: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp
+hero_image: https://cdn.jsdelivr.net/gh/NoToolsNoCraft/Ej-Majstore-Images@main/strahinja-dondur-vrsac-hausmajstor-vodovodar.webp
 discover_title: Strahinja Dondur Vršac – Hausmajstor za Vodovod i Kačenje Elemenata
 author: Petar Škrbić
 author_slug: petar-skrbic

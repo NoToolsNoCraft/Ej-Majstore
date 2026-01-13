@@ -8,7 +8,7 @@ date: '2026-01-11'
 last_modified_at: '2026-01-11'
 author: Petar Škrbić
 slug: traktorska-seckalica-za-granje-koji-model-odabrati-cena
-image: "/images/traktorska-seckalica-za-granje-cena.webp"
+image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/traktorska-seckalica-za-granje-cena.webp
 sections:
 - type: paragraph
   content: 'Proleće i jesen donose orezivanje voćnjaka, čišćenje šiblja i uređivanje
