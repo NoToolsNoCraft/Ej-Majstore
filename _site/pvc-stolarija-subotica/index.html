@@ -310,15 +310,28 @@
 
   /* Zeleni tonovi za PVC stolariju */
   .category-hero {
-    background: linear-gradient(135deg, #2d7748, #4caf50);
+    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
+    background: linear-gradient(135deg, rgba(151, 255, 186, 0.05), rgba(224, 59, 246, 0.85)), 
+                url('/images/cena krovnih prozora sa ugradnjom.webp');
+    
+    /* Ensures the image covers the whole area without stretching distorting */
+    background-size: cover;
+    
+    /* Centers the image so the focal point is usually visible */
+    background-position: center;
+    
+    /* Prevents the image from repeating like tiles */
+    background-repeat: no-repeat;
+    
+    /* Keep your existing styles below */
     color: white;
-    padding: 6rem 1rem 5rem;
+    padding: 7rem 1rem 5rem;
     text-align: center;
-    margin-bottom: 4rem;
-    position: relative;
-    overflow: hidden;
+    margin-bottom: 5rem;
     margin-top: 1rem;
-    border-radius: 2rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
   }
   .category-hero h1 {
     font-size: clamp(2.4rem, 6vw, 3.4rem);
@@ -761,8 +774,8 @@
 <!-- HERO -->
 <div class="category-hero">
   <div class="container">
-    <h1>PVC Stolarija Subotica – Cena, Izrada i Ugradnja</h1>
-    <p>
+    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">PVC Stolarija Subotica – Cena, Izrada i Ugradnja</h1>
+    <p style="text-shadow: 0 2px 4px rgba(17, 24, 39, 1);">
       Pronađite proverene firme za PVC i ALU stolariju u Subotici
       <strong>za kompletne zamene, više prozora ili veće projekte</strong>
       (stanovi, kuće, poslovni prostori).

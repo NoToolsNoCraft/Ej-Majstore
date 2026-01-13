@@ -37,7 +37,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-17'
-last_modified: '2025-12-17'
+last_modified: '2026-01-13'
 sections:
 - type: p
   content: 'Kuhinja je srce doma – mesto gde se kuva, jede, priča i živi. Zato ona

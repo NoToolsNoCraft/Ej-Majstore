@@ -317,7 +317,30 @@
 
 <style>
   .container {max-width:1160px;margin:0 auto;padding:0 1rem;box-sizing:border-box;}
-  .hero {background:linear-gradient(135deg,#33b7ce,#4caf50);color:white;padding:6rem 1rem 5rem;text-align:center;margin-bottom:4rem;margin-top:2rem;border-radius:2rem;overflow:hidden;}
+.hero {
+    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
+    background: linear-gradient(135deg, rgba(151, 255, 186, 0.05), rgba(246, 112, 59, 0.85)), 
+                url('/images/cena krovnih prozora sa ugradnjom.webp');
+    
+    /* Ensures the image covers the whole area without stretching distorting */
+    background-size: cover;
+    
+    /* Centers the image so the focal point is usually visible */
+    background-position: center;
+    
+    /* Prevents the image from repeating like tiles */
+    background-repeat: no-repeat;
+    
+    /* Keep your existing styles below */
+    color: white;
+    padding: 7rem 1rem 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
+}
   .hero h1 {font-size:clamp(2.4rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
   .hero p {font-size:1.25rem;max-width:820px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
   .cta-btn {display:inline-flex;align-items:center;gap:.9rem;background:rgba(255,255,255,.92);color:#2d7748;border:2px solid #2d7748;padding:1.1rem 2.5rem;border-radius:50px;font-weight:600;font-size:1.2rem;text-decoration:none;transition:all .35s;box-shadow:0 8px 25px rgba(0,0,0,.22);}
@@ -471,8 +494,8 @@
 
 <div class="hero">
   <div class="container">
-    <h1 style="color: white;">PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova</h1>
-    <p>Informativna procena ukupne cene <a href="/pvc-stolarija-subotica/">PVC stolarije za stan ili kuću u Subotici</a> i okolini.</p>
+    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova</h1>
+    <p style="text-shadow: 0 2px 4px rgba(17, 24, 39, 1);">Informativna procena ukupne cene PVC stolarije za stan ili kuću u Subotici i okolini.</p>
     <a href="#calculator" class="cta-btn" onclick="document.getElementById('calculator').scrollIntoView({behavior: 'smooth'}); return false;">
       Izračunajte cenu odmah <i class="fa-solid fa-angles-down"></i>
     </a>
@@ -482,7 +505,7 @@
 <section class="content-section" style="margin-top:2rem;">
   <h2 style="text-align: center;">Zašto ne treba da zovete firme nasumično?</h2>
   <p>
-    Zato što PVC stolarija nije mala kupovina. Jedna loša odluka znači:
+    Zato što <a href="/pvc-stolarija-subotica/">PVC stolarija</a> nije mala kupovina. Jedna loša odluka znači:
     lošu montažu, probijene rokove, skrivene doplate ili probleme koje
     niko posle ne želi da rešava.
   </p>

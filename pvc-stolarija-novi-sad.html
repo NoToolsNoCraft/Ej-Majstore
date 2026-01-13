@@ -31,14 +31,28 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
   .container {max-width:1160px;margin:0 auto;padding:0 0.2rem;}
 
   .hero {
-    background:linear-gradient(135deg,#1e40af,#3b82f6);
-    color:white;
-    padding:5rem 1.5rem 4.5rem;
-    text-align:center;
-    margin:2rem auto 4rem;
-    border-radius:2rem;
-    overflow:hidden;
-    max-width:1200px;
+    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
+    background: linear-gradient(135deg, rgba(47, 94, 63, 0.05), rgba(246, 112, 59, 0.85)), 
+                url('/images/pvc-stolarija-prozori-vrata-klizni-sistemi.webp');
+    
+    /* Ensures the image covers the whole area without stretching distorting */
+    background-size: cover;
+    
+    /* Centers the image so the focal point is usually visible */
+    background-position: center;
+    
+    /* Prevents the image from repeating like tiles */
+    background-repeat: no-repeat;
+    
+    /* Keep your existing styles below */
+    color: white;
+    padding: 7rem 1rem 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
   }
   .hero h1 {font-size:clamp(2rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
   .hero p {font-size:clamp(1.15rem,4vw,1.3rem);max-width:840px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
@@ -216,12 +230,12 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
 
 <div class="hero">
   <div class="container">
-    <h1 style="color:white;">
+    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
       PVC stolarija u Novom Sadu<br>
       bez grešaka u montaži i skrivenih troškova
     </h1>
 
-    <p>
+    <p style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
       Profesionalna izrada i ugradnja PVC prozora, vrata i kliznih sistema
       sa <strong>Gealan S9000 / S8000</strong> profilima.<br>
       Jedno merenje. Jedna ponuda. Jedan odgovoran izvođač.
@@ -231,13 +245,13 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
       📞 Besplatno merenje i procena – 063 105 05 15
     </a>
 
-    <p style="font-size:0.9rem;opacity:0.9;margin-top:1rem;">
+    <p style="font-size:0.9rem;opacity:0.9;margin-top:1rem; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
       ✔ Odgovor u roku od 24h &nbsp;•&nbsp;
       ✔ Bez obaveze &nbsp;•&nbsp;
       ✔ Novi Sad i okolina
     </p>
 
-    <p style="margin-top:1rem;font-size:0.85rem;color:#e5e7eb;">
+    <p style="margin-top:1rem;font-size:0.85rem;color:#ffffff; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
       Ej Majstore kvalifikuje upit i povezuje vas sa proverenim partnerskim
       izvođačem za PVC stolariju u Novom Sadu.
     </p>

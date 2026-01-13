@@ -308,14 +308,28 @@
   .container {max-width:1160px;margin:0 auto;padding:0 0;}
 
   .hero {
-    background:linear-gradient(135deg,#1e40af,#3b82f6);
-    color:white;
-    padding:5rem 1.5rem 4.5rem;
-    text-align:center;
-    margin:2rem auto 4rem;
-    border-radius:2rem;
-    overflow:hidden;
-    max-width:1200px;
+    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
+    background: linear-gradient(135deg, rgba(47, 94, 63, 0.05), rgba(35, 96, 209, 0.85)), 
+                url('/images/pvc-stolarija-prozori-vrata-klizni-sistemi.webp');
+    
+    /* Ensures the image covers the whole area without stretching distorting */
+    background-size: cover;
+    
+    /* Centers the image so the focal point is usually visible */
+    background-position: center;
+    
+    /* Prevents the image from repeating like tiles */
+    background-repeat: no-repeat;
+    
+    /* Keep your existing styles below */
+    color: white;
+    padding: 7rem 1rem 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
   }
   .hero h1 {font-size:clamp(2rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
   .hero p {font-size:clamp(1.15rem,4vw,1.3rem);max-width:840px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
@@ -535,17 +549,17 @@
 
 <div class="hero">
   <div class="container">
-    <h1 style="color:white">Kompletna zamena PVC i ALU stolarije Novi Sad</h1>
-    <p>Planirate zamenu svih prozora i vrata u kući ili stanu tokom renoviranja?<br>Mi vam pomažemo da dobijete kvalitetnu ponudu za kompletan projekat od odgovarajućih izvođača u Novom Sadu i okolini.</p>
+    <h1 style="color:white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Kompletna zamena PVC i ALU stolarije Novi Sad</h1>
+    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Planirate zamenu svih prozora i vrata u kući ili stanu tokom renoviranja?<br>Mi vam pomažemo da dobijete kvalitetnu ponudu za kompletan projekat od odgovarajućih izvođača u Novom Sadu i okolini.</p>
     
-    <div class="hero-callout">
+    <div class="hero-callout" style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
       📞 Pozovite nas i recite:<br>
       • koliko prozora i vrata treba zameniti<br>
       • tip objekta (kuća, stan, poslovni prostor)<br>
       • lokaciju (Novi Sad, Temerin ili okolina)
     </div>
     
-    <p>Na osnovu toga ćemo vam brzo organizovati procenu i ponudu.</p>
+    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Na osnovu toga ćemo vam brzo organizovati procenu i ponudu.</p>
 
     <a href="tel:+381631050515" class="hero-cta-btn">📞 Pozovite odmah: 063 105 05 15</a>
   </div>
