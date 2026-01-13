@@ -256,6 +256,7 @@
     { title: "Tuš Kabine po Meri Novi Sad", url: "/tus-kabine-po-meri-novi-sad/" },
     { title: "Staklene Ograde za Stepenice u Novom Sadu", url: "/staklene-ograde-za-stepenice-novi-sad/" },
     { title: "Zastakljivanje terasa u Novom Sadu", url: "/zastakljivanje-terasa-novi-sad/" },
+    { title: "Cena Krovnih Prozora sa Ugradnjom 2026", url: "/krovni-prozori-cena-sa-ugradnjom/" },
     { title: "Cena Međugradske Selidbe", url: "/medjugradske-selidbe-cena/" }
   ];
 </script>
@@ -376,7 +377,7 @@
   .calc-guide th {background:#e8f5e9;color:#1b5e20;font-weight:600;}
   .calc-guide p {line-height:1.6;color:#374151;}
   
-  .contact-block {background:#e8f5e9;padding:3rem 2rem;text-align:center;border-radius:20px;margin:5rem auto;max-width:900px;box-shadow:0 10px 30px rgba(76,175,80,.15);}
+  .contact-block {background:#e8f5e9;padding:3rem 2rem;text-align:center;border-radius:20px;margin:2rem auto;max-width:900px;box-shadow:0 10px 30px rgba(76,175,80,.15);}
   .contact-block p {font-size:1.15rem;margin-bottom:2rem;}
   .contact-buttons {display:flex;justify-content:center;gap:1.2rem;flex-wrap:wrap;}
   .contact-btn {display:inline-flex;align-items:center;gap:.8rem;padding:1rem 2.2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;transition:all .3s;}
@@ -417,6 +418,55 @@
   .faq-answer {padding:0 2rem;max-height:0;overflow:hidden;transition:all .4s;background:white;}
   .faq-item.active .faq-answer {padding:1.8rem 2rem;max-height:500px;}
   .faq-answer p {margin:0;line-height:1.75;color:#4b5563;font-size:1.05rem;}
+  .chat-btn {
+  display:flex;
+  align-items:center;
+  gap:.7rem;
+  padding:.75rem 1.4rem;
+  border-radius:14px;
+  font-weight:600;
+  font-size:.95rem;
+  text-decoration:none;
+  transition:all .25s ease;
+  box-shadow:0 4px 14px rgba(0,0,0,.12);
+  opacity:.92;
+}
+
+.chat-btn:hover {
+  transform:translateY(-2px);
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+  opacity:1;
+}
+
+.whatsapp-btn {
+  background:#e9f8ef;
+  color:#075E54;
+  border:1px solid #bfe8d0;
+}
+
+.whatsapp-btn:hover {
+  background:#25D366;
+  color:white;
+}
+.viber-btn {
+  background:#f1eefb;
+  color:#4a3f99;
+  border:1px solid #d8d3f0;
+}
+
+.viber-btn:hover {
+  background:#665cac;
+  color:white;
+}
+
+.chat-options {
+  display:flex;
+  gap:1rem;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:1.2rem;
+}
+
 </style>
 
 <div class="hero">
@@ -429,11 +479,33 @@
   </div>
 </div>
 
+<section class="content-section" style="margin-top:2rem;">
+  <h2 style="text-align: center;">Zašto ne treba da zovete firme nasumično?</h2>
+  <p>
+    Zato što PVC stolarija nije mala kupovina. Jedna loša odluka znači:
+    lošu montažu, probijene rokove, skrivene doplate ili probleme koje
+    niko posle ne želi da rešava.
+  </p>
+
+  <br><h3>Šta Ej Majstore! radi drugačije</h3>
+  <ul>
+    <li>✔️ Ne povezujemo vas sa bilo kim – već sa odgovarajućim izvođačima</li>
+    <li>✔️ Firme dolaze na <strong>besplatno merenje bez obaveze</strong></li>
+    <li>✔️ Ne gubite dane zovući 5 različitih brojeva</li>
+  </ul>
+
+  <p>
+    Kalkulator vam daje orijentaciju.  
+    Mi vam štitimo živce, vreme i novac.
+  </p>
+</section>
+
+
 
 
 <!-- How it works block -->
 <section class="how-it-works" id="how-it-works">
-  <h2 style="text-align: center;">Kako funkcioniše?</h2>
+  <h2 style="text-align: center; margin-top: 2rem;">Kako funkcioniše?</h2>
   <div class="steps">
     <div class="step">
       <div class="step-number">1</div>
@@ -506,6 +578,7 @@
     </div>
 
     <div class="contact-block">
+      <p>Cene PVC stolarije u Subotici variraju i često rastu sezonski. Za procene preko 1.500 € firme daju prioritet.</p>
       <p>Ne birajte firmu nasumično. Poziv ide preko Ej Majstore! platforme ka odgovarajućim izvođačima u Subotici.</p>
       <div class="contact-buttons">
             <a href="tel:+381631050515"
@@ -517,9 +590,25 @@
           📞 Pozovite 063 105 05 15
           </a>
 
-        <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
-        <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
+        
       </div>
+      <div class="chat-options">
+      <a href="https://wa.me/381631050515"
+        class="chat-btn whatsapp-btn"
+        target="_blank"
+        onclick="gtag('event','click_whatsapp',{event_category:'lead'})">
+        💬 WhatsApp – poruka ili poziv
+      </a>
+
+      <a href="viber://chat?number=%2B381631050515"
+        class="chat-btn viber-btn"
+        onclick="gtag('event','click_viber',{event_category:'lead'})">
+        📱 Viber – poruka ili poziv
+      </a>
+    </div>
+
+      </div>
+      
     </div>
     
     <div class="disclaimer">

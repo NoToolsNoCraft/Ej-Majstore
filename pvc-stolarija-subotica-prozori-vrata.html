@@ -414,12 +414,79 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
       gap: 1.5rem;
     }
   }
+
+  /* CONTACT BUTTONS – CHOICE HIERARCHY */
+
+.premium-promo .contact-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* PRIMARY: PHONE CALL */
+.premium-promo .contact-btn:first-child {
+  background: linear-gradient(135deg, #1b5e20, #4caf50);
+  font-size: 1.25rem;
+  padding: 1.2rem 2.8rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  box-shadow: 0 12px 30px rgba(76, 175, 80, 0.45);
+  position: relative;
+  animation: phonePulse 2.2s infinite;
+}
+
+@keyframes phonePulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(76,175,80,.55);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(76,175,80,0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(76,175,80,0);
+  }
+}
+
+.premium-promo .contact-btn:first-child:hover {
+  transform: translateY(-6px) scale(1.02);
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+}
+
+/* SECONDARY CHANNELS (WhatsApp + Viber) */
+.premium-promo .contact-btn.whatsapp,
+.premium-promo .contact-btn.viber {
+  font-size: 0.95rem;
+  padding: 0.75rem 1.6rem;
+  opacity: 0.7;
+  filter: grayscale(15%);
+  box-shadow: none;
+}
+
+/* Subtle hover – still secondary */
+.premium-promo .contact-btn.whatsapp:hover,
+.premium-promo .contact-btn.viber:hover {
+  opacity: 1;
+  filter: none;
+  transform: translateY(-2px);
+}
+
+/* Optional helper text under phone */
+.premium-promo .contact-buttons::after {
+  content: "Najbrži odgovor dobijate telefonom";
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #1b5e20;
+  opacity: 0.85;
+}
+
 </style>
 
 <!-- HERO -->
 <div class="category-hero">
   <div class="container">
-    <h1>PVC Stolarija Subotica</h1>
+    <h1>PVC Stolarija Subotica – Cena, Izrada i Ugradnja</h1>
     <p>
       Pronađite proverene firme za PVC i ALU stolariju u Subotici
       <strong>za kompletne zamene, više prozora ili veće projekte</strong>
@@ -434,7 +501,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
 
 <!-- UVODNI TEKST -->
 <div class="services-intro">
-  <p style="text-align: justify;">U Subotici postoji više firmi koje se bave izradom i ugradnjom PVC stolarije – prozora, vrata, kliznih sistema i dodataka.</p>
+  <p style="text-align: justify;">U Subotici postoji više firmi koje se bave izradom i ugradnjom PVC stolarije – prozora, vrata, kliznih sistema i dodataka. Mi smo tu da vam pomognemo da odaberete onu koja odgovara vašim potrebama.</p>
   <p style="text-align: justify; margin-top: 1rem;">PVC stolarija je najpopularniji izbor zbog odlične toplotne i zvučne izolacije, niske cene i lakog održavanja. Za velike otvore često se bira ALU stolarija. Preporučuje se da korisnici direktno provere detalje sa izvođačem. Pogledajte okvirni <a href="/pvc-stolarija-subotica-cenovnik/">cenovnik PVC Stolarije u Subotici</a>.</p>
 
   <h3 style="text-align: center; margin: 3rem 0 2rem;">Najtraženije usluge PVC stolarije u Subotici:</h3>
@@ -470,7 +537,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
 
     <div class="contact-buttons">
       <a href="tel:+381631050515" class="contact-btn">
-        <i class="fa-solid fa-phone"></i> Pozovite za ponudu
+        <i class="fa-solid fa-phone"></i> Pozovite – najbrži odgovor
       </a>
       <a href="https://wa.me/381631050515" class="contact-btn whatsapp" target="_blank">
         <i class="fa-brands fa-whatsapp"></i> Pišite na WhatsApp
@@ -488,7 +555,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-subotica/
   
   <div class="directory-disclaimer" style="max-width:1100px;margin:2rem auto;padding:1.2rem 1.5rem;border:2px solid #e5e7eb;border-radius:12px;background:#f9fafb;font-size:0.95rem;color:#374151;">
       <strong>Važna napomena:</strong><br>
-      Ej Majstore! je informativna platforma koja povezuje korisnike sa dostupnim izvođačima usluga na osnovu javno dostupnih podataka i tržišne ponude. Ne učestvujemo u realizaciji radova niti u sklapanju ugovora između korisnika i izvođača. Konačni dogovor, cena, rokovi i uslovi saradnje ugovaraju se direktno između korisnika i odabrane firme. Preporučujemo da korisnici samostalno provere sve detalje pre početka saradnje. Ukoliko primetite netačne informacije ili imate povratnu informaciju o radu nekog izvođača, možete nam se obratiti putem mejla ili telefona.
+      Ej Majstore! posreduje u povezivanju korisnika sa dostupnim izvođačima usluga. Ne učestvujemo u realizaciji radova niti u sklapanju ugovora između korisnika i izvođača. Konačni dogovor, cena, rokovi i uslovi saradnje ugovaraju se direktno između korisnika i odabrane firme. Preporučujemo da korisnici samostalno provere sve detalje pre početka saradnje. Ukoliko primetite netačne informacije ili imate povratnu informaciju o radu nekog izvođača, možete nam se obratiti putem mejla ili telefona.
     </div>
 </div>
 
