@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kompletna zamena PVC i ALU stolarije Novi Sad – sa montažom i garancijom
-description: Kompletna zamena stare PVC i ALU stolarije u Novom Sadu i okolini. Profesionalna demontaža, ugradnja energetski efikasne stolarije za kuće, stanove i poslovne objekte sa garancijom.
+description: Kompletna zamena stare PVC i ALU stolarije u Novom Sadu i okolini. Profesionalna demontaža, ugradnja energetski efikasne stolarije za kuće, stanove i poslovne objekte.
 permalink: /kompletna-zamena-pvc-alu-stolarije-novi-sad/
 canonical: https://ejmajstore.rs/kompletna-zamena-pvc-alu-stolarije-novi-sad/
 ---
@@ -268,28 +268,270 @@ canonical: https://ejmajstore.rs/kompletna-zamena-pvc-alu-stolarije-novi-sad/
     background:#f9fafb;border-left:4px solid var(--primary);
     font-size:.98rem;color:var(--text);line-height:1.7;
   }
+
+
+  .intro-section {
+  background: var(--light-bg);
+  border: 2px solid var(--mid-gray);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 1000px;
+  box-shadow: 0 10px 30px rgba(30,64,175,.12);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 220px 1fr;
+  }
+}
+
+.intro-photo {
+  text-align: center;
+}
+
+.intro-photo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.intro-content h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 5vw, 2.2rem);
+  color: var(--heading);
+}
+
+.intro-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.intro-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0;
+}
+
+.intro-content li {
+  padding-left: 1.6rem;
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+
+.intro-content li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.intro-trust {
+  margin-top: 1.4rem;
+  font-style: italic;
+  color: var(--accent);
+}
+
+
+.testimonials-section {
+    margin: 6rem auto;
+    max-width: 1000px;
+    padding: 0 1.5rem;
+  }
+  .testimonials-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--heading);
+  }
+  .testimonial-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 3rem;
+    align-items: center;
+    border: 1px solid var(--mid-gray);
+  }
+  @media (min-width: 768px) {
+    .testimonial-card { grid-template-columns: 300px 1fr; }
+    .testimonial-card.reverse { grid-template-columns: 1fr 300px; }
+  }
+  .testimonial-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .testimonial-content blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--text);
+    position: relative;
+  }
+  .testimonial-content blockquote::before {
+    content: "“";
+    font-size: 4rem;
+    color: var(--primary);
+    opacity: 0.2;
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+  }
+  .testimonial-author {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-author span {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
 </style>
 
 <div class="hero">
   <div class="container">
-    <h1 style="color:white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Kompletna zamena PVC i ALU stolarije Novi Sad</h1>
-    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Planirate zamenu svih prozora i vrata u kući ili stanu tokom renoviranja?<br>Mi vam pomažemo da dobijete kvalitetnu ponudu za kompletan projekat od odgovarajućih izvođača u Novom Sadu i okolini.</p>
-    
-    <div class="hero-callout" style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
-      📞 Pozovite nas i recite:<br>
-      • koliko prozora i vrata treba zameniti<br>
-      • tip objekta (kuća, stan, poslovni prostor)<br>
-      • lokaciju (Novi Sad, Temerin ili okolina)
-    </div>
-    
-    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">Na osnovu toga ćemo vam brzo organizovati procenu i ponudu.</p>
+    <h1 style="color:white; text-shadow: 0 4px 8px rgba(13, 19, 31, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
+      Kompletna zamena PVC i ALU stolarije<br>
+      bez skupih grešaka
+    </h1>
 
-    <a href="tel:+381631050515" class="hero-cta-btn">📞 Pozovite odmah: 063 105 05 15</a>
+    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
+      Većina ljudi pogreši izvođača — i to shvati tek posle prve zime.<br>
+      Ja vam pomažem da dobijete <strong>pravu ponudu</strong> od proverenih firmi u Novom Sadu i okolini,
+      pre nego što potrošite novac.
+    </p>
+
+    <div class="hero-callout" style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
+      📞 Pozovite me i recite:<br>
+      • koliko prozora i vrata menjate<br>
+      • da li je kuća ili stan<br>
+      • lokaciju (Novi Sad / okolina)
+    </div>
+
+    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
+      Na osnovu toga organizujem <strong>besplatnu procenu i realnu ponudu</strong> —
+      bez obaveze i bez gubljenja vremena.
+    </p>
+
+    <a href="tel:+381631050515" class="hero-cta-btn"
+      onclick="gtag('event', 'contact_click', {
+        'method': 'phone',
+        'location': 'hero',
+        'value': 1
+      });">
+      📞 Pozovite odmah: 063 105 05 15
+    </a>
   </div>
 </div>
 
+
+<section class="intro-section">
+  <div class="intro-grid">
+
+    <div class="intro-photo">
+      <!-- Replace with a real, neutral, daylight photo -->
+      <img src="/images/petar-skrbic-u-garazi.webp" alt="Petar Škrbić – koordinacija kompletne zamene stolarije Novi Sad">
+    </div>
+
+    <div class="intro-content">
+      <h2>Ko će se javiti kada pozovete?</h2>
+
+      <p>
+        Zovete <strong>mene – Petra</strong>.
+      </p>
+
+      <p>
+        Najčešća greška kod kompletne zamene je pogrešan izbor izvođača, i to se vidi tek posle prve zime.
+        Moj posao je da razumem <strong>ceo projekat</strong> i povežem vas sa
+        <strong>odgovarajućim izvođačima</strong> za kompletnu zamenu stolarije u Novom Sadu i okolini.
+      </p>
+
+      <ul>
+        <li>razjasnimo da li je vaš objekat spreman za kompletnu zamenu</li>
+        <li>izbegnete pogrešne ponude i gubljenje vremena</li>
+        <li>dobijete realnu procenu pre izlaska na merenje</li>
+      </ul>
+
+      <p class="intro-trust">
+        Da li znam ko vam to može odraditi? Znam, a ako slučajno ne znam, onda znam ko zna.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <p style="margin-top: 2rem;"><b>Ako imate konkretan projekat kompletne zamene PVC i ALU stolarije,<br>pozovite me ili pišite za brzu procenu.</b></p>
+  <div class="phone-number">063 105 05 15</div>
+  <p>Pozivi do 15 minuta • Bez obaveze • Svaki dan 7-19h</p>
+  <div class="contact-buttons">
+    <a href="tel:+381631050515" class="contact-btn call-btn" onclick="gtag('event', 'contact_click', {
+     'method': 'phone',
+     'location': 'cta',
+     'value': 1  // optional: assign lead value
+   });">📞 Pozovite sada</a>
+    <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
+    <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
+  </div>
+</section>
+
+<section class="testimonials-section">
+  <h2 style="margin-top: 3rem;">Iskustva ljudi sa kojima sam radio u Novom Sadu</h2>
+
+  <div class="testimonial-card">
+    <div class="testimonial-image">
+      <img src="/images/pvc-prozor-u-potkrovlju-kuce.webp" alt="Savršeno obrađene špaletne nakon ugradnje">
+    </div>
+    <div class="testimonial-content">
+      <blockquote>
+        "Plašio sam se da ću nakon ugradnje prozora morati nedeljama da jurim molera da sredi ivice. <strong>Pera je to rešio u jednom pozivu.</strong> Povezao me je sa ekipom koja je ugradila PVC i odmah sutradan organizovao majstora za obradu zidova. Sve je završeno bez zastoja. Tople preporuke za momka!"
+      </blockquote>
+      <div class="testimonial-author">
+        Slaviša P.
+        <span>Adaptacija potkrovlja kuće, okolina Novog Sada</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial-card reverse">
+    <div class="testimonial-content">
+      <blockquote>
+        "Nisam znao odakle da krenem jer svaka firma hvali svoj profil. Petar je uradio ono što ja nisam mogao. Isfiltrirao je ponude i pronašao firmu koja zapravo ugrađuje stakla punjena argonom, a ne samo na papiru. Iskreno mi je rekao gde je troslojni paket bacanje para, a gde je neophodan za moju stranu kuće. Umesto da lutam po salonima, dobio sam proverenu ekipu i rešenje koje mi štedi grejanje od prvog dana."
+      </blockquote>
+      <div class="testimonial-author">
+        Jovica K. 
+        <span>Zamena stolarije na kući, Novi Sad</span>
+      </div>
+    </div>
+    <div class="testimonial-image">
+      <img src="/images/pvc-prozor-sa-argonom.webp" alt="Dvokrilni PVC prozor punjen argonom.">
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Primeri kompletne zamene stolarije</h2>
+  <h2 style="text-align:center;margin-bottom:2rem;color:var(--heading);margin-top: 4rem;">Primeri kompletne zamene stolarije</h2>
   <div class="gallery">
     <figure>
       <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/radun-stolarija-pvc-prozori.webp" alt="Kompletna zamena PVC prozora u stanu - Novi Sad">
@@ -304,7 +546,7 @@ canonical: https://ejmajstore.rs/kompletna-zamena-pvc-alu-stolarije-novi-sad/
       <figcaption>Skidanje stare i ugradnja nove stolarije tokom renoviranja</figcaption>
     </figure>
   </div>
-  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije su ilustrativnog karaktera – prikazuju tipove radova i sistema koji su dostupni.</p>
+  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije prikazuju tipove radova i sistema koji su dostupni.</p>
 </section>
 
 <section class="section qualification-section">
@@ -326,83 +568,22 @@ canonical: https://ejmajstore.rs/kompletna-zamena-pvc-alu-stolarije-novi-sad/
   </div>
 </section>
 
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Vrste stolarije za kompletan objekat</h2>
-  <div class="systems-grid">
-    <div class="system-card">
-      <h3>PVC stolarija sa montažom</h3>
-      <p>Najbolji odnos cene i termoizolacije. Idealna za stanove i kuće gde je prioritet smanjenje gubitka toplote i LOW-E stakla. Uključuje demontažu stare stolarije i profesionalnu ugradnju.</p>
+<section class="section" style="margin: 3rem auto; max-width: 1000px; padding: 0 1.5rem;">
+  <h2 style="text-align:center; margin-bottom: 2rem; color: var(--heading);">Šta dobijate kada radite uz moju pomoć</h2>
+  <div class="systems-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+    <div class="system-card" style="background: #f8fafc; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <h3>Najbolji odnos cene i kvaliteta</h3>
+      <p>Energetski efikasna stolarija (trostruko staklo, LOW-E) po realnim cenama – bez preplaćivanja za brendove koji nisu neophodni za vaš objekat.</p>
     </div>
-    <div class="system-card">
-      <h3>ALU stolarija sa montažom</h3>
-      <p>Tanji profili i moderniji izgled za veće objekte. Odlična dugotrajnost i otpornost. Preporučujemo za poslovne prostore ili kuće sa zahtevnijim dizajnom.</p>
-    </div>
-    <div class="system-card">
-      <h3>Energetski efikasni sistemi</h3>
-      <p>Svi naši profili dolaze sa trostrukim staklima i LOW-E premazom za maksimalnu izolaciju. Pogodno za renoviranje stana ili kuće gde želite značajno smanjenje računa za grejanje.</p>
-    </div>
-    <div class="system-card">
-      <h3>Kompletna usluga</h3>
-      <p>Skidanje stare i ugradnja nove stolarije u jednom potezu. Radimo zamenu svih prozora i vrata uz precizno planiranje roka isporuke i ugradnje tokom adaptacije objekta.</p>
+    <div class="system-card" style="background: #f8fafc; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <h3>Kompletna usluga – bez glavobolje</h3>
+      <p>Demontaža stare + ugradnja nove stolarije u dogovorenom roku. Jedan kontakt – sve rešeno. Precizno planiranje da se uklopi u vaše renoviranje.</p>
     </div>
   </div>
 </section>
 
-<section class="section price-table">
-  <h2>Orijentacione cene kompletne zamene stolarije u Novom Sadu</h2>
-  <div class="price-table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <th>Tip stolarije</th>
-          <th>Orijentaciona cena po m² (sa montažom)</th>
-          <th>Napomena</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>PVC profili (standardni)</td>
-          <td class="price-range">140–190 €</td>
-          <td>Najbolja izolacija, trostruka stakla</td>
-        </tr>
-        <tr>
-          <td>PVC profili (premium)</td>
-          <td class="price-range">190–240 €</td>
-          <td>Poboljšana zvučna i termo izolacija</td>
-        </tr>
-        <tr>
-          <td>ALU profili</td>
-          <td class="price-range">220–320 €</td>
-          <td>Moderniji dizajn, veća čvrstoća</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p style="text-align:center;margin-top:2rem;font-style:italic;">Cene zavise od dimenzija, spratnosti, pristupa objektu i obima radova. Tačna procena troškova zamene stolarije vrši se nakon merenja.</p>
-</section>
 
 
-
-<section class="section why-us">
-  <h2 style="margin-top: 2rem;">Zašto raditi preko nas?</h2>
-  <ul>
-    <li>Povezujemo vas samo sa proverenim izvođačima iz Novog Sada i Vojvodine</li>
-    <li>Pomažemo vam da izaberete optimalan sistem za vaš objekat i investiciju</li>
-    <li>Štedimo vam vreme – koordiniramo merenje, ponudu i rokove</li>
-    <li>Garancija na stolariju i montažu od strane izvođača</li>
-  </ul>
-</section>
-
-<section class="cta-section">
-  <p style="margin-top: 2rem;"><b>Ako imate konkretan projekat kompletne zamene PVC i ALU stolarije,<br>pozovite nas ili pišite za brzu procenu.</b></p>
-  <div class="phone-number">063 105 05 15</div>
-  <p>Pozivi do 10 minuta • Bez obaveze • Svaki dan 0-24h</p>
-  <div class="contact-buttons">
-    <a href="tel:+381631050515" class="contact-btn call-btn">📞 Pozovite sada</a>
-    <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
-    <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
-  </div>
-</section>
 
 <div class="disclaimer">
   <strong>Napomena:</strong> Povezujemo vas sa specijalizovanim izvođačima za kompletnu zamenu PVC i ALU stolarije. Tačna ponuda za zamenu stolarije, rok isporuke i ugradnje utvrđuju se nakon merenja na objektu.

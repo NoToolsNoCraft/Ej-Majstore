@@ -1,12 +1,13 @@
 ---
 layout: default
-title: PVC stolarija Novi Sad – Prozori, vrata i klizni sistemi sa montažom
-description: PVC prozori, PVC vrata i PVC klizni sistemi u Novom Sadu. Gealan S9000 i S8000 profili, energetski efikasna stolarija sa profesionalnom ugradnjom.
+title: PVC stolarija Novi Sad – Kvalitetna ugradnja i provereni izvođači
+description: Sigurna ugradnja PVC prozora i vrata u Novom Sadu. Izbegnite loše majstore i preplaćene ponude. Besplatna procena i montaža sa garancijom.
 permalink: /pvc-stolarija-novi-sad/
 canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
 ---
 
 <style>
+  /* All CSS remains identical to your master template to ensure visual consistency */
   :root {
     --primary: #1e40af;
     --primary-dark: #1e3a8a;
@@ -28,23 +29,14 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
     overflow-x:hidden;
   }
 
-  .container {max-width:1160px;margin:0 auto;padding:0 0.2rem;}
+  .container {max-width:1160px;margin:0 auto;padding:0 0;}
 
   .hero {
-    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
-    background: linear-gradient(135deg, rgba(47, 94, 63, 0.05), rgba(246, 112, 59, 0.85)), 
+    background: linear-gradient(135deg, rgba(47, 94, 63, 0.05), rgba(35, 96, 209, 0.85)), 
                 url('/images/pvc-stolarija-prozori-vrata-klizni-sistemi.webp');
-    
-    /* Ensures the image covers the whole area without stretching distorting */
     background-size: cover;
-    
-    /* Centers the image so the focal point is usually visible */
     background-position: center;
-    
-    /* Prevents the image from repeating like tiles */
     background-repeat: no-repeat;
-    
-    /* Keep your existing styles below */
     color: white;
     padding: 7rem 1rem 5rem;
     text-align: center;
@@ -56,13 +48,24 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
   }
   .hero h1 {font-size:clamp(2rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
   .hero p {font-size:clamp(1.15rem,4vw,1.3rem);max-width:840px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
+  .hero p strong {font-weight:700;}
+
+  .hero-callout {
+    max-width:840px;
+    margin:2.5rem auto 0;
+    font-size:1.2rem;
+    line-height:1.7;
+    background:rgba(255,255,255,0.15);
+    padding:1.5rem;
+    border-radius:1rem;
+  }
 
   .hero-cta-btn {
     display:inline-flex;
     align-items:center;
     justify-content:center;
     gap:1rem;
-    padding:1.3rem 1.2rem;
+    padding:1.3rem 3rem;
     border-radius:50px;
     font-size:1.35rem;
     font-weight:700;
@@ -91,19 +94,8 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
     box-shadow:0 8px 25px rgba(0,0,0,.15);
     transition:all .3s;
   }
-  .gallery figure:hover {transform:scale(1.03);box-shadow:0 15px 40px rgba(0,0,0,.25);}
-  .gallery img {
-    width:100%;
-    height:auto;
-    display:block;
-  }
-  .gallery figcaption {
-    text-align:center;
-    padding:0.8rem;
-    font-size:.95rem;
-    color:#64748b;
-    background:white;
-  }
+  .gallery img { width:100%; height:auto; display:block; }
+  .gallery figcaption { text-align:center; padding:0.8rem; font-size:.95rem; color:#64748b; background:white; }
 
   .section {max-width:1000px;margin:4rem auto;padding:0 1.5rem;}
 
@@ -117,33 +109,16 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
     grid-template-columns:1fr;
     gap:2.5rem;
   }
-  @media (min-width:768px) {
-    .qualification-section {grid-template-columns:repeat(2,1fr);padding:3.5rem 3rem;gap:3.5rem;}
-  }
+  @media (min-width:768px) { .qualification-section {grid-template-columns:repeat(2,1fr);padding:3.5rem 3rem;gap:3.5rem;} }
+  
   .qualification-block h3 {font-size:clamp(1.7rem,4vw,1.9rem);margin-bottom:1.4rem;color:var(--primary);text-align:center;}
   .qualification-block ul {list-style:none;padding:0;margin:0;}
-  .qualification-block li {
-    padding:.9rem 0 .9rem 2.4rem;
-    font-size:1.1rem;
-    position:relative;
-    line-height:1.6;
-  }
-  .qualification-block li::before {
-    position:absolute;
-    left:0;
-    top:.7rem;
-    font-size:1.7rem;
-    font-weight:bold;
-  }
+  .qualification-block li { padding:.9rem 0 .9rem 2.4rem; font-size:1.1rem; position:relative; line-height:1.6; }
+  .qualification-block li::before { position:absolute; left:0; top:.7rem; font-size:1.7rem; font-weight:bold; }
   .yes-block li::before {content:"✅";color:#16a34a;}
   .no-block li::before {content:"❌";color:#dc2626;}
 
-  .systems-grid {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:2rem;
-    margin:3rem 0;
-  }
+  .systems-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:2rem; margin:3rem 0; }
   .system-card {
     background:white;
     border:2px solid var(--mid-gray);
@@ -155,30 +130,6 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
   }
   .system-card:hover {transform:translateY(-8px);box-shadow:0 18px 40px rgba(30,64,175,.18);}
   .system-card h3 {font-size:1.55rem;margin:0 0 1.2rem;color:var(--accent);}
-  .system-card p {font-size:1.05rem;line-height:1.7;color:var(--text);margin:0;}
-
-  .executor-section {
-    background:var(--light-bg);
-    padding:3.2rem 2rem;
-    border-radius:20px;
-    margin:4rem 0;
-    box-shadow:0 10px 30px rgba(30,64,175,.1);
-    overflow:hidden;
-  }
-  .executor-section h2 {text-align:center;margin-bottom:1.5rem;color:var(--heading);font-size:clamp(1.8rem,5vw,2.2rem);}
-  .executor-section p.identity {font-size:1.3rem;font-weight:600;margin-bottom:0.5rem;color:var(--primary);text-align:center;}
-  .executor-section p.experience {font-size:1.1rem;margin-bottom:1.5rem;text-align:center;}
-  .executor-section ul.proof {list-style:none;padding:0;margin:0 0 1.5rem;max-width:820px;margin:0 auto;}
-  .executor-section ul.proof li {padding:.8rem 0;font-size:1.05rem;line-height:1.6;position:relative;padding-left:2rem;}
-  .executor-section ul.proof li::before {content:"•";position:absolute;left:0;color:var(--primary);font-weight:bold;}
-  .executor-section p.exclusivity {font-style:italic;margin:1.5rem 0;text-align:center;max-width:820px;margin:0 auto 2rem;color:var(--accent);}
-  .executor-section .logo-container {text-align:center;margin:2rem 0;}
-  .executor-section .logo-container img {max-width:300px;height:auto;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1);}
-  .executor-section .projects-gallery {display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin:2rem 0;}
-  .executor-section .projects-gallery figure {margin:0;border-radius:16px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.15);}
-  .executor-section .projects-gallery img {width:100%;height:auto;display:block;}
-  .executor-section .projects-gallery figcaption {text-align:center;padding:0.8rem;background:white;font-size:.95rem;color:#64748b;}
-  .executor-section .scarcity {text-align:center;font-size:1rem;font-style:italic;color:var(--accent);margin-top:1.5rem;}
 
   .cta-section {
     background:var(--light-bg);
@@ -189,18 +140,10 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
     max-width:900px;
     box-shadow:0 10px 30px rgba(30,64,175,.15);
   }
-  .cta-section p {font-size:clamp(1.2rem,4vw,1.35rem);margin-bottom:2rem;line-height:1.7;}
   .phone-number {font-size:clamp(2.2rem,8vw,2.8rem);font-weight:700;color:var(--primary);margin:1.8rem 0;}
-  .contact-buttons {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:1.2rem;
-    margin-top:1.5rem;
-  }
-  @media (min-width:480px) {
-    .contact-buttons {flex-direction:row;justify-content:center;gap:1.5rem;}
-  }
+  .contact-buttons { display:flex; flex-direction:column; align-items:center; gap:1.2rem; margin-top:1.5rem; }
+  @media (min-width:480px) { .contact-buttons {flex-direction:row;justify-content:center;gap:1.5rem;} }
+  
   .contact-btn {
     display:inline-flex;
     align-items:center;
@@ -215,162 +158,315 @@ canonical: https://ejmajstore.rs/pvc-stolarija-novi-sad/
     min-width:280px;
   }
   .call-btn {background:var(--primary);color:white;}
-  .call-btn:hover {background:var(--primary-dark);transform:translateY(-4px);}
   .whatsapp-btn {background:#25D366;color:white;}
-  .whatsapp-btn:hover {background:#128C7E;transform:translateY(-4px);}
   .viber-btn {background:#665cac;color:white;}
-  .viber-btn:hover {background:#5a4a9a;transform:translateY(-4px);}
 
+  .intro-section {
+    background: var(--light-bg);
+    border: 2px solid var(--mid-gray);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin: 4rem auto;
+    max-width: 1000px;
+    box-shadow: 0 10px 30px rgba(30,64,175,.12);
+  }
+  .intro-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; }
+  @media (min-width: 768px) { .intro-grid { grid-template-columns: 220px 1fr; } }
+  .intro-photo img { width: 200px; height: 200px; object-fit: cover; border-radius: 50%; box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+  
   .disclaimer {
     max-width:900px;margin:4rem auto;padding:1.8rem 2rem;
     background:#f9fafb;border-left:4px solid var(--primary);
     font-size:.98rem;color:var(--text);line-height:1.7;
   }
+
+  .intro-photo {
+  text-align: center;
+}
+
+.intro-photo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.intro-content h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 5vw, 2.2rem);
+  color: var(--heading);
+}
+
+.intro-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.intro-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0;
+}
+
+.intro-content li {
+  padding-left: 1.6rem;
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+
+.intro-content li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.intro-trust {
+  margin-top: 1.4rem;
+  font-style: italic;
+  color: var(--accent);
+}
+
+
+.testimonials-section {
+    margin: 6rem auto;
+    max-width: 1000px;
+    padding: 0 1.5rem;
+  }
+  .testimonials-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--heading);
+  }
+  .testimonial-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 3rem;
+    align-items: center;
+    border: 1px solid var(--mid-gray);
+  }
+  @media (min-width: 768px) {
+    .testimonial-card { grid-template-columns: 300px 1fr; }
+    .testimonial-card.reverse { grid-template-columns: 1fr 300px; }
+  }
+  .testimonial-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .testimonial-content blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--text);
+    position: relative;
+  }
+  .testimonial-content blockquote::before {
+    content: "“";
+    font-size: 4rem;
+    color: var(--primary);
+    opacity: 0.2;
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+  }
+  .testimonial-author {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-author span {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
 </style>
 
 <div class="hero">
   <div class="container">
-    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
+    <h1 style="color:white; text-shadow: 0 4px 8px rgba(13, 19, 31, 0.7);">
       PVC stolarija u Novom Sadu<br>
-      bez grešaka u montaži i skrivenih troškova
+      bez jurnjave za majstorima
     </h1>
 
-    <p style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
-      Profesionalna izrada i ugradnja PVC prozora, vrata i kliznih sistema
-      sa <strong>Gealan S9000 / S8000</strong> profilima.<br>
-      Jedno merenje. Jedna ponuda. Jedan odgovoran izvođač.
+    <p style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7);">
+      Najveći problem sa PVC stolarijom nije profil, već <strong>loša ugradnja</strong>. 
+      Pomažem vam da dobijete vrhunske prozore i vrata od proverenih firmi koje zapravo 
+      poštuju rokove i daju pisanu garanciju.
     </p>
+
+    <div class="hero-callout" style="text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7);">
+      📞 Pozovite me ako vam treba: <br>
+      • Zamena prozora u stanu ili kući <br>
+      • Sigurna ulazna vrata i klizni sistemi <br>
+      • Majstori koji ne ostavljaju haos za sobom
+    </div>
 
     <a href="tel:+381631050515" class="hero-cta-btn">
-      📞 Besplatno merenje i procena – 063 105 05 15
+      📞 Zakažite besplatnu procenu: 063 105 05 15
     </a>
-
-    <p style="font-size:0.9rem;opacity:0.9;margin-top:1rem; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
-      ✔ Odgovor u roku od 24h &nbsp;•&nbsp;
-      ✔ Bez obaveze &nbsp;•&nbsp;
-      ✔ Novi Sad i okolina
-    </p>
-
-    <p style="margin-top:1rem;font-size:0.85rem;color:#ffffff; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">
-      Ej Majstore kvalifikuje upit i povezuje vas sa proverenim partnerskim
-      izvođačem za PVC stolariju u Novom Sadu.
-    </p>
   </div>
 </div>
 
+<section class="intro-section">
+  <div class="intro-grid">
 
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Primeri proizvoda u ponudi</h2>
-  <div class="gallery">
-    <figure>
-      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/PVC%20prozori%20Gealan%20S9000%20-%20Link%20Line%20Novi%20Sad.webp" alt="PVC prozori Gealan S9000 - Link Line Novi Sad">
-      <figcaption>PVC prozori Gealan S9000 – 6 komora, trostruko staklo</figcaption>
-    </figure>
-    <figure>
-      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/PVC%20ulazna%20vrata%20sa%20sigurnosnim%20okovom.webp" alt="PVC ulazna vrata sa sigurnosnim okovom">
-      <figcaption>PVC ulazna vrata – sigurnost + moderni paneli</figcaption>
-    </figure>
-    <figure>
-      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Podizno-klizni%20PVC%20sistem%20za%20terasu.webp" alt="Podizno-klizni PVC sistem za terasu">
-      <figcaption>PVC podizno-klizni sistem – velike staklene površine</figcaption>
-    </figure>
-  </div>
-  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije su ilustrativnog karaktera – prikazuju tipove sistema u ponudi.</p>
-</section>
+    <div class="intro-photo">
+      <!-- Replace with a real, neutral, daylight photo -->
+      <img src="/images/petar-skrbic-u-garazi.webp" alt="Petar Škrbić – koordinacija kompletne zamene stolarije Novi Sad">
+    </div>
 
-<section class="section qualification-section">
-  <div class="qualification-block yes-block">
-    <h3>✅ Ovo jeste za vas ako:</h3>
-    <ul>
-      <li>Tražite PVC prozore, vrata ili klizne sisteme za kuću, stan ili poslovni prostor u Novom Sadu</li>
-      <li>Želite Gealan profile (S9000 / S8000) sa odličnom termo i zvučnom izolacijom</li>
-      <li>Planirate profesionalnu ugradnju sa garancijom i tačnim rokovima</li>
-    </ul>
-  </div>
-  <div class="qualification-block no-block">
-  <h3>❌ Ovo nije za vas ako:</h3>
-  <ul>
-    <li>Tražite najnižu cenu bez obzira na kvalitet ugradnje</li>
-    <li>Želite „samo okvirnu cenu“ bez merenja</li>
-    <li>Niste sigurni da ćete realizovati projekat u narednih nekoliko meseci</li>
-  </ul>
-</div>
+    <div class="intro-content">
+      <h2>Ko će se javiti kada pozovete?</h2>
 
-</section>
+      <p>
+        Zovete <strong>mene – Petra</strong>.
+      </p>
 
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Vrste PVC stolarije u ponudi</h2>
-  <div class="systems-grid">
-    <div class="system-card">
-      <h3>PVC prozori Gealan S9000</h3>
-      <p>Najmoderniji 6-komorni sistem sa 3 nivoa dihtovanja. Odlična termo i zvučna izolacija, pogodno za 3-slojna stakla do 52 mm. Mala vidna širina profila i kosina 15° za elegantan izgled.</p>
+      <p>
+        Najčešća greška prilikom zamene ili ugradnje PVC stolarije je pogrešan izbor izvođača, i to se vidi tek tokom prve zime.
+        Moj posao je da razumem <strong>ceo projekat</strong> i povežem vas sa
+        <strong>odgovarajućim izvođačima</strong> za kompletnu zamenu stolarije u Novom Sadu i okolini.
+      </p>
+
+      <ul>
+        <li>razumem šta vama treba</li>
+        <li>izbegavate pogrešne ponude i gubljenje vremena</li>
+        <li>dobijate realnu procenu pre izlaska na merenje</li>
+      </ul>
+
+      <p class="intro-trust">
+        Da li znam ko vam to može odraditi? Znam, a ako slučajno ne znam, onda znam ko zna.
+      </p>
     </div>
-    <div class="system-card">
-      <h3>PVC prozori Gealan S8000</h3>
-      <p>Odličan odnos cene i kvaliteta. 6 komora, 74 mm dubina, velika glavna komora za čelično ojačanje. Idealno za renoviranje i novogradnju sa dobrim protivprovalnim karakteristikama.</p>
-    </div>
-    <div class="system-card">
-      <h3>PVC ulazna vrata</h3>
-      <p>Izrada po meri, višegodišnja garancija, sigurnosni nemački okov, veliki izbor ukrasnih panela, boja i stakala. Energetski efikasna, laka za održavanje.</p>
-    </div>
-    <div class="system-card">
-      <h3>PVC klizni sistemi</h3>
-      <p>Nagibno-klizni i podizno-klizni sistemi za terase i balkone. Maksimalna ušteda prostora, dobra izolacija, jednostavno rukovanje i protivprovalna zaštita.</p>
-    </div>
+
   </div>
 </section>
-
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:2rem;">
-    Kako izgleda proces
-  </h2>
-
-  <div class="systems-grid">
-    <div class="system-card">
-      <h3>1️⃣ Poziv ili poruka</h3>
-      <p>Kratko proveravamo da li je projekat odgovarajući i zakazujemo merenje.</p>
-    </div>
-    <div class="system-card">
-      <h3>2️⃣ Besplatno merenje</h3>
-      <p>Izvođač dolazi na objekat, meri tačne dimenzije i savetuje rešenja.</p>
-    </div>
-    <div class="system-card">
-      <h3>3️⃣ Tačna ponuda</h3>
-      <p>Dobijate konkretnu cenu, rok izrade i uslove garancije.</p>
-    </div>
-    <div class="system-card">
-      <h3>4️⃣ Izrada i ugradnja</h3>
-      <p>Dogovoreni sistemi se proizvode i profesionalno ugrađuju.</p>
-    </div>
-  </div>
-</section>
-
-
 
 <section class="cta-section">
-  <p style="margin-top:2rem;">
-  <b>
-    Ako želite da znate tačnu cenu i izbegnete skupe greške pri ugradnji,<br>
-    pozovite sada i zakažite besplatno merenje.
-  </b>
-</p>
-
+  <p style="margin-top: 2rem;"><b><b>Izbegnite skupe greške i loše firme.</b><br>Pozovite me da prođemo kroz vaš projekat i zakažemo besplatno merenje.</p>
   <div class="phone-number">063 105 05 15</div>
-  <p>Pozivi do 15 minuta • Bez obaveze • Svaki dan 0-24h</p>
+  <p>Pozivi do 15 minuta • Bez obaveze • Svaki dan 7-19h</p>
   <div class="contact-buttons">
-    <a href="tel:+381631050515" class="contact-btn call-btn">📞 Pozovite sada</a>
+    <a href="tel:+381631050515" class="contact-btn call-btn" onclick="gtag('event', 'contact_click', {
+     'method': 'phone',
+     'location': 'cta',
+     'value': 1  // optional: assign lead value
+   });">📞 Pozovite sada</a>
     <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
     <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
   </div>
 </section>
 
+<section class="testimonials-section">
+  <h2 style="margin-top: 3rem;">Iskustva ljudi sa kojima sam radio u Novom Sadu</h2>
+
+  <div class="testimonial-card">
+    <div class="testimonial-image">
+      <img src="/images/pvc-prozor-u-potkrovlju-kuce.webp" alt="Savršeno obrađene špaletne nakon ugradnje">
+    </div>
+    <div class="testimonial-content">
+      <blockquote>
+        "Plašio sam se da ću nakon ugradnje prozora morati nedeljama da jurim molera da sredi ivice. <strong>Pera je to rešio u jednom pozivu.</strong> Povezao me je sa ekipom koja je ugradila PVC i odmah sutradan organizovao majstora za obradu zidova. Sve je završeno bez zastoja. Tople preporuke za momka!"
+      </blockquote>
+      <div class="testimonial-author">
+        Slaviša P.
+        <span>Adaptacija potkrovlja kuće, okolina Novog Sada</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial-card reverse">
+    <div class="testimonial-content">
+      <blockquote>
+        "Nisam znao odakle da krenem jer svaka firma hvali svoj profil. Petar je uradio ono što ja nisam mogao. Isfiltrirao je ponude i pronašao firmu koja zapravo ugrađuje stakla punjena argonom, a ne samo na papiru. Iskreno mi je rekao gde je troslojni paket bacanje para, a gde je neophodan za moju stranu kuće. Umesto da lutam po salonima, dobio sam proverenu ekipu i rešenje koje mi štedi grejanje od prvog dana."
+      </blockquote>
+      <div class="testimonial-author">
+        Jovica K. 
+        <span>Zamena stolarije na kući, Novi Sad</span>
+      </div>
+    </div>
+    <div class="testimonial-image">
+      <img src="/images/pvc-prozor-sa-argonom.webp" alt="Dvokrilni PVC prozor punjen argonom.">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Šta dobijate kroz moju koordinaciju</h2>
+  <div class="systems-grid">
+    <div class="system-card">
+      <h3>Maksimalna termo-izolacija</h3>
+      <p>Prozori sa trostrukim staklom i 6+ komora koji drastično smanjuju račune za grejanje i hlađenje.</p>
+    </div>
+    <div class="system-card">
+      <h3>Tišina i Sigurnost</h3>
+      <p>Okovi koji se ne krive nakon godinu dana i stakla koja blokiraju buku sa ulice.</p>
+    </div>
+    <div class="system-card">
+      <h3>Čista i brza montaža</h3>
+      <p>Ekipe koje poštuju vaš dom, štite podove i završavaju ugradnju u dogovorenom danu.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section qualification-section">
+  <div class="qualification-block yes-block">
+    <h3>✅ Ovo je za vas ako:</h3>
+    <ul>
+      <li>Menjate kompletnu stolariju u stanu ili kući</li>
+      <li>Tražite firmu koja će biti tu i za 5 godina ako zatreba servis</li>
+      <li>Želite realnu ponudu baziranu na stanju vaših zidova, ne na katalogu</li>
+    </ul>
+  </div>
+  <div class="qualification-block no-block">
+    <h3>❌ Ovo nije za vas ako:</h3>
+    <ul>
+      <li>Tražite najjeftiniji PVC bez ikakvog atesta i garancije</li>
+      <li>Potrebna vam je samo sitna popravka jednog okova</li>
+      <li>Želite cenu preko telefona bez izlaska na teren</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2 style="text-align:center;margin-bottom:2rem;color:var(--heading);">Primeri ugrađenih sistema</h2>
+  <div class="gallery">
+    <figure>
+      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/radun-stolarija-pvc-prozori.webp" alt="PVC prozori Novi Sad ugradnja">
+      <figcaption>PVC prozori sa 6 komora – Stan u Novom Sadu</figcaption>
+    </figure>
+    <figure>
+      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/PVC%20ulazna%20vrata%20sa%20sigurnosnim%20okovom.webp" alt="Sigurnosna PVC ulazna vrata">
+      <figcaption>Ulazna vrata sa ojačanim profilima</figcaption>
+    </figure>
+    <figure>
+      <img src="https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/Podizno-klizni%20PVC%20sistem%20za%20terasu.webp" alt="PVC klizni sistemi za terase">
+      <figcaption>Klizne stene za terase i balkone</figcaption>
+    </figure>
+  </div>
+</section>
+
+
 <div class="disclaimer">
-  <strong>Napomena:</strong> Ej Majstore prikuplja i kvalifikuje upite. Nakon prvog kontakta, projekat preuzima naš partnerski izvođač. Tačna ponuda, dimenzije, boje i rokovi utvrđuju se nakon besplatnog merenja na objektu.
+  <strong>Napomena:</strong> Ej Majstore je vaša prva tačka kontakta. Ja vršim procenu, a merenje, ugradnju i realizaciju projekta vrše moji provereni partneri, firme sa višegodišnjim iskustvom u Novom Sadu. Meni ništa ne plaćate, isključivo preporučenom izvođaču.
 </div>
 
-<div style="max-width:900px;margin:3rem auto 1.5rem;padding:0 1.5rem;font-size:0.9rem;color:#6b7280;line-height:1.6;">
-  <strong style="font-weight:600;color:#374151;">Ostale relevantne stranice:</strong><br>
-  <a href="/alu-stolarija-novi-sad/" style="color:#0059b2;text-decoration:none;">ALU stolarija Novi Sad</a><br>
-  <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/" style="color:#0059b2;text-decoration:none;">Kompletna zamena PVC i ALU stolarije Novi Sad</a><br>
-  <a href="/zastakljivanje-terasa-novi-sad/" style="color:#0059b2;text-decoration:none;">Zastakljivanje terasa Novi Sad</a>
+<div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;font-size:0.9rem;color:#6b7280;">
+  <strong>Srodne usluge u Novom Sadu:</strong><br>
+  <a href="/alu-stolarija-novi-sad/" style="color:var(--primary);text-decoration:none;">ALU stolarija</a> | 
+  <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/" style="color:var(--primary);text-decoration:none;">Kompletna zamena stare stolarije</a> | 
+  <a href="/zastakljivanje-terasa-novi-sad/" style="color:var(--primary);text-decoration:none;">Zastakljivanje terasa</a>
 </div>
