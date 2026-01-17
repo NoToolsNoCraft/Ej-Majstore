@@ -283,7 +283,199 @@
   </header>
 
   <main>
-    <style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ejmajstore.rs/#organization",
+      "name": "Ej Majstore – Petar Škrbić",
+      "url": "https://ejmajstore.rs/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ejmajstore.rs/ej-majstore-thumbnail-with-logo-webp"
+      },
+      "description": "Koordinacija i povezivanje sa odgovarajućom majstorima za ALU i PVC stolariju, zamenu prozora i vrata u Novom Sadu i okolini. Besplatna procena i transparentne ponude.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+381631050515",
+        "contactType": "customer service",
+        "areaServed": "RS",
+        "availableLanguage": "sr"
+      }
+    },
+    {
+      "@type": ["LocalBusiness", "ProfessionalService"],
+      "@id": "https://ejmajstore.rs/#localbusiness",
+      "name": "Ej Majstore – ALU stolarija Novi Sad",
+      "url": "https://ejmajstore.rs/alu-stolarija-novi-sad/",
+      "image": "https://ejmajstore.rs/images/petar-skrbic-u-garazi.webp",
+      "telephone": "+381631050515",
+      "priceRange": "$$",
+      "description": "Profesionalna koordinacija i savetovanje pri izboru aluminijumske stolarije (Elvial, Aliplast Imperial, Genesis, Ultraglide, Visoglide) u Novom Sadu i okolini.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Novi Sad",
+        "addressRegion": "Vojvodina",
+        "postalCode": "21000",
+        "addressCountry": "RS"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.2396,
+        "longitude": 19.8227
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+        ],
+        "opens": "07:00",
+        "closes": "19:00"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Novi Sad"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Južnobački okrug"
+        }
+      ],
+      "parentOrganization": {
+        "@id": "https://ejmajstore.rs/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#service",
+      "name": "ALU stolarija Novi Sad – aluminijumski prozori, vrata i klizni sistemi",
+      "serviceType": "Savetovanje, koordinacija i organizacija ugradnje ALU stolarije",
+      "provider": {
+        "@id": "https://ejmajstore.rs/#localbusiness"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Novi Sad"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Futog"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Veternik"
+        }
+      ],
+      "description": "Pomoć pri izboru i organizaciji ugradnje ALU sistema (Elvial 4600/6700/6800i, Aliplast Imperial, Genesis, Ultraglide, Visoglide). Besplatno merenje i realna ponuda bez obaveze.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RSD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://ejmajstore.rs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ALU stolarija Novi Sad",
+          "item": "https://ejmajstore.rs/alu-stolarija-novi-sad/"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ejmajstore.rs/#website",
+      "url": "https://ejmajstore.rs/",
+      "name": "Ej Majstore",
+      "publisher": {
+        "@id": "https://ejmajstore.rs/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#webpage",
+      "url": "https://ejmajstore.rs/alu-stolarija-novi-sad/",
+      "name": "ALU stolarija Novi Sad – Aluminijumski prozori, vrata i klizni sistemi",
+      "description": "Aluminijumski prozori, ALU vrata i klizni sistemi u Novom Sadu. Elvial, Aliplast Imperial, Genesis, Ultraglide, Visoglide – profesionalna koordinacija i ugradnja.",
+      "isPartOf": {
+        "@id": "https://ejmajstore.rs/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://ejmajstore.rs/images/petar-skrbic-u-garazi.webp"
+      },
+      "about": {
+        "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#service"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ejmajstore.rs/alu-stolarija-novi-sad/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je cena ALU stolarije u Novom Sadu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cena zavisi od profila (Elvial, Aliplast Imperial, Genesis, Ultraglide, Visoglide), dimenzija, tipa stakla (troslojno sa argonom/low-E), boje i montaže. Prosečne cene za kvalitetnu ALU sa termo prekidom kreću se od 400–900 € po prozoru/vratima (bez PDV-a i montaže). Besplatno merenje i realna ponuda bez obaveze – pozovite 063 105 05 15."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li ALU stolarija ima termo prekid i koliko je važan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da, savremena ALU stolarija (kao Elvial 4600/6800i, Aliplast Ultraglide/Genesis) obavezno ima termo prekid (poliamidna traka) da bi se sprečilo kondenzovanje i gubitak toplote. Bez termo prekida ALU je hladna i nije energetski efikasna. Sa termo prekidom postiže se Uf 1.3–2.0 W/m²K – idealno za kuće u Novom Sadu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolika je garancija na ALU prozore i montažu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garancija na profile i okove je obično 5–10 godina (kod Elvial/Aliplast do 10 godina), na staklo 5 godina, a na profesionalnu montažu minimum 2–5 godina (zavisi od izvođača). Mi povezujemo sa ekipama koje daju punu garanciju i servis u Novom Sadu i okolini."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko traje montaža ALU stolarije?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Za standardan stan/kuću (5–10 prozora/vrata) montaža traje 1–3 dana. Sa demontažom stare stolarije može biti 2–5 dana. Profesionalna ekipa radi čisto, sa zaštitom nameštaja i brzim završetkom – bez višenedeljnog čekanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koja je razlika između Elvial i Aliplast profila?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elvial (Grčka) je kvalitetan standard sa dobrim odnosom cena/kvalitet (4600 Multilock, 6800i). Aliplast (Belgija) je premium (Imperial, Genesis, Ultraglide) – bolja zvučna/termo izolacija, veća nosivost (do 400 kg po krilu), elegantniji dizajn i duža garancija. Za veće klizne sisteme ili visoke zahteve preporučujemo Aliplast."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+<style>
   :root {
     --primary: #1e40af;
     --primary-dark: #1e3a8a;
@@ -305,27 +497,63 @@
     overflow-x:hidden;
   }
 
-  .container {max-width:1160px;margin:0 auto;padding:0 0.2rem;}
+  .container {max-width:1160px;margin:0 auto;padding:0 0;}
 
   .hero {
-    background:linear-gradient(135deg,#1e40af,#3b82f6);
-    color:white;
-    padding:5rem 1.5rem 4.5rem;
-    text-align:center;
-    margin:2rem auto 4rem;
-    border-radius:2rem;
-    overflow:hidden;
-    max-width:1200px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.35)
+  );
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+  .hero {
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.1), rgba(30, 64, 175, 0.75)), 
+                url('/images/alu-stolarija-kuca-vrata-prozori-novi-sad.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 7rem 1rem 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
   }
   .hero h1 {font-size:clamp(2rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
   .hero p {font-size:clamp(1.15rem,4vw,1.3rem);max-width:840px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
+  .hero p strong {font-weight:700;}
+
+  .hero-callout {
+    max-width:840px;
+    margin:2.5rem auto 0;
+    font-size:1.2rem;
+    line-height:1.7;
+    background:rgba(255,255,255,0.15);
+    padding:1.5rem;
+    border-radius:1rem;
+  }
 
   .hero-cta-btn {
     display:inline-flex;
     align-items:center;
     justify-content:center;
     gap:1rem;
-    padding:1.3rem 1.2rem;
+    padding:1.3rem 3rem;
     border-radius:50px;
     font-size:1.35rem;
     font-weight:700;
@@ -466,55 +694,405 @@
     background:#f9fafb;border-left:4px solid var(--primary);
     font-size:.98rem;color:var(--text);line-height:1.7;
   }
+
+  .intro-section {
+    background: var(--light-bg);
+    border: 2px solid var(--mid-gray);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin: 4rem auto;
+    max-width: 1000px;
+    box-shadow: 0 10px 30px rgba(30,64,175,.12);
+  }
+
+  .intro-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .intro-grid {
+      grid-template-columns: 220px 1fr;
+    }
+  }
+
+  .intro-photo {
+    text-align: center;
+  }
+
+  .intro-photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+  }
+
+  .intro-content h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(1.8rem, 5vw, 2.2rem);
+    color: var(--heading);
+  }
+
+  .intro-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .intro-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.2rem 0;
+  }
+
+  .intro-content li {
+    padding-left: 1.6rem;
+    position: relative;
+    margin-bottom: 0.6rem;
+  }
+
+  .intro-content li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+  }
+
+  .intro-trust {
+    margin-top: 1.4rem;
+    font-style: italic;
+    color: var(--accent);
+  }
+
+
+  .testimonials-section {
+  margin: 6rem auto;
+  max-width: 1000px;
+  padding: 0 1.5rem;
+}
+
+.testimonials-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--heading);
+  font-size: clamp(1.8rem, 5vw, 2.2rem);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid var(--mid-gray);
+  border-radius: 18px;
+  padding: 1.8rem 1.6rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transition: all 0.25s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(30,64,175,0.12);
+}
+
+.testimonial-card p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.testimonial-card p strong {
+  color: var(--primary);
+}
+
+.testimonial-author {
+  margin-top: 1.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+
+.testimonial-author span {
+  display: block;
+  font-weight: 400;
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+
+
+.faq-section {
+    max-width: 1000px;
+    margin: 5rem auto 3rem;
+    padding: 0 1.5rem;
+  }
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--heading);
+    font-size: clamp(1.8rem, 5vw, 2.2rem);
+  }
+  details.faq-item {
+    background: white;
+    border: 1px solid var(--mid-gray);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  summary.faq-question {
+    padding: 1.2rem 1.5rem;
+    font-weight: 600;
+    color: var(--primary);
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+  }
+  summary.faq-question::marker { display: none; }
+  summary.faq-question::after {
+    content: "▼";
+    position: absolute;
+    right: 1.5rem;
+    transition: transform 0.3s;
+  }
+  details[open] summary.faq-question::after {
+    transform: rotate(180deg);
+  }
+  .faq-answer {
+    padding: 0 1.5rem 1.2rem;
+    line-height: 1.7;
+    color: var(--text);
+  }
+  .related-links {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background: var(--light-bg);
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid var(--mid-gray);
+  }
+  .related-links h3 {
+    margin: 0 0 1rem;
+    color: var(--heading);
+    font-size: 1.3rem;
+  }
+  .related-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .related-links li {
+    margin: 0.8rem 0;
+  }
+  .related-links a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .related-links a:hover {
+    text-decoration: underline;
+  }
+  
 </style>
 
 <div class="hero">
   <div class="container">
-    <h1 style="color:white;">
-      ALU stolarija u Novom Sadu<br>
-      vrhunski dizajn • maksimalna sigurnost • odlična izolacija
+
+    <h1 style="color:white; text-shadow:
+      0 4px 12px rgba(0,0,0,0.85),
+      0 2px 6px rgba(0,0,0,0.75);">
+      ALU stolarija Novi Sad<br>
+      aluminijumski prozori, vrata i klizni sistemi<br>
+      <span style="font-weight:600;">bez pogrešnih profila i skupih grešaka</span>
     </h1>
 
-    <p>
-      Aluminijumski prozori, ulazna vrata i veliki klizni sistemi<br>
-      Elvial 4600/6700/6800i • Aliplast Imperial/Genesis/Ultraglide/Visoglide<br>
-      Jedno merenje. Jedna transparentna ponuda. Jedan odgovoran izvođač.
+    <p style="max-width:680px; margin:16px auto; text-shadow:
+      0 3px 10px rgba(0,0,0,0.8);">
+      Najčešći problem? Ponuda izgleda dobro — a posle ugradnje cure pragovi,
+      sistemi zapinju i nema realne garancije.
+      <br><br>
+      Ja vam u <strong>5–10 minuta</strong> kažem da li vam nude
+      <strong>pravi sistem</strong> (Elvial, Aliplast Imperial, Genesis, Ultraglide, Visoglide)
+      ili skuplju grešku.
     </p>
 
-    <a href="tel:+381631050515" class="hero-cta-btn">
-      📞 Besplatno merenje i stručni savet – 063 105 05 15
+    <div class="hero-callout" style="
+      margin:18px auto;
+      padding:14px 18px;
+      max-width:640px;
+      font-weight:600;
+      text-shadow: 0 3px 10px rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.35);
+      border-radius:12px;">
+      📞 Kratak poziv • Bez obaveze • Ako ne mogu da pomognem — reći ću vam odmah
+    </div>
+
+    <a href="tel:+381631050515" class="hero-cta-btn"
+      style="margin-top:18px;"
+      onclick="gtag('event', 'contact_click', {
+        'method': 'phone',
+        'location': 'hero',
+        'value': 1
+      });">
+      📞 Pozovite sada — 063 105 05 15
     </a>
 
-    <p style="font-size:0.9rem;opacity:0.9;margin-top:1rem;">
-      ✔ Odgovor u roku od 24h &nbsp;•&nbsp;
-      ✔ Bez ikakve obaveze &nbsp;•&nbsp;
-      ✔ Novi Sad i okolina
+    <p style="
+      margin-top:10px;
+      font-size:14px;
+      opacity:0.9;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.7);">
+      Novi Sad • Futog • Veternik • okolina
     </p>
 
-    <p style="margin-top:1rem;font-size:0.85rem;color:#e5e7eb;">
-      Ej Majstore kvalifikuje upit i povezuje vas sa proverenim partnerskim izvođačem za ALU stolariju u Novom Sadu.
-    </p>
   </div>
 </div>
 
 
+<section class="intro-section">
+  <div class="intro-grid">
+
+    <div class="intro-photo">
+      <img src="/images/petar-skrbic-u-garazi.webp" alt="Petar Škrbić – koordinacija ALU stolarije Novi Sad">
+    </div>
+
+    <div class="intro-content">
+      <h2>Ko će se javiti kada pozovete?</h2>
+
+      <p>
+        Zovete <strong>mene – Petra</strong>.
+      </p>
+
+      <p>
+        Aluminijumska stolarija je velika investicija. Pogrešan izbor profila, loša montaža ili neodgovarajuće staklo se plaća godinama kroz veće grejanje, kondenzaciju ili popravke.
+        Moj posao je da razumem <strong>ceo vaš projekat</strong> i povežem vas sa proverenom ekipom koja specijalizuje ALU sisteme u Novom Sadu i okolini.
+      </p>
+
+      <ul>
+        <li>razjasnimo koji sistem najbolje odgovara vašim potrebama i budžetu</li>
+        <li>izbegnete skrivene troškove i "jeftine" ponude koje kasnije koštaju više</li>
+        <li>dobijete realnu sliku pre nego što iko dođe na merenje</li>
+      </ul>
+
+      <p class="intro-trust">
+        Znam ko radi čiste uglove, ko poštuje niski prag, ko ugrađuje Multilock i ko zapravo isporučuje ono što piše u ponudi.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <p style="margin-top: 2rem;"><b>Ako planirate aluminijumske prozore, ulazna vrata ili velike klizne sisteme,<br>pozovite me ili pišite za brzu procenu i termin merenja.</b></p>
+  <div class="phone-number">063 105 05 15</div>
+  <p>Pozivi do 15 minuta • Bez obaveze • Svaki dan 7-19h</p>
+  <div class="contact-buttons">
+    <a href="tel:+381631050515" class="contact-btn call-btn" onclick="gtag('event', 'contact_click', {
+     'method': 'phone',
+     'location': 'cta',
+     'value': 1
+   });">📞 Pozovite sada</a>
+    <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
+    <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
+  </div>
+</section>
+
+
+<section class="testimonials-section">
+  <h2 style="margin-top:3rem;">Ljudi koji su me pozvali pre nego što su napravili grešku</h2>
+
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card">
+      <p>
+        Imao sam dve ponude za podizno-klizni sistem. Jedna je bila znatno jeftinija,
+        ali nisam znao <strong>zašto</strong>.
+        Petar mi je za par minuta objasnio razliku u profilu, pragu i staklu.
+        Odmah mi je bilo jasno da bih kasnije plaćao popravke.
+      </p>
+      <div class="testimonial-author">
+        Marko Đ.
+        <span>Kuća sa terasom, Futog</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        Svuda su mi govorili „to je isto“ za ALU ulazna vrata.
+        Petar mi je prvi rekao da mi nude <strong>kopiju</strong>, a ne pravi Genesis,
+        i objasnio kako da to proverim.
+        Ta informacija mi je promenila odluku.
+      </p>
+      <div class="testimonial-author">
+        Ana M.
+        <span>Nova kuća, Veternik</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        Hteo sam velike ALU prozore, ali nisam znao da li mi treba jači profil
+        ili drugačije staklo.
+        Umesto prodaje, dobio sam <strong>iskren odgovor</strong>
+        šta mi realno treba, a šta je bacanje novca.
+      </p>
+      <div class="testimonial-author">
+        Nikola S.
+        <span>Porodična kuća, Novi Sad</span>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        Najviše mi je značilo što mi je odmah rekao
+        „ovo ti ne treba za stan koji imaš“.
+        Prvi put da me neko nije gurao ka skupljoj opciji.
+      </p>
+      <div class="testimonial-author">
+        Jelena P.
+        <span>Stan, Novi Sad</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
 <section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Primeri ALU stolarije u ponudi</h2>
+  <h2 style="text-align:center;margin-bottom:2rem;color:var(--heading);margin-top: 4rem;">Primeri ALU stolarije u Novom Sadu</h2>
   <div class="gallery">
     <figure>
-      <img src="https://linkline.rs/wp-content/uploads/2021/06/Alu-prozor-1024x683.jpg" alt="Aluminijumski prozori Elvial 4600 Multilock sa termo prekidom">
-      <figcaption>ALU prozori Elvial 4600 – termo prekid, visoka sigurnost</figcaption>
+      <img src="https://rheawindows.com/wp-content/uploads/2025/08/How-Modern-Aluminum-Windows-Outperform-Traditional-Systems.png" alt="Moderni aluminijumski prozori sa termo prekidom">
+      <figcaption>ALU prozori sa termo prekidom – velike dimenzije, odlična izolacija</figcaption>
     </figure>
     <figure>
-      <img src="https://linkline.rs/wp-content/uploads/2021/06/Aluminijumska-vrata-1024x683.jpg" alt="Aluminijumska ulazna vrata Aliplast Genesis sa skrivenim krilom">
-      <figcaption>Ulazna ALU vrata Genesis – skriveno krilo, luksuzan dizajn</figcaption>
+      <img src="https://cdn.debesto.com/web/assets/sites/7/2023/12/10145301/new-york-big-patio-doors-aluminum-from-Europe-1.jpg" alt="Podizno-klizni ALU sistem sa niskim pragom">
+      <figcaption>Podizno-klizni sistem – velike terase, minimalistički dizajn</figcaption>
     </figure>
     <figure>
-      <img src="https://linkline.rs/wp-content/uploads/2021/06/Aluminijumski-klizni-sistemi-1024x840.jpg" alt="Podizno-klizni ALU sistem Aliplast Ultraglide sa niskim pragom">
-      <figcaption>Podizno-klizni Ultraglide – velike terase, niski prag</figcaption>
+      <img src="https://marshallwindow.com/wp-content/uploads/2020/07/premium-aluminium-ajto-kep.jpg" alt="Luksuzna aluminijumska ulazna vrata sa skrivenim krilom">
+      <figcaption>Ulazna ALU vrata – skriveno krilo, premium izgled</figcaption>
     </figure>
   </div>
-  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije su ilustrativnog karaktera – prikazuju tipove sistema u ponudi.</p>
+  <p style="text-align:center;font-style:italic;color:#64748b;margin-top:1.5rem;">Fotografije prikazuju tipove sistema i završenih radova.</p>
 </section>
 
 <section class="section qualification-section">
@@ -537,80 +1115,74 @@
   </div>
 </section>
 
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:3rem;color:var(--heading);">Vrste ALU stolarije u ponudi</h2>
-  <div class="systems-grid">
-    <div class="system-card">
+<section class="section" style="margin: 3rem auto; max-width: 1000px; padding: 0 1.5rem;">
+  <h2 style="text-align:center; margin-bottom: 2rem; color: var(--heading);">Vrste ALU stolarije u ponudi</h2>
+  <div class="systems-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+    <div class="system-card" style="background: #f8fafc; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
       <h3>ALU prozori sa termo prekidom</h3>
       <p>Elvial 4600 Multilock, Aliplast Imperial, Genesis, Star – odlična termo i zvučna izolacija, visoka sigurnost, mogućnost velikih dimenzija i savijanja profila.</p>
     </div>
-    <div class="system-card">
+    <div class="system-card" style="background: #f8fafc; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
       <h3>ALU ulazna vrata</h3>
       <p>Panelna vrata sa skrivenim krilom (Genesis), višestruko zaključavanje, veliki izbor RAL boja, dekora drveta i inox detalja – pravi prvi utisak.</p>
     </div>
-    <div class="system-card">
+    <div class="system-card" style="background: #f8fafc; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
       <h3>Podizno-klizni & klizni sistemi</h3>
       <p>Aliplast Ultraglide, Visoglide, Elvial 6700i/6800i – niski prag, velike površine do 400 kg po krilu, elektro-pogon kao opcija, minimalistički dizajn.</p>
     </div>
-    <div class="system-card">
-      <h3>Harmonika (preklopna) vrata</h3>
-      <p>Aliplast Panorama – idealno za potpuno otvaranje terasa, zimskih bašti i restorana, termički prekid, različite vrste pragova.</p>
-    </div>
   </div>
 </section>
 
-<section class="section">
-  <h2 style="text-align:center;margin-bottom:2rem;">
-    Kako izgleda proces saradnje
-  </h2>
+<div class="faq-section">
+  <h2>Najčešća pitanja o ALU stolariji u Novom Sadu</h2>
 
-  <div class="systems-grid">
-    <div class="system-card">
-      <h3>1️⃣ Kontakt</h3>
-      <p>Kratko razgovaramo o vašem projektu i dogovaramo termin merenja.</p>
+  <details class="faq-item">
+    <summary class="faq-question">Kolika je cena ALU stolarije u Novom Sadu?</summary>
+    <div class="faq-answer">
+      Cena zavisi od profila (Elvial, Aliplast Imperial, Genesis, Ultraglide, Visoglide), dimenzija, tipa stakla (troslojno sa argonom/low-E), boje i montaže. Prosečne cene za kvalitetnu ALU sa termo prekidom kreću se od 400–900 € po prozoru/vratima (bez PDV-a i montaže). Besplatno merenje i realna ponuda bez obaveze – pozovite 063 105 05 15.
     </div>
-    <div class="system-card">
-      <h3>2️⃣ Besplatno merenje</h3>
-      <p>Stručnjak dolazi na lice mesta, meri tačne dimenzije i predlaže najbolje rešenje.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-question">Da li ALU stolarija ima termo prekid i koliko je važan?</summary>
+    <div class="faq-answer">
+      Da, savremena ALU stolarija (kao Elvial 4600/6800i, Aliplast Ultraglide/Genesis) obavezno ima termo prekid (poliamidna traka) da bi se sprečilo kondenzovanje i gubitak toplote. Bez termo prekida ALU je hladna i nije energetski efikasna. Sa termo prekidom postiže se Uf 1.3–2.0 W/m²K – idealno za kuće u Novom Sadu.
     </div>
-    <div class="system-card">
-      <h3>3️⃣ Precizna ponuda</h3>
-      <p>Dobijate tačnu cenu, rok izrade, garanciju i sve detalje bez skrivenih troškova.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-question">Kolika je garancija na ALU prozore i montažu?</summary>
+    <div class="faq-answer">
+      Garancija na profile i okove je obično 5–10 godina (kod Elvial/Aliplast do 10 godina), na staklo 5 godina, a na profesionalnu montažu minimum 2–5 godina (zavisi od izvođača). Mi povezujemo sa ekipama koje daju punu garanciju i servis u Novom Sadu i okolini.
     </div>
-    <div class="system-card">
-      <h3>4️⃣ Izrada i profesionalna montaža</h3>
-      <p>Sistemi se izrađuju po meri i ugrađuju sa maksimalnom pažnjom.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary class="faq-question">Koliko traje montaža ALU stolarije?</summary>
+    <div class="faq-answer">
+      Za standardan stan/kuću (5–10 prozora/vrata) montaža traje 1–3 dana. Sa demontažom stare stolarije može biti 2–5 dana. Profesionalna ekipa radi čisto, sa zaštitom nameštaja i brzim završetkom – bez višenedeljnog čekanja.
     </div>
-  </div>
-</section>
+  </details>
 
-<section class="cta-section">
-  <p style="margin-top:2rem;">
-    <b>
-      Želite velike staklene površine, vrhunsku sigurnost i moderan dizajn bez kompromisa?<br>
-      Pozovite sada i zakažite besplatno merenje.
-    </b>
-  </p>
-
-  <div class="phone-number">063 105 05 15</div>
-  <p>Pozivi do 15 minuta • Bez obaveze • Svaki dan 0-24h</p>
-
-  <div class="contact-buttons">
-    <a href="tel:+381631050515" class="contact-btn call-btn">📞 Pozovite sada</a>
-    <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">💬 WhatsApp</a>
-    <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">📱 Viber</a>
-  </div>
-</section>
-
-<div class="disclaimer">
-  <strong>Napomena:</strong> Ej Majstore prikuplja i kvalifikuje upite. Nakon prvog kontakta projekat preuzima naš partnerski izvođač. Tačna ponuda, dimenzije, boje, tip stakla i rokovi utvrđuju se nakon besplatnog merenja na objektu.
+  <details class="faq-item">
+    <summary class="faq-question">Koja je razlika između Elvial i Aliplast profila?</summary>
+    <div class="faq-answer">
+      Elvial (Grčka) je kvalitetan standard sa dobrim odnosom cena/kvalitet (4600 Multilock, 6800i). Aliplast (Belgija) je premium (Imperial, Genesis, Ultraglide) – bolja zvučna/termo izolacija, veća nosivost (do 400 kg po krilu), elegantniji dizajn i duža garancija. Za veće klizne sisteme ili visoke zahteve preporučujemo Aliplast.
+    </div>
+  </details>
 </div>
 
-<div style="max-width:900px;margin:3rem auto 1.5rem;padding:0 1.5rem;font-size:0.9rem;color:#6b7280;line-height:1.6;">
-  <strong style="font-weight:600;color:#374151;">Ostale relevantne stranice:</strong><br>
-  <a href="/pvc-stolarija-novi-sad/" style="color:#0059b2;text-decoration:none;">PVC stolarija Novi Sad</a><br>
-  <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/" style="color:#0059b2;text-decoration:none;">Kompletna zamena PVC i ALU stolarije Novi Sad</a><br>
-  <a href="/zastakljivanje-terasa-novi-sad/" style="color:#0059b2;text-decoration:none;">Zastakljivanje terasa Novi Sad</a>
+<div class="related-links">
+  <h3>Povezane usluge</h3>
+  <ul>
+    <li><a href="/krovni-prozori-cena-sa-ugradnjom-novi-sad/">Krovni prozori – cena sa ugradnjom Novi Sad</a></li>
+    <li><a href="/pvc-stolarija-novi-sad/">PVC stolarija Novi Sad</a></li>
+    <li><a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/">Kompletna zamena PVC i ALU stolarije Novi Sad</a></li>
+  </ul>
+</div>
+
+<div class="disclaimer">
+  <strong>Napomena:</strong> Povezujem vas sa specijalizovanim izvođačima za ALU stolariju. Tačna ponuda, dimenzije, boje, tip stakla, profili i rokovi utvrđuju se nakon besplatnog merenja na objektu.
 </div>
   </main>
 

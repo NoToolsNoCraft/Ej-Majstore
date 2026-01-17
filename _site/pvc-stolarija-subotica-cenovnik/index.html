@@ -308,7 +308,7 @@
   "mainEntity": [
     {"@type":"Question","name":"Koliko košta PVC stolarija u Subotici?","acceptedAnswer":{"@type":"Answer","text":"Za prosečan stan (6–10 elemenata) ukupna cena se kreće od 1.000 do 2.500 €, a za kuću od 2.500 do 6.000 €, u zavisnosti od broja i vrste elemenata."}},
     {"@type":"Question","name":"Da li je ovo zvanični cenovnik?","acceptedAnswer":{"@type":"Answer","text":"Ne. Kalkulator daje informativnu procenu na osnovu prosečnih tržišnih cena u Subotici. Ova stranica ne predstavlja ponudu nijedne firme."}},
-    {"@type":"Question","name":"Da li je merenje besplatno?","acceptedAnswer":{"@type":"Answer","text":"Da, sve firme dolaze na besplatno merenje istog ili sledećeg dana."}},
+    {"@type":"Question","name":"Da li je merenje besplatno?","acceptedAnswer":{"@type":"Answer","text":"Merenje se generalno ne naplaćuje ukoliko ste u Subotici ili okolini."}},
     {"@type":"Question","name":"Koliko traje izrada i montaža?","acceptedAnswer":{"@type":"Answer","text":"Izrada traje 2–4 nedelje, montaža 1–2 dana. Ukupno od narudžbine do završetka 3–6 nedelja."}},
     {"@type":"Question","name":"Da li se isplati za mali stan?","acceptedAnswer":{"@type":"Answer","text":"Za zamenu samo 1–2 elementa obično se ne isplati. Preporučuje se kompletna zamena više elemenata radi uštede na energiji i ujednačenog izgleda."}}
   ]
@@ -490,11 +490,108 @@
   margin-top:1.2rem;
 }
 
+/* ────────────────────────────────────────
+   INTRO SECTION – Petar personal block
+───────────────────────────────────────── */
+
+.intro-section {
+  margin: 2.5rem 0;
+  background: #f8fff9;
+  border: 2px solid #a5d6a7;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(76,175,80,.12);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;          /* desktop: slika levo, tekst desno – 1:2 odnos */
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.intro-photo img {
+  width: 100%;
+  max-width: 320px;                        /* ograničavamo maks širinu na desktopu */
+  height: auto;
+  border-radius: 50%;                      /* krug na desktopu */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+  object-fit: cover;
+  aspect-ratio: 1 / 1;                     /* forsira kvadrat za krug */
+}
+
+.intro-content h2 {
+  margin-top: 0;
+  color: #1b5e20;
+}
+
+.intro-content ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.intro-content li {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.intro-trust {
+  font-style: italic;
+  color: #2d7748;
+  font-weight: 600;
+  margin: 1.8rem 0;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 1fr;            /* vertikalno slaganje */
+    gap: 2rem;
+  }
+
+  .intro-photo img {
+    max-width: 240px;                      /* manje na tabletu/mobilnom */
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;                    /* i dalje krug, ali manji */
+  }
+
+  .intro-content {
+    text-align: center;                    /* centriramo tekst na mobilnom */
+  }
+
+  .intro-content .contact-btn {
+    width: 100%;                           /* dugmad puna širina na malom ekranu */
+    justify-content: center;
+    font-size: 1.15rem;
+    padding: 1.2rem 1.8rem;
+  }
+
+  .intro-section {
+    padding: 2rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-photo img {
+    max-width: 200px;
+  }
+
+  .intro-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .intro-content p {
+    font-size: 1.05rem;
+  }
+}
+
 </style>
 
 <div class="hero">
   <div class="container">
-    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova</h1>
+    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova 2026</h1>
     <p style="text-shadow: 0 2px 4px rgba(17, 24, 39, 1);">Informativna procena ukupne cene PVC stolarije za stan ili kuću u Subotici i okolini.</p>
     <a href="#calculator" class="cta-btn" onclick="document.getElementById('calculator').scrollIntoView({behavior: 'smooth'}); return false;">
       Izračunajte cenu odmah <i class="fa-solid fa-angles-down"></i>
@@ -512,14 +609,14 @@
 
   <br><h3>Šta Ej Majstore! radi drugačije</h3>
   <ul>
-    <li>✔️ Ne povezujemo vas sa bilo kim – već sa odgovarajućim izvođačima</li>
-    <li>✔️ Firme dolaze na <strong>besplatno merenje bez obaveze</strong></li>
-    <li>✔️ Ne gubite dane zovući 5 različitih brojeva</li>
+    <li>✔️ Ne povezujem vas sa bilo kim, već sa odgovarajućim izvođačima</li>
+    <li>✔️ Firme dolaze na <strong>besplatno merenje bez obaveze dalje saradnje</strong></li>
+    <li>✔️ Ne gubite dane zovući 5 različitih firmi</li>
   </ul>
 
   <p>
     Kalkulator vam daje orijentaciju.  
-    Mi vam štitimo živce, vreme i novac.
+    Ja vam štitim živce, vreme i novac.
   </p>
 </section>
 
@@ -528,56 +625,62 @@
 
 <!-- How it works block -->
 <section class="how-it-works" id="how-it-works">
-  <h2 style="text-align: center; margin-top: 2rem;">Kako funkcioniše?</h2>
+  <h2 style="text-align: center; margin-top: 2rem;">Kako vam pomažem?</h2>
   <div class="steps">
     <div class="step">
       <div class="step-number">1</div>
-      <h3>Izračunajte cenu</h3>
-      <p>Unesite broj elemenata i dodatke u kalkulator i dobijte trenutnu informativnu procenu.</p>
+      <h3>Izračunajte približnu cenu</h3>
+      <p>Unesite broj prozora, vrata i dodatke u kalkulator da dobijete brzu informativnu procenu.</p>
     </div>
     <div class="step">
       <div class="step-number">2</div>
-      <h3>Kontaktirajte nas</h3>
-      <p>Pozovite ili pošaljite poruku preko telefona, WhatsApp-a ili Viber-a.</p>
+      <h3>Pozovite me ili pošaljite poruku</h3>
+      <p>Direktno ću vam objasniti šta je za vaš stan ili kuću najbolje i kako izbeći skupe greške.</p>
     </div>
     <div class="step">
       <div class="step-number">3</div>
-      <h3>Besplatno merenje</h3>
-      <p>Firma dolazi na besplatno merenje već istog ili sledećeg dana.</p>
+      <h3>Povežem vas sa pravom firmom</h3>
+      <p>Na osnovu vaših dimenzija i potreba, pronalazim firmu u Subotici koja najbolje odgovara vašem objektu, budžetu i prioritetima.</p>
     </div>
     <div class="step">
       <div class="step-number">4</div>
-      <h3>Finalna ponuda</h3>
-      <p>Dobićete tačnu ponudu prema vašim dimenzijama i željama – bez ikakve obaveze.</p>
+      <h3>Dobijate pouzdanu ponudu</h3>
+      <p>Firma dolazi na besplatno merenje i daje tačnu ponudu — bez skrivenih doplata, sa garancijom kvaliteta.</p>
     </div>
   </div>
 </section>
 
+
 <section class="section">
   <div class="calculator" id="calculator">
     <h2>Izračunajte informativnu cenu PVC stolarije</h2>
+    
     <div class="calc-grid">
-      <div class="calc-field">
-        <label for="jednokr">Jednokrilni prozori (kom)</label>
-        <input type="number" id="jednokr" min="0" value="0">
-      </div>
-      <div class="calc-field">
-        <label for="dvokr">Dvokrilni prozori (kom)</label>
-        <input type="number" id="dvokr" min="0" value="0">
-      </div>
-      <div class="calc-field">
-        <label for="balkonska">Balkonska vrata (kom)</label>
-        <input type="number" id="balkonska" min="0" value="0">
-      </div>
-      <div class="calc-field">
-        <label for="portal">Klizni portal (kom, opcionalno)</label>
-        <input type="number" id="portal" min="0" value="0">
-      </div>
-      <div class="calc-field">
-        <label for="krovni">Krovni prozori (kom, npr. Velux/Fakro)</label>
-        <input type="number" id="krovni" min="0" value="0">
-      </div>
-    </div>
+  <div class="calc-field">
+    <label for="jednokr">Jednokrilni prozori ~100x100 cm (kom)</label>
+    <input type="number" id="jednokr" min="0" value="0">
+  </div>
+  <div class="calc-field">
+    <label for="dvokr">Dvokrilni prozori ~140x140 cm (kom)</label>
+    <input type="number" id="dvokr" min="0" value="0">
+  </div>
+  <div class="calc-field">
+    <label for="balkonska_jed">Jednokrilna balkonska vrata ~90x210 cm (kom)</label>
+    <input type="number" id="balkonska_jed" min="0" value="0">
+  </div>
+  <div class="calc-field">
+    <label for="balkonska_dvo">Dvokrilna balkonska vrata ~140x210 cm (kom)</label>
+    <input type="number" id="balkonska_dvo" min="0" value="0">
+  </div>
+  <div class="calc-field">
+    <label for="portal">Klizni portal ~200-300 cm širine (kom)</label>
+    <input type="number" id="portal" min="0" value="0">
+  </div>
+  <div class="calc-field">
+    <label for="krovni">Krovni prozori (npr. Velux/Fakro, standard ~78x118 cm) (kom)</label>
+    <input type="number" id="krovni" min="0" value="0">
+  </div>
+</div>
     
     <div class="checkbox-group">
       <div class="checkbox-item">
@@ -592,47 +695,54 @@
         <input type="checkbox" id="demontaza">
         <label for="demontaza">Demontaža stare stolarije (po elementu)</label>
       </div>
+      
     </div>
-    
+    <p>Cene su prosečne za standardne dimenzije i dvoslojno staklo (sa ugradnjom). Za troslojno staklo dodajte 20–30%.</p>
     <button class="calc-btn" onclick="calculate()">Izračunaj procenu</button>
     
     <div id="result" class="result">
       Procena ukupne cene: <span id="total">0</span> €
     </div>
 
-    <div class="contact-block">
-      <p>Cene PVC stolarije u Subotici variraju i često rastu sezonski. Za procene preko 1.500 € firme daju prioritet.</p>
-      <p>Ne birajte firmu nasumično. Poziv ide preko Ej Majstore! platforme ka odgovarajućim izvođačima u Subotici.</p>
-      <div class="contact-buttons">
-            <a href="tel:+381631050515"
-            onclick="gtag('event','click_call',{
-              event_category:'lead',
-              event_label:'PVC Subotica'
-            })"
-            class="contact-btn call-btn">
-          📞 Pozovite 063 105 05 15
-          </a>
-
-        
-      </div>
-      <div class="chat-options">
-      <a href="https://wa.me/381631050515"
-        class="chat-btn whatsapp-btn"
-        target="_blank"
-        onclick="gtag('event','click_whatsapp',{event_category:'lead'})">
-        💬 WhatsApp – poruka ili poziv
-      </a>
-
-      <a href="viber://chat?number=%2B381631050515"
-        class="chat-btn viber-btn"
-        onclick="gtag('event','click_viber',{event_category:'lead'})">
-        📱 Viber – poruka ili poziv
-      </a>
+    <section class="intro-section">
+  <div class="intro-grid" style="margin-top: 4rem;">
+    <div class="intro-photo">
+      <img 
+        src="/images/petar-skrbic-u-garazi.webp" 
+        alt="Petar Škrbić – vaš lični koordinator za PVC stolariju Subotica"
+        loading="lazy"
+      >
     </div>
 
-      </div>
+    <div class="intro-content">
+      <h2>Izračunali ste približnu cenu? Sjajno. Sada mogu da vam pomognem da:</h2>
       
+      <ul>
+        <li>✔️ Razjasnimo tačno šta vam zaista treba pre nego što bilo ko dođe na merenje</li>
+        <li>✔️ Izbegnete „jeftine“ ponude koje kasnije koštaju 30–50% više</li>
+        <li>✔️ Uštedite dane zvanja 5–6 firmi i gomilu stresa</li>
+        <li>✔️ Dobijete realnu, sigurnu sliku pre ulaganja vremena i novca</li>
+      </ul>
+
+      <p class="intro-trust">
+        Znam ko u Subotici isporučuje ono što piše u ponudi, a ko ne.
+      </p>
+
+      <div class="contact-buttons">
+        <a href="tel:+381631050515" class="contact-btn call-btn">
+          📞 Pozovite me odmah – 063 105 05 15
+        </a>
+        <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank">
+          💬 WhatsApp poruka / poziv
+        </a>
+        <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn">
+          📱 Viber poruka / poziv
+        </a>
+      </div>
     </div>
+  </div>
+</section>
+
     
     <div class="disclaimer">
       <strong>Napomena:</strong><br>
@@ -655,39 +765,43 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Jednokrilni prozor</td>
-              <td>85 €</td>
-            </tr>
-            <tr>
-              <td>Dvokrilni prozor</td>
-              <td>165 €</td>
-            </tr>
-            <tr>
-              <td>Balkonska vrata</td>
-              <td>240 €</td>
-            </tr>
-            <tr>
-              <td>Klizni portal</td>
-              <td>1.100 €</td>
-            </tr>
-            <tr>
-              <td>Krovni prozor (npr. Velux/Fakro, standardna veličina)</td>
-              <td>450 €</td>
-            </tr>
-            <tr>
-              <td>Roletne (po elementu)</td>
-              <td>+55 €</td>
-            </tr>
-            <tr>
-              <td>Komarnici (po elementu)</td>
-              <td>+40 €</td>
-            </tr>
-            <tr>
-              <td>Demontaža stare stolarije (po elementu)</td>
-              <td>+25 €</td>
-            </tr>
-          </tbody>
+          <tr>
+            <td>Jednokrilni prozor (~100x100 cm)</td>
+            <td>105 €</td>
+          </tr>
+          <tr>
+            <td>Dvokrilni prozor (~140x140 cm)</td>
+            <td>160 €</td>
+          </tr>
+          <tr>
+            <td>Jednokrilna balkonska vrata (~90x210 cm)</td>
+            <td>150 €</td>
+          </tr>
+          <tr>
+            <td>Dvokrilna balkonska vrata (~140x210 cm)</td>
+            <td>300 €</td>
+          </tr>
+          <tr>
+            <td>Klizni portal (~200-300 cm širine)</td>
+            <td>1.300 €</td>
+          </tr>
+          <tr>
+            <td>Krovni prozor (npr. Velux/Fakro, standardna veličina)</td>
+            <td>500 €</td>
+          </tr>
+          <tr>
+            <td>Roletne (po elementu)</td>
+            <td>+65 €</td>
+          </tr>
+          <tr>
+            <td>Komarnici (po elementu)</td>
+            <td>+50 €</td>
+          </tr>
+          <tr>
+            <td>Demontaža stare stolarije (po elementu)</td>
+            <td>+30 €</td>
+          </tr>
+        </tbody>
         </table>
       </div>
       
@@ -730,7 +844,7 @@
   
   <div class="faq-item">
     <div class="faq-question">Da li je merenje besplatno?</div>
-    <div class="faq-answer"><p>Da, sve firme dolaze na besplatno merenje istog ili sledećeg dana.</p></div>
+    <div class="faq-answer"><p>Merenje se generalno ne naplaćuje ukoliko ste u Subotici ili okolini.</p></div>
   </div>
   
   <div class="faq-item">
@@ -746,27 +860,35 @@
 
 <script>
   function calculate() {
-    const jednokr = parseInt(document.getElementById('jednokr').value) || 0;
-    const dvokr = parseInt(document.getElementById('dvokr').value) || 0;
-    const balkonska = parseInt(document.getElementById('balkonska').value) || 0;
-    const portal = parseInt(document.getElementById('portal').value) || 0;
-    const krovni = parseInt(document.getElementById('krovni').value) || 0;
-    const roletne = document.getElementById('roletne').checked;
-    const komarnici = document.getElementById('komarnici').checked;
-    const demontaza = document.getElementById('demontaza').checked;
-    
-    const elements = jednokr + dvokr + balkonska + (portal > 0 ? 1 : 0);
-    
-    let total = jednokr * 85 + dvokr * 165 + balkonska * 240 + portal * 1100 + krovni * 450;
-    
-    if (roletne) total += elements * 55;
-    if (komarnici) total += elements * 40;
-    if (demontaza) total += elements * 25;
-    
-    document.getElementById('total').textContent = total.toLocaleString('sr-RS');
-    document.getElementById('result').style.display = 'block';
-    document.getElementById('result').scrollIntoView({behavior: 'smooth'});
-  }
+  const jednokr = parseInt(document.getElementById('jednokr').value) || 0;
+  const dvokr = parseInt(document.getElementById('dvokr').value) || 0;
+  const balkonska_jed = parseInt(document.getElementById('balkonska_jed').value) || 0;
+  const balkonska_dvo = parseInt(document.getElementById('balkonska_dvo').value) || 0;
+  const portal = parseInt(document.getElementById('portal').value) || 0;
+  const krovni = parseInt(document.getElementById('krovni').value) || 0;
+  const roletne = document.getElementById('roletne').checked;
+  const komarnici = document.getElementById('komarnici').checked;
+  const demontaza = document.getElementById('demontaza').checked;
+  
+  // Elements for add-ons: count all main items (portali count as 1, krovni excluded as usual)
+  const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + portal;
+  
+  let total = 
+    jednokr * 105 +
+    dvokr * 160 +
+    balkonska_jed * 150 +
+    balkonska_dvo * 300 +
+    portal * 1300 +
+    krovni * 500;
+  
+  if (roletne) total += elements * 65;
+  if (komarnici) total += elements * 50;
+  if (demontaza) total += elements * 30;
+  
+  document.getElementById('total').textContent = total.toLocaleString('sr-RS');
+  document.getElementById('result').style.display = 'block';
+  document.getElementById('result').scrollIntoView({behavior: 'smooth'});
+}
   
   document.querySelectorAll('.faq-question').forEach(q => {
     q.addEventListener('click', () => {
