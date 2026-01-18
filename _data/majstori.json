@@ -1106,7 +1106,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
-  "last_modified": "2025-12-28",
+  "last_modified": "2026-01-18",
   "tips_title": "Kako da Leto Bude Bez Zujanja",
   "tips": [
     "Plise komarnici – za balkon bez prepreka",
@@ -1117,9 +1117,13 @@
   ],
   "sections": [
     {
-      "type": "p",
-      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Unoplast"
-    },
+  "type": "hijack",
+  "tag": "Brzi savet pre kupovine",
+  "title": "Nisu svi komarnici isti u praksi",
+  "content": "Pogrešan tip ili loša izrada često se primete tek posle prve sezone. Uz par pravih pitanja može se izbeći loša odluka i nepotreban trošak.\n\nMogu vam pomoći da brzo utvrdite koji komarnik ima smisla za vaš prostor i kome da se obratite.",
+  "btn_text": "Treba mi kratak savet",
+  "url": "/komarnici-novi-sad/"
+},
     {
       "type": "p",
       "content": "Leto u Novom Sadu ne mora značiti borbu sa insektima. Unoplast nudi vrhunska rešenja za komarnike po meri u Novom Sadu – od elegantnih plise sistema do izdržljivih rolo i fiksnih mrežica koje garantuju miran san bez hemije."
@@ -8705,7 +8709,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-11-17",
-  "last_modified": "2025-12-07",
+  "last_modified": "2026-01-18",
   "tips_title": "Kako da komarnici traju godinama",
   "tips": [
     "Plise komarnike zimi skupljajte u kutiju – štiti mrežicu",
@@ -8716,9 +8720,13 @@
   ],
   "sections": [
     {
-      "type": "p",
-      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Vidović Komarnici"
-    },
+  "type": "hijack",
+  "tag": "Pomoć pri pravom izboru",
+  "title": "Komarnici izgledaju slično — razlika se vidi kasnije",
+  "content": "Na papiru svi komarnici deluju isto. U praksi, pogrešan tip ili loša montaža znače probleme već nakon prve ili druge sezone: loše zatezanje, krive vođice ili mrežica koja popušta.\n\nMogu vam pomoći da za vaš prostor izaberete odgovarajuće rešenje (plise, rolo ili fiksni) i pouzdanu firmu — brzo, jasno i bez gubljenja vremena na neproverene ponude.",
+  "btn_text": "Želim savet pre odluke",
+  "url": "/komarnici-novi-sad/"
+},
     {
       "type": "p",
       "content": "Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda kad vam sitna napast poremeti san, raspoloženje i ceo dan koji dolazi posle nje. Letnje večeri postanu lutrija: da li će vas pustiti da uživate na terasi, ili ćete završiti pod jorganom usred jula? A tek muve kad navale unutra kad osete promenu vremena?"
@@ -11738,7 +11746,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-11-10",
-  "last_modified": "2025-12-07",
+  "last_modified": "2026-01-18",
 
   "tips_title": "Šta morate znati o Insecto komarnicima u osnovnim crtama",
   "tips": [
@@ -11752,9 +11760,14 @@
 
   "sections": [
     {
-      "type": "p",
-      "content": "<a href=\"/komarnici-novi-sad/\">Komarnici Novi Sad</a> › Insecto Komarnici"
-    },
+  "type": "hijack",
+  "tag": "Besplatna pomoć pri izboru",
+  "title": "Ne birajte komarnike naslepo",
+  "content": "Većina ljudi pogreši prilikom prve odluke: uzmu pogrešan tip komarnika ili majstora koji koristi slabe profile i mrežice. Posle 1–2 sezone sve se rasklima ili cepa.\n\nDozvolite mi da vam pomognem da izaberete TAČAN tip komarnika (plise, rolo ili fiksni) i firmu, bez lutanja po oglasima i bez skupih grešaka.",
+  "btn_text": "Pomozi mi da izaberem pravi komarnik",
+  "url": "/komarnici-novi-sad/"
+},
+
     {
       "type": "p",
       "content": "Komarnika za prozor ili vrata se često setimo tek kada su prozori i vrata već postavljeni, a bube počnu da nas nerviraju. Tako sam ja prošao sad skoro prilikom adaptacije potkrovlja. Postavljeni su novi PVC prozori, naravno bez komarnika. Gore je, s obzirom da radovi još teku, sparno. Međutim, na moje otvaranje prozora neverovatan roj muva navali da uđe i sve se zalepe za zidove od gips ploča, valda im odgovara temperatura."

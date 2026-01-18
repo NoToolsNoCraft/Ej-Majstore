@@ -32,10 +32,17 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-28'
-last_modified: '2025-12-28'
+last_modified: '2026-01-18'
 sections:
-- type: p
-  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Unoplast
+- type: hijack
+  tag: Brzi savet pre kupovine
+  title: Nisu svi komarnici isti u praksi
+  content: |-
+    Pogrešan tip ili loša izrada često se primete tek posle prve sezone. Uz par pravih pitanja može se izbeći loša odluka i nepotreban trošak.
+
+    Mogu vam pomoći da brzo utvrdite koji komarnik ima smisla za vaš prostor i kome da se obratite.
+  btn_text: Treba mi kratak savet
+  url: "/komarnici-novi-sad/"
 - type: p
   content: Leto u Novom Sadu ne mora značiti borbu sa insektima. Unoplast nudi vrhunska
     rešenja za komarnike po meri u Novom Sadu – od elegantnih plise sistema do izdržljivih

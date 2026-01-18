@@ -33,10 +33,17 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-11-10'
-last_modified: '2025-12-07'
+last_modified: '2026-01-18'
 sections:
-- type: p
-  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Insecto Komarnici
+- type: hijack
+  tag: Besplatna pomoć pri izboru
+  title: Ne birajte komarnike naslepo
+  content: |-
+    Većina ljudi pogreši prilikom prve odluke: uzmu pogrešan tip komarnika ili majstora koji koristi slabe profile i mrežice. Posle 1–2 sezone sve se rasklima ili cepa.
+
+    Dozvolite mi da vam pomognem da izaberete TAČAN tip komarnika (plise, rolo ili fiksni) i firmu, bez lutanja po oglasima i bez skupih grešaka.
+  btn_text: Pomozi mi da izaberem pravi komarnik
+  url: "/komarnici-novi-sad/"
 - type: p
   content: Komarnika za prozor ili vrata se često setimo tek kada su prozori i vrata
     već postavljeni, a bube počnu da nas nerviraju. Tako sam ja prošao sad skoro prilikom

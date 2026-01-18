@@ -32,10 +32,17 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-11-17'
-last_modified: '2025-12-07'
+last_modified: '2026-01-18'
 sections:
-- type: p
-  content: <a href="/komarnici-novi-sad/">Komarnici Novi Sad</a> › Vidović Komarnici
+- type: hijack
+  tag: Pomoć pri pravom izboru
+  title: Komarnici izgledaju slično — razlika se vidi kasnije
+  content: |-
+    Na papiru svi komarnici deluju isto. U praksi, pogrešan tip ili loša montaža znače probleme već nakon prve ili druge sezone: loše zatezanje, krive vođice ili mrežica koja popušta.
+
+    Mogu vam pomoći da za vaš prostor izaberete odgovarajuće rešenje (plise, rolo ili fiksni) i pouzdanu firmu — brzo, jasno i bez gubljenja vremena na neproverene ponude.
+  btn_text: Želim savet pre odluke
+  url: "/komarnici-novi-sad/"
 - type: p
   content: 'Svako ko je makar jednu noć proveo u borbi sa komarcem zna kako izgleda
     kad vam sitna napast poremeti san, raspoloženje i ceo dan koji dolazi posle nje.
