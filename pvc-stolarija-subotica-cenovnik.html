@@ -1,634 +1,822 @@
 ---
-layout: default
+layout: null
 title: PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova
 description: Informativna procena cene PVC stolarije za stan ili kuću u Subotici. Kalkulator troškova za prozore, vrata, roletne i komarnike na osnovu prosečnih tržišnih cena.
 permalink: /pvc-stolarija-subotica-cenovnik/
 canonical: https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/
 ---
 
-<!-- SCHEMA -->
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PVC Stolarija Subotica 2026 – Kalkulator Cena + Rolometal Ponuda (105€/prozor)</title>
+<meta name="description" content="Izračunajte cenu PVC stolarije Subotica: jednokrilni 105€, dvokrilni 160€ sa ugradnjom. Rolometal Subotica – Salamander profili, besplatno merenje. Zakažite preko 063/105-05-15.">
+<link rel="canonical" href="https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/">
+
+<!-- Schema: Service + LocalBusiness -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova",
-  "description": "Informativni kalkulator za procenu troškova PVC prozora, vrata i dodataka u Subotici. Brza orijentacija za zamenu stolarije u stanu ili kući.",
-  "url": "https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/",
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
+  "@type": "Service",
+  "serviceType": "PVC Stolarija Subotica",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Rolometal Subotica – Preko EjMajstore",
+    "telephone": "+381631050515",
+    "areaServed": "Subotica, Severni Banat",
+    "priceRange": "€€"
+  },
+  "offers": {
+    "@type": "OfferCatalog",
     "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Početna","item":"https://ejmajstore.rs/"},
-      {"@type":"ListItem","position":2,"name":"PVC Stolarija Subotica – Cenovnik"}
+      {"@type": "Offer", "name": "Jednokrilni PVC prozor", "priceSpecification": {"price": "105", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Dvokrilni PVC prozor", "priceSpecification": {"price": "160", "currency": "EUR"}}
     ]
   }
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type":"Question","name":"Koliko košta PVC stolarija u Subotici?","acceptedAnswer":{"@type":"Answer","text":"Za prosečan stan (6–10 elemenata) ukupna cena se kreće od 1.000 do 2.500 €, a za kuću od 2.500 do 6.000 €, u zavisnosti od broja i vrste elemenata."}},
-    {"@type":"Question","name":"Da li je ovo zvanični cenovnik?","acceptedAnswer":{"@type":"Answer","text":"Ne. Kalkulator daje informativnu procenu na osnovu prosečnih tržišnih cena u Subotici. Ova stranica ne predstavlja ponudu nijedne firme."}},
-    {"@type":"Question","name":"Da li je merenje besplatno?","acceptedAnswer":{"@type":"Answer","text":"Merenje se generalno ne naplaćuje ukoliko ste u Subotici ili okolini."}},
-    {"@type":"Question","name":"Koliko traje izrada i montaža?","acceptedAnswer":{"@type":"Answer","text":"Izrada traje 2–4 nedelje, montaža 1–2 dana. Ukupno od narudžbine do završetka 3–6 nedelja."}},
-    {"@type":"Question","name":"Da li se isplati za mali stan?","acceptedAnswer":{"@type":"Answer","text":"Za zamenu samo 1–2 elementa obično se ne isplati. Preporučuje se kompletna zamena više elemenata radi uštede na energiji i ujednačenog izgleda."}}
-  ]
-}
-</script>
-
 <style>
-  .container {max-width:1160px;margin:0 auto;padding:0 1rem;box-sizing:border-box;}
-.hero {
-    /* 1. The Overlay (for text readability) and 2. The Image URL (quoted because of spaces) */
-    background: linear-gradient(135deg, rgba(151, 255, 186, 0.05), rgba(246, 112, 59, 0.85)), 
-                url('/images/cena krovnih prozora sa ugradnjom.webp');
-    
-    /* Ensures the image covers the whole area without stretching distorting */
-    background-size: cover;
-    
-    /* Centers the image so the focal point is usually visible */
-    background-position: center;
-    
-    /* Prevents the image from repeating like tiles */
-    background-repeat: no-repeat;
-    
-    /* Keep your existing styles below */
-    color: white;
-    padding: 7rem 1rem 5rem;
-    text-align: center;
-    margin-bottom: 5rem;
-    margin-top: 1rem;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.3);
+:root {
+  --primary: #2d7748;
+  --accent: #4caf50;
+  --light: #f8fff9;
+  --dark: #1a1a1a;
+  --radius: 16px;
+  --shadow: 0 12px 35px rgba(45,119,72,0.15);
 }
-  .hero h1 {font-size:clamp(2.4rem,6vw,3.4rem);margin:0 0 1.2rem;font-weight:700;line-height:1.2;}
-  .hero p {font-size:1.25rem;max-width:820px;margin:0 auto 2.5rem;opacity:.95;line-height:1.6;}
-  .cta-btn {display:inline-flex;align-items:center;gap:.9rem;background:rgba(255,255,255,.92);color:#2d7748;border:2px solid #2d7748;padding:1.1rem 2.5rem;border-radius:50px;font-weight:600;font-size:1.2rem;text-decoration:none;transition:all .35s;box-shadow:0 8px 25px rgba(0,0,0,.22);}
-  .cta-btn:hover {background:#2d7748;color:white;transform:translateY(-5px);box-shadow:0 15px 35px rgba(0,0,0,.3);}
-  .cta-btn i {font-size:1.5rem;animation:bounce 2s infinite;}
-  @keyframes bounce {0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-12px)}60%{transform:translateY(-6px)}}
-  
-  .section {max-width:900px;margin:4rem auto;padding:0 1rem;}
-  .calculator {margin-top: 2rem; background:white;border:3px solid #4caf50;border-radius:20px;padding:0.5rem;box-shadow:0 10px 30px rgba(76,175,80,.15);}
-  .calculator h2 {text-align:center;margin:0 0 2rem;color:#1b5e20;font-size:2rem;}
-  
-  .calc-grid {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:1.5rem;
-  }
-  @media (max-width:640px) {
-    .calc-grid {
-      grid-template-columns:1fr;
-    }
-  }
-  
-  .calc-field {display:flex;flex-direction:column;}
-  .calc-field label {margin-bottom:.5rem;font-weight:600;color:#2d7748;}
-  .calc-field input, .calc-field select {padding:.9rem;border:2px solid #a5d6a7;border-radius:12px;font-size:1rem;box-sizing:border-box;}
-  .calc-field input[type=checkbox] {width:auto;height:auto;}
-  
-  .checkbox-group {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:1rem;
-    margin-top:1rem;
-  }
-  @media (max-width:480px) {
-    .checkbox-group {
-      grid-template-columns:1fr;
-    }
-  }
-  
-  .checkbox-item {display:flex;align-items:center;gap:.6rem;}
-  .calc-btn {margin:2rem auto 0;display:block;background:#4caf50;color:white;padding:1rem 3rem;border:none;border-radius:50px;font-size:1.2rem;font-weight:600;cursor:pointer;transition:all .3s;}
-  .calc-btn:hover {background:#388e3c;transform:translateY(-3px);}
-  .result {margin-top:2rem;padding:1.5rem;background:#e8f5e9;border:2px solid #4caf50;border-radius:16px;text-align:center;font-size:1.4rem;font-weight:700;color:#1b5e20;display:none;}
-  .disclaimer {margin-top:1rem;padding:1.2rem;background:#f9f9f9;border-left:4px solid #4caf50;font-size:.95rem;color:#374151;line-height:1.6;}
-  
-  .calc-guide {margin-top:3rem;padding:2rem;background:#f8fff9;border:2px solid #a5d6a7;border-radius:16px;}
-  .calc-guide h3 {text-align:center;color:#1b5e20;margin-bottom:1.5rem;font-size:1.6rem;}
-  
-  /* POPRAVKA: Responsivna tabela sa horizontalnim skrolom na mobilnim uređajima */
-  .table-wrapper {
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
-    margin:1.5rem 0;
-  }
-  .calc-guide table {width:100%;min-width:400px;border-collapse:collapse;}
-  .calc-guide th, .calc-guide td {padding:1rem;text-align:left;border-bottom:1px solid #a5d6a7;}
-  .calc-guide th {background:#e8f5e9;color:#1b5e20;font-weight:600;}
-  .calc-guide p {line-height:1.6;color:#374151;}
-  
-  .contact-block {background:#e8f5e9;padding:3rem 2rem;text-align:center;border-radius:20px;margin:2rem auto;max-width:900px;box-shadow:0 10px 30px rgba(76,175,80,.15);}
-  .contact-block p {font-size:1.15rem;margin-bottom:2rem;}
-  .contact-buttons {display:flex;justify-content:center;gap:1.2rem;flex-wrap:wrap;}
-  .contact-btn {display:inline-flex;align-items:center;gap:.8rem;padding:1rem 2.2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;transition:all .3s;}
-  .call-btn {background:#4caf50;color:white;}
-  .call-btn:hover {background:#388e3c;}
-  .whatsapp-btn {background:#25D366;color:white;}
-  .whatsapp-btn:hover {background:#128C7E;}
-  .viber-btn {background:#665cac;color:white;}
-  .viber-btn:hover {background:#5a4a9a;}
-  
-  /* How it works block */
-  .how-it-works {background:#f8fff9;padding:3rem 2rem;border-radius:20px;margin:4rem auto;max-width:900px;box-shadow:0 8px 25px rgba(76,175,80,.12);border:2px solid #a5d6a7;}
-  .how-it-works h2 {text-align:left;color:#1b5e20;margin-bottom:0.5rem;font-size:2rem;}
-  .steps {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;text-align:center;}
-  .step {position:relative;}
-  .step-number {display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:#4caf50;color:white;font-size:1.5rem;font-weight:700;border-radius:50%;margin:0 auto 1rem;box-shadow:0 4px 15px rgba(76,175,80,.3);}
-  .step h3 {font-size:1.25rem;margin:0 0 .8rem;color:#2d7748;}
-  .step p {font-size:1rem;color:#374151;line-height:1.6;}
-  @media (min-width:768px) {
-    .step:not(:last-child)::after {
-      content:"";position:absolute;top:25px;left:100%;width:calc(100% - 50px);height:3px;background:#4caf50;opacity:.4;z-index:0;
-    }
-    .steps {position:relative;}
-    .step {z-index:1;}
-  }
-  
-  .content-section {max-width:900px;margin:5rem auto;line-height:1.8;font-size:1.12rem;}
-  .content-section h2 {text-align:left;color:#1b5e20;margin-bottom:0.5rem;font-size:2rem;}
-  .content-section ul {margin:2rem 0;list-style:none;}
-  .content-section li {margin:1rem 0;}
-  
-  .faq-section {max-width:1000px;margin:6rem auto 4rem;padding:0 1rem;}
-  .faq-section h2 {text-align:center;font-size:2.2rem;margin-bottom:3.5rem;color:#1b5e20;}
-  .faq-item {background:white;border-radius:16px;margin-bottom:1.2rem;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.08);}
-  .faq-question {padding:1.6rem 2rem;background:linear-gradient(135deg,#e8f5e9,#c8e6c9);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1.22rem;color:#1b5e20;}
-  .faq-question::after {content:"↓";font-size:1.8rem;margin-left:1rem;color:#4caf50;transition:transform .3s;}
-  .faq-item.active .faq-question::after {transform:rotate(180deg);}
-  .faq-answer {padding:0 2rem;max-height:0;overflow:hidden;transition:all .4s;background:white;}
-  .faq-item.active .faq-answer {padding:1.8rem 2rem;max-height:500px;}
-  .faq-answer p {margin:0;line-height:1.75;color:#4b5563;font-size:1.05rem;}
-  .chat-btn {
-  display:flex;
-  align-items:center;
-  gap:.7rem;
-  padding:.75rem 1.4rem;
-  border-radius:14px;
-  font-weight:600;
-  font-size:.95rem;
-  text-decoration:none;
-  transition:all .25s ease;
-  box-shadow:0 4px 14px rgba(0,0,0,.12);
-  opacity:.92;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-.chat-btn:hover {
-  transform:translateY(-2px);
-  box-shadow:0 8px 22px rgba(0,0,0,.18);
-  opacity:1;
-}
-
-.whatsapp-btn {
-  background:#e9f8ef;
-  color:#075E54;
-  border:1px solid #bfe8d0;
-}
-
-.whatsapp-btn:hover {
-  background:#25D366;
-  color:white;
-}
-.viber-btn {
-  background:#f1eefb;
-  color:#4a3f99;
-  border:1px solid #d8d3f0;
-}
-
-.viber-btn:hover {
-  background:#665cac;
-  color:white;
-}
-
-.chat-options {
-  display:flex;
-  gap:1rem;
-  justify-content:center;
-  flex-wrap:wrap;
-  margin-top:1.2rem;
-}
-
-/* ────────────────────────────────────────
-   INTRO SECTION – Petar personal block
-───────────────────────────────────────── */
-
-.intro-section {
-  margin: 2.5rem 0;
-  background: #f8fff9;
-  border: 2px solid #a5d6a7;
-  border-radius: 20px;
-  padding: 2.5rem;
-  box-shadow: 0 10px 30px rgba(76,175,80,.12);
-}
-
-.intro-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;          /* desktop: slika levo, tekst desno – 1:2 odnos */
-  gap: 2.5rem;
-  align-items: center;
-}
-
-.intro-photo img {
+html, body {
+  overflow-x: hidden;
   width: 100%;
-  max-width: 320px;                        /* ograničavamo maks širinu na desktopu */
-  height: auto;
-  border-radius: 50%;                      /* krug na desktopu */
-  box-shadow: 0 8px 25px rgba(0,0,0,0.18);
-  object-fit: cover;
-  aspect-ratio: 1 / 1;                     /* forsira kvadrat za krug */
 }
 
-.intro-content h2 {
-  margin-top: 0;
-  color: #1b5e20;
-}
-
-.intro-content ul {
-  padding-left: 0;
-  list-style: none;
-}
-
-.intro-content li {
-  margin: 0.8rem 0;
-  font-size: 1.1rem;
+body {
+  font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+  color: var(--dark);
+  background: var(--light);
 }
 
-.intro-trust {
-  font-style: italic;
-  color: #2d7748;
-  font-weight: 600;
-  margin: 1.8rem 0;
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media (min-width: 768px) {
+  .container { padding: 0 1.5rem; }
 }
 
-/* MOBILE RESPONSIVE */
-@media (max-width: 768px) {
-  .intro-grid {
-    grid-template-columns: 1fr;            /* vertikalno slaganje */
-    gap: 2rem;
-  }
-
-  .intro-photo img {
-    max-width: 240px;                      /* manje na tabletu/mobilnom */
-    margin: 0 auto;
-    display: block;
-    border-radius: 50%;                    /* i dalje krug, ali manji */
-  }
-
-  .intro-content {
-    text-align: center;                    /* centriramo tekst na mobilnom */
-  }
-
-  .intro-content .contact-btn {
-    width: 100%;                           /* dugmad puna širina na malom ekranu */
-    justify-content: center;
-    font-size: 1.15rem;
-    padding: 1.2rem 1.8rem;
-  }
-
-  .intro-section {
-    padding: 2rem 1.2rem;
-  }
+/* Header */
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 768px) {
+  .logo { font-size: 1.6rem; }
 }
 
+/* CTA Bar */
+.cta-bar {
+  background: var(--accent);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700;
+  position: sticky;
+  top: 60px;
+  z-index: 99;
+  font-size: 1rem;
+}
 @media (max-width: 480px) {
-  .intro-photo img {
-    max-width: 200px;
-  }
+  .cta-bar { font-size: 0.9rem; padding: 0.8rem 1rem; top: 55px; }
+}
+.cta-bar a {
+  color: white;
+  font-weight: 700;
+  margin: 0 0.5rem;
+}
+@media (max-width: 480px) {
+  .cta-bar a { display: block; margin: 0.3rem 0; }
+}
 
-  .intro-content h2 {
-    font-size: 1.7rem;
-  }
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(45,119,72,0.85), rgba(76,175,80,0.7)), url('/images/cena-krovnih-prozora.webp') center/cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+@media (min-width: 768px) {
+  .hero { padding: 6rem 1rem 4rem; }
+}
+.hero h1 {
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.hero p {
+  font-size: 1.15rem;
+  max-width: 90%;
+  margin: 0 auto 1.5rem;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  .hero p { font-size: 1.3rem; max-width: 700px; }
+}
 
-  .intro-content p {
-    font-size: 1.05rem;
+/* Buttons */
+.btn {
+  display: inline-flex;
+  background: var(--accent);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0.4rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn:visited { color: white; }
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(76,175,80,0.4);
+}
+.btn-phone { background: #dc3545; }
+@media (max-width: 480px) {
+  .btn {
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    margin: 0.3rem;
+    flex-direction: column;
+    gap: 0.3rem;
   }
 }
 
+/* Calculator */
+.calculator {
+  background: white;
+  border: 3px solid var(--accent);
+  border-radius: var(--radius);
+  margin: 3rem 0;
+  box-shadow: var(--shadow);
+}
+@media (min-width: 768px) {
+  .calculator {
+    padding: 3rem;
+    margin: 4rem auto;
+    max-width: 900px;
+  }
+}
+.calculator h2 {
+  text-align: center;
+  color: var(--primary);
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  margin-bottom: 2rem;
+}
+
+/* Calc grid */
+.calc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+@media (min-width: 481px) {
+  .calc-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.8rem;
+  }
+}
+.calc-field label {
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.6rem;
+  display: block;
+  font-size: 1rem;
+}
+.calc-field input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #a5d6a7;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+.calc-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(76,175,80,0.2);
+  background: white;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+@media (min-width: 481px) {
+  .checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+.checkbox-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+@media (max-width: 480px) {
+  .checkbox-item { font-size: 0.95rem; }
+}
+
+.calc-btn {
+  width: 100%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  .calc-btn { padding: 1.3rem; font-size: 1.3rem; }
+}
+.calc-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(45,119,72,0.4);
+}
+
+.result {
+  margin: 1.5rem 0;
+  padding: 1.8rem;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  border: 3px solid var(--accent);
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--primary);
+  display: none;
+}
+@media (min-width: 768px) {
+  .result { font-size: 1.6rem; padding: 2rem; }
+}
+
+/* Rolometal pitch */
+.rolometal-pitch {
+  background: white;
+  border: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin: 3rem 0;
+  box-shadow: var(--shadow);
+}
+@media (min-width: 768px) {
+  .rolometal-pitch {
+    padding: 3rem;
+    margin: 4rem auto;
+    max-width: 900px;
+  }
+}
+.rolometal-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .rolometal-grid { display: grid; grid-template-columns: 1fr 2fr; }
+}
+.rolometal-logo img {
+  max-width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.pitch-copy h2 {
+  color: var(--primary);
+  font-size: clamp(1.8rem, 4vw, 2.3rem);
+  margin-bottom: 1.2rem;
+}
+.pitch-copy ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+.pitch-copy li {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+.pitch-copy li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+@media (max-width: 480px) {
+  .pitch-copy li { font-size: 1rem; }
+}
+
+/* Form */
+.form-container {
+  background: white;
+  border: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin: 3rem 0;
+  max-width: 100%;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+@media (min-width: 768px) {
+  .form-container {
+    padding: 3rem;
+    max-width: 800px;
+  }
+}
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.form-group label {
+  position: absolute;
+  top: 1rem;
+  left: 1.2rem;
+  color: #6c757d;
+  font-size: 1rem;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+  top: -0.6rem;
+  left: 0.9rem;
+  font-size: 0.8rem;
+  color: var(--accent);
+  background: white;
+  padding: 0 0.4rem;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1.1rem 1.2rem;
+  border: 2px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: all 0.3s;
+  font-family: inherit;
+}
+.form-group textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(76,175,80,0.2);
+  background: white;
+}
+button[type="submit"] {
+  width: 100%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  padding: 1.3rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(45,119,72,0.4);
+}
+
+/* Form Success Notification */
+/* Form Success Notification */
+.form-notification {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+.form-notification.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Price Table */
+.table-wrapper {
+  margin: 2rem 0;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #a5d6a7;
+}
+
+.price-table th {
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .price-table { 
+    border: 0; 
+    width: 100%;
+  }
+  .price-table thead { display: none; }
+  .price-table tr {
+    display: block;
+    margin: 0 0.8rem 1.2rem;
+    border: 2px solid #a5d6a7;
+    border-radius: 12px;
+    background: #f8fff9;
+    box-shadow: 0 4px 12px rgba(45,119,72,0.08);
+  }
+  .price-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0.9rem 1rem;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #e0f0e2;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .price-table td:last-child { border-bottom: none; }
+  .price-table td:before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: var(--primary);
+    flex: 0 0 60%;
+    padding-right: 0.8rem;
+  }
+
+  /* Hide real text in first column on mobile */
+  .price-table tbody td:first-child {
+    color: transparent;
+    user-select: none;
+  }
+  .price-table td:before {
+    color: var(--primary);
+  }
+
+  /* Prevent overflow */
+  .price-table td {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .price-table td:before,
+  .price-table td:last-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 380px) {
+  .price-table td {
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+  }
+  .price-table td:before { flex: none; }
+}
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin-top: 4rem;
+}
+@media (min-width: 768px) {
+  footer { padding: 3rem 1rem; }
+}
 </style>
+</head>
+<body>
 
-<div class="hero">
+<header>
   <div class="container">
-    <h1 style="color: white; text-shadow: 0 4px 8px rgba(17, 24, 39, 0.7), 0 2px 4px rgba(17, 24, 39, 0.9);">PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova 2026</h1>
-    <p style="text-shadow: 0 2px 4px rgba(17, 24, 39, 1);">Informativna procena ukupne cene PVC stolarije za stan ili kuću u Subotici i okolini.</p>
-    <a href="#calculator" class="cta-btn" onclick="document.getElementById('calculator').scrollIntoView({behavior: 'smooth'}); return false;">
-      Izračunajte cenu odmah <i class="fa-solid fa-angles-down"></i>
-    </a>
+    <a href="/" class="logo">EjMajstore.rs</a>
   </div>
+</header>
+
+<div class="cta-bar">
+  💰 <strong>Kvalitetna PVC stolarija Subotica – fer cene & vrhunska ugradnja</strong> │
+  📞 <a href="tel:+381631050515">063/105-05-15</a> │
+  Rolometal – Besplatno merenje
 </div>
 
-<section class="content-section" style="margin-top:2rem;">
-  <h2 style="text-align: center;">Zašto ne treba da zovete firme nasumično?</h2>
-  <p>
-    Zato što <a href="/pvc-stolarija-subotica/">PVC stolarija</a> nije mala kupovina. Jedna loša odluka znači:
-    lošu montažu, probijene rokove, skrivene doplate ili probleme koje
-    niko posle ne želi da rešava.
-  </p>
-
-  <br><h3>Šta Ej Majstore! radi drugačije</h3>
-  <ul>
-    <li>✔️ Ne povezujem vas sa bilo kim, već sa odgovarajućim izvođačima</li>
-    <li>✔️ Firme dolaze na <strong>besplatno merenje bez obaveze dalje saradnje</strong></li>
-    <li>✔️ Ne gubite dane zovući 5 različitih firmi</li>
-  </ul>
-
-  <p>
-    Kalkulator vam daje orijentaciju.  
-    Ja vam štitim živce, vreme i novac.
-  </p>
-</section>
-
-
-
-
-<!-- How it works block -->
-<section class="how-it-works" id="how-it-works">
-  <h2 style="text-align: center; margin-top: 2rem;">Kako vam pomažem?</h2>
-  <div class="steps">
-    <div class="step">
-      <div class="step-number">1</div>
-      <h3>Izračunajte približnu cenu</h3>
-      <p>Unesite broj prozora, vrata i dodatke u kalkulator da dobijete brzu informativnu procenu.</p>
-    </div>
-    <div class="step">
-      <div class="step-number">2</div>
-      <h3>Pozovite me ili pošaljite poruku</h3>
-      <p>Direktno ću vam objasniti šta je za vaš stan ili kuću najbolje i kako izbeći skupe greške.</p>
-    </div>
-    <div class="step">
-      <div class="step-number">3</div>
-      <h3>Povežem vas sa pravom firmom</h3>
-      <p>Na osnovu vaših dimenzija i potreba, pronalazim firmu u Subotici koja najbolje odgovara vašem objektu, budžetu i prioritetima.</p>
-    </div>
-    <div class="step">
-      <div class="step-number">4</div>
-      <h3>Dobijate pouzdanu ponudu</h3>
-      <p>Firma dolazi na besplatno merenje i daje tačnu ponudu — bez skrivenih doplata, sa garancijom kvaliteta.</p>
-    </div>
+<section class="hero">
+  <div class="container">
+    <h1>PVC Stolarija Subotica 2026 – Kalkulator + Rolometal</h1>
+    <p>Brza orijentaciona računica koliko realno košta kvalitetna zamena stolarije u našem gradu.</p>
+    <a href="#calculator" class="btn" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">🧮 Izračunaj cenu ODMAH</a>
   </div>
 </section>
 
+<section class="calculator" id="calculator">
+  <div class="container">
 
-<section class="section">
-  <div class="calculator" id="calculator">
-    <h2>Izračunajte informativnu cenu PVC stolarije</h2>
-    
+    <h2>Izračunaj cenu PVC stolarije Subotica (sa ugradnjom)</h2>
+
     <div class="calc-grid">
-  <div class="calc-field">
-    <label for="jednokr">Jednokrilni prozori ~100x100 cm (kom)</label>
-    <input type="number" id="jednokr" min="0" value="0">
-  </div>
-  <div class="calc-field">
-    <label for="dvokr">Dvokrilni prozori ~140x140 cm (kom)</label>
-    <input type="number" id="dvokr" min="0" value="0">
-  </div>
-  <div class="calc-field">
-    <label for="balkonska_jed">Jednokrilna balkonska vrata ~90x210 cm (kom)</label>
-    <input type="number" id="balkonska_jed" min="0" value="0">
-  </div>
-  <div class="calc-field">
-    <label for="balkonska_dvo">Dvokrilna balkonska vrata ~140x210 cm (kom)</label>
-    <input type="number" id="balkonska_dvo" min="0" value="0">
-  </div>
-  <div class="calc-field">
-    <label for="portal">Klizni portal ~200-300 cm širine (kom)</label>
-    <input type="number" id="portal" min="0" value="0">
-  </div>
-  <div class="calc-field">
-    <label for="krovni">Krovni prozori (npr. Velux/Fakro, standard ~78x118 cm) (kom)</label>
-    <input type="number" id="krovni" min="0" value="0">
-  </div>
-</div>
-    
+      <div class="calc-field">
+        <label>Jednokrilni prozori (100×100 cm)</label>
+        <input type="number" id="jednokr" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Dvokrilni prozori (140×140 cm)</label>
+        <input type="number" id="dvokr" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Balkonska jednokrilna (90×210 cm)</label>
+        <input type="number" id="balkonska_jed" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Balkonska dvokrilna (140×210 cm)</label>
+        <input type="number" id="balkonska_dvo" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Klizni portal (200–300 cm)</label>
+        <input type="number" id="portal" min="0" value="0">
+      </div>
+    </div>
+
     <div class="checkbox-group">
       <div class="checkbox-item">
         <input type="checkbox" id="roletne">
-        <label for="roletne">Roletne (po elementu)</label>
+        <label for="roletne">Roletne (+65 €/kom)</label>
       </div>
       <div class="checkbox-item">
         <input type="checkbox" id="komarnici">
-        <label for="komarnici">Komarnici (po elementu)</label>
+        <label for="komarnici">Komarnici (+50 €/kom)</label>
       </div>
       <div class="checkbox-item">
         <input type="checkbox" id="demontaza">
-        <label for="demontaza">Demontaža stare stolarije (po elementu)</label>
+        <label for="demontaza">Demontaža (+30 €/kom)</label>
       </div>
-      
     </div>
-    <p>Cene su prosečne za standardne dimenzije i dvoslojno staklo (sa ugradnjom). Za troslojno staklo dodajte 20–30%.</p>
-    <button class="calc-btn" onclick="calculate()">Izračunaj procenu</button>
-    
+
+    <button class="calc-btn" onclick="calculate()">🧮 IZRAČUNAJ PROCENU</button>
+
     <div id="result" class="result">
       Procena ukupne cene: <span id="total">0</span> €
     </div>
 
-    <section class="intro-section">
-  <div class="intro-grid" style="margin-top: 4rem;">
-    <div class="intro-photo">
-      <img 
-        src="/images/rolometal-su-logo-pvc-stolarija-subotica.webp" 
-        alt="Petar Škrbić – preporučujem Rolometal za PVC stolariju u Subotici"
-        loading="lazy"
-      >
-    </div>
-
-    <div class="intro-content">
-      <h2>Izračunali ste približnu cenu? Odlično – sada kontaktirajte Rolometal!</h2>
-      
-      <p style="font-size:1.18rem; margin:1.2rem 0; line-height:1.5;">
-        Rolometal je jedna od najcenjenijih firmi za <strong>PVC stolariju u Subotici</strong> – koriste vrhunske nemačke profile (Salamander i slične), rade po meri, sa pouzdanom montažaom i dugotrajnim rezultatima. Od 2008. godine su tu, lokalni su, brzi i retko imaju pritužbe.
-      </p>
-
-      <ul style="font-size:1.1rem;">
-        <li>✔️ Visoka energetska efikasnost – ušteda na grejanju i hlađenju</li>
-        <li>✔️ Proizvodnja i ugradnja po meri – bez kompromisa na dimenzijama</li>
-        <li>✔️ Kvalitetni okovi i dodaci (roletne, komarnici, venecijaneri)</li>
-        <li>✔️ Izbegavate jeftine ponude koje kasnije koštaju 30–50% više</li>
-        <li>✔️ Besplatno merenje u Subotici i okolini – bez obaveze</li>
-      </ul>
-
-      <p class="intro-trust" style="font-size:1.15rem; margin:1.8rem 0; font-weight:600;">
-        Ako tražite stolariju koja će trajati godinama bez problema – Rolometal je siguran izbor u Subotici.
-      </p>
-
-      
-
-      <div class="contact-buttons">
-        <a href="tel:+381631050515" class="contact-btn call-btn" style="font-size:1.18rem; padding:1.2rem 2.6rem;">
-          📞 Zakažite besplatno merenje u Subotici
-        </a>
-        <a href="https://wa.me/381631050515" class="contact-btn whatsapp-btn" target="_blank" style="font-size:1.18rem; padding:1.2rem 2.6rem;">
-          💬 WhatsApp
-        </a>
-        <a href="viber://chat?number=%2B381631050515" class="contact-btn viber-btn" style="font-size:1.18rem; padding:1.2rem 2.6rem;">
-          📱 Viber
-        </a>
+    <!-- Rolometal pitch -->
+    <div class="rolometal-pitch">
+      <div class="rolometal-grid">
+        <div class="rolometal-logo">
+          <img src="/images/rolometal-su-logo-pvc-stolarija-subotica.webp" alt="Rolometal Subotica – PVC stolarija Salamander" loading="lazy">
+        </div>
+        <div class="pitch-copy">
+          <h2>✅ Rolometal Subotica – Moj #1 Izbor</h2>
+          <p><strong>Od 2008. u Subotici – Salamander i Winner profili</strong><br>Zašto rizikovati sa nepoznatima?</p>
+          <ul>
+            <li>Ušteda i do 40% na grejanje</li>
+            <li>Proizvodnja po Vašim merama – nikad ne štikuju</li>
+            <li>Kvalitetni okovi – ne zaglave za 15 godina</li>
+            <li>Montaža bez prašine (folije + usisivači)</li>
+            <li><strong>3 reference TRENUTNO u Subotici</strong></li>
+          </ul>
+          <p style="font-size:1.2rem; color:var(--primary); font-weight:800; margin-top:2rem;">
+            <span style="color:#dc3545;">🚨 SLOTOVI SE POPUNJAVAJU</span><br>
+            zakažite besplatno merenje preko mene
+          </p>
+          <div style="display:grid; gap:1rem; max-width:500px; margin:2rem auto 0;">
+            <a href="tel:+381631050515" class="btn btn-phone" style="width:100%; justify-content:center;">📞 Zakaži Rolometal merenje ODMAH</a>
+            <a href="https://wa.me/381631050515?text=Rolometal%20Subotica%20-%20izračunao%20cenu%20%20€" class="btn" style="width:100%; justify-content:center;">💬 WhatsApp</a>
+          </div>
+        </div>
       </div>
-
-
-      
-    </div>
-  </div>
-</section>
-
-    
-    <div class="disclaimer">
-      <strong>Napomena:</strong><br>
-      Kalkulator služi isključivo za informativnu procenu troškova na osnovu prosečnih tržišnih cena u Subotici.<br>
-      Ova stranica ne predstavlja ponudu za izradu ili ugradnju PVC stolarije.<br>
-      Konačna cena zavisi od profila, stakla, boje, montaže i uslova na objektu.
     </div>
 
-    <div class="calc-guide">
-      <h3>Kako radi kalkulator i koje su prosečne cene po stavci?</h3>
-      <p>Kalkulator koristi prosečne tržišne cene u Subotici (uključujući materijal i montažu) za brzu orijentaciju. Cene su informativne i mogu varirati ±20-30% u zavisnosti od proizvođača, dimenzija i specifičnih uslova.</p>
-      
-      <!-- POPRAVKA: Wrapper za horizontalni skrol na mobilnim -->
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Stavka</th>
-              <th>Prosečna cena po komadu (sa ugradnjom)</th>
-            </tr>
-          </thead>
-          <tbody>
+    <!-- Contact Form -->
+<div class="form-container">
+  <h2 style="text-align:center; color:var(--primary); margin-bottom:2rem;">
+    Popunite kratku formu i dobijate Rolometal ponudu za manje od 24h
+  </h2>
+
+  <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Rolometal Subotica – PVC kalkulator">
+    <input type="hidden" name="_autoresponse" value="Hvala! Rolometal će Vas kontaktirati za 24h sa tačnom ponudom.">
+    <input type="hidden" name="calc_total" id="form_total">
+    <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}">
+    <input type="hidden" name="page_title" value="{{ page.title }}">
+
+    <div class="form-group">
+      <input type="text" name="ime" id="ime" placeholder=" " required>
+      <label for="ime">Ime i prezime *</label>
+    </div>
+
+    <div class="form-group">
+      <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+      <label for="telefon">Telefon (obavezno) *</label>
+    </div>
+
+    <div class="form-group">
+      <textarea name="poruka" id="poruka" rows="4"></textarea>
+      <label for="poruka">Vaša poruka / napomene (opciono)</label>
+    </div>
+
+    <button type="submit">🚀 Neka me kontaktira Rolometal sa ponudom</button>
+
+    <!-- Success message – now below the button -->
+    <div id="form-success" class="form-notification" style="display: none; margin-top: 1.5rem; text-align: center;">
+      ✅ Uspešno poslato! Rolometal će Vas kontaktirati u narednih 24h.
+    </div>
+  </form>
+</div>
+
+    <!-- Price Table -->
+    <div class="table-wrapper">
+      <p style="text-align:center; font-weight:600; margin:1.2rem 1rem 0.6rem; color:var(--primary);">
+        Informativni cenovnik PVC stolarije Subotica sa ugradnjom (2026)
+      </p>
+      <p style="text-align:center; font-size:0.95rem; color:#555; margin:0 1rem 1.2rem;">
+        Cene su okvirne – služe za bolju orijentaciju
+      </p>
+
+      <table class="price-table">
+        <thead>
           <tr>
-            <td>Jednokrilni prozor (~100x100 cm)</td>
-            <td>105 €</td>
+            <th>Stavka</th>
+            <th>Cena sa ugradnjom</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Jednokrilni prozor">Jednokrilni prozor</td>
+            <td data-label="Cena">105 €</td>
           </tr>
           <tr>
-            <td>Dvokrilni prozor (~140x140 cm)</td>
-            <td>160 €</td>
+            <td data-label="Dvokrilni prozor">Dvokrilni prozor</td>
+            <td data-label="Cena">160 €</td>
           </tr>
           <tr>
-            <td>Jednokrilna balkonska vrata (~90x210 cm)</td>
-            <td>150 €</td>
+            <td data-label="Balkonska jednokrilna">Balkonska jednokrilna</td>
+            <td data-label="Cena">150 €</td>
           </tr>
           <tr>
-            <td>Dvokrilna balkonska vrata (~140x210 cm)</td>
-            <td>300 €</td>
+            <td data-label="Balkonska dvokrilna">Balkonska dvokrilna</td>
+            <td data-label="Cena">300 €</td>
           </tr>
           <tr>
-            <td>Klizni portal (~200-300 cm širine)</td>
-            <td>1.300 €</td>
+            <td data-label="Klizni portal">Klizni portal</td>
+            <td data-label="Cena">1.300 €</td>
           </tr>
           <tr>
-            <td>Krovni prozor (npr. Velux/Fakro, standardna veličina)</td>
-            <td>500 €</td>
-          </tr>
-          <tr>
-            <td>Roletne (po elementu)</td>
-            <td>+65 €</td>
-          </tr>
-          <tr>
-            <td>Komarnici (po elementu)</td>
-            <td>+50 €</td>
-          </tr>
-          <tr>
-            <td>Demontaža stare stolarije (po elementu)</td>
-            <td>+30 €</td>
+            <td data-label="Roletne / element">Roletne / element</td>
+            <td data-label="Cena">+65 €</td>
           </tr>
         </tbody>
-        </table>
-      </div>
-      
-      <p><strong>Napomena:</strong> Dodaci (roletne, komarnici, demontaža) se računaju po broju standardnih elemenata (prozori + vrata + portali). Krovni prozori se računaju posebno i ne ulaze u osnovu za dodatke.</p>
+      </table>
     </div>
-  </div>
-</section>
 
-
-
-<section class="content-section">
-  <h2 style="margin-top: 2rem;">Kada se isplati PVC stolarija?</h2>
-  <p>PVC stolarija je odličan izbor kada želite bolju toplotnu i zvučnu izolaciju uz pristupačnu cenu. Najveća ušteda na grejanju i hlađenju postiže se kompletnom zamenom svih prozora i vrata.</p>
-  
-  <h2>PVC ili ALU stolarija?</h2>
-  <p>PVC je jeftiniji i dovoljan za većinu stanova i kuća. ALU se bira za veće otvore, moderne objekte ili kada je potrebna veća čvrstoća.</p>
-  
-  <h2>Zašto cene variraju?</h2>
-  <p>Cena zavisi od broja komora profila, vrste stakla (dvoslojno ili troslojno), dimenzija, boje i dodataka. Montaža i demontaža takođe utiču na ukupan iznos.</p>
-  
-  <h2>Tipični budžeti u Subotici</h2>
-  <ul>
-    <li>Stan (6–10 elemenata): 1.000–2.500 €</li>
-    <li>Kuća (15–25 elemenata): 2.500–6.000 €</li>
-  </ul>
-</section>
-
-<section class="faq-section">
-  <h2>Često postavljana pitanja</h2>
-  
-  <div class="faq-item">
-    <div class="faq-question">Koliko košta PVC stolarija u Subotici?</div>
-    <div class="faq-answer"><p>Za prosečan stan (6–10 elemenata) ukupna cena se kreće od 1.000 do 2.500 €, a za kuću od 2.500 do 6.000 €, u zavisnosti od broja i vrste elemenata.</p></div>
-  </div>
-  
-  <div class="faq-item">
-    <div class="faq-question">Da li je ovo zvanični cenovnik?</div>
-    <div class="faq-answer"><p>Ne. Kalkulator daje informativnu procenu na osnovu prosečnih tržišnih cena u Subotici. Ova stranica ne predstavlja ponudu nijedne firme.</p></div>
-  </div>
-  
-  <div class="faq-item">
-    <div class="faq-question">Da li je merenje besplatno?</div>
-    <div class="faq-answer"><p>Merenje se generalno ne naplaćuje ukoliko ste u Subotici ili okolini.</p></div>
-  </div>
-  
-  <div class="faq-item">
-    <div class="faq-question">Koliko traje izrada i montaža?</div>
-    <div class="faq-answer"><p>Izrada traje 2–4 nedelje, montaža 1–2 dana. Ukupno od narudžbine do završetka 3–6 nedelja.</p></div>
-  </div>
-  
-  <div class="faq-item">
-    <div class="faq-question">Da li se isplati za mali stan?</div>
-    <div class="faq-answer"><p>Za zamenu samo 1–2 elementa obično se ne isplati. Preporučuje se kompletna zamena više elemenata radi uštede na energiji i ujednačenog izgleda.</p></div>
   </div>
 </section>
 
 <script>
-  function calculate() {
+function calculate() {
   const jednokr = parseInt(document.getElementById('jednokr').value) || 0;
   const dvokr = parseInt(document.getElementById('dvokr').value) || 0;
   const balkonska_jed = parseInt(document.getElementById('balkonska_jed').value) || 0;
   const balkonska_dvo = parseInt(document.getElementById('balkonska_dvo').value) || 0;
   const portal = parseInt(document.getElementById('portal').value) || 0;
-  const krovni = parseInt(document.getElementById('krovni').value) || 0;
+
   const roletne = document.getElementById('roletne').checked;
   const komarnici = document.getElementById('komarnici').checked;
   const demontaza = document.getElementById('demontaza').checked;
-  
-  // Elements for add-ons: count all main items (portali count as 1, krovni excluded as usual)
+
   const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + portal;
-  
-  let total = 
+
+  let total =
     jednokr * 105 +
     dvokr * 160 +
     balkonska_jed * 150 +
     balkonska_dvo * 300 +
-    portal * 1300 +
-    krovni * 500;
-  
+    portal * 1300;
+
   if (roletne) total += elements * 65;
   if (komarnici) total += elements * 50;
   if (demontaza) total += elements * 30;
-  
+
   document.getElementById('total').textContent = total.toLocaleString('sr-RS');
   document.getElementById('result').style.display = 'block';
-  document.getElementById('result').scrollIntoView({behavior: 'smooth'});
+  document.getElementById('form_total').value = total + ' €';
+
+  document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
 }
-  
-  document.querySelectorAll('.faq-question').forEach(q => {
-    q.addEventListener('click', () => {
-      const item = q.parentElement;
-      const wasActive = item.classList.contains('active');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-      if (!wasActive) item.classList.add('active');
+
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('button[type="submit"]');
+  const originalBtnText = btn.textContent;
+  const successBox = document.getElementById('form-success');
+
+  btn.disabled = true;
+  btn.textContent = 'Šaljem...';
+
+  try {
+    const formData = new FormData(e.target);
+    const response = await fetch(e.target.action, {
+      method: 'POST',
+      body: formData
     });
-  });
+
+    if (!response.ok) throw new Error('Network response was not ok');
+
+    // Show success message
+    successBox.style.display = 'block';
+    successBox.classList.add('visible');
+
+    // Hide after 6.5 seconds with smooth fade-out
+    setTimeout(() => {
+      successBox.classList.remove('visible');
+      setTimeout(() => {
+        successBox.style.display = 'none';
+      }, 400); // match transition duration
+    }, 6500);
+
+    e.target.reset();
+    document.getElementById('form_total').value = '';
+  } catch (err) {
+    alert('Greška pri slanju. Pozovite 063/105-05-15.');
+    console.error(err);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = originalBtnText;
+  }
+});
 </script>
+
+<footer>
+  <div class="container">
+    <p><strong>Rolometal Subotica preko EjMajstore.rs</strong><br>Salamander i Winner PVC • Besplatno merenje • 063/105-05-15</p>
+    <p style="opacity:0.9; margin-top:1rem;">© 2026 EjMajstore | Platforma Zanatskih Usluga</p>
+  </div>
+</footer>
+
+</body>
+</html>
