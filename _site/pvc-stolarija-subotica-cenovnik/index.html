@@ -277,6 +277,13 @@ header {
   font-weight: 800;
   color: var(--primary);
   display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.result.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 @media (min-width: 768px) {
   .result { font-size: 1.6rem; padding: 2rem; }
@@ -309,7 +316,7 @@ header {
 }
 .rolometal-logo img {
   max-width: 100%;
-  max-width: 280px;
+  
   height: auto;
   border-radius: 12px;
   box-shadow: var(--shadow);
@@ -420,7 +427,6 @@ button[type="submit"]:hover {
 }
 
 /* Form Success Notification */
-/* Form Success Notification */
 .form-notification {
   background: #d4edda;
   color: #155724;
@@ -432,6 +438,8 @@ button[type="submit"]:hover {
   opacity: 0;
   transform: translateY(10px);
   transition: all 0.4s ease;
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 .form-notification.visible {
@@ -500,7 +508,6 @@ button[type="submit"]:hover {
     padding-right: 0.8rem;
   }
 
-  /* Hide real text in first column on mobile */
   .price-table tbody td:first-child {
     color: transparent;
     user-select: none;
@@ -509,7 +516,6 @@ button[type="submit"]:hover {
     color: var(--primary);
   }
 
-  /* Prevent overflow */
   .price-table td {
     flex-wrap: nowrap;
     overflow: hidden;
@@ -644,42 +650,41 @@ footer {
     </div>
 
     <!-- Contact Form -->
-<div class="form-container">
-  <h2 style="text-align:center; color:var(--primary); margin-bottom:2rem;">
-    Popunite kratku formu i dobijate Rolometal ponudu za manje od 24h
-  </h2>
+    <div class="form-container">
+      <h2 style="text-align:center; color:var(--primary); margin-bottom:2rem;">
+        Popunite kratku formu i dobijate Rolometal ponudu za manje od 24h
+      </h2>
 
-  <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_subject" value="Rolometal Subotica – PVC kalkulator">
-    <input type="hidden" name="_autoresponse" value="Hvala! Rolometal će Vas kontaktirati za 24h sa tačnom ponudom.">
-    <input type="hidden" name="calc_total" id="form_total">
-    <input type="hidden" name="page_url" value="https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/">
-    <input type="hidden" name="page_title" value="PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova">
+      <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Rolometal Subotica – PVC kalkulator">
+        <input type="hidden" name="_autoresponse" value="Hvala! Rolometal će Vas kontaktirati za 24h sa tačnom ponudom.">
+        <input type="hidden" name="calc_total" id="form_total">
+        <input type="hidden" name="page_url" value="https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/">
+        <input type="hidden" name="page_title" value="PVC Stolarija Subotica – Cenovnik i Kalkulator Troškova">
 
-    <div class="form-group">
-      <input type="text" name="ime" id="ime" placeholder=" " required>
-      <label for="ime">Ime i prezime *</label>
+        <div class="form-group">
+          <input type="text" name="ime" id="ime" placeholder=" " required>
+          <label for="ime">Ime i prezime *</label>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+          <label for="telefon">Telefon (obavezno) *</label>
+        </div>
+
+        <div class="form-group">
+          <textarea name="poruka" id="poruka" rows="4"></textarea>
+          <label for="poruka">Vaša poruka / napomene (opciono)</label>
+        </div>
+
+        <button type="submit">🚀 Neka me kontaktira Rolometal sa ponudom</button>
+
+        <div id="form-success" class="form-notification" style="display: none;">
+          ✅ Uspešno poslato! Rolometal će Vas kontaktirati u narednih 24h.
+        </div>
+      </form>
     </div>
-
-    <div class="form-group">
-      <input type="tel" name="telefon" id="telefon" placeholder=" " required>
-      <label for="telefon">Telefon (obavezno) *</label>
-    </div>
-
-    <div class="form-group">
-      <textarea name="poruka" id="poruka" rows="4"></textarea>
-      <label for="poruka">Vaša poruka / napomene (opciono)</label>
-    </div>
-
-    <button type="submit">🚀 Neka me kontaktira Rolometal sa ponudom</button>
-
-    <!-- Success message – now below the button -->
-    <div id="form-success" class="form-notification" style="display: none; margin-top: 1.5rem; text-align: center;">
-      ✅ Uspešno poslato! Rolometal će Vas kontaktirati u narednih 24h.
-    </div>
-  </form>
-</div>
 
     <!-- Price Table -->
     <div class="table-wrapper">
@@ -754,11 +759,21 @@ function calculate() {
   if (komarnici) total += elements * 50;
   if (demontaza) total += elements * 30;
 
-  document.getElementById('total').textContent = total.toLocaleString('sr-RS');
-  document.getElementById('result').style.display = 'block';
+  const resultEl = document.getElementById('result');
+  const totalEl = document.getElementById('total');
+
+  totalEl.textContent = total.toLocaleString('sr-RS');
+  resultEl.style.display = 'block';
+  resultEl.classList.add('visible');
   document.getElementById('form_total').value = total + ' €';
 
-  document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+  // Scroll to result after layout update
+  setTimeout(() => {
+    resultEl.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center'
+    });
+  }, 80);
 }
 
 document.getElementById('contact-form').addEventListener('submit', async function(e) {
@@ -779,16 +794,14 @@ document.getElementById('contact-form').addEventListener('submit', async functio
 
     if (!response.ok) throw new Error('Network response was not ok');
 
-    // Show success message
     successBox.style.display = 'block';
     successBox.classList.add('visible');
 
-    // Hide after 6.5 seconds with smooth fade-out
     setTimeout(() => {
       successBox.classList.remove('visible');
       setTimeout(() => {
         successBox.style.display = 'none';
-      }, 400); // match transition duration
+      }, 400);
     }, 6500);
 
     e.target.reset();
