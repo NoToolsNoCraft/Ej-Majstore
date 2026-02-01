@@ -136,7 +136,7 @@ Staklene Ograde Novi Sad – Balkon, Terasa, Stepenište | Glass VT
       display: flex;
       align-items: center;
       background: linear-gradient(135deg, rgba(0,31,63,0.65) 0%, rgba(0,116,217,0.6) 100%),
-                  url('/images/staklena-ograda-balkon-modern.webp');
+                  url('/images/tamna-staklena-ograda-na-terasi-kuće-veternik.webp');
       background-size: cover;
       background-position: center;
       position: relative;
@@ -610,7 +610,7 @@ Staklene Ograde Novi Sad – Balkon, Terasa, Stepenište | Glass VT
 <section class="hero">
   <div class="hero-content">
     <div class="hero-title-wrapper">          <!-- this is the new/flex container -->
-  <h1>Staklene Ograde u Novom Sadu<br>Više Svetla i Prostora</h1>
+  <h1>Staklene Ograde u Novom Sadu<br>Za Više Svetla i Prostora</h1>
   <div class="badge">Glass VT</div>       <!-- badge now comes after h1 in source -->
 </div>
 
@@ -697,16 +697,16 @@ Staklene Ograde Novi Sad – Balkon, Terasa, Stepenište | Glass VT
 
       <div class="gallery-grid">
         <div class="gallery-item">
-          <img loading="lazy" src="/images/staklena-ograda-balkon-modern.webp" alt="staklena ograda balkon novi sad modern">
-          <div class="gallery-caption">Frameless dizajn – maksimalna prozirnost i čist pogled</div>
+          <img loading="lazy" src="/images/tamna-staklena-ograda-na-terasi-kuće-veternik.webp" alt="staklena ograda terasa kuća veternik novi sad">
+          <div class="gallery-caption">Tamna staklena ograda na terasi kuće</div>
         </div>
         <div class="gallery-item">
-          <img loading="lazy" src="/images/staklena-ograda-terasa-inox.webp" alt="staklena ograda terasa inox novi sad">
-          <div class="gallery-caption">Inox tačkasti nosači – minimalizam i sigurnost</div>
+          <img loading="lazy" src="/images/providna-staklena-ograda-na-stepeništu.webp" alt="providna staklena ograda stepenište novi sad">
+          <div class="gallery-caption">Providna staklena ograda na stepeništu</div>
         </div>
         <div class="gallery-item">
-          <img loading="lazy" src="/images/staklena-ograda-stepeniste.webp" alt="staklena ograda stepenište novi sad">
-          <div class="gallery-caption">Stepienišna ograda – elegancija i bezbednost na spratovima</div>
+          <img loading="lazy" src="/images/crna-staklena-ograda-na-balkonu-novi-sad.webp" alt="crna staklena ograda balkon novi sad">
+          <div class="gallery-caption">Crna staklena ograda na balkonu</div>
         </div>
       </div>
     </div>
@@ -757,39 +757,48 @@ Staklene Ograde Novi Sad – Balkon, Terasa, Stepenište | Glass VT
   <section id="form" class="form-section">
     <div class="form-container">
       <h2>Recite nam kakvu ogradu želite, dobićete tačnu ponudu odmah!</h2>
-      <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="Glass VT – Staklene Ograde Novi Sad">
-        <input type="hidden" name="_autoresponse" value="Hvala na upitu! Glass VT će Vas kontaktirati sa ponudom i crtežom.">
 
-        <div class="form-group">
-          <input type="text" name="ime" id="ime" placeholder=" " required>
-          <label for="ime">Ime i prezime *</label>
-        </div>
+      <div id="form-success" style="display:none; margin-top:2rem; padding:1.5rem; background:#ecfdf5; border-radius:var(--radius-md); color:#065f46; text-align:center; font-weight:700; font-size:1.15rem;">
+    ✅ Uspešno poslato! Javićemo vam se ubrzo!
+  </div>
+  <div id="form-error" style="display:none; margin-top:2rem; padding:1.5rem; background:#fee2e2; border-radius:var(--radius-md); color:#991b1b; text-align:center; font-weight:700; font-size:1.15rem;">
+    ❌ Došlo je do greške. Molimo pokušajte ponovo.
+  </div>
 
-        <div class="form-group">
-          <input type="tel" name="telefon" id="telefon" placeholder=" " required>
-          <label for="telefon">Telefon (za kontakt) *</label>
-        </div>
+      <form id="contact-form" action="https://submit-form.com/NL4FHgWfW" method="POST">
+  <input type="hidden" name="_email.subject" value="Glass VT – Staklene Ograde Novi Sad">
+  <input type="hidden" name="_redirect" value="https://ejmajstore.rs/staklene-ograde-novi-sad/?success=true"> <!-- Update to live URL later -->
+  <input type="hidden" name="_error_redirect" value="https://ejmajstore.rs/staklene-ograde-novi-sad/?error=true"> <!-- Optional -->
+  <input type="hidden" name="_append" value="false"> <!-- This prevents appending form data -->
+  <input type="hidden" name="business" value="Staklene Ograde po meri Glass VT"> <!-- New: Adds to submission/email -->
+  <input type="text" name="_honeypot" value="" style="display:none;"> <!-- If honeypot enabled -->
 
-        <div class="form-group">
-          <textarea name="poruka" id="poruka" rows="5" placeholder=" "></textarea>
-          <label for="poruka">Kakvu ogradu želite?</label>
-        </div>
+  <div class="form-group">
+    <input type="text" name="ime" id="ime" placeholder=" " required>
+    <label for="ime">Ime i prezime *</label>
+  </div>
 
-        <div class="form-group" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 2rem; text-align: left;">
-        <input type="checkbox" id="consent" name="consent_given" required style="width: 20px; height: 20px; cursor: pointer; accent-color: var(--secondary); margin-top: 4px;">
-        <label for="consent" style="position: static; font-size: 0.95rem; color: var(--gray); pointer-events: auto; cursor: pointer; line-height: 1.4;">
-          Saglasan sam sa <a href="/politika-privatnosti/" target="_blank" style="color: var(--secondary); text-decoration: underline;">politikom privatnosti</a> i dajem dozvolu da me Glass VT kontaktira povodom ovog upita. *
-        </label>
-      </div>
+  <div class="form-group">
+    <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+    <label for="telefon">Telefon (za kontakt) *</label>
+  </div>
 
-        <button type="submit">📞 Pozovite me sa ponudom</button>
+  <div class="form-group">
+    <textarea name="poruka" id="poruka" rows="5" placeholder=" "></textarea>
+    <label for="poruka">Kakvu ogradu želite?</label>
+  </div>
 
-        <div id="form-success" style="display:none; margin-top:2rem; padding:1.5rem; background:#ecfdf5; border-radius:var(--radius-md); color:#065f46; text-align:center; font-weight:700; font-size:1.15rem;">
-          ✅ Uspešno poslato! Javićemo vam se ubrzo!
-        </div>
-      </form>
+  <div class="form-group" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 2rem; text-align: left;">
+    <input type="checkbox" id="consent" name="consent_given" required style="width: 20px; height: 20px; cursor: pointer; accent-color: var(--secondary); margin-top: 4px;">
+    <label for="consent" style="position: static; font-size: 0.95rem; color: var(--gray); pointer-events: auto; cursor: pointer; line-height: 1.4;">
+      Saglasan sam sa <a href="/politika-privatnosti/" target="_blank" style="color: var(--secondary); text-decoration: underline;">politikom privatnosti</a> i dajem dozvolu da me Glass VT kontaktira povodom ovog upita. *
+    </label>
+  </div>
+
+  <button type="submit">📞 Pozovite me sa ponudom</button>
+
+  
+</form>
     </div>
   </section>
 
@@ -848,32 +857,22 @@ Staklene Ograde Novi Sad – Balkon, Terasa, Stepenište | Glass VT
   </footer>
 
   <script>
-    document.getElementById('contact-form').addEventListener('submit', async e => {
-      e.preventDefault();
-      const btn = e.target.querySelector('button[type="submit"]');
-      const origText = btn.textContent;
+  window.addEventListener('load', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const formSection = document.getElementById('form'); // Or the form itself
+    if (urlParams.get('success') === 'true') {
       const success = document.getElementById('form-success');
-      
-      btn.disabled = true;
-      btn.textContent = 'Šaljem...';
-      
-      try {
-        const res = await fetch(e.target.action, {
-          method: 'POST',
-          body: new FormData(e.target)
-        });
-        if (!res.ok) throw new Error();
-        success.style.display = 'block';
-        setTimeout(() => success.style.display = 'none', 8000);
-        e.target.reset();
-      } catch {
-        alert('Došlo je do greške. Molimo pokušajte ponovo.');
-      } finally {
-        btn.disabled = false;
-        btn.textContent = origText;
-      }
-    });
-  </script>
+      success.style.display = 'block';
+      // Removed setTimeout – message now stays visible
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    } else if (urlParams.get('error') === 'true') {
+      const error = document.getElementById('form-error');
+      error.style.display = 'block';
+      // Removed setTimeout – message now stays visible
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+</script>
 
 </body>
 </html>
