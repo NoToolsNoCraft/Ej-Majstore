@@ -288,7 +288,7 @@
         </a>
       </div>
 
-      <p style="margin-bottom: 1rem;">Direktno vas povezujemo sa odgovarajućim majstorima i firmama zanatskih usluga u Srbiji</p>
+      <p style="margin-bottom: 1rem;">Platforma zanatskih usluga</p>
       
       <!-- Global Search Bar -->
       <div class="global-search-container">
@@ -721,7 +721,7 @@
       <p><strong>Petar:</strong> Okej, utvrdili smo da cena nije jedini faktor. Kako onda odabrati pravog izvođača? Ja sam u kontaktu sa stotinama majstora i firmi, svaki dan razgovaram sa vama pa imam možda malu prednost. Ali kako neko ko niti zna izvođače niti nekoga ko bi mogao da im preporuči izvođača... kako da izabere pravog?</p>
         
     
-      <p><strong>Siniša:</strong> Da biste odabrali pravog izvođača, preporučujem nekoliko koraka: prvo, proverite recenzije i komentare prethodnih klijenata na pouzdanim platformama, poput tvoje, Petre, gde ljudi mogu pronaći dobre majstore i firme sa stvarnim iskustvima. Zatim, tražite reference, proverite godine iskustva i, ako je moguće, posetite neke završene projekte. Ne zaboravite da pitajte za garancije i proces servisa. Iz mog iskustva, ljudi vole da vide komentare prethodnih klijenata. Naravno, neću biti nekorektan pa neću pričati o tome kako mnogi fingiraju svoje preporuke. Ono što pak mogu sa sigurnošću reći je da mi u SN Windows dobijamo recenzije od autentičnih klijenata, od kojih se mnogi nisu stideli ni da podele slike naših radova na njihovim objektima. Nemam naviku da se hvalim. Verujem u to da radimo najbolje što možemo. A ako nekome treba dodatna podpora da se uveri, neka pogleda šta su naši bivši klijenti rekli o nama.</p>
+      <p><strong>Siniša:</strong> Da biste odabrali pravog izvođača, preporučujem nekoliko koraka: prvo, proverite recenzije i komentare prethodnih klijenata na pouzdanim platformama, poput tvoje, Petre, gde ljudi mogu pronaći dobre majstore i firme sa stvarnim iskustvima. Zatim, tražite reference, proverite godine iskustva i, ako je moguće, posetite neke završene projekte. Ne zaboravite da pitate za garancije i proces servisa. Iz mog iskustva, ljudi vole da vide komentare prethodnih klijenata. Naravno, neću biti nekorektan pa neću pričati o tome kako mnogi fingiraju svoje preporuke. Ono što pak mogu sa sigurnošću reći je da mi u SN Windows dobijamo recenzije od autentičnih klijenata, od kojih se mnogi nisu stideli ni da podele slike naših radova na njihovim objektima. Nemam naviku da se hvalim. Verujem u to da radimo najbolje što možemo. A ako nekome treba dodatna podpora da se uveri, neka pogleda šta su naši bivši klijenti rekli o nama.</p>
         
     
       
@@ -782,8 +782,8 @@
 
             <form id="contact-form" action="https://submit-form.com/NL4FHgWfW" method="POST">
               <input type="hidden" name="_email.subject" value="SN Windows – PVC Stolarija Beograd">
-              <input type="hidden" name="_redirect" value="https://ejmajstore.rs/blog/pvc-stolarija-beograd-cene/?success=true#form">
-              <input type="hidden" name="_error_redirect" value="https://ejmajstore.rs/blog/pvc-stolarija-beograd-cene/?error=true#form">
+              <input type="hidden" name="_redirect" value="https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true#form">
+              <input type="hidden" name="_error_redirect" value="https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true#form">
               <input type="hidden" name="_append" value="false">
               <input type="hidden" name="business" value="PVC Stolarija po meri SN Windows">
               <input type="text" name="_honeypot" value="" style="display:none;">
@@ -816,20 +816,63 @@
         </section>
 
         <script>
-          window.addEventListener('load', () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const formSection = document.getElementById('form');
-            if (urlParams.get('success') === 'true') {
-              const success = document.getElementById('form-success');
-              success.style.display = 'block';
-              formSection.scrollIntoView({ behavior: 'smooth' });
-            } else if (urlParams.get('error') === 'true') {
-              const error = document.getElementById('form-error');
-              error.style.display = 'block';
-              formSection.scrollIntoView({ behavior: 'smooth' });
-            }
-          });
-        </script>
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('contact-form');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg = document.getElementById('form-error');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // UI Feedback: Loading state
+      const btn = contactForm.querySelector('button');
+      const originalBtnText = btn.innerText;
+      btn.disabled = true;
+      btn.innerText = 'Slanje...';
+      
+      // Reset visibility of messages for new attempt
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      const formData = new FormData(contactForm);
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          // 1. Success UI
+          successMsg.style.opacity = '0';
+          successMsg.style.display = 'block';
+          
+          // Smooth fade in
+          setTimeout(() => { successMsg.style.opacity = '1'; }, 10);
+          
+          // 2. Clear the form fields so it's ready for next time (or clear)
+          contactForm.reset();
+          
+          // 3. Reset Button
+          btn.disabled = false;
+          btn.innerText = originalBtnText;
+
+          // 4. Scroll to the message specifically
+          successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          throw new Error();
+        }
+      } catch (error) {
+        errorMsg.style.display = 'block';
+        btn.disabled = false;
+        btn.innerText = originalBtnText;
+      }
+    });
+  }
+});
+</script>
 
         <!-- ---------------- BUSINESS HIGHLIGHTS ---------------- -->
         

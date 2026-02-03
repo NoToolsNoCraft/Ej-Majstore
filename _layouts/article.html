@@ -97,20 +97,63 @@ layout: default
         </section>
 
         <script>
-          window.addEventListener('load', () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const formSection = document.getElementById('form');
-            if (urlParams.get('success') === 'true') {
-              const success = document.getElementById('form-success');
-              success.style.display = 'block';
-              formSection.scrollIntoView({ behavior: 'smooth' });
-            } else if (urlParams.get('error') === 'true') {
-              const error = document.getElementById('form-error');
-              error.style.display = 'block';
-              formSection.scrollIntoView({ behavior: 'smooth' });
-            }
-          });
-        </script>
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('contact-form');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg = document.getElementById('form-error');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // UI Feedback: Loading state
+      const btn = contactForm.querySelector('button');
+      const originalBtnText = btn.innerText;
+      btn.disabled = true;
+      btn.innerText = 'Slanje...';
+      
+      // Reset visibility of messages for new attempt
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      const formData = new FormData(contactForm);
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          // 1. Success UI
+          successMsg.style.opacity = '0';
+          successMsg.style.display = 'block';
+          
+          // Smooth fade in
+          setTimeout(() => { successMsg.style.opacity = '1'; }, 10);
+          
+          // 2. Clear the form fields so it's ready for next time (or clear)
+          contactForm.reset();
+          
+          // 3. Reset Button
+          btn.disabled = false;
+          btn.innerText = originalBtnText;
+
+          // 4. Scroll to the message specifically
+          successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          throw new Error();
+        }
+      } catch (error) {
+        errorMsg.style.display = 'block';
+        btn.disabled = false;
+        btn.innerText = originalBtnText;
+      }
+    });
+  }
+});
+</script>
 
         <!-- ---------------- BUSINESS HIGHLIGHTS ---------------- -->
         {% when 'business_highlights' %}

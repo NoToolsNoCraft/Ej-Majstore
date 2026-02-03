@@ -294,7 +294,7 @@ sections:
     nekoliko koraka: prvo, proverite recenzije i komentare prethodnih klijenata na
     pouzdanim platformama, poput tvoje, Petre, gde ljudi mogu pronaći dobre majstore
     i firme sa stvarnim iskustvima. Zatim, tražite reference, proverite godine iskustva
-    i, ako je moguće, posetite neke završene projekte. Ne zaboravite da pitajte za
+    i, ako je moguće, posetite neke završene projekte. Ne zaboravite da pitate za
     garancije i proces servisa. Iz mog iskustva, ljudi vole da vide komentare prethodnih
     klijenata. Naravno, neću biti nekorektan pa neću pričati o tome kako mnogi fingiraju
     svoje preporuke. Ono što pak mogu sa sigurnošću reći je da mi u SN Windows dobijamo
@@ -320,8 +320,8 @@ sections:
   error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
   action: https://submit-form.com/NL4FHgWfW
   email_subject: SN Windows – PVC Stolarija Beograd
-  redirect_success: https://ejmajstore.rs/blog/pvc-stolarija-beograd-cene/?success=true
-  redirect_error: https://ejmajstore.rs/blog/pvc-stolarija-beograd-cene/?error=true
+  redirect_success: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true
+  redirect_error: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true
   business: PVC Stolarija po meri SN Windows
   label_name: Ime i prezime *
   label_phone: Telefon (za kontakt) *

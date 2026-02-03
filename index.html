@@ -1,855 +1,460 @@
 ---
 layout: default
-title: Ej Majstore!
-description: Pronađite majstore i firme za vodoinstalaterske, električarske, keramičarske i druge zanatske usluge u Srbiji.
+title: Ej Majstore! – Brzo pronađite majstore u Srbiji
+description: Pronađite majstore i zanatske firme u Srbiji. Pretraga po gradu i usluzi. Bez registracije.
 ---
 
 <style>
-
-/* ============================================================= */
-/* GLOBALNE VARIJABLE I TIPOGRAFIJA                              */
-/* ============================================================= */
-.kategorije-pro {
-  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
-  --color-bg: #fafafa;
-  --color-surface: #ffffff;
-  --color-primary: #009de0;
-  --color-primary-dark: #0081b8;
-  --color-accent: #ff5e62;
-  --color-accent-dark: #e64448;
-  --color-text: #1f2a44;
-  --color-muted: #6b7280;
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --shadow-sm: 0 2px 6px rgba(0,0,0,.06);
-  --shadow-md: 0 4px 12px rgba(0,0,0,.08);
-  --transition: all .2s ease;
-  padding: 0 5px;
-  font-family: var(--font-primary);
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --primary: #009de0;
+  --primary-dark: #007bb3;
+  --text: #0f172a;
+  --muted: #64748b;
+  --radius: 16px;
+  --shadow: 0 10px 40px rgba(0,0,0,.08);
+  --shadow-soft: 0 6px 20px rgba(0,0,0,.06);
+  font-family: Inter, system-ui, -apple-system, sans-serif;
 }
 
-/* ============================================================= */
-/* FEATURE BLOKOVI (BENEFITI)                                   */
-/* ============================================================= */
-.features-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 20px;
+html {
+  scroll-behavior: smooth;
 }
 
-.feature-block {
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  border: 2px solid #000000;
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+
+
+
+
+/* ================= HERO ================= */
+
+.hero {
+  max-width: 1200px;
+  margin: 4rem auto 5rem;
+  padding: 0 1rem;
   text-align: center;
-  box-shadow: var(--shadow-sm);
 }
 
-.feature-block i {
-  font-size: 36px;
-  color: #0077cc;
-  margin-bottom: 10px;
+.hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
 }
 
-.feature-block h3 {
-  margin: 0 0 5px;
-  color: #333;
-  font-size: 1.1em;
+.hero p {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 680px;
+  margin: 0 auto 2.5rem;
 }
 
-.feature-block p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #666;
-}
-
-/* Desktop: 3 kolone */
-@media (min-width: 768px) {
-  .features-container {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .feature-block {
-    flex: 1;
-  }
-}
-
-/* ============================================================= */
-/* HIJERARHIJSKE KATEGORIJE – GLAVNI GRID                       */
-/* ============================================================= */
-.kategorije-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.25rem;
-  margin-top: 1.5rem;
-  align-items: start;
-}
-
-/* ============================================================= */
-/* PRIMARNE KATEGORIJE (akordeon blokovi)                       */
-/* ============================================================= */
-.primary-category {
-  background: var(--color-surface);
-  border: 2px solid #000;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  transition: var(--transition);
-  align-self: start;
-}
-
-.primary-category:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-3px);
-}
-
-.primary-button {
+.hero-actions {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1.1rem 1rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--color-text);
-  cursor: pointer;
-  user-select: none;
-  list-style: none;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-}
-
-.primary-button i {
-  font-size: 1.8rem;
-  color: var(--color-primary);
-}
-
-.primary-button::after {
-  content: '+';
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-  font-size: 1.4rem;
-  margin-left: auto;
-  color: black;
-  transition: transform 0.3s ease;
-}
-
-.primary-category[open] .primary-button::after {
-  content: '-';
-}
-
-/* ============================================================= */
-/* SEKUNDARNE KATEGORIJE – 2×2 GRID                             */
-/* ============================================================= */
-.secondary-buttons {
-  display: grid;
-  grid-template-columns: 1fr; /* Mobilni: 1 kolona */
-  gap: 0.5rem;
-  padding: 0.5rem;
-  background: #f0f7ff;
-  border-top: 1px dashed #ccc;
-}
-
-
-@media (max-width: 767px) {
-  .secondary-buttons {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-/* Desktop: 2 kolone */
-@media (min-width: 768px) {
-  .secondary-buttons {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Veliki ekrani: 3 kolone (opciono) */
-@media (min-width: 1024px) {
-  .secondary-buttons {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ============================================================= */
-/* SEKUNDARNA DUGMAD (ikona iznad teksta)                       */
-/* ============================================================= */
-.secondary-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.4rem;
-  padding: 0.9rem 0.7rem;
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: var(--radius-sm);
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 0.86rem;
-  font-weight: 500;
-  text-align: center;
-  white-space: normal;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  min-height: 72px;
-  transition: var(--transition);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.secondary-button i {
-  font-size: 1.5rem;
-  color: var(--color-primary);
-  flex-shrink: 0;
-}
-
-.secondary-button:hover {
-  background: var(--color-primary);
-  color: #fff;
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.secondary-button:hover i {
-  color: #fff;
-}
-
-/* ============================================================= */
-/* CTA DUGME (Pogledajte sve...)                                */
-/* ============================================================= */
-.cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: .5rem;
-  padding: .85rem 1.75rem;
-  
- 
-  border-radius: 40px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: var(--transition);
-  box-shadow: var(--shadow-sm);
-  margin-top: 1.5rem;
-}
-
-
-
-/* ============================================================= */
-/* STARI KATEGORIJE DUGMAD (kategorija-button) – ZADRŽANO       */
-/* ============================================================= */
-.kategorije-pro .kategorije-buttons {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: .75rem;
-  margin-top: 1rem;
-}
-
-.kategorije-pro .kategorija-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: .5rem;
-  padding: 1rem .75rem;
-  background: var(--color-surface);
-  border: 3px double #000000;
-  border-radius: 40px;
-  text-decoration: none;
-  color: var(--color-text);
-  font-weight: 600;
-  font-size: .9rem;
-  transition: var(--transition);
-  box-shadow: var(--shadow-sm);
-}
-
-.kategorije-pro .kategorija-button i {
-  font-size: 1.5rem;
-  color: var(--color-primary);
-}
-
-.kategorije-pro .kategorija-button:hover {
-  background: var(--color-primary);
-  color: #fff;
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.kategorije-pro .kategorija-button:hover i {
-  color: #fff;
-}
-
-
-
-/* ============================================================= */
-/* MOBILNA RESPONSIVNOST (sve)                                  */
-/* ============================================================= */
-@media (max-width: 767px) {
-  
-  .primary-button {
-    font-size: 1.05rem;
-    padding: 1rem;
-  }
-  .secondary-button {
-    justify-content: flex-start;
-    
-    gap: 0.6rem;
-    padding: 0.8rem;
-    min-height: auto;
-  }
-  .secondary-button i {
-    font-size: 1.3rem;
-  }
-}
-
-/* ============================================================= */
-/* DODATNO: Section divider                                     */
-/* ============================================================= */
-.section-divider {
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #007bff, transparent);
-  margin: 1.5rem 0;
-  border: none;
-}
-
-</style>
-
-
-<section>
-  <h1 style="margin-top: 2rem;">Pronađite Odgovarajuće Majstore i Firme u Srbiji</h1>
-
-  <div class="features-container">
-    <div class="feature-block">
-      <i class="fa-solid fa-magnifying-glass-location"></i>
-      <h3>Brzo Pronađite Majstora</h3>
-      <p>Lako <a href="/izvodjaci/">pretražujte izvođače</a> po mestu i kategoriji posla. Pronađite stručnjake u vašoj blizini za tren oka.</p>
-    </div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-handshake"></i>
-      <h3>Izvođači su organizovani i predstavljeni po kategorijama i lokacijama</h3>
-      <p>
-      Ej Majstore! je informativni adresar zanatskih usluga.
-      Izvođači su predstavljeni na osnovu opisa svojih usluga,
-      kategorije rada i javno dostupnih informacija.
-      Ne vršimo proveru zakonitosti poslovanja, licenci,
-      dozvola ili administrativnog statusa izvođača.
-      </p>
-</div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-blog"></i>
-      <h3>Korisni Saveti i Vodiči</h3>
-      <p>Pročitajte naše blog članke sa praktičnim savetima kako da izaberete odgovarajućeg majstora za svaki posao.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================= -->
-<!-- TABOVI PO GRADOVIMA – NAJTRAŽENIJE KATEGORIJSKE STRANICE     -->
-<!-- ============================================================= -->
-<section style="margin: 7rem auto 5rem; max-width: 1260px; padding: 0 1rem;" id="kategorije">
-  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2.5rem; margin-top: 3rem; color: #1f2937;">
-    Najtraženije usluge po mestima
-  </h2>
-
-  <!-- TAB DUGMAD -->
-  <div class="city-tabs" role="tablist">
-    <button class="tab-button active" data-city="beograd" onclick="openCity(event, 'beograd')">
-      <span>Beograd</span>
-    </button>
-    <button class="tab-button" data-city="novisad" onclick="openCity(event, 'novisad')">
-      <span>Novi Sad</span>
-    </button>
-    <button class="tab-button" data-city="subotica" onclick="openCity(event, 'subotica')">
-      <span>Subotica</span>
-    </button>
-    <button class="tab-button" data-city="srbija" onclick="openCity(event, 'srbija')">
-      <span>Srbija</span>
-    </button>
-    <!-- Dodaj nove gradove ovde -->
-    <!--
-    <button class="tab-button" data-city="nis" onclick="openCity(event, 'nis')"><span>Niš</span></button>
-    -->
-  </div>
-
-  <!-- TAB SADRŽAJI -->
-  <div class="tab-content">
-
-    <!-- === BEOGRAD === -->
-    <div id="beograd" class="city-tab active">
-      <div class="city-grid">
-        
-
-        <a href="/pvc-stolarija-beograd/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ff00c8, #ffe600);"></div>
-          <div class="card-body">
-            <h3>PVC Stolarija u Beogradu</h3>
-            <p>Siniša i SN Windows nude nemačku Rehau PVC stolariju po fer ceni dostupne u glavnom gradu i okolnim mestima.</p>
-            <span class="card-link">Pogledaj SN Windows →</span>
-          </div>
-        </a>
-
-        <a href="/alu-stolarija-beograd" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #6d6c6d, #d8d5b6);"></div>
-          <div class="card-body">
-            <h3>Aluminijumska Stolarija u Beogradu</h3>
-            <p>Pronađite majstore i firme za proizvodnju i ugradnju ALU stolarije, prozora i vrata u Beogradu i okolini</p>
-            <span class="card-link">Pogledaj ponuđače →</span>
-          </div>
-        </a>
-
-        <a href="/bravar-hitne-intervencije-beograd/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #bb90bb, #ff970e);"></div>
-          <div class="card-body">
-            <h3>Hitne Bravarske Usluge u Beogradu</h3>
-            <p>Pronađite majstore i firme za hitno otključavanje vrata u Beogradu i okolini</p>
-            <span class="card-link">Pogledaj bravare →</span>
-          </div>
-        </a>
-
-        <a href="/vodoinstalater-hitne-intervencije-beograd/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #9093bb, #00f7ff);"></div>
-          <div class="card-body">
-            <h3>Hitne Vodoinstalaterske Usluge u Beogradu</h3>
-            <p>Pronađite majstore i firme za hitne vodoinstalaterske intervencije u Beogradu i okolini</p>
-            <span class="card-link">Pogledaj vodoinstalatere →</span>
-          </div>
-        </a>
-
-        <a href="/prevoz-namestaja-beograd/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ff9050, #c8ff00);"></div>
-          <div class="card-body">
-            <h3>Prevoz Nameštaja Beograd</h3>
-            <p>Pronađite agencije i firme za prevoz nameštaja u Beogradu i okolini</p>
-            <span class="card-link">Pogledaj prevoznike →</span>
-          </div>
-        </a>
-
-        <!-- Dodaj još kartica za Beograd -->
-        <!--
-        <a href="/vodoinstalateri-beograd/" class="city-card"> ... </a>
-        -->
-      </div>
-    </div>
-
-    <!-- === NOVI SAD === -->
-    <div id="novisad" class="city-tab">
-      <div class="city-grid">
-
-        <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ec1cc9, #dace21);"></div>
-          <div class="card-body">
-            <h3>Kompletna zamena PVC i ALU stolarije u Novom Sadu</h3>
-            <p>Za kompletnu zamenu PVC i ALU stolarije u Novom Sadu i okolini Rollo Erkanović se pokazuje kao sjajan izbor.</p>
-            <span class="card-link">Započnite kompletnu zamenu stolarije →</span>
-          </div>
-        </a>
-
-
-        <a href="/segmentna-garazna-vrata-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #7209b7, #b5179e);"></div>
-          <div class="card-body">
-            <h3>Segmentna Garažna Vrata u Novom Sadu</h3>
-            <p>Rollo Erkanović nudi izradu i montažu segmentnih garažnih vrata u Novom Sadu i okolini</p>
-            <span class="card-link">Izradi segmentnu garažu →</span>
-          </div>
-        </a>
-
-        <a href="/rolo-garazna-vrata-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #e0651d, #b5179e);"></div>
-          <div class="card-body">
-            <h3>Rolo vrata za Garažu u Novom Sadu</h3>
-            <p>Rollo Erkanović nudi izradu i montažu rolo garažnih vrata u Novom Sadu, ali i šire</p>
-            <span class="card-link">Potraži rolo garažu →</span>
-          </div>
-        </a>
-
-        <a href="/aluminijumske-ograde-cena-po-metru/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #7209b7, #56b517);"></div>
-          <div class="card-body">
-            <h3>Izrada Aluminijumskih Ograda u Novom Sadu</h3>
-            <p>Rollo Erkanović nudi izradu i montažu aluminijumskih ograda u Novom Sadu i okolini</p>
-            <span class="card-link">Izradi aluminijumske ograde →</span>
-          </div>
-        </a>
-
-        <a href="/komarnici-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #1c7dec, #4cda21);"></div>
-          <div class="card-body">
-            <h3>Komarnici Novi Sad i okolina</h3>
-            <p>Pronađite pažljivo odabrane majstore i firme za izradu i montažu komarnika u Novom Sadu i okolini</p>
-            <span class="card-link">Ponuda komarnika →</span>
-          </div>
-        </a>
-
-        <a href="/izrada-kuhinja-po-meri-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #eccd1c, #2190da);"></div>
-          <div class="card-body">
-            <h3>Izrada Kuhinja Po Meri u Novom Sadu</h3>
-            <p>Boško i ekipa iz Sremske Mitrovice rade kuhinje po meri u Novom Sadu i okolini već godinama i nikad ne greše.</p>
-            <span class="card-link">Izradi kuhinju →</span>
-          </div>
-        </a>
-
-        <a href="/sobna-vrata-po-meri-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ecda70, #21da93);"></div>
-          <div class="card-body">
-            <h3>Izrada Sobnih Vrata Po Meri U Novom Sadu</h3>
-            <p>La Nostra Porta nudi izradu sobnih vrata po meri u Novom Sadu i šire</p>
-            <span class="card-link">Dogovori izradu sobnih vrata →</span>
-          </div>
-        </a>
-
-        <a href="/krovni-prozori-cena-sa-ugradnjom-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #1c7dec, #4cda21);"></div>
-          <div class="card-body">
-            <h3>Cenovnik Krovnih Prozora U Novom Sadu</h3>
-            <p>Pronađite pažljivo odabrane majstore i firme za krovne prozore u Novom Sadu i okolini sa okvirnim cenovnikom ugradnje</p>
-            <span class="card-link">Pogledaj krovne prozore →</span>
-          </div>
-        </a>
-
-        <a href="/zastakljivanje-terasa-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ec1cc9, #dace21);"></div>
-          <div class="card-body">
-            <h3>Zastakljivanje Terasa u Novom Sadu</h3>
-            <p>Firma AS Glass zastakljuje terase i balkone u Novom Sadu i okolini baš onako kako korisnici zamisle.</p>
-            <span class="card-link">Započnite zastakljivanje terase →</span>
-          </div>
-        </a>
-
-        <a href="/staklena-klizna-vrata-cena-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ec1cc9, #dace21);"></div>
-          <div class="card-body">
-            <h3>Izrada staklenih kliznih vrata u Novom Sadu</h3>
-            <p>AS Glass iz Novog Sada nudi izradu staklenih kliznih vrata po meri</p>
-            <span class="card-link">Nabavite staklena klizna vrata →</span>
-          </div>
-        </a>
-        
-
-        <a href="/staklene-ograde-za-stepenice-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #d4b91e, #26b2e9);"></div>
-          <div class="card-body">
-            <h3>Staklene Ograde za Stepenice u Novom Sadu</h3>
-            <p>U Novom Sadu i okolini, AS Glass nudi staklene ograde za stepenice po meri</p>
-            <span class="card-link">Pogledaj staklene ograde za stepenice →</span>
-          </div>
-        </a>
-
-        <a href="/tus-kabine-po-meri-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #d4b91e, #26b2e9);"></div>
-          <div class="card-body">
-            <h3>Tuš Kabine po Meri u Novom Sadu</h3>
-            <p>Firma AS Glass nudi staklene tuš kabine po meri u Novom Sadu i okolini</p>
-            <span class="card-link">Nabavi staklenu tuš kabinu →</span>
-          </div>
-        </a>
-
-        
-
-        <a href="/pvc-stolarija-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ff00c8, #ffe600);"></div>
-          <div class="card-body">
-            <h3>PVC Stolarija u Novom Sadu</h3>
-            <p>Pronađite majstore i firme za proizvodnju i ugradnju PVC stolarije, prozora i vrata u Novom Sadu i okolini</p>
-            <span class="card-link">Pogledaj ponuđače →</span>
-          </div>
-        </a>
-
-        <a href="/alu-stolarija-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #6d6c6d, #d8d5b6);"></div>
-          <div class="card-body">
-            <h3>Aluminijumska Stolarija u Novom Sadu</h3>
-            <p>Pronađite majstore i firme za proizvodnju i ugradnju ALU stolarije, prozora i vrata u Novom Sadu i okolini</p>
-            <span class="card-link">Pogledaj ponuđače →</span>
-          </div>
-        </a>
-
-        <a href="/staklene-ograde-novi-sad/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #d4b91e, #26b2e9);"></div>
-          <div class="card-body">
-            <h3>Staklene Ograde u Novom Sadu</h3>
-            <p>Pronađite pažljivo odabrane majstore i firme za staklene ograde u Novom Sadu i okolini sa okvirnim cenovnikom ugradnje</p>
-            <span class="card-link">Pogledaj staklene ograde →</span>
-          </div>
-        </a>
-
-        
-
-        <!-- Dodaj više za Novi Sad -->
-      </div>
-    </div>
-
-    <!-- === SUBOTICA === -->
-    <div id="subotica" class="city-tab">
-      <div class="city-grid">
-        <a href="/pvc-stolarija-subotica/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ec921c, #e28c1a);"></div>
-          <div class="card-body">
-            <h3>PVC Stolarija u Subotici</h3>
-            <p>Pronađite majstore i firme za proizvodnju i ugradnju PVC stolarije, prozora i vrata u Subotici i okolini</p>
-            <span class="card-link">Pogledaj ponuđače →</span>
-          </div>
-        </a>
-
-        <a href="/pvc-stolarija-subotica-cenovnik/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #46ec1c, #1a49e2);"></div>
-          <div class="card-body">
-            <h3>Cena PVC Stolarije u Subotici</h3>
-            <p>Procenite cenu PVC stolarije uz naš cenovnik i kalkulator</p>
-            <span class="card-link">Pogledaj cenovnik →</span>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
-    <!-- === SRBIJA === -->
-    <div id="srbija" class="city-tab">
-      <div class="city-grid">
-
-        <a href="/krovni-prozori-cena-sa-ugradnjom/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ecd71c, #da8421);"></div>
-          <div class="card-body">
-            <h3>Cena Krovnih Prozora sa Ugradnjom</h3>
-            <p>Kalkulator i tabela prosečnih cena krovnih prozora sa ugradnjom i ostalim radovima.</p>
-            <span class="card-link">Pogledaj cene krovnih prozora →</span>
-          </div>
-        </a>
-
-        <a href="/oplate-i-skele-srbija/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #1c7dec, #4cda21);"></div>
-          <div class="card-body">
-            <h3>Oplate i Skele</h3>
-            <p>Pronađite firme koje nude oplate i skele u Srbiji</p>
-            <span class="card-link">Pogledaj ponuđače →</span>
-          </div>
-        </a>
-
-        <a href="/medjugradske-selidbe-cena/" class="city-card">
-          <div class="card-image" style="background: linear-gradient(135deg, #ecd71c, #da8421);"></div>
-          <div class="card-body">
-            <h3>Cena Međugradske Selidbe</h3>
-            <p>Okvirno procenite koliko će vas koštati selidba iz jednog u drugi grad sa svim dodatnim uslugama koje su uključene.</p>
-            <span class="card-link">Izračunaj cenu medjugradske selidbe →</span>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CSS + JS (dodaj u tvoj <style> blok i pred </body>) -->
-<style>
-/* TAB DUGMAD */
-.city-tabs {
-  display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 3rem;
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: 0.5rem;
-}
-.tab-button {
-  background: none;
-  border: none;
-  padding: 0.9rem 1.8rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #6b7280;
-  cursor: pointer;
-  border-radius: 12px 12px 0 0;
-  transition: all 0.3s ease;
-  position: relative;
-}
-.tab-button::after {
-  content: '';
-  position: absolute;
-  bottom: -2px; left: 50%;
-  width: 0; height: 4px;
-  background: #0059b2;
-  border-radius: 2px;
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
-.tab-button:hover,
-.tab-button.active {
-  color: #0059b2;
-}
-.tab-button.active::after {
-  width: 70%;
+  flex-wrap: wrap;
 }
 
-/* GRID UNUTAR TABOVA */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), #00c6ff);
+  color: white;
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+}
+
+.btn-secondary {
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15,23,42,.12);
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  background: white;
+}
+
+/* ================= FEATURES ================= */
+
+.features {
+  max-width: 1100px;
+  margin: 0 auto 6rem;
+  padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.feature {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.feature i {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.2rem;
+}
+
+.feature p {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto 6rem;
+  padding: 0 1rem;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* ================= CITY TABS ================= */
+
+.city-tabs {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.city-tabs button {
+  border: none;
+  background: none;
+  font-weight: 600;
+  color: var(--muted);
+  padding: .6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.city-tabs button.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: var(--shadow-soft);
+}
+
+/* ================= CARDS ================= */
+
 .city-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 
-/* KARTICE */
-.city-card {
-  display: block;
+.card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 1.6rem;
   text-decoration: none;
   color: inherit;
-  background: white;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  border: 2px solid #000;
-  transition: all 0.35s ease;
+  box-shadow: var(--shadow);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
-.city-card:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 50px rgba(0,0,0,.12);
 }
-.card-image {
-  height: 70px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+
+.card h3 {
+  margin: 0 0 .6rem;
+  font-size: 1.25rem;
 }
-.card-body {
-  padding: 1.6rem;
-}
-.card-body h3 {
-  margin: 0 0 0.7rem;
-  font-size: 1.35rem;
-  color: #1f2937;
-}
-.card-body p {
-  margin: 0 0 1rem;
-  color: #6b7280;
+
+.card p {
+  color: var(--muted);
+  font-size: .95rem;
   line-height: 1.6;
-  font-size: 0.98rem;
 }
-.card-link {
-  color: #0059b2;
+
+.card span {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--primary);
   font-weight: 600;
-  font-size: 0.95rem;
 }
 
-/* Sakrivanje/prikazivanje tabova */
-.city-tab {
-  display: none;
-  animation: fadeIn 0.5s ease;
-}
-.city-tab.active {
-  display: block;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+/* ================= TABS LOGIC ================= */
 
-/* Mobilni – dugmad postaju vertikalna */
+.city-tab { display: none; }
+.city-tab.active { display: block; }
+
 @media (max-width: 640px) {
-  .city-tabs { gap: 0.5rem; }
-  .tab-button { padding: 0.8rem 1.2rem; font-size: 1rem; }
+  .hero-actions { flex-direction: column; }
 }
+
+
+.category-search {
+  max-width: 520px;
+  margin: 0 auto 2.5rem;
+}
+
+.category-search input {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15,23,42,.15);
+  font-size: 1rem;
+  outline: none;
+}
+
+.category-search input:focus {
+  border-color: var(--primary);
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(0,157,224,.1);
+  color: var(--primary);
+  font-size: .75rem;
+  font-weight: 600;
+  padding: .3rem .7rem;
+  border-radius: 999px;
+  margin-bottom: .6rem;
+}
+
+
 </style>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h1 style="margin-top: 2rem;">Brzo pronađite majstora za svaki posao</h1>
+  <p>
+    Pretražite izvođače po gradu i usluzi.  
+    Bez registracije. Bez gubljenja vremena.
+  </p>
+  <div class="hero-actions">
+    
+    <a href="#najtrazenije" class="btn-primary">Pretraži po usluzi</a>
+    <a href="/blog/" class="btn-secondary">Pročitaj savete</a>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features" style="margin-top: 2rem;">
+  <div class="feature">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <h3>Brza pretraga</h3>
+    <p>Pronađite majstore po gradu i kategoriji posla u nekoliko klikova.</p>
+  </div>
+  <div class="feature">
+    <i class="fa-solid fa-map-location-dot"></i>
+    <h3>Radimo širom Srbije</h3>
+    <p>Beograd, Novi Sad, Subotica i ostali gradovi.</p>
+  </div>
+  <div class="feature">
+    <i class="fa-solid fa-book"></i>
+    <h3>Korisni vodiči</h3>
+    <p>Saveti kako da izaberete pravog izvođača.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 id="najtrazenije">Najtraženije usluge po gradovima</h2>
+
+  <!-- CITY TABS -->
+  <div class="city-tabs">
+    <button class="active" onclick="openCity(event,'bg')">Beograd</button>
+    <button onclick="openCity(event,'ns')">Novi Sad</button>
+    <button onclick="openCity(event,'su')">Subotica</button>
+  </div>
+
+  <!-- SEARCH -->
+  <div class="category-search">
+    <input
+      type="text"
+      id="serviceSearch"
+      placeholder="Ukucaj uslugu koju tražiš..."
+      onkeyup="filterServices()"
+    />
+  </div>
+
+  <!-- ================= BEOGRAD ================= -->
+  <div id="bg" class="city-tab active">
+    <div class="city-grid">
+
+      <a href="/pvc-stolarija-beograd/" class="card service-card"
+         data-keywords="pvc stolarija prozori vrata rehau sn windows beograd">
+        <span class="tag">PVC stolarija</span>
+        <h3>PVC stolarija u Beogradu</h3>
+        <p>Nemačka Rehau PVC stolarija po fer ceni za Beograd i okolinu.</p>
+        <span>Pogledaj SN Windows →</span>
+      </a>
+
+      <a href="/alu-stolarija-beograd" class="card service-card"
+         data-keywords="alu aluminijumska stolarija prozori vrata beograd">
+        <span class="tag">ALU stolarija</span>
+        <h3>Aluminijumska stolarija u Beogradu</h3>
+        <p>Izrada i ugradnja ALU prozora i vrata u Beogradu.</p>
+        <span>Pogledaj ponuđače →</span>
+      </a>
+
+      <a href="/bravar-hitne-intervencije-beograd/" class="card service-card"
+         data-keywords="bravar hitne intervencije otkljucavanje vrata beograd">
+        <span class="tag">Bravar</span>
+        <h3>Hitne bravarske usluge u Beogradu</h3>
+        <p>Otključavanje vrata i hitne bravarske intervencije.</p>
+        <span>Pogledaj bravare →</span>
+      </a>
+
+      <a href="/vodoinstalater-hitne-intervencije-beograd/" class="card service-card"
+         data-keywords="vodoinstalater hitne intervencije curenje havarija beograd">
+        <span class="tag">Vodoinstalater</span>
+        <h3>Hitne vodoinstalaterske usluge</h3>
+        <p>Brze intervencije za curenja, kvarove i havarije.</p>
+        <span>Pozovi majstora →</span>
+      </a>
+
+      <a href="/prevoz-namestaja-beograd/" class="card service-card"
+         data-keywords="prevoz namestaja selidbe kombi beograd">
+        <span class="tag">Selidbe</span>
+        <h3>Prevoz nameštaja – Beograd</h3>
+        <p>Agencije i firme za siguran prevoz nameštaja.</p>
+        <span>Pogledaj prevoznike →</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- ================= NOVI SAD ================= -->
+  <div id="ns" class="city-tab">
+    <div class="city-grid">
+
+      <a href="/kompletna-zamena-pvc-alu-stolarije-novi-sad/" class="card service-card"
+         data-keywords="kompletna zamena pvc alu stolarije novi sad">
+        <span class="tag">Stolarija</span>
+        <h3>Kompletna zamena PVC i ALU stolarije</h3>
+        <p>Kompletna zamena stolarije u Novom Sadu i okolini.</p>
+        <span>Započni projekat →</span>
+      </a>
+
+      <a href="/segmentna-garazna-vrata-novi-sad/" class="card service-card"
+         data-keywords="segmentna garazna vrata novi sad">
+        <span class="tag">Garažna vrata</span>
+        <h3>Segmentna garažna vrata u Novom Sadu</h3>
+        <p>Izrada i montaža segmentnih garažnih vrata.</p>
+        <span>Izradi garažu →</span>
+      </a>
+
+      <a href="/rolo-garazna-vrata-novi-sad/" class="card service-card"
+         data-keywords="rolo garazna vrata novi sad">
+        <span class="tag">Garažna vrata</span>
+        <h3>Rolo garažna vrata u Novom Sadu</h3>
+        <p>Rolo sistemi za garaže po meri.</p>
+        <span>Pogledaj ponudu →</span>
+      </a>
+
+      <a href="/aluminijumske-ograde-cena-po-metru/" class="card service-card"
+         data-keywords="aluminijumske ograde novi sad">
+        <span class="tag">Ograde</span>
+        <h3>Aluminijumske ograde za Novi Sad i šire</h3>
+        <p>Izrada i montaža aluminijumskih ograda.</p>
+        <span>Izradi ogradu →</span>
+      </a>
+
+      <a href="/komarnici-novi-sad/" class="card service-card"
+         data-keywords="komarnici novi sad">
+        <span class="tag">Komarnici</span>
+        <h3>Komarnici – Novi Sad</h3>
+        <p>Izrada i montaža komarnika po meri.</p>
+        <span>Ponuda komarnika →</span>
+      </a>
+
+      <a href="/izrada-kuhinja-po-meri-novi-sad/" class="card service-card"
+         data-keywords="kuhinje po meri novi sad">
+        <span class="tag">Nameštaj</span>
+        <h3>Kuhinje po meri – Novi Sad</h3>
+        <p>Izrada kuhinja po meri sa dugogodišnjim iskustvom.</p>
+        <span>Izradi kuhinju →</span>
+      </a>
+
+      <a href="/zastakljivanje-terasa-novi-sad/" class="card service-card"
+         data-keywords="zastakljivanje terasa balkon staklo novi sad">
+        <span class="tag">Zastakljivanje</span>
+        <h3>Zastakljivanje terasa – Novi Sad</h3>
+        <p>Stakleni sistemi za terase i balkone.</p>
+        <span>Započni projekat →</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- ================= SUBOTICA ================= -->
+  <div id="su" class="city-tab">
+    <div class="city-grid">
+
+      <a href="/pvc-stolarija-subotica/" class="card service-card"
+         data-keywords="pvc stolarija prozori vrata subotica">
+        <span class="tag">PVC stolarija</span>
+        <h3>PVC stolarija – Subotica</h3>
+        <p>Proizvodnja i ugradnja PVC stolarije u Subotici.</p>
+        <span>Pogledaj ponuđače →</span>
+      </a>
+
+      <a href="/pvc-stolarija-subotica-cenovnik/" class="card service-card"
+         data-keywords="cena pvc stolarije subotica cenovnik">
+        <span class="tag">Cenovnik</span>
+        <h3>Cena PVC stolarije – Subotica</h3>
+        <p>Orijentacioni cenovnik i procena troškova.</p>
+        <span>Pogledaj cenovnik →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
 
 
 
 <script>
-// Jednostavan tab sistem – radi svuda
-function openCity(evt, cityName) {
-  // Sakrij sve tabove
-  document.querySelectorAll('.city-tab').forEach(tab => {
-    tab.classList.remove('active');
-  });
-  // Deaktiviraj sva dugmad
-  document.querySelectorAll('.tab-button').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  // Aktiviraj trenutni
-  document.getElementById(cityName).classList.add('active');
+
+function openCity(evt, id) {
+  document.querySelectorAll('.city-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.city-tabs button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
   evt.currentTarget.classList.add('active');
 }
 
-// Otvori prvi tab automatski (Beograd)
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('.tab-button').click();
-});
+// 3. Service Filtering
+function filterServices() {
+  const query = document.getElementById("serviceSearch").value.toLowerCase();
+  const activeTab = document.querySelector(".city-tab.active");
+  if (!activeTab) return;
+
+  const cards = activeTab.querySelectorAll(".service-card");
+  cards.forEach(card => {
+    const text = (card.dataset.keywords + " " + card.innerText).toLowerCase();
+    card.style.display = text.includes(query) ? "block" : "none";
+  });
+}
 </script>
 
 
 
 
 
-
-
-
-
-  
-
-<!-- NOVI BLOG COMPONENT -->
-<section class="blog-promo">
-  <h2 style="margin-top: 4rem; text-align: center;">📖 Blog sa Korisnim Savetima</h2>
-  
-  
-  <div class="features-container">
-    <div class="feature-block">
-      <i class="fa-solid fa-lightbulb"></i>
-      <h3>Praktični Vodiči</h3>
-      <p>Saznajte kako da izaberete odgovarajućeg majstora i izbegnete uobičajene greške.</p>
-    </div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-book-open"></i>
-      <h3>Ažurirani Članci</h3>
-      <p>Redovno objavljujemo savete za sve kategorije zanatskih usluga u Srbiji.</p>
-    </div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-arrow-right"></i>
-      <h3>Pročitajte Sada</h3>
-      <p>Otkrijte korisne članke koji će vam uštedeti vreme i novac!</p>
-    </div>
-  </div>
-
-  <div style="text-align: center; margin-top: 2rem;">
-    <a href="{{ '/blog/' | relative_url }}" class="cta" style="font-size: 1.2em; padding: 15px 30px;">👉 Pogledajte Blog</a>
-  </div>
-</section>
-
-
-
-
-<section class="authority-section">
-<h2 style="margin-top: 4rem;">
-Zašto koristiti platformu Ej Majstore! za pronalaženje zanatskih usluga u Srbiji?
-</h2>
-  
-  
-  <div class="features-container">
-    <div class="feature-block">
-      <i class="fa-solid fa-certificate"></i>
-      <h3>Izvođači organizovani po uslugama</h3>
-      <p>Izvođači su predstavljeni na osnovu oblasti rada i dostupnih informacija, kako bi korisnici lakše pronašli odgovarajuće usluge.</p>
-    </div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-map-marked-alt"></i>
-      <h3>Pretraga po gradovima širom Srbije</h3>
-      <p>Bilo da Vam je potreban <strong>vodoinstalater u Beogradu</strong>, keramičar u Novom Sadu ili električar u Nišu, naša platforma Vam omogućava da lako filtrirate majstore po gradu i opštini. Pronađite <strong>stručnjake u Vašoj neposrednoj blizini</strong> i rešite problem brzo i efikasno.</p>
-    </div>
-
-    <div class="feature-block">
-      <i class="fa-solid fa-clock"></i>
-      <h3>Pokrivamo izvođače koji nude Hitne Intervencije</h3>
-      <p>Ne dozvolite da kvarovi čekaju. Naš adresar uključuje majstore spremne za <strong>hitne intervencije</strong> 24/7. Od blokiranih odvoda do ispada struje, pronađite rešenje u nekoliko klikova i <strong>uštedite dragoceno vreme</strong> i novac.</p>
-    </div>
-  </div>
-</section>
 
 
 
