@@ -5,7 +5,7 @@ description: Tražite traktorsku seckalicu za granje? Pogledajte kako rešava go
   granja posle orezivanja, uporedite modele, okvirne cene (150.000–400.000+ RSD) i
   zašto mnogi biraju Kerisan Woodblade seriju iz Ade.
 date: '2026-01-11'
-last_modified_at: '2026-01-11'
+last_modified_at: '2026-02-03'
 author: Petar Škrbić
 slug: traktorska-seckalica-za-granje-koji-model-odabrati-cena
 image: https://raw.githubusercontent.com/NoToolsNoCraft/Ej-Majstore-Images/refs/heads/main/traktorska-seckalica-za-granje-cena.webp
@@ -93,7 +93,20 @@ sections:
   content: Kerisan mašine se prave po narudžbini u Adi (Bogdanfi Šandor 24). Kontakt
     je brz i ljubazan, rado će vam dati tačnu cenu, savetovati model prema vašem traktoru
     i količini granja, pa čak i dogovoriti demonstraciju mašine ako je moguće.
-- type: kerisan_form
+- type: contact_form
+  title: Želite da kontaktirate Kerisan? Ostavite poruku i pozvaće vas Rihard lično!
+  success_message: "✅ Primljeno! Rihard će vam se javiti ubrzo!"
+  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
+  action: https://submit-form.com/NL4FHgWfW
+  email_subject: Kerisan – Traktorske seckalice za granje
+  redirect_success: https://ejmajstore.rs/blog/traktorska-seckalica-za-granje-koji-model-odabrati-cena/?success=true
+  redirect_error: https://ejmajstore.rs/blog/traktorska-seckalica-za-granje-koji-model-odabrati-cena/?error=true
+  business: Kerisan traktorske seckalice za granje
+  label_name: Ime i prezime *
+  label_phone: Telefon (za kontakt) *
+  label_message: Šta vas zanima?
+  label_consent: Kerisan
+  button_text: "\U0001F4DE Javite mi se vezano za seckalice!"
 - type: h2
   content: Zaključak – zašto traktorska seckalica za granje (i Kerisan) vredi investicije
 - type: paragraph

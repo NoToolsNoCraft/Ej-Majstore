@@ -64,6 +64,14 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="/site.webmanifest">
+
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vb5o57mfej");
+</script>
 </head>
 
 <!-- Main Styles -->
@@ -295,14 +303,13 @@
     <section class="main-content">
 <article class="article-content">
   
-    <h1>Da li se gips ploče mogu krečiti direktno bez gletovanja?</h1>
-    <p class="article-meta">
-      
-      Objavljeno: 21-10-2025 | Modifikovano: 21-11-2025 | Autor: Petar Škrbić
-    </p>
-    
-      <img src="/images/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja.webp" alt="Da li se gips ploče mogu krečiti direktno bez gletovanja?" class="article-image">
-    
+  <h1>Da li se gips ploče mogu krečiti direktno bez gletovanja?</h1>
+  <p class="article-meta">
+    Objavljeno: 21-10-2025 | Modifikovano: 21-11-2025 | Autor: Petar Škrbić
+  </p>
+  
+    <img src="/images/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja.webp" alt="Da li se gips ploče mogu krečiti direktno bez gletovanja?" class="article-image">
+  
 
   <div class="article-body">
     
@@ -382,7 +389,7 @@
                     title="Kako krečiti gips ploče bez gletovanja uz Maxigips" frameborder="0" allowfullscreen></iframe>
           </div>
 
-          
+        
     
       <h2>Zaključak</h2>
         
@@ -391,9 +398,6 @@
         
     
   </div>
-
-    
-
 
   <!-- ✅ NEW: CTA BUTTON SECTION -->
   <div class="blog-cta-section">
@@ -406,100 +410,242 @@
 </section>
 
 <style>
-.article-content { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
-.article-content h1 { color: #000000; margin-bottom: 0.5rem; }
-.article-content h2 { color: #000000; margin: 2rem 0 1rem 0; font-size: 1.8em; }
+/* --- BASE ARTICLE STYLES --- */
+.article-content { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.article-content h1 { color: #000000; margin-bottom: 0.5rem; font-weight: 800; }
+.article-content h2 { color: #000000; margin: 2.5rem 0 1.2rem 0; font-size: 1.8em; font-weight: 700; }
 .article-content h3 { color: #333; margin: 1.5rem 0 0.8rem 0; font-size: 1.4em; }
 .article-meta { font-size: 0.9em; color: #666; margin-bottom: 1.5rem; }
-.article-image, .section-image { width: 100%; border-radius: 10px; margin: 1.5rem 0; }
-.video-container { position: relative; padding-bottom: 56.25%; height: 0; margin: 1.5rem 0; border-radius: 10px; }
+.article-image, .section-image { width: 100%; border-radius: 12px; margin: 1.5rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: block; }
+.video-container { position: relative; padding-bottom: 56.25%; height: 0; margin: 1.5rem 0; border-radius: 12px; overflow: hidden; }
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.article-body p { line-height: 1.7; margin-bottom: 1rem; }
-.article-body ul { margin: 1rem 0 1rem 2rem; }
-.article-body li { margin-bottom: 0.5rem; line-height: 1.6; }
+.article-body p { line-height: 1.8; margin-bottom: 1.2rem; color: #333; }
+.article-body ul { margin: 1rem 0 1.5rem 1.5rem; }
+.article-body li { margin-bottom: 0.6rem; line-height: 1.6; }
 
-/* ✅ NEW: CTA BUTTON STYLES */
-.blog-cta-section {
-  text-align: center;
-  margin-top: 3rem;
-  padding: 2rem 0;
-  border-top: 2px solid #000000;
+/* --- TABLE SECTION --- */
+.table-section { margin: 2.5rem 0; overflow-x: auto; border-radius: 12px; border: 1px solid #eee; }
+.table-section h2 { font-size: 1.6em; margin-bottom: 1rem; color: #0077cc; padding-left: 5px; }
+.table-section table { width: 100%; border-collapse: collapse; text-align: left; font-size: 1rem; background: white; }
+.table-section table td { padding: 1rem; border-bottom: 1px solid #eee; }
+.table-section table tr:last-child td { border-bottom: none; }
+.table-section table tr:nth-child(even) { background-color: #f9fbfd; }
+.table-section table tr:hover { background-color: #f1f7ff; }
+
+/* --- CONTACT FORMS (UNIFIED) --- */
+.kerisan-form-container, .form-container {
+  background: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef2f6;
+  margin: 3.5rem 0;
 }
 
-.cta-button {
-  display: inline-block;
+.kerisan-form-container h2, .form-container h2 { text-align: center; margin-top: 0 !important; margin-bottom: 1rem; color: #000; }
+.kerisan-form-container p { text-align: center; color: #666; margin-bottom: 2.5rem; font-size: 1.05rem; }
+
+.form-row, .form-group { position: relative; margin-bottom: 1.8rem; }
+
+.form-row input[type="text"], 
+.form-row input[type="tel"], 
+.form-row textarea,
+.form-group input:not([type="checkbox"]), 
+.form-group textarea {
+  width: 100%;
+  padding: 1.1rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-row label, .form-group label:not(.consent-row label) {
+  position: absolute;
+  left: 1rem;
+  top: 1.1rem;
+  padding: 0 0.4rem;
+  background: transparent;
+  color: #94a3b8;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.form-row input:focus + label,
+.form-row input:not(:placeholder-shown) + label,
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-row textarea:focus + label,
+.form-row textarea:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+  top: -0.6rem;
+  left: 0.8rem;
+  font-size: 0.75rem;
+  background: white;
+  color: #0077cc;
+  font-weight: 700;
+}
+
+.form-row input:focus, .form-group input:focus, .form-row textarea:focus, .form-group textarea:focus {
+  border-color: #0077cc;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(0, 119, 204, 0.1);
+}
+
+.consent-row, .form-group[style*="flex"] {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 12px;
+  background: #f1f5f9;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.consent-row label, .form-group[style*="flex"] label {
+  position: static !important;
+  font-size: 0.9rem !important;
+  color: #475569 !important;
+  font-weight: 500 !important;
+  background: transparent !important;
+  line-height: 1.4;
+  pointer-events: auto !important;
+}
+
+input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; accent-color: #0077cc; margin-top: 2px; flex-shrink: 0; }
+
+.kerisan-form-container button, 
+.form-container button[type="submit"] {
+  width: 100%;
   background: linear-gradient(135deg, #0077cc, #005a99);
   color: white;
-  padding: 1rem 2.5rem;
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 1.1em;
-  font-weight: bold;
+  padding: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 119, 204, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 119, 204, 0.2);
 }
 
-.cta-button:hover {
-  background: linear-gradient(135deg, #005a99, #0077cc);
+.kerisan-form-container button:hover, 
+.form-container button[type="submit"]:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 119, 204, 0.4);
-  color: white;
-  text-decoration: none;
+  box-shadow: 0 15px 30px rgba(0, 119, 204, 0.3);
 }
 
+#form-success, #form-error { margin-top: 1.5rem; padding: 1rem; border-radius: 8px; text-align: center; font-weight: 600; }
+#kerisan-form #form-success { display: none; } 
 
-.share-section {
-  text-align: center;
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 2px solid #000000;
+/* --- BUSINESS HIGHLIGHTS --- */
+.business-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
+  border-radius: 20px;
 }
 
-.share-section p {
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.share-buttons {
+.highlight-card {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.share-btn {
-  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1.2rem;
-  border-radius: 50px;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.highlight-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #0077cc, #005a99);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
   color: white;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex-shrink: 0;
 }
 
-.share-btn i {
-  font-size: 1.2em;
+.highlight-content .value { display: block; font-size: 1.6em; font-weight: 800; color: #000; line-height: 1.2; }
+.highlight-content .value a { color: #0077cc; text-decoration: none; }
+.highlight-content .label { font-size: 0.9em; color: #666; font-weight: 500; }
+
+/* --- TESTIMONIALS (FIXED IMAGES) --- */
+.testimonials-section { margin: 4rem 0; }
+.testimonials-title { text-align: center; font-size: 2.2em; color: #000; margin-bottom: 3rem; font-weight: 700; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+.testimonial-card {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.05);
+  transition: all 0.4s ease;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Specific colors for each app */
-.share-btn.whatsapp { background-color: #25D366; }
-.share-btn.viber { background-color: #7360F2; }
-.share-btn.telegram { background-color: #0084FF; }
-
-.share-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+/* Quote Icon */
+.testimonial-card::before {
+  content: '“';
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 4rem;
+  color: #0077cc;
+  opacity: 0.15;
+  font-family: serif;
 }
 
+/* AVATAR FIX: This prevents gigantic images */
+.testimonial-avatar {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 3px solid #f1f5f9;
+  flex-shrink: 0;
+  z-index: 1;
+}
 
+.testimonial-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image isn't squashed */
+  display: block;
+}
+
+.testimonial-card:hover { transform: translateY(-10px); }
+.testimonial-content blockquote { font-size: 1.1em; line-height: 1.6; color: #444; margin: 0 0 1.5rem 0; font-style: italic; border: none; padding: 0; position: relative; z-index: 1; }
+.testimonial-author { font-size: 1.1em; font-weight: 700; color: #000; margin-top: auto; }
+.testimonial-author a { color: #0077cc; text-decoration: none; }
+
+/* --- CTA SECTION --- */
+.blog-cta-section { text-align: center; margin-top: 3rem; padding: 2.5rem 0; border-top: 1px solid #eee; }
+.cta-button { display: inline-block; background: #000; color: white; padding: 1rem 2.5rem; text-decoration: none; border-radius: 50px; font-size: 1.1em; font-weight: 700; transition: all 0.3s ease; }
+.cta-button:hover { background: #333; transform: scale(1.05); color: white; }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .article-content { padding: 1.5rem 1rem; }
+  .kerisan-form-container, .form-container { padding: 2rem 1.5rem; }
+  .business-highlights { grid-template-columns: 1fr; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+}
 </style>
-
-
-
-
   </main>
 
   
