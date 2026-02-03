@@ -434,17 +434,22 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.disabled = true;
       btn.innerText = 'Slanje...';
       
-      // Reset visibility of messages for new attempt
+      // Reset visibility for new attempt
       successMsg.style.display = 'none';
       errorMsg.style.display = 'none';
 
+      // CRITICAL FIX: Convert FormData to a plain object for JSON submission
       const formData = new FormData(contactForm);
+      const data = Object.fromEntries(formData.entries());
 
       try {
         const response = await fetch(contactForm.action, {
           method: 'POST',
-          body: formData,
-          headers: { 'Accept': 'application/json' }
+          headers: { 
+            'Content-Type': 'application/json', // Tell the server we are sending JSON
+            'Accept': 'application/json'        // Tell the server we want JSON back
+          },
+          body: JSON.stringify(data)
         });
 
         if (response.ok) {
@@ -455,19 +460,23 @@ document.addEventListener('DOMContentLoaded', () => {
           // Smooth fade in
           setTimeout(() => { successMsg.style.opacity = '1'; }, 10);
           
-          // 2. Clear the form fields so it's ready for next time (or clear)
+          // 2. Clear the form fields
           contactForm.reset();
           
           // 3. Reset Button
           btn.disabled = false;
           btn.innerText = originalBtnText;
 
-          // 4. Scroll to the message specifically
+          // 4. Scroll to the message
           successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         } else {
-          throw new Error();
+          // Capture response error details in console for debugging
+          const errorData = await response.json();
+          console.error('Formspark Error:', errorData);
+          throw new Error('Submission failed');
         }
       } catch (error) {
+        console.error('Network Error:', error);
         errorMsg.style.display = 'block';
         btn.disabled = false;
         btn.innerText = originalBtnText;
