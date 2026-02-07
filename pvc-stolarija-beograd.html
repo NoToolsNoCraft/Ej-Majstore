@@ -1,7 +1,5 @@
 ---
 layout: null
-title: PVC Stolarija Beograd – Odgovarajući Izvođači za Ugradnju PVC Prozora i Vrata
-description: Najbolji majstori i firme za PVC i ALU stolariju u Beogradu i okolini – prozori, vrata, klizni portali, roletne, komarnici i zastakljivanje balkona po meri. Besplatno merenje i garancija.
 permalink: /pvc-stolarija-beograd/
 canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
 ---
@@ -27,6 +25,26 @@ canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
 
   gtag('config', 'AW-17778032945');
 </script>
+
+<!-- Event snippet for Submit lead form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17778032945/d0z8CPW7wfQbELGCnZ1C',
+      'value': 1.0,
+      'currency': 'USD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 
     <!-- Google tag for Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTRMQRDK4R"></script>
@@ -166,7 +184,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "PVC stolarija Rehau",
+      "name": "SN Windows Beograd",
       "description": "Window installation service in Belgrade",
       "url": "https://ejmajstore.rs/pvc-stolarija-beograd/",
       "telephone": "065 5450707",
@@ -363,10 +381,19 @@ canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
         <div style="margin-bottom: 20px;">
             <span style="background: var(--secondary); padding: 5px 5px; border-radius: 4px; font-weight: 700; font-size: 0.9rem;">AKCIJA: Promotivne cene do isteka zaliha!</span>
         </div>
-        <a href="#form" class="cta-btn" style="margin-bottom: 1rem;">🚀 Zatražite besplatno merenje i tačnu ponudu!</a>
+        <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 1rem;">
+            <a href="#form" class="cta-btn">🚀 Zatražite besplatno merenje i tačnu ponudu!</a>
+            
+            
+        </div>
         <p style="font-size: 0.9rem;">Bez obaveze • Bez skrivenih troškova • Ekspresan odgovor</p>
     </div>
 </section>
+
+<div style="background:#fff3cd; padding:15px; text-align:center; border-bottom:1px solid #ffeaa7;">
+📢 <strong>Marketinški sadržaj</strong> – Pripremljeno u saradnji sa SN Windows za posetioce Ejmajstore.rs
+</div>
+
 
 <div class="trust-bar">
     <div class="container trust-flex">
@@ -407,7 +434,7 @@ canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
         </div>
         
         <div class="form-container">
-            <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
+            <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST" onsubmit="return gtag_report_conversion();">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_subject" value="Novi upit - SN Windows Beograd">
                 <input type="hidden" name="page_url" value="/pvc-stolarija-beograd/">
@@ -558,38 +585,46 @@ canonical: https://ejmajstore.rs/pvc-stolarija-beograd/
         </div>
     </div>
     <div style="text-align: center; border-top: 1px solid #333; margin-top: 40px; padding-top: 20px;">
-       U saradnji sa <a href="https://www.ejmajstore.rs" style="color: aqua;" target="_blank">Ejmajstore.rs</a> &copy; 2026 SN Windows Beograd. Sva prava zadržana.
+       &copy; 2026 <a href="https://www.ejmajstore.rs" style="color: aqua;" target="_blank">Ejmajstore.rs</a> u saradnji sa SN Windows Beograd
     </div>
 </footer>
 
 <script>
     document.getElementById('contact-form').addEventListener('submit', async e => {
-        e.preventDefault();
-        const btn = e.target.querySelector('button[type="submit"]');
-        const success = document.getElementById('form-success');
-        
-        btn.disabled = true;
-        btn.textContent = 'Šaljem...';
-        
-        try {
-            const res = await fetch(e.target.action, {
-                method: 'POST',
-                body: new FormData(e.target),
-                headers: { 'Accept': 'application/json' }
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    const success = document.getElementById('form-success');
+    
+    btn.disabled = true;
+    btn.textContent = 'Šaljem...';
+    
+    try {
+        const res = await fetch(e.target.action, {
+            method: 'POST',
+            body: new FormData(e.target),
+            headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+            // ✅ Fire Google Ads conversion
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17778032945/d0z8CPW7wfQbELGCnZ1C',
+                'value': 1.0,
+                'currency': 'USD'
             });
-            if (res.ok) {
-                success.style.display = 'block';
-                e.target.reset();
-                btn.textContent = 'Poslato!';
-            } else {
-                throw new Error();
-            }
-        } catch (err) {
-            alert('Greška pri slanju. Molimo pokušajte ponovo.');
-            btn.disabled = false;
-            btn.textContent = '🚀 POŠALJI ZAHTEV ZA PONUDU';
+
+            success.style.display = 'block';
+            e.target.reset();
+            btn.textContent = 'Poslato!';
+        } else {
+            throw new Error();
         }
-    });
+    } catch (err) {
+        alert('Greška pri slanju. Molimo pokušajte ponovo.');
+        btn.disabled = false;
+        btn.textContent = '🚀 POŠALJI ZAHTEV ZA PONUDU';
+    }
+});
+
 </script>
 
 </body>
