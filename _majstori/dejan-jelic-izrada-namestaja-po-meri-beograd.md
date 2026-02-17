@@ -126,4 +126,5 @@ tips:
 - Po meri – razmislite o funkcionalnosti (povlačenje, police)
 tips_title: Saveti za savršen nameštaj po meri
 permalink: "/izvodjaci/beograd/dejan-jelic-izrada-namestaja-po-meri-beograd/"
+disable_seo: true
 ---

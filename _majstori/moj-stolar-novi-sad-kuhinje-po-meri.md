@@ -67,8 +67,7 @@ sections:
 - type: p
   content: "Kontaktirajte ih za ponudu:<br>\U0001F4DE <strong>Poziv/Viber/WhatsApp:</strong>
     <a href=\"tel:+381653355330\">+381 65 33 55 330</a><br>\U0001F4E7 <strong>Mail:</strong>
-    <a href=\"mailto:office@mojstolar.rs\">office@mojstolar.rs</a><br>\U0001F310 <strong>Website:</strong>
-    <a href=\"https://mojstolar.rs/\" target=\"_blank\">mojstolar.rs</a>"
+    <a href=\"mailto:office@mojstolar.rs\">office@mojstolar.rs</a>"
 - type: h2
   content: Stilovi Kuhinja – Pronađite Svoj
 - type: p
@@ -112,10 +111,6 @@ sections:
 - type: p
   content: Lokalna proizvodnja u Novom Sadu – brže, jeftinije, bolje. Montaža od strane
     najboljih stolara. Kalkulator cene na sajtu – znate tačno šta plaćate.
-- type: p
-  content: Kuhinja iz snova? Zatražite ponudu na <a href="https://mojstolar.rs/" target="_blank"
-    rel="nofollow"><strong>mojstolar.rs</strong></a> ili pozovite <a href="tel:+381653355330"><strong>+381
-    65 33 55 330</strong></a>.
 services:
 - title: Kuhinje po Meri
   description: Svi stilovi – moderne, rustik, skandinavske, sa ostrvom ili šankom.
@@ -148,4 +143,5 @@ tips:
 - Kombinujte boje – bela za svetlost, crna za eleganciju
 tips_title: Kako da Vaša Kuhinja Bude Savršena Po Vašem Ukus
 permalink: "/izvodjaci/novi-sad/moj-stolar-novi-sad-kuhinje-po-meri/"
+disable_seo: true
 ---

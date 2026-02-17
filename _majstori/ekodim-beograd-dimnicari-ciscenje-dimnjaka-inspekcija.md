@@ -159,4 +159,5 @@ tips:
 - Čišćenje kotlova – efikasnost +20%, račun manji
 tips_title: Neka Vaši Dimnjaci Dišu, umesto da se guše
 permalink: "/izvodjaci/beograd/ekodim-beograd-dimnicari-ciscenje-dimnjaka-inspekcija/"
+disable_seo: true
 ---

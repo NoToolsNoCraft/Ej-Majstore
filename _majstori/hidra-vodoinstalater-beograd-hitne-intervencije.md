@@ -117,4 +117,5 @@ tips:
 - Hitni poziv – kvar ne raste
 tips_title: Kako da Sprečite Vodovodne Nezgode
 permalink: "/izvodjaci/beograd/hidra-vodoinstalater-beograd-hitne-intervencije/"
+disable_seo: true
 ---

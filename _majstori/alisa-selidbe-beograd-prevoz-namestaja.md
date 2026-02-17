@@ -116,4 +116,5 @@ tips:
 - Montaža na licu mesta – sve radi odmah
 tips_title: Kako da Prevoz Nameštaja Prođe Bez Oštećenja
 permalink: "/izvodjaci/beograd/alisa-selidbe-beograd-prevoz-namestaja/"
+disable_seo: true
 ---

@@ -187,4 +187,5 @@ tips:
 - Redovno čišćenje zgrada – popust 20%, uvek sveže
 tips_title: '6 Brzih Trikova od Go Cleana: Neka Vaš Prostor Bude Čist Kao Prvog Dana'
 permalink: "/izvodjaci/temerin/go-clean-temerin-agencija-za-ciscenje-fasada-masinsko-pranje/"
+disable_seo: true
 ---

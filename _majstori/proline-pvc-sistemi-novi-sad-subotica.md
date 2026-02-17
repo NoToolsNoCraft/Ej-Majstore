@@ -130,4 +130,5 @@ tips:
 - Više salona – lakše za merenje
 tips_title: Sažetak jedne kvalitetne usluge PVC stolarije
 permalink: "/izvodjaci/novi-sad/proline-pvc-sistemi-novi-sad-subotica/"
+disable_seo: true
 ---

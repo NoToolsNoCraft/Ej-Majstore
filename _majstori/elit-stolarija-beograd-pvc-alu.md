@@ -139,4 +139,5 @@ tips:
 - Sigurnosna vrata – ulaz koji štiti
 tips_title: Kako da Prozori Štede, a Ne Troše
 permalink: "/izvodjaci/beograd/elit-stolarija-beograd-pvc-alu/"
+disable_seo: true
 ---

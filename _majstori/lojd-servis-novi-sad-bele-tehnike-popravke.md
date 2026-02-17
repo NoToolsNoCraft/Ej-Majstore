@@ -180,4 +180,5 @@ tips:
 - Račun čuvati – iskoristite pogodnosti garancije
 tips_title: Šta morate znati o popravci bele tehnike u osnovnim crtama
 permalink: "/izvodjaci/novi-sad/lojd-servis-novi-sad-bele-tehnike-popravke/"
+disable_seo: true
 ---

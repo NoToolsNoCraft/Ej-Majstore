@@ -127,4 +127,5 @@ tips:
 - Subvencije u Barajevu – 50% plaća opština
 tips_title: Kako da ALU Stolarija Bude Još Bolja
 permalink: "/izvodjaci/barajevo/alu-plast-engineering-barajevo-alu-stolarija/"
+disable_seo: true
 ---

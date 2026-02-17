@@ -208,4 +208,5 @@ tips:
 tips_title: '6 Pedantnih Usluga od Premiera: Sredite svoj prostor kao da ćete ga slikati
   za katalog'
 permalink: "/izvodjaci/novi-sad/premier-clean-novi-sad-agencija-za-ciscenje-dubinsko-pranje/"
+disable_seo: true
 ---

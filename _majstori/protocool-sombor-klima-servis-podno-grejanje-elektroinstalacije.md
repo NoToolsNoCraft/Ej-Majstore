@@ -162,4 +162,5 @@ tips:
 - Za multi-split – jedan spoljašnji, više unutrašnjih – ušteda na prostoru
 tips_title: Kako da Vaša Klima i Grejanje Rade Bez Kvara Godinama
 permalink: "/izvodjaci/sombor/protocool-sombor-klima-servis-podno-grejanje-elektroinstalacije/"
+disable_seo: true
 ---

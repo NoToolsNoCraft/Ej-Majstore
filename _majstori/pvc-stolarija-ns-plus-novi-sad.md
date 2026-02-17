@@ -147,4 +147,5 @@ tips:
 - Garancija i servis – miran san godinama
 tips_title: Kako da Vaši Prozori Ne Puštaju Račune Za Grejanje
 permalink: "/izvodjaci/novi-sad/pvc-stolarija-ns-plus-novi-sad/"
+disable_seo: true
 ---

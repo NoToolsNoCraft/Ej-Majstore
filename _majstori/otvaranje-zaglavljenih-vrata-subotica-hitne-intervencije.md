@@ -134,4 +134,5 @@ tips:
 - Redovan servis brava svake 2 godine produžava vek
 tips_title: Šta uraditi kada se vrata zaglave – a šta nikako ne raditi
 permalink: "/izvodjaci/subotica/otvaranje-zaglavljenih-vrata-subotica-hitne-intervencije/"
+disable_seo: true
 ---

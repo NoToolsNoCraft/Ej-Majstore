@@ -154,4 +154,5 @@ tips:
 - Hitno zovite ako osetite 'tresenje struje' na slavinama
 tips_title: Praktični saveti za bezbedno rukovanje strujom i grejanjem
 permalink: "/izvodjaci/beograd/elektricar-toma-beograd-hausmajstor/"
+disable_seo: true
 ---

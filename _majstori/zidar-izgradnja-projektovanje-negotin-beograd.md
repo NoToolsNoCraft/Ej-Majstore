@@ -144,4 +144,5 @@ tips:
 - Budžet po fazama – plaćate samo ono što vidite
 tips_title: Kako da Vaš Objekat Bude Bezbedan i u Budžetu
 permalink: "/izvodjaci/negotin/zidar-izgradnja-projektovanje-negotin-beograd/"
+disable_seo: true
 ---

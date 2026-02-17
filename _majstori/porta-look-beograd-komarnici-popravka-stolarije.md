@@ -189,4 +189,5 @@ tips:
 - Montaža u roku od 3-7 dana – planirajte unapred
 tips_title: Kako odabrati pravi komarnik za vaš dom
 permalink: "/izvodjaci/beograd/porta-look-beograd-komarnici-popravka-stolarije/"
+disable_seo: true
 ---

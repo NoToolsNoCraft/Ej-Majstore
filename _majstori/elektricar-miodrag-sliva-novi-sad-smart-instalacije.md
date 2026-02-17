@@ -174,4 +174,5 @@ tips:
 - EV punjač 7kW – punjenje preko noći
 tips_title: 6 Sigurnosnih Saveta za Vašu Električnu Instalaciju
 permalink: "/izvodjaci/novi-sad/elektricar-miodrag-sliva-novi-sad-smart-instalacije/"
+disable_seo: true
 ---

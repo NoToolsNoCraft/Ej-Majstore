@@ -160,4 +160,5 @@ tips:
 - Lajsna za završetak – zadržava toplotu, izgleda kao iz salona
 tips_title: Kako da Vaši REHAU Prozori Budu Još Bolji
 permalink: "/izvodjaci/sombor/daki-plast-sombor-rehau-pvc-alu-stolarija/"
+disable_seo: true
 ---

@@ -146,4 +146,5 @@ tips:
 - Voda iz bunara za pumpe – besplatna energija
 tips_title: Kako da Vaše Grejanje Bude Efikasno i Jeftino
 permalink: "/izvodjaci/pirot/grejanje-ugradnja-antic-pirot-centralno-grejanje/"
+disable_seo: true
 ---

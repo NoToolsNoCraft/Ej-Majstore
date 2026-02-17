@@ -1,17 +1,12 @@
 ---
-layout: null
+layout: default
 title: Krovni Prozori Cena sa Ugradnjom 2026 – Kalkulator + Besplatno Merenje | Pro5 Partner
 description: Kalkulator cene krovnih prozora ProLINE i Velux sa ugradnjom 2026. Pro5 sertifikovani tim – garancija 10 godina, besplatno merenje u Vojvodini i Srbiji u 24-48h. Pozovite 063 105 05 15!
 permalink: /krovni-prozori-cena-sa-ugradnjom/
 canonical: https://ejmajstore.rs/krovni-prozori-cena-sa-ugradnjom/
 keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux cena, ugradnja krovnih prozora Novi Sad, besplatno merenje krovnih prozora
 ---
-<!DOCTYPE html>
-<html lang="sr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Krovni Prozori sa Ugradnjom 2026 – Kalkulator | Pro 5 Partner</title>
+
   <meta name="description" content="Izračunajte procenu cene ProLINE i Velux krovnih prozora sa kompletnom ugradnjom. Besplatno merenje u 24-48h, garancija 10 godina. 063 105 05 15 – pošaljite upit ODMAH!">
 
   <link rel="canonical" href="https://ejmajstore.rs/krovni-prozori-cena-sa-ugradnjom/">
@@ -21,22 +16,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ejmajstore.rs/krovni-prozori-cena-sa-ugradnjom/">
 
-  <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTRMQRDK4R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-BTRMQRDK4R');
-    </script>
-
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vb5o57mfej");
-</script>
+  
 
   <!-- Schema.org -->
   <script type="application/ld+json">
@@ -107,6 +87,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
       text-align:center;
       position:relative;
       padding:60px 0 80px;
+      margin-top: 2rem;
     }
 
     .hero strong{ color:#fde047; }
@@ -273,6 +254,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
       font-size:1.15rem;
       border:2px solid #d1d5db;
       border-radius:12px;
+      max-width: 100%;
     }
 
     .add-ons{
@@ -481,6 +463,8 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
       font-size:0.95rem;
     }
 
+    footer p{color: white;}
+
     footer a{color:#60a5fa}
 
     /* ── MEDIA QUERIES – enhancement only ────────────── */
@@ -506,20 +490,18 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
       .container{max-width:1140px}
     }
   </style>
-</head>
-<body>
 
   <!-- HERO -->
   <section class="hero">
     <div class="container hero-content">
       <div class="hero-badge">Pro 5 Sertifikovani Partner</div>
-      <h1>Krovni Prozori Cena sa Ugradnjom 2026<br><strong>ProLINE</strong> i <strong>Velux</strong></h1>
+      <h1 style="color: white;">Krovni Prozori Cena sa Ugradnjom 2026<br><strong>ProLINE</strong> i <strong>Velux</strong></h1>
       <p class="hero-subtitle">
         Kalkulator cene • Besplatno merenje 24–48h<br>
         Garancija 10 godina • Beograd + Novi Sad + cela Srbija
       </p>
       <div class="cta-row">
-        <a href="#calculator" class="cta cta-primary">🚀 Izračunaj cenu</a>
+        <a href="#jump" class="cta cta-primary">🚀 Izračunaj cenu</a>
         
       </div>
     </div>
@@ -567,19 +549,19 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
   <!-- BRAND SELECTOR -->
   <section style="background:#f8fafc">
     <div class="container">
-      <h2>Izaberite brend</h2>
+      <h2 style="margin-top: 2rem;" id="jump">Izaberite brend</h2>
       <div class="options-grid">
         <div class="option-card">
           <h3>ProLINE</h3>
           <div class="price">od 20.000–52.000 RSD + ugradnja</div>
           <p>Odličan odnos cene i kvaliteta</p>
-          <a href="#calculator" class="option-btn" onclick="setBrand('proline')">Izračunaj ProLINE →</a>
+          <a href="#calculate" class="option-btn" onclick="setBrand('proline')">Izračunaj ProLINE →</a>
         </div>
         <div class="option-card">
           <h3>Velux</h3>
           <div class="price">od 38.000–85.000 RSD + ugradnja</div>
           <p>Premium izolacija i dugotrajnost</p>
-          <a href="#calculator" class="option-btn" onclick="setBrand('velux')">Izračunaj Velux →</a>
+          <a href="#calculate" class="option-btn" onclick="setBrand('velux')">Izračunaj Velux →</a>
         </div>
       </div>
     </div>
@@ -589,7 +571,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
   <section id="calculator">
     <div class="container">
       <div class="calculator">
-        <h2>Izračunajte procenu cene</h2>
+        <h2 id="calculate">Izračunajte procenu cene</h2>
 
         <div class="calc-grid">
           <div class="calc-field">
@@ -639,7 +621,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
         </div>
 
         <div class="form-container">
-  <h2>Pro 5 Vas Zove za <strong>30 MIN</strong> sa Tačnom Ponudom</h2>
+  <h2>Pro 5 Vam Se Javlja Sa Tačnom Ponudom</h2>
 
   
   <div id="form-message" style="display:none; padding:1.2rem; border-radius:12px; margin-bottom:1.5rem; font-weight:600; text-align:center;"></div>
@@ -683,11 +665,11 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
   <!-- PRICING CARDS -->
   <section style="background:#f8fafc">
     <div class="container">
-      <h2>Cene ugradnje (RSD sa PDV)</h2>
+      <h2 style="margin-top: 1rem;">Cene ugradnje (RSD sa PDV)</h2>
       <div class="pricing-cards">
         <div class="price-card">
           <div class="price-header">
-            <h3>Crep / Biber crep</h3>
+            <h3 style="color: white;">Crep / Biber crep</h3>
           </div>
           <div class="price-body">
             <strong>Nova ugradnja</strong> 11.500–13.500 RSD<br>
@@ -698,7 +680,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
 
         <div class="price-card">
           <div class="price-header">
-            <h3>Tegola</h3>
+            <h3 style="color: white;">Tegola</h3>
           </div>
           <div class="price-body">
             <strong>Nova ugradnja</strong> 17.500–19.500 RSD<br>
@@ -708,7 +690,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
 
         <div class="price-card">
           <div class="price-header">
-            <h3>Lim (trapez/falc)</h3>
+            <h3 style="color: white;">Lim (trapez/falc)</h3>
           </div>
           <div class="price-body">
             <strong>Nova ugradnja</strong> 19.500–23.500 RSD<br>
@@ -749,11 +731,7 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>Staška Sondermajera 55, Voždovac, Beograd </p>
-    <p>Krovni Prozori Pro 5 u saradnji sa <a href="https://ejmajstore.rs">Ejmajstore.rs</a> © 2026 </p>
-  </footer>
+  
 
   <script>
   function setBrand(brand){
@@ -841,5 +819,3 @@ keywords: krovni prozori cena, krovni prozori sa ugradnjom, ProLINE cena, Velux 
   msgDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
   </script>
-</body>
-</html>

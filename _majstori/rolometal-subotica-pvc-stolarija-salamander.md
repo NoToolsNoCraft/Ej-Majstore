@@ -120,4 +120,5 @@ tips:
 - Precizna ugradnja – sve radi kako treba
 tips_title: Kako da PVC Stolarija Bude Još Bolja
 permalink: "/izvodjaci/subotica/rolometal-subotica-pvc-stolarija-salamander/"
+disable_seo: true
 ---

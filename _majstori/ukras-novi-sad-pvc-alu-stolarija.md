@@ -115,4 +115,5 @@ tips:
 - Kvalitetna montaža – sve radi godinama
 tips_title: Kako da Stolarija Bude Još Bolja
 permalink: "/izvodjaci/novi-sad/ukras-novi-sad-pvc-alu-stolarija/"
+disable_seo: true
 ---

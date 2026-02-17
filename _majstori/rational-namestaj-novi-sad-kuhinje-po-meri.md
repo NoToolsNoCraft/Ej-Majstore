@@ -150,4 +150,5 @@ tips:
 - Besplatna montaža – uvek tražite od proizvođača
 tips_title: Kako da Vaša Kuhinja Bude Savršena
 permalink: "/izvodjaci/novi-sad/rational-namestaj-novi-sad-kuhinje-po-meri/"
+disable_seo: true
 ---

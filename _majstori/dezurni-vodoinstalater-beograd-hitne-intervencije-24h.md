@@ -121,4 +121,5 @@ tips:
 - 24h – jer voda ne zna za praznike
 tips_title: Kako da Voda Ne Pravi Haos
 permalink: "/izvodjaci/beograd/dezurni-vodoinstalater-beograd-hitne-intervencije-24h/"
+disable_seo: true
 ---

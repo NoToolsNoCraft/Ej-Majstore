@@ -146,4 +146,5 @@ tips:
 - Orezivanje voćki zimi – veći prinos leti
 tips_title: Uživajte u pogledu na svoje dvorište
 permalink: "/izvodjaci/sombor/vrt-zelena-oaza-sombor-uredenje-dvorista/"
+disable_seo: true
 ---

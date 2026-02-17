@@ -123,4 +123,5 @@ tips:
 - Cene od 50€/m² – kvalitet ne mora biti skup
 tips_title: Kako da Prozori Rade Za Vas
 permalink: "/izvodjaci/novi-sad/marcijus-pvc-alu-stolarija-novi-sad/"
+disable_seo: true
 ---

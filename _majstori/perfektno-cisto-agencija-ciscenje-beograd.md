@@ -57,10 +57,8 @@ sections:
     vama odgovara, čak i vikendom.
 - type: p
   content: "Kontaktirajte ih odmah:<br>\U0001F4DE <strong>Poziv:</strong> <a href=\"tel:+381654259508\">+381
-    65 425 9508</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:kontakt@perfektno-cisto.rs\">kontakt@perfektno-cisto.rs</a><br>\U0001F310
-    <strong>Website:</strong> <a href=\"https://perfektno-cisto.rs/\" target=\"_blank\"
-    rel=\"nofollow\">perfektno-cisto.rs</a><br>\U0001F4CD <strong>Adresa:</strong>
-    Hercegovačka 16, Beograd 11000"
+    65 425 9508</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:kontakt@perfektno-cisto.rs\">kontakt@perfektno-cisto.rs</a><br>\U0001F4CD
+    <strong>Adresa:</strong> Hercegovačka 16, Beograd 11000"
 - type: h2
   content: Usluge Koje Nude – Sve Na Jednom Mestu
 - type: h3
@@ -163,4 +161,5 @@ tips:
 - Ekološka sredstva – bezbedna za decu i ljubimce
 tips_title: Kako da Vaš Prostor Uvek Bude Savršeno Čist
 permalink: "/izvodjaci/beograd/perfektno-cisto-agencija-ciscenje-beograd/"
+disable_seo: true
 ---

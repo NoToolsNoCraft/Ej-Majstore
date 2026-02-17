@@ -127,4 +127,5 @@ tips:
 - Dogovorite redovne posete – ušteda vremena i stresa
 tips_title: Kako održavati dom čistim samostalno ili uz pomoć profesionalca
 permalink: "/izvodjaci/kragujevac/cistacica-gordana-kragujevac-stanovi-poslovni-prostori/"
+disable_seo: true
 ---

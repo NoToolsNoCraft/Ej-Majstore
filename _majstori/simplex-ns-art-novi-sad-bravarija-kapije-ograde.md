@@ -150,4 +150,5 @@ tips:
 - Stepenišne ograde – protiv klizanja, sa rukohvatom top
 tips_title: '6 Bravarskih Saveta: Kako da Vaš Dom Bude Neprobojan i Lep'
 permalink: "/izvodjaci/novi-sad/simplex-ns-art-novi-sad-bravarija-kapije-ograde/"
+disable_seo: true
 ---

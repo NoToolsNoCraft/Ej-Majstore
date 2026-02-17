@@ -176,4 +176,5 @@ tips:
 - Planirajte instalacije pre zida – kasnije je 3x skuplje
 tips_title: 7 Zlatnih Saveta Kako da Vaše Grejanje Bude Jeftinije i Efikasnije
 permalink: "/izvodjaci/sombor/ostrotherm-sombor-grejanje-vodovod-toplotne-pumpe/"
+disable_seo: true
 ---

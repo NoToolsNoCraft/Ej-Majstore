@@ -156,4 +156,5 @@ tips:
 - 24/7 bez doplate – vikend nije izgovor
 tips_title: 6 Trikova za prvoklasnu uslugu
 permalink: "/izvodjaci/novi-sad/vodoinstalater-jokic-novi-sad-24-7/"
+disable_seo: true
 ---

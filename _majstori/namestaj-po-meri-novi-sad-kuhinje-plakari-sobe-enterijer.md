@@ -176,4 +176,5 @@ tips:
 - Pitajte za garanciju – pouzdani stolari je uvek nude
 tips_title: Saveti za planiranje nameštaja po meri
 permalink: "/izvodjaci/novi-sad/namestaj-po-meri-novi-sad-kuhinje-plakari-sobe-enterijer/"
+disable_seo: true
 ---

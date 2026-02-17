@@ -127,4 +127,5 @@ tips:
 - Nadgradne ili spoljne roletne – birajte po potrebi
 tips_title: Kako da Prozori Rade Za Vas, a Ne Protiv
 permalink: "/izvodjaci/novi-sad/alu-pvc-goran-novi-sad-stolarija/"
+disable_seo: true
 ---

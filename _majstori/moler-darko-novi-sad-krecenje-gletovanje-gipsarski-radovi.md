@@ -151,4 +151,5 @@ tips:
 - Godišnji pregled – blagovremeno popravite ogrebotine
 tips_title: Saveti za održavanje sveže okrečenih zidova
 permalink: "/izvodjaci/novi-sad/moler-darko-novi-sad-krecenje-gletovanje-gipsarski-radovi/"
+disable_seo: true
 ---

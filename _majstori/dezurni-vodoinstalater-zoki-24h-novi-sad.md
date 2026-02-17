@@ -161,4 +161,5 @@ tips:
 tips_title: Na šta posebno obratiti pažnju kada su vodovodarski hitni slučajevi u
   pitanju
 permalink: "/izvodjaci/novi-sad/dezurni-vodoinstalater-zoki-24h-novi-sad/"
+disable_seo: true
 ---

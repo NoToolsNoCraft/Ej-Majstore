@@ -142,4 +142,5 @@ tips:
 - Biodekoracija enterijera – čist vazduh, bolji san
 tips_title: Oživite Vaš Prostor Tokom Cele Godine
 permalink: "/izvodjaci/zemun/green-inspiration-zemun-pejzazni-dizajn/"
+disable_seo: true
 ---

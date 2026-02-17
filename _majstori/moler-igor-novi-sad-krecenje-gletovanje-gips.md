@@ -175,4 +175,5 @@ tips:
 - Kalkulator na sajtu – tačna cena pre dolaska
 tips_title: Obezbedite da Vaši Zidovi Budu Savršeni narednih 20 Godina
 permalink: "/izvodjaci/novi-sad/moler-igor-novi-sad-krecenje-gletovanje-gips/"
+disable_seo: true
 ---

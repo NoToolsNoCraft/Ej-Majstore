@@ -177,4 +177,5 @@ tips:
 - Redovno održavanje poslovnih prostora – ugodan ambijent za zaposlene i klijente
 tips_title: Saveti za održavanje čistoće i svežine u domu i poslovnom prostoru
 permalink: "/izvodjaci/novi-sad/extra-clean-novi-sad-dubinsko-pranje-ciscenje-odrzavanje/"
+disable_seo: true
 ---

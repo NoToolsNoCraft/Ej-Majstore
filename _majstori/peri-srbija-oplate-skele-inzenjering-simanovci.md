@@ -233,4 +233,5 @@ tips:
 tips_title: '6 Praktičnih Saveta od PERI Srbija: Kako Optimizovati Gradilište uz Njihove
   Sisteme'
 permalink: "/izvodjaci/simanovci/peri-srbija-oplate-skele-inzenjering-simanovci/"
+disable_seo: true
 ---

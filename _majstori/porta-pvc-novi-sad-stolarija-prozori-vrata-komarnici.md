@@ -164,4 +164,5 @@ tips:
 - Ventilacioni uređaj – svež vazduh bez otvaranja
 tips_title: Kako da Vaš Dom Bude Topao, Tiha i Jeftiniji za Grejanje
 permalink: "/izvodjaci/novi-sad/porta-pvc-novi-sad-stolarija-prozori-vrata-komarnici/"
+disable_seo: true
 ---

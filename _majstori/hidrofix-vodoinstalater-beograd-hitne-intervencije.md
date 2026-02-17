@@ -115,4 +115,5 @@ tips:
 - Hitni poziv – manje štete, manji troškovi
 tips_title: Praktični Saveti Za Vodovod Bez Kvarova
 permalink: "/izvodjaci/beograd/hidrofix-vodoinstalater-beograd-hitne-intervencije/"
+disable_seo: true
 ---

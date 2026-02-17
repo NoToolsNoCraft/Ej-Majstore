@@ -116,4 +116,5 @@ tips:
 - Hitno – ne čekate danima
 tips_title: Kako da Kanalizacija Ne Pravi Haos
 permalink: "/izvodjaci/novi-sad/aqua-sever-clean-novi-sad-odgusenje/"
+disable_seo: true
 ---

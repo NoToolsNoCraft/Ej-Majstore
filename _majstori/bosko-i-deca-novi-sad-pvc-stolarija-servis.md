@@ -138,4 +138,5 @@ tips:
 - Garažna vrata – udobnost svaki dan
 tips_title: Kako da Vaša Stolarija Traje Duže
 permalink: "/izvodjaci/novi-sad/bosko-i-deca-novi-sad-pvc-stolarija-servis/"
+disable_seo: true
 ---

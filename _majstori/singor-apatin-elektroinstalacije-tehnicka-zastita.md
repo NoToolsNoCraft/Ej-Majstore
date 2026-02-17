@@ -207,4 +207,5 @@ tips:
 - Za svaki rad tražite atest i garanciju – to je vaš mir
 tips_title: Kako da Vaša Elektroinstalacija Traje Decenijama
 permalink: "/izvodjaci/apatin/singor-apatin-elektroinstalacije-tehnicka-zastita/"
+disable_seo: true
 ---

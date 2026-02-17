@@ -180,4 +180,5 @@ tips:
 - Čišćenje kamenca – sirće ili limunska kiselina svaka 3 meseca
 tips_title: Kako prepoznati kvalitetnu polovnu belu tehniku i održavati je
 permalink: "/izvodjaci/novi-sad/pedja-adice-servis-prodaja-bele-tehnike-novi-sad/"
+disable_seo: true
 ---

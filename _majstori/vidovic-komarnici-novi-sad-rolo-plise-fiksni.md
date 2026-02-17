@@ -194,4 +194,5 @@ tips:
 - Redovno čistite vodilice – sprečava zapinjanje
 tips_title: Kako da komarnici traju godinama
 permalink: "/izvodjaci/novi-sad/vidovic-komarnici-novi-sad-rolo-plise-fiksni/"
+disable_seo: true
 ---

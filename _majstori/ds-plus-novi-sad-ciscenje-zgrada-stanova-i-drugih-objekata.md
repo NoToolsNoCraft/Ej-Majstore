@@ -118,4 +118,5 @@ tips:
 - Mašinsko pranje – sjaj bez truda
 tips_title: Kako da Vaša Zgrada Uvek Bude Čista i Uredna
 permalink: "/izvodjaci/novi-sad/ds-plus-novi-sad-ciscenje-zgrada-stanova-i-drugih-objekata/"
+disable_seo: true
 ---

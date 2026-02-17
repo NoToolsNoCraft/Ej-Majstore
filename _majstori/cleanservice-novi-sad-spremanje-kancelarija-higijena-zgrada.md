@@ -142,4 +142,5 @@ tips:
 - Dogovor sa upravnikom – ključ za efikasno održavanje
 tips_title: Kako održavati čistoću u zgradi i kancelariji
 permalink: "/izvodjaci/novi-sad/cleanservice-novi-sad-spremanje-kancelarija-higijena-zgrada/"
+disable_seo: true
 ---

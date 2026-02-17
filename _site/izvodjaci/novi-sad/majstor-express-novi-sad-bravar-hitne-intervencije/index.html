@@ -27,25 +27,7 @@
     <meta name="google-site-verification" content="1lt1uogexF2ljjjZmDFaWqJIuWGMzu6tuyGUiQikg5w" />
     <meta name="apple-mobile-web-app-title" content="Ej Majstore!">
     
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete | Ej Majstore!</title>
-<meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete" />
-<meta name="author" content="Petar Škrbić" />
-<meta property="og:locale" content="sr_Latn_RS" />
-<meta name="description" content="Majstor Express – tim iskusnih majstora za hitne intervencije u Novom Sadu. Otvaranje vrata, zamena brava i cilindara, servis vrata. Dolazak za 30 minuta, 24/7. Kvalitetni delovi, garancija 2-5 godina. u Novi Sad, Liman, Detelinara, Telep, Petrovaradin, Sremska Kamenica, Veternik, Futog." />
-<meta property="og:description" content="Majstor Express – tim iskusnih majstora za hitne intervencije u Novom Sadu. Otvaranje vrata, zamena brava i cilindara, servis vrata. Dolazak za 30 minuta, 24/7. Kvalitetni delovi, garancija 2-5 godina. u Novi Sad, Liman, Detelinara, Telep, Petrovaradin, Sremska Kamenica, Veternik, Futog." />
-<link rel="canonical" href="https://ejmajstore.rs/izvodjaci/novi-sad/majstor-express-novi-sad-bravar-hitne-intervencije/" />
-<meta property="og:url" content="https://ejmajstore.rs/izvodjaci/novi-sad/majstor-express-novi-sad-bravar-hitne-intervencije/" />
-<meta property="og:site_name" content="Ej Majstore!" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-11-17T00:00:00+01:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Petar Škrbić"},"dateModified":"2025-11-17T00:00:00+01:00","datePublished":"2025-11-17T00:00:00+01:00","description":"Majstor Express – tim iskusnih majstora za hitne intervencije u Novom Sadu. Otvaranje vrata, zamena brava i cilindara, servis vrata. Dolazak za 30 minuta, 24/7. Kvalitetni delovi, garancija 2-5 godina. u Novi Sad, Liman, Detelinara, Telep, Petrovaradin, Sremska Kamenica, Veternik, Futog.","headline":"Majstor Express Novi Sad - Bravari Otvaraju Kad Vi Ne Možete","mainEntityOfPage":{"@type":"WebPage","@id":"https://ejmajstore.rs/izvodjaci/novi-sad/majstor-express-novi-sad-bravar-hitne-intervencije/"},"url":"https://ejmajstore.rs/izvodjaci/novi-sad/majstor-express-novi-sad-bravar-hitne-intervencije/"}</script>
-<!-- End Jekyll SEO tag -->
-
+    
     
     <!-- PRECONNECTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -534,6 +516,211 @@
     margin-left: 10px;
 }
 
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sticky-form-button {
+    display: block;
+  }
+}
+
+
+
+/* General Form Styles */
+.form-section {
+  background: #f9fafb;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border: 5px solid #ffae00;
+  border-radius: var(--radius-md, 0.375rem);
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form Messages */
+#form-success,
+#form-error {
+  transition: opacity 0.3s ease;
+}
+
+/* Form Elements */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+  color: #374151;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--secondary, #3b82f6);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+.form-group label {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.25rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label,
+.form-group input:focus + label,
+.form-group textarea:focus + label {
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  color: var(--secondary, #3b82f6);
+  background: #ffffff;
+  padding: 0 0.25rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Checkbox Group */
+.form-group[style*="flex"] {
+  margin-bottom: 1rem;
+}
+
+.form-group[style*="flex"] label {
+  position: static;
+  color: var(--gray, #6b7280);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-group[style*="flex"] a {
+  color: var(--secondary, #3b82f6);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.form-group[style*="flex"] a:hover {
+  color: darken(var(--secondary, #3b82f6), 10%);
+}
+
+/* Submit Button */
+#contact-form button {
+  background: var(--secondary, #3b82f6);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--radius-md, 0.375rem);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+
+
+#contact-form button:active {
+  transform: translateY(1px);
+}
+
+#contact-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.875rem 1rem;
+  }
+
+  #contact-form button {
+    padding: 0.875rem;
+  }
+
+  .sticky-form-button {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
 </style>
 
 <article class="majstor-story">
@@ -603,6 +790,8 @@
 
   
 
+  
+
   <!-- ==== DYNAMIC CONTENT SECTIONS ==== -->
   
     <p class="section-p">Ključ se slomio u bravi. Vrata se zaglavila u ponoć. Ili ste zaključali auto sa ključevima unutra. U tim trenucima, tim iskusnih majstora iz Majstor Express je tu da pomogne. Dolaze brzo, rade bez oštećenja i daju garanciju od 2 do 5 godina. Koriste proverene brendove poput Cisa, Mottura, Abus – i to 24/7, svaki dan.</p>
@@ -666,25 +855,29 @@
         <blockquote class="section-blockquote">
           <strong><a href="https://share.google/lIKZYnqshmnq3s4Yg" target="_blank" rel="nofollow">Miljan Jojić</a>:</strong> Свака част Немањи. Појавио се за 20 минута после поноћи. Цена коректна. Све препоруке.
         </blockquote>
-    
+
+      
   
     
         <blockquote class="section-blockquote">
           <strong><a href="https://share.google/1PBSKxHo69mEdTjYR" target="_blank" rel="nofollow">Aleksandar Radojčić</a>:</strong> Majstor za svaku pohvalu! Brz dogovor, kvalitetno urađeno. Preporuka.
         </blockquote>
-    
+
+      
   
     
         <blockquote class="section-blockquote">
           <strong><a href="https://share.google/la5UbZq6OlO1HksdQ" target="_blank" rel="nofollow">Marko Pekez</a>:</strong> Došao nedeljom u ponoć, odradio posao profesionalno i brzo. Svaka čast!
         </blockquote>
-    
+
+      
   
     
         <blockquote class="section-blockquote">
           <strong><a href="https://share.google/Rbd4uNJFwnp0m0lit" target="_blank" rel="nofollow">Zare Fiesta</a>:</strong> Jako zadovoljan brzinom, zamena brave odlična, vrata rade bez greške. Preporuka!
         </blockquote>
-    
+
+      
   
     <p class="section-p">Zaključani? Pozovite Majstor Express na <a href="tel:+381638210786"><strong>+381 63 821 0786</strong></a>. Više na <a href="https://majstor-express.rs/" target="_blank" rel="nofollow"><strong>majstor-express.rs</strong></a>.</p>
       
@@ -782,6 +975,8 @@
   </div>
 
 </article>
+
+
 
 
 

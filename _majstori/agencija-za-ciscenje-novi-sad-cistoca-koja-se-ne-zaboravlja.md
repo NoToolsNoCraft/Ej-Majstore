@@ -135,4 +135,5 @@ tips:
 - Dezinfekcija kupatila – zdravlje na prvom mestu
 tips_title: Trikovi za Čišći Dom Bez Mnogo Glavobolje
 permalink: "/izvodjaci/novi-sad/agencija-za-ciscenje-novi-sad-cistoca-koja-se-ne-zaboravlja/"
+disable_seo: true
 ---

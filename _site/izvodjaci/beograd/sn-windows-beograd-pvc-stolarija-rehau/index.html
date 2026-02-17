@@ -27,25 +27,7 @@
     <meta name="google-site-verification" content="1lt1uogexF2ljjjZmDFaWqJIuWGMzu6tuyGUiQikg5w" />
     <meta name="apple-mobile-web-app-title" content="Ej Majstore!">
     
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>SN Windows Beograd - PVC Stolarija Rehau | Ej Majstore!</title>
-<meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="SN Windows Beograd - PVC Stolarija Rehau" />
-<meta name="author" content="Petar Škrbić" />
-<meta property="og:locale" content="sr_Latn_RS" />
-<meta name="description" content="SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac). Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina na profil. Obrada špaletni, precizna montaža. u Beograd, Voždovac, Dušanovac, Konjarnik, Trošarina, Kumodraž, Jajinci, Braće Jerković, Šumice." />
-<meta property="og:description" content="SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac). Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina na profil. Obrada špaletni, precizna montaža. u Beograd, Voždovac, Dušanovac, Konjarnik, Trošarina, Kumodraž, Jajinci, Braće Jerković, Šumice." />
-<link rel="canonical" href="https://ejmajstore.rs/izvodjaci/beograd/sn-windows-beograd-pvc-stolarija-rehau/" />
-<meta property="og:url" content="https://ejmajstore.rs/izvodjaci/beograd/sn-windows-beograd-pvc-stolarija-rehau/" />
-<meta property="og:site_name" content="Ej Majstore!" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-12-24T00:00:00+01:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="SN Windows Beograd - PVC Stolarija Rehau" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Petar Škrbić"},"dateModified":"2025-12-24T00:00:00+01:00","datePublished":"2025-12-24T00:00:00+01:00","description":"SN Windows – specijalisti za Rehau PVC stolariju u Beogradu (Voždovac). Prozori i vrata sa 5–6 komora, dvoslojnim ili troslojnim staklom, garancija 10 godina na profil. Obrada špaletni, precizna montaža. u Beograd, Voždovac, Dušanovac, Konjarnik, Trošarina, Kumodraž, Jajinci, Braće Jerković, Šumice.","headline":"SN Windows Beograd - PVC Stolarija Rehau","mainEntityOfPage":{"@type":"WebPage","@id":"https://ejmajstore.rs/izvodjaci/beograd/sn-windows-beograd-pvc-stolarija-rehau/"},"url":"https://ejmajstore.rs/izvodjaci/beograd/sn-windows-beograd-pvc-stolarija-rehau/"}</script>
-<!-- End Jekyll SEO tag -->
-
+    
     
     <!-- PRECONNECTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -534,6 +516,211 @@
     margin-left: 10px;
 }
 
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sticky-form-button {
+    display: block;
+  }
+}
+
+
+
+/* General Form Styles */
+.form-section {
+  background: #f9fafb;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border: 5px solid #ffae00;
+  border-radius: var(--radius-md, 0.375rem);
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form Messages */
+#form-success,
+#form-error {
+  transition: opacity 0.3s ease;
+}
+
+/* Form Elements */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+  color: #374151;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--secondary, #3b82f6);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+.form-group label {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.25rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label,
+.form-group input:focus + label,
+.form-group textarea:focus + label {
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  color: var(--secondary, #3b82f6);
+  background: #ffffff;
+  padding: 0 0.25rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Checkbox Group */
+.form-group[style*="flex"] {
+  margin-bottom: 1rem;
+}
+
+.form-group[style*="flex"] label {
+  position: static;
+  color: var(--gray, #6b7280);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-group[style*="flex"] a {
+  color: var(--secondary, #3b82f6);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.form-group[style*="flex"] a:hover {
+  color: darken(var(--secondary, #3b82f6), 10%);
+}
+
+/* Submit Button */
+#contact-form button {
+  background: var(--secondary, #3b82f6);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--radius-md, 0.375rem);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+
+
+#contact-form button:active {
+  transform: translateY(1px);
+}
+
+#contact-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.875rem 1rem;
+  }
+
+  #contact-form button {
+    padding: 0.875rem;
+  }
+
+  .sticky-form-button {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
 </style>
 
 <article class="majstor-story">
@@ -595,10 +782,12 @@
   
   <div class="author-bio">
     <p><strong>Uredio:</strong> Petar Škrbić |
-      <strong>Ažurirano:</strong> 24. 12. 2025 |
+      <strong>Ažurirano:</strong> 16. 02. 2026 |
        <a href="/o-nama/">O autoru</a></p>
     <p>Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.</p>
   </div>
+  
+
   
 
   
@@ -622,6 +811,53 @@
   
     <p class="section-p">Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href="tel:+381114112136">011 411 2136</a> / <a href="tel:+381655450707">065 545 0707</a> / <a href="tel:+38162232475">062 232 475</a><br>📧 <strong>Mail:</strong> <a href="mailto:pvcstolarijarehau@gmail.com">pvcstolarijarehau@gmail.com</a><br>📍 <strong>Adresa:</strong> Husova 6, Voždovac</p>
       
+  
+    
+        <section id="form" class="form-section">
+          <div class="form-container">
+            <h2 id="form-title">Najbrže do ponude? Pišite Siniši, a on će vam rešiti sve nedoumice!</h2>
+
+            <div id="form-success" style="display:none; margin-top:2rem; padding:1.5rem; background:#ecfdf5; border-radius:var(--radius-md); color:#065f46; text-align:center; font-weight:700; font-size:1.15rem;">
+              ✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!
+            </div>
+            <div id="form-error" style="display:none; margin-top:2rem; padding:1.5rem; background:#fee2e2; border-radius:var(--radius-md); color:#991b1b; text-align:center; font-weight:700; font-size:1.15rem;">
+              ❌ Došlo je do greške. Molimo pokušajte ponovo.
+            </div>
+
+            <form id="contact-form" action="https://submit-form.com/NL4FHgWfW" method="POST">
+              <input type="hidden" name="_email.subject" value="SN Windows – PVC Stolarija Beograd">
+              
+              <input type="hidden" name="_append" value="false">
+              <input type="hidden" name="business" value="PVC Stolarija po meri SN Windows">
+              <input type="text" name="_honeypot" value="" style="display:none;">
+
+              <div class="form-group">
+                <input type="text" name="ime" id="ime" placeholder=" " required>
+                <label for="ime">Ime i prezime *</label>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+                <label for="telefon">Telefon (za kontakt) *</label>
+              </div>
+
+              <div class="form-group">
+                <textarea name="poruka" id="poruka" rows="5" placeholder=" "></textarea>
+                <label for="poruka">Šta vas zanima?</label>
+              </div>
+
+              <div class="form-group" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 2rem; text-align: left;">
+                <input type="checkbox" id="consent" name="consent_given" required style="width: 20px; height: 20px; cursor: pointer; accent-color: var(--secondary); margin-top: 4px;">
+                <label for="consent" style="position: static; font-size: 0.95rem; color: var(--gray); pointer-events: auto; cursor: pointer; line-height: 1.4;">
+                  Saglasan sam sa <a href="/politika-privatnosti/" target="_blank" style="color: var(--secondary); text-decoration: underline;">politikom privatnosti</a> i dajem dozvolu da me Siniša Milosavljević i SN Windows kontaktira povodom ovog upita.
+                </label>
+              </div>
+
+              <button type="submit">📞 Siniša pozovi me za dogovor!</button>
+            </form>
+          </div>
+        </section>
+    
   
     <h2 class="section-h2">Ponuda – Rehau Za Svaki Stan</h2>
       
@@ -647,13 +883,34 @@
     <p class="section-p">Po dogovoru – sve uredno.</p>
       
   
-    <h2 class="section-h2">Zašto SN Windows – Jer Znaju Rehau</h2>
+    <h2 class="section-h2">Bivši klijenti se ne stide da pohvale rad ove firme</h2>
       
   
-    <p class="section-p">Rehau nije jeftin – ali traje. Nema farbanja, nema deformacije, samo tišina i toplina.</p>
+    
+        <blockquote class="section-blockquote">
+          <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank" rel="nofollow">Zoran Cejic</a>:</strong> Ljudi za svaku pohvalu.Od prvog kontakta pa sve do postavljanja stolarije, izuzetan pristup pun postovanja prema klijentu.Odgovornost i strucnost izuzetna.Sve preporuke.
+        </blockquote>
+
       
   
-    <p class="section-p">Novi prozori? Pozovite SN Windows na <a href="tel:+381114112136"><strong>011 411 2136</strong></a>.</p>
+    
+        <blockquote class="section-blockquote">
+          <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank" rel="nofollow">Marina Cakarevic</a>:</strong> Za svaku preporuku! Sve je urađeno prema dogovoru i veoma uredno. Ekipa profesionalna i vesela :)
+        </blockquote>
+
+      
+  
+    
+        <blockquote class="section-blockquote">
+          <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank" rel="nofollow">Stevan Todorovic</a>:</strong> Saradnja za cistu 10ku! Od prvog kontakta, preko ponude, pa sve do realizacije sve proslo savrseno. Ispostovali sve, cak i pre roka. Iako slika govori vise od hiljadu reci, ovde ne moze dovoljno da opise sjajnu saradnju sa celom ekipom. Za svaku preporuku!
+        </blockquote>
+
+      
+  
+    <h2 class="section-h2">Zašto SN Windows: Jer Znaju Rehau</h2>
+      
+  
+    <p class="section-p">Rehau nije jeftin, ali traje. Nema farbanja, nema deformacije, samo tišina i toplina. Za one koji žele stolariju čiji je kvalitet srednje ime, onda više nema premišljanja.</p>
       
   
 
@@ -743,6 +1000,10 @@
 </article>
 
 
+<a href="#form-title" class="sticky-form-button">Pošalji Upit</a>
+
+
+
 
 <script>
   
@@ -776,6 +1037,74 @@ document.addEventListener("DOMContentLoaded", function() {
 
   </script>
 
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('contact-form');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg = document.getElementById('form-error');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // UI Feedback: Loading state
+      const btn = contactForm.querySelector('button');
+      const originalBtnText = btn.innerText;
+      btn.disabled = true;
+      btn.innerText = 'Slanje...';
+      
+      // Reset visibility for new attempt
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      // CRITICAL FIX: Convert FormData to a plain object for JSON submission
+      const formData = new FormData(contactForm);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          headers: { 
+            'Content-Type': 'application/json', // Tell the server we are sending JSON
+            'Accept': 'application/json'        // Tell the server we want JSON back
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          // 1. Success UI
+          successMsg.style.opacity = '0';
+          successMsg.style.display = 'block';
+          
+          // Smooth fade in
+          setTimeout(() => { successMsg.style.opacity = '1'; }, 10);
+          
+          // 2. Clear the form fields
+          contactForm.reset();
+          
+          // 3. Reset Button
+          btn.disabled = false;
+          btn.innerText = originalBtnText;
+
+          // 4. Scroll to the message
+          successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          // Capture response error details in console for debugging
+          const errorData = await response.json();
+          console.error('Formspark Error:', errorData);
+          throw new Error('Submission failed');
+        }
+      } catch (error) {
+        console.error('Network Error:', error);
+        errorMsg.style.display = 'block';
+        btn.disabled = false;
+        btn.innerText = originalBtnText;
+      }
+    });
+  }
+});
+</script>
 
 
 

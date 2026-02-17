@@ -123,4 +123,5 @@ tips:
 - Mere na licu mesta – sve tačno
 tips_title: Kako da Leto Bude Bez Zujanja
 permalink: "/izvodjaci/novi-sad/unoplast-novi-sad-komarnici-stolarija/"
+disable_seo: true
 ---

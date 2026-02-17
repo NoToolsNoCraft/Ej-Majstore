@@ -158,4 +158,5 @@ tips:
 - Silikon u uglovima – fleksibilno, bez pucanja
 tips_title: '6 Saveta od Keramičara Beograd: Kako da Vaše Pločice Traju Decenijama'
 permalink: "/izvodjaci/beograd/top-keramicar-beograd-postavljanje-plocica-renoviranje/"
+disable_seo: true
 ---

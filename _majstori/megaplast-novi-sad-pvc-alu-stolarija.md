@@ -127,4 +127,5 @@ tips:
 - Servis i posle – jer prozori žive duže
 tips_title: Trikovi Za Prozore Koji Ne Puštaju Hladnoću
 permalink: "/izvodjaci/novi-sad/megaplast-novi-sad-pvc-alu-stolarija/"
+disable_seo: true
 ---

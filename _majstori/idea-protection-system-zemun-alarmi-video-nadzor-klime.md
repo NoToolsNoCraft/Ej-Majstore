@@ -149,4 +149,5 @@ tips:
 - Servisirajte sistem godišnje – garancija traje duže
 tips_title: '6 Sigurnosnih Saveta: Kako da Vaš Dom Bude Bezbedan:'
 permalink: "/izvodjaci/zemun/idea-protection-system-zemun-alarmi-video-nadzor-klime/"
+disable_seo: true
 ---

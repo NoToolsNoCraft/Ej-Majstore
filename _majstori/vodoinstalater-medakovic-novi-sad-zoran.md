@@ -153,4 +153,5 @@ tips:
 - Snimanje cevi kamerom – otkriva skrivene probleme
 tips_title: Ključni saveti za održavanje vodovoda i grejanja
 permalink: "/izvodjaci/novi-sad/vodoinstalater-medakovic-novi-sad-zoran/"
+disable_seo: true
 ---

@@ -145,4 +145,5 @@ tips:
 - Trimerom kosite uveče – manje prašine, bolji rezultat
 tips_title: '6 Vikend Saveta: Kako da Vaš Dom Preživi Bez Kvara'
 permalink: "/izvodjaci/nis/hausmajstor-majstor-u-kuci-nis-popravke/"
+disable_seo: true
 ---

@@ -123,4 +123,5 @@ tips:
 - Hitni broj u telefonu – za svaki slučaj
 tips_title: Kako da Se Ne Zaključate Napolju
 permalink: "/izvodjaci/beograd/bravar-misa-beograd-hitne-intervencije/"
+disable_seo: true
 ---

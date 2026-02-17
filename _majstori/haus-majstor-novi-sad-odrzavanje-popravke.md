@@ -154,4 +154,5 @@ tips:
 - Tapete umesto boje – brže renoviranje, lakše održavanje
 tips_title: '6 Saveta od Haus Majstora: Kako da Vaš Stan Traje Bez Kvara'
 permalink: "/izvodjaci/novi-sad/haus-majstor-novi-sad-odrzavanje-popravke/"
+disable_seo: true
 ---

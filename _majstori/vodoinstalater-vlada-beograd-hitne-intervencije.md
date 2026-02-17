@@ -136,4 +136,5 @@ tips:
 - Fer cene – bez iznenađenja
 tips_title: Kako da Voda Ne Pravi Problema
 permalink: "/izvodjaci/beograd/vodoinstalater-vlada-beograd-hitne-intervencije/"
+disable_seo: true
 ---

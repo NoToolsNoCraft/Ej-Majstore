@@ -186,4 +186,5 @@ tips:
 - Termostat na radijatoru – ušteda 20% na grejanju
 tips_title: Kako da Vaše Kupatilo i Grejanje Traju Decenijama
 permalink: "/izvodjaci/novi-sad/vodoinstalater-misko-novi-sad-centralno-grejanje-kupatilo-bojler/"
+disable_seo: true
 ---

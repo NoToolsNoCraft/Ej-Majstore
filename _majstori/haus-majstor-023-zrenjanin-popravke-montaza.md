@@ -148,4 +148,5 @@ tips:
 - Bušenje fi-120 – ventilacija bez buke i mirisa
 tips_title: Sačuvajte svoj dom od neplaniranih kvarova
 permalink: "/izvodjaci/zrenjanin/haus-majstor-023-zrenjanin-popravke-montaza/"
+disable_seo: true
 ---

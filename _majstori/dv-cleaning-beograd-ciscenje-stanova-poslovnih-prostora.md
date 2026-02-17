@@ -157,4 +157,5 @@ tips:
 - Ako imate kućne ljubimce – tražite hipoalergenu hemiju
 tips_title: Kako da Vaše Čišćenje Bude Brže i Jeftinije
 permalink: "/izvodjaci/novi-beograd/dv-cleaning-beograd-ciscenje-stanova-poslovnih-prostora/"
+disable_seo: true
 ---

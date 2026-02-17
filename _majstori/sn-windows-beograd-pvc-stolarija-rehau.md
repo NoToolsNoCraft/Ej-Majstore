@@ -33,7 +33,7 @@ author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-24'
-last_modified: '2025-12-24'
+last_modified: '2026-02-16'
 sections:
 - type: p
   content: <a href="/pvc-stolarija-beograd/">PVC Stolarija Beograd</a> › SN Windows
@@ -57,6 +57,18 @@ sections:
     411 2136</a> / <a href=\"tel:+381655450707\">065 545 0707</a> / <a href=\"tel:+38162232475\">062
     232 475</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:pvcstolarijarehau@gmail.com\">pvcstolarijarehau@gmail.com</a><br>\U0001F4CD
     <strong>Adresa:</strong> Husova 6, Voždovac"
+- type: contact_form
+  title: Najbrže do ponude? Pišite Siniši, a on će vam rešiti sve nedoumice!
+  success_message: "✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!"
+  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
+  action: https://submit-form.com/NL4FHgWfW
+  email_subject: SN Windows – PVC Stolarija Beograd
+  business: PVC Stolarija po meri SN Windows
+  label_name: Ime i prezime *
+  label_phone: Telefon (za kontakt) *
+  label_message: Šta vas zanima?
+  label_consent: Siniša Milosavljević i SN Windows
+  button_text: "\U0001F4DE Siniša pozovi me za dogovor!"
 - type: h2
   content: Ponuda – Rehau Za Svaki Stan
 - type: p
@@ -74,13 +86,28 @@ sections:
 - type: p
   content: Po dogovoru – sve uredno.
 - type: h2
-  content: Zašto SN Windows – Jer Znaju Rehau
+  content: Bivši klijenti se ne stide da pohvale rad ove firme
+- type: blockquote
+  content: <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank"
+    rel="nofollow">Zoran Cejic</a>:</strong> Ljudi za svaku pohvalu.Od prvog kontakta
+    pa sve do postavljanja stolarije, izuzetan pristup pun postovanja prema klijentu.Odgovornost
+    i strucnost izuzetna.Sve preporuke.
+- type: blockquote
+  content: <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank"
+    rel="nofollow">Marina Cakarevic</a>:</strong> Za svaku preporuku! Sve je urađeno
+    prema dogovoru i veoma uredno. Ekipa profesionalna i vesela :)
+- type: blockquote
+  content: <strong><a href="https://share.google/RDj0AmuemeR9ygpcn" target="_blank"
+    rel="nofollow">Stevan Todorovic</a>:</strong> Saradnja za cistu 10ku! Od prvog
+    kontakta, preko ponude, pa sve do realizacije sve proslo savrseno. Ispostovali
+    sve, cak i pre roka. Iako slika govori vise od hiljadu reci, ovde ne moze dovoljno
+    da opise sjajnu saradnju sa celom ekipom. Za svaku preporuku!
+- type: h2
+  content: 'Zašto SN Windows: Jer Znaju Rehau'
 - type: p
-  content: Rehau nije jeftin – ali traje. Nema farbanja, nema deformacije, samo tišina
-    i toplina.
-- type: p
-  content: Novi prozori? Pozovite SN Windows na <a href="tel:+381114112136"><strong>011
-    411 2136</strong></a>.
+  content: Rehau nije jeftin, ali traje. Nema farbanja, nema deformacije, samo tišina
+    i toplina. Za one koji žele stolariju čiji je kvalitet srednje ime, onda više
+    nema premišljanja.
 services:
 - title: PVC Prozori Rehau
   description: 5–7 komora, dvoslojno/troslojno staklo.
@@ -111,4 +138,5 @@ tips:
 - Niskoemisiono staklo – toplije zimi, hladnije leti
 tips_title: Kako da Prozori Ne Troše Novac
 permalink: "/izvodjaci/beograd/sn-windows-beograd-pvc-stolarija-rehau/"
+disable_seo: true
 ---

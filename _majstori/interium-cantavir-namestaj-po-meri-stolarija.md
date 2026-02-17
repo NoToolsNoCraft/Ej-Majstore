@@ -165,4 +165,5 @@ tips:
 - Redovno održavajte lak – nameštaj traje duplo duže
 tips_title: '7 Stolarskih Saveta: Kako da Vaš Nameštaj Bude Funkcionalan i Lep Decenijama'
 permalink: "/izvodjaci/cantavir/interium-cantavir-namestaj-po-meri-stolarija/"
+disable_seo: true
 ---

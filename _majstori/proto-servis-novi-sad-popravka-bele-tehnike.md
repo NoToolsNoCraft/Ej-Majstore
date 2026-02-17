@@ -155,4 +155,5 @@ tips:
 - Račun čuvajte – koristite garanciju, bilo da je 6–12 meseci
 tips_title: Neka Vaš Frižider Hladi, a Mašina Ne Skače
 permalink: "/izvodjaci/novi-sad/proto-servis-novi-sad-popravka-bele-tehnike/"
+disable_seo: true
 ---

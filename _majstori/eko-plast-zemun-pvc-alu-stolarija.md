@@ -150,4 +150,5 @@ tips:
 - RAL boje – prozori koji se uklapaju u fasadu
 tips_title: Kako da Vaš Dom Bude Topao, Tiš i Bez Insekata
 permalink: "/izvodjaci/zemun/eko-plast-zemun-pvc-alu-stolarija/"
+disable_seo: true
 ---

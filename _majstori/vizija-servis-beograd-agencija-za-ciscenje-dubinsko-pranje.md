@@ -196,4 +196,5 @@ tips:
 - Redovno održavanje – 20% jeftinije, uvek čisto
 tips_title: Neka Vaš Prostor Budi Svež i Bez Neprijatnih Mirisa
 permalink: "/izvodjaci/beograd/vizija-servis-beograd-agencija-za-ciscenje-dubinsko-pranje/"
+disable_seo: true
 ---

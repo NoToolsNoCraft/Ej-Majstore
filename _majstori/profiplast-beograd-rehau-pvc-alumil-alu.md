@@ -129,4 +129,5 @@ tips:
 - Garancija na Rehau – jer kvalitet traje
 tips_title: Kako da Vaši Prozori Ne Troše, Već Štede
 permalink: "/izvodjaci/beograd/profiplast-beograd-rehau-pvc-alumil-alu/"
+disable_seo: true
 ---

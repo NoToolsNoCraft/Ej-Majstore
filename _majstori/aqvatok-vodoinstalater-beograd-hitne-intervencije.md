@@ -127,4 +127,5 @@ tips:
 - 24h – jer kvarovi ne čekaju radno vreme
 tips_title: Kako da Voda Ne Pravi Probleme
 permalink: "/izvodjaci/beograd/aqvatok-vodoinstalater-beograd-hitne-intervencije/"
+disable_seo: true
 ---

@@ -208,4 +208,5 @@ tips:
 - Redovno održavanje – set za čišćenje produžava vek
 tips_title: Kako da Vaši Prozori Štede Novac i Nerve
 permalink: "/izvodjaci/subotica/joviste-palic-pvc-alu-stolarija-prozori-vrata/"
+disable_seo: true
 ---

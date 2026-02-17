@@ -148,4 +148,5 @@ tips:
 - Čišćenje nakon radova – brzo uklonite prašinu
 tips_title: Kako da Vaš Dom Uvek Miriše Na Sveže
 permalink: "/izvodjaci/beograd/vrednica-agencija-ciscenje-beograd/"
+disable_seo: true
 ---

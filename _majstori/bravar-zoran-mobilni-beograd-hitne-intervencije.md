@@ -167,4 +167,5 @@ tips:
 - Čuvajte rezervni ključ kod poverljive osobe
 tips_title: Kako postupiti kada se zaglavi ključ ili zaključate vrata
 permalink: "/izvodjaci/beograd/bravar-zoran-mobilni-beograd-hitne-intervencije/"
+disable_seo: true
 ---

@@ -117,4 +117,5 @@ tips:
 - Lični pristup – jer svaki dom je poseban
 tips_title: Kako da Vaš Dom Zablista Bez Mnogo Muke
 permalink: "/izvodjaci/novi-sad/aleksandra-clean-ciscenje-novi-sad/"
+disable_seo: true
 ---

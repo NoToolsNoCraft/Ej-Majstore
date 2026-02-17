@@ -27,25 +27,7 @@
     <meta name="google-site-verification" content="1lt1uogexF2ljjjZmDFaWqJIuWGMzu6tuyGUiQikg5w" />
     <meta name="apple-mobile-web-app-title" content="Ej Majstore!">
     
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Hidra Vodoinstalater Beograd - Hitne Intervencije | Ej Majstore!</title>
-<meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Hidra Vodoinstalater Beograd - Hitne Intervencije" />
-<meta name="author" content="Petar Škrbić" />
-<meta property="og:locale" content="sr_Latn_RS" />
-<meta name="description" content="Hidra – vodoinstalater Beograd sa hitnim intervencijama 24h. Odgušenje kanalizacije motornim sajlama, zamena bojlera, slavina, sanitarija – dolazak 20–40 minuta, plaćanje preko računa. u Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara, Palilula, Čukarica, Rakovica, Stari Grad." />
-<meta property="og:description" content="Hidra – vodoinstalater Beograd sa hitnim intervencijama 24h. Odgušenje kanalizacije motornim sajlama, zamena bojlera, slavina, sanitarija – dolazak 20–40 minuta, plaćanje preko računa. u Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara, Palilula, Čukarica, Rakovica, Stari Grad." />
-<link rel="canonical" href="https://ejmajstore.rs/izvodjaci/beograd/hidra-vodoinstalater-beograd-hitne-intervencije/" />
-<meta property="og:url" content="https://ejmajstore.rs/izvodjaci/beograd/hidra-vodoinstalater-beograd-hitne-intervencije/" />
-<meta property="og:site_name" content="Ej Majstore!" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-12-28T00:00:00+01:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Hidra Vodoinstalater Beograd - Hitne Intervencije" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Petar Škrbić"},"dateModified":"2025-12-28T00:00:00+01:00","datePublished":"2025-12-28T00:00:00+01:00","description":"Hidra – vodoinstalater Beograd sa hitnim intervencijama 24h. Odgušenje kanalizacije motornim sajlama, zamena bojlera, slavina, sanitarija – dolazak 20–40 minuta, plaćanje preko računa. u Beograd, Novi Beograd, Zemun, Vračar, Voždovac, Zvezdara, Palilula, Čukarica, Rakovica, Stari Grad.","headline":"Hidra Vodoinstalater Beograd - Hitne Intervencije","mainEntityOfPage":{"@type":"WebPage","@id":"https://ejmajstore.rs/izvodjaci/beograd/hidra-vodoinstalater-beograd-hitne-intervencije/"},"url":"https://ejmajstore.rs/izvodjaci/beograd/hidra-vodoinstalater-beograd-hitne-intervencije/"}</script>
-<!-- End Jekyll SEO tag -->
-
+    
     
     <!-- PRECONNECTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -534,6 +516,211 @@
     margin-left: 10px;
 }
 
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sticky-form-button {
+    display: block;
+  }
+}
+
+
+
+/* General Form Styles */
+.form-section {
+  background: #f9fafb;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border: 5px solid #ffae00;
+  border-radius: var(--radius-md, 0.375rem);
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form Messages */
+#form-success,
+#form-error {
+  transition: opacity 0.3s ease;
+}
+
+/* Form Elements */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+  color: #374151;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--secondary, #3b82f6);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+.form-group label {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.25rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label,
+.form-group input:focus + label,
+.form-group textarea:focus + label {
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  color: var(--secondary, #3b82f6);
+  background: #ffffff;
+  padding: 0 0.25rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Checkbox Group */
+.form-group[style*="flex"] {
+  margin-bottom: 1rem;
+}
+
+.form-group[style*="flex"] label {
+  position: static;
+  color: var(--gray, #6b7280);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-group[style*="flex"] a {
+  color: var(--secondary, #3b82f6);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.form-group[style*="flex"] a:hover {
+  color: darken(var(--secondary, #3b82f6), 10%);
+}
+
+/* Submit Button */
+#contact-form button {
+  background: var(--secondary, #3b82f6);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--radius-md, 0.375rem);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+
+
+#contact-form button:active {
+  transform: translateY(1px);
+}
+
+#contact-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.875rem 1rem;
+  }
+
+  #contact-form button {
+    padding: 0.875rem;
+  }
+
+  .sticky-form-button {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
 </style>
 
 <article class="majstor-story">
@@ -599,6 +786,8 @@
        <a href="/o-nama/">O autoru</a></p>
     <p>Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.</p>
   </div>
+  
+
   
 
   
@@ -750,6 +939,8 @@
   </div>
 
 </article>
+
+
 
 
 

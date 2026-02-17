@@ -663,42 +663,65 @@ footer {
       </div>
     </div>
 
-    <!-- Contact Form -->
-    <div class="form-container">
-      <h2 id="form" style="text-align:center; color:var(--primary); margin-bottom:2rem;">
-        Popunite kratku formu i dobijate Rolometal ponudu za 15 minuta!
-      </h2>
+    <div class="form-container" style="border: 4px solid var(--primary); background: #ffffff;">
+    <div style="text-align: center; margin-bottom: 2rem;">
+        <h2 id="form" style="color:var(--primary); margin-bottom:0.5rem;">
+            Zakažite besplatno merenje i ostvarite popust
+        </h2>
+        <p style="color: #666; font-weight: 500;">
+            📍 Rolometal Subotica – Aktuelno: Još 4 slobodna termina za ovaj mesec.
+        </p>
+    </div>
 
-      <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
+    <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="Rolometal Subotica – PVC kalkulator">
-        <input type="hidden" name="_autoresponse" value="Hvala! Rolometal će Vas kontaktirati za 24h sa tačnom ponudom.">
+        <input type="hidden" name="_subject" value="Rolometal Subotica – Upit za ponudu">
         <input type="hidden" name="calc_total" id="form_total">
         <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}">
-        <input type="hidden" name="page_title" value="{{ page.title }}">
 
-        <div class="form-group">
-          <input type="text" name="ime" id="ime" placeholder=" " required>
-          <label for="ime">Ime i prezime *</label>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.5rem;">
+            <div class="form-group" style="margin-bottom: 0;">
+                <select name="hitnost" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
+                    <option value="" disabled selected>Kada planirate radove?</option>
+                    <option value="Hitno">Što pre (u narednih 15 dana)</option>
+                    <option value="Mesec dana">U narednih mesec dana</option>
+                    <option value="Planiranje">Samo proveravam cene</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+                <select name="vrsta_objekta" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
+                    <option value="" disabled selected>Tip objekta?</option>
+                    <option value="Stan">Stan (stara gradnja)</option>
+                    <option value="Kuća">Porodična kuća</option>
+                    <option value="Novogradnja">Novogradnja</option>
+                </select>
+            </div>
         </div>
 
         <div class="form-group">
-          <input type="tel" name="telefon" id="telefon" placeholder=" " required>
-          <label for="telefon">Telefon (obavezno) *</label>
+            <input type="text" name="ime" id="ime" placeholder=" " required>
+            <label for="ime">Vaše ime i prezime *</label>
         </div>
 
         <div class="form-group">
-          <textarea name="poruka" id="poruka" rows="4"></textarea>
-          <label for="poruka">Vaša poruka / napomene (opciono)</label>
+            <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+            <label for="telefon">Telefon (Viber ili WhatsApp) *</label>
         </div>
 
-        <button type="submit">🚀 Neka me kontaktira Rolometal sa tačnom cenom!</button>
+       
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <button type="submit" style="background: var(--primary); font-size: 1.2rem;">
+                🚀 POŠALJI ZAHTEV ZA PONUDU
+            </button>
+            
+        </div>
 
         <div id="form-success" class="form-notification" style="display: none;">
-          ✅ Uspešno poslato! Rolometal će Vas kontaktirati u narednih 24h.
+            ✅ Zahtev primljen! Rolometal će Vas kontaktirati ubrzo sa preciznom ponudom.
         </div>
-      </form>
-    </div>
+    </form>
+</div>
 
     <!-- Price Table -->
     <div class="table-wrapper">

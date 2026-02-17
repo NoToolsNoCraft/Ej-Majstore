@@ -150,4 +150,5 @@ tips:
 - Projektant na terenu – tačne mere, bolji dizajn
 tips_title: Kako da Vaša Kuhinja Bude Funkcionalna i Lepa
 permalink: "/izvodjaci/novi-sad/temma-trade-novi-sad-kuhinje-po-meri/"
+disable_seo: true
 ---

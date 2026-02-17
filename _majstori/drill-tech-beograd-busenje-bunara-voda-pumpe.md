@@ -151,4 +151,5 @@ tips:
 - Godišnja kontrola – protok uvek stabilan
 tips_title: Kako funkcioniše bušenje bunara u osnovnim crtama
 permalink: "/izvodjaci/beograd/drill-tech-beograd-busenje-bunara-voda-pumpe/"
+disable_seo: true
 ---

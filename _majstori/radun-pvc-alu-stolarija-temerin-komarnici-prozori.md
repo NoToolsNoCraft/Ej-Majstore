@@ -172,4 +172,5 @@ tips:
 - Merite dva puta – greška košta montažu
 tips_title: Kako da Vaši Prozori i Vrata Traju 20+ Godina
 permalink: "/izvodjaci/temerin/radun-pvc-alu-stolarija-temerin-komarnici-prozori/"
+disable_seo: true
 ---

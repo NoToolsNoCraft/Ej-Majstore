@@ -163,4 +163,5 @@ tips:
 - Redovno krečenje svake 3–5 godina produžava vek zidova
 tips_title: Kako pripremiti prostor za molerske radove i uštedeti vreme
 permalink: "/izvodjaci/beograd/moler-011-beograd-zavrsni-unutrasnji-radovi-dekorativne-tehnike/"
+disable_seo: true
 ---

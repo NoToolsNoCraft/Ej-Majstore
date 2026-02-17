@@ -150,4 +150,5 @@ tips:
 - Obučite tim – efikasnost raste 30%
 tips_title: 6 ULMA Saveta za Efikasniju i Bezbedniju Gradnju
 permalink: "/izvodjaci/beograd/ulma-construction-oplate-skele-inzenjering-srbija/"
+disable_seo: true
 ---

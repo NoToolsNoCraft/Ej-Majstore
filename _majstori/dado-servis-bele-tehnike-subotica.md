@@ -127,4 +127,5 @@ tips:
 - Kod ugradnje klime insistirajte na profesionalnom vakumiranju i pravilnoj izolaciji
 tips_title: Brzi saveti za održavanje bele tehnike i klima uređaja
 permalink: "/izvodjaci/subotica/dado-servis-bele-tehnike-subotica/"
+disable_seo: true
 ---

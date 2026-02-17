@@ -27,7 +27,9 @@
     <meta name="google-site-verification" content="1lt1uogexF2ljjjZmDFaWqJIuWGMzu6tuyGUiQikg5w" />
     <meta name="apple-mobile-web-app-title" content="Ej Majstore!">
     
-    {% seo %}
+    {% unless page.disable_seo %}
+      {% seo %}
+    {% endunless %}
     
     <!-- PRECONNECTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

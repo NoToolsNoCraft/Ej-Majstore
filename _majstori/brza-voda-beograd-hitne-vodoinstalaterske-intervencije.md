@@ -121,4 +121,5 @@ tips:
 - Garancija na rad – sigurnost posle intervencije
 tips_title: Praktični Trikovi Protiv Vodovodnih Kvarova
 permalink: "/izvodjaci/beograd/brza-voda-beograd-hitne-vodoinstalaterske-intervencije/"
+disable_seo: true
 ---

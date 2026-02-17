@@ -152,4 +152,5 @@ tips:
 - RAL boje – kuhinja u vašoj omiljenoj nijansi
 tips_title: Kako Odabrati PVC Prozore Koji Traju
 permalink: "/izvodjaci/novi-sad/marnivi-novi-sad-pvc-alu-stolarija/"
+disable_seo: true
 ---

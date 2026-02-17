@@ -185,4 +185,5 @@ tips:
 - Gips-karton za pregrade – brzo i bez prašine
 tips_title: Saveti za brzu i efikasnu adaptaciju
 permalink: "/izvodjaci/beograd/vk-inzenjering-beograd-adaptacija/"
+disable_seo: true
 ---

@@ -169,4 +169,5 @@ tips:
 - Čišćenje nakon rada – nema šuta, samo čistoća
 tips_title: Kako da Vaš Dom Bude Bezbedan i Moderan
 permalink: "/izvodjaci/beograd/haus-majstor-winner-srbija-popravke-renoviranje/"
+disable_seo: true
 ---

@@ -129,4 +129,5 @@ tips:
 - Mere uzimajte sa majstorom – sprečite kasnije probleme
 tips_title: Kako odabrati pravu stolariju za vaš dom
 permalink: "/izvodjaci/backo-dusanovo/cantaplast-backo-dusanovo-pvc-drvena-stolarija/"
+disable_seo: true
 ---

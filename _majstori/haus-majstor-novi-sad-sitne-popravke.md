@@ -145,4 +145,5 @@ tips:
 - Punjenje grejanja pre zime – bez mehurića i buke
 tips_title: Spisak stvari koje redovno proveravajte u kući
 permalink: "/izvodjaci/novi-sad/haus-majstor-novi-sad-sitne-popravke/"
+disable_seo: true
 ---

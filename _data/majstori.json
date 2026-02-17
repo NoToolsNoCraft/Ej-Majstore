@@ -36,6 +36,7 @@
       "type": "p",
       "content": "Specijalnost: <a href=\"/zastakljivanje-terasa-novi-sad/\">zastakljivanje terasa</a> – dodatni prostor cele godine, sa maksimalnom izolacijom."
     },
+   
     {
       "type": "h2",
       "content": "Ukras PVC – Kvalitet Na Prvom Mestu"
@@ -3953,7 +3954,7 @@
   "author_slug": "petar-skrbic",
   "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
-  "last_modified": "2025-12-24",
+  "last_modified": "2026-02-16",
   "tips_title": "Kako da Prozori Ne Troše Novac",
   "tips": [
     "Troslojno staklo – računi manji za trećinu",
@@ -3988,6 +3989,20 @@
       "content": "Pozovite za merenje:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381114112136\">011 411 2136</a> / <a href=\"tel:+381655450707\">065 545 0707</a> / <a href=\"tel:+38162232475\">062 232 475</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:pvcstolarijarehau@gmail.com\">pvcstolarijarehau@gmail.com</a><br>📍 <strong>Adresa:</strong> Husova 6, Voždovac"
     },
     {
+    "type": "contact_form",
+    "title": "Najbrže do ponude? Pišite Siniši, a on će vam rešiti sve nedoumice!",
+    "success_message": "✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!",
+    "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+    "action": "https://submit-form.com/NL4FHgWfW",
+    "email_subject": "SN Windows – PVC Stolarija Beograd",
+    "business": "PVC Stolarija po meri SN Windows",
+    "label_name": "Ime i prezime *",
+    "label_phone": "Telefon (za kontakt) *",
+    "label_message": "Šta vas zanima?",
+    "label_consent": "Siniša Milosavljević i SN Windows",
+    "button_text": "📞 Siniša pozovi me za dogovor!"
+    },
+    {
       "type": "h2",
       "content": "Ponuda – Rehau Za Svaki Stan"
     },
@@ -4019,18 +4034,34 @@
       "type": "p",
       "content": "Po dogovoru – sve uredno."
     },
+
     {
       "type": "h2",
-      "content": "Zašto SN Windows – Jer Znaju Rehau"
+      "content": "Bivši klijenti se ne stide da pohvale rad ove firme"
+    },
+
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/RDj0AmuemeR9ygpcn\" target=\"_blank\" rel=\"nofollow\">Zoran Cejic</a>:</strong> Ljudi za svaku pohvalu.Od prvog kontakta pa sve do postavljanja stolarije, izuzetan pristup pun postovanja prema klijentu.Odgovornost i strucnost izuzetna.Sve preporuke."
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/RDj0AmuemeR9ygpcn\" target=\"_blank\" rel=\"nofollow\">Marina Cakarevic</a>:</strong> Za svaku preporuku! Sve je urađeno prema dogovoru i veoma uredno. Ekipa profesionalna i vesela :)"
+    },
+    {
+      "type": "blockquote",
+      "content": "<strong><a href=\"https://share.google/RDj0AmuemeR9ygpcn\" target=\"_blank\" rel=\"nofollow\">Stevan Todorovic</a>:</strong> Saradnja za cistu 10ku! Od prvog kontakta, preko ponude, pa sve do realizacije sve proslo savrseno. Ispostovali sve, cak i pre roka. Iako slika govori vise od hiljadu reci, ovde ne moze dovoljno da opise sjajnu saradnju sa celom ekipom. Za svaku preporuku!"
+    },
+    
+    {
+      "type": "h2",
+      "content": "Zašto SN Windows: Jer Znaju Rehau"
     },
     {
       "type": "p",
-      "content": "Rehau nije jeftin – ali traje. Nema farbanja, nema deformacije, samo tišina i toplina."
-    },
-    {
-      "type": "p",
-      "content": "Novi prozori? Pozovite SN Windows na <a href=\"tel:+381114112136\"><strong>011 411 2136</strong></a>."
+      "content": "Rehau nije jeftin, ali traje. Nema farbanja, nema deformacije, samo tišina i toplina. Za one koji žele stolariju čiji je kvalitet srednje ime, onda više nema premišljanja."
     }
+    
   ],
   "services": [
     {
@@ -6423,7 +6454,7 @@
     },
     {
       "type": "p",
-      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv/Viber/WhatsApp:</strong> <a href=\"tel:+381653355330\">+381 65 33 55 330</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@mojstolar.rs\">office@mojstolar.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://mojstolar.rs/\" target=\"_blank\">mojstolar.rs</a>"
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv/Viber/WhatsApp:</strong> <a href=\"tel:+381653355330\">+381 65 33 55 330</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:office@mojstolar.rs\">office@mojstolar.rs</a>"
     },
     {
       "type": "h2",
@@ -6508,11 +6539,8 @@
     {
       "type": "p",
       "content": "Lokalna proizvodnja u Novom Sadu – brže, jeftinije, bolje. Montaža od strane najboljih stolara. Kalkulator cene na sajtu – znate tačno šta plaćate."
-    },
-    {
-      "type": "p",
-      "content": "Kuhinja iz snova? Zatražite ponudu na <a href=\"https://mojstolar.rs/\" target=\"_blank\" rel=\"nofollow\"><strong>mojstolar.rs</strong></a> ili pozovite <a href=\"tel:+381653355330\"><strong>+381 65 33 55 330</strong></a>."
     }
+    
   ],
   "services": [
     {
@@ -7207,7 +7235,7 @@
     },
     {
       "type": "p",
-      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381654259508\">+381 65 425 9508</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@perfektno-cisto.rs\">kontakt@perfektno-cisto.rs</a><br>🌐 <strong>Website:</strong> <a href=\"https://perfektno-cisto.rs/\" target=\"_blank\" rel=\"nofollow\">perfektno-cisto.rs</a><br>📍 <strong>Adresa:</strong> Hercegovačka 16, Beograd 11000"
+      "content": "Kontaktirajte ih odmah:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+381654259508\">+381 65 425 9508</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:kontakt@perfektno-cisto.rs\">kontakt@perfektno-cisto.rs</a><br>📍 <strong>Adresa:</strong> Hercegovačka 16, Beograd 11000"
     },
     {
       "type": "h2",
@@ -7413,7 +7441,7 @@
     },
     {
       "type": "p",
-      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163568011\">+381 63 568 011</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:koralsu@gmail.com\">koralsu@gmail.com</a><br>🌐 <strong>Website:</strong> <a href=\"https://koralsu.rs/\" target=\"_blank\">koralsu.rs</a><br>📍 <strong>Područje:</strong> Subotica i Srbija"
+      "content": "Kontaktirajte ih za ponudu:<br>📞 <strong>Poziv:</strong> <a href=\"tel:+38163568011\">+381 63 568 011</a><br>📧 <strong>Mail:</strong> <a href=\"mailto:koralsu@gmail.com\">koralsu@gmail.com</a><br>📍 <strong>Područje:</strong> Subotica i Srbija"
     },
     {
       "type": "h2",

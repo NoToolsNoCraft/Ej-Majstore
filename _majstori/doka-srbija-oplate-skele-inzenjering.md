@@ -152,4 +152,5 @@ tips:
 - Iznajmite opremu – ne morate sve kupovati
 tips_title: 6 Saveta za Bezbednu i Brzu Gradnju
 permalink: "/izvodjaci/simanovci/doka-srbija-oplate-skele-inzenjering/"
+disable_seo: true
 ---

@@ -145,4 +145,5 @@ tips:
 - Lajsna 8cm – elegantan završetak, bez prašine
 tips_title: Aplicirajte parket na najbolji način
 permalink: "/izvodjaci/nova-pazova/parketar-ivanic-nova-pazova-30-godina-tradicije/"
+disable_seo: true
 ---

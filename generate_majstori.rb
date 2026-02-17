@@ -86,6 +86,7 @@ data.each do |majstor|
     'tips_title'     => majstor['tips_title'],
     'permalink'      => "/izvodjaci/#{slugify(mesto_arr.first)}/#{slugify(majstor['slug'])}/",
     'sections'       => sections,
+    'disable_seo'    => true
   }
 
   file_name = "#{majstor['slug']}.md"

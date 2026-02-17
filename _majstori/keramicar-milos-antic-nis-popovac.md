@@ -139,4 +139,5 @@ tips:
 - Ekspertni savet pre kupovine – štedi novac i vreme
 tips_title: Produžite životni vek pločica uz nekoliko saveta
 permalink: "/izvodjaci/nis/keramicar-milos-antic-nis-popovac/"
+disable_seo: true
 ---

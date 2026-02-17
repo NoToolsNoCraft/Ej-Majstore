@@ -165,4 +165,5 @@ tips:
 - Pranje visokih stakala – bezbedno i efikasno
 tips_title: Zašto je Profesionalno Čišćenje Bolje Od Samostalnog
 permalink: "/izvodjaci/beograd/as-clean-agencija-ciscenje-beograd/"
+disable_seo: true
 ---

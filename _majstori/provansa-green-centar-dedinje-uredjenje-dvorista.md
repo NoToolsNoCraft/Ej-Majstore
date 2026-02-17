@@ -138,4 +138,5 @@ tips:
 - Senzorsko zalivanje – voda samo kad treba
 tips_title: Kako savršeno izvesti sadnju i uređenje dvorišta
 permalink: "/izvodjaci/beograd/provansa-green-centar-dedinje-uredjenje-dvorista/"
+disable_seo: true
 ---

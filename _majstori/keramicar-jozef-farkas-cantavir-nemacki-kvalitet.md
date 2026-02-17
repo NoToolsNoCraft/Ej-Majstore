@@ -152,4 +152,5 @@ tips:
 - Silikon umesto fug mase u uglovima – fleksibilnost
 tips_title: '6 Trikova: Kako da Vaše Pločice Budu Ravne i Vodootporne'
 permalink: "/izvodjaci/cantavir/keramicar-jozef-farkas-cantavir-nemacki-kvalitet/"
+disable_seo: true
 ---

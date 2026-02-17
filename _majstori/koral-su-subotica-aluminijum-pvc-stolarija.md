@@ -69,8 +69,7 @@ sections:
     decenijama.
 - type: p
   content: "Kontaktirajte ih za ponudu:<br>\U0001F4DE <strong>Poziv:</strong> <a href=\"tel:+38163568011\">+381
-    63 568 011</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:koralsu@gmail.com\">koralsu@gmail.com</a><br>\U0001F310
-    <strong>Website:</strong> <a href=\"https://koralsu.rs/\" target=\"_blank\">koralsu.rs</a><br>\U0001F4CD
+    63 568 011</a><br>\U0001F4E7 <strong>Mail:</strong> <a href=\"mailto:koralsu@gmail.com\">koralsu@gmail.com</a><br>\U0001F4CD
     <strong>Područje:</strong> Subotica i Srbija"
 - type: h2
   content: Šta Nude – Kompletna Ponuda za Moderne Domove
@@ -194,4 +193,5 @@ tips:
 - Po meri – uvek uzimajte mere sa majstorom na licu mesta
 tips_title: Saveti za savršenu stolariju u vašem domu
 permalink: "/izvodjaci/subotica/koral-su-subotica-aluminijum-pvc-stolarija/"
+disable_seo: true
 ---

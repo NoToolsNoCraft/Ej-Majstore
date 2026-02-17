@@ -152,4 +152,5 @@ tips:
 - Transparentne cene – ponuda pre rada, nema iznenađenja
 tips_title: Lekcije pri kupovini i održavanju Klime i Elektrike
 permalink: "/izvodjaci/apatin/elektricar-klima-apatin-samostalni-majstor/"
+disable_seo: true
 ---

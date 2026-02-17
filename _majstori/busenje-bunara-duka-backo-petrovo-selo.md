@@ -128,4 +128,5 @@ tips:
 - Bušite zimi – zemlja je suva, brže i jeftinije
 tips_title: Kako da Vaš Bunar Bude Dubok, Čist i Trajan
 permalink: "/izvodjaci/backo-petrovo-selo/busenje-bunara-duka-backo-petrovo-selo/"
+disable_seo: true
 ---

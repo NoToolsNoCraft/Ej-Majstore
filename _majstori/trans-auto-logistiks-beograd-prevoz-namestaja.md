@@ -109,4 +109,5 @@ tips:
 - Inostranstvo – BiH, Crna Gora
 tips_title: Kako da Prevoz Nameštaja Bude Bezbedan
 permalink: "/izvodjaci/beograd/trans-auto-logistiks-beograd-prevoz-namestaja/"
+disable_seo: true
 ---

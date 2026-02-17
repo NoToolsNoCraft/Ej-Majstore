@@ -114,4 +114,5 @@ tips:
 - Hitni broj u telefonu – za svaki slučaj
 tips_title: Kako da Brava Ne Pravi Probleme
 permalink: "/izvodjaci/novi-beograd/bravar-aca-novi-beograd-hitne-intervencije/"
+disable_seo: true
 ---

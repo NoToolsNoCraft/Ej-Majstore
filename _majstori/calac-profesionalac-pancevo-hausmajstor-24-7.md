@@ -162,4 +162,5 @@ tips:
 - Kačenje TV nosača – 3 tipla, 120kg nosivost
 tips_title: Zabeležite ove savete za održavanje doma
 permalink: "/izvodjaci/pancevo/calac-profesionalac-pancevo-hausmajstor-24-7/"
+disable_seo: true
 ---

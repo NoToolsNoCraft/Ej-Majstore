@@ -168,4 +168,5 @@ tips:
 tips_title: Šta morate znati o obnavljanju i postavljanju drvenih podova u osnovnim
   crtama
 permalink: "/izvodjaci/subotica/sb-parket-subotica-obnavljanje-postavljanje-laminata-brodskog-poda-tarketa/"
+disable_seo: true
 ---

@@ -163,4 +163,5 @@ tips:
 - Hoblovanje starog parketa – bolje od novog
 tips_title: Obezbedite da Vaš Pod Traje Generacijama
 permalink: "/izvodjaci/novi-sad/parketar-djukic-novi-sad-postavljanje-hoblovanje/"
+disable_seo: true
 ---

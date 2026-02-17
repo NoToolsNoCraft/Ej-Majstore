@@ -143,4 +143,5 @@ tips:
 - Pozovite majstore na vreme – jeftinije od hitne intervencije
 tips_title: Kako sprečiti probleme sa bravama
 permalink: "/izvodjaci/novi-sad/majstor-express-novi-sad-bravar-hitne-intervencije/"
+disable_seo: true
 ---

@@ -123,4 +123,5 @@ tips:
 - Bojler servis – grejač čist, voda topla za 30min
 tips_title: Uvek je dobro imati kontakt lokalnog hausmajstora pri ruci
 permalink: "/izvodjaci/vrsac/strahinja-dondur-vrsac-hausmajstor-vodovodar/"
+disable_seo: true
 ---

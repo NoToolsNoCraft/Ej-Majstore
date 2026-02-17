@@ -133,4 +133,5 @@ tips:
 - Precizno merenje laserom
 tips_title: Šta morate znati o postavljanu keramike u osnovnim crtama
 permalink: "/izvodjaci/novi-sad/keramicar-borisa-novi-sad-hidroizolacija-demontaza/"
+disable_seo: true
 ---

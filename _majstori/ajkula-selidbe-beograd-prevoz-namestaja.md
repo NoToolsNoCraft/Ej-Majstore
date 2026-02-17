@@ -116,4 +116,5 @@ tips:
 - Fiksna cena – nema iznenađenja
 tips_title: Kako da Selidba Prođe Bez Stresa
 permalink: "/izvodjaci/beograd/ajkula-selidbe-beograd-prevoz-namestaja/"
+disable_seo: true
 ---

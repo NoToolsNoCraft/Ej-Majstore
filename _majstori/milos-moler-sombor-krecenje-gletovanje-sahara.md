@@ -151,4 +151,5 @@ tips:
 - Krečenje sa valjkom – brže, ravnomerno
 tips_title: Neka Vaši Zidovi Budu Dugotrajni
 permalink: "/izvodjaci/sombor/milos-moler-sombor-krecenje-gletovanje-sahara/"
+disable_seo: true
 ---

@@ -110,4 +110,5 @@ tips:
 - Saradnja sa salonima – iskustvo sa nameštajem
 tips_title: Kako da Prevoz Nameštaja Bude Bez Rizika
 permalink: "/izvodjaci/beograd/star-selidbe-beograd-prevoz-namestaja/"
+disable_seo: true
 ---

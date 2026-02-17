@@ -165,4 +165,5 @@ tips:
 - Godišnji servis kotla – +15% efikasnosti
 tips_title: '6 Toplih Saveta od Termoinstala: Neka Vaš Dom Bude Topao, a Račun Hladan'
 permalink: "/izvodjaci/pancevo/termoinstal-dm-pancevo-grejanje-podno-toplotne-pumpe/"
+disable_seo: true
 ---

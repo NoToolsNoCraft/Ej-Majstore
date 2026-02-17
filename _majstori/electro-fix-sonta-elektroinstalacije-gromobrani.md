@@ -158,4 +158,5 @@ tips:
 - Za svaki rad tražite merenje i protokol – to je garancija
 tips_title: '6 Elektro Saveta: Kako da Vaša Instalacija Bude Bezbedna i Efikasna'
 permalink: "/izvodjaci/sonta/electro-fix-sonta-elektroinstalacije-gromobrani/"
+disable_seo: true
 ---

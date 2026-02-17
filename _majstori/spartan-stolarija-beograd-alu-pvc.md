@@ -125,4 +125,5 @@ tips:
 - Besplatna demontaža – staro van bez muke
 tips_title: Kako da ALU Stolarija Bude Još Jača
 permalink: "/izvodjaci/beograd/spartan-stolarija-beograd-alu-pvc/"
+disable_seo: true
 ---

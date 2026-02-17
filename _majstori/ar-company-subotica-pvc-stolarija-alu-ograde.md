@@ -141,4 +141,5 @@ tips:
 - Mere uzimajte sa majstorom – sprečite kasnije probleme
 tips_title: Kako odabrati pravu PVC stolariju
 permalink: "/izvodjaci/subotica/ar-company-subotica-pvc-stolarija-alu-ograde/"
+disable_seo: true
 ---

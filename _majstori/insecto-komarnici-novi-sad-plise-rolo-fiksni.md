@@ -181,4 +181,5 @@ tips:
 - Garancija 2 godine – popravka besplatna
 tips_title: Šta morate znati o Insecto komarnicima u osnovnim crtama
 permalink: "/izvodjaci/novi-sad/insecto-komarnici-novi-sad-plise-rolo-fiksni/"
+disable_seo: true
 ---

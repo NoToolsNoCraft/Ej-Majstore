@@ -110,4 +110,5 @@ tips:
 - Montaža na licu mesta – sve radi
 tips_title: Kako da Selidba Nameštaja Prođe Bez Oštećenja
 permalink: "/izvodjaci/beograd/selidbe-stosic-beograd-prevoz-namestaja/"
+disable_seo: true
 ---

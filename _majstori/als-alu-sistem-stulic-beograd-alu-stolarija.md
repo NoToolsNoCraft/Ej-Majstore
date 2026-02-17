@@ -124,4 +124,5 @@ tips:
 - Komarnici i roletne – kompletna zaštita
 tips_title: Kako da ALU Stolarija Bude Još Bolja
 permalink: "/izvodjaci/beograd/als-alu-sistem-stulic-beograd-alu-stolarija/"
+disable_seo: true
 ---

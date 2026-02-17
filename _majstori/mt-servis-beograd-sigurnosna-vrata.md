@@ -161,4 +161,5 @@ tips:
 - Automatski zatvarač – obezbeđuje sigurnost
 tips_title: Saveti za održavanje sigurnosnih i protivpožarnih vrata
 permalink: "/izvodjaci/beograd/mt-servis-beograd-sigurnosna-vrata/"
+disable_seo: true
 ---

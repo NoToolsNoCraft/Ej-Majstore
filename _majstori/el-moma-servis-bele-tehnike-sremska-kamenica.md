@@ -172,4 +172,5 @@ tips:
 - Pozovite odmah ako čujete neobičnu buku ili vidite curenje
 tips_title: Ključni saveti za očuvanje bele tehnike i brzo otkrivanje kvarova
 permalink: "/izvodjaci/sremska-kamenica/el-moma-servis-bele-tehnike-sremska-kamenica/"
+disable_seo: true
 ---

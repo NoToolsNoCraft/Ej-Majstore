@@ -120,4 +120,5 @@ tips:
 - Tuš kabine po meri – savršeno uklapanje
 tips_title: Kako da Staklo Bude Još Lepše
 permalink: "/izvodjaci/novi-sad/vulic-glass-novi-sad-staklorezac/"
+disable_seo: true
 ---

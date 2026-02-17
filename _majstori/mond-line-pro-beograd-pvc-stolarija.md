@@ -128,4 +128,5 @@ tips:
 - Montaža bez haosa – sve uredno
 tips_title: Kako da Prozori Ne Puštaju Ni Buku Ni Hladnoću
 permalink: "/izvodjaci/beograd/mond-line-pro-beograd-pvc-stolarija/"
+disable_seo: true
 ---

@@ -140,4 +140,5 @@ tips:
 - Ostavite 24h za sušenje – nikad žurba sa fugama
 tips_title: Primenite ovo da vaše Pločice Traju 30+ Godina
 permalink: "/izvodjaci/beograd/keramicar-as-beograd-postavljanje-plocica/"
+disable_seo: true
 ---
