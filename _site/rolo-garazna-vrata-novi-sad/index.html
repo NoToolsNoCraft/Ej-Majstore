@@ -59,7 +59,7 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Koliko košta rolo garažna vrata Novi Sad?",
+                "name": "Koliko koštaju rolo garažna vrata?",
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Velika akcija: 85€/m² + 290€ za elektroniku (motor, dva daljinska upravljača, centrala). Sve boje u ceni, uključujući montažu, motor, dva daljinca i kurblu za ručno otvaranje."
@@ -394,6 +394,14 @@
         .pricing-container { padding: 2.2rem 0.4rem; }
         /* Extra safety against horizontal scroll */
         body, html, .container, section, .form-section { overflow-x: hidden; }
+
+        .review-carousel {
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+        .review-item {
+            min-width: auto;
+        }
     }
     @media (max-width: 480px) {
         .hero h1 { font-size: 2.6rem; }
@@ -524,11 +532,9 @@
         <div class="hero-content">
             <div class="hero-badge">Rollo Erkanović</div>
             <h1>Rolo Garažna Vrata Novi Sad<br>Vrhunski Aluminijum Po Meri</h1>
-            <p class="hero-subtitle">200+ garaža u NS: Sigurnost + 30% manji računi za grejanje sa našim motorizovanim rolo vratima po akcijskoj ceni od samo 85€/m² instalirano ili vratimo merenje BESPLATNO!</p>
+            <p class="hero-subtitle">200+ garaža u NS: Sigurnost + 30% manji računi za grejanje sa našim motorizovanim rolo vratima po akcijskoj ceni od samo 85€/m² instalirano + merenje BESPLATNO!</p>
             <div class="cta-row">
                 <a href="#form" class="cta cta-primary"> 🚀 Želim ponudu odmah </a>
-                <a href="tel:+38163316133" class="cta" style="background: var(--primary); color: white;">📞 Direktan Poziv</a>
-                <a href="viber://chat?number=+38163316133" class="cta" style="background: #7360f2; color: white;">💬 Viber Chat</a>
             </div>
             <p style="margin-top:1.2rem; font-size:0.95rem; color:rgba(255,255,255,0.75);">
       📞 Javlja vam se Jovan Erkanović, vlasnik i glavni majstor
@@ -547,7 +553,7 @@
                     <p>"Ušteda na grejanju je primetna." - Stefan, Futog</p>
                 </div>
             </div>
-            <div class="countdown">Akcija: -20% do 15.02.2026—samo 5 slotova slobodno!</div>
+            
         </div>
     </section>
 
@@ -719,7 +725,7 @@
             <div style="max-width:800px;margin:0 auto;">
                 <div class="faq-item">
                     <details>
-                        <summary>Koliko košta rolo garažna vrata Novi Sad?</summary>
+                        <summary>Koliko koštaju rolo garažna vrata?</summary>
                         <p>Velika akcija: 85€/m² + 290€ za elektroniku. Sve boje u ceni, uključujući montažu, motor, dva daljinca i kurblu. Tačna cena nakon besplatnog merenja.</p>
                     </details>
                 </div>
@@ -761,9 +767,7 @@
         </div>
     </footer>
 
-    <div class="sticky-cta" id="sticky-cta">
-        <a href="#form" class="cta cta-primary">Besplatno merenje? Zakažite sada!</a>
-    </div>
+    
 
     <script>
     // Form submission script – slightly cleaned
