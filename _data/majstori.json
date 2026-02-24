@@ -1,6 +1,236 @@
 [
 
   {
+"ime": "Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj",
+"tip": "firma",
+"kategorija": ["Kuhinje po Meri", "Nameštaj po Meri", "Kuhinjski Nameštaj", "Medijapan Kuhinje", "Soft Mat Kuhinje"],
+"opis_kratak": "Boškove kuhinje po meri – prilagođene vašem prostoru sa maksimalnom iskoristivošću. Garancija 10 godina, brza realizacija 25-35 dana, besplatno merenje u Novom Sadu i okolini. Materijali: Kendl/Eger, okovi: Blum/GTV.",
+"mesto": ["Novi Sad", "Sremska Mitrovica", "Futog", "Irig", "Ruma", "Veternik"],
+"address": "Sremska Mitrovica, Srbija",
+"telefon": "",
+"email": "",
+"website": "",
+"slug": "boskove-kuhinje-po-meri",
+"thumbnail": "images/izrada-kuhinja-po-meri-novi-sad.webp",
+"hero_image": "images/izrada-kuhinja-po-meri-novi-sad.webp",
+"discover_title": "Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj",
+"author": "Petar Škrbić",
+"author_slug": "petar-skrbic",
+"author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+"date": "2026-02-24",
+"last_modified": "2026-02-24",
+"tips_title": "Kako da Vaša Kuhinja po Meri Traje 10+ Godina",
+"tips": [
+"Birajte Blum okove – besprekoran rad godinama",
+"Soft mat medijapan – otporan na ogrebotine",
+"Žičani elementi – maksimalna organizacija",
+"3D vizuelizacija – izbegnite greške",
+"Fiksna cena – bez skrivenih troškova",
+"Besplatno merenje – precizno od starta"
+],
+"sections": [
+{
+"type": "p",
+"content": "Pre nekoliko meseci, renovirao sam kuhinju u stanu – zidovi, pločice, sve novo. Ali, standardni elementi iz salona nisu se uklapali u nepravilan prostor. Tražio sam majstora za kuhinju po meri, nekog pouzdanog sa fiksnim rokovima. Naišao sam na Boška preko preporuke. Poslao sam mere preko Vibera, došao na besplatno merenje isti dan – i evo, za 25 dana, savršena kuhinja montirana. Bez haosa, spremna za upotrebu."
+},
+{
+"type": "p",
+"content": "Boško je specijalizovan za kuhinje po meri, nema 'praznog hoda' u ćoškovima, sve funkcionalno. To je bio moj prvi susret sa kuhinjama ove ekipe – brzo, pouzdano, kvalitetno."
+},
+{
+"type": "image",
+"src": "images/moderna-bela-kuhinja-sa-ugradnim-elementima.webp",
+"alt": "Premium farbana kuhinja po meri Novi Sad.",
+"caption": "Moderna kuhinja sa farbanim elementima, visok sjaj, sa ugradnim aparatima i kvalitetnim okovima."
+},
+{
+"type": "h2",
+"content": "Ko je Boško – 20+ Godina Iskustva u Kuhinjama po Meri"
+},
+{
+"type": "p",
+"content": "U pitanju je mala firma sa više od 20 godina iskustva u izradi nameštaja po meri. Majstori su specijalizovani za kuhinje sa materijalima Kendl/Eger i okovima Blum/GTV. Regionalno pokrivanje: Novi Sad, Sremska Mitrovica, Futog, Irig i okolina."
+},
+{
+"type": "contact_form",
+"title": "Boško će vam se ekspresno javiti za dogovor o merenju i ceni",
+"success_message": "✅ Primljeno! Boško će vam se javiti ubrzo!",
+"error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+"action": "https://submit-form.com/NL4FHgWfW",
+"email_subject": "Boškove Kuhinje po Meri",
+"business": "Kuhinje po meri Boško",
+"label_name": "Ime i prezime *",
+"label_phone": "Telefon (za kontakt) *",
+"label_message": "Opišite nam svoje želje",
+"label_consent": "Boško",
+"button_text": "🚀 Pozovi me za dogovor Boško"
+},
+{
+"type": "h2",
+"content": "Šta je sve u ponudi: Od Soft Mat do Premium Kuhinja"
+},
+{
+"type": "p",
+"content": "Boško radi brzo i pouzdano:"
+},
+{
+"type": "h3",
+"content": "1. Soft Mat Medijapan Kuhinje"
+},
+{
+"type": "p",
+"content": "Bež/sivi, Kaindl ploča, Blum okovi. Maksimalna iskoristivost."
+},
+{
+"type": "h3",
+"content": "2. Bianco Sjaj Kuhinje"
+},
+{
+"type": "p",
+"content": "Evo Gloss, GTV + LED, Kendl materijali."
+},
+{
+"type": "image",
+"src": "images/medijapan-kuhinja-po-meri-novi-sad.webp",
+"alt": "Medijapan kuhinja po meri Novi Sad.",
+"caption": "Završena kuhinja, savršeno uklopljena u prostor, sa svim funkcionalnim elementima."
+},
+{
+"type": "h3",
+"content": "3. Univer Standard Kuhinje"
+},
+{
+"type": "p",
+"content": "Klasik, GTV okovi, Eger materijali."
+},
+{
+"type": "image",
+"src": "images/bela-elegantna-kuhinja-u-l-obliku.webp",
+"alt": "Univer kuhinja po meri Novi Sad.",
+"caption": "Klasični dizajn kuhinje u L obliku sa kvalitetnim materijalima i okovima."
+},
+{
+"type": "h3",
+"content": "4. Premium Farbane Kuhinje"
+},
+{
+"type": "p",
+"content": "Medijapan RAL, Blum okovi, Kendl."
+},
+
+{
+"type": "h3",
+"content": "5. 3D Vizuelizacija i Montaža"
+},
+{
+"type": "p",
+"content": "Opciono 300€ za 3D vizuelizaciju projekta, montaža uključena, garancija."
+},
+{
+"type": "h2",
+"content": "Cena Kuhinje po Meri u Novom Sadu"
+},
+{
+"type": "p",
+"content": "Cena kuhinje po meri u Novom Sadu se kreće od 2500€ do 3800€ u zavisnosti od modela i okova. Cene su sa PDV-om."
+},
+{
+"type": "p",
+"content": "<strong>Soft Mat Medijapan Kuhinje:</strong> Bež/sivi, Kaindl ploča, Blum okovi. Prosečna cena 3.000 €."
+},
+{
+"type": "p",
+"content": "<strong>Bianco Sjaj Kuhinje:</strong> Evo Gloss, GTV + LED, Kendl. Prosečna cena 3.500 €."
+},
+{
+"type": "p",
+"content": "<strong>Univer Standard Kuhinje:</strong> Klasik, GTV okovi, Eger. Prosečna cena 2.500 €."
+},
+{
+"type": "p",
+"content": "<strong>Premium Farbane Kuhinje:</strong> Medijapan RAL, Blum, Kendl. Prosečna cena 3.800 €."
+},
+
+{
+"type": "h2",
+"content": "Kako Funkcioniše Saradnja sa Boškom"
+},
+{
+"type": "p",
+"content": "1. Kontakt & Besplatno Merenje: popunite formu, odgovor veoma brz, izlazak na teren 1-2 dana <br>2. 3D Predlog & Fiksna Cena – realističan prikaz, fiksna ponuda<br>3. Ugovor & Avans – jasan ugovor sa rokovima<br>4. Precizna Izrada – 25-35 dana u radionici<br>5. Montaža & Predaja – brza, čista, sa obukom"
+},
+
+{
+"type": "h2",
+"content": "Ključne prednosti saradnje sa Boškom"
+},
+{
+"type": "ul",
+"items": [
+"20+ godina iskustva – stotine zadovoljnih porodica",
+"Materijali Kendl/Eger, okovi Blum/GTV",
+"Fiksna cena – bez skrivenih troškova",
+"Brza realizacija – 25-35 dana",
+"Besplatno merenje i 3D vizuelizacija",
+"Garancija do 10 godina, regionalno pokrivanje"
+]
+},
+{
+"type": "p",
+"content": "Ako vam treba kuhinja po meri – Boško je pravi izbor."
+}
+],
+"services": [
+{
+"title": "Soft Mat Medijapan Kuhinje",
+"description": "Bež/sivi, Kaindl ploča, Blum okovi. Prosečna cena 3.000 €."
+},
+{
+"title": "Bianco Sjaj Kuhinje",
+"description": "Evo Gloss, GTV + LED, Kendl. Prosečna cena 3.500 €."
+},
+{
+"title": "Univer Standard Kuhinje",
+"description": "Klasik, GTV okovi, Eger. Prosečna cena 2.500 €."
+},
+{
+"title": "Premium Farbane Kuhinje",
+"description": "Medijapan RAL, Blum, Kendl. Prosečna cena 3.800 €."
+},
+{
+"title": "3D Vizuelizacija",
+"description": "Opciono, 300€ za realističan prikaz."
+}
+],
+"faq": [
+{
+"question": "Koliko košta kuhinja po meri?",
+"answer": "Prosečno 3000€ za komplet (vidi cenovnik). Cene su sa PDV-om i kreću od 2500€ do 3800€ u zavisnosti od modela i okova."
+},
+{
+"question": "Koliko traje izrada?",
+"answer": "Standardne kuhinje 25 radnih dana, farbane 35 radnih dana. Rokovi su realni i uglavnom se poštuju u 95% slučajeva."
+},
+{
+"question": "Da li dajete garanciju?",
+"answer": "Da – minimum 5 godina na materijale i okove, do 10 godina na montažu i spojeve."
+},
+{
+"question": "Šta ako cena poraste tokom radova?",
+"answer": "Neće. Nakon merenja i 3D predloga dobijate fiksnu ponudu koja se ne menja osim ako vi ne tražite dodatne izmene."
+},
+{
+"question": "Da li kasnite ikada sa rokovima?",
+"answer": "Veoma retko. Ako dođe do kašnjenja (npr. zbog dobavljača), obaveštavamo vas na vreme i nudimo kompenzaciju."
+},
+{
+"question": "Koliko traje merenje i da li je besplatno?",
+"answer": "Merenje traje 20–40 minuta i 100% je besplatno. Dolazimo kada vama odgovara, često isti ili sledeći dan."
+}
+]
+},
+
+  {
   "ime": "Ukras Novi Sad - PVC i ALU Stolarija",
   "tip": "firma",
   "kategorija": ["PVC Stolarija", "ALU Stolarija", "Ulazna Vrata", "Zastakljivanje Terasa", "Roletne", "Komarnici", "Klizni Sistemi"],
@@ -16,7 +246,7 @@
   "discover_title": "Ukras PVC Novi Sad - Stolarija Koja Štedi i Traje",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online platfome zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2026-01-07",
   "last_modified": "2026-01-07",
   "tips_title": "Kako da Stolarija Bude Još Bolja",
@@ -168,7 +398,7 @@
   "discover_title": "Vulić Glass Novi Sad - Staklo Koje Traje",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2026-01-07",
   "last_modified": "2026-01-07",
   "tips_title": "Kako da Staklo Bude Još Lepše",
@@ -327,7 +557,7 @@
   "discover_title": "Trans Auto Logistiks Beograd - Nameštaj Sigurno Stiže",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-29",
   "last_modified": "2026-01-03",
   "tips_title": "Kako da Prevoz Nameštaja Bude Bezbedan",
@@ -481,7 +711,7 @@
   "discover_title": "Star Selidbe Beograd - Nameštaj Sigurno Na Novu Adresu",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-29",
   "last_modified": "2026-01-03",
   "tips_title": "Kako da Prevoz Nameštaja Bude Bez Rizika",
@@ -635,7 +865,7 @@
   "discover_title": "Selidbe Stošić Beograd - Nameštaj Na Sprat Bez Dizala",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-29",
   "last_modified": "2026-01-03",
   "tips_title": "Kako da Selidba Nameštaja Prođe Bez Oštećenja",
@@ -789,7 +1019,7 @@
   "discover_title": "Alisa Selidbe Beograd - Nameštaj Stiže Ceo",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-29",
   "last_modified": "2026-01-03",
   "tips_title": "Kako da Prevoz Nameštaja Prođe Bez Oštećenja",
@@ -947,7 +1177,7 @@
   "discover_title": "Ajkula Selidbe Beograd - Kada Transport Mora Da Bude Brz i Siguran",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-29",
   "last_modified": "2026-01-03",
   "tips_title": "Kako da Selidba Prođe Bez Stresa",
@@ -1105,7 +1335,7 @@
   "discover_title": "Unoplast Novi Sad - Komarnici i Stolarija",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2026-01-18",
   "tips_title": "Kako da Leto Bude Bez Zujanja",
@@ -1264,7 +1494,7 @@
   "discover_title": "Rolometal Subotica - PVC Stolarija Salamander i Winner",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2026-01-12",
   "tips_title": "Kako da PVC Stolarija Bude Još Bolja",
@@ -1421,7 +1651,7 @@
   "discover_title": "ProLine PVC Sistemi - PVC Stolarija Koju Tražite",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2026-01-12",
   "tips_title": "Sažetak jedne kvalitetne usluge PVC stolarije",
@@ -1585,7 +1815,7 @@
   "discover_title": "Hidra Vodoinstalater Beograd - Hitne Intervencije",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2025-12-28",
   "tips_title": "Kako da Sprečite Vodovodne Nezgode",
@@ -1744,7 +1974,7 @@
   "discover_title": "Brza Voda Beograd - Kada Kvar Ne Sme Da Čeka",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2025-12-28",
   "tips_title": "Praktični Trikovi Protiv Vodovodnih Kvarova",
@@ -1915,7 +2145,7 @@
   "discover_title": "Hidrofix Beograd - Voda Pod Kontrolom 24h",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-28",
   "last_modified": "2025-12-28",
   "tips_title": "Praktični Saveti Za Vodovod Bez Kvarova",
@@ -2075,7 +2305,7 @@
   "discover_title": "Aqvatok Beograd - Kada Voda Ne Čeka 24h",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-27",
   "last_modified": "2025-12-27",
   "tips_title": "Kako da Voda Ne Pravi Probleme",
@@ -2246,7 +2476,7 @@
   "discover_title": "Vodoinstalater Vlada Beograd - Hitne Vodoinstalaterske Intervencije",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-27",
   "last_modified": "2025-12-27",
   "tips_title": "Kako da Voda Ne Pravi Problema",
@@ -2437,7 +2667,7 @@
   "discover_title": "Aqua Sever Clean Novi Sad - Kada Kanalizacija Kaže 'Dosta'",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-26",
   "last_modified": "2025-12-26",
   "tips_title": "Kako da Kanalizacija Ne Pravi Haos",
@@ -2596,7 +2826,7 @@
   "discover_title": "Dežurni Vodoinstalaterski Servis Beograd - Hitne Intervencije 24h",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-26",
   "last_modified": "2025-12-27",
   "tips_title": "Kako da Voda Ne Pravi Haos",
@@ -2767,7 +2997,7 @@
   "discover_title": "Bravar Aca Novi Beograd - Kada Brava Neće, Aca Hoće 24h",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da Brava Ne Pravi Probleme",
@@ -2922,7 +3152,7 @@
   "discover_title": "Bravar Miša Beograd - Kada Vrata Kažu 'Zatvoreno' 24h",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da Se Ne Zaključate Napolju",
@@ -3089,7 +3319,7 @@
   "discover_title": "Bravar Stojanović Beograd - Hitne Bravarske Usluge",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da Se Ne Zaključate Napolju",
@@ -3276,7 +3506,7 @@
   "discover_title": "ALS Alu Sistem Štulić Beograd - Alu Stolarija",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da ALU Stolarija Bude Još Bolja",
@@ -3443,7 +3673,7 @@
   "discover_title": "Spartan Stolarija Beograd - ALU i PVC Majstori",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da ALU Stolarija Bude Još Jača",
@@ -3614,7 +3844,7 @@
   "discover_title": "Alu-Plast Engineering Barajevo - ALU Specijalisti",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-25",
   "last_modified": "2025-12-25",
   "tips_title": "Kako da ALU Stolarija Bude Još Bolja",
@@ -3781,7 +4011,7 @@
   "discover_title": "Profiplast Beograd - Rehau Prozori Koji Ne Puštaju Ni Račune Ni Buku",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
   "last_modified": "2025-12-24",
   "tips_title": "Kako da Vaši Prozori Ne Troše, Već Štede",
@@ -3952,7 +4182,7 @@
   "discover_title": "SN Windows Beograd - Rehau Prozori Koji Ne Puštaju Ni Hladnoću Ni Buku",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
   "last_modified": "2026-02-16",
   "tips_title": "Kako da Prozori Ne Troše Novac",
@@ -4125,7 +4355,7 @@
   "discover_title": "Eko-Plast Zemun - Stolarija Koja Ne Pušta Ni Promaju Ni Bubu",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
   "last_modified": "2025-12-24",
   "tips_title": "Kako da Vaš Dom Bude Topao, Tiš i Bez Insekata",
@@ -4336,7 +4566,7 @@
   "discover_title": "Mond Line Pro Beograd - PVC Stolarija",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
   "last_modified": "2025-12-24",
   "tips_title": "Kako da Prozori Ne Puštaju Ni Buku Ni Hladnoću",
@@ -4513,7 +4743,7 @@
   "discover_title": "Elit Stolarija Beograd - Prozori Koji Ne Puštaju Račune",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-12-24",
   "last_modified": "2025-12-24",
   "tips_title": "Kako da Prozori Štede, a Ne Troše",
@@ -12544,7 +12774,7 @@
   "sections": [
     {
       "type": "p",
-      "content": "Kada se snovi o čistoj vodi iz česme ugase, a neizdrživo visoki računi za grejanje postanu realnost, većina pomisli da je situacija bezizlazna. Ipak, rešenje se krije duboko u tlu Srbije. Drill Tech je kompanija koja, udružujući iskusne geologe i specijalizovane mašine, preokreće ovu sliku. Oni buše bunare koji donose ne samo pouzdanu i čistu vodu, već i pristup geotermalnoj energiji."
+      "content": "Kada se snovi o čistoj vodi iz česme ugase, a neizdrživo visoki računi za grejanje postanu realnost, većina pomisli da je situacija bezizlazna. Ipak, rešenje se krije duboko u tlu Srbiji. Drill Tech je kompanija koja, udružujući iskusne geologe i specijalizovane mašine, preokreće ovu sliku. Oni buše bunare koji donose ne samo pouzdanu i čistu vodu, već i pristup geotermalnoj energiji."
     },
     {
       "type": "p",
@@ -19522,7 +19752,7 @@
 },
 
   {
-  "ime": "Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri",
+  "ime": "Radun PVC, ALU i Medijapan Stolarija Temerin – Komarnici, Prozori, Garažna, Ulazna i Sobna Vrata",
   "tip": "firma",
   "kategorija": ["Stolarija", "PVC Stolarija", "ALU Stolarija", "Komarnici", "Prozori i Vrata", "Paneli"],
   "opis_kratak": "Radun PVC i ALU stolarija – 20 godina iskustva u montaži i prodaji prozora, vrata, komarnika (fiksni, rolo, plise) i panela. Profili: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E. Brzo, povoljno, kvalitetno.",
@@ -19536,12 +19766,12 @@
   "thumbnail": "images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp",
   "hero_image": "images/radun-pvc-alu-stolarija-temerin-komarnici-prozori.webp",
 
-  "discover_title": "Radun PVC i ALU Stolarija Temerin – Komarnici, Prozori i Vrata po Meri",
+  "discover_title": "Radun PVC, ALU i Medijapan Stolarija Temerin – Komarnici, Prozori, Garažna, Ulazna i Sobna Vrata",
   "author": "Petar Škrbić",
   "author_slug": "petar-skrbic",
-  "author_bio": "Petar je osnivač platforme Ej Majstore! i stručnjak za proveru kvaliteta usluga. Lično testira izvođače i prikuplja stvarna iskustva korisnika širom Srbije.",
+  "author_bio": "Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.",
   "date": "2025-10-30",
-  "last_modified": "2026-01-08",
+  "last_modified": "2026-02-24",
 
   "tips_title": "Kako da Vaši Prozori i Vrata Traju 20+ Godina",
   "tips": [
@@ -19554,11 +19784,6 @@
   ],
 
   "sections": [
-
-    {
-      "type": "p",
-      "content": "<a href=\"/kompletna-zamena-pvc-alu-stolarije-novi-sad/\">Kompletna zamena PVC i ALU Stolarije u Novom Sadu</a> › Radun PVC i ALU Stolarija"
-    },
     
     {
       "type": "p",
@@ -19566,28 +19791,42 @@
     },
     {
       "type": "p",
-      "content": "Jovište ima svoje komarnike, ali cene su bile malo više nego što sam planirao. Odlučio sam da tražim alternativu – idealno nekog zanatliju koji radi po meri i šalje kurirskom službom. Pretragom naišao sam na Radun PVC iz Temerina. Kontaktirao sam Dušana preko Vibera, poslao mere, dogovorili se za fiksni komarnik. U roku od nekoliko dana, komarnik je stigao – savršeno se uklopio, muve ostale napolju. To je bio moj prvi susret sa Radun-om – brzo, povoljno, kvalitetno."
+      "content": "Jovište ima svoje komarnike, ali cene su bile malo više nego što sam planirao. Odlučio sam da tražim alternativu, idealno nekog zanatliju koji radi po meri i šalje kurirskom službom. Pretragom naišao sam na Radun Stolariju iz Temerina. Kontaktirao sam Dušana preko Vibera, poslao mere, dogovorili se za fiksni komarnik. U roku od nekoliko dana, komarnik je stigao – savršeno se uklopio, muve ostale napolju. To je bio moj prvi susret sa Radun-om – brzo, povoljno, kvalitetno."
     },
     
     {
       "type": "h2",
-      "content": "Ko je Radun – 20 Godina Kvaliteta u Temerinu"
+      "content": "Ko je Radun – Više od 20 Godina Kvaliteta u Novom Sadu i okolini"
     },
     {
       "type": "p",
-      "content": "Radun PVC i ALU stolarija je <strong>mala firma</strong> sa <strong>20 godina iskustva</strong>. Vodi je <strong>Dušan Radun</strong>, specijalizovan za <em>montažu i prodaju PVC/ALU prozora, vrata, komarnika i panela</em>. Imaju <strong>lager profila</strong>: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E."
+      "content": "Radun stolarija je <strong>porodična firma</strong> sa dugogodišnjim iskustvom u izradi i montaži plastične, aluminijumske i drvene stolarije. Vodi je <strong>Dušan Radun</strong>, specijalizovan za <em>montažu i prodaju PVC/ALU prozora, vrata, komarnika i panela, ali i medijapan sobnih vrata i sl</em>. Imaju <strong>lager profila</strong>: TERAPLAST, WEISS, REHAU, GEALAN, LOW-E."
     },
     {
       "type": "p",
-      "content": "Kontaktirajte ih:<br>📞 <strong>Telefon:</strong> <a href=\"tel:+381631767488\">+381 63 176 74 88</a><br>📧 <strong>Email:</strong> <a href=\"mailto:radundusko72@gmail.com\">radundusko72@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/stlarijaradun/?locale=sr_RS\" target=\"_blank\" rel=\"noopener nofollow\">facebook.com/stlarijaradun</a><br>📍 <strong>Lokacija:</strong> Mihajla Pupina 15, Temerin<br>🗺️ <strong>Google Maps:</strong> <a href=\"https://maps.app.goo.gl/AYk46xMBvzTCQcdg6\" target=\"_blank\" rel=\"noopener nofollow\">Pogledaj lokaciju</a>"
+      "content": "Kontaktirajte ih:<br>📧 <strong>Email:</strong> <a href=\"mailto:radundusko72@gmail.com\">radundusko72@gmail.com</a><br>🌐 <strong>Facebook:</strong> <a href=\"https://www.facebook.com/stlarijaradun/?locale=sr_RS\" target=\"_blank\" rel=\"noopener nofollow\">facebook.com/stlarijaradun</a><br>📍 <strong>Lokacija:</strong> Mihajla Pupina 15, Temerin<br>🗺️ <strong>Google Maps:</strong> <a href=\"https://maps.app.goo.gl/AYk46xMBvzTCQcdg6\" target=\"_blank\" rel=\"noopener nofollow\">Pogledaj lokaciju</a>"
     },
     {
       "type": "p",
       "content": "<strong>Radno vreme:</strong><br>Ponedeljak–Petak: 08:00–16:00h<br>Subota: 08:00–10:00h<br>Nedelja: zatvoreno"
     },
     {
+    "type": "contact_form",
+    "title": "Dušan Radun će vam se ekspresno javiti za dogovor o meri i ceni",
+    "success_message": "✅ Primljeno! Dušan Radun će vam se javiti ubrzo!",
+    "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+    "action": "https://submit-form.com/NL4FHgWfW",
+    "email_subject": "Radun Stolarija",
+    "business": "PVC i Alu Stolarija po meri Radun",
+    "label_name": "Ime i prezime *",
+    "label_phone": "Telefon (za kontakt) *",
+    "label_message": "Šta vas zanima?",
+    "label_consent": "Dušan Radun",
+    "button_text": "📞 Dušane javi mi se za dogovor!"
+    },
+    {
       "type": "h2",
-      "content": "Šta Nudi Radun – Od Komarnika do Kompletnog Ulaza"
+      "content": "Šta Nudi Radun – Od Komarnika do Kompletne Stolarije"
     },
     {
       "type": "p",
@@ -19595,7 +19834,7 @@
     },
     {
       "type": "h3",
-      "content": "1. Komarnici (Fiksni, Rolo, Plise)"
+      "content": "1. <a href=\"/komarnici-novi-sad/stolarija-radun-komarnici/\">Komarnici (Fiksni, Rolo, Plise)</a>"
     },
     {
       "type": "p",
@@ -19610,55 +19849,71 @@
       "content": "Za vrata, prozore. Otporni, estetski, lako održavanje."
     },
     {
+      "type": "image",
+      "src": "images/pvc-ulazna-vrata-prozori-komarnici-terasa-kuce-futog.webp",
+      "alt": "PVC ulazna vrata, prozori i komarnici na terasi kuće u Futogu.",
+      "caption": "PVC ulazna vrata, prozori i komarnici na terasi kuće."
+    },
+    {
       "type": "h3",
       "content": "3. Prozori i Vrata"
     },
     {
       "type": "p",
-      "content": "PVC/ALU prozori, vrata. Profili REHAU, GEALAN – izolacija top."
+      "content": "PVC/<a href=\"/alu-stolarija-novi-sad/\">Aluminijumski prozori, vrata</a>. Profili REHAU, GEALAN – izolacija top."
+    },
+    {
+      "type": "image",
+      "src": "images/radun-alu-prozori-crna-boja-temerin.webp",
+      "alt": "Nova alu stolarija u crnoj boji, Temerin.",
+      "caption": "Aluminijumski prozori montirani na novoj kući."
     },
     {
       "type": "h3",
       "content": "4. Segmentna, Čelična i ALU Rolo Vrata"
     },
+    
     {
       "type": "p",
       "content": "Za garaže, hale. Automatska, sigurna, po meri."
     },
     {
+      "type": "image",
+      "src": "images/segmentna-garažna-vrata-aluminijum-braon-boja-sremska-mitrovica.webp",
+      "alt": "Segmentna garažna vrata od aluminijuma u braon boji, Sremska Mitrovica.",
+      "caption": "Segmentna garažna vrata od aluminijuma u braon boji."
+    },
+    {
       "type": "h3",
-      "content": "5. Montaža i Prodaja"
+      "content": "5. Sobna vrata medijapan"
+    },
+    {
+      "type": "p",
+      "content": "Izrađujemo i sobna vrata od medijapana, po meri. Različiti modeli, boje, sa ili bez stakla."
+    },
+    {
+      "type": "image",
+      "src": "images/sobna-vrata-medijapan-radun-stolarija.webp",
+      "alt": "medijapan sobna vrata za kuću",
+      "caption": "Sobna vrata od medijapana izrađena po meri i montirana."
+    },
+    {
+      "type": "h3",
+      "content": "6. Montaža i Prodaja"
     },
     {
       "type": "p",
       "content": "Sve na lageru. Montaža uključena, garancija na rad."
     },
     
+    
     {
       "type": "h2",
-      "content": "Gde Radi Radun – Temerin i Okolina"
+      "content": "Kako Funkcioniše Saradnja sa Radunom"
     },
     {
       "type": "p",
-      "content": "Baziran u <strong>Temerinu</strong>, šalje i montira u:"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "<strong>Novi Sad</strong> – komarnici za stanove",
-        "<strong>Vrbas</strong> – ALU vrata za hale",
-        "<strong>Bačka Palanka</strong> – PVC paneli za kuće",
-        "<strong>Žabalj, Srbobran</strong> – segmentna garažna vrata",
-        "<strong>Beočin, Bački Petrovac</strong> – rolo komarnici"
-      ]
-    },
-    {
-      "type": "h2",
-      "content": "Kako Funkcioniše Saradnja sa Radun-om"
-    },
-    {
-      "type": "p",
-      "content": "<strong>1. Poziv/Viber</strong> – pošaljete mere<br><strong>2. Ponuda</strong> – cena za 24h<br><strong>3. Izrada</strong> – po meri, brzo<br><strong>4. Dostava</strong> – kurir ili montaža<br><strong>5. Montaža</strong> – čisto, precizno"
+      "content": "<strong>1. Popunite kontakt formu</strong> – pošaljete želje i mere<br><strong>2. Ponuda</strong> – cena već u toku istog dana<br><strong>3. Izrada</strong> – po meri, brzo<br><strong>4. Dostava</strong> – kurir ili montaža<br><strong>5. Montaža</strong> – čisto, precizno, bez greške"
     },
     {
       "type": "h2",
@@ -19678,7 +19933,7 @@
     },
     {
       "type": "h2",
-      "content": "Zašto Radun – Ključne Prednosti"
+      "content": "Ključne prednosti saradnje sa Duškom"
     },
     {
       "type": "ul",
@@ -19693,7 +19948,7 @@
     },
     {
       "type": "p",
-      "content": "Ako vam treba <strong>komarnik, prozor ili vrata po meri</strong> – <strong>Radun</strong> je pravi izbor. Pozovite Dušana: <a href=\"tel:+381631767488\"><strong>+381 63 176 74 88</strong></a>."
+      "content": "Ako vam treba <strong>komarnik, prozor ili vrata po meri</strong> – <strong>Radun</strong> je pravi izbor."
     }
   ],
 
@@ -19743,7 +19998,7 @@
     },
     {
       "question": "Kako da vas kontaktiram?",
-      "answer": "Pozovite +381 63 176 74 88 ili pošaljite mejl na radundusko72@gmail.com."
+      "answer": "Idealno je da popunite kontakt formu, a ja ću vas kontaktirati u minimalnom roku i rešiću vam sve nedoumice, tipa u 15 minuta."
     }
   ]
 },

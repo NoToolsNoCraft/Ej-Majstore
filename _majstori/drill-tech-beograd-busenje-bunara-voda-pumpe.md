@@ -38,7 +38,7 @@ sections:
 - type: p
   content: Kada se snovi o čistoj vodi iz česme ugase, a neizdrživo visoki računi
     za grejanje postanu realnost, većina pomisli da je situacija bezizlazna. Ipak,
-    rešenje se krije duboko u tlu Srbije. Drill Tech je kompanija koja, udružujući
+    rešenje se krije duboko u tlu Srbiji. Drill Tech je kompanija koja, udružujući
     iskusne geologe i specijalizovane mašine, preokreće ovu sliku. Oni buše bunare
     koji donose ne samo pouzdanu i čistu vodu, već i pristup geotermalnoj energiji.
 - type: p

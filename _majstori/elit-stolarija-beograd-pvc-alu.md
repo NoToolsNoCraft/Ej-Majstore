@@ -30,7 +30,7 @@ discover_title: Elit Stolarija Beograd - Prozori Koji Ne Puštaju Račune
 author: Petar Škrbić
 author_slug: petar-skrbic
 author_bio: Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih
-  delatnosti u Srbije. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
+  delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima
   dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja
   preporuku niti garanciju kvaliteta.
 date: '2025-12-24'

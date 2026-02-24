@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <!-- Google tag Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTRMQRDK4R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BTRMQRDK4R');
+    </script>
+
+
+<!-- Google tag Google Ads (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17778032945"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17778032945');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="google-site-verification" content="1lt1uogexF2ljjjZmDFaWqJIuWGMzu6tuyGUiQikg5w" />
+    <meta name="apple-mobile-web-app-title" content="Ej Majstore!">
+    
+    
+    
+    <!-- PRECONNECTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CRITICAL INLINE CSS -->
+    <style>
+      *{box-sizing:border-box}body{font-family:system-ui,sans-serif;margin:0;line-height:1.6;color:#333}.banner-title{color:white;text-decoration:none;font-size:2.5rem}.banner p{font-size:1.2rem;margin:0.5rem 0}h1,h2,h3{margin-top:0;font-weight:600}.main-content{max-width:800px;margin:0 auto}.footer{text-align:center;color: black; padding:1rem;background:#f5f5f5;margin-top:2rem}
+    </style>
+    
+    <!-- GOOGLE FONTS: ASYNC -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- STYLE CSS: ASYNC -->
+    <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+    
+    <!-- FONTAWESOME: LOCAL + ASYNC -->
+    <link rel="preload" href="/assets/css/fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/fontawesome/css/all.min.css"></noscript>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vb5o57mfej");
+</script>
+</head>
+
+<!-- Main Styles -->
+<style>
+  :root {
+    --color-primary: #0059b2;
+    --color-secondary: #f4f6f8;
+    --color-accent: #ff6b35;
+    --color-text: #1f2937;
+    --color-muted: #6b7280;
+    --radius-md: 14px;
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.1);
+    --transition: all 0.25s ease;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--color-text);
+    margin: 0;
+    background: #ffffff;
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--color-primary), #0073e6);
+    color: #fff;
+    position: relative;
+    padding: 1.5rem 1rem 1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(255,255,255,0.15), transparent 60%);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .banner-title {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+
+  .banner p {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* Global Search Styles */
+  .global-search-container {
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    position: relative; /* Important: makes absolute dropdown position relative to this container */
+    z-index: 1000;
+  }
+
+  #global-search {
+    width: 100%;
+    padding: 0.9rem 1.2rem 0.9rem 3rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    outline: none;
+    background: #fff;
+  }
+
+  #global-search:focus {
+    box-shadow: var(--shadow-md);
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    pointer-events: none;
+  }
+
+  /* Dropdown: now absolute, appears directly below the input */
+  .search-results-dropdown {
+    position: relative;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px; /* small gap below the input */
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+    padding: 0.5rem 0;
+  }
+
+  .search-result-item {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+
+  .search-result-item:hover {
+    background: #f8f9fa;
+  }
+
+  .search-result-item a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+
+  .search-result-item:last-child {
+    border-bottom: none;
+  }
+
+  .no-results-item {
+    padding: 2rem;
+    text-align: center;
+    color: var(--color-muted);
+    font-style: italic;
+  }
+
+  main { max-width: 1100px; margin: 0 auto; }
+
+  .cta-section { background: var(--color-secondary); padding: 3rem 1.5rem; }
+  .cta-duo-container { display: flex; flex-direction: column; gap: 1.5rem; max-width: 1100px; margin: 3rem auto; }
+  @media (min-width: 768px) { .cta-duo-container { flex-direction: row; } }
+
+  .cta-duo-block { background: #fff; border-radius: var(--radius-md); box-shadow: 8px -7px 6px rgba(0, 0, 0, 0.08); padding: 2rem; text-align: center; transition: var(--transition); }
+  .cta-duo-block:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
+  .cta-duo-block h2 { color: var(--color-primary); margin-top: 0; }
+  .cta-duo-block p { color: var(--color-muted); }
+
+  footer { background: #f9fafb; text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: var(--color-muted); }
+  footer a { color: var(--color-primary); text-decoration: none; }
+  footer a:hover { color: var(--color-accent); }
+
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  header .banner { animation: fadeInUp 0.8s ease forwards; }
+
+  .banner-title-wrapper { display: flex; justify-content: center; align-items: center; margin-bottom: 1.5rem; }
+  .logo-link { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; color: #fff; }
+  .logo-helmet { font-size: 3rem; color: #ffc107; transition: transform 0.25s ease; }
+  .logo-link:hover .logo-helmet { transform: rotate(-10deg) scale(1.1); }
+  .logo-wordmark { font-size: clamp(2rem, 4vw, 2.5rem); font-weight: 800; color: #fff; letter-spacing: -0.5px; text-shadow: 1px 1px 4px rgba(0,0,0,0.25); line-height: 1; }
+
+  @media (max-width: 600px) {
+    .logo-helmet { font-size: 2.2rem; }
+    .logo-wordmark { font-size: 1.8rem; }
+  }
+</style>
+
+<!-- Search Index Data -->
+<script>
+  const searchIndex = [
+    { title: "Agencije za čišćenje Beograd", url: "/agencije-za-ciscenje-beograd/" },
+    { title: "Kompletna zamena PVC i ALU stolarije Novi Sad", url: "/kompletna-zamena-pvc-alu-stolarije-novi-sad/" },
+    { title: "Prevoz Nameštaja Beograd", url: "/prevoz-namestaja-beograd/" },
+    { title: "PVC Stolarija Beograd", url: "/pvc-stolarija-beograd/" },
+    { title: "Aluminijumska Stolarija Beograd", url: "/alu-stolarija-beograd/" },
+    { title: "Hitne Bravarske Usluge Beograd", url: "/bravar-hitne-intervencije-beograd/" },
+    { title: "Agencije za čišćenje Novi Sad", url: "/agencije-za-ciscenje-novi-sad/" },
+    { title: "Komarnici Novi Sad", url: "/komarnici-novi-sad/" },
+    { title: "Izrada Kuhinja Po Meri Novi Sad", url: "/izrada-kuhinja-po-meri-novi-sad/" },
+    { title: "PVC Stolarija Novi Sad", url: "/pvc-stolarija-novi-sad/" },
+    { title: "Aluminijumska Stolarija Novi Sad", url: "/alu-stolarija-novi-sad/" },
+    { title: "Vodoinstalater Hitne Intervencije Novi Sad 24h", url: "/vodoinstalater-novi-sad-hitne-intervencije-24h/" },
+    { title: "Vodoinstalater Hitne Intervencije Beograd", url: "/vodoinstalater-hitne-intervencije-beograd/" },
+    { title: "PVC Stolarija Subotica", url: "/pvc-stolarija-subotica/" },
+    { title: "Oplate i Skele Srbija", url: "/oplate-i-skele-srbija/" },
+    { title: "Cenovnik PVC Stolarije u Subotici", url: "/pvc-stolarija-subotica-cenovnik/" },
+    { title: "Cenovnik Krovnih Prozora u Novom Sadu", url: "/krovni-prozori-cena-sa-ugradnjom-novi-sad/" },
+    { title: "Staklene Ograde u Novom Sadu", url: "/staklene-ograde-novi-sad/" },
+    { title: "Tuš Kabine po Meri Novi Sad", url: "/tus-kabine-po-meri-novi-sad/" },
+    { title: "Staklene Ograde za Stepenice u Novom Sadu", url: "/staklene-ograde-za-stepenice-novi-sad/" },
+    { title: "Zastakljivanje terasa u Novom Sadu", url: "/zastakljivanje-terasa-novi-sad/" },
+    { title: "Cena Krovnih Prozora sa Ugradnjom 2026", url: "/krovni-prozori-cena-sa-ugradnjom/" },
+    { title: "Izrada Sobnih Vrata Po Meri Novi Sad", url: "/sobna-vrata-po-meri-novi-sad/" },
+    { title: "Aluminijumske Ograde", url: "/aluminijumske-ograde-cena-po-metru/" },
+    { title: "Rolo Vrata za Garažu u Novom Sadu", url: "/rolo-garazna-vrata-novi-sad/" },
+    { title: "Segmentna Vrata za Garažu u Novom Sadu", url: "/segmentna-garazna-vrata-novi-sad/" },
+    { title: "Izrada Kuhinja Po Meri - Boško Novi Sad", url: "/izrada-kuhinja-po-meri-novi-sad/" },
+    { title: "Staklena klizna vrata po meri u Novom Sadu", url: "/staklena-klizna-vrata-cena-novi-sad/" },
+    { title: "Cena Međugradske Selidbe", url: "/medjugradske-selidbe-cena/" }
+  ];
+  
+</script>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="banner-title-wrapper">
+        <a href="/" class="logo-link">
+          <i class="fa-solid fa-helmet-safety logo-helmet" aria-hidden="true"></i>
+          <span class="logo-wordmark">Ej Majstore!</span>
+        </a>
+      </div>
+
+      <p style="margin-bottom: 1rem;">Platforma zanatskih usluga</p>
+      
+      <!-- Global Search Bar -->
+      <div class="global-search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+        <input type="text" id="global-search" placeholder="Pretraži usluge (čišćenje, PVC, bravar, komarnici...)" autocomplete="off">
+        <div id="search-results" class="search-results-dropdown"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==== PRELOAD HERO IMAGE (CRITICAL FOR LCP) ==== -->
+
+
+<link rel="preload"
+      as="image"
+      href="/images/izrada-kuhinja-po-meri-novi-sad.webp?width=1200&format=webp"
+      imagesrcset="/images/izrada-kuhinja-po-meri-novi-sad.webp?width=1200&format=webp 1200w,
+                  /images/izrada-kuhinja-po-meri-novi-sad.webp?width=800&format=webp 800w,
+                  /images/izrada-kuhinja-po-meri-novi-sad.webp?width=600&format=webp 600w"
+      imagesizes="(max-width: 767px) 90vw, 800px"
+      fetchpriority="high">
+
+
+<!-- ==== META FOR DISCOVER & SOCIAL ==== -->
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj">
+<meta property="og:description" content="Boškove kuhinje po meri – prilagođene vašem prostoru sa maksimalnom iskoristivošću. Garancija 10 godina, brza realizacija 25-35 dana, besplatno merenje u Nov...">
+
+  <meta property="og:image" content="https://ejmajstore.rs/images/izrada-kuhinja-po-meri-novi-sad.webp?width=1200&format=webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ejmajstore.rs/images/izrada-kuhinja-po-meri-novi-sad.webp?width=1200&format=webp">
+
+<link rel="canonical" href="https://ejmajstore.rs/izvodjaci/novi-sad/boskove-kuhinje-po-meri/">
+
+<!-- ==== DEFERRED CRITICAL CSS (EXTERNAL) ==== -->
+<link rel="stylesheet" 
+      href="/assets/css/details.min.css" 
+      media="print" 
+      onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/details.min.css">
+</noscript>
+
+<!-- ==== SAFE IMAGE LOADER (NO INFINITE LOOP) ==== -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('img[data-fallback]').forEach(img => {
+      const fallback = img.getAttribute('data-fallback');
+      img.onerror = function() {
+        if (this.src !== fallback && fallback) {
+          this.src = fallback;
+          this.onerror = null;
+        }
+      };
+    });
+  });
+</script>
+
+<style>
+  .cta-section {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 2px solid #000000;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #0077cc, #005a99);
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 119, 204, 0.3);
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #005a99, #0077cc);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 119, 204, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+
+.share-btn.copy-link {
+    background: #000000; /* Black for contrast */
+}
+
+.share-btn.copy-link:hover {
+    background: #333333; /* Darker on hover */
+}
+
+
+
+/* ==== STICKY DIRECT CONTACT BUTTONS - MOBILE & TABLET ONLY ==== */
+.direct-contact-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  border-radius: 16px;
+  
+  padding: 16px 20px;
+  z-index: 1000;
+  width: calc(100% - 40px);
+  font-family: inherit;
+  display: none; /* Hidden by default */
+  max-width: 65%;
+}
+
+/* Show only on tablets and phones (max-width: 1024px covers most tablets) */
+@media (max-width: 1024px) {
+  .direct-contact-container {
+    display: block;
+    position: fixed;
+    bottom: 0; /* Dock it to the absolute bottom */
+    left: 0;
+    right: 0;
+    transform: none; /* Remove the centering hack */
+    padding: 10px 15px; /* Thinner padding */
+    border-radius: 0; /* Squared edges feel more 'app-like' on bottom */
+    
+  }
+
+  .direct-contact-title {
+    display: none; /* KILL the title. The icons speak for themselves. */
+  }
+
+  .direct-contact-btn-wrapper {
+    display: flex; /* Put buttons SIDE BY SIDE */
+    gap: 10px;
+  }
+
+  .direct-contact-btn {
+    margin: 0;
+    font-size: 0.9rem; /* Smaller text for side-by-side */
+    flex: 1; /* Both buttons take equal space */
+    max-width: fit-content;
+  }
+}
+
+
+
+
+
+.marketing-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d9534f; /* red-ish to indicate attention */
+  margin: 0.5rem 0 1rem 0;
+  display: inline-block;
+}
+
+/* Extra polish for small phones */
+@media (max-width: 480px) {
+  .direct-contact-container {
+    bottom: 15px;
+    padding: 14px 16px;
+    border-radius: 14px;
+  }
+  
+  .direct-contact-btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+/* Kontejner koji prekida skrolovanje */
+.lead-hijack-container {
+    background: #fffcf5; /* Blago krem boja, asocira na papir/zanat */
+    border-left: 5px solid #ff6b35; /* Jaka narandžasta "traka" pažnje */
+    border-top: 1px solid #ffe0b2;
+    border-bottom: 1px solid #ffe0b2;
+    border-right: 1px solid #ffe0b2;
+    border-radius: 4px 16px 16px 4px;
+    padding: 24px;
+    margin: 2.5rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lead-hijack-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff6b35;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.lead-hijack-title {
+    font-size: 1.3rem !important;
+    color: #1a1a1a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.lead-hijack-text {
+    font-size: 1rem !important;
+    color: #4a4a4a !important;
+    margin-bottom: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* Dugme koje dominira na palcu (Mobile Optimized) */
+.lead-hijack-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 24px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.lead-hijack-btn:active {
+    transform: scale(0.96); /* Efekat klika na mobilnom */
+}
+
+.lead-hijack-btn i {
+    margin-left: 10px;
+}
+
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sticky-form-button {
+    display: block;
+  }
+}
+
+
+
+/* General Form Styles */
+.form-section {
+  background: #f9fafb;
+  padding: 3rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border: 5px solid #ffae00;
+  border-radius: var(--radius-md, 0.375rem);
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form Messages */
+#form-success,
+#form-error {
+  transition: opacity 0.3s ease;
+}
+
+/* Form Elements */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+  color: #374151;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--secondary, #3b82f6);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+.form-group label {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.25rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label,
+.form-group input:focus + label,
+.form-group textarea:focus + label {
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  color: var(--secondary, #3b82f6);
+  background: #ffffff;
+  padding: 0 0.25rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Checkbox Group */
+.form-group[style*="flex"] {
+  margin-bottom: 1rem;
+}
+
+.form-group[style*="flex"] label {
+  position: static;
+  color: var(--gray, #6b7280);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-group[style*="flex"] a {
+  color: var(--secondary, #3b82f6);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.form-group[style*="flex"] a:hover {
+  color: darken(var(--secondary, #3b82f6), 10%);
+}
+
+/* Submit Button */
+#contact-form button {
+  background: var(--secondary, #3b82f6);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--radius-md, 0.375rem);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+
+
+#contact-form button:active {
+  transform: translateY(1px);
+}
+
+#contact-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Sticky Form Button */
+.sticky-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.875rem 1rem;
+  }
+
+  #contact-form button {
+    padding: 0.875rem;
+  }
+
+  .sticky-form-button {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+</style>
+
+<article class="majstor-story">
+
+  <!-- ==== HERO IMAGE: FULLY OPTIMIZED ==== -->
+  
+    
+    <picture>
+      <source 
+        srcset="/images/izrada-kuhinja-po-meri-novi-sad.webp?width=1200&format=webp 1200w,
+                /images/izrada-kuhinja-po-meri-novi-sad.webp?width=800&format=webp 800w,
+                /images/izrada-kuhinja-po-meri-novi-sad.webp?width=600&format=webp 600w"
+        sizes="(max-width: 767px) 90vw, 800px"
+        type="image/webp">
+      <img 
+        src="/images/izrada-kuhinja-po-meri-novi-sad.webp?width=800&format=webp"
+        alt="Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj – hero slika"
+        class="hero-image"
+        width="1200"
+        height="630"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+        data-fallback="/assets/images/fallback-majstor.webp"
+        style="aspect-ratio:1200/630;">
+    </picture>
+  
+<p style="margin: 0.75rem 0 1.25rem 0; line-height: 1.4;">
+  <span style="
+    display: inline-block;
+    padding: 0.2rem 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #b52b27;
+    background-color: #fdecea;
+    border-radius: 4px;
+    vertical-align: middle;
+  ">
+    📢 Marketinški sadržaj
+  </span>
+  <span style="
+    margin-left: 0.4rem;
+    font-size: 0.85rem;
+    color: #555;
+    vertical-align: middle;
+  ">
+  Ovaj sadržaj je pripremljen u marketinške svrhe i ne predstavlja nezavisnu uredničku preporuku.
+  </span>
+</p>
+
+
+  <h1 class="page-title">
+  Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj
+</h1>
+
+
+  
+  <div class="author-bio">
+    <p><strong>Uredio:</strong> Petar Škrbić |
+      <strong>Ažurirano:</strong> 24. 02. 2026 |
+       <a href="/o-nama/">O autoru</a></p>
+    <p>Petar je osnivač platforme Ej Majstore! online adresara zanatskih i uslužnih delatnosti u Srbiji. Platforma prikuplja i objavljuje osnovne informacije o izvođačima dostupne javnosti ili dostavljene od strane samih firmi. Lični osvrt autora ne predstavlja preporuku niti garanciju kvaliteta.</p>
+  </div>
+  
+
+  
+
+  
+
+  <!-- ==== DYNAMIC CONTENT SECTIONS ==== -->
+  
+    <p class="section-p">Pre nekoliko meseci, renovirao sam kuhinju u stanu – zidovi, pločice, sve novo. Ali, standardni elementi iz salona nisu se uklapali u nepravilan prostor. Tražio sam majstora za kuhinju po meri, nekog pouzdanog sa fiksnim rokovima. Naišao sam na Boška preko preporuke. Poslao sam mere preko Vibera, došao na besplatno merenje isti dan – i evo, za 25 dana, savršena kuhinja montirana. Bez haosa, spremna za upotrebu.</p>
+      
+  
+    <p class="section-p">Boško je specijalizovan za kuhinje po meri, nema 'praznog hoda' u ćoškovima, sve funkcionalno. To je bio moj prvi susret sa kuhinjama ove ekipe – brzo, pouzdano, kvalitetno.</p>
+      
+  
+    
+        
+        <figure class="section-figure">
+          <picture>
+            <source srcset="/images/moderna-bela-kuhinja-sa-ugradnim-elementima.webp?width=800&format=webp 800w,
+                            /images/moderna-bela-kuhinja-sa-ugradnim-elementima.webp?width=600&format=webp 600w"
+                    sizes="(max-width: 767px) 90vw, 800px"
+                    type="image/webp">
+            <img 
+              src="/images/moderna-bela-kuhinja-sa-ugradnim-elementima.webp?width=800"
+              alt="Premium farbana kuhinja po meri Novi Sad."
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+              style="aspect-ratio:4/3;"
+              data-fallback="/assets/images/fallback-majstor.webp">
+          </picture>
+          
+            <figcaption>Moderna kuhinja sa farbanim elementima, visok sjaj, sa ugradnim aparatima i kvalitetnim okovima.</figcaption>
+          
+        </figure>
+
+      
+  
+    <h2 class="section-h2">Ko je Boško – 20+ Godina Iskustva u Kuhinjama po Meri</h2>
+      
+  
+    <p class="section-p">U pitanju je mala firma sa više od 20 godina iskustva u izradi nameštaja po meri. Majstori su specijalizovani za kuhinje sa materijalima Kendl/Eger i okovima Blum/GTV. Regionalno pokrivanje: Novi Sad, Sremska Mitrovica, Futog, Irig i okolina.</p>
+      
+  
+    
+        <section id="form" class="form-section">
+          <div class="form-container">
+            <h2 id="form-title">Boško će vam se ekspresno javiti za dogovor o merenju i ceni</h2>
+
+            <div id="form-success" style="display:none; margin-top:2rem; padding:1.5rem; background:#ecfdf5; border-radius:var(--radius-md); color:#065f46; text-align:center; font-weight:700; font-size:1.15rem;">
+              ✅ Primljeno! Boško će vam se javiti ubrzo!
+            </div>
+            <div id="form-error" style="display:none; margin-top:2rem; padding:1.5rem; background:#fee2e2; border-radius:var(--radius-md); color:#991b1b; text-align:center; font-weight:700; font-size:1.15rem;">
+              ❌ Došlo je do greške. Molimo pokušajte ponovo.
+            </div>
+
+            <form id="contact-form" action="https://submit-form.com/NL4FHgWfW" method="POST">
+              <input type="hidden" name="_email.subject" value="Boškove Kuhinje po Meri">
+              
+              <input type="hidden" name="_append" value="false">
+              <input type="hidden" name="business" value="Kuhinje po meri Boško">
+              <input type="text" name="_honeypot" value="" style="display:none;">
+
+              <div class="form-group">
+                <input type="text" name="ime" id="ime" placeholder=" " required>
+                <label for="ime">Ime i prezime *</label>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+                <label for="telefon">Telefon (za kontakt) *</label>
+              </div>
+
+              <div class="form-group">
+                <textarea name="poruka" id="poruka" rows="5" placeholder=" "></textarea>
+                <label for="poruka">Opišite nam svoje želje</label>
+              </div>
+
+              <div class="form-group" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 2rem; text-align: left;">
+                <input type="checkbox" id="consent" name="consent_given" required style="width: 20px; height: 20px; cursor: pointer; accent-color: var(--secondary); margin-top: 4px;">
+                <label for="consent" style="position: static; font-size: 0.95rem; color: var(--gray); pointer-events: auto; cursor: pointer; line-height: 1.4;">
+                  Saglasan sam sa <a href="/politika-privatnosti/" target="_blank" style="color: var(--secondary); text-decoration: underline;">politikom privatnosti</a> i dajem dozvolu da me Boško kontaktira povodom ovog upita.
+                </label>
+              </div>
+
+              <button type="submit">🚀 Pozovi me za dogovor Boško</button>
+            </form>
+          </div>
+        </section>
+    
+  
+    <h2 class="section-h2">Šta je sve u ponudi: Od Soft Mat do Premium Kuhinja</h2>
+      
+  
+    <p class="section-p">Boško radi brzo i pouzdano:</p>
+      
+  
+    <h3 class="section-h3">1. Soft Mat Medijapan Kuhinje</h3>
+      
+  
+    <p class="section-p">Bež/sivi, Kaindl ploča, Blum okovi. Maksimalna iskoristivost.</p>
+      
+  
+    <h3 class="section-h3">2. Bianco Sjaj Kuhinje</h3>
+      
+  
+    <p class="section-p">Evo Gloss, GTV + LED, Kendl materijali.</p>
+      
+  
+    
+        
+        <figure class="section-figure">
+          <picture>
+            <source srcset="/images/medijapan-kuhinja-po-meri-novi-sad.webp?width=800&format=webp 800w,
+                            /images/medijapan-kuhinja-po-meri-novi-sad.webp?width=600&format=webp 600w"
+                    sizes="(max-width: 767px) 90vw, 800px"
+                    type="image/webp">
+            <img 
+              src="/images/medijapan-kuhinja-po-meri-novi-sad.webp?width=800"
+              alt="Medijapan kuhinja po meri Novi Sad."
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+              style="aspect-ratio:4/3;"
+              data-fallback="/assets/images/fallback-majstor.webp">
+          </picture>
+          
+            <figcaption>Završena kuhinja, savršeno uklopljena u prostor, sa svim funkcionalnim elementima.</figcaption>
+          
+        </figure>
+
+      
+  
+    <h3 class="section-h3">3. Univer Standard Kuhinje</h3>
+      
+  
+    <p class="section-p">Klasik, GTV okovi, Eger materijali.</p>
+      
+  
+    
+        
+        <figure class="section-figure">
+          <picture>
+            <source srcset="/images/bela-elegantna-kuhinja-u-l-obliku.webp?width=800&format=webp 800w,
+                            /images/bela-elegantna-kuhinja-u-l-obliku.webp?width=600&format=webp 600w"
+                    sizes="(max-width: 767px) 90vw, 800px"
+                    type="image/webp">
+            <img 
+              src="/images/bela-elegantna-kuhinja-u-l-obliku.webp?width=800"
+              alt="Univer kuhinja po meri Novi Sad."
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+              style="aspect-ratio:4/3;"
+              data-fallback="/assets/images/fallback-majstor.webp">
+          </picture>
+          
+            <figcaption>Klasični dizajn kuhinje u L obliku sa kvalitetnim materijalima i okovima.</figcaption>
+          
+        </figure>
+
+      
+  
+    <h3 class="section-h3">4. Premium Farbane Kuhinje</h3>
+      
+  
+    <p class="section-p">Medijapan RAL, Blum okovi, Kendl.</p>
+      
+  
+    <h3 class="section-h3">5. 3D Vizuelizacija i Montaža</h3>
+      
+  
+    <p class="section-p">Opciono 300€ za 3D vizuelizaciju projekta, montaža uključena, garancija.</p>
+      
+  
+    <h2 class="section-h2">Cena Kuhinje po Meri u Novom Sadu</h2>
+      
+  
+    <p class="section-p">Cena kuhinje po meri u Novom Sadu se kreće od 2500€ do 3800€ u zavisnosti od modela i okova. Cene su sa PDV-om.</p>
+      
+  
+    <p class="section-p"><strong>Soft Mat Medijapan Kuhinje:</strong> Bež/sivi, Kaindl ploča, Blum okovi. Prosečna cena 3.000 €.</p>
+      
+  
+    <p class="section-p"><strong>Bianco Sjaj Kuhinje:</strong> Evo Gloss, GTV + LED, Kendl. Prosečna cena 3.500 €.</p>
+      
+  
+    <p class="section-p"><strong>Univer Standard Kuhinje:</strong> Klasik, GTV okovi, Eger. Prosečna cena 2.500 €.</p>
+      
+  
+    <p class="section-p"><strong>Premium Farbane Kuhinje:</strong> Medijapan RAL, Blum, Kendl. Prosečna cena 3.800 €.</p>
+      
+  
+    <h2 class="section-h2">Kako Funkcioniše Saradnja sa Boškom</h2>
+      
+  
+    <p class="section-p">1. Kontakt & Besplatno Merenje: popunite formu, odgovor veoma brz, izlazak na teren 1-2 dana <br>2. 3D Predlog & Fiksna Cena – realističan prikaz, fiksna ponuda<br>3. Ugovor & Avans – jasan ugovor sa rokovima<br>4. Precizna Izrada – 25-35 dana u radionici<br>5. Montaža & Predaja – brza, čista, sa obukom</p>
+      
+  
+    <h2 class="section-h2">Ključne prednosti saradnje sa Boškom</h2>
+      
+  
+    
+        <ul class="section-ul">
+          <li>20+ godina iskustva – stotine zadovoljnih porodica</li><li>Materijali Kendl/Eger, okovi Blum/GTV</li><li>Fiksna cena – bez skrivenih troškova</li><li>Brza realizacija – 25-35 dana</li><li>Besplatno merenje i 3D vizuelizacija</li><li>Garancija do 10 godina, regionalno pokrivanje</li>
+        </ul>
+      
+  
+    <p class="section-p">Ako vam treba kuhinja po meri – Boško je pravi izbor.</p>
+      
+  
+
+  <!-- ==== TIPS SECTION ==== -->
+  
+  <div class="tips-section">
+    <h3>Kako da Vaša Kuhinja po Meri Traje 10+ Godina</h3>
+    <ul>
+      <li>Birajte Blum okove – besprekoran rad godinama</li><li>Soft mat medijapan – otporan na ogrebotine</li><li>Žičani elementi – maksimalna organizacija</li><li>3D vizuelizacija – izbegnite greške</li><li>Fiksna cena – bez skrivenih troškova</li><li>Besplatno merenje – precizno od starta</li>
+    </ul>
+  </div>
+  
+
+  
+
+  <!-- ==== FAQ SECTION (original look) ==== -->
+  
+  <div style="margin-top:2.5rem;">
+    <h2 style="font-size:1.6rem;color:#1F2A44;margin-bottom: 2rem;">Često postavljana pitanja</h2>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Koliko košta kuhinja po meri? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Prosečno 3000€ za komplet (vidi cenovnik). Cene su sa PDV-om i kreću od 2500€ do 3800€ u zavisnosti od modela i okova.</p></div>
+    </div>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Koliko traje izrada? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Standardne kuhinje 25 radnih dana, farbane 35 radnih dana. Rokovi su realni i uglavnom se poštuju u 95% slučajeva.</p></div>
+    </div>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Da li dajete garanciju? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Da – minimum 5 godina na materijale i okove, do 10 godina na montažu i spojeve.</p></div>
+    </div>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Šta ako cena poraste tokom radova? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Neće. Nakon merenja i 3D predloga dobijate fiksnu ponudu koja se ne menja osim ako vi ne tražite dodatne izmene.</p></div>
+    </div>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Da li kasnite ikada sa rokovima? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Veoma retko. Ako dođe do kašnjenja (npr. zbog dobavljača), obaveštavamo vas na vreme i nudimo kompenzaciju.</p></div>
+    </div>
+    
+    <div style="background:#ffffff;padding:1rem;border-radius:8px;margin-bottom:1rem;border:4px solid #007bff;">
+      <h3 style="margin:0 0 .5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;"
+          onclick="let a=this.nextElementSibling,t=this.querySelector('span');a.style.display=a.style.display==='block'?'none':'block';t.textContent=t.textContent==='+'?'-':'+'">
+        Koliko traje merenje i da li je besplatno? <span style="font-weight:bold;font-size:1.2rem;color:#007bff;">+</span>
+      </h3>
+      <div style="display:none;margin-top:.5rem;color:#555;"><p style="margin:0;">Merenje traje 20–40 minuta i 100% je besplatno. Dolazimo kada vama odgovara, često isti ili sledeći dan.</p></div>
+    </div>
+    
+  </div>
+  
+
+  <!-- ==== SHARE BUTTONS (only copy link) ==== -->
+<div class="share-section">
+  <p>Podeli Izvođača sa drugima:</p>
+  <button id="copyLinkBtn" class="share-btn copy-link">Kopiraj Link</button>
+</div>
+
+
+
+
+  <div class="cta-section">
+    <a href="/izvodjaci" class="cta-button">
+      📖 Pogledajte druge izvođače
+    </a>
+  </div>
+
+</article>
+
+
+<a href="#form-title" class="sticky-form-button">Pošalji Upit</a>
+
+
+
+
+<script>
+  
+document.addEventListener("DOMContentLoaded", function() {
+    const copyButton = document.getElementById('copyLinkBtn');
+    if (copyButton) {
+      // Get the absolute URL from the canonical link
+      const urlToCopy = document.querySelector('link[rel="canonical"]').href;
+
+      copyButton.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(urlToCopy);
+          
+          // Provide feedback to the user
+          copyButton.textContent = 'Kopirano!'; 
+          copyButton.style.backgroundColor = '#28a745'; // Green feedback
+          
+          // Reset button text and color after a short delay
+          setTimeout(() => {
+            copyButton.textContent = 'Kopiraj Link';
+            copyButton.style.backgroundColor = '#000000'; // Reset to original black
+          }, 2000);
+
+        } catch (err) {
+          console.error('Nije moguće kopirati link: ', err);
+          copyButton.textContent = 'Greška pri kopiranju!';
+        }
+      });
+    }
+  });
+
+  </script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('contact-form');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg = document.getElementById('form-error');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // UI Feedback: Loading state
+      const btn = contactForm.querySelector('button');
+      const originalBtnText = btn.innerText;
+      btn.disabled = true;
+      btn.innerText = 'Slanje...';
+      
+      // Reset visibility for new attempt
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      // CRITICAL FIX: Convert FormData to a plain object for JSON submission
+      const formData = new FormData(contactForm);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          headers: { 
+            'Content-Type': 'application/json', // Tell the server we are sending JSON
+            'Accept': 'application/json'        // Tell the server we want JSON back
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          // 1. Success UI
+          successMsg.style.opacity = '0';
+          successMsg.style.display = 'block';
+          
+          // Smooth fade in
+          setTimeout(() => { successMsg.style.opacity = '1'; }, 10);
+          
+          // 2. Clear the form fields
+          contactForm.reset();
+          
+          // 3. Reset Button
+          btn.disabled = false;
+          btn.innerText = originalBtnText;
+
+          // 4. Scroll to the message
+          successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          // Capture response error details in console for debugging
+          const errorData = await response.json();
+          console.error('Formspark Error:', errorData);
+          throw new Error('Submission failed');
+        }
+      } catch (error) {
+        console.error('Network Error:', error);
+        errorMsg.style.display = 'block';
+        btn.disabled = false;
+        btn.innerText = originalBtnText;
+      }
+    });
+  }
+});
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Boškove Kuhinje po Meri koje se prilagođavaju Vama, a ne Vi njoj",
+  "description": "Boškove kuhinje po meri – prilagođene vašem prostoru sa maksimalnom iskoristivošću. Garancija 10 godina, brza realizacija 25-35 dana, besplatno merenje u Novom Sadu i okolini. Materijali: Kendl/Eger, okovi: Blum/GTV. u Novi Sad, Sremska Mitrovica, Futog, Irig, Ruma, Veternik.",
+  "url": "https://ejmajstore.rs/izvodjaci/novi-sad/boskove-kuhinje-po-meri/",
+  
+  "image": "https://ejmajstore.rs/images/izrada-kuhinja-po-meri-novi-sad.webp?width=800&format=webp",
+  
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Novi Sad",
+    
+    "streetAddress": "Sremska Mitrovica, Srbija",
+    
+    "addressCountry": "RS"
+  },
+  "openingHours": "Mo-Su 08:00-20:00",
+  "priceRange": "$$",
+  "areaServed": [
+    
+    
+      "Novi Sad",
+    
+      "Sremska Mitrovica",
+    
+      "Futog",
+    
+      "Irig",
+    
+      "Ruma",
+    
+      "Veternik"
+    
+  ]
+  
+  ,"makesOffer": [
+    
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Soft Mat Medijapan Kuhinje",
+        "description": "Bež/sivi, Kaindl ploča, Blum okovi. Prosečna cena 3.000 €."
+      }
+    },
+    
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Bianco Sjaj Kuhinje",
+        "description": "Evo Gloss, GTV + LED, Kendl. Prosečna cena 3.500 €."
+      }
+    },
+    
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Univer Standard Kuhinje",
+        "description": "Klasik, GTV okovi, Eger. Prosečna cena 2.500 €."
+      }
+    },
+    
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Premium Farbane Kuhinje",
+        "description": "Medijapan RAL, Blum, Kendl. Prosečna cena 3.800 €."
+      }
+    },
+    
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "3D Vizuelizacija",
+        "description": "Opciono, 300€ za realističan prikaz."
+      }
+    }
+    
+  ]
+  
+}
+</script>
+
+<!-- FAQ Schema -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    
+    { "@type": "Question",
+      "name": "Koliko košta kuhinja po meri?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Prosečno 3000€ za komplet (vidi cenovnik). Cene su sa PDV-om i kreću od 2500€ do 3800€ u zavisnosti od modela i okova." }
+    },
+    
+    { "@type": "Question",
+      "name": "Koliko traje izrada?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Standardne kuhinje 25 radnih dana, farbane 35 radnih dana. Rokovi su realni i uglavnom se poštuju u 95% slučajeva." }
+    },
+    
+    { "@type": "Question",
+      "name": "Da li dajete garanciju?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Da – minimum 5 godina na materijale i okove, do 10 godina na montažu i spojeve." }
+    },
+    
+    { "@type": "Question",
+      "name": "Šta ako cena poraste tokom radova?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Neće. Nakon merenja i 3D predloga dobijate fiksnu ponudu koja se ne menja osim ako vi ne tražite dodatne izmene." }
+    },
+    
+    { "@type": "Question",
+      "name": "Da li kasnite ikada sa rokovima?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Veoma retko. Ako dođe do kašnjenja (npr. zbog dobavljača), obaveštavamo vas na vreme i nudimo kompenzaciju." }
+    },
+    
+    { "@type": "Question",
+      "name": "Koliko traje merenje i da li je besplatno?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Merenje traje 20–40 minuta i 100% je besplatno. Dolazimo kada vama odgovara, često isti ili sledeći dan." }
+    }
+    
+  ]
+}
+</script>
+
+  </main>
+
+  
+  
+  <footer>
+    <p>
+      &copy; 2026 Ej Majstore! - Platforma zanatskih usluga u Srbiji | 
+      Odgovorno lice: 
+      <a href="https://www.linkedin.com/in/petar-skrbic/" class="linkedin-link" target="_blank" rel="noopener noreferrer">
+        Petar Škrbić
+      </a>
+    </p>
+    
+    <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #ddd; text-align: center; font-size: 0.85em;">
+      <a href="/o-nama/">O nama</a> |
+      <a href="/uslovi-koriscenja/">Uslovi korišćenja</a> |
+      <a href="/politika-privatnosti/">Privatnost</a> |
+      <a href="/impressum/">Impressum</a> |
+      <a href="/sitemap/">Sitemap</a>
+    </div>
+  </footer>
+
+  <!-- Global Search JavaScript - Simplified (no manual positioning needed) -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('global-search');
+    const resultsBox = document.getElementById('search-results');
+    const container = document.querySelector('.global-search-container');
+
+    function closeDropdown() {
+      resultsBox.style.display = 'none';
+    }
+
+    searchInput.addEventListener('input', function () {
+      const query = this.value.trim().toLowerCase();
+      
+      if (query.length === 0) {
+        closeDropdown();
+        return;
+      }
+
+      const matches = searchIndex.filter(item => 
+        item.title.toLowerCase().includes(query)
+      );
+
+      if (matches.length === 0) {
+        resultsBox.innerHTML = `<div class="no-results-item">Nema rezultata za "${query}"</div>`;
+      } else {
+        resultsBox.innerHTML = matches.map(item => 
+          `<div class="search-result-item">
+             <a href="${item.url}">${item.title}</a>
+           </div>`
+        ).join('');
+      }
+
+      resultsBox.style.display = 'block';
+    });
+
+    // Close when clicking anywhere outside the search container
+    document.addEventListener('click', function (e) {
+      if (!container.contains(e.target)) {
+        closeDropdown();
+      }
+    });
+
+    // Prevent closing when clicking inside input or results
+    searchInput.addEventListener('click', (e) => e.stopPropagation());
+    resultsBox.addEventListener('click', (e) => e.stopPropagation());
+  });
+  </script>
+  <!-- Global Search JavaScript - with Cyrillic → Latin transliteration support -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const searchInput = document.getElementById('global-search');
+  const resultsBox = document.getElementById('search-results');
+  const container = document.querySelector('.global-search-container');
+
+  // Transliteration map: Cyrillic → common Latin equivalents (Serbian style)
+  const transliterateMap = {
+    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'ђ': 'dj',
+    'е': 'e', 'ж': 'z', 'з': 'z', 'и': 'i', 'ј': 'j', 'к': 'k',
+    'л': 'l', 'љ': 'lj', 'м': 'm', 'н': 'n', 'њ': 'nj', 'о': 'o',
+    'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'ћ': 'c', 'у': 'u',
+    'ф': 'f', 'х': 'h', 'ц': 'c', 'ч': 'c', 'џ': 'dz', 'ш': 's',
+    // Uppercase
+    'А': 'A', 'Б': 'B', 'В': 'V', 'Г': 'G', 'Д': 'D', 'Ђ': 'Dj',
+    'Е': 'E', 'Ж': 'Z', 'З': 'Z', 'И': 'I', 'Ј': 'J', 'К': 'K',
+    'Л': 'L', 'Љ': 'Lj', 'М': 'M', 'Н': 'N', 'Њ': 'Nj', 'О': 'O',
+    'П': 'P', 'Р': 'R', 'С': 'S', 'Т': 'T', 'Ћ': 'C', 'У': 'U',
+    'Ф': 'F', 'Х': 'H', 'Ц': 'C', 'Ч': 'C', 'Џ': 'Dz', 'Ш': 'S',
+    // Special cases often used in practice
+    'Ć': 'c', 'Č': 'c', 'Š': 's', 'Đ': 'dj', 'Ž': 'z',
+    'ć': 'c', 'č': 'c', 'š': 's', 'đ': 'dj', 'ž': 'z'
+  };
+
+  // Function to convert any Cyrillic text to Latin for searching
+  function toLatin(str) {
+    return str.split('').map(char => transliterateMap[char] || char).join('');
+  }
+
+  // Pre-process the search index: store both original title and its Latin version
+  const indexedData = searchIndex.map(item => ({
+    originalTitle: item.title,
+    latinTitle: toLatin(item.title).toLowerCase(),
+    url: item.url
+  }));
+
+  function closeDropdown() {
+    resultsBox.style.display = 'none';
+  }
+
+  searchInput.addEventListener('input', function () {
+    const query = this.value.trim();
+    
+    if (query.length === 0) {
+      closeDropdown();
+      return;
+    }
+
+    // Convert user input to lowercase Latin for matching
+    const queryLatin = toLatin(query).toLowerCase();
+
+    const matches = indexedData.filter(item => 
+      item.latinTitle.includes(queryLatin)
+    );
+
+    if (matches.length === 0) {
+      resultsBox.innerHTML = `<div class="no-results-item">Nema rezultata za "${query}"</div>`;
+    } else {
+      resultsBox.innerHTML = matches.map(item => 
+        `<div class="search-result-item">
+           <a href="${item.url}">${item.originalTitle}</a>
+         </div>`
+      ).join('');
+    }
+
+    resultsBox.style.display = 'block';
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', function (e) {
+    if (!container.contains(e.target)) {
+      closeDropdown();
+    }
+  });
+
+  // Prevent closing when interacting with search
+  searchInput.addEventListener('click', (e) => e.stopPropagation());
+  resultsBox.addEventListener('click', (e) => e.stopPropagation());
+});
+</script>
+</body>
+</html>
