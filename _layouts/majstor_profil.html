@@ -28,6 +28,8 @@ marketing_content: true
   <meta name="twitter:image" content="{{ hero_img | absolute_url }}?width=1200&format=webp">
 {% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+<title>{% if page.discover_title %}{{ page.discover_title }}{% else %}{{ page.title }}{% endif %} | Ej Majstore!</title>
+<meta name="description" content="{{ page.description | truncate: 160 }}">
 
 <!-- ==== DEFERRED CRITICAL CSS (EXTERNAL) ==== -->
 <link rel="stylesheet" 
