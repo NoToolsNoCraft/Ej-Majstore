@@ -539,6 +539,15 @@
       grid-template-columns: 1fr;
     }
   }
+
+  /* Additional styles for the form */
+  .form-section { margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.8); border-radius: 12px; }
+  .form-container { max-width: 600px; margin: 0 auto; }
+  .form-group { position: relative; margin-bottom: 1.5rem; }
+  .form-group input, .form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+  .form-group label { position: absolute; top: 0.75rem; left: 1rem; transition: all 0.2s; color: #aaa; pointer-events: none; }
+  .form-group input:focus + label, .form-group input:not(:placeholder-shown) + label,
+  .form-group textarea:focus + label, .form-group textarea:not(:placeholder-shown) + label { top: -0.5rem; left: 0.75rem; font-size: 0.8rem; background: white; padding: 0 0.25rem; color: #43a047; }
 </style>
 
 <!-- HERO -->
@@ -589,10 +598,54 @@
       <li>Osnovano 2008. od Vladimira Ćosića</li>
       <li>Salamander PVC prozori za optimalnu izolaciju</li>
       <li>Ulazna i balkonska vrata – sigurnost i estetika</li>
+      <li>⏱️ Prosečno vreme odgovora: ~15 min</li>
     </ul>
     <a href="/pvc-stolarija-subotica/rolometal-salamander-prozori-vrata/" class="contact-btn">
-      <i class="fa-solid fa-arrow-right"></i> Zatražite besplatno merenje
+      <i class="fa-solid fa-arrow-right"></i> U više detalja!
     </a>
+
+    <!-- Integrated Contact Form -->
+    <section id="premium-form" class="form-section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h2 style="color: #33691e; margin-top: 2rem;">⚡ Za najbržu ponudu kontaktirajte istaknutog izvođača</h2>
+                <p style="color: #388e3c;">Vladimir će Vas pozvati u najkraćem roku da vam reši sve nedoumice.</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="premium-contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST" onsubmit="return gtag_report_conversion();">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Novi upit - Rolometal.Su Subotica">
+                    <input type="hidden" name="page_url" value="/pvc-stolarija-subotica/">
+                    
+                    <div class="form-group">
+                        <input type="text" name="ime" id="ime" placeholder=" " required>
+                        <label for="ime">Ime i prezime *</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="telefon" id="telefon" placeholder=" " required>
+                        <label for="telefon">Telefon (Viber/WhatsApp) *</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="poruka" id="poruka" rows="4" placeholder=" "></textarea>
+                        <label for="poruka">Okvirne dimenzije ili opis radova</label>
+                    </div>
+                    
+                    <div style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 20px; font-size: 0.85rem;">
+                        <input type="checkbox" id="consent" required style="margin-top: 4px;">
+                        <label for="consent">Saglasan sam da me izvođač kontaktira povodom ovog upita.*</label>
+                    </div>
+
+                    <button type="submit" class="cta-btn" style="width: 100%; border-radius: 4px; background: #43a047; color: white; padding: 1rem; font-weight: bold;">🚀 Vladimire, javi mi se za dogovor!</button>
+                    
+                    <div id="form-success" style="display:none; margin-top:20px; padding:15px; background:#d4edda; color:#155724; border-radius:4px; text-align:center; font-weight:700;">
+                        ✅ Uspešno poslato! Vladimir će Vas pozvati uskoro.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
   </div>
 
   <!-- FREE KARTICE -->
@@ -750,6 +803,41 @@
       }
     });
   });
+
+  document.getElementById('premium-contact-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    const success = document.getElementById('form-success');
+    
+    btn.disabled = true;
+    btn.textContent = 'Šaljem...';
+    
+    try {
+        const res = await fetch(e.target.action, {
+            method: 'POST',
+            body: new FormData(e.target),
+            headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+            // ✅ Fire Google Ads conversion
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17778032945/d0z8CPW7wfQbELGCnZ1C',
+                'value': 1.0,
+                'currency': 'USD'
+            });
+
+            success.style.display = 'block';
+            e.target.reset();
+            btn.textContent = 'Poslato!';
+        } else {
+            throw new Error();
+        }
+    } catch (err) {
+        alert('Greška pri slanju. Molimo pokušajte ponovo.');
+        btn.disabled = false;
+        btn.textContent = '🚀 Vladimire, javi mi se za dogovor!';
+    }
+});
 </script>
   </main>
 
