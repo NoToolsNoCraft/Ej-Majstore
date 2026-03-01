@@ -4,16 +4,16 @@ title: Kako se kreću cene PVC stolarije u Beogradu 2026 – Otkriva vlasnik SN 
 description: 'Realne cene PVC stolarije Beograd 2026: jednokrilni prozor 80-190€,
   dvokrilni 220-340€. Iskren intervju SN Windows (REHAU), greške + saveti.'
 date: '2026-02-03'
-last_modified_at: '2026-02-04'
+last_modified_at: '2026-03-01'
 author: Petar Škrbić
 slug: pvc-stolarija-beograd-cene-2026
 image: "/images/cena-pvc-stolarije-beograd.webp"
 sections:
 - type: paragraph
-  content: 'Ako ste ikada pokušali da saznate koliko košta PVC stolarija u Beogradu,
-    verovatno ste doživeli isto što i većina ljudi: nema jasnih cena, svi traže da
-    „pozovete za ponudu“, a raspon ide od 80 € do 300 € po prozoru, bez jasnog objašnjenja
-    zašto.'
+  content: 'Ako ste ikada pokušali da saznate koliko košta <a href="/pvc-stolarija-beograd/">PVC
+    stolarija u Beogradu</a>, verovatno ste doživeli isto što i većina ljudi: nema
+    jasnih cena, svi traže da „pozovete za ponudu“, a raspon ide od 80 € do 300 €
+    po prozoru, bez jasnog objašnjenja zašto.'
 - type: paragraph
   content: Da bismo razjasnili stvari, razgovarali smo sa Sinišom Milosavljevićem,
     osnivačem firme <a href="https://pvcstolarija-beograd.rs/">SN Windows</a>, koja
