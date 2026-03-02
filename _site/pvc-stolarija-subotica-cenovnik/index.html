@@ -33,7 +33,10 @@
     "@type": "OfferCatalog",
     "itemListElement": [
       {"@type": "Offer", "name": "Jednokrilni PVC prozor", "priceSpecification": {"price": "105", "currency": "EUR"}},
-      {"@type": "Offer", "name": "Dvokrilni PVC prozor", "priceSpecification": {"price": "160", "currency": "EUR"}}
+      {"@type": "Offer", "name": "Dvokrilni PVC prozor", "priceSpecification": {"price": "160", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Jednokrilna ulazna vrata", "priceSpecification": {"price": "206", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Dvokrilna ulazna vrata", "priceSpecification": {"price": "307", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Sobna/kupatilska vrata", "priceSpecification": {"price": "128", "currency": "EUR"}}
     ]
   }
 }
@@ -607,6 +610,18 @@ footer {
         <label>Klizni portal (200–300 cm)</label>
         <input type="number" id="portal" min="0" value="0">
       </div>
+      <div class="calc-field">
+        <label>Jednokrilna ulazna vrata</label>
+        <input type="number" id="jed_ulaz" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Dvokrilna ulazna vrata</label>
+        <input type="number" id="dvo_ulaz" min="0" value="0">
+      </div>
+      <div class="calc-field">
+        <label>Sobna – kupatilska vrata</label>
+        <input type="number" id="sobna_vrata" min="0" value="0">
+      </div>
     </div>
 
     <div class="checkbox-group">
@@ -640,15 +655,16 @@ footer {
           <h2>✅ Rolometal Subotica – Moj #1 Izbor</h2>
           <p><strong>Od 2008. u Subotici – Salamander i Winner profili</strong><br>Zašto rizikovati sa nepoznatima?</p>
           <ul>
+            <li>⭐4.6 ocena na Google-u⭐</li>
             <li>Ušteda i do 40% na grejanje</li>
             <li>Proizvodnja po Vašim merama – nikad ne štikuju</li>
             <li>Kvalitetni okovi – ne zaglave za 15 godina</li>
             <li>Montaža bez prašine (folije + usisivači)</li>
-            <li><strong>3 reference TRENUTNO u Subotici</strong></li>
+            <li><strong>2000+ ugrađenih prozora</strong></li>
           </ul>
           <p style="font-size:1.2rem; color:var(--primary); font-weight:800; margin-top:2rem;">
             <span style="color:#dc3545;">🚨 SLOTOVI SE POPUNJAVAJU</span><br>
-            zakažite besplatno merenje, ne premišljajte se – <a href="/pvc-stolarija-subotica/">Rolometal</a> je proveren izbor za PVC stolariju u Subotici već 16 godina!</a>
+            zakažite besplatno merenje, ne premišljajte se – <a href="/pvc-stolarija-subotica/rolometal-salamander-prozori-vrata/">Rolometal</a> je proveren izbor za PVC stolariju u Subotici već 16 godina!</a>
           </p>
           
         </div>
@@ -658,10 +674,10 @@ footer {
     <div class="form-container" style="border: 4px solid var(--primary); background: #ffffff;">
     <div style="text-align: center; margin-bottom: 2rem;">
         <h2 id="form" style="color:var(--primary); margin-bottom:0.5rem;">
-            Zakažite besplatno merenje i ostvarite popust
+            Konsultujte se sa Rolometalom Informativno Bez Obaveze
         </h2>
         <p style="color: #666; font-weight: 500;">
-            📍 Rolometal Subotica – Aktuelno: Još 4 slobodna termina za ovaj mesec.
+            📍 Tačna ponuda za vaš stan ili kuću već danas
         </p>
     </div>
 
@@ -674,18 +690,20 @@ footer {
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.5rem;">
             <div class="form-group" style="margin-bottom: 0;">
                 <select name="hitnost" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
-                    <option value="" disabled selected>Kada planirate radove?</option>
-                    <option value="Hitno">Što pre (u narednih 15 dana)</option>
-                    <option value="Mesec dana">U narednih mesec dana</option>
-                    <option value="Planiranje">Samo proveravam cene</option>
+                    <option value="" disabled selected>Koliko komada stolarije želite?</option>
+                    <option value="1 do 3">1 do 3</option>
+                    <option value="4 do 9">4 do 9</option>
+                    <option value="Više od 10">Više od 10</option>
                 </select>
             </div>
             <div class="form-group" style="margin-bottom: 0;">
                 <select name="vrsta_objekta" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
-                    <option value="" disabled selected>Tip objekta?</option>
-                    <option value="Stan">Stan (stara gradnja)</option>
-                    <option value="Kuća">Porodična kuća</option>
-                    <option value="Novogradnja">Novogradnja</option>
+                    <option value="" disabled selected>Prozori ili vrata?</option>
+                    <option value="Prozori">Prozori</option>
+                    <option value="Ulazna Vrata">Ulazna Vrata</option>
+                    <option value="Balkonska Vrata">Balkonska Vrata</option>
+                    <option value="Sobna – kupatilska vrata">Sobna – kupatilska vrata</option>
+                    <option value="I prozori i vrata">Više vrsta stolarije</option>
                 </select>
             </div>
         </div>
@@ -704,10 +722,13 @@ footer {
 
         <div style="display: flex; flex-direction: column; gap: 10px;">
             <button type="submit" style="background: var(--primary); font-size: 1.2rem;">
-                🚀 POŠALJI ZAHTEV ZA PONUDU
+                🚀 Želim preciznu cenu
             </button>
             
         </div>
+        <p style="text-align:center; font-size:0.9rem; color:#666; margin-top:0.6rem;">
+        ✔ Bez obaveze • ✔ Besplatno • ✔ Brz odgovor
+        </p>
 
         <div id="form-success" class="form-notification" style="display: none;">
             ✅ Zahtev primljen! Rolometal će Vas kontaktirati ubrzo sa preciznom ponudom.
@@ -753,8 +774,28 @@ footer {
             <td data-label="Cena">1.300 €</td>
           </tr>
           <tr>
+            <td data-label="Jednokrilna ulazna vrata">Jednokrilna ulazna vrata</td>
+            <td data-label="Cena">206 €</td>
+          </tr>
+          <tr>
+            <td data-label="Dvokrilna ulazna vrata">Dvokrilna ulazna vrata</td>
+            <td data-label="Cena">307 €</td>
+          </tr>
+          <tr>
+            <td data-label="Sobna – kupatilska vrata">Sobna – kupatilska vrata</td>
+            <td data-label="Cena">128 €</td>
+          </tr>
+          <tr>
             <td data-label="Roletne / element">Roletne / element</td>
             <td data-label="Cena">+65 €</td>
+          </tr>
+          <tr>
+            <td data-label="Komarnici / element">Komarnici / element</td>
+            <td data-label="Cena">+50 €</td>
+          </tr>
+          <tr>
+            <td data-label="Demontaža / element">Demontaža / element</td>
+            <td data-label="Cena">+30 €</td>
           </tr>
         </tbody>
       </table>
@@ -770,19 +811,25 @@ function calculate() {
   const balkonska_jed = parseInt(document.getElementById('balkonska_jed').value) || 0;
   const balkonska_dvo = parseInt(document.getElementById('balkonska_dvo').value) || 0;
   const portal = parseInt(document.getElementById('portal').value) || 0;
+  const jed_ulaz = parseInt(document.getElementById('jed_ulaz').value) || 0;
+  const dvo_ulaz = parseInt(document.getElementById('dvo_ulaz').value) || 0;
+  const sobna_vrata = parseInt(document.getElementById('sobna_vrata').value) || 0;
 
   const roletne = document.getElementById('roletne').checked;
   const komarnici = document.getElementById('komarnici').checked;
   const demontaza = document.getElementById('demontaza').checked;
 
-  const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + portal;
+  const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + portal + jed_ulaz + dvo_ulaz + sobna_vrata;
 
   let total =
     jednokr * 105 +
     dvokr * 160 +
     balkonska_jed * 150 +
     balkonska_dvo * 300 +
-    portal * 1300;
+    portal * 1300 +
+    jed_ulaz * 206 +
+    dvo_ulaz * 307 +
+    sobna_vrata * 128;
 
   if (roletne) total += elements * 65;
   if (komarnici) total += elements * 50;

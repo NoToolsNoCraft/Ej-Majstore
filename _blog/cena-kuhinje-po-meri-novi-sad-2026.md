@@ -154,7 +154,7 @@ sections:
 - type: h2
   content: Saveti za uštedu, a da ne izgubite kvalitet
 - type: paragraph
-  content: Nulti korak je uvek odabira odgovarajućeg izvođača. Dakle, uvek fokus usmerite
+  content: Nulti korak je uvek odabir odgovarajućeg izvođača. Dakle, uvek fokus usmerite
     na odabir majstora ili firme koja može da vam realizuje projekat tako da nemate
     zamerke. Dobar izvođač neće napraviti lošu kuhinju. Čak i najjeftinija ponuda
     je kvalitetna, nemojte to da vas zbunjuje. Prvo, izaberite kvalitetne materijale
