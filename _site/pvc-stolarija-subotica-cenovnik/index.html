@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PVC Stolarija Subotica 2026 – Kalkulator Cena + Rolometal Ponuda (105€/prozor)</title>
-<meta name="description" content="Izračunajte cenu PVC stolarije Subotica: jednokrilni 105€, dvokrilni 160€ sa ugradnjom. Rolometal Subotica – Salamander profili, besplatno merenje. Zakažite preko 063/105-05-15.">
+<title>PVC Stolarija Subotica 2026 – Kalkulator Cena + Rolometal Ponuda (Winner Euro 76 MD)</title>
+<meta name="description" content="Izračunajte orijentacionu cenu PVC stolarije Subotica prema Rolometal cenovniku (bez ugradnje). Jednokrilni ≈135 € (100×100 cm), dvokrilni ≈260 € (140×140 cm). Winner Euro 76 mm profili. Pozovite +381 63 8398716 za besplatno merenje.">
 <link rel="canonical" href="https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/">
 
 <script type="text/javascript">
@@ -32,11 +32,12 @@
   "offers": {
     "@type": "OfferCatalog",
     "itemListElement": [
-      {"@type": "Offer", "name": "Jednokrilni PVC prozor", "priceSpecification": {"price": "105", "currency": "EUR"}},
-      {"@type": "Offer", "name": "Dvokrilni PVC prozor", "priceSpecification": {"price": "160", "currency": "EUR"}},
-      {"@type": "Offer", "name": "Jednokrilna ulazna vrata", "priceSpecification": {"price": "206", "currency": "EUR"}},
-      {"@type": "Offer", "name": "Dvokrilna ulazna vrata", "priceSpecification": {"price": "307", "currency": "EUR"}},
-      {"@type": "Offer", "name": "Sobna/kupatilska vrata", "priceSpecification": {"price": "128", "currency": "EUR"}}
+      {"@type": "Offer", "name": "Jednokrilni PVC prozor", "priceSpecification": {"price": "135", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Dvokrilni PVC prozor", "priceSpecification": {"price": "260", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Balkonska jednokrilna", "priceSpecification": {"price": "220", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Balkonska dvokrilna", "priceSpecification": {"price": "320", "currency": "EUR"}},
+      {"@type": "Offer", "name": "PVC Ulazna Vrata sa Uk panelom", "priceSpecification": {"price": "390", "currency": "EUR"}},
+      {"@type": "Offer", "name": "Dvokrilna ulazna vrata sa Uk panelom", "priceSpecification": {"price": "580", "currency": "EUR"}}
     ]
   }
 }
@@ -328,7 +329,6 @@ header {
 }
 .rolometal-logo img {
   max-width: 100%;
-  
   height: auto;
   border-radius: 12px;
   box-shadow: var(--shadow);
@@ -359,104 +359,31 @@ header {
   .pitch-copy li { font-size: 1rem; }
 }
 
-/* Form */
-.form-container {
+/* Phone CTA (replaces form) */
+.phone-cta {
   background: white;
-  border: 3px solid var(--accent);
+  border: 4px solid var(--primary);
   border-radius: var(--radius);
   padding: 2rem;
   margin: 3rem 0;
   max-width: 100%;
   box-shadow: var(--shadow);
-  position: relative;
+  text-align: center;
 }
 @media (min-width: 768px) {
-  .form-container {
+  .phone-cta {
     padding: 3rem;
     max-width: 800px;
   }
 }
-.form-group {
-  position: relative;
-  margin-bottom: 2rem;
+.phone-cta h2 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
 }
-.form-group label {
-  position: absolute;
-  top: 1rem;
-  left: 1.2rem;
-  color: #6c757d;
-  font-size: 1rem;
-  transition: all 0.3s;
-  pointer-events: none;
-}
-.form-group input:focus + label,
-.form-group input:not(:placeholder-shown) + label,
-.form-group textarea:focus + label,
-.form-group textarea:not(:placeholder-shown) + label {
-  top: -0.6rem;
-  left: 0.9rem;
-  font-size: 0.8rem;
-  color: var(--accent);
-  background: white;
-  padding: 0 0.4rem;
-}
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 1.1rem 1.2rem;
-  border: 2px solid #d1d5db;
-  border-radius: 12px;
-  font-size: 1rem;
-  background: #fafafa;
-  transition: all 0.3s;
-  font-family: inherit;
-}
-.form-group textarea {
-  min-height: 110px;
-  resize: vertical;
-}
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(76,175,80,0.2);
-  background: white;
-}
-button[type="submit"] {
-  width: 100%;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
-  padding: 1.3rem;
-  border: none;
-  border-radius: 50px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-button[type="submit"]:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(45,119,72,0.4);
-}
-
-/* Form Success Notification */
-.form-notification {
-  background: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  font-weight: 600;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.4s ease;
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-.form-notification.visible {
-  opacity: 1;
-  transform: translateY(0);
+.phone-cta p {
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 /* Responsive Price Table */
@@ -486,12 +413,14 @@ button[type="submit"]:hover {
   font-weight: 600;
 }
 
+/* Responsive Price Table – MOBILE FIX */
 @media (max-width: 640px) {
   .price-table { 
     border: 0; 
     width: 100%;
   }
   .price-table thead { display: none; }
+  
   .price-table tr {
     display: block;
     margin: 0 0.8rem 1.2rem;
@@ -500,6 +429,7 @@ button[type="submit"]:hover {
     background: #f8fff9;
     box-shadow: 0 4px 12px rgba(45,119,72,0.08);
   }
+  
   .price-table td {
     display: flex;
     justify-content: space-between;
@@ -512,20 +442,16 @@ button[type="submit"]:hover {
     box-sizing: border-box;
   }
   .price-table td:last-child { border-bottom: none; }
+
+  /* ←←← OVAJ DEO JE BIO PROBLEM – UKLONJEN */
+  /* .price-table tbody td:first-child { color: transparent; ... } */
+
   .price-table td:before {
     content: attr(data-label);
     font-weight: 700;
     color: var(--primary);
     flex: 0 0 60%;
     padding-right: 0.8rem;
-  }
-
-  .price-table tbody td:first-child {
-    color: transparent;
-    user-select: none;
-  }
-  .price-table td:before {
-    color: var(--primary);
   }
 
   .price-table td {
@@ -540,6 +466,7 @@ button[type="submit"]:hover {
   }
 }
 
+/* Za ekrane ispod 380px (vertikalni prikaz) */
 @media (max-width: 380px) {
   .price-table td {
     flex-direction: column;
@@ -547,6 +474,22 @@ button[type="submit"]:hover {
     text-align: center;
   }
   .price-table td:before { flex: none; }
+}
+
+
+
+/* Additional info section */
+.additional-info {
+  background: white;
+  border: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow);
+}
+.additional-info h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
 }
 
 /* Footer */
@@ -571,15 +514,14 @@ footer {
 </header>
 
 <div class="cta-bar">
-  💰 <strong>Kvalitetna PVC stolarija Subotica – fer cene & vrhunska ugradnja</strong> 
-  <br><a href="#form">Rolometal – Besplatno merenje</a> 
-  
+  💰 <strong>Kvalitetna PVC stolarija u Subotici => fer cene & vrhunska ugradnja</strong> 
+  <br><a href="tel:+381638398716">Rolometal – Pozovite +381 63 8398716 i rešite nedoumice odmah</a> 
 </div>
 
 <section class="hero">
   <div class="container">
     <h1>PVC Stolarija Subotica 2026 – Kalkulator + Rolometal</h1>
-    <p>Brza orijentaciona računica koliko realno košta kvalitetna zamena stolarije u našem gradu.</p>
+    <p>Brza orijentaciona računica koliko realno košta kvalitetna zamena stolarije u našem gradu (cena bez ugradnje prema Rolometal cenovniku).</p>
     <a href="#calculator" class="btn" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">🧮 Izračunaj cenu ODMAH</a>
   </div>
 </section>
@@ -587,7 +529,7 @@ footer {
 <section class="calculator" id="calculator">
   <div class="container">
 
-    <h2>Izračunaj cenu PVC stolarije Subotica (sa ugradnjom)</h2>
+    <h2>Izračunaj orijentacionu cenu PVC stolarije u našem gradu (bez ugradnje)</h2>
 
     <div class="calc-grid">
       <div class="calc-field">
@@ -606,10 +548,7 @@ footer {
         <label>Balkonska dvokrilna (140×210 cm)</label>
         <input type="number" id="balkonska_dvo" min="0" value="0">
       </div>
-      <div class="calc-field">
-        <label>Klizni portal (200–300 cm)</label>
-        <input type="number" id="portal" min="0" value="0">
-      </div>
+      
       <div class="calc-field">
         <label>Jednokrilna ulazna vrata</label>
         <input type="number" id="jed_ulaz" min="0" value="0">
@@ -618,20 +557,17 @@ footer {
         <label>Dvokrilna ulazna vrata</label>
         <input type="number" id="dvo_ulaz" min="0" value="0">
       </div>
-      <div class="calc-field">
-        <label>Sobna – kupatilska vrata</label>
-        <input type="number" id="sobna_vrata" min="0" value="0">
-      </div>
+      
     </div>
 
     <div class="checkbox-group">
       <div class="checkbox-item">
         <input type="checkbox" id="roletne">
-        <label for="roletne">Roletne (+65 €/kom)</label>
+        <label for="roletne">Roletne (45 €/m²)</label>
       </div>
       <div class="checkbox-item">
         <input type="checkbox" id="komarnici">
-        <label for="komarnici">Komarnici (+50 €/kom)</label>
+        <label for="komarnici">Komarnici (23 €/m² – fiksni, bela boja)</label>
       </div>
       <div class="checkbox-item">
         <input type="checkbox" id="demontaza">
@@ -653,152 +589,118 @@ footer {
         </div>
         <div class="pitch-copy">
           <h2>✅ Rolometal Subotica – Moj #1 Izbor</h2>
-          <p><strong>Od 2008. u Subotici – Salamander i Winner profili</strong><br>Zašto rizikovati sa nepoznatima?</p>
+          <p><strong>Od 2008. u Subotici – Winner Euro profili (76 mm, 6 komora, 3 dihtung gume) i Salamander</strong><br>Zašto rizikovati sa nepoznatima? Ove cene su za Winner Euro – najbolji odnos cene i kvaliteta u Subotici i šire.</p>
           <ul>
             <li>⭐4.6 ocena na Google-u⭐</li>
             <li>Ušteda i do 40% na grejanje</li>
             <li>Proizvodnja po Vašim merama – nikad ne štikuju</li>
             <li>Kvalitetni okovi – ne zaglave za 15 godina</li>
             <li>Montaža bez prašine (folije + usisivači)</li>
+            <li>U ponudi su i Salamander premium profili</li>
             <li><strong>2000+ ugrađenih prozora</strong></li>
           </ul>
           <p style="font-size:1.2rem; color:var(--primary); font-weight:800; margin-top:2rem;">
             <span style="color:#dc3545;">🚨 SLOTOVI SE POPUNJAVAJU</span><br>
-            zakažite besplatno merenje, ne premišljajte se – <a href="/pvc-stolarija-subotica/rolometal-salamander-prozori-vrata/">Rolometal</a> je proveren izbor za PVC stolariju u Subotici već 16 godina!</a>
+            zakažite besplatno merenje pozivom na +381 63 8398716 => Rolometal je prepoznatljiv izbor za Subotičane i Subotičanke već skoro dve decenije!
           </p>
-          
         </div>
       </div>
     </div>
 
-    <div class="form-container" style="border: 4px solid var(--primary); background: #ffffff;">
-    <div style="text-align: center; margin-bottom: 2rem;">
-        <h2 id="form" style="color:var(--primary); margin-bottom:0.5rem;">
-            Konsultujte se sa Rolometalom Informativno Bez Obaveze
-        </h2>
-        <p style="color: #666; font-weight: 500;">
-            📍 Tačna ponuda za vaš stan ili kuću već danas
-        </p>
+    <!-- Phone CTA (replaced form) -->
+    <div class="phone-cta">
+      <h2 id="form">Konsultujte se sa Rolometalom!</h2>
+      <p>📍 Vladimir Ćosić, osnivač i glavni majstor će vam rešiti sve nedoumice</p>
+      <a href="tel:+381638398716" class="btn btn-phone" style="font-size: 1.5rem; padding: 1.5rem 3rem; display: inline-flex;">
+        📞 +381 63 839 8716
+      </a>
+      <p style="text-align:center; font-size:0.9rem; color:#666; margin-top:1rem;">
+        ✔ Bez obaveze • ✔ Brz odgovor • ✔ Gratis savetovanje
+      </p>
     </div>
-
-    <form id="contact-form" action="https://formsubmit.co/notoolsnocraft@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="Rolometal Subotica – Upit za ponudu">
-        <input type="hidden" name="calc_total" id="form_total">
-        <input type="hidden" name="page_url" value="https://ejmajstore.rs/pvc-stolarija-subotica-cenovnik/">
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.5rem;">
-            <div class="form-group" style="margin-bottom: 0;">
-                <select name="hitnost" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
-                    <option value="" disabled selected>Koliko komada stolarije želite?</option>
-                    <option value="1 do 3">1 do 3</option>
-                    <option value="4 do 9">4 do 9</option>
-                    <option value="Više od 10">Više od 10</option>
-                </select>
-            </div>
-            <div class="form-group" style="margin-bottom: 0;">
-                <select name="vrsta_objekta" style="width:100%; padding:1.1rem; border-radius:12px; border:2px solid #d1d5db; background:#fafafa; appearance: none;">
-                    <option value="" disabled selected>Prozori ili vrata?</option>
-                    <option value="Prozori">Prozori</option>
-                    <option value="Ulazna Vrata">Ulazna Vrata</option>
-                    <option value="Balkonska Vrata">Balkonska Vrata</option>
-                    <option value="Sobna – kupatilska vrata">Sobna – kupatilska vrata</option>
-                    <option value="I prozori i vrata">Više vrsta stolarije</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <input type="text" name="ime" id="ime" placeholder=" " required>
-            <label for="ime">Vaše ime i prezime *</label>
-        </div>
-
-        <div class="form-group">
-            <input type="tel" name="telefon" id="telefon" placeholder=" " required>
-            <label for="telefon">Telefon (Viber ili WhatsApp) *</label>
-        </div>
-
-       
-
-        <div style="display: flex; flex-direction: column; gap: 10px;">
-            <button type="submit" style="background: var(--primary); font-size: 1.2rem;">
-                🚀 Želim preciznu cenu
-            </button>
-            
-        </div>
-        <p style="text-align:center; font-size:0.9rem; color:#666; margin-top:0.6rem;">
-        ✔ Bez obaveze • ✔ Besplatno • ✔ Brz odgovor
-        </p>
-
-        <div id="form-success" class="form-notification" style="display: none;">
-            ✅ Zahtev primljen! Rolometal će Vas kontaktirati ubrzo sa preciznom ponudom.
-        </div>
-    </form>
-</div>
 
     <!-- Price Table -->
     <div class="table-wrapper">
       <p style="text-align:center; font-weight:600; margin:1.2rem 1rem 0.6rem; color:var(--primary);">
-        Informativni cenovnik PVC stolarije Subotica sa ugradnjom (2026)
+        Informativni cenovnik PVC stolarije Subotica prema Rolometal cenama (bez ugradnje, 2026)
       </p>
       <p style="text-align:center; font-size:0.95rem; color:#555; margin:0 1rem 1.2rem;">
-        Cene su okvirne – služe za bolju orijentaciju
+        Cene su okvirne za Winner Euro profile 76 MD – služe za bolju orijentaciju
       </p>
 
       <table class="price-table">
         <thead>
           <tr>
             <th>Stavka</th>
-            <th>Cena sa ugradnjom</th>
+            <th>Cena bez ugradnje</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-label="Jednokrilni prozor">Jednokrilni prozor</td>
-            <td data-label="Cena">105 €</td>
+            <td data-label="Stavka">Jednokrilni prozor (100×100 cm)</td>
+            <td data-label="Cena">135 €</td>
           </tr>
           <tr>
-            <td data-label="Dvokrilni prozor">Dvokrilni prozor</td>
-            <td data-label="Cena">160 €</td>
+            <td data-label="Stavka">Dvokrilni prozor (140×140 cm)</td>
+            <td data-label="Cena">260 €</td>
           </tr>
           <tr>
-            <td data-label="Balkonska jednokrilna">Balkonska jednokrilna</td>
-            <td data-label="Cena">150 €</td>
+            <td data-label="Stavka">Balkonska jednokrilna (90×210 cm)</td>
+            <td data-label="Cena">220 €</td>
           </tr>
           <tr>
-            <td data-label="Balkonska dvokrilna">Balkonska dvokrilna</td>
-            <td data-label="Cena">300 €</td>
+            <td data-label="Stavka">Balkonska dvokrilna (140×210 cm)</td>
+            <td data-label="Cena">320 €</td>
+          </tr>
+         
+          <tr>
+            <td data-label="Stavka">PVC Ulazna Vrata sa Uk panelom</td>
+            <td data-label="Cena">390 €</td>
           </tr>
           <tr>
-            <td data-label="Klizni portal">Klizni portal</td>
-            <td data-label="Cena">1.300 €</td>
+            <td data-label="Stavka">Jednokrilna vrata bez panela</td>
+            <td data-label="Cena">360 €</td>
           </tr>
           <tr>
-            <td data-label="Jednokrilna ulazna vrata">Jednokrilna ulazna vrata</td>
-            <td data-label="Cena">206 €</td>
+            <td data-label="Stavka">Dvokrilna ulazna vrata sa Uk panelom</td>
+            <td data-label="Cena">580 €</td>
           </tr>
           <tr>
-            <td data-label="Dvokrilna ulazna vrata">Dvokrilna ulazna vrata</td>
-            <td data-label="Cena">307 €</td>
+            <td data-label="Stavka">Dvokrilna vrata bez panela</td>
+            <td data-label="Cena">570 €</td>
+          </tr>
+          
+          <tr>
+            <td data-label="Stavka">Roletne / m²</td>
+            <td data-label="Cena">45 €</td>
           </tr>
           <tr>
-            <td data-label="Sobna – kupatilska vrata">Sobna – kupatilska vrata</td>
-            <td data-label="Cena">128 €</td>
+            <td data-label="Stavka">Komarnici / m²</td>
+            <td data-label="Cena">23 €</td>
           </tr>
           <tr>
-            <td data-label="Roletne / element">Roletne / element</td>
-            <td data-label="Cena">+65 €</td>
-          </tr>
-          <tr>
-            <td data-label="Komarnici / element">Komarnici / element</td>
-            <td data-label="Cena">+50 €</td>
-          </tr>
-          <tr>
-            <td data-label="Demontaža / element">Demontaža / element</td>
+            <td data-label="Stavka">Demontaža / element</td>
             <td data-label="Cena">+30 €</td>
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!-- Additional info section -->
+    <div class="additional-info">
+      <h3>Dodatne informacije o cenama</h3>
+      <p><strong>Zašto su roletne i komarnici po m² a ne fiksna cena?</strong><br>
+      Dimenzije ovih elemenata se određuju tačno prema veličini prozora ili balkonskih vrata da bi savršeno pristajali, zato se računa po kvadratnom metru.</p>
+      <p><strong>Zašto nema unapred tačne cene?</strong><br>
+      Nijedan izvođač ne može dati 100% tačnu cenu PVC stolarije unapred jer postoji više faktora (tačne mere na licu mesta, tip stakla, boja profila, dodatni okovi, itd.). Upravo je ovo razlog što većina izvođača nema transparentan cenovnik koji biste lako mogli pronaći.<br>
+      Ove cene su približne i služe za brzu orijentaciju, Rolometal trenutno radi po ovim cenama (Winner Euro profili 76 mm, 6 komora sa 3 dihtung gume, najbolji odnos cene i kvaliteta u Subotici i šire).</p>
+      <p><strong>Da li može jeftinije od ovoga?</strong><br>
+      Naravno da može. Međutim, nemojte previše špekulisati. Osim pitanja koliko košta zapitajte se i za kvalitet usluge, bilo materijala ili montaže. Čak i jeftinija varijanta što se tiče ugradnje prozora i vrata nije mala investicija. Kad već ugrađujete stolariju ugradite onako kako treba, po najboljem odnosu cene i kvaliteta. I naravno, odaberite izvođača koji vam uliva poverenje. To je čak i bitnije od toga koji profil dotična firma koristi.</p>
+      <p><strong>Kako da odaberem izvođača koji mi zaista može izaći u susret?</strong><br>
+      Kada su zanatske usluge u pitanju, idealno je da je prvi kontakt osoba koja ne radi samo prodaju, već koja je istovremeno i glavni majstor. Takvi ponuđači duboko veruju u ono što vam nude.</p>
+      <p><strong>Kada pozovem ponuđača, šta još da ga pitam osim cene?</strong><br>
+      Obavezno se raspitajte za garanciju. Firme koje same proizvode stolariju po meri i montiraju svoje proizvode su veoma otvorene i da vam pismeno garantuju za kvalitet.</p>
+      
     </div>
 
   </div>
@@ -806,34 +708,46 @@ footer {
 
 <script>
 function calculate() {
+  // Only existing fields from the current page
   const jednokr = parseInt(document.getElementById('jednokr').value) || 0;
   const dvokr = parseInt(document.getElementById('dvokr').value) || 0;
   const balkonska_jed = parseInt(document.getElementById('balkonska_jed').value) || 0;
   const balkonska_dvo = parseInt(document.getElementById('balkonska_dvo').value) || 0;
-  const portal = parseInt(document.getElementById('portal').value) || 0;
   const jed_ulaz = parseInt(document.getElementById('jed_ulaz').value) || 0;
   const dvo_ulaz = parseInt(document.getElementById('dvo_ulaz').value) || 0;
-  const sobna_vrata = parseInt(document.getElementById('sobna_vrata').value) || 0;
 
-  const roletne = document.getElementById('roletne').checked;
-  const komarnici = document.getElementById('komarnici').checked;
-  const demontaza = document.getElementById('demontaza').checked;
+  const roletneChecked = document.getElementById('roletne').checked;
+  const komarniciChecked = document.getElementById('komarnici').checked;
+  const demontazaChecked = document.getElementById('demontaza').checked;
 
-  const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + portal + jed_ulaz + dvo_ulaz + sobna_vrata;
+  // Standard areas for m² calculation (roletne/komarnici only on windows + balkonska)
+  const areas = {
+    jednokr: 1.00,
+    dvokr: 1.96,
+    balkonska_jed: 1.89,
+    balkonska_dvo: 2.94
+  };
+
+  const windowArea =
+    (jednokr * areas.jednokr) +
+    (dvokr * areas.dvokr) +
+    (balkonska_jed * areas.balkonska_jed) +
+    (balkonska_dvo * areas.balkonska_dvo);
+
+  // Total number of elements for demontaza
+  const elements = jednokr + dvokr + balkonska_jed + balkonska_dvo + jed_ulaz + dvo_ulaz;
 
   let total =
-    jednokr * 105 +
-    dvokr * 160 +
-    balkonska_jed * 150 +
-    balkonska_dvo * 300 +
-    portal * 1300 +
-    jed_ulaz * 206 +
-    dvo_ulaz * 307 +
-    sobna_vrata * 128;
+    jednokr * 135 +
+    dvokr * 260 +
+    balkonska_jed * 220 +
+    balkonska_dvo * 320 +
+    jed_ulaz * 390 +          // matches "PVC Ulazna Vrata sa Uk panelom"
+    dvo_ulaz * 580;           // matches "Dvokrilna ulazna vrata sa Uk panelom"
 
-  if (roletne) total += elements * 65;
-  if (komarnici) total += elements * 50;
-  if (demontaza) total += elements * 30;
+  if (roletneChecked) total += windowArea * 45;
+  if (komarniciChecked) total += windowArea * 23;
+  if (demontazaChecked) total += elements * 30;
 
   const resultEl = document.getElementById('result');
   const totalEl = document.getElementById('total');
@@ -841,9 +755,8 @@ function calculate() {
   totalEl.textContent = total.toLocaleString('sr-RS');
   resultEl.style.display = 'block';
   resultEl.classList.add('visible');
-  document.getElementById('form_total').value = total + ' €';
 
-  // Scroll to result after layout update
+  // Scroll to result
   setTimeout(() => {
     resultEl.scrollIntoView({
       behavior: 'smooth',
@@ -851,50 +764,11 @@ function calculate() {
     });
   }, 80);
 }
-
-document.getElementById('contact-form').addEventListener('submit', async function(e) {
-  e.preventDefault();
-  const btn = e.target.querySelector('button[type="submit"]');
-  const originalBtnText = btn.textContent;
-  const successBox = document.getElementById('form-success');
-
-  btn.disabled = true;
-  btn.textContent = 'Šaljem...';
-
-  try {
-    const formData = new FormData(e.target);
-    const response = await fetch(e.target.action, {
-      method: 'POST',
-      body: formData
-    });
-
-    if (!response.ok) throw new Error('Network response was not ok');
-
-    successBox.style.display = 'block';
-    successBox.classList.add('visible');
-
-    setTimeout(() => {
-      successBox.classList.remove('visible');
-      setTimeout(() => {
-        successBox.style.display = 'none';
-      }, 400);
-    }, 6500);
-
-    e.target.reset();
-    document.getElementById('form_total').value = '';
-  } catch (err) {
-    alert('Greška pri slanju. Pozovite 063/105-05-15.');
-    console.error(err);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = originalBtnText;
-  }
-});
 </script>
 
 <footer>
   <div class="container">
-    <p><strong>Rolometal Subotica preko EjMajstore.rs</strong><br>Salamander i Winner PVC • Merimo za džabe</p>
+    <p><strong>Rolometal Subotica preko EjMajstore.rs</strong><br>Winner Euro 76 MD PVC</p>
     <p style="opacity:0.9; margin-top:1rem;">© 2026 <a href="https://ejmajstore.rs" style="color: #c8e6c9;">EjMajstore</a> | Platforma Zanatskih Usluga</p>
   </div>
 </footer>

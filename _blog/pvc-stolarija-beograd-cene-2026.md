@@ -4,11 +4,32 @@ title: Kako se kreću cene PVC stolarije u Beogradu 2026 – Otkriva vlasnik SN 
 description: 'Realne cene PVC stolarije Beograd 2026: jednokrilni prozor 80-190€,
   dvokrilni 220-340€. Iskren intervju SN Windows (REHAU), greške + saveti.'
 date: '2026-02-03'
-last_modified_at: '2026-03-01'
+last_modified_at: '2026-03-09'
 author: Petar Škrbić
 slug: pvc-stolarija-beograd-cene-2026
 image: "/images/cena-pvc-stolarije-beograd.webp"
 sections:
+- type: localbusiness
+  "@id": https://ejmajstore.rs/sn-windows#localbusiness
+  name: SN Windows
+  description: Izrada i ugradnja REHAU PVC stolarije po meri u Beogradu. 14+ godina
+    iskustva, 2500+ završenih projekata.
+  url: https://pvcstolarija-beograd.rs/
+  telephone: "+381 65 5450707"
+  addressLocality: Husova 6, Beograd, Serbia
+  addressCountry: RS
+  latitude: 44.8125
+  longitude: 20.4612
+  openingHours: Mo-Fr 10:00-14:00, Sa 10:00-13:00
+  priceRange: "€€"
+  sameAs:
+  - https://share.google/ZJ9d1QJuD2YfJnGPH
+  knowsAbout:
+  - PVC stolarija
+  - REHAU profili
+  - Ugradnja prozora Beograd
+  ratingValue: '5.0'
+  reviewCount: '76'
 - type: paragraph
   content: 'Ako ste ikada pokušali da saznate koliko košta <a href="/pvc-stolarija-beograd/">PVC
     stolarija u Beogradu</a>, verovatno ste doživeli isto što i većina ljudi: nema
@@ -309,11 +330,9 @@ sections:
       na kvalitet. Sve preporuke!
     name: Slobodan Rakić
     link: https://share.google/UqfMmptMHJ3FEUsv6
-    image: https://lh3.googleusercontent.com/geougc-cs/ABOP9pvy6pdBNY8TLXH7c23xK8NLoNnAXHzj86pdFPBKivoqQW0VrdafoAsXXWeyuKUOt4Cp20g4e4SYt94qRW6OJtf7Ksu3ezvOtwdelVqbsSfSE97t83L4UW_FQMujeeKuJJfUnt71UA=s3840-w3840-h1822-rw
   - text: Odlična saradnja, majstori iskusni i korektni. Svaka preporuka.
     name: Lazar Lazić
     link: https://share.google/PSJKjseSQX47qnnqx
-    image: https://lh3.googleusercontent.com/geougc-cs/ABOP9puRc8mW3V1CMx-Mr8RZmzk-cOrEAMuvTLu5yPdyKl2IN0QvVc82-ACgJJA6iADwIHZqKRVXqCsc_vmtL3lxy5FgIUhvq1d67qmoTaglLPKg_wflaMZc1gWJkfws9moAqe6ta_bw=s3840-w3840-h1822-rw
 - type: contact_form
   title: Imate dodatna pitanja? Pišite Siniši, a on će vas lično pozvati!
   success_message: "✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!"

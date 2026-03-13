@@ -197,6 +197,8 @@
   "image": "/images/industrijski-usisivaci-u-kucnoj-upotrebi.webp",
   "description": "Kako i zašto se industrijski usisivači sve češće koriste u kućnim uslovima, posebno tokom renoviranja i adaptacije prostora.",
   "sections": [
+      
+
     {
       "type": "paragraph",
       "content": "Tokom prošle godine kod nas su se odvijali ozbiljni radovi. Od renoviranja garaže, preko postavljanja nove kuhinje, pa sve do kompletne adaptacije potkrovlja, i to sve u roku od tri meseca. Svakog dana majstori u kući, prašina u vazduhu, šut po ćoškovima i onaj sitni beli sloj koji se uvuče svuda. U takvim uslovima klasično čišćenje metlom ili krpom brzo postane nedovoljno."
@@ -295,11 +297,35 @@
   "slug": "pvc-stolarija-beograd-cene-2026",
   "title": "Kako se kreću cene PVC stolarije u Beogradu 2026 – Otkriva vlasnik SN Windows",
   "date": "2026-02-03",
-  "date_modified": "2026-03-01",
+  "date_modified": "2026-03-09",
   "author": "Petar Škrbić",
   "image": "/images/cena-pvc-stolarije-beograd.webp",
   "description": "Realne cene PVC stolarije Beograd 2026: jednokrilni prozor 80-190€, dvokrilni 220-340€. Iskren intervju SN Windows (REHAU), greške + saveti.",
   "sections": [
+    {
+    "type": "localbusiness",
+    "@id": "https://ejmajstore.rs/sn-windows#localbusiness",
+    "name": "SN Windows",
+    "description": "Izrada i ugradnja REHAU PVC stolarije po meri u Beogradu. 14+ godina iskustva, 2500+ završenih projekata.",
+    "url": "https://pvcstolarija-beograd.rs/",
+    "telephone": "+381 65 5450707",
+    "addressLocality": "Husova 6, Beograd, Serbia",
+    "addressCountry": "RS",
+    "latitude": 44.8125,
+    "longitude": 20.4612,
+    "openingHours": "Mo-Fr 10:00-14:00, Sa 10:00-13:00",
+    "priceRange": "€€",
+    "sameAs": [
+      "https://share.google/ZJ9d1QJuD2YfJnGPH"
+    ],
+    "knowsAbout": [
+      "PVC stolarija",
+      "REHAU profili",
+      "Ugradnja prozora Beograd"
+    ],
+    "ratingValue": "5.0",
+    "reviewCount": "76"
+  },
     {
       "type": "paragraph",
       "content": "Ako ste ikada pokušali da saznate koliko košta <a href=\"/pvc-stolarija-beograd/\">PVC stolarija u Beogradu</a>, verovatno ste doživeli isto što i većina ljudi: nema jasnih cena, svi traže da „pozovete za ponudu“, a raspon ide od 80 € do 300 € po prozoru, bez jasnog objašnjenja zašto."
@@ -616,14 +642,12 @@
         {
           "text": "Drugi put saradnja sa SN Windows! Cene pvc prozora su vrlo povoljne u odnosu na kvalitet. Sve preporuke!",
           "name": "Slobodan Rakić",
-          "link": "https://share.google/UqfMmptMHJ3FEUsv6",
-          "image": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvy6pdBNY8TLXH7c23xK8NLoNnAXHzj86pdFPBKivoqQW0VrdafoAsXXWeyuKUOt4Cp20g4e4SYt94qRW6OJtf7Ksu3ezvOtwdelVqbsSfSE97t83L4UW_FQMujeeKuJJfUnt71UA=s3840-w3840-h1822-rw"
+          "link": "https://share.google/UqfMmptMHJ3FEUsv6"
         },
         {
           "text": "Odlična saradnja, majstori iskusni i korektni. Svaka preporuka.",
           "name": "Lazar Lazić",
-          "link": "https://share.google/PSJKjseSQX47qnnqx",
-          "image": "https://lh3.googleusercontent.com/geougc-cs/ABOP9puRc8mW3V1CMx-Mr8RZmzk-cOrEAMuvTLu5yPdyKl2IN0QvVc82-ACgJJA6iADwIHZqKRVXqCsc_vmtL3lxy5FgIUhvq1d67qmoTaglLPKg_wflaMZc1gWJkfws9moAqe6ta_bw=s3840-w3840-h1822-rw"
+          "link": "https://share.google/PSJKjseSQX47qnnqx"
         }
       ]
     },

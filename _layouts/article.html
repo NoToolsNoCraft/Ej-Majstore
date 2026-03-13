@@ -215,6 +215,57 @@ document.addEventListener('DOMContentLoaded', () => {
     {% endfor %}
   </div>
 
+  <!-- ==================== LOCALBUSINESS SCHEMA (OPTIONAL) ==================== -->
+  {% assign lb = nil %}
+  {% for section in page.sections %}
+    {% if section.type == 'localbusiness' %}
+      {% assign lb = section %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if lb %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "{{ lb['@id'] | default: lb.id }}",
+    "name": "{{ lb.name }}",
+    "description": "{{ lb.description }}",
+    "url": "{{ lb.url }}",
+    "telephone": "{{ lb.telephone }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ lb.addressLocality }}",
+      "addressCountry": "{{ lb.addressCountry }}"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ lb.latitude }},
+      "longitude": {{ lb.longitude }}
+    },
+    "openingHours": "{{ lb.openingHours }}",
+    "priceRange": "{{ lb.priceRange }}",
+    "sameAs": [
+      {% for item in lb.sameAs %}
+        "{{ item }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "knowsAbout": [
+      {% for item in lb.knowsAbout %}
+        "{{ item }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ lb.ratingValue }}",
+      "reviewCount": "{{ lb.reviewCount }}"
+    }
+  }
+  </script>
+  {% endif %}
+  <!-- ==================== END LOCALBUSINESS SCHEMA ==================== -->
+
   <!-- ✅ NEW: CTA BUTTON SECTION -->
   <div class="blog-cta-section">
     <a href="/blog" class="cta-button">
