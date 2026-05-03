@@ -146,6 +146,29 @@ sections:
     - 210–260 €
   - - PVC balkon vrata dvokrilna
     - 390–420 €
+- type: survey
+  title: Šta vam je najvažnije prilikom kupovine PVC stolarije?
+  success_message: "✅ Hvala vam! Vaš odgovor je zabeležen."
+  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
+  action: https://submit-form.com/NL4FHgWfW
+  email_subject: Anketa - PVC Stolarija Beograd
+  redirect_success: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true
+  redirect_error: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true
+  business: PVC Stolarija po meri SN Windows
+  question: Koja je najvažnija stvar kod PVC stolarije za vas?
+  options:
+  - value: kvalitet
+    label: Visok kvalitet i dugotrajnost
+  - value: cena
+    label: Povoljna cena
+  - value: energetska
+    label: Energetska efikasnost (ušteda na grejanju)
+  - value: dizajn
+    label: Moderan dizajn i estetika
+  - value: garancija
+    label: Duga garancija
+  allow_other: true
+  button_text: Pošalji odgovor
 - type: h2
   content: Tehnički detalji koji najviše utiču na cenu i kvalitet PVC stolarije
 - type: paragraph
@@ -333,20 +356,6 @@ sections:
   - text: Odlična saradnja, majstori iskusni i korektni. Svaka preporuka.
     name: Lazar Lazić
     link: https://share.google/PSJKjseSQX47qnnqx
-- type: contact_form
-  title: Imate dodatna pitanja? Pišite Siniši, a on će vas lično pozvati!
-  success_message: "✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!"
-  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
-  action: https://submit-form.com/NL4FHgWfW
-  email_subject: SN Windows – PVC Stolarija Beograd
-  redirect_success: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true
-  redirect_error: https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true
-  business: PVC Stolarija po meri SN Windows
-  label_name: Ime i prezime *
-  label_phone: Telefon (za kontakt) *
-  label_message: Šta vas zanima?
-  label_consent: Siniša Milosavljević i SN Windows
-  button_text: "\U0001F4DE Siniša pozovi me za dogovor!"
 - type: h2
   content: Zaključak – kako da platite realnu cenu, a dobijete kvalitet
 - type: paragraph

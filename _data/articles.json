@@ -192,7 +192,7 @@
   "slug": "industrijski-usisivaci-u-kucnoj-upotrebi",
   "title": "Industrijski usisivači u kućnoj upotrebi – lično iskustvo tokom građevinskih radova i posle",
   "date": "2026-02-17",
-  "date_modified": "2026-02-17",
+  "date_modified": "2026-05-03",
   "author": "Petar Škrbić",
   "image": "/images/industrijski-usisivaci-u-kucnoj-upotrebi.webp",
   "description": "Kako i zašto se industrijski usisivači sve češće koriste u kućnim uslovima, posebno tokom renoviranja i adaptacije prostora.",
@@ -451,6 +451,28 @@
       ]
     },
 
+    {
+  "type": "survey",
+  "title": "Šta vam je najvažnije prilikom kupovine PVC stolarije?",
+  "success_message": "✅ Hvala vam! Vaš odgovor je zabeležen.",
+  "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+  "action": "https://submit-form.com/NL4FHgWfW",
+  "email_subject": "Anketa - PVC Stolarija Beograd",
+  "redirect_success": "https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true",
+  "redirect_error": "https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true",
+  "business": "PVC Stolarija po meri SN Windows",
+  "question": "Koja je najvažnija stvar kod PVC stolarije za vas?",   
+  "options": [
+    { "value": "kvalitet", "label": "Visok kvalitet i dugotrajnost" },
+    { "value": "cena", "label": "Povoljna cena" },
+    { "value": "energetska", "label": "Energetska efikasnost (ušteda na grejanju)" },
+    { "value": "dizajn", "label": "Moderan dizajn i estetika" },
+    { "value": "garancija", "label": "Duga garancija" }
+  ],
+  "allow_other": true,
+  "button_text": "Pošalji odgovor"
+},
+
 
   {
     "type": "h2",
@@ -651,22 +673,7 @@
         }
       ]
     },
-    {
-"type": "contact_form",
-"title": "Imate dodatna pitanja? Pišite Siniši, a on će vas lično pozvati!",
-"success_message": "✅ Primljeno! Siniša Milosavljević će vam se javiti ubrzo!",
-"error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
-"action": "https://submit-form.com/NL4FHgWfW",
-"email_subject": "SN Windows – PVC Stolarija Beograd",
-"redirect_success": "https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?success=true",
-"redirect_error": "https://ejmajtore.rs/blog/pvc-stolarija-beograd-cene-2026/?error=true",
-"business": "PVC Stolarija po meri SN Windows",
-"label_name": "Ime i prezime *",
-"label_phone": "Telefon (za kontakt) *",
-"label_message": "Šta vas zanima?",
-"label_consent": "Siniša Milosavljević i SN Windows",
-"button_text": "📞 Siniša pozovi me za dogovor!"
-},
+    
 
     {
       "type": "h2",
@@ -942,7 +949,7 @@
   "slug": "da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja",
   "title": "Da li se gips ploče mogu krečiti direktno bez gletovanja?",
   "date": "2025-10-21",
-  "date_modified": "2025-11-21",
+  "date_modified": "2026-05-03",
   "author": "Petar Škrbić",
   "image": "/images/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja.webp",
   "description": "Saznajte da li se gips ploče mogu krečiti direktno bez gletovanja i koji je proizvod idealan za to, uz detaljnu analizu troškova i uštede vremena.",
@@ -970,6 +977,27 @@
     {
       "type": "paragraph",
       "content": "Kada sam video da je boja visokopokrivna, namenjena baš za gips karton i da može da reši moj problem bez ikakvog čekanja majstora, odlučio sam da probam. I da vam kažem iskreno: bio sam prijatno iznenađen. Zidovi su izgledali ravno, ujednačeno i čisto, kao da je pre toga rađeno klasično gletovanje. A ja sam uštedeo i vreme i novac."
+    },
+    {
+  "type": "survey",
+  "title": "Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?",
+  "success_message": "✅ Veliko hvala na vašem odgovoru :D",
+  "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+  "action": "https://submit-form.com/NL4FHgWfW",
+  "email_subject": "Anketa - Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?",
+  "redirect_success": "https://ejmajtore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/?success=true",
+  "redirect_error": "https://ejmajtore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/?error=true",
+  "business": "Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?",
+  "question": "Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?",   
+  "options": [
+    { "value": "dokaz", "label": "Video dokaz da površina izgleda kao gletovana" },
+    { "value": "majstor", "label": "Preporuka majstora" },
+    { "value": "cena", "label": "Niža ukupna cena radova" },
+    { "value": "vreme", "label": "Značajno kraće vreme završetka" },
+    { "value": "garancija", "label": "Da mogu sam da okrečim bez čekanja na molera" }
+  ],
+  "allow_other": true,
+  "button_text": "Pošalji odgovor"
     },
     {
       "type": "h2",

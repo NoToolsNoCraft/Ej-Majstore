@@ -5,7 +5,7 @@ title: Industrijski usisivači u kućnoj upotrebi – lično iskustvo tokom gra�
 description: Kako i zašto se industrijski usisivači sve češće koriste u kućnim uslovima,
   posebno tokom renoviranja i adaptacije prostora.
 date: '2026-02-17'
-last_modified_at: '2026-02-17'
+last_modified_at: '2026-05-03'
 author: Petar Škrbić
 slug: industrijski-usisivaci-u-kucnoj-upotrebi
 image: "/images/industrijski-usisivaci-u-kucnoj-upotrebi.webp"

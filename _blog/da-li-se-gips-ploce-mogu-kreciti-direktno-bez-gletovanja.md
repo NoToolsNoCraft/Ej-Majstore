@@ -4,7 +4,7 @@ title: Da li se gips ploče mogu krečiti direktno bez gletovanja?
 description: Saznajte da li se gips ploče mogu krečiti direktno bez gletovanja i koji
   je proizvod idealan za to, uz detaljnu analizu troškova i uštede vremena.
 date: '2025-10-21'
-last_modified_at: '2025-11-21'
+last_modified_at: '2026-05-03'
 author: Petar Škrbić
 slug: da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja
 image: "/images/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja.webp"
@@ -40,6 +40,29 @@ sections:
     I da vam kažem iskreno: bio sam prijatno iznenađen. Zidovi su izgledali ravno,
     ujednačeno i čisto, kao da je pre toga rađeno klasično gletovanje. A ja sam uštedeo
     i vreme i novac.'
+- type: survey
+  title: Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?
+  success_message: "✅ Veliko hvala na vašem odgovoru :D"
+  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
+  action: https://submit-form.com/NL4FHgWfW
+  email_subject: Anketa - Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?
+  redirect_success: https://ejmajtore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/?success=true
+  redirect_error: https://ejmajtore.rs/blog/da-li-se-gips-ploce-mogu-kreciti-direktno-bez-gletovanja/?error=true
+  business: Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?
+  question: Šta bi vas ubedilo da koristite boju za gips ploče bez gletovanja?
+  options:
+  - value: dokaz
+    label: Video dokaz da površina izgleda kao gletovana
+  - value: majstor
+    label: Preporuka majstora
+  - value: cena
+    label: Niža ukupna cena radova
+  - value: vreme
+    label: Značajno kraće vreme završetka
+  - value: garancija
+    label: Da mogu sam da okrečim bez čekanja na molera
+  allow_other: true
+  button_text: Pošalji odgovor
 - type: h2
   content: Šta je zapravo Maxigips i zašto mi je rešio problem
 - type: paragraph

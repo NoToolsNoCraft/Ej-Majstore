@@ -47,6 +47,112 @@ layout: default
             </table>
           </div>
 
+
+          {% when 'survey' %}
+<section id="survey-{{ forloop.index }}" class="form-section">
+  <div class="form-container">
+    <h2>{{ section.title | default: section.question }}</h2>
+
+    <div id="survey-success-{{ forloop.index }}" class="form-success-msg" style="display:none;">
+      {{ section.success_message }}
+    </div>
+    <div id="survey-error-{{ forloop.index }}" class="form-error-msg" style="display:none;">
+      {{ section.error_message }}
+    </div>
+
+    <form id="survey-form-{{ forloop.index }}" action="{{ section.action }}" method="POST" class="survey-form">
+      <input type="hidden" name="_email.subject" value="{{ section.email_subject }}">
+      <input type="hidden" name="_redirect" value="{{ section.redirect_success }}#survey-{{ forloop.index }}">
+      <input type="hidden" name="_error_redirect" value="{{ section.redirect_error }}#survey-{{ forloop.index }}">
+      <input type="hidden" name="_append" value="false">
+      <input type="hidden" name="business" value="{{ section.business }}">
+      <input type="hidden" name="page_title" value="{{ page.title }}">
+      <input type="hidden" name="_honeypot" value="" style="display:none;">
+
+      <div class="survey-options">
+        {% for option in section.options %}
+        <label class="radio-option">
+          <input type="radio" name="odgovor" value="{{ option.value }}" required>
+          <span>{{ option.label }}</span>
+        </label>
+        {% endfor %}
+
+        {% if section.allow_other %}
+        <label class="radio-option">
+          <input type="radio" name="odgovor" value="other" id="other-radio-{{ forloop.index }}">
+          <span>Nešto drugo</span>
+        </label>
+        <div id="other-text-{{ forloop.index }}" class="other-field" style="display:none; margin-top: 8px;">
+          <input type="text" name="odgovor_other" placeholder="Napišite vaš odgovor..." class="form-input">
+        </div>
+        {% endif %}
+      </div>
+
+      <button type="submit">{{ section.button_text | default: "Pošalji odgovor" }}</button>
+    </form>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('survey-form-{{ forloop.index }}');
+  if (!form) return;
+
+  const successMsg = document.getElementById('survey-success-{{ forloop.index }}');
+  const errorMsg = document.getElementById('survey-error-{{ forloop.index }}');
+  const otherRadio = document.getElementById('other-radio-{{ forloop.index }}');
+  const otherField = document.getElementById('other-text-{{ forloop.index }}');
+
+  // Toggle "Ostalo" field
+  if (otherRadio) {
+    otherRadio.addEventListener('change', () => {
+      otherField.style.display = otherRadio.checked ? 'block' : 'none';
+    });
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button');
+    const originalText = btn.innerText;
+
+    btn.disabled = true;
+    btn.innerText = 'Slanje...';
+    successMsg.style.display = 'none';
+    errorMsg.style.display = 'none';
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      if (response.ok) {
+        successMsg.style.display = 'block';
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        form.reset();
+        if (otherField) otherField.style.display = 'none';
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (error) {
+      console.error('Survey error:', error);
+      errorMsg.style.display = 'block';
+    } finally {
+      btn.disabled = false;
+      btn.innerText = originalText;
+    }
+  });
+});
+</script>
+
+
         
         <!-- ---------------- CONTACT FORM ---------------- -->
         {% when 'contact_form' %}
@@ -511,5 +617,74 @@ input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; accent-colo
   .kerisan-form-container, .form-container { padding: 2rem 1.5rem; }
   .business-highlights { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
+}
+
+/* === IMPROVED SURVEY STYLES === */
+.survey-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 2rem 0 2.5rem 0;
+}
+
+.radio-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.radio-option:hover {
+  background: #f0f7ff;
+  border-color: #0077cc;
+}
+
+.radio-option input[type="radio"] {
+  margin-top: 3px;
+  accent-color: #0077cc;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.radio-option span {
+  flex: 1;
+}
+
+/* Other field */
+.other-field .form-input {
+  width: 100%;
+  padding: 1.1rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  background: white;
+  font-size: 1rem;
+}
+
+/* Reuse success/error styling from contact form */
+.form-success-msg, .form-error-msg {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.form-success-msg {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.form-error-msg {
+  background: #fee2e2;
+  color: #991b1b;
 }
 </style>

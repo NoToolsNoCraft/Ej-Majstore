@@ -7,6 +7,10 @@ bundle exec jekyll build --verbose
 bundle exec jekyll serve
 
 
+When you need to bundle update for example on a new device run this:
+gem install bundler
+bundle update
+bundle install
 
 
 
