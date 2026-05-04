@@ -1,6 +1,394 @@
 [
 
   {
+  "slug": "zasto-se-znoje-pvc-prozori",
+  "title": "Zašto se znoje PVC prozori? Hajde da vam objasnim",
+  "date": "2026-05-04",
+  "date_modified": "2026-05-04",
+  "author": "Petar Škrbić",
+  "image": "/images/zasto-se-znoje-pvc-prozori.webp",
+  "description": "Zašto se javlja kondenzacija na PVC prozorima i magle prozori u stanu? Saznajte pravi razlog – nije u prozorima, već u vazduhu i ventilaciji. Kako sprečiti kondenz na prozorima trajno.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Ujutru ustanete, priđete prozoru, a staklo je potpuno orošeno. Kapljice vode cure niz okvir, morate da brišete krpom. Posle nekog vremena počnete da sumnjate u kvaliteta prozora. „Ovi novi PVC prozori se znoje, a stari drveni nisu imali taj problem…“"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zvuči poznato? U većini slučajeva problem nisu sami prozori. Problem je u vazduhu unutar vašeg stana. Novi prozori su samo otkrili ono što je ranije prolazilo neprimećeno."
+    },
+    {
+      "type": "h2",
+      "content": "Najčešća zabluda: Loši prozori se znoje"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ljudi najčešće pomisle da su prozori lošeg kvaliteta ili da je staklo tanko. Istina je potpuno suprotna."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Novi PVC prozori dihtuju mnogo bolje od starih drvenih.",
+        "Stari prozori su propuštali vazduh, pa je vlaga prirodno izlazila napolje.",
+        "Novi prozori zadržavaju toplotu i vlagu unutra – ako nema ventilacije."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Znojenje PVC prozora je često znak da je stan bolje zaptiven nego ranije, ali da nema adekvatne ventilacije."
+    },
+    {
+      "type": "h2",
+      "content": "Pravi uzroci kondenzacije na prozorima"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kondenzacija nastaje kada topao i vlažan vazduh u stanu dođe u dodir sa hladnom površinom stakla. Glavni krivci su:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Visoka relativna vlažnost u prostoriji (preko 60%) – kuvanje, tuširanje, sušenje veša u stanu.",
+        "Nedovoljna ventilacija – naročito zimi kada se prostor ređe provetrava.",
+        "Toplotni mostovi na zidovima oko prozora i loša izolacija.",
+        "Niska temperatura stakla (jednostruko ili staro dvostruko staklo)."
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Zašto se kondenzacija pojavljuje tek nakon izolacije i zamene prozora?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ovo je ključni uvid. Nakon što uradite fasadnu izolaciju i stavite nove PVC prozore, stan postaje „kutija“ – toplo i zaptiveno. Vlažnost koja se ranije sama izduvavala kroz prozore i zidove sada ostaje unutra. Zato se magle prozori u stanu najčešće pojave upravo nakon renoviranja."
+    },
+    {
+      "type": "h2",
+      "content": "Šta se dešava ako ignorišete problem?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ako se kondenzacija ne reši na vreme, posledice mogu biti ozbiljne:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Pojava buđi oko prozora i na zidovima",
+        "Oštećenje maltera i farbe",
+        "Lošiji kvalitet vazduha i zdravstveni problemi",
+        "Smanjena trajnost prozora i okvira"
+      ]
+    },
+    {
+      "type": "survey",
+      "title": "Koliko često i šta ste probali da rešite problem sa kondenzacijom?",
+      "success_message": "✅ Hvala na odgovoru! Vaše iskustvo pomaže drugima.",
+      "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+      "action": "https://submit-form.com/NL4FHgWfW",
+      "email_subject": "Anketa - Koliko često i šta ste probali da rešite problem sa kondenzacijom?",
+      "redirect_success": "https://ejmajtore.rs/blog/zasto-se-znoje-pvc-prozori/?success=true",
+      "redirect_error": "https://ejmajtore.rs/blog/zasto-se-znoje-pvc-prozori/?error=true",
+      "business": "Koliko često i šta ste probali da rešite problem sa kondenzacijom?",
+      "question": "Koliko često i šta ste probali da rešite problem sa kondenzacijom?",
+      "options": [
+        { "value": "Retko (1-2 puta mesečno) – ništa nisam radio/la.", "label": "Retko (1-2 puta mesečno) – ništa nisam radio/la." },
+        { "value": "Retko – probali smo provetravanje.", "label": "Retko – probali smo provetravanje." },
+        { "value": "Retko – instalirao sam ventilaciju ili dehumidifier.", "label": "Retko – instalirao sam ventilaciju ili dehumidifier." },
+        { "value": "Često (nedeljno ili više) – ništa nije pomoglo", "label": "Često (nedeljno ili više) – ništa nije pomoglo" },
+        { "value": "Često – provetravanje pomaže privremeno", "label": "Često – provetravanje pomaže privremeno" },
+        { "value": "Često – poboljšao sam izolaciju zidova/fasade (npr. Knauf sistemima)", "label": "Često – poboljšao sam izolaciju zidova/fasade (npr. Knauf sistemima)" }
+      ],
+      "allow_other": true,
+      "button_text": "Pošalji odgovor"
+    },
+    {
+      "type": "h2",
+      "content": "Kako sprečiti kondenz na prozorima"
+    },
+    {
+      "type": "paragraph",
+      "content": "Evo šta stvarno pomaže da prozori ne magle:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Kratko i intenzivno provetravanje (10–15 minuta, više puta dnevno – naročito posle tuširanja i kuvanja).",
+        "Korišćenje mikroventilacije na prozorima ili ugradnja ventilacionih sistema.",
+        "Kontrola vlage – izbegavajte sušenje veša u stanu, koristite aspirator u kuhinji i kupatilu.",
+        "Poboljšanje izolacije zidova oko prozora da se eliminišu toplotni mostovi.",
+        "Ugradnja trostrukog stakla u hladnijim regionima."
+      ]
+    },
+    {
+      "type": "h2",
+      "content": "Šta smo danas naučili"
+    },
+    {
+      "type": "paragraph",
+      "content": "Znojenje PVC prozora i magljenje prozora u stanu najčešće nije znak loših prozora, već znak da je stan postao previše zaptiven za količinu vlage koju proizvodimo. Rešavanjem ventilacije i kontrole vlage, problem se u većini slučajeva trajno uklanja."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ako trenutno imate ovaj problem, počnite sa boljim provetravanjem i praćenjem vlage u vazduhu (higrometar je jeftin i koristan). U većini slučajeva to je dovoljno da prozori prestanu da se znoje."
+    }
+  ]
+},
+
+  {
+  "slug": "zasto-pucaju-spojevi-na-gips-plocama",
+  "title": "Zašto pucaju spojevi na gips pločama? Najčešći uzroci i kako to trajno sprečiti",
+  "date": "2026-05-04",
+  "date_modified": "2026-05-04",
+  "author": "Petar Škrbić",
+  "image": "/images/zasto-pucaju-spojevi-na-gips-plocama.webp",
+  "description": "Saznajte zašto pucaju spojevi na gips pločama (Rigips), najčešće greške pri fugovanju, uloga podkonstrukcije i kako da izbegnete ponovno pucanje.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Uradite savršeno gipsane zidove i plafon, okrečite ih, a posle par meseci ili prve zime pojave se tanke pukotine tačno po spojevima. Zvuči poznato? Ovo je jedno od najčešćih pitanja koje dobijam od ljudi koji rade adaptacije i renovacije."
+    },
+    {
+      "type": "paragraph",
+      "content": "Većina misli da je problem u „lošoj masi“ ili lošoj gips ploči. U stvarnosti, pucanje spojeva na gips pločama najčešće dolazi od pogrešnog načina fugovanja, loše podkonstrukcije ili kombinacije više grešaka. Hajde da vidimo šta se tačno dešava."
+    },
+    {
+      "type": "h2",
+      "content": "Glavni razlozi zašto pucaju spojevi na gips pločama"
+    },
+    {
+      "type": "paragraph",
+      "content": "Postoji nekoliko ključnih uzroka, a ovo su najčešći:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Nepravilno fugovanje spojeva (najčešći razlog)",
+        "Loša ili nestabilna podkonstrukcija (drvena ili metalna)",
+        "Sučeljavanje fabričkog i rezanog ruba ploče",
+        "Nedovoljan broj slojeva filera i loše širenje trake",
+        "Kretanje konstrukcije (posebno u potkrovljima zbog temperaturnih promena i krovne konstrukcije)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Na osnovu ovoga možemo reći da u 80% slučajeva problem nije materijal, nego greške u izvođenju."
+    },
+    {
+      "type": "h2",
+      "content": "Kako se pravilno fuguju spojevi: korak po korak"
+    },
+    {
+      "type": "paragraph",
+      "content": "Profesionalno fugovanje se radi u 5-6 koraka. Preskakanje koraka je najbrži put do pukotina."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Prvi sloj: grubo nanošenje filera direktno u spoj.",
+        "Postavljanje trake (papirna ili staklena) preko još vlažnog prvog sloja.",
+        "Drugi sloj filera preko trake.",
+        "Treći sloj (širi za 5-10 cm) nakon sušenja.",
+        "Po potrebi četvrti završni sloj.",
+        "Brušenje i priprema za krečenje."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "U garažama ili pomoćnim prostorijama može se završiti na 1-2 sloja, ali u dnevnom boravku, spavaćoj sobi ili potkrovlju – obavezno više slojeva sa pravilnim širenjem."
+    },
+    {
+      "type": "h2",
+      "content": "Podkonstrukcija je jednako važna kao i samo fugovanje"
+    },
+    {
+      "type": "paragraph",
+      "content": "Čak i da uradite perfektno fugovanje, ako je podkonstrukcija loše montirana, spojevi će pući. Drvene konstrukcije u potkrovljima su posebno problematične jer „rade“ sa promenom vlage i temperature. Metalna podkonstrukcija sa pravilnim razmacima i dvostrukim slojem ploča daje daleko bolje rezultate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Takođe, izbegavajte spajanje fabričkog (udubljenog) ruba sa rezanim rubom na istom mestu. Takvi spojevi su izuzetno podložni pucanju."
+    },
+    {
+      "type": "h2",
+      "content": "Da li pomaže staklena mrežica ili Uniflot?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uniflot i slične super-mase mogu pomoći, ali neće spasiti lošu podkonstrukciju niti loše urađene spojeve. One su deo sistema, a ne čarobno rešenje. Najbolji rezultati se postižu kombinacijom kvalitetne podkonstrukcije, pravilnog redosleda rada i strpljenja pri nanošenju više slojeva."
+    },
+    {
+      "type": "survey",
+      "title": "Koja situacija najviše opisuje vaše iskustvo sa gips pločama?",
+      "success_message": "✅ Hvala na odgovoru! Vaše iskustvo pomaže drugima da izbegnu iste greške.",
+      "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+      "action": "https://submit-form.com/NL4FHgWfW",
+      "email_subject": "Anketa - Koja situacija najviše opisuje vaše iskustvo sa gips pločama?",
+      "redirect_success": "https://ejmajtore.rs/blog/zasto-pucaju-spojevi-na-gips-plocama/?success=true",
+      "redirect_error": "https://ejmajtore.rs/blog/zasto-pucaju-spojevi-na-gips-plocama/?error=true",
+      "business": "Zašto pucaju spojevi na gips pločama?",
+      "question": "Koja situacija najviše opisuje vaše iskustvo sa gips pločama?",
+      "options": [
+        { "value": "Sve je urađeno kako treba, nema pukotina", "label": "Sve je urađeno kako treba, nema pukotina" },
+        { "value": "Radio sam sam i pojavile su se pukotine", "label": "Radio sam sam i pojavile su se pukotine" },
+        { "value": "Radio je majstor, ali su se pojavile pukotine", "label": "Radio je majstor, ali su se pojavile pukotine" },
+        { "value": "U početku je bilo dobro, ali su pukotine nastale kasnije", "label": "U početku je bilo dobro, ali su pukotine nastale kasnije" },
+        { "value": "Radovi su još u toku / tek planiram", "label": "Radovi su još u toku / tek planiram" }
+      ],
+      "allow_other": true,
+      "button_text": "Pošalji odgovor"
+    },
+    {
+      "type": "h2",
+      "content": "Pa da zaključimo ovu priču"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pucanje spojeva na gips pločama nije neizbežno. Najvažnije je pridržavati se tehnologije: kvalitetna podkonstrukcija, pravilno spajanje ploča, strpljivo višeslojno fugovanje i korišćenje odgovarajuće trake i filera."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ako već imate pukotine, najbolje je da ih sanirate na pravi način – proširite spoj, stavite novu traku i uradite više slojeva. Jednostavno „premazivanje“ preko pukotine obično ne traje dugo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ukoliko radite novu konstrukciju, isplati se platiti majstora koji zaista zna posao – uštedećete na kasnijim popravkama."
+    }
+  ]
+},
+
+  {
+  "slug": "hidroizolacija-ravnog-krova-cena-po-m2",
+  "title": "Koliko košta hidroizolacija ravnog krova po m2 i šta da očekujete",
+  "date": "2026-05-04",
+  "date_modified": "2026-05-04",
+  "author": "Petar Škrbić",
+  "image": "/images/hidroizolacija-ravnog-krova-cena-po-m2.webp",
+  "description": "Koliko košta hidroizolacija ravnog krova po m2? Cena nije najvažnija – saznajte zašto jeftine sanacije često propadaju i kako sistemski pristup štedi novac na duge staze.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Krov prokišnjava. Platili ste sanaciju pre godinu-dve. Majstori su došli, uradili hidroizolaciju i obećali da je problem rešen. A onda, posle prve jače kiše ili sledeće zime, fleke se ponovo pojave na plafonu. Zvuči poznato?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ili možda želite da izolujete svoj ravan krov po prvi put."
+    },
+    {
+      "type": "paragraph",
+      "content": "Većina ljudi misli da plaća hidroizolaciju ravnog krova. U stvarnosti, plaćaju pokušaj popravke celog sistema koji negde fundamentalno nije u redu. Koliko može da košta hidroizolacija ravnog krova? Cena ravnog krova zavisi od tipa (bitumenski ravni, otežani ravni, obrnut ravni ili ravni „plus“), materijala, površine i ponuđača. Cene se kreću od 80 do 140 EUR/m², a za zelene krovove i više. Ali da li je problem samo u hidroizolaciji ili u celom sistemu krova?"
+    },
+    {
+      "type": "h2",
+      "content": "Koliko stvarno košta hidroizolacija ravnog krova po m2?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cena hidroizolacije ravnog krova po m2 kreće se u rasponu od 40 do 90 EUR/m² za klasičnu sanaciju (materijal + rad), dok kompletna rekonstrukcija sa novim slojevima ide od 80 do 140 EUR/m². Kod zelenih krovova cena može da dostigne 50–150 EUR/m² u zavisnosti od tipa vegetacije i nosivosti."
+    },
+    {
+      "type": "paragraph",
+      "content": "Na cenu najviše utiču:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Stanje podloge – ako je stara izolacija oštećena, mora se u potpunosti ukloniti (dodatni trošak).",
+        "Broj i debljina slojeva (hidroizolacija, termoizolacija, parna brana).",
+        "Pristup krovu – visina zgrade, dizalica, zaštita okoline.",
+        "Tip sistema – klasični bitumenski, tečni membranski (npr. Sika), obrnuti krov ili zeleni sistem."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Budite oprezni sa ponudama ispod 50 EUR/m². Jeftino često znači samo prekrivanje postojećeg problema, a ne njegovo rešavanje."
+    },
+    {
+      "type": "h2",
+      "content": "Zašto cena sama po sebi vara"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ista cena ne znači isti rezultat. Jeftina sanacija obično rešava samo simptom – površinsku hidroizolaciju – dok uzrok (loša termoizolacija, kondenzacija, pogrešan redosled slojeva) ostaje. Zbog toga mnogi vlasnici plaćaju dvaput za isti krov. Prva „ušteda“ se pretvori u dupli trošak za 2-3 godine."
+    },
+    {
+      "type": "h2",
+      "content": "Odakle zapravo dolaze problemi sa ravnim krovovima"
+    },
+    {
+      "type": "paragraph",
+      "content": "Najčešći uzroci nisu vidljivi na prvi pogled:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Loša ili nedovoljna termoizolacija koja dovodi do kondenzacije unutar slojeva.",
+        "Pogrešan redosled slojeva (npr. parna brana na pogrešnom mestu).",
+        "Neadekvatna ili oštećena podloga pre nanošenja hidroizolacije.",
+        "Loša ugradnja i nedovoljno preklapanje membrana.",
+        "Kombinacija više grešaka koje se međusobno pojačavaju tokom godina."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Zato vodeći sistemi poput Sika rešenja ne nude samo hidroizolaciju, već kompletan funkcionalni sistem koji sprečava ove probleme."
+    },
+    {
+      "type": "h2",
+      "content": "Hidroizolacija vs kompletan sistem ravnog krova"
+    },
+    {
+      "type": "paragraph",
+      "content": "Samo hidroizolacija je često kratkoročno rešenje. Sistemski pristup podrazumeva pravilno slojevito rešenje:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Parna brana – sprečava prodor vlage iz unutrašnjosti.",
+        "Termoizolacija (npr. Knauf Insulation XPS ili EPS) – ključna za sprečavanje kondenzacije.",
+        "Hidroizolacija – završni vodonepropusni sloj (bitumen, tečne membrane, TPO itd.).",
+        "Zaštitni i završni slojevi (šljunak, zeleni krov, pločice)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Kada radite kompletan sistem, investicija je veća na početku, ali garancija traje decenijama umesto 2-3 godine."
+    },
+    {
+      "type": "survey",
+      "title": "Šta vam je najveći izazov kod izolacije ravnog krova?",
+      "success_message": "✅ Hvala na odgovoru! Vaše iskustvo pomaže drugima.",
+      "error_message": "❌ Došlo je do greške. Molimo pokušajte ponovo.",
+      "action": "https://submit-form.com/NL4FHgWfW",
+      "email_subject": "Anketa - Hidroizolacija ravnog krova",
+      "redirect_success": "https://ejmajtore.rs/blog/hidroizolacija-ravnog-krova-cena-po-m2/?success=true",
+      "redirect_error": "https://ejmajtore.rs/blog/hidroizolacija-ravnog-krova-cena-po-m2/?error=true",
+      "business": "Šta vam je najveći izazov kod rešavanja ravnog krova?",
+      "question": "Šta vam je najveći izazov kod izolacije ravnog krova?",
+      "options": [
+        { "value": "Nemam iskustva i ne znam šta je pravo rešenje", "label": "Nemam iskustva i ne znam šta je pravo rešenje" },
+        { "value": "Da li će rešenje trajati dugoročno", "label": "Da li će rešenje trajati dugoročno" },
+        { "value": "Cena radova", "label": "Cena radova" },
+        { "value": "Već sam imao problem koji nije rešen trajno", "label": "Već sam imao problem koji nije rešen trajno" }
+      ],
+      "allow_other": true,
+      "button_text": "Pošalji odgovor"
+    },
+    {
+      "type": "h2",
+      "content": "Suština: Cena je važna, ali nije presudna"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hidroizolacija ravnog krova cena po m2 je samo jedan deo priče. Pravi problem je najčešće u celom sistemu. Pogrešna odluka dovodi do ponovljenih ulaganja, dok sistemski pristup štedi novac i živce na duge staze. Pre nego što prihvatite prvu ponudu, proverite šta se tačno nudi – samo membrana ili kompletno rešenje."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ako trenutno imate problem sa ravnim krovom, najbolje je uraditi detaljan pregled stanja pre donošenja odluke. Na taj način izbegavate dupli trošak i dobijate krov koji zaista traje."
+    }
+  ]
+},
+
+  {
   "slug": "cena-kuhinje-po-meri-novi-sad-2026",
   "title": "Kako se kreće cena kuhinje po meri u Novom Sadu 2026",
   "date": "2026-03-01",
