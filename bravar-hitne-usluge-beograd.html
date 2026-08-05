@@ -23,9 +23,18 @@ canonical: https://ejmajstore.rs/bravar-hitne-intervencije-beograd/
         "position": 1,
         "item": {
           "@type": "LocalBusiness",
-          "name": "Istaknuta firma – Top preporuka",
-          "description": "Postanite istaknuti partner i preuzmite sve direktne upite za hitne bravarske intervencije u Beogradu.",
-          "url": "https://ejmajstore.rs/kontakt/"
+          "name": "Lock Doctor – Bravar Beograd",
+          "description": "Dežurni bravar Beograd 00-24h. Hitne intervencije, otvaranje vrata, zamena brava i cilindara. Dolazak u roku od 30 minuta.",
+          "url": "https://bravar.info/",
+          "telephone": "+38162700316",
+          "email": "office@bravar.info",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Topličin venac 19a",
+            "addressLocality": "Beograd",
+            "addressCountry": "RS"
+          },
+          "image": "https://bravar.info/wp-content/uploads/2022/09/bravar-logo-fin2.png"
         }
       },
       {
@@ -154,13 +163,148 @@ canonical: https://ejmajstore.rs/bravar-hitne-intervencije-beograd/
   .services-intro li strong{display:block;margin-bottom:.5rem;font-size:1.05rem}
 
   .business-grid-container{max-width:1160px;margin:4rem auto;padding:0 1rem;display:flex;flex-direction:column;gap:2.5rem}
-  .premium-promo{background:linear-gradient(135deg,#ffebee,#ffcdd2);border:3px dashed #ef5350;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(239,83,80,.15);text-align:center;padding:2.5rem 1.5rem;transition:all .35s ease}
-  .premium-promo:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(239,83,80,.25)}
-  .premium-promo .badge{background:#ef5350;color:white;padding:6px 16px;border-radius:30px;font-size:0.9rem;font-weight:bold;letter-spacing:0.5px}
-  .premium-promo h3{font-size:2rem;margin:1.5rem 0 1rem;color:#b71c1c}
-  .premium-promo p{font-size:1.15rem;color:#c62828;line-height:1.6;max-width:800px;margin:0 auto 2rem}
-  .premium-promo .contact-btn{background:#ef5350;color:white;padding:1rem 2.5rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.8rem;transition:all .3s}
-  .premium-promo .contact-btn:hover{background:#d32f2f;transform:translateY(-4px)}
+  
+  /* ===== PREMIUM LOCK DOCTOR CARD ===== */
+  .premium-promo{
+    background:linear-gradient(135deg,#fff5f5 0%,#ffebee 50%,#ffcdd2 100%);
+    border:3px solid #ef5350;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 12px 40px rgba(239,83,80,.18);
+    transition:all .35s ease;
+    position:relative;
+  }
+  .premium-promo:hover{transform:translateY(-6px);box-shadow:0 20px 55px rgba(239,83,80,.28)}
+  
+  .premium-badge{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    background:linear-gradient(90deg,#c62828,#ef5350);
+    color:white;
+    text-align:center;
+    padding:10px 20px;
+    font-size:0.95rem;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  
+  .premium-content{
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    padding:3.5rem 2rem 2.5rem;
+    align-items:center;
+  }
+  
+  .premium-logo-wrap{
+    flex:0 0 160px;
+    text-align:center;
+  }
+  .premium-logo-wrap img{
+    max-width:140px;
+    height:auto;
+    border-radius:12px;
+    background:white;
+    padding:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+  }
+  
+  .premium-info{
+    flex:1;
+    min-width:280px;
+  }
+  .premium-info h3{
+    font-size:1.9rem;
+    margin:0 0 0.4rem;
+    color:#b71c1c;
+    font-weight:700;
+  }
+  .premium-info .tagline{
+    font-size:1.15rem;
+    color:#c62828;
+    font-weight:600;
+    margin-bottom:1rem;
+  }
+  .premium-info p{
+    font-size:1.05rem;
+    color:#4b5563;
+    line-height:1.65;
+    margin:0 0 1.2rem;
+  }
+  
+  .premium-stats{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.2rem;
+    margin:1.2rem 0 1.5rem;
+  }
+  .premium-stat{
+    background:white;
+    border:2px solid #ef5350;
+    border-radius:12px;
+    padding:0.7rem 1.1rem;
+    text-align:center;
+    min-width:90px;
+  }
+  .premium-stat .number{
+    display:block;
+    font-size:1.35rem;
+    font-weight:700;
+    color:#c62828;
+  }
+  .premium-stat .label{
+    font-size:0.82rem;
+    color:#6b7280;
+  }
+  
+  .premium-contacts{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.8rem;
+    margin-top:0.5rem;
+  }
+  .premium-contacts a{
+    display:inline-flex;
+    align-items:center;
+    gap:0.6rem;
+    padding:0.85rem 1.4rem;
+    border-radius:50px;
+    font-weight:600;
+    font-size:0.98rem;
+    text-decoration:none;
+    transition:all .25s;
+  }
+  .premium-contacts .btn-call{
+    background:#ef5350;
+    color:white;
+  }
+  .premium-contacts .btn-call:hover{
+    background:#d32f2f;
+    transform:translateY(-3px);
+  }
+  .premium-contacts .btn-secondary{
+    background:white;
+    color:#c62828;
+    border:2px solid #ef5350;
+  }
+  .premium-contacts .btn-secondary:hover{
+    background:#ef5350;
+    color:white;
+    transform:translateY(-3px);
+  }
+  
+  .premium-address{
+    margin-top:1.2rem;
+    font-size:0.95rem;
+    color:#6b7280;
+  }
+  .premium-address i{
+    color:#ef5350;
+    margin-right:6px;
+  }
 
   .business-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:2rem}
 
@@ -214,6 +358,20 @@ canonical: https://ejmajstore.rs/bravar-hitne-intervencije-beograd/
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1.5rem;
     }
+    .premium-content{
+      flex-direction:column;
+      text-align:center;
+      padding:3.2rem 1.5rem 2rem;
+    }
+    .premium-logo-wrap{
+      flex:none;
+    }
+    .premium-stats{
+      justify-content:center;
+    }
+    .premium-contacts{
+      justify-content:center;
+    }
   }
 
   @media (max-width: 480px) {
@@ -225,12 +383,20 @@ canonical: https://ejmajstore.rs/bravar-hitne-intervencije-beograd/
     .services-intro ul {
       grid-template-columns: 1fr;
     }
+    
+    .premium-info h3{
+      font-size:1.55rem;
+    }
+    .premium-contacts a{
+      width:100%;
+      justify-content:center;
+    }
   }
 </style>
 
 <!-- HERO -->
 <div class="category-hero">
-  <h1>Bravar hitne intervencije Beograd (24/7)</h1>
+  <h1>Bravar Hitne Intervencije Beograd (24/7)</h1>
   <p>Hitno otvaranje vrata 24/7, popravka brava, zamena cilindara i sigurnosni sistemi u Beogradu.</p>
   <a href="#lista-firmi" class="scroll-cta">
     <span>Pozovite dežurnog bravara</span>
@@ -267,16 +433,59 @@ canonical: https://ejmajstore.rs/bravar-hitne-intervencije-beograd/
 <!-- LAYOUT SA PREMIUM SLOTOM -->
 <div class="business-grid-container">
 
-  <!-- PREMIUM PROMO SLOT -->
+  <div id="lista-firmi"></div>
+
+  <!-- PREMIUM LOCK DOCTOR -->
   <div class="premium-promo">
-    <span class="badge">ZAUZMITE PRVU POZICIJU</span>
-    <h3>Želite li da vaša firma bude istaknuta na vrhu liste?</h3>
-    <p>Postanite jedina <strong>preporučena firma</strong> za hitne bravarske intervencije u Beogradu i primajte sve direktne upite pre konkurencije.</p>
-    <a href="tel:+381631050515" class="contact-btn">
-      <i class="fa-solid fa-phone"></i> Pozovite za detalje promocije
-    </a>
+    
+    
+    <div class="premium-content">
+      <div class="premium-logo-wrap">
+        <img src="https://bravar.info/wp-content/uploads/2022/09/bravar-logo-fin2.png" alt="Lock Doctor – Bravar Beograd logo" width="140" height="auto" loading="lazy">
+      </div>
+      
+      <div class="premium-info">
+        <h3>Lock Doctor – Bravar Beograd</h3>
+        <div class="tagline">Dežurni bravar 00–24h • Hitne intervencije</div>
+        
+        <p>
+          Nenad Stanković se dokazao kao pouzdan bravar za hitne intervencije u Beogradu. Otvaranje vrata, zamena i prepakivanje cilindara, 
+          servis sigurnosnih brava i vrata – profesionalno, diskretno i u najkraćem roku. 
+          
+        </p>
+        
+        <div class="premium-stats">
+          <div class="premium-stat">
+            <span class="number">25+</span>
+            <span class="label">godina iskustva</span>
+          </div>
+          <div class="premium-stat">
+            <span class="number">5000+</span>
+            <span class="label">popravljenih brava</span>
+          </div>
+          <div class="premium-stat">
+            <span class="number">30 min</span>
+            <span class="label">dolazak na teren</span>
+          </div>
+        </div>
+        
+        <div class="premium-contacts">
+          <a href="tel:+38162700316" class="btn-call">
+            <i class="fa-solid fa-phone"></i> +381 62 700 316
+          </a>
+          
+        </div>
+        
+        <div class="premium-address">
+          <i class="fa-solid fa-location-dot"></i>
+          Topličin venac 19a, Beograd
+        </div>
+      </div>
+    </div>
   </div>
-<div id="lista-firmi"></div>
+
+  
+  
   <!-- FREE KARTICE -->
   <div class="business-grid">
 
