@@ -231,21 +231,12 @@ sections:
   - Sadržaj koji gradi poverenje pre nego što klijent uopšte pozove
   - Dugotrajni resurs umesto jednokratne kampanje
   - Poziciju eksperta, a ne samo još jednog ponuđača
-- type: contact_form
-  title: Imate možda dodatnih pitanja? Popunite formu ispod i javiću vam se na mejl
-    odgovorom čim stignem!
-  success_message: "✅ Primljeno! Petar će vam se javiti ubrzo!"
-  error_message: "❌ Došlo je do greške. Molimo pokušajte ponovo."
-  action: https://submit-form.com/NL4FHgWfW
-  email_subject: Pojačano veb prisustvo za zanatske i građevinske firme
-  redirect_success: https://ejmajstore.rs/blog/pojacano-veb-prisustvo-za-zanatske-i-gradjevinske-firme/?success=true
-  redirect_error: https://ejmajstore.rs/blog/pojacano-veb-prisustvo-za-zanatske-i-gradjevinske-firme/?error=true
-  business: Pojačano veb prisustvo za zanatske i građevinske firme
-  label_name: Ime i prezime ili naziv firme *
-  label_phone: Vaš email (za kontakt) *
-  label_message: Šta vas zanima?
-  label_consent: Ejmajstore.rs
-  button_text: Javite mi se Petre
+- type: h2
+  content: Imate dodatna pitanja?
+- type: paragraph
+  content: <strong>Ako biste želeli da me pitate vezano za ovu temu, možete me kontaktirati
+    putem mejla <a href="mailto:notoolsnocraft@gmail.com">notoolsnocraft@gmail.com</a></strong>.
+    Odgovoriću vam u minimalnom roku čim stignem.
 - type: h2
   content: 'Šta smo naučili: tri komponente, ne dve'
 - type: paragraph
